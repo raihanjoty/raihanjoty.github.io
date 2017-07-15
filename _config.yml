@@ -12,7 +12,7 @@ collections:
 #  cv:
 #    output: false
 
-deploy: "https://guzmanhe.github.io"
+deploy: "https://raihanjoty.github.io"
 
 env: github
 pandoc:
