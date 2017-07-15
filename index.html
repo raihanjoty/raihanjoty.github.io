@@ -18,6 +18,7 @@ github:
 work:
   title: Assistant Professor
   email: sjoty_at_ntu_dot_edu_dot_sg 
+  phone: +974 77390371 
 
   group:
     url: https://tasnim007.github.io/demo-site/
@@ -41,7 +42,7 @@ work:
   <div class="row">
     <div class="col-sm-6">
       <address>
-        {{ page.work.title }}
+        {{ page.work.title }}<br/>
         <a href="{{ page.work.group.url }}">{{ page.work.group.name }}</a><br/>
         <a href="{{ page.work.department.url }}">{{ page.work.department.name }}</a><br/> 
         <a href="{{ page.work.university.url }}">{{ page.work.university.name }}</a><br/>
@@ -49,6 +50,7 @@ work:
     </div>
     <div class="col-sm-4">
       <a href="mailto:{{ page.work.email }}"><span class="glyphicon glyphicon-envelope"></span></a> Email<br/>
+      <a href="tel:{{ page.work.phone }}"><span class="glyphicon glyphicon-phone"></span>Phone</a><br/>
       {% if page.scholar.id %}<a href="http://scholar.google.com/citations?user={{ page.scholar.id }}">
         <img src="img/ico/gs.png" alt=""/>
       </a> Google Scholar<br/>{% endif %}
@@ -58,7 +60,6 @@ work:
     </div>
   </div>
 </div>
-<hr>
 
 <!--
 <blockquote>
@@ -94,6 +95,8 @@ work:
     </ml>
   </div>
 </div>
+
+<hr>
 
 
 
