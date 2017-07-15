@@ -41,8 +41,7 @@ work:
   <div class="row">
     <div class="col-sm-6">
       <address>
-        <h4>{{ page.work.title }}</h4>
-        <!-- <a href="{{ page.work.group.url }}">{{ page.work.group.name }}</a><br/> -->
+        {{ page.work.title }}
         <a href="{{ page.work.group.url }}">{{ page.work.group.name }}</a><br/>
         <a href="{{ page.work.department.url }}">{{ page.work.department.name }}</a><br/> 
         <a href="{{ page.work.university.url }}">{{ page.work.university.name }}</a><br/>
@@ -50,7 +49,6 @@ work:
     </div>
     <div class="col-sm-4">
       <a href="mailto:{{ page.work.email }}"><span class="glyphicon glyphicon-envelope"></span></a> Email<br/>
-      <!--<a href="tel:+44-1316504430"><span class="glyphicon glyphicon-phone"></span>+44 131 650 4430</a><br/>-->
       {% if page.scholar.id %}<a href="http://scholar.google.com/citations?user={{ page.scholar.id }}">
         <img src="img/ico/gs.png" alt=""/>
       </a> Google Scholar<br/>{% endif %}
@@ -60,6 +58,7 @@ work:
     </div>
   </div>
 </div>
+<hr>
 
 <!--
 <blockquote>
