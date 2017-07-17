@@ -1,0 +1,244 @@
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2017
+    selected: no #yes/no
+    title: >
+      A Neural Local Coherence Model
+    authors: Dat Nguyen, and Shafiq Joty
+    id: PAMACL2017_Nguyen
+    img: #image_id to be found in img/paper/ID.jpg
+    slides: # e.g. media/$ID.pptx 
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: (to appear)
+    booktitle: >
+      Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics
+    doc-url: http://www.aclweb.org/anthology/P16-1165
+    abstract: >
+      We propose a local coherence model based on a convolutional neural network that operates over the entity grid representation of a text. The model captures long range entity transitions along with entity-specific features without loosing generalization, thanks to the power of distributed representation. We present a pairwise ranking method to train the model in an end-to-end fashion on a task and learn task-specific high level features. Our evaluation on three different coherence assessment tasks demonstrates that our model achieves state of the art results outperforming existing models by a good margin.
+    bibtex: >
+      @inproceedings{dat-joty:2017,
+       abstract = {We propose a local coherence model based on a convolutional neural network that operates over the entity grid representation of a text. The model captures long range entity transitions along with entity-specific features without loosing generalization, thanks to the power of distributed representation. We present a pairwise ranking method to train the model in an end-to-end fashion on a task and learn task-specific high level features. Our evaluation on three different coherence assessment tasks demonstrates that our model achieves state of the art results outperforming existing models by a good margin.},
+       address = {Vancouver, Canada},
+       author = {Nguyen, Dat and Joty, Shafiq},
+       booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics},
+       link = {http://www.aclweb.org/anthology/P16-1165},
+       month = {August},
+       pages = {(to appear)},
+       publisher = {Association for Computational Linguistics},
+       series = {ACL '17},
+       title = {A Neural Local Coherence Model},
+       year = {2017}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2014
+    selected: no #yes/no
+    title: >
+      Using Discourse Structure Improves Machine Translation Evaluation
+    authors: Francisco Guzmán, Shafiq Joty, Lluís Màrquez, and Preslav Nakov
+    id: PAMACLACL2014_Guzman
+    img: #image_id to be found in img/paper/ID.jpg
+    slides: # e.g. media/$ID.pptx 
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: 687-698
+    booktitle: >
+      Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (ACL'14)
+    doc-url: http://www.aclweb.org/anthology/P/P14/P14-1065
+    abstract: >
+      We present experiments in using discourse structure for improving machine translation evaluation. We first design two discourse-aware similarity measures, which use all-subtree kernels to compare discourse parse trees in accordance with the Rhetorical Structure Theory. Then, we show that these measures can help improve a number of existing machine translation evaluation metrics both at the segmentand at the system-level. Rather than proposing a single new metric, we show that discourse information is complementary to the state-of-the-art evaluation metrics, and thus should be taken into account in the development of future richer evaluation metrics.
+    bibtex: >
+      @inproceedings{guzman-EtAl:2014:P14-1,
+       abstract = {We present experiments in using discourse structure for improving machine translation evaluation. We first design two discourse-aware similarity measures, which use all-subtree kernels to compare discourse parse trees in accordance with the Rhetorical Structure Theory. Then, we show that these measures can help improve a number of existing machine translation evaluation metrics both at the segmentand at the system-level. Rather than proposing a single new metric, we show that discourse information is complementary to the state-of-the-art evaluation metrics, and thus should be taken into account in the development of future richer evaluation metrics.},
+       address = {Baltimore, Maryland, USA},
+       author = {Guzm\'{a}n, Francisco  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav},
+       booktitle = {Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics ({ACL}'14)},
+       link = {http://www.aclweb.org/anthology/P/P14/P14-1065},
+       month = {June},
+       pages = {687--698},
+       publisher = {Association for Computational Linguistics},
+       title = {Using Discourse Structure Improves Machine Translation Evaluation},
+       year = {2014}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2014
+    selected: no #yes/no
+    title: >
+      DiscoTK: Using Discourse Structure for Machine Translation Evaluation
+    authors: Shafiq Joty, Francisco Guzmán, Lluís Màrquez, and Preslav Nakov
+    id: PNWSMTWMT2014_Joty
+    img: #image_id to be found in img/paper/ID.jpg
+    slides: # e.g. media/$ID.pptx 
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: 402-408
+    booktitle: >
+      Proceedings of the Ninth Workshop on Statistical Machine Translation (WMT'14)
+    doc-url: http://www.aclweb.org/anthology/W/W14/W14-3352
+    abstract: >
+      We present novel automatic metrics for machine translation evaluation that use discourse structure and convolution kernels to compare the discourse tree of an automatic translation with that of the human reference. We experiment with five transformations and augmentations of a base discourse tree representation based on the rhetorical structure theory, and we combine the kernel scores for each of them into a single score. Finally, we add other metrics from the ASIYA MT evaluation toolkit, and we tune the weights of the combination on actual human judgments. Experiments on the WMT12 and WMT13 metrics shared task datasets show correlation with human judgments that outperforms what the best systems that participated in these years achieved, both at the segment and at the system level.
+    bibtex: >
+      @inproceedings{joty-EtAl:2014:W14-33,
+       abstract = {We present novel automatic metrics for machine translation evaluation that use discourse structure and convolution kernels to compare the discourse tree of an automatic translation with that of the human reference. We experiment with five transformations and augmentations of a base discourse tree representation based on the rhetorical structure theory, and we combine the kernel scores for each of them into a single score. Finally, we add other metrics from the ASIYA MT evaluation toolkit, and we tune the weights of the combination on actual human judgments. Experiments on the WMT12 and WMT13 metrics shared task datasets show correlation with human judgments that outperforms what the best systems that participated in these years achieved, both at the segment and at the system level.},
+       address = {Baltimore, Maryland, USA},
+       author = {Joty, Shafiq  and  Guzm\'{a}n, Francisco  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav},
+       booktitle = {Proceedings of the Ninth Workshop on Statistical Machine Translation ({WMT}'14)},
+       link = {http://www.aclweb.org/anthology/W/W14/W14-3352},
+       month = {June},
+       pages = {402--408},
+       publisher = {Association for Computational Linguistics},
+       title = {DiscoTK: Using Discourse Structure for Machine Translation Evaluation},
+       year = {2014}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2014
+    selected: no #yes/no
+    title: >
+      Learning to Differentiate Better from Worse Translations
+    authors: Francisco Guzmán, Shafiq Joty, Lluís Màrquez, Alessandro Moschitti, Preslav Nakov, and Massimo Nicosia
+    id: PCEMNLPEMNLP2014_Guzman
+    img: #image_id to be found in img/paper/ID.jpg
+    slides: # e.g. media/$ID.pptx 
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: 214-220
+    booktitle: >
+      Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP'14)
+    doc-url: http://www.aclweb.org/anthology/D14-1027
+    abstract: >
+      We present a pairwise learning-to-rank approach to machine translation evaluation that learns to differentiate better from worse translations in the context of a given reference. We integrate several layers of linguistic information encapsulated in tree-based structures, making use of both the reference and the system output simultaneously, thus bringing our ranking closer to how humans evaluate translations. Most importantly, instead of deciding upfront which types of features are important, we use the learning framework of preference re-ranking kernels to learn the features automatically. The evaluation results show that learning in the proposed framework yields better correlation with humans than computing the direct similarity over the same type of structures. Also, we show our structural kernel learning (SKL) can be a general framework for MT evaluation, in which syntactic and semantic information can be naturally incorporated.
+    bibtex: >
+      @inproceedings{guzman-EtAl:2014:EMNLP2014,
+       abstract = {We present a pairwise learning-to-rank approach to machine translation evaluation that learns to differentiate better from worse translations in the context of a given reference. We integrate several layers of linguistic information encapsulated in tree-based structures, making use of both the reference and the system output simultaneously, thus bringing our ranking closer to how humans evaluate translations. Most importantly, instead of deciding upfront which types of features are important, we use the learning framework of preference re-ranking kernels to learn the features automatically. The evaluation results show that learning in the proposed framework yields better correlation with humans than computing the direct similarity over the same type of structures. Also, we show our structural kernel learning (SKL) can be a general framework for MT evaluation, in which syntactic and semantic information can be naturally incorporated.},
+       address = {Doha, Qatar},
+       author = {Guzm\'{a}n, Francisco  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Moschitti, Alessandro  and  Nakov, Preslav  and  Nicosia, Massimo},
+       booktitle = {Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing ({EMNLP}'14)},
+       link = {http://www.aclweb.org/anthology/D14-1027},
+       month = {October},
+       pages = {214--220},
+       publisher = {Association for Computational Linguistics},
+       title = {Learning to Differentiate Better from Worse Translations},
+       year = {2014}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2015
+    selected: no #yes/no
+    title: >
+      Pairwise Neural Machine Translation Evaluation
+    authors: Francisco Guzmán, Shafiq Joty, Lluís Màrquez, and Preslav Nakov
+    id: PAMACLTIJCAFNLPACL2015_Guzman
+    img: #image_id to be found in img/paper/ID.jpg
+    slides: # e.g. media/$ID.pptx 
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: 805-814
+    booktitle: >
+      Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and The 7th International Joint Conference of the Asian Federation of Natural Language Processing (ACL'15)
+    doc-url: http://www.aclweb.org/anthology/P15-1078
+    abstract: >
+      We present a novel framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation. In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses is compacted into relatively small distributed vector representations, and fed into a multi-layer neural network that models the interaction between each of the hypotheses and the reference, as well as between the two hypotheses. These compact representations are in turn based on word and sentence embeddings, which are learned using neural networks. The framework is flexible, allows for efficient learning and classification, and yields correlation with humans that rivals the state of the art.
+    bibtex: >
+      @inproceedings{guzman2015-ACL,
+       abstract = {We present a novel framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation. In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses is compacted into relatively small distributed vector representations, and fed into a multi-layer neural network that models the interaction between each of the hypotheses and the reference, as well as between the two hypotheses. These compact representations are in turn based on word and sentence embeddings, which are learned using neural networks. The framework is flexible, allows for efficient learning and classification, and yields correlation with humans that rivals the state of the art.},
+       address = {Beijing, China},
+       author = {Guzm\'{a}n, Francisco  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav},
+       booktitle = {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and The 7th International Joint Conference of the Asian
+      Federation of Natural Language Processing ({ACL}'15)},
+       link = {http://www.aclweb.org/anthology/P15-1078},
+       month = {July},
+       pages = {805--814},
+       publisher = {Association for Computational Linguistics},
+       title = {Pairwise Neural Machine Translation Evaluation},
+       year = {2015}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2016
+    selected: no #yes/no
+    title: >
+      Machine translation evaluation with neural networks
+    authors: Francisco Guzmán, Shafiq Joty, Lluís Màrquez, and Preslav Nakov
+    id: 2016_Guzman
+    img: #image_id to be found in img/paper/ID.jpg
+    slides: # e.g. media/$ID.pptx 
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    journal: Computer Speech & Language
+    doc-url: http://www.sciencedirect.com/science/article/pii/S0885230816301693
+    abstract: >
+      Abstract We present a framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation. In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses is embedded into compact distributed vector representations, and fed into a multi-layer neural network that models nonlinear interactions between each of the hypotheses and the reference, as well as between the two hypotheses. We experiment with the benchmark datasets from the \WMT\ Metrics shared task, on which we obtain the best results published so far, with the basic network configuration. We also perform a series of experiments to analyze and understand the contribution of the different components of the network. We evaluate variants and extensions, including fine-tuning of the semantic embeddings, and sentence-based representations modeled with convolutional and recurrent neural networks. In summary, the proposed framework is flexible and generalizable, allows for efficient learning and scoring, and provides an \MT\ evaluation metric that correlates with human judgments, and is on par with the state of the art.
+    bibtex: >
+      @article{GuzmanCSL2016,
+       abstract = {Abstract We present a framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation.
+      In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses
+      is embedded into compact distributed vector representations, and fed into a multi-layer neural network that
+      models nonlinear interactions between each of the hypotheses and the reference, as well as between the two hypotheses.
+      We experiment with the benchmark datasets from the \{WMT\} Metrics shared task, on which we obtain the best results published so far, with the basic network configuration.
+      We also perform a series of experiments to analyze and understand the contribution of the different components of the network.
+      We evaluate variants and extensions, including fine-tuning of the semantic embeddings, and sentence-based representations modeled with
+      convolutional and recurrent neural networks. In summary, the proposed framework is flexible and generalizable, allows for efficient learning and scoring, and provides an \{MT\} evaluation metric that correlates with human judgments, and is on par with the state of the art.},
+       author = {Guzm\'{a}n,Francisco  and Joty, Shafiq  and Màrquez, Lluís  and Nakov, Preslav},
+       doi = {http://dx.doi.org/10.1016/j.csl.2016.12.005},
+       issn = {0885-2308},
+       journal = {Computer Speech & Language},
+       link = {http://www.sciencedirect.com/science/article/pii/S0885230816301693},
+       title = {Machine translation evaluation with neural networks},
+       year = {2016}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2017
+    selected: no #yes/no
+    title: >
+      Discourse Structure in Machine Translation Evaluation
+    authors: Shafiq Joty, Francisco Guzman, Lluis Marquez, and Preslav Nakov
+    id: 2017_Joty
+    img: #image_id to be found in img/paper/ID.jpg
+    slides: # e.g. media/$ID.pptx 
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: 
+    journal: Computational Linguistics
+    doc-url:  # e.g. papers/$ID.pdf
+    bibtex: >
+      @article{Shafiq_discoMT16,
+       author = {Shafiq Joty and Francisco Guzman and Lluis Marquez and Preslav Nakov},
+       journal = {Computational Linguistics},
+       pages = {},
+       publisher = {MIT Press},
+       title = {Discourse Structure in Machine Translation Evaluation},
+       volume = {xx:x},
+       year = {2017}
+      }
+      
+      

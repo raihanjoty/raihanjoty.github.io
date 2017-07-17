@@ -47,7 +47,10 @@ def parseauthors(text):
 
 	for author in authors:
 		try:
-			(last,first)= author.split(',')
+			if re.search(",", author):
+				(last,first)= author.split(',')
+			elif re.search("\s+", author):
+				(first,last)= re.split("\s+", author)
 		except:
 			print (author+ "------------------")
 

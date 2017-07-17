@@ -207,4 +207,30 @@
          year = {2017}
         }
         
-
+    -
+        layout: paper
+        paper-type: article #changes display of reference in paper list
+        year: 2017
+        selected: yes #yes/no
+        title: >
+          Discourse Structure in Machine Translation Evaluation
+        authors: Shafiq Joty, Francisco Guzman, Lluis Marquez, and Preslav Nakov
+        id: 2017_Joty
+        img: #image_id to be found in img/paper/ID.jpg
+        slides: # e.g. media/$ID.pptx 
+        code: #e.g. github.com/project
+        errata: #if you have errata, insert here
+        venue: journal #book[chapters], conference[journal],  workshop[demo], techreport
+        pages: 10-40 
+        journal: Computational Linguistics
+        doc-url:  # e.g. papers/$ID.pdf
+        bibtex: >
+          @article{Shafiq_discoMT16,
+           author = {Shafiq Joty and Francisco Guzman and Lluis Marquez and Preslav Nakov},
+           journal = {Computational Linguistics},
+           pages = {10-40},
+           publisher = {MIT Press},
+           title = {Discourse Structure in Machine Translation Evaluation},
+           volume = {1:3},
+           year = {2017}
+          }
