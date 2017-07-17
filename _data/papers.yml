@@ -184,7 +184,7 @@
       id: PAMACL2017_Nguyen
       img: #image_id to be found in img/paper/ID.jpg
       slides: # e.g. media/$ID.pptx 
-      code: #e.g. github.com/project
+      code: https://github.com/datienguyen/cnn_coherence
       errata: #if you have errata, insert here
       venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
       pages: 805-814
