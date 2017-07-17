@@ -85,7 +85,7 @@ year = {2016},
 issn = {0885-2308},
 doi = {http://dx.doi.org/10.1016/j.csl.2016.12.005},
 url = {http://www.sciencedirect.com/science/article/pii/S0885230816301693},
-author = {Guzm\'{a}n,Francisco  and Joty, Shafiq  and Màrquez, Lluís  and Nakov, Preslav },
+author = {Guzm\'{a}n, Francisco  and Joty, Shafiq  and Màrquez, Lluís  and Nakov, Preslav },
 abstract = {Abstract We present a framework for machine translation evaluation using neural networks in a pairwise setting,
 where the goal is to select the better translation from a pair of hypotheses, given the reference translation.
 In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses
@@ -100,9 +100,26 @@ allows for efficient learning and scoring, and provides an \{MT\} evaluation met
 and is on par with the state of the art. }
 }
 
-@article{Shafiq_discoMT16,
+@article{Shafiq_da_CL16,
+  title="{Domain Adaptation Using Neural Network Joint Model}",
+  author={Shafiq Joty and Nadir Durrani and Hassan Sajjad and Ahmed Abdelali},
+  journal = {Computer Speech & Language},
+  volume={45},
+  publisher={Elsevier},
+  pages={161-179},
+  year={2017},
+  issn = {0885-2308},
+  doi = {https://doi.org/10.1016/j.csl.2016.12.006},
+  url = {http://www.sciencedirect.com/science/article/pii/S0885230816301474},
+  abstract={We explore neural joint models for the task of domain adaptation in machine translation in two ways: (i) we apply state-of-the-art domain adaptation techniques, such as mixture modelling and data selection using the recently proposed Neural Network Joint Model (NNJM) (Devlin et al., 2014); (ii) we propose two novel approaches to perform adaptation through instance weighting and weight readjustment in the NNJM framework. In our first approach, we propose a pair of models called Neural Domain Adaptation Models (NDAM) that minimizes the cross entropy by regularizing the loss function with respect to in-domain (and optionally to out-domain) model. In the second approach, we present a set of Neural Fusion Models (NFM) that combines the in- and the out-domain models by readjusting their parameters based on the in-domain data.
+We evaluated our models on the standard task of translating English-to-German and Arabic-to-English TED talks. The NDAM models achieved better perplexities and modest BLEU improvements compared to the baseline NNJM, trained either on in-domain or on a concatenation of in- and out-domain data. On the other hand, the NFM models obtained significant improvements of up to +0.9 and +0.7 BLEU points, respectively. We also demonstrate improvements over existing adaptation methods such as instance weighting, phrasetable fill-up, linear and log-linear interpolations.}
+}
+
+
+
+@article{Shafiq_discoMT17,
   title="{Discourse Structure in Machine Translation Evaluation}",
-  author={Shafiq Joty and Francisco Guzman and Lluis Marquez and Preslav Nakov},
+  author={Shafiq Joty and Guzm\'{a}n, Francisco and Màrquez, Lluís and Preslav Nakov},
   journal = {Computational Linguistics},
   volume={xx:x},
   publisher={MIT Press},

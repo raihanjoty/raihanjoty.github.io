@@ -203,7 +203,7 @@
       We also perform a series of experiments to analyze and understand the contribution of the different components of the network.
       We evaluate variants and extensions, including fine-tuning of the semantic embeddings, and sentence-based representations modeled with
       convolutional and recurrent neural networks. In summary, the proposed framework is flexible and generalizable, allows for efficient learning and scoring, and provides an \{MT\} evaluation metric that correlates with human judgments, and is on par with the state of the art.},
-       author = {Guzm\'{a}n,Francisco  and Joty, Shafiq  and Màrquez, Lluís  and Nakov, Preslav},
+       author = {Guzm\'{a}n, Francisco  and Joty, Shafiq  and Màrquez, Lluís  and Nakov, Preslav},
        doi = {http://dx.doi.org/10.1016/j.csl.2016.12.005},
        issn = {0885-2308},
        journal = {Computer Speech & Language},
@@ -219,8 +219,44 @@
     year: 2017
     selected: no #yes/no
     title: >
+      Domain Adaptation Using Neural Network Joint Model
+    authors: Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali
+    id: 2017_Joty
+    img: #image_id to be found in img/paper/ID.jpg
+    slides: # e.g. media/$ID.pptx 
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: 161-179
+    journal: Computer Speech & Language
+    doc-url: http://www.sciencedirect.com/science/article/pii/S0885230816301474
+    abstract: >
+      We explore neural joint models for the task of domain adaptation in machine translation in two ways: (i) we apply state-of-the-art domain adaptation techniques, such as mixture modelling and data selection using the recently proposed Neural Network Joint Model (NNJM) (Devlin et al., 2014); (ii) we propose two novel approaches to perform adaptation through instance weighting and weight readjustment in the NNJM framework. In our first approach, we propose a pair of models called Neural Domain Adaptation Models (NDAM) that minimizes the cross entropy by regularizing the loss function with respect to in-domain (and optionally to out-domain) model. In the second approach, we present a set of Neural Fusion Models (NFM) that combines the in- and the out-domain models by readjusting their parameters based on the in-domain data. We evaluated our models on the standard task of translating English-to-German and Arabic-to-English TED talks. The NDAM models achieved better perplexities and modest BLEU improvements compared to the baseline NNJM, trained either on in-domain or on a concatenation of in- and out-domain data. On the other hand, the NFM models obtained significant improvements of up to +0.9 and +0.7 BLEU points, respectively. We also demonstrate improvements over existing adaptation methods such as instance weighting, phrasetable fill-up, linear and log-linear interpolations.
+    bibtex: >
+      @article{Shafiq_da_CL16,
+       abstract = {We explore neural joint models for the task of domain adaptation in machine translation in two ways: (i) we apply state-of-the-art domain adaptation techniques, such as mixture modelling and data selection using the recently proposed Neural Network Joint Model (NNJM) (Devlin et al., 2014); (ii) we propose two novel approaches to perform adaptation through instance weighting and weight readjustment in the NNJM framework. In our first approach, we propose a pair of models called Neural Domain Adaptation Models (NDAM) that minimizes the cross entropy by regularizing the loss function with respect to in-domain (and optionally to out-domain) model. In the second approach, we present a set of Neural Fusion Models (NFM) that combines the in- and the out-domain models by readjusting their parameters based on the in-domain data.
+      We evaluated our models on the standard task of translating English-to-German and Arabic-to-English TED talks. The NDAM models achieved better perplexities and modest BLEU improvements compared to the baseline NNJM, trained either on in-domain or on a concatenation of in- and out-domain data. On the other hand, the NFM models obtained significant improvements of up to +0.9 and +0.7 BLEU points, respectively. We also demonstrate improvements over existing adaptation methods such as instance weighting, phrasetable fill-up, linear and log-linear interpolations.},
+       author = {Shafiq Joty and Nadir Durrani and Hassan Sajjad and Ahmed Abdelali},
+       doi = {https://doi.org/10.1016/j.csl.2016.12.006},
+       issn = {0885-2308},
+       journal = {Computer Speech & Language},
+       link = {http://www.sciencedirect.com/science/article/pii/S0885230816301474},
+       pages = {161-179},
+       publisher = {MIT Press},
+       title = {Domain Adaptation Using Neural Network Joint Model},
+       volume = {45},
+       year = {2017}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2017
+    selected: no #yes/no
+    title: >
       Discourse Structure in Machine Translation Evaluation
-    authors: Shafiq Joty, Francisco Guzman, Lluis Marquez, and Preslav Nakov
+    authors: Shafiq Joty, Francisco Guzmán, Lluís Màrquez, and Preslav Nakov
     id: 2017_Joty
     img: #image_id to be found in img/paper/ID.jpg
     slides: # e.g. media/$ID.pptx 
@@ -233,9 +269,9 @@
     abstract: >
       In this article, we explore the potential of using sentence-level discourse structure for machine translation evaluation. We first design discourse-aware similarity measures, which use all- subtree kernels to compare discourse parse trees in accordance with the Rhetorical Structure Theory (RST). Then, we show that a simple linear combination with these measures can help improve various existing machine translation evaluation metrics regarding correlation with human judgments both at the segment- and at the system-level. This suggests that discourse information is complementary to the information used by many of the existing evaluation metrics, and thus it could be taken into account when developing richer evaluation metrics, such as the WMT-14 winning combined metric DISCOTKparty. We also provide a detailed analysis of the relevance of various discourse elements and relations from the RST parse trees for machine translation evaluation. In particular, we show that (i) all aspects of the RST tree are relevant, (ii) nuclearity is more useful than relation type, and (iii) the similarity of the translation RST tree to the reference RST tree is positively correlated with translation quality.
     bibtex: >
-      @article{Shafiq_discoMT16,
+      @article{Shafiq_discoMT17,
        abstract = {In this article, we explore the potential of using sentence-level discourse structure for machine translation evaluation. We first design discourse-aware similarity measures, which use all- subtree kernels to compare discourse parse trees in accordance with the Rhetorical Structure Theory (RST). Then, we show that a simple linear combination with these measures can help improve various existing machine translation evaluation metrics regarding correlation with human judgments both at the segment- and at the system-level. This suggests that discourse information is complementary to the information used by many of the existing evaluation metrics, and thus it could be taken into account when developing richer evaluation metrics, such as the WMT-14 winning combined metric DISCOTKparty. We also provide a detailed analysis of the relevance of various discourse elements and relations from the RST parse trees for machine translation evaluation. In particular, we show that (i) all aspects of the RST tree are relevant, (ii) nuclearity is more useful than relation type, and (iii) the similarity of the translation RST tree to the reference RST tree is positively correlated with translation quality.},
-       author = {Shafiq Joty and Francisco Guzman and Lluis Marquez and Preslav Nakov},
+       author = {Shafiq Joty and Guzm\'{a}n, Francisco and Màrquez, Lluís and Preslav Nakov},
        journal = {Computational Linguistics},
        link = {discomteval.pdf},
        pages = {},
