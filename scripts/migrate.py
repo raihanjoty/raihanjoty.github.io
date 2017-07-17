@@ -17,7 +17,7 @@ def main(file):
 		newfile=open(dirname+"/../_papers/"+id+".html","w")
 		#for item in doc.
 		doc['layout']='singlepaper'
-		doc['picture']='paco2'
+		doc['picture']='shafiq'
 
 		string=yaml.dump(doc,explicit_start=True, default_flow_style=False,allow_unicode=True)
 		newfile.write(string)
