@@ -84,7 +84,7 @@ def parse(bibfile):
 			print ("    slides: # e.g. media/$ID.pptx ")
 			print ("    code: #e.g. github.com/project")
 			print ("    errata: #if you have errata, insert here")
-			print ("    venue: #for CV e.g. book[chapters], conference[journal],  workshop[demo], techreport")
+			print ("    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport")
 			if("pages" in entry.keys()):
 				print ("    pages: "+preprocess(entry["pages"]))
 			if("booktitle" in entry.keys()):
