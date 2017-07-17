@@ -249,7 +249,7 @@
         selected: yes #yes/no
         title: >
           Discourse Structure in Machine Translation Evaluation
-        authors: Shafiq Joty, Francisco Guzman, Lluis Marquez, and Preslav Nakov
+        authors: Shafiq Joty, Francisco Guzmán, Lluís Màrquez, and Preslav Nakov
         id: 2017_Joty
         img: #image_id to be found in img/paper/ID.jpg
         slides: # e.g. media/$ID.pptx 
