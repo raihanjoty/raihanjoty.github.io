@@ -14,7 +14,8 @@
 
 import sys
 #print(sys.version)
-
+reload(sys)
+sys.setdefaultencoding('utf8')
 import bibtexparser
 from bibtexparser.bwriter import BibTexWriter
 
@@ -23,7 +24,7 @@ import re
 
 #this is to fix some accents, add more at leisure.
 def preprocess(text):
-	#text=text.encode("utf8")
+#	text=text.encode("utf8")
 	text=text.replace(u'\\\'{a}',u'á')
 	text=text.replace(u'{\\\'a}',u'á')
 	text=text.replace(u'\\\'{i}',u"í")
@@ -33,6 +34,7 @@ def preprocess(text):
 	text = re.sub(r'\{(.*?)\}', r'\g<1>', text)
 	text = re.sub(r'\n', ' ' ,text)
 	return text
+
 def processAuthor(text):
 	text=text.replace('á','a')
 	text=text.replace(',',"")
