@@ -173,7 +173,7 @@
             year = {2016}
             }
 
-  -
+    -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
@@ -187,6 +187,7 @@
     code: https://github.com/datienguyen/cnn_coherence
     errata: #if you have errata, insert here
     venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: 10-20
     booktitle: >
       Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics
     doc-url: http://www.aclweb.org/anthology/P16-1165
@@ -200,7 +201,7 @@
        booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics},
        link = {http://www.aclweb.org/anthology/P16-1165},
        month = {August},
-       pages = {(to appear)},
+       pages = {10-20},
        publisher = {Association for Computational Linguistics},
        series = {ACL '17},
        title = {A Neural Local Coherence Model},
