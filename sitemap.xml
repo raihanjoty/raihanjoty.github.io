@@ -11,7 +11,7 @@ layout: null
         <changefreq>weekly</changefreq>
     </url>{% endif %}
     {% endfor %}
-<!--
+
     {% for paper in site.papers  %}     
         <url>
         <loc>{% if site.env == 'alt' %}http://alt.qcri.org/~sjoty/{% else %}http://raihanjoty.github.io/{% endif%}{{ paper.url }}</loc>
@@ -35,7 +35,6 @@ layout: null
         </url>
         {% endif %}
     {% endfor %}
--->    
 </urlset>
 
 
