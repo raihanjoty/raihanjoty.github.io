@@ -103,8 +103,6 @@ work:
 
 
 
-<!--
-
 <h4>News</h4>
 <div class= "row">
 <div class="col-sm-12">
@@ -114,14 +112,19 @@ work:
    <li class="list-group-item"><span class="badge" >{{item.date | date: "%-d %b %y"}}</span><span>{{ item.text }}</span></li>
 {% endfor %}
 </ul>
+
+<!--
 </div>
 {% if page.twitter.id %}<div class="col-sm-4" style="outline: 1px solid #5E472D;">
   <a class="twitter-timeline" width="300" data-theme="light"
   data-link-color="#5E472D"
   height="500" href="https://twitter.com/{{ page.twitter.id }}" data-widget-id="{{ page.twitter.widget }}">Tweets by @{{ page.twitter.id }}</a>
 </div>{% endif %}
+-->
+
 </div>
 
+<!--
 <h4>Selected Papers</h4>
 
 {%assign papers= site.data.papers | sort: "year" | reverse  %}
