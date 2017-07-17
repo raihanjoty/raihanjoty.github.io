@@ -177,7 +177,7 @@
       layout: paper
       paper-type: inproceedings #changes display of reference in paper list
       year: 2017
-      selected: no #yes/no
+      selected: yes #yes/no
       title: >
         A Neural Local Coherence Model
       authors: Dat Nguyen, and Shafiq Joty
