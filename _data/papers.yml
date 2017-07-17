@@ -211,7 +211,7 @@
         layout: paper
         paper-type: article #changes display of reference in paper list
         year: 2017
-        selected: no #yes/no
+        selected: yes #yes/no
         title: >
           Domain Adaptation Using Neural Network Joint Model
         authors: Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali
