@@ -2,7 +2,7 @@
         layout: paper
         paper-type: inproceedings
         year: 2014
-        selected: yes
+        selected: no
         title: >
             Using Discourse Structure Improves Machine Translation Evaluation
         authors: Francisco Guzmán, Shafiq Joty, Lluís Màrquez, and Preslav Nakov
@@ -68,7 +68,7 @@
         layout: paper
         paper-type: inproceedings
         year: 2014
-        selected: yes
+        selected: no
         title: >
             Learning to Differentiate Better from Worse Translations
         authors: Francisco Guzmán, Shafiq Joty, Lluís Màrquez, Alessandro Moschitti, Preslav Nakov, and Massimo Nicosia
