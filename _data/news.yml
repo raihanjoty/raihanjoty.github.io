@@ -1,9 +1,9 @@
-  -
-    date: 24-Sept-2015
-    text: > 
-      Coming back from EMNLP in Lisbon. What an exciting conference! Our paper in WMT "How Do Humans Evaluate Translation" was well received. In the paper we analyze the performance of monolinguals vs. bilinguals MT evaluators using eye-tracking.
   - 
-    date: 20-Jul-2017
+    date: 18-Jul-2017
     text: >
-      I am starting as an Assistant Professor in the <a href=http://scse.ntu.edu.sg/Pages/Home.aspx>School of Computer Science and Engineering</a> at <a href="http://www.ntu.edu.sg"> NTU, Singapore </a>
+      I am starting as an Assistant Professor in the <a href=http://scse.ntu.edu.sg/Pages/Home.aspx>School of Computer Science and Engineering</a> at <a href="http://www.ntu.edu.sg"> NTU, Singapore </a> from August.
 
+  -
+    date: 1-Jul-2017
+    text: > 
+      Will present <a href=http://alt.qcri.org/~sjoty/paper/local_coh_acl17.pdf> neural local coherence model </a> at the ACL main conference, and <a href=https://arxiv.org/pdf/1706.06749.pdf> cross-language Learning with adversarial neural networks </a> at the CoNLL conference.  
