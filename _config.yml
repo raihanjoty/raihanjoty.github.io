@@ -24,3 +24,5 @@ pandoc:
     - css: ../css/cv.css
     - csl: _styles/acl.csl
     - bibliography: papers/bibtex.bib
+
+theme: jekyll-theme-hacker
