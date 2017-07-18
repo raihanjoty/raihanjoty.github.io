@@ -215,7 +215,7 @@
         title: >
           Domain Adaptation Using Neural Network Joint Model
         authors: Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali
-        id: 2017_Joty
+        id: 2017_Joty_DA
         img: #image_id to be found in img/paper/ID.jpg
         slides: # e.g. media/$ID.pptx 
         code: #e.g. github.com/project
