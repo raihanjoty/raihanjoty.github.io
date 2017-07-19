@@ -83,11 +83,12 @@ def parse(bibfile):
 			else:
 				venue=""
 
+			sel = "yes" if entry["ENTRYTYPE"] == "article" else "no"	
 			print( "  -")
 			print ("    layout: paper")
 			print ("    paper-type: "+ preprocess(entry["ENTRYTYPE"]) +" #changes display of reference in paper list")
 			print ("    year: " + preprocess(entry["year"]))
-			print ("    selected: no #yes/no")
+			print ("    selected: " + sel) #yes/no"
 			print ("    title: >\n      " + preprocess(entry["title"]))
 			print ("    authors: "+ authors)
 			print ("    id: "  + entry["ID"])

@@ -2,7 +2,7 @@
     layout: paper
     paper-type: article #changes display of reference in paper list
     year: 2017
-    selected: yes #yes/no
+    selected: yes
     title: >
       Discourse Structure in Machine Translation Evaluation
     authors: Shafiq Joty, Francisco Guzmán, Lluís Màrquez, and Preslav Nakov
@@ -35,7 +35,7 @@
     layout: paper
     paper-type: article #changes display of reference in paper list
     year: 2017
-    selected: yes #yes/no
+    selected: yes
     title: >
       Domain Adaptation Using Neural Network Joint Model
     authors: Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali
@@ -67,7 +67,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: yes #yes/no
+    selected: no
     title: >
       A Neural Local Coherence Model
     authors: Dat Nguyen, and Shafiq Joty
@@ -103,7 +103,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: yes #yes/no
+    selected: no
     title: >
       Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering
     authors: Shafiq Joty, Preslav Nakov, Lluís Màrquez, and Israa Jaradat
@@ -139,7 +139,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: yes #yes/no
+    selected: no
     title: >
       CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec
     authors: Tanay Kumar, Shafiq Joty, and Mohammad Al
@@ -151,7 +151,7 @@
     venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
     pages: xx-xx
     booktitle: >
-      Proceedings of THE EUROPEAN CONFERENCE ON MACHINE LEARNING & PRINCIPLES AND PRACTICE OF KNOWLEDGE DISCOVERY IN DATABASES (ECML-PKDD'17)
+      Proceedings of The European Conference on Machine Learning & Principles and Practice of knowledge discovery in databases (ECML-PKDD'17)
     doc-url: papers/saha-joty-hasan-ecml-17.pdf
     abstract: >
       We present a novel approach to learn distributed representation of sentences from unlabeled data by modeling both content and context of a sentence. The content model learns sentence representation by predicting its words. On the other hand, the context model comprises a neighbor prediction component and a regularizer to model distributional and proximity hypotheses, respectively. We propose an online algorithm to train the model components jointly. We evaluate the models in a setup, where contextual information is available. The experimental results on tasks involving classification, clustering, and ranking of sentences show that our model outperforms the best existing models by a wide margin across multiple datasets.
@@ -160,8 +160,8 @@
        abstract = {We present a novel approach to learn distributed representation of sentences from unlabeled data by modeling both content and context of a sentence. The content model learns sentence representation by predicting its words. On the other hand, the context model comprises a neighbor prediction component and a regularizer to model distributional and proximity hypotheses, respectively. We propose an online algorithm to train the model components jointly. We evaluate the models in a setup, where contextual information is available. The experimental results on tasks involving classification, clustering, and ranking of sentences show that our model outperforms the best existing models by a wide margin across multiple datasets.},
        address = {Macedonia, Skopje},
        author = {Tanay Kumar Saha and Shafiq Joty and Mohammad Al Hasan},
-       booktitle = {Proceedings of THE EUROPEAN CONFERENCE ON MACHINE LEARNING &
-      PRINCIPLES AND PRACTICE OF KNOWLEDGE DISCOVERY IN DATABASES},
+       booktitle = {Proceedings of The European Conference on Machine Learning &
+      Principles and Practice of knowledge discovery in databases},
        link = {papers/saha-joty-hasan-ecml-17.pdf},
        month = {September},
        pages = {xx--xx},
@@ -176,7 +176,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: no #yes/no
+    selected: no
     title: >
       Cross-Language Question Re-ranking
     authors: Giovanni Da, Salvatore Romeo, Alberto Barr\'on-Cede\~no, Llu\'is M\`arquez Shafiq Joty, Alessandro Moschitti, and Preslav Nakov
@@ -217,7 +217,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: no #yes/no
+    selected: no
     title: >
       Robust Classification of Crisis-Related Data on Social Networks Using Convolutional Neural Networks
     authors: Dat Nguyen, Kamela Ali, Shafiq Joty, Hassan Sajjad, Muhammad Imran, and Prasenjit Mitra
@@ -254,7 +254,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: no #yes/no
+    selected: no
     title: >
       CQAVis: Visual Text Analytics for Community Question Answering
     authors: Enamul Hoque, Shafiq Joty, Lluís Màrquez, and Giuseppe Carenini
