@@ -154,8 +154,105 @@
        booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
        numpages = {9},
        pages = {703–-713},
+       publisher = {{ACL}
+      abstract = {This paper addresses the problem of comment
+      classification in community Question Answering.
+      Following the state of the art, we approach
+      the task with a global inference process
+      to exploit the information of all comments
+      in the answer-thread in the form of a
+      fully connected graph. Our contribution comprises
+      two novel joint learning models that are
+      on-line and integrate inference within learning.
+      The first one jointly learns two node- and
+      edge-level MaxEnt classifiers with stochastic
+      gradient descent and integrates the inference
+      step with loopy belief propagation. The second
+      model is an instance of fully connected
+      pairwise CRFs (FCCRF). The FCCRF model
+      significantly outperforms all other approaches
+      and yields the best results on the task to date.
+      Crucial elements for its success are the global
+      normalization and an Ising-like edge potential.}},
        series = {NAACL'16},
        title = {Joint Learning with Global Inference for Comment Classification in Community Question Answering},
+       year = {2016}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2016
+    selected: no
+    title: >
+      A Deep Fusion Model for Domain Adaptation in Phrase-based MT
+    authors: Nadir Durrani, Hassan Sajjad, Shafiq Joty, and Ahmed Abdelali
+    id: durrani-sajjad-joty-abdelali-coling-16
+    img: durrani-sajjad-joty-abdelali-coling-16-fig
+    slides: media/durrani-sajjad-joty-abdelali-coling-16.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 3177-3187
+    booktitle: >
+      Proceedings of the 26th International Conference on Computational Linguistics, Proceedings of the Conference month     = December (COLING'16)
+    doc-url: http://aclweb.org/anthology/C/C16/C16-1299.pdf
+    abstract: >
+      We present a novel fusion model for domain adaptation in Statistical Machine Translation. Our model is based on the joint source-target neural network (Devlin et al., 2014), and is learned by fusing in- and out-domain models. The adaptation is performed by backpropagating errors from the output layer to the word embedding layer of each model, subsequently adjusting parameters of the composite model towards the in-domain data. On the standard tasks of translating English-to-German and Arabic-to-English TED talks, we observed average improvements of +0.9 and +0.7 BLEU points, respectively over a competition grade phrase-based system. We also demonstrate improvements over existing adaptation methods.
+    bibtex: >
+      @inproceedings{durrani-sajjad-joty-abdelali-coling-16,
+       abstract = {We present a novel fusion model for domain adaptation in Statistical Machine Translation. Our model is based on the joint source-target neural network (Devlin et al., 2014), and is learned
+      by fusing in- and out-domain models. The adaptation is performed by backpropagating errors
+      from the output layer to the word embedding layer of each model, subsequently adjusting parameters
+      of the composite model towards the in-domain data. On the standard tasks of translating
+      English-to-German and Arabic-to-English TED talks, we observed average improvements of
+      +0.9 and +0.7 BLEU points, respectively over a competition grade phrase-based system. We also
+      demonstrate improvements over existing adaptation methods.},
+       address = {Osaka, Japan},
+       author = {Nadir Durrani and
+      Hassan Sajjad and
+      Shafiq Joty and
+      Ahmed Abdelali},
+       booktitle = {{Proceedings of the 26th International Conference on Computational Linguistics, Proceedings of the Conference}
+      month     = {December}},
+       link = {http://aclweb.org/anthology/C/C16/C16-1299.pdf},
+       pages = {3177--3187},
+       series = {COLING'16},
+       title = {A Deep Fusion Model for Domain Adaptation in Phrase-based {MT}},
+       year = {2016}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2016
+    selected: no
+    title: >
+      An Interactive System for Exploring Community Question Answering Forums
+    authors: Enamul Hoque, Shafiq Joty, Lluís Màrquez, Alberto Barr\'on-Cede\~no, Giovanni Da San Martino, Alessandro Moschitti, Preslav Nakov, Salvatore Romeo, and Giuseppe Carenini
+    id: hoque-et-al-coling-16-demo
+    img: hoque-et-al-coling-16-demo-fig
+    slides: media/hoque-et-al-coling-16-demo.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 1-5
+    booktitle: >
+      Proceedings of the 26th International Conference on Computational Linguistics: System Demonstrations (COLING'16)
+    doc-url: http://aclweb.org/anthology/C16-2001
+    bibtex: >
+      @inproceedings{hoque-et-al-coling-16-demo,
+       address = {Osaka, Japan},
+       author = {Hoque, Enamul  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Barr\'{o}n-Cede\~{n}o, Alberto  and  Da San Martino, Giovanni  and  Moschitti, Alessandro  and  Nakov, Preslav  and  Romeo, Salvatore  and  Carenini, Giuseppe},
+       booktitle = {Proceedings of the 26th International Conference on Computational Linguistics: System Demonstrations},
+       link = {http://aclweb.org/anthology/C16-2001},
+       month = {December},
+       pages = {1--5},
+       publisher = {The COLING 2016 Organizing Committee},
+       series = {COLING'16},
+       title = {An Interactive System for Exploring Community Question Answering Forums},
        year = {2016}
       }
       
