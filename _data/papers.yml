@@ -273,9 +273,9 @@
     title: >
       ConvKN at SemEval-2016 Task 3: Answer and Question Selection for Question Answering on Arabic and English Fora
     authors: Alberto Barron-Cedeno, Giovanni Da San Martino, Shafiq Joty, Alessandro Moschitti, Fahad Al-Obaidli, Salvatore Romeo, Kateryna Tymoshenko, and Antonio Uva
-    id: barroncedeno-et-al-semeval-16
-    img: barroncedeno-et-al-semeval-16-fig
-    slides: media/barroncedeno-et-al-semeval-16.pdf
+    id: cedeno-et-al-semeval-16
+    img: cedeno-et-al-semeval-16-fig
+    slides: media/cedeno-et-al-semeval-16.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
