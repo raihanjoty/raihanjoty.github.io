@@ -1,5 +1,70 @@
   -
     layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2017
+    selected: no #yes/no
+    title: >
+      Discourse Structure in Machine Translation Evaluation
+    authors: Shafiq Joty, Francisco Guzmán, Lluís Màrquez, and Preslav Nakov
+    id: joty-guzman-marquez-nakov-cl-17
+    img: img/paper/joty-guzman-marquez-nakov-cl-17-fig.jpg
+    slides: media/joty-guzman-marquez-nakov-cl-17.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: xx-xx
+    journal: Computational Linguistics
+    doc-url: papers/joty-guzman-marquez-nakov-cl-17.pdf
+    abstract: >
+      In this article, we explore the potential of using sentence-level discourse structure for machine translation evaluation. We first design discourse-aware similarity measures, which use all- subtree kernels to compare discourse parse trees in accordance with the Rhetorical Structure Theory (RST). Then, we show that a simple linear combination with these measures can help improve various existing machine translation evaluation metrics regarding correlation with human judgments both at the segment- and at the system-level. This suggests that discourse information is complementary to the information used by many of the existing evaluation metrics, and thus it could be taken into account when developing richer evaluation metrics, such as the WMT-14 winning combined metric DISCOTKparty. We also provide a detailed analysis of the relevance of various discourse elements and relations from the RST parse trees for machine translation evaluation. In particular, we show that (i) all aspects of the RST tree are relevant, (ii) nuclearity is more useful than relation type, and (iii) the similarity of the translation RST tree to the reference RST tree is positively correlated with translation quality.
+    bibtex: >
+      @article{joty-guzman-marquez-nakov-cl-17,
+       abstract = {In this article, we explore the potential of using sentence-level discourse structure for machine translation evaluation. We first design discourse-aware similarity measures, which use all- subtree kernels to compare discourse parse trees in accordance with the Rhetorical Structure Theory (RST). Then, we show that a simple linear combination with these measures can help improve various existing machine translation evaluation metrics regarding correlation with human judgments both at the segment- and at the system-level. This suggests that discourse information is complementary to the information used by many of the existing evaluation metrics, and thus it could be taken into account when developing richer evaluation metrics, such as the WMT-14 winning combined metric DISCOTKparty. We also provide a detailed analysis of the relevance of various discourse elements and relations from the RST parse trees for machine translation evaluation. In particular, we show that (i) all aspects of the RST tree are relevant, (ii) nuclearity is more useful than relation type, and (iii) the similarity of the translation RST tree to the reference RST tree is positively correlated with translation quality.},
+       author = {Shafiq Joty and Guzm\'{a}n, Francisco and Màrquez, Lluís and Preslav Nakov},
+       journal = {Computational Linguistics},
+       link = {papers/joty-guzman-marquez-nakov-cl-17.pdf},
+       pages = {xx--xx},
+       publisher = {MIT Press},
+       title = {Discourse Structure in Machine Translation Evaluation},
+       volume = {xx:x},
+       year = {2017}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2017
+    selected: no #yes/no
+    title: >
+      Domain Adaptation Using Neural Network Joint Model
+    authors: Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali
+    id: joty-durrani-sajjad-abdelali-csl-17
+    img: img/paper/joty-durrani-sajjad-abdelali-csl-17-fig.jpg
+    slides: media/joty-durrani-sajjad-abdelali-csl-17.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: 161-179
+    journal: Computer Speech & Language
+    doc-url: http://www.sciencedirect.com/science/article/pii/S0885230816301474
+    bibtex: >
+      @article{joty-durrani-sajjad-abdelali-csl-17,
+       author = {Shafiq Joty and Nadir Durrani and Hassan Sajjad and Ahmed Abdelali},
+       doi = {https://doi.org/10.1016/j.csl.2016.12.006},
+       issn = {0885-2308},
+       journal = {Computer Speech & Language},
+       link = {http://www.sciencedirect.com/science/article/pii/S0885230816301474},
+       pages = {161-179},
+       publisher = {Elsevier},
+       title = {Domain Adaptation Using Neural Network Joint Model},
+       volume = {45},
+       year = {2017}
+      }
+      
+      
+  -
+    layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
     selected: no #yes/no
@@ -7,7 +72,7 @@
       A Neural Local Coherence Model
     authors: Dat Nguyen, and Shafiq Joty
     id: nguyen-joty-acl-17
-    img: nguyen-joty-acl-17-fig
+    img: img/paper/nguyen-joty-acl-17-fig.jpg
     slides: media/nguyen-joty-acl-17.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
@@ -30,6 +95,192 @@
        publisher = {Association for Computational Linguistics},
        series = {ACL'17},
        title = {A Neural Local Coherence Model},
+       year = {2017}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2017
+    selected: no #yes/no
+    title: >
+      Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering
+    authors: Shafiq Joty, Preslav Nakov, Lluís Màrquez, and Israa Jaradat
+    id: joty-nakov-marquez-jaradat-conll-17
+    img: img/paper/joty-nakov-marquez-jaradat-conll-17-fig.jpg
+    slides: media/joty-nakov-marquez-jaradat-conll-17.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: xx-xx
+    booktitle: >
+      Proceedings of The SIGNLL Conference on Computational Natural Language Learning (CoNLL'17)
+    doc-url: papers/joty-nakov-marquez-jaradat-conll-17.pdf
+    abstract: >
+      We propose a local coherence model based on a convolutional neural network that operates over the entity grid representation of a text. The model captures long range entity transitions along with entity-specific features without loosing generalization, thanks to the power of distributed representation. We present a pairwise ranking method to train the model in an end-to-end fashion on a task and learn task-specific high level features. Our evaluation on three different coherence assessment tasks demonstrates that our model achieves state of the art results outperforming existing models by a good margin.
+    bibtex: >
+      @inproceedings{joty-nakov-marquez-jaradat-conll-17,
+       abstract = {We propose a local coherence model based on a convolutional neural network that operates over the entity grid representation of a text. The model captures long range entity transitions along with entity-specific features without loosing generalization, thanks to the power of distributed representation. We present a pairwise ranking method to train the model in an end-to-end fashion on a task and learn task-specific high level features. Our evaluation on three different coherence assessment tasks demonstrates that our model achieves state of the art results outperforming existing models by a good margin.},
+       address = {Vancouver, Canada},
+       author = {Shafiq Joty and Preslav Nakov and Lluís Màrquez and Israa Jaradat},
+       booktitle = {Proceedings of The SIGNLL Conference on Computational Natural Language Learning},
+       link = {papers/joty-nakov-marquez-jaradat-conll-17.pdf},
+       month = {August},
+       pages = {xx--xx},
+       publisher = {Association for Computational Linguistics},
+       series = {CoNLL'17},
+       title = {Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering},
+       year = {2017}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2017
+    selected: no #yes/no
+    title: >
+      CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec
+    authors: Tanay Kumar, Shafiq Joty, and Mohammad Al
+    id: saha-joty-hasan-ecml-17
+    img: img/paper/saha-joty-hasan-ecml-17-fig.jpg
+    slides: media/saha-joty-hasan-ecml-17.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: xx-xx
+    booktitle: >
+      Proceedings of THE EUROPEAN CONFERENCE ON MACHINE LEARNING & PRINCIPLES AND PRACTICE OF KNOWLEDGE DISCOVERY IN DATABASES (ECML-PKDD'17)
+    doc-url: papers/saha-joty-hasan-ecml-17.pdf
+    abstract: >
+      We present a novel approach to learn distributed representation of sentences from unlabeled data by modeling both content and context of a sentence. The content model learns sentence representation by predicting its words. On the other hand, the context model comprises a neighbor prediction component and a regularizer to model distributional and proximity hypotheses, respectively. We propose an online algorithm to train the model components jointly. We evaluate the models in a setup, where contextual information is available. The experimental results on tasks involving classification, clustering, and ranking of sentences show that our model outperforms the best existing models by a wide margin across multiple datasets.
+    bibtex: >
+      @inproceedings{saha-joty-hasan-ecml-17,
+       abstract = {We present a novel approach to learn distributed representation of sentences from unlabeled data by modeling both content and context of a sentence. The content model learns sentence representation by predicting its words. On the other hand, the context model comprises a neighbor prediction component and a regularizer to model distributional and proximity hypotheses, respectively. We propose an online algorithm to train the model components jointly. We evaluate the models in a setup, where contextual information is available. The experimental results on tasks involving classification, clustering, and ranking of sentences show that our model outperforms the best existing models by a wide margin across multiple datasets.},
+       address = {Macedonia, Skopje},
+       author = {Tanay Kumar Saha and Shafiq Joty and Mohammad Al Hasan},
+       booktitle = {Proceedings of THE EUROPEAN CONFERENCE ON MACHINE LEARNING &
+      PRINCIPLES AND PRACTICE OF KNOWLEDGE DISCOVERY IN DATABASES},
+       link = {papers/saha-joty-hasan-ecml-17.pdf},
+       month = {September},
+       pages = {xx--xx},
+       publisher = {Springer},
+       series = {ECML-PKDD'17},
+       title = {CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec},
+       year = {2017}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2017
+    selected: no #yes/no
+    title: >
+      Cross-Language Question Re-ranking
+    authors: Giovanni Da, Salvatore Romeo, Alberto Barr\'on-Cede\~no, Llu\'is M\`arquez Shafiq Joty, Alessandro Moschitti, and Preslav Nakov
+    id: martino-et-al-sigir-17
+    img: img/paper/martino-et-al-sigir-17-fig.jpg
+    slides: media/martino-et-al-sigir-17.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: xx-xx
+    booktitle: >
+      In Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'17)
+    doc-url: papers/martino-et-al-sigir-17.pdf
+    abstract: >
+      We study how to find relevant questions in community forums when the language of the query questions is different from that of the existing questions in the forum. In particular, we explore the Arabic-English language pair. We compare a kernel-based system with a feed-forward neural network in a scenario where a large parallel corpus is available for training a machine translation system, bilingual dictionaries, and cross-language word embeddings. We observe that both approaches degrade the performance of the system when working on the translated text, especially the kernel-based system, which depends heavily on a syntactic kernel. We address this issue using a cross-language tree kernel, which compares the original Arabic tree to the English trees of the forum questions. We show that this kernel almost closes the performance gap with respect to the monolingual system. On the neural network side, we use the parallel corpus to train cross-language embeddings, which we then use to represent the Arabic input and the English forum questions in the same space. The results also improve to close to those of the monolingual neural network. Overall, the kernel system shows a better performance compared to the neural network in all cases.
+    bibtex: >
+      @inproceedings{martino-et-al-sigir-17,
+       abstract = {We study how to find relevant questions in community forums when the language of the query questions is different from that of the existing questions in the forum. In particular, we explore the Arabic--English language pair. We compare
+      a kernel-based system with
+      a feed-forward neural network in a scenario where a large parallel corpus is available for training a machine translation system, bilingual dictionaries, and cross-language word embeddings.
+      We observe that both approaches degrade the performance of the system when working on the translated text, especially the kernel-based system, which depends heavily on a syntactic kernel.
+      We address this issue using a cross-language tree kernel, which compares the original Arabic tree to the English trees of the forum questions. We show that this kernel almost closes the performance gap with respect to the monolingual system. On the neural network side, we use the parallel corpus to train cross-language embeddings, which we then use to represent the Arabic input and the English forum questions in the same space.
+      The results also improve to close to those of the monolingual neural network. Overall, the kernel system shows a better performance compared to the neural network in all cases.},
+       address = {Tokyo, Japan},
+       author = {Giovanni Da San Martino and Salvatore Romeo and Alberto Barr\'on-Cede\~no and Shafiq Joty, Llu\'is M\`arquez and Alessandro Moschitti and Preslav Nakov},
+       booktitle = {In Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+       link = {papers/martino-et-al-sigir-17.pdf},
+       month = {September},
+       pages = {xx--xx},
+       publisher = {ACM},
+       series = {SIGIR'17},
+       title = {Cross-Language Question Re-ranking},
+       year = {2017}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2017
+    selected: no #yes/no
+    title: >
+      Robust Classification of Crisis-Related Data on Social Networks Using Convolutional Neural Networks
+    authors: Dat Nguyen, Kamela Ali, Shafiq Joty, Hassan Sajjad, Muhammad Imran, and Prasenjit Mitra
+    id: nguyen-et-al-icwsm-17
+    img: img/paper/nguyen-et-al-icwsm-17-fig.jpg
+    slides: media/nguyen-et-al-icwsm-17.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: 632-635
+    booktitle: >
+      In Proceedings of the Eleventh International Conference on Web and Social Media (ICWSM'17)
+    doc-url: papers/nguyen-et-al-icwsm-17.pdf
+    abstract: >
+      The role of social media, in particular microblogging platforms such as Twitter, as a conduit for actionable and tactical information during disasters is increasingly acknowledged. However, time-critical analysis of big crisis data on social media streams brings challenges to machine learning techniques, especially the ones that use supervised learning. The scarcity of labeled data, particularly in the early hours of a crisis, delays the learning process. Existing classification methods require a significant amount of labeled data specific to a particular event for training plus a lot of feature engineering to achieve best results. In this work, we introduce neural network based classification methods for identifying useful tweets during a crisis situation. At the onset of a disaster when no labeled data is available, our proposed method makes the best use of the out-of-event data and achieves good results.
+    bibtex: >
+      @inproceedings{nguyen-et-al-icwsm-17,
+       abstract = {The role of social media, in particular microblogging platforms such as Twitter, as a conduit for actionable and tactical information during disasters is increasingly acknowledged. However, time-critical analysis of big crisis data on social media streams brings challenges to machine learning techniques, especially the ones that use supervised learning. The scarcity of labeled data, particularly in the early hours of a crisis, delays the learning process. Existing classification methods require a significant amount of labeled data specific to a particular event for training plus a lot of feature engineering to achieve best results. In this work, we introduce neural network based classification methods for identifying useful tweets during a crisis situation. At the onset of a disaster when no labeled data is available, our proposed method makes the best use of the out-of-event data and achieves good results.},
+       address = {Montr{\'{e}}al, Qu{\'{e}}bec, Canada},
+       author = {Dat Nguyen and Kamela Ali Al Mannai and Shafiq Joty and Hassan Sajjad and Muhammad Imran and Prasenjit Mitra},
+       booktitle = {In Proceedings of the Eleventh International Conference on Web and Social
+      Media},
+       link = {papers/nguyen-et-al-icwsm-17.pdf},
+       month = {May},
+       pages = {632--635},
+       publisher = {AAAI},
+       series = {ICWSM'17},
+       title = {Robust Classification of Crisis-Related Data on Social Networks Using Convolutional Neural Networks},
+       year = {2017}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2017
+    selected: no #yes/no
+    title: >
+      CQAVis: Visual Text Analytics for Community Question Answering
+    authors: Enamul Hoque, Shafiq Joty, Lluís Màrquez, and Giuseppe Carenini
+    id: hoque-joty-marquez-carenini-iui-17
+    img: img/paper/hoque-joty-marquez-carenini-iui-17-fig.jpg
+    slides: media/hoque-joty-marquez-carenini-iui-17.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport
+    pages: 161-172
+    booktitle: >
+      Proceedings of the 2017 international conference on Intelligent user interfaces (IUI '17)
+    doc-url: http://dl.acm.org/citation.cfm?id=3025210
+    abstract: >
+      Community question answering (CQA) forums can provide effective means for sharing information and addressing a user's information needs about particular topics. However, many such online forums are not moderated, resulting in many low quality and redundant comments, which makes it very challenging for users to find the appropriate answers to their questions. In this paper, we apply a user-centered design approach to develop a system, CQAVis, which supports users in identifying high quality comments and get their questions answered. Informed by the user's requirements, the system combines both text analytics and interactive visualization techniques together in a synergistic way. Given a new question posed by the user, the text analytic module automatically finds relevant answers by exploring existing related questions and the comments within their threads. Then the visualization module presents the search results to the user and supports the exploration of related comments. We have evaluated the system in the wild by deploying it within a CQA forum among thousands of real users. Through the online study, we gained deeper insights about the potential utility of the system, as well as learned generalizable lessons for designing visual text analytics systems for the domain of CQA forums.
+    bibtex: >
+      @inproceedings{hoque-joty-marquez-carenini-iui-17,
+       abstract = {Community question answering (CQA) forums can provide effective means for sharing information and addressing a user's information needs about particular topics. However, many such online forums are not moderated, resulting in many low quality and redundant comments, which makes it very challenging for users to find the appropriate answers to their questions. In this paper, we apply a user-centered design approach to develop a system, CQAVis, which supports users in identifying high quality comments and get their questions answered. Informed by the user's requirements, the system combines both text analytics and interactive visualization techniques together in a synergistic way. Given a new question posed by the user, the text analytic module automatically finds relevant answers by exploring existing related questions and the comments within their threads. Then the visualization module presents the search results to the user and supports the exploration of related comments. We have evaluated the system in the wild by deploying it within a CQA forum among thousands of real users. Through the online study, we gained deeper insights about the potential utility of the system, as well as learned generalizable lessons for designing visual text analytics systems for the domain of CQA forums.},
+       address = {Limassol, Cyprus},
+       author = {Enamul Hoque and Shafiq Joty and Lluís Màrquez and Giuseppe Carenini},
+       booktitle = {Proceedings of the 2017 international conference on Intelligent user interfaces},
+       link = {http://dl.acm.org/citation.cfm?id=3025210},
+       pages = {161--172},
+       publisher = {ACM},
+       series = {IUI '17},
+       title = {CQAVis: Visual Text Analytics for Community Question Answering},
        year = {2017}
       }
       
