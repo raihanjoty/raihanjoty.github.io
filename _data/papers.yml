@@ -7,7 +7,7 @@
       Discourse Structure in Machine Translation Evaluation
     authors: Shafiq Joty, Francisco Guzmán, Lluís Màrquez, and Preslav Nakov
     id: joty-guzman-marquez-nakov-cl-17
-    img: img/paper/joty-guzman-marquez-nakov-cl-17-fig.jpg
+    img: joty-guzman-marquez-nakov-cl-17-fig.jpg
     slides: media/joty-guzman-marquez-nakov-cl-17.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
@@ -40,7 +40,7 @@
       Domain Adaptation Using Neural Network Joint Model
     authors: Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali
     id: joty-durrani-sajjad-abdelali-csl-17
-    img: img/paper/joty-durrani-sajjad-abdelali-csl-17-fig.jpg
+    img: joty-durrani-sajjad-abdelali-csl-17-fig.jpg
     slides: media/joty-durrani-sajjad-abdelali-csl-17.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
@@ -72,7 +72,7 @@
       A Neural Local Coherence Model
     authors: Dat Nguyen, and Shafiq Joty
     id: nguyen-joty-acl-17
-    img: img/paper/nguyen-joty-acl-17-fig.jpg
+    img: nguyen-joty-acl-17-fig.jpg
     slides: media/nguyen-joty-acl-17.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
@@ -108,7 +108,7 @@
       Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering
     authors: Shafiq Joty, Preslav Nakov, Lluís Màrquez, and Israa Jaradat
     id: joty-nakov-marquez-jaradat-conll-17
-    img: img/paper/joty-nakov-marquez-jaradat-conll-17-fig.jpg
+    img: joty-nakov-marquez-jaradat-conll-17-fig.jpg
     slides: media/joty-nakov-marquez-jaradat-conll-17.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
@@ -144,7 +144,7 @@
       CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec
     authors: Tanay Kumar, Shafiq Joty, and Mohammad Al
     id: saha-joty-hasan-ecml-17
-    img: img/paper/saha-joty-hasan-ecml-17-fig.jpg
+    img: saha-joty-hasan-ecml-17-fig.jpg
     slides: media/saha-joty-hasan-ecml-17.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
@@ -181,7 +181,7 @@
       Cross-Language Question Re-ranking
     authors: Giovanni Da, Salvatore Romeo, Alberto Barr\'on-Cede\~no, Llu\'is M\`arquez Shafiq Joty, Alessandro Moschitti, and Preslav Nakov
     id: martino-et-al-sigir-17
-    img: img/paper/martino-et-al-sigir-17-fig.jpg
+    img: martino-et-al-sigir-17-fig.jpg
     slides: media/martino-et-al-sigir-17.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
@@ -222,7 +222,7 @@
       Robust Classification of Crisis-Related Data on Social Networks Using Convolutional Neural Networks
     authors: Dat Nguyen, Kamela Ali, Shafiq Joty, Hassan Sajjad, Muhammad Imran, and Prasenjit Mitra
     id: nguyen-et-al-icwsm-17
-    img: img/paper/nguyen-et-al-icwsm-17-fig.jpg
+    img: nguyen-et-al-icwsm-17-fig.jpg
     slides: media/nguyen-et-al-icwsm-17.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
@@ -259,7 +259,7 @@
       CQAVis: Visual Text Analytics for Community Question Answering
     authors: Enamul Hoque, Shafiq Joty, Lluís Màrquez, and Giuseppe Carenini
     id: hoque-joty-marquez-carenini-iui-17
-    img: img/paper/hoque-joty-marquez-carenini-iui-17-fig.jpg
+    img: hoque-joty-marquez-carenini-iui-17-fig.jpg
     slides: media/hoque-joty-marquez-carenini-iui-17.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
