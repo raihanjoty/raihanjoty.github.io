@@ -87,7 +87,7 @@ def parse(bibfile):
 			print ("    title: >\n      " + preprocess(entry["title"]))
 			print ("    authors: "+ authors)
 			print ("    id: "  + entry["ID"])
-			print ("    img: " + entry["ID"]) #image_id to be found in img/paper/ID.jpg"
+			print ("    img: " + entry["ID"] + "-fig") #image_id to be found in img/paper/ID.jpg"
 			print ("    slides: " + "media/" + entry["ID"] + ".pdf") # e.g. media/$ID.pptx ")
 			print ("    code: #e.g. github.com/project")
 			print ("    errata: #if you have errata, insert here")
