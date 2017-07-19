@@ -67,7 +67,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: no
+    selected: yes
     title: >
       A Neural Local Coherence Model
     authors: Dat Nguyen, and Shafiq Joty
@@ -103,7 +103,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: no
+    selected: yes
     title: >
       Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering
     authors: Shafiq Joty, Preslav Nakov, Lluís Màrquez, and Israa Jaradat
@@ -139,7 +139,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: no
+    selected: yes
     title: >
       CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec
     authors: Tanay Kumar, Shafiq Joty, and Mohammad Al
