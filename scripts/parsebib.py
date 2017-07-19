@@ -68,26 +68,31 @@ def parse(bibfile):
 		writer = BibTexWriter()
 		bib_database = bibtexparser.load(bibtex_file)
 
-
 		for entry in bib_database.entries:
+
 			authors=parseauthors(preprocess(entry["author"])) #.encode('UTF8')
+
 			if("booktitle" in entry.keys()):
 				venue= preprocess(entry["booktitle"]) #.encode('UTF8')
+				if ("series" in entry.keys()):
+					venue += " (" + entry["series"] + ")"  #.encode('UTF8')
 			else:
 				venue=""
+
 			print( "  -")
 			print ("    layout: paper")
 			print ("    paper-type: "+ preprocess(entry["ENTRYTYPE"]) +" #changes display of reference in paper list")
 			print ("    year: " + preprocess(entry["year"]))
 			print ("    selected: no #yes/no")
-			print ("    title: >\n      "+preprocess(entry["title"]))
+			print ("    title: >\n      " + preprocess(entry["title"]))
 			print ("    authors: "+ authors)
-			print ("    id: "+ abbrevVenue(venue) + preprocess(entry["year"]) + "_" + processAuthor(authors.split()[1]))
-			print ("    img: #image_id to be found in img/paper/ID.jpg")
-			print ("    slides: # e.g. media/$ID.pptx ")
+			print ("    id: "  + entry["ID"])
+			print ("    img: " + entry["ID"]) #image_id to be found in img/paper/ID.jpg"
+			print ("    slides: " + "media/" + entry["ID"] + ".pdf") # e.g. media/$ID.pptx ")
 			print ("    code: #e.g. github.com/project")
 			print ("    errata: #if you have errata, insert here")
 			print ("    venue: conference #book[chapters], conference[journal],  workshop[demo], techreport")
+
 			if("pages" in entry.keys()):
 				print ("    pages: "+preprocess(entry["pages"]))
 			if("booktitle" in entry.keys()):
@@ -99,11 +104,10 @@ def parse(bibfile):
 			elif "link" in entry.keys() :
 				print ("    doc-url: "+preprocess(entry["link"]))
 			else:
-				print ("    doc-url:  # e.g. papers/$ID.pdf")
+				print ("    doc-url: " + "papers/" + entry["ID"] + ".pdf")  # e.g. papers/$ID.pdf")
 
 			if("abstract" in entry.keys()):
 				print ("    abstract: >\n      " + preprocess(entry["abstract"]) )#.encode('UTF8'))
-
 			print ("    bibtex: >\n      "+ writer._entry_to_bibtex(entry).replace("\n","\n      ") )#.encode('UTF8'))
 
 			#print "    publisher: "+preprocess(entry["publisher"])
