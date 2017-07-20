@@ -51,20 +51,20 @@
     title: >
       Combining Intra- and Multi-sentential Rhetorical Parsing for Document-level Discourse Analysis
     authors: Shafiq Joty, Giuseppe Carenini, Raymond T. Ng, and Yashar Mehdad
-    id: joty-carenini-ng-acl-13
-    img: joty-carenini-ng-acl-13-fig
-    slides: media/joty-carenini-ng-acl-13.pdf
+    id: joty-carenini-ng-mehdad-acl-13
+    img: joty-carenini-ng-mehdad-acl-13-fig
+    slides: media/joty-carenini-ng-mehdad-acl-13.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
     pages: 486-496
     booktitle: >
-      Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (ACL '13)
-    doc-url: papers/joty-carenini-ng-acl-13.pdf
+      Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (ACL'13)
+    doc-url: papers/joty-carenini-ng-mehdad-acl-13.pdf
     abstract: >
       We propose a novel approach for developing a two-stage document-level discourse parser. Our parser builds a discourse tree by applying an optimal parsing algorithm to probabilities inferred from two Conditional Random Fields: one for intrasentential parsing and the other for multisentential parsing. We present two approaches to combine these two stages of discourse parsing effectively. A set of empirical evaluations over two different datasets demonstrates that our discourse parser significantly outperforms the stateof-the-art, often by a wide margin.
     bibtex: >
-      @inproceedings{joty-carenini-ng-acl-13,
+      @inproceedings{joty-carenini-ng-mehdad-acl-13,
        abstract = {We propose a novel approach for developing
       a two-stage document-level discourse
       parser. Our parser builds a discourse tree
@@ -84,8 +84,55 @@
        numpages = {9},
        pages = {486--496},
        publisher = {ACL},
-       series = {ACL '13},
+       series = {ACL'13},
        title = {Combining Intra- and Multi-sentential Rhetorical Parsing for Document-level Discourse Analysis},
+       year = {2013}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2013
+    selected: no
+    title: >
+      Towards Topic Labeling with Phrase Entailment and Aggregation
+    authors: Yashar Mehdad, Giuseppe Carenini, Raymond T. Ng, and Shafiq Joty
+    id: mehdad-carenini-ng-joty-naacl-13
+    img: mehdad-carenini-ng-joty-naacl-13-fig
+    slides: media/mehdad-carenini-ng-joty-naacl-13.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 179-189
+    booktitle: >
+      Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL'13)
+    doc-url: papers/mehdad-carenini-ng-joty-naacl-13.pdf
+    abstract: >
+      We propose a novel framework for topic labeling that assigns the most representative phrases for a given set of sentences covering the same topic. We build an entailment graph over phrases that are extracted from the sentences, and use the entailment relations to identify and select the most relevant phrases. We then aggregate those selected phrases by means of phrase generalization and merging. We motivate our approach by applying over conversational data, and show that our framework improves performance significantly over baseline algorithms.
+    bibtex: >
+      @inproceedings{mehdad-carenini-ng-joty-naacl-13,
+       abstract = {We propose a novel framework for topic labeling
+      that assigns the most representative
+      phrases for a given set of sentences covering
+      the same topic. We build an entailment
+      graph over phrases that are extracted from the
+      sentences, and use the entailment relations to
+      identify and select the most relevant phrases.
+      We then aggregate those selected phrases by
+      means of phrase generalization and merging.
+      We motivate our approach by applying over
+      conversational data, and show that our framework
+      improves performance significantly over
+      baseline algorithms.},
+       address = {Atlanta, Georgia},
+       author = {Mehdad, Yashar  and  Carenini, Giuseppe  and  Ng, Raymond T.  and  Joty, Shafiq},
+       booktitle = {Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+       month = {June},
+       pages = {179--189},
+       publisher = {ACL},
+       series = {NAACL'13},
+       title = {Towards Topic Labeling with Phrase Entailment and Aggregation},
        year = {2013}
       }
       
