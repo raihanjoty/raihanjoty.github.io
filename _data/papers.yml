@@ -1,6 +1,55 @@
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
+    year: 2011
+    selected: no
+    title: >
+      Unsupervised Modeling of Dialog Acts in Asynchronous Conversations
+    authors: Shafiq Joty, Giuseppe Carenini, and Chin-Yew Lin
+    id: joty-carenini-lin-ijcai-11
+    img: joty-carenini-lin-ijcai-11-fig
+    slides: media/joty-carenini-lin-ijcai-11.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 1807-1813
+    booktitle: >
+      Proceedings of the twenty second International Joint Conference on Artificial Intelligence (IJCAI'11)
+    doc-url: papers/joty-carenini-lin-ijcai-11.pdf
+    abstract: >
+      We present unsupervised approaches to the problem of modeling dialog acts in asynchronous conversations; i.e., conversations where participants collaborate with each other at different times. In particular, we investigate a graph-theoretic deterministic framework and two probabilistic conversation models (i.e., HMM and HMM+Mix) for modeling dialog acts in emails and forums. We train and test our conversation models on (a) temporal order and (b) graph-structural order of the datasets. Empirical evaluation suggests (i) the graph-theoretic framework that relies on lexical and structural similarity metrics is not the right model for this task, (ii) conversation models perform better on the graphstructural order than the temporal order of the datasets and (iii) HMM+Mix is a better conversation model than the simple HMM model.
+    bibtex: >
+      @inproceedings{joty-carenini-lin-ijcai-11,
+       abstract = {We present unsupervised approaches to the problem
+      of modeling dialog acts in asynchronous conversations;
+      i.e., conversations where participants
+      collaborate with each other at different times. In
+      particular, we investigate a graph-theoretic deterministic
+      framework and two probabilistic conversation
+      models (i.e., HMM and HMM+Mix) for modeling
+      dialog acts in emails and forums. We train and
+      test our conversation models on (a) temporal order
+      and (b) graph-structural order of the datasets. Empirical
+      evaluation suggests (i) the graph-theoretic
+      framework that relies on lexical and structural similarity
+      metrics is not the right model for this task, (ii)
+      conversation models perform better on the graphstructural
+      order than the temporal order of the
+      datasets and (iii) HMM+Mix is a better conversation
+      model than the simple HMM model.},
+       address = {Barcelona, Spain},
+       author = {Shafiq Joty and Giuseppe Carenini and Chin-Yew Lin},
+       booktitle = {Proceedings of the twenty second International Joint Conference on Artificial Intelligence},
+       pages = {1807--1813},
+       series = {IJCAI'11},
+       title = {Unsupervised Modeling of Dialog Acts in Asynchronous Conversations},
+       year = {2011}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
     year: 2012
     selected: no
     title: >
