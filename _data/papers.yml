@@ -15,7 +15,7 @@
     pages: 1807-1813
     booktitle: >
       Proceedings of the twenty second International Joint Conference on Artificial Intelligence (IJCAI'11)
-    doc-url: papers/joty-carenini-lin-ijcai-11.pdf
+    doc-url: https://www.aaai.org/ocs/index.php/IJCAI/IJCAI11/paper/viewFile/3357/3759
     abstract: >
       We present unsupervised approaches to the problem of modeling dialog acts in asynchronous conversations; i.e., conversations where participants collaborate with each other at different times. In particular, we investigate a graph-theoretic deterministic framework and two probabilistic conversation models (i.e., HMM and HMM+Mix) for modeling dialog acts in emails and forums. We train and test our conversation models on (a) temporal order and (b) graph-structural order of the datasets. Empirical evaluation suggests (i) the graph-theoretic framework that relies on lexical and structural similarity metrics is not the right model for this task, (ii) conversation models perform better on the graphstructural order than the temporal order of the datasets and (iii) HMM+Mix is a better conversation model than the simple HMM model.
     bibtex: >
@@ -40,6 +40,7 @@
        address = {Barcelona, Spain},
        author = {Shafiq Joty and Giuseppe Carenini and Chin-Yew Lin},
        booktitle = {Proceedings of the twenty second International Joint Conference on Artificial Intelligence},
+       link = {https://www.aaai.org/ocs/index.php/IJCAI/IJCAI11/paper/viewFile/3357/3759},
        pages = {1807--1813},
        series = {IJCAI'11},
        title = {Unsupervised Modeling of Dialog Acts in Asynchronous Conversations},
@@ -64,7 +65,7 @@
     pages: 904-915
     booktitle: >
       Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL'12)
-    doc-url: papers/joty-carenini-ng-emnlp-12.pdf
+    doc-url: http://www.aclweb.org/anthology/D12-1083
     abstract: >
       We propose a complete probabilistic discriminative framework for performing sentencelevel discourse analysis. Our framework comprises a discourse segmenter, based on a binary classifier, and a discourse parser, which applies an optimal CKY-like parsing algorithm to probabilities inferred from a Dynamic Conditional Random Field. We show on two corpora that our approach outperforms the state-of-the-art, often by a wide margin.
     bibtex: >
@@ -82,6 +83,7 @@
        address = {Jeju Island, Korea},
        author = {Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond T.},
        booktitle = {Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning},
+       link = {http://www.aclweb.org/anthology/D12-1083},
        pages = {904--915},
        publisher = {ACL},
        series = {EMNLP-CoNLL'12},
