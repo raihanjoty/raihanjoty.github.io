@@ -86,7 +86,7 @@ def parse(bibfile):
 			if entry["ENTRYTYPE"] == "article":
 				sel    = "yes"
 				con    = "journal"
-				slides = "\# e.g. media/$ID.pptx"
+				slides = "# e.g. media/$ID.pptx"
 			else:	 
 				sel    = "no"
 				con    = "conference"

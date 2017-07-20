@@ -8,7 +8,7 @@
     authors: Shafiq Joty, Giuseppe Carenini, and Raymond T
     id: joty-carenini-ng-jair-13
     img: joty-carenini-ng-jair-13-fig
-    slides: \# e.g. media/$ID.pptx
+    slides: # e.g. media/$ID.pptx
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
@@ -500,7 +500,7 @@
     authors: Shafiq Joty, Giuseppe Carenini, and Raymond T Ng
     id: joty-carenini-ng-cl-15
     img: joty-carenini-ng-cl-15-fig
-    slides: \# e.g. media/$ID.pptx
+    slides: # e.g. media/$ID.pptx
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
@@ -879,7 +879,7 @@
     authors: Francisco Guzmán, Shafiq Joty, Lluís Màrquez, and Preslav Nakov
     id: guzman-joty-marquez-nakov-csl-16
     img: guzman-joty-marquez-nakov-csl-16-fig
-    slides: \# e.g. media/$ID.pptx
+    slides: # e.g. media/$ID.pptx
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
@@ -919,7 +919,7 @@
     authors: Aarti Sathyanarayana, Shafiq Joty, Luis Fernandez-Luque, Ferda Ofli, Jaideep Srivastava, Ahmed Elmagarmid, Shahrad Taheri, and Teresa Arora
     id: sathyanarayana-et-al-jmu-16
     img: sathyanarayana-et-al-jmu-16-fig
-    slides: \# e.g. media/$ID.pptx
+    slides: # e.g. media/$ID.pptx
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
@@ -1216,7 +1216,7 @@
     authors: Shafiq Joty, Francisco Guzmán, Lluís Màrquez, and Preslav Nakov
     id: joty-guzman-marquez-nakov-cl-17
     img: joty-guzman-marquez-nakov-cl-17-fig
-    slides: \# e.g. media/$ID.pptx
+    slides: # e.g. media/$ID.pptx
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
@@ -1249,7 +1249,7 @@
     authors: Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali
     id: joty-durrani-sajjad-abdelali-csl-17
     img: joty-durrani-sajjad-abdelali-csl-17-fig
-    slides: \# e.g. media/$ID.pptx
+    slides: # e.g. media/$ID.pptx
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
