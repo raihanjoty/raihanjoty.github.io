@@ -338,7 +338,7 @@
     selected: no
     title: >
       QCRI: Answer Selection for Community Question Answering - Experiments for Arabic and English
-    authors: Massimo Nicosia, Simone Filice, Alberto Barron-Cedeno, Iman Saleh, Hamdy Mubarak, Wei Gao, Preslav Nakov, Giovanni Da, Alessandro Moschitti, Kareem Darwish, Llu\'{\i}s Màrquez, Shafiq R., and Walid Magdy
+    authors: Massimo Nicosia, Simone Filice, Alberto Barron-Cedeno, Iman Saleh, Hamdy Mubarak, Wei Gao, Preslav Nakov, Giovanni Da, Alessandro Moschitti, Kareem Darwish, Llu\'\is Màrquez, Shafiq R., and Walid Magdy
     id: nicosia-et-al-semeval-15
     img: nicosia-et-al-semeval-15-fig
     slides: media/nicosia-et-al-semeval-15.pdf
@@ -365,7 +365,7 @@
       best performing one in the Arabic subtask and
       the third best in the two English subtasks.},
        address = {Denver, Colorado, USA},
-       author = {Massimo Nicosia and Simone Filice and Alberto Barron-Cedeno and Iman Saleh and Hamdy Mubarak and Wei Gao and Preslav Nakov and Giovanni Da San Martino and Alessandro Moschitti and Kareem Darwish and Llu{\'{\i}}s M{\`{a}}rquez and Shafiq R. Joty and Walid Magdy},
+       author = {Massimo Nicosia and Simone Filice and Alberto Barron-Cedeno and Iman Saleh and Hamdy Mubarak and Wei Gao and Preslav Nakov and Giovanni Da San Martino and Alessandro Moschitti and Kareem Darwish and Llu\'{\i}s M\`{a}rquez and Shafiq R. Joty and Walid Magdy},
        booktitle = {Proceedings of the 9th International Workshop on Semantic Evaluation},
        link = {http://aclweb.org/anthology/S/S15/S15-2036.pdf},
        month = {June},
