@@ -333,6 +333,52 @@
       
   -
     layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2015
+    selected: no
+    title: >
+      QCRI: Answer Selection for Community Question Answering - Experiments for Arabic and English
+    authors: Massimo Nicosia, Simone Filice, Alberto Barron-Cedeno, Iman Saleh, Hamdy Mubarak, Wei Gao, Preslav Nakov, Giovanni Da, Alessandro Moschitti, Kareem Darwish, Llu\'{\i}s Màrquez, Shafiq R., and Walid Magdy
+    id: nicosia-et-al-semeval-15
+    img: nicosia-et-al-semeval-15-fig
+    slides: media/nicosia-et-al-semeval-15.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 203-209
+    booktitle: >
+      Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval'15)
+    doc-url: http://aclweb.org/anthology/S/S15/S15-2036.pdf
+    abstract: >
+      This paper describes QCRI’s participation in SemEval-2015 Task 3 “Answer Selection in Community Question Answering”, which targeted real-life Web forums, and was offered in both Arabic and English. We apply a supervised machine learning approach considering a manifold of features including among others word n-grams, text similarity, sentiment analysis, the presence of specific words, and the context of a comment. Our approach was the best performing one in the Arabic subtask and the third best in the two English subtasks.
+    bibtex: >
+      @inproceedings{nicosia-et-al-semeval-15,
+       abstract = {This paper describes QCRI’s participation in
+      SemEval-2015 Task 3 “Answer Selection in
+      Community Question Answering”, which targeted
+      real-life Web forums, and was offered
+      in both Arabic and English. We apply a supervised
+      machine learning approach considering
+      a manifold of features including among others
+      word n-grams, text similarity, sentiment analysis, the presence of specific words, and the
+      context of a comment. Our approach was the
+      best performing one in the Arabic subtask and
+      the third best in the two English subtasks.},
+       address = {Denver, Colorado, USA},
+       author = {Massimo Nicosia and Simone Filice and Alberto Barron-Cedeno and Iman Saleh and Hamdy Mubarak and Wei Gao and Preslav Nakov and Giovanni Da San Martino and Alessandro Moschitti and Kareem Darwish and Llu{\'{\i}}s M{\`{a}}rquez and Shafiq R. Joty and Walid Magdy},
+       booktitle = {Proceedings of the 9th International Workshop on Semantic Evaluation},
+       link = {http://aclweb.org/anthology/S/S15/S15-2036.pdf},
+       month = {June},
+       pages = {203--209},
+       series = {SemEval'15},
+       title = {{QCRI:} Answer Selection for Community Question Answering - Experiments
+      for Arabic and English},
+       year = {2015}
+      }
+      
+      
+  -
+    layout: paper
     paper-type: article #changes display of reference in paper list
     year: 2016
     selected: yes
