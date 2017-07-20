@@ -140,6 +140,55 @@
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
+    year: 2013
+    selected: no
+    title: >
+      Dialogue Act Recognition in Synchronous and Asynchronous Conversations
+    authors: Maryam Tavafi, Yashar Mehdad, Shafiq Joty, Giuseppe Carenini, and Raymond Ng
+    id: tavafi-et-al-sigdial-13
+    img: tavafi-et-al-sigdial-13-fig
+    slides: media/tavafi-et-al-sigdial-13.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 117-121
+    booktitle: >
+      Proceedings of the Special Interest Group on Discourse and Dialogue Conference (SIGDIAL'13)
+    doc-url: http://www.aclweb.org/anthology/W13-4017
+    abstract: >
+      In this work, we study the effectiveness of state-of-the-art, sophisticated supervised learning algorithms for dialogue act modeling across a comprehensive set of different spoken and written conversations including: emails, forums, meetings, and phone conversations. To this aim, we compare the results of SVM-multiclass and two structured predictors namely SVMhmm and CRF algorithms. Extensive empirical results, across different conversational modalities, demonstrate the effectiveness of our SVM-hmm model for dialogue act recognition in conversations.
+    bibtex: >
+      @inproceedings{tavafi-et-al-sigdial-13,
+       abstract = {In this work, we study the effectiveness of
+      state-of-the-art, sophisticated supervised
+      learning algorithms for dialogue act modeling
+      across a comprehensive set of different
+      spoken and written conversations including:
+      emails, forums, meetings, and
+      phone conversations. To this aim, we compare
+      the results of SVM-multiclass and
+      two structured predictors namely SVMhmm
+      and CRF algorithms. Extensive empirical
+      results, across different conversational
+      modalities, demonstrate the effectiveness
+      of our SVM-hmm model for dialogue
+      act recognition in conversations.},
+       address = {Metz, France},
+       author = {Tavafi, Maryam  and  Mehdad, Yashar  and  Joty, Shafiq  and  Carenini, Giuseppe  and  Ng, Raymond},
+       booktitle = {Proceedings of the Special Interest Group on Discourse and Dialogue Conference},
+       link = {http://www.aclweb.org/anthology/W13-4017},
+       month = {August},
+       pages = {117--121},
+       publisher = {Association for Computational Linguistics},
+       series = {SIGDIAL'13},
+       title = {Dialogue Act Recognition in Synchronous and Asynchronous Conversations},
+       year = {2013}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
     year: 2014
     selected: no
     title: >
