@@ -1,5 +1,48 @@
   -
     layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2012
+    selected: no
+    title: >
+      A Novel Discriminative Framework for Sentence-Level Discourse Analysis
+    authors: Shafiq Joty, Giuseppe Carenini, and Raymond T. Ng
+    id: joty-carenini-ng-emnlp-12
+    img: joty-carenini-ng-emnlp-12-fig
+    slides: media/joty-carenini-ng-emnlp-12.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 904-915
+    booktitle: >
+      Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL'12)
+    doc-url: papers/joty-carenini-ng-emnlp-12.pdf
+    abstract: >
+      We propose a complete probabilistic discriminative framework for performing sentencelevel discourse analysis. Our framework comprises a discourse segmenter, based on a binary classifier, and a discourse parser, which applies an optimal CKY-like parsing algorithm to probabilities inferred from a Dynamic Conditional Random Field. We show on two corpora that our approach outperforms the state-of-the-art, often by a wide margin.
+    bibtex: >
+      @inproceedings{joty-carenini-ng-emnlp-12,
+       abstract = {We propose a complete probabilistic discriminative
+      framework for performing sentencelevel
+      discourse analysis. Our framework comprises
+      a discourse segmenter, based on a binary
+      classifier, and a discourse parser, which
+      applies an optimal CKY-like parsing algorithm
+      to probabilities inferred from a Dynamic
+      Conditional Random Field. We show on two
+      corpora that our approach outperforms the
+      state-of-the-art, often by a wide margin.},
+       address = {Jeju Island, Korea},
+       author = {Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond T.},
+       booktitle = {Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning},
+       pages = {904--915},
+       publisher = {ACL},
+       series = {EMNLP-CoNLL'12},
+       title = {A Novel Discriminative Framework for Sentence-Level Discourse Analysis},
+       year = {2012}
+      }
+      
+      
+  -
+    layout: paper
     paper-type: article #changes display of reference in paper list
     year: 2013
     selected: yes
