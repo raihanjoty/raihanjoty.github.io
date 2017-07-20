@@ -96,7 +96,7 @@
     venue: conference
     pages: 687-693
     booktitle: >
-      Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)
+      Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (ACL'15)
     doc-url: http://www.aclweb.org/anthology/P15-2113
     abstract: >
       Community Question Answering (cQA) is a new application of QA in social contexts (e.g., fora). It presents new interesting challenges and research directions, e.g., exploiting the dependencies between the different comments of a thread to select the best answer for a given question. In this paper, we explored two ways of modeling such dependencies: (i) by designing specific features looking globally at the thread; and (ii) by applying structure prediction models. We trained and evaluated our models on data from SemEval-2015 Task 3 on Answer Selection in cQA. Our experiments show that: (i) the thread-level features consistently improve the performance for a variety of machine learning models, yielding state-of-the-art results; and (ii) sequential dependencies between the answer labels captured by structured prediction models are not enough to improve the results, indicating that more information is needed in the joint model.
@@ -126,12 +126,55 @@
       is needed in the joint model.},
        address = {Beijing, China},
        author = {Barron-Cedeno, Alberto  and  Filice, Simone  and  Da San Martino, Giovanni  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav  and  Moschitti, Alessandro},
-       booktitle = {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)},
+       booktitle = {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing},
        link = {http://www.aclweb.org/anthology/P15-2113},
        month = {July},
        pages = {687--693},
        publisher = {Association for Computational Linguistics},
+       series = {ACL'15},
        title = {Thread-Level Information for Comment Classification in Community Question Answering},
+       year = {2015}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2015
+    selected: no
+    title: >
+      Using Joint Models for Domain Adaptation in Statistical Machine Translation
+    authors: Nadir Durrani, Hassan Sajjad, Shafiq Joty, Ahmed Abdelali, and Stephan Vogel
+    id: durrani-et-al-amta-15
+    img: durrani-et-al-amta-15-fig
+    slides: media/durrani-et-al-amta-15.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 687-693
+    booktitle: >
+      Proceedings of the Association for Machine Translation in the Americas (AMTA'15)
+    doc-url: papers/durrani-et-al-amta-15
+    abstract: >
+      Joint models have recently shown to improve the state-of-the-art in machine translation (MT). We apply EM-based mixture modeling and data selection techniques using two joint models, namely the Operation Sequence Model or OSM — an ngram-based translation and reordering model, and the Neural Network Joint Model or NNJM — a continuous space translation model, to carry out domain adaptation for MT. The diversity of the two models, OSM with inherit reordering information and NNJM with continuous space modeling makes them interesting to be explored for this task. Our contribution in this paper is fusing the existing known techniques (linear interpolation, cross-entropy) with the state-of-the-art MT models (OSM, NNJM). On a standard task of translating German-to-English and Arabic-to-English IWSLT TED talks, we observed statistically significant improvements of up to +0.9 BLEU points.
+    bibtex: >
+      @inproceedings{durrani-et-al-amta-15,
+       abstract = {Joint models have recently shown to improve the state-of-the-art in machine translation (MT).
+      We apply EM-based mixture modeling and data selection techniques using two joint models, namely the Operation Sequence Model or OSM — an ngram-based translation and reordering
+      model, and the Neural Network Joint Model or NNJM — a continuous space translation model, to carry out domain adaptation for MT. The diversity of the two models, OSM with inherit
+      reordering information and NNJM with continuous space modeling makes them interesting to
+      be explored for this task. Our contribution in this paper is fusing the existing known techniques
+      (linear interpolation, cross-entropy) with the state-of-the-art MT models (OSM, NNJM). On a
+      standard task of translating German-to-English and Arabic-to-English IWSLT TED talks, we
+      observed statistically significant improvements of up to +0.9 BLEU points.},
+       address = {Florida, USA},
+       author = {Nadir Durrani and Hassan Sajjad and Shafiq Joty and Ahmed Abdelali and Stephan Vogel},
+       booktitle = {Proceedings of the Association for Machine Translation in the Americas},
+       link = {papers/durrani-et-al-amta-15},
+       month = {November},
+       pages = {687--693},
+       series = {AMTA'15},
+       title = {Using Joint Models for Domain Adaptation in Statistical Machine Translation},
        year = {2015}
       }
       
