@@ -52,8 +52,11 @@
     booktitle: >
       Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP'14)
     doc-url: http://www.aclweb.org/anthology/D14-1027
+    abstract: >
+      We present a pairwise learning-to-rank approach to machine translation evaluation that learns to differentiate better from worse translations in the context of a given reference. We integrate several layers of linguistic information encapsulated in tree-based structures, making use of both the reference and the system output simultaneously, thus bringing our ranking closer to how humans evaluate translations. Most importantly, instead of deciding upfront which types of features are important, we use the learning framework of preference re-ranking kernels to learn the features automatically. The evaluation results show that learning in the proposed framework yields better correlation with humans than computing the direct similarity over the same type of structures. Also, we show our structural kernel learning (SKL) can be a general framework for MT evaluation, in which syntactic and semantic information can be naturally incorporated.
     bibtex: >
       @inproceedings{guzman-et-al-emnlp-14,
+       abstract = {We present a pairwise learning-to-rank approach to machine translation evaluation that learns to differentiate better from worse translations in the context of a given reference. We integrate several layers of linguistic information encapsulated in tree-based structures, making use of both the reference and the system output simultaneously, thus bringing our ranking closer to how humans evaluate translations. Most importantly, instead of deciding upfront which types of features are important, we use the learning framework of preference re-ranking kernels to learn the features automatically. The evaluation results show that learning in the proposed framework yields better correlation with humans than computing the direct similarity over the same type of structures. Also, we show our structural kernel learning (SKL) can be a general framework for MT evaluation, in which syntactic and semantic information can be naturally incorporated.},
        address = {Doha, Qatar},
        author = {Guzm\'{a}n, Francisco  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Moschitti, Alessandro  and  Nakov, Preslav  and  Nicosia, Massimo},
        booktitle = {Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing},
@@ -63,6 +66,42 @@
        publisher = {Association for Computational Linguistics},
        series = {EMNLP'14},
        title = {Learning to Differentiate Better from Worse Translations},
+       year = {2014}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2014
+    selected: no
+    title: >
+      DiscoTK: Using Discourse Structure for Machine Translation Evaluation
+    authors: Shafiq Joty, Francisco Guzmán, Lluís Màrquez, and Preslav Nakov
+    id: joty-guzman-marquez-nakov-wmt-14
+    img: joty-guzman-marquez-nakov-wmt-14-fig
+    slides: media/joty-guzman-marquez-nakov-wmt-14.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 402-408
+    booktitle: >
+      Proceedings of the Ninth Workshop on Statistical Machine Translation (WMT'14)
+    doc-url: http://www.aclweb.org/anthology/W/W14/W14-3352
+    abstract: >
+      We present novel automatic metrics for machine translation evaluation that use discourse structure and convolution kernels to compare the discourse tree of an automatic translation with that of the human reference. We experiment with five transformations and augmentations of a base discourse tree representation based on the rhetorical structure theory, and we combine the kernel scores for each of them into a single score. Finally, we add other metrics from the ASIYA MT evaluation toolkit, and we tune the weights of the combination on actual human judgments. Experiments on the WMT12 and WMT13 metrics shared task datasets show correlation with human judgments that outperforms what the best systems that participated in these years achieved, both at the segment and at the system level.
+    bibtex: >
+      @inproceedings{joty-guzman-marquez-nakov-wmt-14,
+       abstract = {We present novel automatic metrics for machine translation evaluation that use discourse structure and convolution kernels to compare the discourse tree of an automatic translation with that of the human reference. We experiment with five transformations and augmentations of a base discourse tree representation based on the rhetorical structure theory, and we combine the kernel scores for each of them into a single score. Finally, we add other metrics from the ASIYA MT evaluation toolkit, and we tune the weights of the combination on actual human judgments. Experiments on the WMT12 and WMT13 metrics shared task datasets show correlation with human judgments that outperforms what the best systems that participated in these years achieved, both at the segment and at the system level.},
+       address = {Baltimore, Maryland, USA},
+       author = {Joty, Shafiq  and  Guzm\'{a}n, Francisco  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav},
+       booktitle = {Proceedings of the Ninth Workshop on Statistical Machine Translation},
+       link = {http://www.aclweb.org/anthology/W/W14/W14-3352},
+       month = {June},
+       pages = {402--408},
+       publisher = {Association for Computational Linguistics},
+       series = {WMT'14},
+       title = {DiscoTK: Using Discourse Structure for Machine Translation Evaluation},
        year = {2014}
       }
       
