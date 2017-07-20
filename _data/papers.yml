@@ -55,7 +55,7 @@
     selected: no
     title: >
       A Novel Discriminative Framework for Sentence-Level Discourse Analysis
-    authors: Shafiq Joty, Giuseppe Carenini, and Raymond T. Ng
+    authors: Shafiq Joty, Giuseppe Carenini, and Raymond Ng
     id: joty-carenini-ng-emnlp-12
     img: joty-carenini-ng-emnlp-12-fig
     slides: media/joty-carenini-ng-emnlp-12.pdf
@@ -81,7 +81,7 @@
       corpora that our approach outperforms the
       state-of-the-art, often by a wide margin.},
        address = {Jeju Island, Korea},
-       author = {Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond T.},
+       author = {Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond},
        booktitle = {Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning},
        link = {http://www.aclweb.org/anthology/D12-1083},
        pages = {904--915},
