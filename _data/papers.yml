@@ -51,6 +51,52 @@
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
+    year: 2011
+    selected: no
+    title: >
+      Supervised Topic Segmentation of Email Conversations
+    authors: Shafiq Joty, Giuseppe Carenini, Gabriel Murray, and Raymod Ng
+    id: joty-carenini-murray-ng-icwsm-11
+    img: joty-carenini-murray-ng-icwsm-11-fig
+    slides: media/joty-carenini-murray-ng-icwsm-11.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 530-533
+    booktitle: >
+      Proceedings of the Fifth International AAAI Conference on Weblogs and Social Media (ICWSM'11)
+    doc-url: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2882/3228
+    abstract: >
+      We propose a graph-theoretic supervised topic segmentation model for email conversations which combines (i) lexical knowledge, (ii) conversational features, and (iii) topic features. We compare our results with the existing unsupervised models (i.e., LCSeg and LDA), and with their two extensions for email conversations (i.e., LCSeg+FQG and LDA+FQG) that not only use lexical information but also exploit finer conversation structure. Empirical evaluation shows that our supervised model is the best performer and achieves highest accuracy by combining the three different knowledge sources, where knowledge about the conversation has proved to be the most important indicator for segmenting emails.
+    bibtex: >
+      @inproceedings{joty-carenini-murray-ng-icwsm-11,
+       abstract = {We propose a graph-theoretic supervised topic segmentation
+      model for email conversations which combines
+      (i) lexical knowledge, (ii) conversational features, and
+      (iii) topic features. We compare our results with the existing
+      unsupervised models (i.e., LCSeg and LDA), and
+      with their two extensions for email conversations (i.e., LCSeg+FQG and LDA+FQG) that not only use lexical
+      information but also exploit finer conversation structure.
+      Empirical evaluation shows that our supervised model
+      is the best performer and achieves highest accuracy by
+      combining the three different knowledge sources, where
+      knowledge about the conversation has proved to be the
+      most important indicator for segmenting emails.},
+       address = {Barcelona, Spain},
+       author = {Shafiq Joty and Giuseppe Carenini and Gabriel Murray and Raymod Ng},
+       booktitle = {Proceedings of the Fifth International AAAI Conference on Weblogs and Social Media},
+       link = {https://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2882/3228},
+       pages = {530--533},
+       publisher = {AAAI},
+       series = {ICWSM'11},
+       title = {Supervised Topic Segmentation of Email Conversations},
+       year = {2011}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
     year: 2012
     selected: no
     title: >
