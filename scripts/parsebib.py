@@ -83,8 +83,14 @@ def parse(bibfile):
 			else:
 				venue=""
 
-			sel = "yes" if entry["ENTRYTYPE"] == "article" else "no"
-			con = "journal" if entry["ENTRYTYPE"] == "article" else "conference"
+			if entry["ENTRYTYPE"] == "article":
+				sel    = "yes"
+				con    = "journal"
+				slides = "media/" + entry["ID"] + ".pdf"
+			else:	 
+				sel    = "no"
+				con    = "conference"
+				slides = "\# e.g. media/$ID.pptx"
 
 			print( "  -")
 			print ("    layout: paper")
@@ -95,7 +101,7 @@ def parse(bibfile):
 			print ("    authors: "+ authors)
 			print ("    id: "  + entry["ID"])
 			print ("    img: " + entry["ID"] + "-fig") #image_id to be found in img/paper/ID.jpg"
-			print ("    slides: " + "media/" + entry["ID"] + ".pdf") # e.g. media/$ID.pptx ")
+			print ("    slides: " + slides) # e.g. media/$ID.pptx ")
 			print ("    code: #e.g. github.com/project")
 			print ("    errata: #if you have errata, insert here")
 			print ("    venue: " + con) #conference #book[chapters], conference[journal],  workshop[demo], techreport")
