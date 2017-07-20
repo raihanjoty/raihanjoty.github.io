@@ -5,7 +5,7 @@
     selected: no
     title: >
       Exploiting Conversation Structure in Unsupervised Topic Segmentation for Emails
-    authors: Shafiq Joty, Giuseppe Carenini, Gabriel Murray, and Raymond T
+    authors: Shafiq Joty, Giuseppe Carenini, Gabriel Murray, and Raymond Ng
     id: joty-carenini-murray-ng-emnlp-10
     img: joty-carenini-murray-ng-emnlp-10-fig
     slides: media/joty-carenini-murray-ng-emnlp-10.pdf
@@ -42,7 +42,7 @@
       into these models improves the performance
       significantly},
        address = {Massachusetts, USA},
-       author = {Shafiq Joty and Giuseppe Carenini and Gabriel Murray and Raymond T Ng},
+       author = {Shafiq Joty and Giuseppe Carenini and Gabriel Murray and Raymond Ng},
        booktitle = {Proceedings of the conference on Empirical Methods in Natural Language Processing},
        link = {http://www.aclweb.org/anthology/D10-1038},
        pages = {388--398},
@@ -236,7 +236,7 @@
     selected: yes
     title: >
       Topic Segmentation and Labeling in Asynchronous Conversations
-    authors: Shafiq Joty, Giuseppe Carenini, and Raymond T
+    authors: Shafiq Joty, Giuseppe Carenini, and Raymond Ng
     id: joty-carenini-ng-jair-13
     img: joty-carenini-ng-jair-13-fig
     slides: # e.g. media/$ID.pptx
@@ -264,7 +264,7 @@
       from two different sources: the leading sentences and the fine-grained conversational structure.
       Empirical evaluation shows that the segmentation and the labeling performed by our
       best models beat the state-of-the-art, and are highly correlated with human annotations.},
-       author = {Shafiq Joty and Giuseppe Carenini and Raymond T Ng},
+       author = {Shafiq Joty and Giuseppe Carenini and Raymond Ng},
        journal = {Journal of Artificial Intelligence Research},
        link = {https://www.jair.org/media/3940/live-3940-7166-jair.pdf},
        pages = {521--573},
