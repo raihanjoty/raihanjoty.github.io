@@ -1,5 +1,74 @@
   -
     layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2014
+    selected: no
+    title: >
+      Using Discourse Structure Improves Machine Translation Evaluation
+    authors: Francisco Guzmán, Shafiq Joty, Lluís Màrquez, and Preslav Nakov
+    id: guzman-joty-marquez-nakov-acl-14
+    img: guzman-joty-marquez-nakov-acl-14-fig
+    slides: media/guzman-joty-marquez-nakov-acl-14.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 687-698
+    booktitle: >
+      Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (ACL'14)
+    doc-url: http://www.aclweb.org/anthology/P/P14/P14-1065
+    abstract: >
+      We present experiments in using discourse structure for improving machine translation evaluation. We first design two discourse-aware similarity measures, which use all-subtree kernels to compare discourse parse trees in accordance with the Rhetorical Structure Theory. Then, we show that these measures can help improve a number of existing machine translation evaluation metrics both at the segmentand at the system-level. Rather than proposing a single new metric, we show that discourse information is complementary to the state-of-the-art evaluation metrics, and thus should be taken into account in the development of future richer evaluation metrics.
+    bibtex: >
+      @inproceedings{guzman-joty-marquez-nakov-acl-14,
+       abstract = {We present experiments in using discourse structure for improving machine translation evaluation. We first design two discourse-aware similarity measures, which use all-subtree kernels to compare discourse parse trees in accordance with the Rhetorical Structure Theory. Then, we show that these measures can help improve a number of existing machine translation evaluation metrics both at the segmentand at the system-level. Rather than proposing a single new metric, we show that discourse information is complementary to the state-of-the-art evaluation metrics, and thus should be taken into account in the development of future richer evaluation metrics.},
+       address = {Baltimore, Maryland, USA},
+       author = {Guzm\'{a}n, Francisco  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav},
+       booktitle = {Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics},
+       link = {http://www.aclweb.org/anthology/P/P14/P14-1065},
+       month = {June},
+       pages = {687--698},
+       publisher = {Association for Computational Linguistics},
+       series = {ACL'14},
+       title = {Using Discourse Structure Improves Machine Translation Evaluation},
+       year = {2014}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2014
+    selected: no
+    title: >
+      Learning to Differentiate Better from Worse Translations
+    authors: Francisco Guzmán, Shafiq Joty, Lluís Màrquez, Alessandro Moschitti, Preslav Nakov, and Massimo Nicosia
+    id: guzman-et-al-emnlp-14
+    img: guzman-et-al-emnlp-14-fig
+    slides: media/guzman-et-al-emnlp-14.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 214-220
+    booktitle: >
+      Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP'14)
+    doc-url: http://www.aclweb.org/anthology/D14-1027
+    bibtex: >
+      @inproceedings{guzman-et-al-emnlp-14,
+       address = {Doha, Qatar},
+       author = {Guzm\'{a}n, Francisco  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Moschitti, Alessandro  and  Nakov, Preslav  and  Nicosia, Massimo},
+       booktitle = {Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing},
+       link = {http://www.aclweb.org/anthology/D14-1027},
+       month = {October},
+       pages = {214--220},
+       publisher = {Association for Computational Linguistics},
+       series = {EMNLP'14},
+       title = {Learning to Differentiate Better from Worse Translations},
+       year = {2014}
+      }
+      
+      
+  -
+    layout: paper
     paper-type: article #changes display of reference in paper list
     year: 2015
     selected: yes
