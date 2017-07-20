@@ -49,6 +49,99 @@
     year: 2015
     selected: no
     title: >
+      Pairwise Neural Machine Translation Evaluation
+    authors: Francisco Guzmán, Shafiq Joty, Lluís Màrquez, and Preslav Nakov
+    id: guzman-joty-marquez-nakov-acl-15
+    img: guzman-joty-marquez-nakov-acl-15-fig
+    slides: media/guzman-joty-marquez-nakov-acl-15.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 805-814
+    booktitle: >
+      Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and The 7th International Joint Conference of the Asian Federation of Natural Language Processing (ACL'15)
+    doc-url: http://www.aclweb.org/anthology/P15-1078
+    abstract: >
+      We present a novel framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation. In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses is compacted into relatively small distributed vector representations, and fed into a multi-layer neural network that models the interaction between each of the hypotheses and the reference, as well as between the two hypotheses. These compact representations are in turn based on word and sentence embeddings, which are learned using neural networks. The framework is flexible, allows for efficient learning and classification, and yields correlation with humans that rivals the state of the art.
+    bibtex: >
+      @inproceedings{guzman-joty-marquez-nakov-acl-15,
+       abstract = {We present a novel framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation. In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses is compacted into relatively small distributed vector representations, and fed into a multi-layer neural network that models the interaction between each of the hypotheses and the reference, as well as between the two hypotheses. These compact representations are in turn based on word and sentence embeddings, which are learned using neural networks. The framework is flexible, allows for efficient learning and classification, and yields correlation with humans that rivals the state of the art.},
+       address = {Beijing, China},
+       author = {Guzm\'{a}n, Francisco  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav},
+       booktitle = {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and The 7th International Joint Conference of the Asian
+      Federation of Natural Language Processing},
+       link = {http://www.aclweb.org/anthology/P15-1078},
+       month = {July},
+       pages = {805--814},
+       publisher = {Association for Computational Linguistics},
+       series = {ACL'15},
+       title = {Pairwise Neural Machine Translation Evaluation},
+       year = {2015}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2015
+    selected: no
+    title: >
+      Thread-Level Information for Comment Classification in Community Question Answering
+    authors: Alberto Barron-Cedeno, Simone Filice, Giovanni Da San Martino, Shafiq Joty, Lluís Màrquez, Preslav Nakov, and Alessandro Moschitti
+    id: cedeno-et-al-acl-15
+    img: cedeno-et-al-acl-15-fig
+    slides: media/cedeno-et-al-acl-15.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 687-693
+    booktitle: >
+      Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)
+    doc-url: http://www.aclweb.org/anthology/P15-2113
+    abstract: >
+      Community Question Answering (cQA) is a new application of QA in social contexts (e.g., fora). It presents new interesting challenges and research directions, e.g., exploiting the dependencies between the different comments of a thread to select the best answer for a given question. In this paper, we explored two ways of modeling such dependencies: (i) by designing specific features looking globally at the thread; and (ii) by applying structure prediction models. We trained and evaluated our models on data from SemEval-2015 Task 3 on Answer Selection in cQA. Our experiments show that: (i) the thread-level features consistently improve the performance for a variety of machine learning models, yielding state-of-the-art results; and (ii) sequential dependencies between the answer labels captured by structured prediction models are not enough to improve the results, indicating that more information is needed in the joint model.
+    bibtex: >
+      @inproceedings{cedeno-et-al-acl-15,
+       abstract = {Community Question Answering (cQA) is
+      a new application of QA in social contexts
+      (e.g., fora). It presents new interesting
+      challenges and research directions, e.g., exploiting the dependencies between the
+      different comments of a thread to select
+      the best answer for a given question. In
+      this paper, we explored two ways of modeling
+      such dependencies: (i) by designing
+      specific features looking globally at the
+      thread; and (ii) by applying structure prediction
+      models. We trained and evaluated
+      our models on data from SemEval-2015
+      Task 3 on Answer Selection in cQA. Our
+      experiments show that: (i) the thread-level
+      features consistently improve the performance
+      for a variety of machine learning
+      models, yielding state-of-the-art results;
+      and (ii) sequential dependencies between
+      the answer labels captured by structured
+      prediction models are not enough to improve
+      the results, indicating that more information
+      is needed in the joint model.},
+       address = {Beijing, China},
+       author = {Barron-Cedeno, Alberto  and  Filice, Simone  and  Da San Martino, Giovanni  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav  and  Moschitti, Alessandro},
+       booktitle = {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)},
+       link = {http://www.aclweb.org/anthology/P15-2113},
+       month = {July},
+       pages = {687--693},
+       publisher = {Association for Computational Linguistics},
+       title = {Thread-Level Information for Comment Classification in Community Question Answering},
+       year = {2015}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2015
+    selected: no
+    title: >
       How to Avoid Unwanted Pregnancies: Domain Adaptation using Neural Network Models
     authors: Shafiq Joty, Hassan Sajjad, Nadir Durrani, Kamla Al-Mannai, Ahmed Abdelali, and Stephan Vogel
     id: joty-et-al-emnlp-15-1
@@ -150,7 +243,7 @@
     selected: no
     title: >
       Global Thread-level Inference for Comment Classification in Community Question Answering
-    authors: Shafiq Joty, Alberto Barr\'on-Cede\~no, Giovanni Da San Martino, Simone Filice, Lluís Màrquez, Alessandro Moschitti, and Preslav Nakov
+    authors: Shafiq Joty, Alberto Barron-Cedeno, Giovanni Da San Martino, Simone Filice, Lluís Màrquez, Alessandro Moschitti, and Preslav Nakov
     id: joty-et-al-emnlp-15-2
     img: joty-et-al-emnlp-15-2-fig
     slides: media/joty-et-al-emnlp-15-2.pdf
@@ -185,7 +278,7 @@
       improved over the state of the art, confirming
       the importance of using thread level information.},
        address = {Lisbon, Portugal},
-       author = {Joty, Shafiq  and  Barr\'{o}n-Cede\~{n}o, Alberto  and  Da San Martino, Giovanni  and  Filice, Simone  and  M\`{a}rquez, Llu\'{i}s  and  Moschitti, Alessandro  and  Nakov, Preslav},
+       author = {Joty, Shafiq  and  Barron-Cedeno, Alberto  and  Da San Martino, Giovanni  and  Filice, Simone  and  M\`{a}rquez, Llu\'{i}s  and  Moschitti, Alessandro  and  Nakov, Preslav},
        booktitle = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing},
        link = {https://aclweb.org/anthology/D/D15/D15-1068},
        pages = {573--578},
@@ -582,8 +675,12 @@
     pages: 161-179
     journal: Computer Speech & Language
     doc-url: http://www.sciencedirect.com/science/article/pii/S0885230816301474
+    abstract: >
+      We explore neural joint models for the task of domain adaptation in machine translation in two ways: (i) we apply state-of-the-art domain adaptation techniques, such as mixture modelling and data selection using the recently proposed Neural Network Joint Model (NNJM) (Devlin et al., 2014); (ii) we propose two novel approaches to perform adaptation through instance weighting and weight readjustment in the NNJM framework. In our first approach, we propose a pair of models called Neural Domain Adaptation Models (NDAM) that minimizes the cross entropy by regularizing the loss function with respect to in-domain (and optionally to out-domain) model. In the second approach, we present a set of Neural Fusion Models (NFM) that combines the in- and the out-domain models by readjusting their parameters based on the in-domain data. We evaluated our models on the standard task of translating English-to-German and Arabic-to-English TED talks. The NDAM models achieved better perplexities and modest BLEU improvements compared to the baseline NNJM, trained either on in-domain or on a concatenation of in- and out-domain data. On the other hand, the NFM models obtained significant improvements of up to +0.9 and +0.7 BLEU points, respectively. We also demonstrate improvements over existing adaptation methods such as instance weighting, phrasetable fill-up, linear and log-linear interpolations.
     bibtex: >
       @article{joty-durrani-sajjad-abdelali-csl-17,
+       abstract = {We explore neural joint models for the task of domain adaptation in machine translation in two ways: (i) we apply state-of-the-art domain adaptation techniques, such as mixture modelling and data selection using the recently proposed Neural Network Joint Model (NNJM) (Devlin et al., 2014); (ii) we propose two novel approaches to perform adaptation through instance weighting and weight readjustment in the NNJM framework. In our first approach, we propose a pair of models called Neural Domain Adaptation Models (NDAM) that minimizes the cross entropy by regularizing the loss function with respect to in-domain (and optionally to out-domain) model. In the second approach, we present a set of Neural Fusion Models (NFM) that combines the in- and the out-domain models by readjusting their parameters based on the in-domain data.
+      We evaluated our models on the standard task of translating English-to-German and Arabic-to-English TED talks. The NDAM models achieved better perplexities and modest BLEU improvements compared to the baseline NNJM, trained either on in-domain or on a concatenation of in- and out-domain data. On the other hand, the NFM models obtained significant improvements of up to +0.9 and +0.7 BLEU points, respectively. We also demonstrate improvements over existing adaptation methods such as instance weighting, phrasetable fill-up, linear and log-linear interpolations.},
        author = {Shafiq Joty and Nadir Durrani and Hassan Sajjad and Ahmed Abdelali},
        doi = {https://doi.org/10.1016/j.csl.2016.12.006},
        issn = {0885-2308},
