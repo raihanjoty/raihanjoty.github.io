@@ -159,49 +159,6 @@
       
   -
     layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2014
-    selected: no
-    title: >
-      A Study of using Syntactic and Semantic Structures for Concept Segmentation and Labeling
-    authors: Iman Saleh, Scott Cyphers, Jim Glass, Shafiq Joty, Lluís Màrquez, Alessandro Moschitti, and Preslav Nakov
-    id: saleh-et-al-coling-14
-    img: saleh-et-al-coling-14-fig
-    slides: media/saleh-et-al-coling-14.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    pages: 193-202
-    booktitle: >
-      Proceedings of COLING 2014, the 25th International Conference on Computational Linguistics: Technical Papers (COLING'14)
-    doc-url: http://www.aclweb.org/anthology/C14-1020
-    abstract: >
-      This paper presents an empirical study on using syntactic and semantic information for Concept Segmentation and Labeling (CSL), a well-known component in spoken language understanding. Our approach is based on reranking N-best outputs from a state-of-the-art CSL parser. We perform extensive experimentation by comparing different tree-based kernels with a variety of representations of the available linguistic information, including semantic concepts, words, POS tags, shallow and full syntax, and discourse trees. The results show that the structured representation with the semantic concepts yields significant improvement over the base CSL parser, much larger compared to learning with an explicit feature vector representation. We also show that shallow syntax helps improve the results and that discourse relations can be partially beneficial.
-    bibtex: >
-      @inproceedings{saleh-et-al-coling-14,
-       abstract = {This paper presents an empirical study on using syntactic and semantic information for Concept Segmentation and Labeling (CSL), a well-known component in spoken language understanding.
-      Our approach is based on reranking N-best outputs from a state-of-the-art CSL parser. We
-      perform extensive experimentation by comparing different tree-based kernels with a variety of
-      representations of the available linguistic information, including semantic concepts, words, POS
-      tags, shallow and full syntax, and discourse trees. The results show that the structured representation
-      with the semantic concepts yields significant improvement over the base CSL parser, much
-      larger compared to learning with an explicit feature vector representation. We also show that
-      shallow syntax helps improve the results and that discourse relations can be partially beneficial.},
-       address = {Dublin, Ireland},
-       author = {Saleh, Iman  and  Cyphers, Scott  and  Glass, Jim  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Moschitti, Alessandro  and  Nakov, Preslav},
-       booktitle = {Proceedings of COLING 2014, the 25th International Conference on Computational Linguistics: Technical Papers},
-       link = {http://www.aclweb.org/anthology/C14-1020},
-       month = {August},
-       pages = {193--202},
-       publisher = {Dublin City University and Association for Computational Linguistics},
-       series = {COLING'14},
-       title = {A Study of using Syntactic and Semantic Structures for Concept Segmentation and Labeling},
-       year = {2014}
-      }
-      
-      
-  -
-    layout: paper
     paper-type: article #changes display of reference in paper list
     year: 2015
     selected: yes
