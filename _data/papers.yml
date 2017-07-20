@@ -45,6 +45,158 @@
       
   -
     layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2015
+    selected: no
+    title: >
+      How to Avoid Unwanted Pregnancies: Domain Adaptation using Neural Network Models
+    authors: Shafiq Joty, Hassan Sajjad, Nadir Durrani, Kamla Al-Mannai, Ahmed Abdelali, and Stephan Vogel
+    id: joty-et-al-emnlp-15-1
+    img: joty-et-al-emnlp-15-1-fig
+    slides: media/joty-et-al-emnlp-15-1.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 1259-1270
+    booktitle: >
+      Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP'15)
+    doc-url: http://aclweb.org/anthology/D15-1147
+    abstract: >
+      We present novel models for domain adaptation based on the neural network joint model (NNJM). Our models maximize the cross entropy by regularizing the loss function with respect to in-domain model. Domain adaptation is carried out by assigning higher weight to out-domain sequences that are similar to the in-domain data. In our alternative model we take a more restrictive approach by additionally penalizing sequences similar to the outdomain data. Our models achieve better perplexities than the baseline NNJM models and give improvements of up to 0.5 and 0.6 BLEU points in Arabic-to-English and English-to-German language pairs, on a standard task of translating TED talks.
+    bibtex: >
+      @inproceedings{joty-et-al-emnlp-15-1,
+       abstract = {We present novel models for domain adaptation
+      based on the neural network joint
+      model (NNJM). Our models maximize
+      the cross entropy by regularizing the loss
+      function with respect to in-domain model.
+      Domain adaptation is carried out by assigning
+      higher weight to out-domain sequences
+      that are similar to the in-domain
+      data. In our alternative model we take a
+      more restrictive approach by additionally
+      penalizing sequences similar to the outdomain
+      data. Our models achieve better
+      perplexities than the baseline NNJM models
+      and give improvements of up to 0.5
+      and 0.6 BLEU points in Arabic-to-English
+      and English-to-German language pairs, on
+      a standard task of translating TED talks.},
+       address = {Lisbon, Portugal},
+       author = {Joty, Shafiq  and  Sajjad, Hassan  and  Durrani, Nadir  and  Al-Mannai, Kamla  and  Abdelali, Ahmed  and  Vogel, Stephan},
+       booktitle = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing},
+       link = {http://aclweb.org/anthology/D15-1147},
+       pages = {1259--1270},
+       publisher = {ACL},
+       series = {EMNLP'15},
+       title = {How to Avoid Unwanted Pregnancies: Domain Adaptation using Neural Network Models},
+       year = {2015}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2015
+    selected: no
+    title: >
+      Fine-grained Opinion Mining with Recurrent Neural Networks and Word Embeddings
+    authors: Pengfei Liu, Shafiq Joty, and Helen Meng
+    id: liu-joty-meng-emnlp-15
+    img: liu-joty-meng-emnlp-15-fig
+    slides: media/liu-joty-meng-emnlp-15.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 1433-1443
+    booktitle: >
+      Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP'15)
+    doc-url: http://aclweb.org/anthology/D15-1168
+    abstract: >
+      The tasks in fine-grained opinion mining can be regarded as either a token-level sequence labeling problem or as a semantic compositional task. We propose a general class of discriminative models based on recurrent neural networks (RNNs) and word embeddings that can be successfully applied to such tasks without any taskspecific feature engineering effort. Our experimental results on the task of opinion target identification show that RNNs, without using any hand-crafted features, outperform feature-rich CRF-based models. Our framework is flexible, allows us to incorporate other linguistic features, and achieves results that rival the top performing systems in SemEval-2014.
+    bibtex: >
+      @inproceedings{liu-joty-meng-emnlp-15,
+       abstract = {The tasks in fine-grained opinion mining
+      can be regarded as either a token-level sequence
+      labeling problem or as a semantic
+      compositional task. We propose a general
+      class of discriminative models based
+      on recurrent neural networks (RNNs) and
+      word embeddings that can be successfully
+      applied to such tasks without any taskspecific
+      feature engineering effort. Our
+      experimental results on the task of opinion
+      target identification show that RNNs, without using any hand-crafted features, outperform feature-rich CRF-based models.
+      Our framework is flexible, allows us to
+      incorporate other linguistic features, and
+      achieves results that rival the top performing
+      systems in SemEval-2014.},
+       address = {Lisbon, Portugal},
+       author = {Liu, Pengfei  and  Joty, Shafiq  and  Meng, Helen},
+       booktitle = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing},
+       link = {http://aclweb.org/anthology/D15-1168},
+       pages = {1433--1443},
+       publisher = {ACL},
+       series = {EMNLP'15},
+       title = {Fine-grained Opinion Mining with Recurrent Neural Networks and Word Embeddings},
+       year = {2015}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2015
+    selected: no
+    title: >
+      Global Thread-level Inference for Comment Classification in Community Question Answering
+    authors: Shafiq Joty, Alberto Barr\'on-Cede\~no, Giovanni Da San Martino, Simone Filice, Lluís Màrquez, Alessandro Moschitti, and Preslav Nakov
+    id: joty-et-al-emnlp-15-2
+    img: joty-et-al-emnlp-15-2-fig
+    slides: media/joty-et-al-emnlp-15-2.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 573-578
+    booktitle: >
+      Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing
+    doc-url: https://aclweb.org/anthology/D/D15/D15-1068
+    abstract: >
+      Community question answering, a recent evolution of question answering in the Web context, allows a user to quickly consult the opinion of a number of people on a particular topic, thus taking advantage of the wisdom of the crowd. Here we try to help the user by deciding automatically which answers are good and which are bad for a given question. In particular, we focus on exploiting the output structure at the thread level in order to make more consistent global decisions. More specifically, we exploit the relations between pairs of comments at any distance in the thread, which we incorporate in a graph-cut and in an ILP frameworks. We evaluated our approach on the benchmark dataset of SemEval-2015 Task 3. Results improved over the state of the art, confirming the importance of using thread level information.
+    bibtex: >
+      @inproceedings{joty-et-al-emnlp-15-2,
+       abstract = {Community question answering, a recent
+      evolution of question answering in the
+      Web context, allows a user to quickly consult
+      the opinion of a number of people on
+      a particular topic, thus taking advantage
+      of the wisdom of the crowd. Here we
+      try to help the user by deciding automatically
+      which answers are good and which
+      are bad for a given question. In particular, we focus on exploiting the output structure
+      at the thread level in order to make
+      more consistent global decisions. More
+      specifically, we exploit the relations between
+      pairs of comments at any distance
+      in the thread, which we incorporate in a
+      graph-cut and in an ILP frameworks. We
+      evaluated our approach on the benchmark
+      dataset of SemEval-2015 Task 3. Results
+      improved over the state of the art, confirming
+      the importance of using thread level information.},
+       address = {Lisbon, Portugal},
+       author = {Joty, Shafiq  and  Barr\'{o}n-Cede\~{n}o, Alberto  and  Da San Martino, Giovanni  and  Filice, Simone  and  M\`{a}rquez, Llu\'{i}s  and  Moschitti, Alessandro  and  Nakov, Preslav},
+       booktitle = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing},
+       link = {https://aclweb.org/anthology/D/D15/D15-1068},
+       pages = {573--578},
+       publisher = {ACL},
+       title = {Global Thread-level Inference for Comment Classification in Community Question Answering},
+       year = {2015}
+      }
+      
+      
+  -
+    layout: paper
     paper-type: article #changes display of reference in paper list
     year: 2016
     selected: yes
