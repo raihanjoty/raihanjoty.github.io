@@ -497,6 +497,46 @@
       
   -
     layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2010
+    selected: no
+    title: >
+      Exploiting Conversation Features for Finding Topics in Emails
+    authors: Shafiq Joty, Giuseppe Carenini, Gabriel Murray, and Raymond Ng
+    id: joty-carenini-murray-ng-nwnlp-10
+    img: joty-carenini-murray-ng-nwnlp-10-fig
+    slides: media/joty-carenini-murray-ng-nwnlp-10.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 388-398
+    booktitle: >
+      The Pacific Northwest Regional NLP Workshop (NWNLP'10)
+    doc-url: papers/joty-carenini-murray-ng-nwnlp-10
+    abstract: >
+      Our ongoing research addresses the task of finding topics at the sentence level in email conversations. We first describe how the existing topic models can be applied to this problem. Then we demonstrate why the existing methods are inadequate for this task and what more we need to consider. With an experiment we further show that conversation structure in the form of fragment quotation graph can be helpful for finding topics. To this end, we propose a novel graph-theoretic framework to solve the problem. Crucial to our proposed approach is that it captures the rich conversation features and integrates the strengths of the supervised approach with the unsupervised technique.
+    bibtex: >
+      @inproceedings{joty-carenini-murray-ng-nwnlp-10,
+       abstract = {Our ongoing research addresses the task of finding topics at the sentence level in email conversations. We first describe how
+      the existing topic models can be applied to this problem. Then we demonstrate why the existing methods are inadequate for
+      this task and what more we need to consider. With an experiment we further show that conversation structure in the form of
+      fragment quotation graph can be helpful for finding topics. To this end, we propose a novel graph-theoretic framework to solve
+      the problem. Crucial to our proposed approach is that it captures the rich conversation features and integrates the strengths of
+      the supervised approach with the unsupervised technique.},
+       address = {Massachusetts, USA},
+       author = {Shafiq Joty and Giuseppe Carenini and Gabriel Murray and Raymond Ng},
+       booktitle = {The Pacific Northwest Regional NLP Workshop},
+       link = {papers/joty-carenini-murray-ng-nwnlp-10},
+       pages = {388--398},
+       publisher = {ACL},
+       series = {NWNLP'10},
+       title = {Exploiting Conversation Features for Finding Topics in Emails},
+       year = {2010}
+      }
+      
+      
+  -
+    layout: paper
     paper-type: article #changes display of reference in paper list
     year: 2011
     selected: yes
