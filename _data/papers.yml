@@ -4,6 +4,40 @@
     year: 2008
     selected: no
     title: >
+      Unsupervised Approach for Selecting Sentences in Query-based Summarization.
+    authors: Yllias Chali, and Shafiq Joty
+    id: chali-joty-flairs-08
+    img: chali-joty-flairs-08-fig
+    slides: media/chali-joty-flairs-08.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 47-52
+    booktitle: >
+      Proceedings of the Twenty-First International FLAIRS Conference
+    doc-url: http://dblp.uni-trier.de/db/conf/flairs/flairs2008.html#ChaliJ08
+    abstract: >
+      When a user is served with a ranked list of relevant documents by the standard document search engines, his search task is usually not over. He has to go through the entire document contents to judge its relevance and to find the precise piece of information he was looking for. Query–relevant summarization tries to remove the onus on the end–user by providing more condensed and direct access to relevant information. Query–relevant summarization is the task to synthesize a fluent, well–organized summary of the document collection that answers the user questions. We extracted several features of different types (i.e. lexical, lexical semantic, statistical and cosine similarity ) for each of the sentences in the document collection in order to measure its relevancy to the user query. We experimented with two well–known unsupervised statistical machine learning techniques: K–means and EM algorithms and evaluated their performances. For all these methods of generating summaries, we have shown the effects of different kinds of features.
+    bibtex: >
+      @inproceedings{chali-joty-flairs-08,
+       abstract = {When a user is served with a ranked list of relevant documents by the standard document search engines, his search task is usually not over. He has to go through the entire document contents to judge its relevance and to find the precise piece of information he was looking for. Query–relevant summarization tries to remove the onus on the end–user by providing more condensed and direct access to relevant information. Query–relevant summarization is the task to synthesize a fluent, well–organized summary of the document collection that answers the user questions. We extracted several features of different types (i.e. lexical, lexical semantic, statistical and cosine similarity ) for each of the sentences in the document collection in order to measure its relevancy to the user query. We experimented with two well–known unsupervised statistical machine learning techniques: K–means and EM algorithms and evaluated their performances. For all these methods of generating summaries, we have shown the effects of different kinds of features.},
+       author = {Chali, Yllias and Joty, Shafiq},
+       booktitle = {Proceedings of the Twenty-First International FLAIRS Conference},
+       isbn = {978-1-57735-365-2},
+       link = {http://dblp.uni-trier.de/db/conf/flairs/flairs2008.html#ChaliJ08},
+       pages = {47-52},
+       publisher = {AAAI Press},
+       title = {Unsupervised Approach for Selecting Sentences in Query-based Summarization.},
+       year = {2008}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2008
+    selected: no
+    title: >
       Improving the Performance of the Random Walk Model for Answering Complex Questions
     authors: Yllias Chali, and Shafiq Joty
     id: chali-joty-acl-08
@@ -224,15 +258,17 @@
     booktitle: >
       Proceedings of the 22Nd Canadian Conference on Artificial Intelligence: Advances in Artificial Intelligence (Canadian AI '09)
     doc-url: http://dx.doi.org/10.1007/978-3-642-01818-3_23
+    abstract: >
+      In this paper, we present a Support Vector Machine (SVM) based ensemble approach to combat the extractive multi-document summarization problem. Although SVM can have a good generalization ability, it may experience a performance degradation through wrong classifications. We use a committee of several SVMs, i.e. Cross-Validation Committees (CVC), to form an ensemble of classifiers where the strategy is to improve the performance by correcting errors of one classifier using the accurate output of others. The practicality and effectiveness of this technique is demonstrated using the experimental results.
     bibtex: >
       @inproceedings{chali-hasan-joty-cai-09,
+       abstract = {In this paper, we present a Support Vector Machine (SVM) based ensemble approach to combat the extractive multi-document summarization problem. Although SVM can have a good generalization ability, it may experience a performance degradation through wrong classifications. We use a committee of several SVMs, i.e. Cross-Validation Committees (CVC), to form an ensemble of classifiers where the strategy is to improve the performance by correcting errors of one classifier using the accurate output of others. The practicality and effectiveness of this technique is demonstrated using the experimental results.},
        acmid = {1560492},
        address = {Berlin, Heidelberg},
        author = {Chali, Yllias and Hasan, Sadid and Joty, Shafiq},
        booktitle = {Proceedings of the 22Nd Canadian Conference on Artificial Intelligence: Advances in Artificial Intelligence},
        doi = {10.1007/978-3-642-01818-3_23},
        isbn = {978-3-642-01817-6},
-       keyword = {In this paper, we present a Support Vector Machine (SVM) based ensemble approach to combat the extractive multi-document summarization problem. Although SVM can have a good generalization ability, it may experience a performance degradation through wrong classifications. We use a committee of several SVMs, i.e. Cross-Validation Committees (CVC), to form an ensemble of classifiers where the strategy is to improve the performance by correcting errors of one classifier using the accurate output of others. The practicality and effectiveness of this technique is demonstrated using the experimental results.},
        link = {http://dx.doi.org/10.1007/978-3-642-01818-3_23},
        location = {Kelowna, Canada},
        numpages = {4},
