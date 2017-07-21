@@ -357,7 +357,7 @@
     venue: conference
     pages: 329-332
     booktitle: >
-      Proceedings of the ACL-IJCNLP 2009 Conference Short Papers
+      Proceedings of the ACL-IJCNLP 2009 Conference (ACL'09)
     doc-url: http://www.aclweb.org/anthology/P/P09/P09-2083
     abstract: >
       In this paper, we analyze the impact of different automatic annotation methods on the performance of supervised approaches to the complex question answering problem (defined in the DUC-2007 main task). Huge amount of annotated or labeled data is a prerequisite for supervised training. The task of labeling can be accomplished either by humans or by computer programs. When humans are employed, the whole process becomes time consuming and expensive. So, in order to produce a large set of labeled data we prefer the automatic annotation strategy. We apply five different automatic annotation techniques to produce labeled data using ROUGE similarity measure, Basic Element (BE) overlap, syntactic similarity measure, semantic similarity measure, and Extended String Subsequence Kernel (ESSK). The representative supervised methods we use are Support Vector Machines (SVM), Conditional Random Fields (CRF), Hidden Markov Models (HMM), and Maximum Entropy (MaxEnt). Evaluation results are presented to show the impact.
@@ -390,11 +390,12 @@
       show the impact.},
        address = {Suntec, Singapore},
        author = {Chali, Yllias  and  Hasan, Sadid  and  Joty, Shafiq},
-       booktitle = {Proceedings of the ACL-IJCNLP 2009 Conference Short Papers},
+       booktitle = {Proceedings of the ACL-IJCNLP 2009 Conference},
        link = {http://www.aclweb.org/anthology/P/P09/P09-2083},
        month = {August},
        pages = {329--332},
        publisher = {Association for Computational Linguistics},
+       series = {ACL'09},
        title = {Do Automatic Annotation Techniques Have Any Impact on Supervised Complex Question Answering?},
        year = {2009}
       }
