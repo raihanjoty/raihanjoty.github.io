@@ -751,6 +751,64 @@
       
   -
     layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2012
+    selected: no
+    title: >
+      Automatic Topic Labeling in Asynchronous Conversations
+    authors: Shafiq Joty, Giuseppe Carenini, and Raymond Ng
+    id: joty-carenini-ng-nwnlp-12
+    img: joty-carenini-ng-nwnlp-12-fig
+    slides: media/joty-carenini-ng-nwnlp-12.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      The Pacific Northwest Regional NLP Workshop (NWNLP'12)
+    doc-url: papers/joty-carenini-ng-nwnlp-12
+    bibtex: >
+      @inproceedings{joty-carenini-ng-nwnlp-12,
+       address = {Microsoft Research, Redmond},
+       author = {Shafiq Joty and Giuseppe Carenini and Raymond Ng},
+       booktitle = {The Pacific Northwest Regional NLP Workshop},
+       link = {papers/joty-carenini-ng-nwnlp-12},
+       series = {NWNLP'12},
+       title = {Automatic Topic Labeling in Asynchronous Conversations},
+       year = {2012}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2012
+    selected: no
+    title: >
+      Detecting Informative Blog Comments using Tree Structured Conditional Random Fields
+    authors: Wei Jin, Shafiq Joty, Giuseppe Carenini, and Raymond Ng
+    id: jin-joty-carenini-ng-nwnlp-12
+    img: jin-joty-carenini-ng-nwnlp-12-fig
+    slides: media/jin-joty-carenini-ng-nwnlp-12.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      The Pacific Northwest Regional NLP Workshop (NWNLP'12)
+    doc-url: papers/jin-joty-carenini-ng-nwnlp-12
+    bibtex: >
+      @inproceedings{jin-joty-carenini-ng-nwnlp-12,
+       address = {Microsoft Research, Redmond},
+       author = {Wei Jin and Shafiq Joty and Giuseppe Carenini and Raymond Ng},
+       booktitle = {The Pacific Northwest Regional NLP Workshop},
+       link = {papers/jin-joty-carenini-ng-nwnlp-12},
+       series = {NWNLP'12},
+       title = {Detecting Informative Blog Comments using Tree Structured Conditional Random Fields},
+       year = {2012}
+      }
+      
+      
+  -
+    layout: paper
     paper-type: article #changes display of reference in paper list
     year: 2013
     selected: yes
