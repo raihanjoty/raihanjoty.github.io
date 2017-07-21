@@ -1,5 +1,62 @@
   -
     layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2009
+    selected: yes
+    title: >
+      Complex Question Answering: Unsupervised Learning Approaches and Experiments
+    authors: Yllias Chali, Shafiq Joty, and Sadid Hasan
+    id: chali-joty-hasan-jair-09
+    img: chali-joty-hasan-jair-09-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    pages: 1-47
+    journal: Journal of Artificial Intelligence Research
+    doc-url: https://www.jair.org/media/2784/live-2784-4446-jair.pdf
+    abstract: >
+      Complex questions that require inferencing and synthesizing information from multiple documents can be seen as a kind of topic-oriented, informative multi-document summarization where the goal is to produce a single text as a compressed version of a set of documents with a minimum loss of relevant information. In this paper, we experiment with one empirical method and two unsupervised statistical machine learning techniques: K-means and Expectation Maximization (EM), for computing relative importance of the sentences. We compare the results of these approaches. Our experiments show that the empirical approach outperforms the other two techniques and EM performs better than K-means. However, the performance of these approaches depends entirely on the feature set used and the weighting of these features. In order to measure the importance and relevance to the user query we extract different kinds of features (i.e. lexical, lexical semantic, cosine similarity, basic element, tree kernel based syntactic and shallow-semantic) for each of the document sentences. We use a local search technique to learn the weights of the features. To the best of our knowledge, no study has used tree kernel functions to encode syntactic/semantic information for more complex tasks such as computing the relatedness between the query sentences and the document sentences in order to generate query-focused summaries (or answers to complex questions). For each of our methods of generating summaries (i.e. empirical, K-means and EM) we show the effects of syntactic and shallow-semantic features over the bag-of-words (BOW) features.
+    bibtex: >
+      @article{chali-joty-hasan-jair-09,
+       abstract = {Complex questions that require inferencing and synthesizing information from multiple
+      documents can be seen as a kind of topic-oriented, informative multi-document summarization
+      where the goal is to produce a single text as a compressed version of a set of
+      documents with a minimum loss of relevant information. In this paper, we experiment
+      with one empirical method and two unsupervised statistical machine learning techniques:
+      K-means and Expectation Maximization (EM), for computing relative importance of the
+      sentences. We compare the results of these approaches. Our experiments show that the
+      empirical approach outperforms the other two techniques and EM performs better than
+      K-means. However, the performance of these approaches depends entirely on the feature
+      set used and the weighting of these features. In order to measure the importance and
+      relevance to the user query we extract different kinds of features (i.e. lexical, lexical semantic, cosine similarity, basic element, tree kernel based syntactic and shallow-semantic)
+      for each of the document sentences. We use a local search technique to learn the weights
+      of the features. To the best of our knowledge, no study has used tree kernel functions
+      to encode syntactic/semantic information for more complex tasks such as computing the
+      relatedness between the query sentences and the document sentences in order to generate
+      query-focused summaries (or answers to complex questions). For each of our methods of
+      generating summaries (i.e. empirical, K-means and EM) we show the effects of syntactic
+      and shallow-semantic features over the bag-of-words (BOW) features.},
+       acmid = {1641504},
+       address = {USA},
+       author = {Chali, Yllias and Joty, Shafiq and Hasan, Sadid},
+       issn = {1076-9757},
+       issue_date = {2009},
+       journal = {Journal of Artificial Intelligence Research},
+       link = {https://www.jair.org/media/2784/live-2784-4446-jair.pdf},
+       month = {may},
+       number = {1},
+       numpages = {47},
+       pages = {1--47},
+       publisher = {AI Access Foundation},
+       title = {Complex Question Answering: Unsupervised Learning Approaches and Experiments},
+       volume = {35},
+       year = {2009}
+      }
+      
+      
+  -
+    layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2010
     selected: no
