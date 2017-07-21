@@ -1,5 +1,97 @@
   -
     layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2008
+    selected: no
+    title: >
+      Improving the Performance of the Random Walk Model for Answering Complex Questions
+    authors: Yllias Chali, and Shafiq Joty
+    id: chali-joty-acl-08
+    img: chali-joty-acl-08-fig
+    slides: media/chali-joty-acl-08.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 9-12
+    booktitle: >
+      Proceedings of the 46th Annual Meeting of the Association for Computational Linguistics (ACL'08)
+    doc-url: http://www.aclweb.org/anthology/P08-2003
+    abstract: >
+      We consider the problem of answering complex questions that require inferencing and synthesizing information from multiple documents and can be seen as a kind of topic-oriented, informative multi-document summarization. The stochastic, graph-based method for computing the relative importance of textual units (i.e. sentences) is very successful in generic summarization. In this method, a sentence is encoded as a vector in which each component represents the occurrence frequency (TF*IDF) of a word. However, the major limitation of the TF*IDF approach is that it only retains the frequency of the words and does not take into account the sequence, syntactic and semantic information. In this paper, we study the impact of syntactic and shallow semantic information in the graph-based method for answering complex questions.
+    bibtex: >
+      @inproceedings{chali-joty-acl-08,
+       abstract = {We consider the problem of answering complex questions that require inferencing and synthesizing information from multiple documents and can be seen as a kind of topic-oriented, informative multi-document summarization. The stochastic, graph-based method for computing the relative importance of textual units (i.e. sentences) is very successful in generic summarization. In this method, a sentence is encoded as a vector in which each component represents the occurrence frequency (TF*IDF) of a word. However, the major limitation of the TF*IDF approach is that it only retains the frequency of the words and does not take into account the sequence, syntactic and semantic information. In this paper, we study the impact of syntactic and shallow semantic information in the graph-based method for answering complex questions.},
+       address = {Columbus, Ohio},
+       author = {Chali, Yllias and Joty, Shafiq},
+       booktitle = {Proceedings of the 46th Annual Meeting of the Association for Computational Linguistics},
+       link = {http://www.aclweb.org/anthology/P08-2003},
+       numpages = {4},
+       pages = {9--12},
+       publisher = {ACL},
+       series = {ACL'08},
+       title = {Improving the Performance of the Random Walk Model for Answering Complex Questions},
+       year = {2008}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2008
+    selected: no
+    title: >
+      Selecting Sentences for Answering Complex Questions
+    authors: Yllias Chali, and Shafiq Joty
+    id: chali-joty-emnlp-08
+    img: chali-joty-emnlp-08-fig
+    slides: media/chali-joty-emnlp-08.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 304-313
+    booktitle: >
+      Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP'08)
+    doc-url: http://www.aclweb.org/anthology/D/D08/D08-1032.pdf
+    abstract: >
+      Complex questions that require inferencing and synthesizing information from multiple documents can be seen as a kind of topicoriented, informative multi-document summarization. In this paper, we have experimented with one empirical and two unsupervised statistical machine learning techniques: kmeans and Expectation Maximization (EM), for computing relative importance of the sentences. However, the performance of these approaches depends entirely on the feature set used and the weighting of these features. We extracted different kinds of features (i.e. lexical, lexical semantic, cosine similarity, basic element, tree kernel based syntactic and shallow-semantic) for each of the document sentences in order to measure its importance and relevancy to the user query. We used a local search technique to learn the weights of the features. For all our methods of generating summaries, we have shown the effects of syntactic and shallow-semantic features over the bag of words (BOW) features.
+    bibtex: >
+      @inproceedings{chali-joty-emnlp-08,
+       abstract = {Complex questions that require inferencing
+      and synthesizing information from multiple
+      documents can be seen as a kind of topicoriented, informative multi-document summarization.
+      In this paper, we have experimented
+      with one empirical and two unsupervised
+      statistical machine learning techniques: kmeans
+      and Expectation Maximization (EM), for computing relative importance of the sentences.
+      However, the performance of these approaches
+      depends entirely on the feature set
+      used and the weighting of these features. We
+      extracted different kinds of features (i.e. lexical, lexical semantic, cosine similarity, basic
+      element, tree kernel based syntactic and
+      shallow-semantic) for each of the document
+      sentences in order to measure its importance
+      and relevancy to the user query. We used a
+      local search technique to learn the weights of
+      the features. For all our methods of generating
+      summaries, we have shown the effects of syntactic
+      and shallow-semantic features over the
+      bag of words (BOW) features.},
+       acmid = {1613757},
+       address = {Honolulu, Hawaii},
+       author = {Chali, Yllias and Joty, Shafiq},
+       booktitle = {Proceedings of the Conference on Empirical Methods in Natural Language Processing},
+       link = {http://www.aclweb.org/anthology/D/D08/D08-1032.pdf},
+       numpages = {10},
+       pages = {304--313},
+       publisher = {Association for Computational Linguistics},
+       series = {EMNLP'08},
+       title = {Selecting Sentences for Answering Complex Questions},
+       year = {2008}
+      }
+      
+      
+  -
+    layout: paper
     paper-type: article #changes display of reference in paper list
     year: 2009
     selected: yes
@@ -57,42 +149,98 @@
       
   -
     layout: paper
-    paper-type: article #changes display of reference in paper list
-    year: 2011
-    selected: yes
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2009
+    selected: no
     title: >
-      Improving Graph-based Random Walks for Complex Question Answering Using Syntactic, Shallow Semantic and Extended String Subsequence Kernels
+      Do Automatic Annotation Techniques Have Any Impact on Supervised Complex Question Answering?
     authors: Yllias Chali, Sadid Hasan, and Shafiq Joty
-    id: chali-hasan-joty-ipm-11
-    img: chali-hasan-joty-ipm-11-fig
-    slides: # e.g. media/$ID.pptx
+    id: chali-hasan-joty-acl-09
+    img: chali-hasan-joty-acl-09-fig
+    slides: media/chali-hasan-joty-acl-09.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
-    venue: journal
-    pages: 843-855
-    journal: Inf. Process. Manage.
-    doc-url: http://dx.doi.org/10.1016/j.ipm.2010.10.002
+    venue: conference
+    pages: 329-332
+    booktitle: >
+      Proceedings of the ACL-IJCNLP 2009 Conference Short Papers
+    doc-url: http://www.aclweb.org/anthology/P/P09/P09-2083
     abstract: >
-      The task of answering complex questions requires inferencing and synthesizing information from multiple documents that can be seen as a kind of topic-oriented, informative multi-document summarization. In generic summarization the stochastic, graph-based random walk method to compute the relative importance of textual units (i.e. sentences) is proved to be very successful. However, the major limitation of the TF^*IDF approach is that it only retains the frequency of the words and does not take into account the sequence, syntactic and semantic information. This paper presents the impact of syntactic and semantic information in the graph-based random walk method for answering complex questions. Initially, we apply tree kernel functions to perform the similarity measures between sentences in the random walk framework. Then, we extend our work further to incorporate the Extended String Subsequence Kernel (ESSK) to perform the task in a similar manner. Experimental results show the effectiveness of the use of kernels to include the syntactic and semantic information for this task.
+      In this paper, we analyze the impact of different automatic annotation methods on the performance of supervised approaches to the complex question answering problem (defined in the DUC-2007 main task). Huge amount of annotated or labeled data is a prerequisite for supervised training. The task of labeling can be accomplished either by humans or by computer programs. When humans are employed, the whole process becomes time consuming and expensive. So, in order to produce a large set of labeled data we prefer the automatic annotation strategy. We apply five different automatic annotation techniques to produce labeled data using ROUGE similarity measure, Basic Element (BE) overlap, syntactic similarity measure, semantic similarity measure, and Extended String Subsequence Kernel (ESSK). The representative supervised methods we use are Support Vector Machines (SVM), Conditional Random Fields (CRF), Hidden Markov Models (HMM), and Maximum Entropy (MaxEnt). Evaluation results are presented to show the impact.
     bibtex: >
-      @article{chali-hasan-joty-ipm-11,
-       abstract = {The task of answering complex questions requires inferencing and synthesizing information from multiple documents that can be seen as a kind of topic-oriented, informative multi-document summarization. In generic summarization the stochastic, graph-based random walk method to compute the relative importance of textual units (i.e. sentences) is proved to be very successful. However, the major limitation of the TF^*IDF approach is that it only retains the frequency of the words and does not take into account the sequence, syntactic and semantic information. This paper presents the impact of syntactic and semantic information in the graph-based random walk method for answering complex questions. Initially, we apply tree kernel functions to perform the similarity measures between sentences in the random walk framework. Then, we extend our work further to incorporate the Extended String Subsequence Kernel (ESSK) to perform the task in a similar manner. Experimental results show the effectiveness of the use of kernels to include the syntactic and semantic information for this task.},
-       acmid = {2027755},
-       address = {Tarrytown, NY, USA},
+      @inproceedings{chali-hasan-joty-acl-09,
+       abstract = {In this paper, we analyze the impact of
+      different automatic annotation methods on
+      the performance of supervised approaches
+      to the complex question answering problem
+      (defined in the DUC-2007 main task).
+      Huge amount of annotated or labeled
+      data is a prerequisite for supervised training.
+      The task of labeling can be accomplished
+      either by humans or by computer
+      programs. When humans are employed, the whole process becomes time
+      consuming and expensive. So, in order
+      to produce a large set of labeled data we
+      prefer the automatic annotation strategy.
+      We apply five different automatic annotation
+      techniques to produce labeled data
+      using ROUGE similarity measure, Basic
+      Element (BE) overlap, syntactic similarity
+      measure, semantic similarity measure, and Extended String Subsequence
+      Kernel (ESSK). The representative supervised
+      methods we use are Support Vector
+      Machines (SVM), Conditional Random
+      Fields (CRF), Hidden Markov Models
+      (HMM), and Maximum Entropy (MaxEnt).
+      Evaluation results are presented to
+      show the impact.},
+       address = {Suntec, Singapore},
+       author = {Chali, Yllias  and  Hasan, Sadid  and  Joty, Shafiq},
+       booktitle = {Proceedings of the ACL-IJCNLP 2009 Conference Short Papers},
+       link = {http://www.aclweb.org/anthology/P/P09/P09-2083},
+       month = {August},
+       pages = {329--332},
+       publisher = {Association for Computational Linguistics},
+       title = {Do Automatic Annotation Techniques Have Any Impact on Supervised Complex Question Answering?},
+       year = {2009}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2009
+    selected: no
+    title: >
+      A SVM-Based Ensemble Approach to Multi-Document Summarization
+    authors: Yllias Chali, Sadid Hasan, and Shafiq Joty
+    id: chali-hasan-joty-cai-09
+    img: chali-hasan-joty-cai-09-fig
+    slides: media/chali-hasan-joty-cai-09.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 199-202
+    booktitle: >
+      Proceedings of the 22Nd Canadian Conference on Artificial Intelligence: Advances in Artificial Intelligence (Canadian AI '09)
+    doc-url: http://dx.doi.org/10.1007/978-3-642-01818-3_23
+    bibtex: >
+      @inproceedings{chali-hasan-joty-cai-09,
+       acmid = {1560492},
+       address = {Berlin, Heidelberg},
        author = {Chali, Yllias and Hasan, Sadid and Joty, Shafiq},
-       doi = {10.1016/j.ipm.2010.10.002},
-       issn = {0306-4573},
-       issue_date = {November, 2011},
-       journal = {Inf. Process. Manage.},
-       link = {http://dx.doi.org/10.1016/j.ipm.2010.10.002},
-       month = {nov},
-       number = {6},
-       numpages = {13},
-       pages = {843--855},
-       publisher = {Pergamon Press, Inc.},
-       title = {Improving Graph-based Random Walks for Complex Question Answering Using Syntactic, Shallow Semantic and Extended String Subsequence Kernels},
-       volume = {47},
-       year = {2011}
+       booktitle = {Proceedings of the 22Nd Canadian Conference on Artificial Intelligence: Advances in Artificial Intelligence},
+       doi = {10.1007/978-3-642-01818-3_23},
+       isbn = {978-3-642-01817-6},
+       keyword = {In this paper, we present a Support Vector Machine (SVM) based ensemble approach to combat the extractive multi-document summarization problem. Although SVM can have a good generalization ability, it may experience a performance degradation through wrong classifications. We use a committee of several SVMs, i.e. Cross-Validation Committees (CVC), to form an ensemble of classifiers where the strategy is to improve the performance by correcting errors of one classifier using the accurate output of others. The practicality and effectiveness of this technique is demonstrated using the experimental results.},
+       link = {http://dx.doi.org/10.1007/978-3-642-01818-3_23},
+       location = {Kelowna, Canada},
+       numpages = {4},
+       pages = {199--202},
+       publisher = {Springer-Verlag},
+       series = {Canadian AI '09},
+       title = {A SVM-Based Ensemble Approach to Multi-Document Summarization},
+       year = {2009}
       }
       
       
@@ -148,6 +296,47 @@
        series = {EMNLP'10},
        title = {Exploiting Conversation Structure in Unsupervised Topic Segmentation for Emails},
        year = {2010}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2011
+    selected: yes
+    title: >
+      Improving Graph-based Random Walks for Complex Question Answering Using Syntactic, Shallow Semantic and Extended String Subsequence Kernels
+    authors: Yllias Chali, Sadid Hasan, and Shafiq Joty
+    id: chali-hasan-joty-ipm-11
+    img: chali-hasan-joty-ipm-11-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    pages: 843-855
+    journal: Information Processing & Management
+    doc-url: http://dx.doi.org/10.1016/j.ipm.2010.10.002
+    abstract: >
+      The task of answering complex questions requires inferencing and synthesizing information from multiple documents that can be seen as a kind of topic-oriented, informative multi-document summarization. In generic summarization the stochastic, graph-based random walk method to compute the relative importance of textual units (i.e. sentences) is proved to be very successful. However, the major limitation of the TF^*IDF approach is that it only retains the frequency of the words and does not take into account the sequence, syntactic and semantic information. This paper presents the impact of syntactic and semantic information in the graph-based random walk method for answering complex questions. Initially, we apply tree kernel functions to perform the similarity measures between sentences in the random walk framework. Then, we extend our work further to incorporate the Extended String Subsequence Kernel (ESSK) to perform the task in a similar manner. Experimental results show the effectiveness of the use of kernels to include the syntactic and semantic information for this task.
+    bibtex: >
+      @article{chali-hasan-joty-ipm-11,
+       abstract = {The task of answering complex questions requires inferencing and synthesizing information from multiple documents that can be seen as a kind of topic-oriented, informative multi-document summarization. In generic summarization the stochastic, graph-based random walk method to compute the relative importance of textual units (i.e. sentences) is proved to be very successful. However, the major limitation of the TF^*IDF approach is that it only retains the frequency of the words and does not take into account the sequence, syntactic and semantic information. This paper presents the impact of syntactic and semantic information in the graph-based random walk method for answering complex questions. Initially, we apply tree kernel functions to perform the similarity measures between sentences in the random walk framework. Then, we extend our work further to incorporate the Extended String Subsequence Kernel (ESSK) to perform the task in a similar manner. Experimental results show the effectiveness of the use of kernels to include the syntactic and semantic information for this task.},
+       acmid = {2027755},
+       address = {Tarrytown, NY, USA},
+       author = {Chali, Yllias and Hasan, Sadid and Joty, Shafiq},
+       doi = {10.1016/j.ipm.2010.10.002},
+       issn = {0306-4573},
+       issue_date = {November, 2011},
+       journal = {Information Processing & Management},
+       link = {http://dx.doi.org/10.1016/j.ipm.2010.10.002},
+       month = {nov},
+       number = {6},
+       numpages = {13},
+       pages = {843--855},
+       publisher = {Elsevier},
+       title = {Improving Graph-based Random Walks for Complex Question Answering Using Syntactic, Shallow Semantic and Extended String Subsequence Kernels},
+       volume = {47},
+       year = {2011}
       }
       
       
