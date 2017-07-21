@@ -155,9 +155,9 @@
     title: >
       UofL at TAC 2008 Update Summarization and Question Answering
     authors: Yllias Chali, Shafiq Joty, and Sadid Hasan
-    id: murray-joty-carenini-ng-tac-08
-    img: murray-joty-carenini-ng-tac-08-fig
-    slides: media/murray-joty-carenini-ng-tac-08.pdf
+    id: chali-joty-hasan-tac-08
+    img: chali-joty-hasan-tac-08-fig
+    slides: media/chali-joty-hasan-tac-08.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -168,7 +168,7 @@
     abstract: >
       In this paper, we describe our update summarization and question answering (QA) systems participated in the TAC 2008 competition. We submitted three runs for the update summarization task using unsupervised and supervised techniques. On the other hand, the question answering system is built on our previous system participated in TREC 2007 QA track with different approach followed for the squishy list type questions. We submitted a single run for the QA task. This paper also presents the preliminary evaluation results of our systems.
     bibtex: >
-      @inproceedings{murray-joty-carenini-ng-tac-08,
+      @inproceedings{chali-joty-hasan-tac-08,
        abstract = {In this paper, we describe our update summarization
       and question answering (QA) systems
       participated in the TAC 2008 competition.
