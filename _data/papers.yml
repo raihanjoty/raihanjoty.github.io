@@ -1870,7 +1870,7 @@
     layout: paper
     paper-type: article #changes display of reference in paper list
     year: 2016
-    selected: yes
+    selected: no
     title: >
       Sleep Quality Prediction From Wearable Data Using Deep Learning
     authors: Aarti Sathyanarayana, Shafiq Joty, Luis Fernandez-Luque, Ferda Ofli, Jaideep Srivastava, Ahmed Elmagarmid, Shahrad Taheri, and Teresa Arora
@@ -1912,7 +1912,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2016
-    selected: no
+    selected: yes
     title: >
       Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models
     authors: Shafiq Joty, and Enamul Hoque
@@ -1961,7 +1961,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2016
-    selected: no
+    selected: yes
     title: >
       Joint Learning with Global Inference for Comment Classification in Community Question Answering
     authors: Shafiq Joty, Lluís Màrquez, and Preslav Nakov
@@ -2236,7 +2236,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: no
+    selected: yes
     title: >
       A Neural Local Coherence Model
     authors: Dat Nguyen, and Shafiq Joty
@@ -2272,7 +2272,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: no
+    selected: yes
     title: >
       Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering
     authors: Shafiq Joty, Preslav Nakov, Lluís Màrquez, and Israa Jaradat
@@ -2308,7 +2308,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: no
+    selected: yes
     title: >
       CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec
     authors: Tanay Kumar, Shafiq Joty, and Mohammad Al
