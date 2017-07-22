@@ -1,6 +1,108 @@
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
+    year: 2007
+    selected: no
+    title: >
+      University of Lethbridge's participation in DUC-2007 main task
+    authors: Yllias Chali, and Shafiq Joty
+    id: chali-joty-duc-07
+    img: chali-joty-duc-07-fig
+    slides: media/chali-joty-duc-07.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx-xx
+    booktitle: >
+      Proceedings of the Document Understanding Conference (DUC'07)
+    doc-url: papers/chali-joty-duc-07
+    abstract: >
+      This paper presents the summarization technique implemented by the University of Lethbridge summarizer in order to generate summaries of maximum 250 words from multiple documents. We describe our system for query-focused summarization based on an enhanced, feature-based framework.
+    bibtex: >
+      @inproceedings{chali-joty-duc-07,
+       abstract = {This paper presents the summarization technique implemented by the University of Lethbridge summarizer in order to generate summaries of maximum 250 words from multiple documents. We describe our system for query-focused summarization based on an enhanced, feature-based framework.},
+       address = {Rochester, USA},
+       author = {Yllias Chali and Shafiq Joty},
+       booktitle = {Proceedings of the Document Understanding Conference},
+       link = {papers/chali-joty-duc-07},
+       pages = {xx-xx},
+       publisher = {NIST},
+       series = {DUC'07},
+       title = {University of Lethbridge's participation in DUC-2007 main task},
+       year = {2007}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2007
+    selected: no
+    title: >
+      University of Lethbridge's Participation in TREC-2007 QA Track
+    authors: Yllias Chali, and Shafiq Joty
+    id: chali-joty-trec-07
+    img: chali-joty-trec-07-fig
+    slides: media/chali-joty-trec-07.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx-xx
+    booktitle: >
+      Proceedings of the sixteenth Text Retrieval Conference (TREC'07)
+    doc-url: papers/chali-joty-trec-07
+    bibtex: >
+      @inproceedings{chali-joty-trec-07,
+       address = {Gaithersburg, USA},
+       author = {Yllias Chali and Shafiq Joty},
+       booktitle = {Proceedings of the sixteenth Text Retrieval Conference},
+       link = {papers/chali-joty-trec-07},
+       pages = {xx-xx},
+       publisher = {NIST},
+       series = {TREC'07},
+       title = {University of Lethbridge's Participation in TREC-2007 QA Track},
+       year = {2007}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2007
+    selected: no
+    title: >
+      Word Sense Disambiguation Using Lexical Cohesion
+    authors: Yllias Chali, and Shafiq Joty
+    id: chali-joty-semeval-07
+    img: chali-joty-semeval-07-fig
+    slides: media/chali-joty-semeval-07.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 476-479
+    booktitle: >
+      Proceedings of the 4th International Workshop on Semantic Evaluations (SemEval'07)
+    doc-url: papers/chali-joty-semeval-07
+    abstract: >
+      One of the main challenges in the applica- tions (i.e.: text summarization, question an- swering, information retrieval, etc.) of Natural Language Processing is to deter- mine which of the several senses of a word is used in a given context. The problem is phrased as “Word Sense Disambiguation (WSD)” in the NLP community. This paper presents the dictionary based disambigua- tion technique that adopts the assumption of one sense per discourse in the context of SemEval-2007 Task 7: “Coarse-grained English all-words”.
+    bibtex: >
+      @inproceedings{chali-joty-semeval-07,
+       abstract = {One of the main challenges in the applica- tions (i.e.: text summarization, question an- swering, information retrieval, etc.) of Natural Language Processing is to deter- mine which of the several senses of a word is used in a given context. The problem is phrased as “Word Sense Disambiguation (WSD)” in the NLP community. This paper presents the dictionary based disambigua- tion technique that adopts the assumption of one sense per discourse in the context of SemEval-2007 Task 7: “Coarse-grained English all-words”.},
+       address = {Prague, Check Republic},
+       author = {Yllias Chali and Shafiq Joty},
+       booktitle = {Proceedings of the 4th International Workshop on Semantic Evaluations},
+       link = {papers/chali-joty-semeval-07},
+       pages = {476--479},
+       publisher = {ACL},
+       series = {SemEval'07},
+       title = {Word Sense Disambiguation Using Lexical Cohesion},
+       year = {2007}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
     year: 2008
     selected: no
     title: >
