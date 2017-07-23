@@ -86,12 +86,19 @@ def parse(bibfile):
 			else:
 				venue=""
 
+			select_conf    =   ["saha-joty-hasan-ecml-17",\
+								"nguyen-joty-acl-17",\
+								"joty-nakov-marquez-jaradat-conll-17"\
+								"joty-marquez-nakov-naacl-16"]	
+
+			select_journal = ["chali-hasan-joty-ipm-11"]	
+
 			if entry["ENTRYTYPE"] == "article":
-				sel    = "yes"
+				sel    = "yes" if entry["ID"] not in select_journal else "no"
 				con    = "journal"
 				slides = "# e.g. media/$ID.pptx"
 			else:	 
-				sel    = "no"
+				sel    = "no" if entry["ID"] not in select_conf else "yes"
 				con    = "conference"
 				slides = "media/" + entry["ID"] + ".pdf" 
 

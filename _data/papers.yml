@@ -1870,7 +1870,7 @@
     layout: paper
     paper-type: article #changes display of reference in paper list
     year: 2016
-    selected: no
+    selected: yes
     title: >
       Sleep Quality Prediction From Wearable Data Using Deep Learning
     authors: Aarti Sathyanarayana, Shafiq Joty, Luis Fernandez-Luque, Ferda Ofli, Jaideep Srivastava, Ahmed Elmagarmid, Shahrad Taheri, and Teresa Arora
@@ -1912,7 +1912,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2016
-    selected: yes
+    selected: no
     title: >
       Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models
     authors: Shafiq Joty, and Enamul Hoque
@@ -1961,7 +1961,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2016
-    selected: yes
+    selected: no
     title: >
       Joint Learning with Global Inference for Comment Classification in Community Question Answering
     authors: Shafiq Joty, Lluís Màrquez, and Preslav Nakov
@@ -2272,7 +2272,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: yes
+    selected: no
     title: >
       Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering
     authors: Shafiq Joty, Preslav Nakov, Lluís Màrquez, and Israa Jaradat
@@ -2450,6 +2450,42 @@
        publisher = {ACM},
        series = {IUI'17},
        title = {CQAVis: Visual Text Analytics for Community Question Answering},
+       year = {2017}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2017
+    selected: no
+    title: >
+      Thread Reconstruction in Conversational Data using Neural Coherence Models
+    authors: Dat Nguyen, Shafiq Joty, Basma Boussaha, and Maarten de
+    id: nguyen-joty-boussaha-rijke-neuir-17
+    img: nguyen-joty-boussaha-rijke-neuir-17-fig
+    slides: media/nguyen-joty-boussaha-rijke-neuir-17.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx-xx
+    booktitle: >
+      In Proceedings of the Neu-IR 2017 SIGIR Workshop on Neural Information Retrieval (NeuIR'17)
+    doc-url: papers/nguyen-joty-boussaha-rijke-neuir-17.pdf
+    abstract: >
+      Discussion forums are an important source of information. They are often used to answer specific questions a user might have and to discover more about a topic of interest. Discussions in these forums may evolve in intricate ways, making it difficult for users to follow the flow of ideas. We propose a novel approach for automatically identifying the underlying thread structure of a forum discussion. Our approach is based on a neural model that computes coherence scores of possible reconstructions and then selects the highest scoring, i.e., the most coherent one. Preliminary experiments demonstrate promising results outperforming a number of strong baseline methods.
+    bibtex: >
+      @inproceedings{nguyen-joty-boussaha-rijke-neuir-17,
+       abstract = {Discussion forums are an important source of information. They are often used to answer specific questions a user might have and to discover more about a topic of interest. Discussions in these forums may evolve in intricate ways, making it difficult for users to follow the flow of ideas. We propose a novel approach for automatically identifying the underlying thread structure of a forum discussion. Our approach is based on a neural model that computes coherence scores of possible reconstructions and then selects the highest scoring, i.e., the most coherent one. Preliminary experiments demonstrate promising results outperforming a number of strong baseline methods.},
+       address = {Tokyo, Japan},
+       author = {Dat Nguyen and Shafiq Joty and Basma Boussaha and Maarten de Rijke},
+       booktitle = {In Proceedings of the Neu-IR 2017 SIGIR Workshop on Neural Information Retrieval},
+       link = {papers/nguyen-joty-boussaha-rijke-neuir-17.pdf},
+       month = {Aug},
+       pages = {xx--xx},
+       publisher = {ACM},
+       series = {NeuIR'17},
+       title = {Thread Reconstruction in Conversational Data using Neural Coherence Models},
        year = {2017}
       }
       
