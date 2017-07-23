@@ -684,7 +684,7 @@
     layout: paper
     paper-type: article #changes display of reference in paper list
     year: 2011
-    selected: yes
+    selected: no
     title: >
       Improving Graph-based Random Walks for Complex Question Answering Using Syntactic, Shallow Semantic and Extended String Subsequence Kernels
     authors: Yllias Chali, Sadid Hasan, and Shafiq Joty
