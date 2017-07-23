@@ -40,16 +40,20 @@ All papers have been subject to peer review unless indicated otherwise. Journal 
 
 <h4> <a name="theses"></a> Theses </h4>
 
-will update soon!!
+ {%assign  years = site.data.theses | group_by :"year" | sort: "title" | reverse %}
+ {% for year in years %}
+  <h5> {{year.name}}</h5>
+ {% for post in year.items %}
+      {% include paper.html paper=post %}
+  {% endfor %}
+{% endfor %}
 
 <h4> <a name="talk"></a> Talks </h4>
 
-will update soon!!
+will update soon!
 
 
 <!--
-<h4>Talks</h4>
-
 {% assign years= site.data.talks | group_by: "year"| sort: "name"| reverse %}
 {%for year in years %}
 

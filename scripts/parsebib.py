@@ -74,6 +74,9 @@ def parse(bibfile):
 
 		for entry in bib_database.entries:
 
+#			print entry
+#			raw_input(' ')
+
 			authors=parseauthors(preprocess(entry["author"])) #.encode('UTF8')
 
 			if("booktitle" in entry.keys()):
