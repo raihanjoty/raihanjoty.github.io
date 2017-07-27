@@ -2314,7 +2314,7 @@
     selected: yes
     title: >
       CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec
-    authors: Tanay Kumar, Shafiq Joty, and Mohammad Al
+    authors: Tanay Saha, Shafiq Joty, and Mohammad Hasan
     id: saha-joty-hasan-ecml-17
     img: saha-joty-hasan-ecml-17-fig
     slides: media/saha-joty-hasan-ecml-17.pdf
@@ -2331,7 +2331,7 @@
       @inproceedings{saha-joty-hasan-ecml-17,
        abstract = {We present a novel approach to learn distributed representation of sentences from unlabeled data by modeling both content and context of a sentence. The content model learns sentence representation by predicting its words. On the other hand, the context model comprises a neighbor prediction component and a regularizer to model distributional and proximity hypotheses, respectively. We propose an online algorithm to train the model components jointly. We evaluate the models in a setup, where contextual information is available. The experimental results on tasks involving classification, clustering, and ranking of sentences show that our model outperforms the best existing models by a wide margin across multiple datasets.},
        address = {Macedonia, Skopje},
-       author = {Tanay Kumar Saha and Shafiq Joty and Mohammad Al Hasan},
+       author = {Tanay Saha and Shafiq Joty and Mohammad Hasan},
        booktitle = {Proceedings of The European Conference on Machine Learning &
       Principles and Practice of knowledge discovery in databases},
        link = {papers/saha-joty-hasan-ecml-17.pdf},
