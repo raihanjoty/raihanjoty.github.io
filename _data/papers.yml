@@ -8,7 +8,7 @@
     authors: Yllias Chali, and Shafiq Joty
     id: chali-joty-duc-07
     img: chali-joty-duc-07-fig
-    slides: media/chali-joty-duc-07.pdf
+    slides: media/chali-joty-duc-07-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -43,7 +43,7 @@
     authors: Yllias Chali, and Shafiq Joty
     id: chali-joty-trec-07
     img: chali-joty-trec-07-fig
-    slides: media/chali-joty-trec-07.pdf
+    slides: media/chali-joty-trec-07-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -75,7 +75,7 @@
     authors: Yllias Chali, and Shafiq Joty
     id: chali-joty-semeval-07
     img: chali-joty-semeval-07-fig
-    slides: media/chali-joty-semeval-07.pdf
+    slides: media/chali-joty-semeval-07-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -110,7 +110,7 @@
     authors: Yllias Chali, and Shafiq Joty
     id: chali-joty-ictai-08
     img: chali-joty-ictai-08-fig
-    slides: media/chali-joty-ictai-08.pdf
+    slides: media/chali-joty-ictai-08-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -146,7 +146,7 @@
     authors: Yllias Chali, and Shafiq Joty
     id: chali-joty-ictai-08-2
     img: chali-joty-ictai-08-2-fig
-    slides: media/chali-joty-ictai-08-2.pdf
+    slides: media/chali-joty-ictai-08-2-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -182,7 +182,7 @@
     authors: Yllias Chali, and Shafiq Joty
     id: chali-joty-flairs-08
     img: chali-joty-flairs-08-fig
-    slides: media/chali-joty-flairs-08.pdf
+    slides: media/chali-joty-flairs-08-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -217,7 +217,7 @@
     authors: Gabriel Murray, Shafiq Joty, Giuseppe Carenini, and Raymond Ng
     id: murray-joty-carenini-ng-tac-08
     img: murray-joty-carenini-ng-tac-08-fig
-    slides: media/murray-joty-carenini-ng-tac-08.pdf
+    slides: media/murray-joty-carenini-ng-tac-08-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -259,7 +259,7 @@
     authors: Yllias Chali, Shafiq Joty, and Sadid Hasan
     id: chali-joty-hasan-tac-08
     img: chali-joty-hasan-tac-08-fig
-    slides: media/chali-joty-hasan-tac-08.pdf
+    slides: media/chali-joty-hasan-tac-08-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -304,7 +304,7 @@
     authors: Yllias Chali, and Shafiq Joty
     id: chali-joty-acl-08
     img: chali-joty-acl-08-fig
-    slides: media/chali-joty-acl-08.pdf
+    slides: media/chali-joty-acl-08-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -340,7 +340,7 @@
     authors: Yllias Chali, and Shafiq Joty
     id: chali-joty-emnlp-08
     img: chali-joty-emnlp-08-fig
-    slides: media/chali-joty-emnlp-08.pdf
+    slides: media/chali-joty-emnlp-08-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -453,7 +453,7 @@
     authors: Yllias Chali, Sadid Hasan, and Shafiq Joty
     id: chali-hasan-joty-acl-09
     img: chali-hasan-joty-acl-09-fig
-    slides: media/chali-hasan-joty-acl-09.pdf
+    slides: media/chali-hasan-joty-acl-09-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -513,7 +513,7 @@
     authors: Yllias Chali, Sadid Hasan, and Shafiq Joty
     id: chali-hasan-joty-cai-09
     img: chali-hasan-joty-cai-09-fig
-    slides: media/chali-hasan-joty-cai-09.pdf
+    slides: media/chali-hasan-joty-cai-09-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -553,7 +553,7 @@
     authors: Shafiq Joty, Giuseppe Carenini, Gabriel Murray, and Raymond Ng
     id: joty-carenini-ng-lda-nips-09
     img: joty-carenini-ng-lda-nips-09-fig
-    slides: media/joty-carenini-ng-lda-nips-09.pdf
+    slides: media/joty-carenini-ng-lda-nips-09-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -598,7 +598,7 @@
     authors: Shafiq Joty, Giuseppe Carenini, Gabriel Murray, and Raymond Ng
     id: joty-carenini-murray-ng-emnlp-10
     img: joty-carenini-murray-ng-emnlp-10-fig
-    slides: media/joty-carenini-murray-ng-emnlp-10.pdf
+    slides: media/joty-carenini-murray-ng-emnlp-10-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -653,7 +653,7 @@
     authors: Shafiq Joty, Giuseppe Carenini, Gabriel Murray, and Raymond Ng
     id: joty-carenini-murray-ng-nwnlp-10
     img: joty-carenini-murray-ng-nwnlp-10-fig
-    slides: media/joty-carenini-murray-ng-nwnlp-10.pdf
+    slides: media/joty-carenini-murray-ng-nwnlp-10-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -731,7 +731,7 @@
     authors: Shafiq Joty, Giuseppe Carenini, and Chin-Yew Lin
     id: joty-carenini-lin-ijcai-11
     img: joty-carenini-lin-ijcai-11-fig
-    slides: media/joty-carenini-lin-ijcai-11.pdf
+    slides: media/joty-carenini-lin-ijcai-11-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -781,7 +781,7 @@
     authors: Shafiq Joty, Giuseppe Carenini, Gabriel Murray, and Raymod Ng
     id: joty-carenini-murray-ng-icwsm-11
     img: joty-carenini-murray-ng-icwsm-11-fig
-    slides: media/joty-carenini-murray-ng-icwsm-11.pdf
+    slides: media/joty-carenini-murray-ng-icwsm-11-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -827,7 +827,7 @@
     authors: Nicholas FitzGerald, Giuseppe Carenini, Gabriel Murray, and Shafiq Joty
     id: fitzgerald-carenini-murray-joty-cai-11
     img: fitzgerald-carenini-murray-joty-cai-11-fig
-    slides: media/fitzgerald-carenini-murray-joty-cai-11.pdf
+    slides: media/fitzgerald-carenini-murray-joty-cai-11-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -863,7 +863,7 @@
     authors: Shafiq Joty, Giuseppe Carenini, and Raymond Ng
     id: joty-carenini-ng-emnlp-12
     img: joty-carenini-ng-emnlp-12-fig
-    slides: media/joty-carenini-ng-emnlp-12.pdf
+    slides: media/joty-carenini-ng-emnlp-12-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -907,7 +907,7 @@
     authors: Shafiq Joty, Giuseppe Carenini, and Raymond Ng
     id: joty-carenini-ng-nwnlp-12
     img: joty-carenini-ng-nwnlp-12-fig
-    slides: media/joty-carenini-ng-nwnlp-12.pdf
+    slides: media/joty-carenini-ng-nwnlp-12-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -936,7 +936,7 @@
     authors: Wei Jin, Shafiq Joty, Giuseppe Carenini, and Raymond Ng
     id: jin-joty-carenini-ng-nwnlp-12
     img: jin-joty-carenini-ng-nwnlp-12-fig
-    slides: media/jin-joty-carenini-ng-nwnlp-12.pdf
+    slides: media/jin-joty-carenini-ng-nwnlp-12-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1010,7 +1010,7 @@
     authors: Shafiq Joty, Giuseppe Carenini, Raymond T. Ng, and Yashar Mehdad
     id: joty-carenini-ng-mehdad-acl-13
     img: joty-carenini-ng-mehdad-acl-13-fig
-    slides: media/joty-carenini-ng-mehdad-acl-13.pdf
+    slides: media/joty-carenini-ng-mehdad-acl-13-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1057,7 +1057,7 @@
     authors: Yashar Mehdad, Giuseppe Carenini, Raymond T. Ng, and Shafiq Joty
     id: mehdad-carenini-ng-joty-naacl-13
     img: mehdad-carenini-ng-joty-naacl-13-fig
-    slides: media/mehdad-carenini-ng-joty-naacl-13.pdf
+    slides: media/mehdad-carenini-ng-joty-naacl-13-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1104,7 +1104,7 @@
     authors: Maryam Tavafi, Yashar Mehdad, Shafiq Joty, Giuseppe Carenini, and Raymond Ng
     id: tavafi-et-al-sigdial-13
     img: tavafi-et-al-sigdial-13-fig
-    slides: media/tavafi-et-al-sigdial-13.pdf
+    slides: media/tavafi-et-al-sigdial-13-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1153,7 +1153,7 @@
     authors: Francisco Guzmán, Shafiq Joty, Lluís Màrquez, and Preslav Nakov
     id: guzman-joty-marquez-nakov-acl-14
     img: guzman-joty-marquez-nakov-acl-14-fig
-    slides: media/guzman-joty-marquez-nakov-acl-14.pdf
+    slides: media/guzman-joty-marquez-nakov-acl-14-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1189,7 +1189,7 @@
     authors: Francisco Guzmán, Shafiq Joty, Lluís Màrquez, Alessandro Moschitti, Preslav Nakov, and Massimo Nicosia
     id: guzman-et-al-emnlp-14
     img: guzman-et-al-emnlp-14-fig
-    slides: media/guzman-et-al-emnlp-14.pdf
+    slides: media/guzman-et-al-emnlp-14-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1225,7 +1225,7 @@
     authors: Shafiq Joty, Francisco Guzmán, Lluís Màrquez, and Preslav Nakov
     id: joty-guzman-marquez-nakov-wmt-14
     img: joty-guzman-marquez-nakov-wmt-14-fig
-    slides: media/joty-guzman-marquez-nakov-wmt-14.pdf
+    slides: media/joty-guzman-marquez-nakov-wmt-14-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1261,7 +1261,7 @@
     authors: Enamul Hoque, Giuseppe Carenini, and Shafiq Joty
     id: hoque-carenini-joty-illvi-14
     img: hoque-carenini-joty-illvi-14-fig
-    slides: media/hoque-carenini-joty-illvi-14.pdf
+    slides: media/hoque-carenini-joty-illvi-14-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1312,7 +1312,7 @@
     authors: Shafiq Joty, and Alessandro Moschitti
     id: joty-moschitti-emnlp-14
     img: joty-moschitti-emnlp-14-fig
-    slides: media/joty-moschitti-emnlp-14.pdf
+    slides: media/joty-moschitti-emnlp-14-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1363,7 +1363,7 @@
     authors: Iman Saleh, Alessandro Moschitti, Preslav Nakov, Lluís Màrquez, and Shafiq Joty
     id: saleh-et-al-emnlp-14
     img: saleh-et-al-emnlp-14-fig
-    slides: media/saleh-et-al-emnlp-14.pdf
+    slides: media/saleh-et-al-emnlp-14-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1414,7 +1414,7 @@
     authors: Iman Saleh, Scott Cyphers, Jim Glass, Shafiq Joty, Lluís Màrquez, Alessandro Moschitti, and Preslav Nakov
     id: saleh-et-al-coling-14
     img: saleh-et-al-coling-14-fig
-    slides: media/saleh-et-al-coling-14.pdf
+    slides: media/saleh-et-al-coling-14-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1502,7 +1502,7 @@
     authors: Francisco Guzmán, Shafiq Joty, Lluís Màrquez, and Preslav Nakov
     id: guzman-joty-marquez-nakov-acl-15
     img: guzman-joty-marquez-nakov-acl-15-fig
-    slides: media/guzman-joty-marquez-nakov-acl-15.pdf
+    slides: media/guzman-joty-marquez-nakov-acl-15-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1539,7 +1539,7 @@
     authors: Alberto Barron-Cedeno, Simone Filice, Giovanni Da San Martino, Shafiq Joty, Lluís Màrquez, Preslav Nakov, and Alessandro Moschitti
     id: cedeno-et-al-acl-15
     img: cedeno-et-al-acl-15-fig
-    slides: media/cedeno-et-al-acl-15.pdf
+    slides: media/cedeno-et-al-acl-15-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1596,7 +1596,7 @@
     authors: Nadir Durrani, Hassan Sajjad, Shafiq Joty, Ahmed Abdelali, and Stephan Vogel
     id: durrani-et-al-amta-15
     img: durrani-et-al-amta-15-fig
-    slides: media/durrani-et-al-amta-15.pdf
+    slides: media/durrani-et-al-amta-15-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1638,7 +1638,7 @@
     authors: Shafiq Joty, Hassan Sajjad, Nadir Durrani, Kamla Al-Mannai, Ahmed Abdelali, and Stephan Vogel
     id: joty-et-al-emnlp-15-1
     img: joty-et-al-emnlp-15-1-fig
-    slides: media/joty-et-al-emnlp-15-1.pdf
+    slides: media/joty-et-al-emnlp-15-1-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1689,7 +1689,7 @@
     authors: Pengfei Liu, Shafiq Joty, and Helen Meng
     id: liu-joty-meng-emnlp-15
     img: liu-joty-meng-emnlp-15-fig
-    slides: media/liu-joty-meng-emnlp-15.pdf
+    slides: media/liu-joty-meng-emnlp-15-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1738,7 +1738,7 @@
     authors: Shafiq Joty, Alberto Barron-Cedeno, Giovanni Da San Martino, Simone Filice, Lluís Màrquez, Alessandro Moschitti, and Preslav Nakov
     id: joty-et-al-emnlp-15-2
     img: joty-et-al-emnlp-15-2-fig
-    slides: media/joty-et-al-emnlp-15-2.pdf
+    slides: media/joty-et-al-emnlp-15-2-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1790,7 +1790,7 @@
     authors: Massimo Nicosia, Simone Filice, Alberto Barron-Cedeno, Iman Saleh, Hamdy Mubarak, Wei Gao, Preslav Nakov, Giovanni Da, Alessandro Moschitti, Kareem Darwish, Llu\is Màrquez, Shafiq R., and Walid Magdy
     id: nicosia-et-al-semeval-15
     img: nicosia-et-al-semeval-15-fig
-    slides: media/nicosia-et-al-semeval-15.pdf
+    slides: media/nicosia-et-al-semeval-15-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1918,7 +1918,7 @@
     authors: Shafiq Joty, and Enamul Hoque
     id: joty-hoque-acl-16
     img: joty-hoque-acl-16-fig
-    slides: media/joty-hoque-acl-16.pdf
+    slides: media/joty-hoque-acl-16-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -1967,7 +1967,7 @@
     authors: Shafiq Joty, Lluís Màrquez, and Preslav Nakov
     id: joty-marquez-nakov-naacl-16
     img: joty-marquez-nakov-naacl-16-fig
-    slides: media/joty-marquez-nakov-naacl-16.pdf
+    slides: media/joty-marquez-nakov-naacl-16-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -2018,7 +2018,7 @@
     authors: Nadir Durrani, Hassan Sajjad, Shafiq Joty, and Ahmed Abdelali
     id: durrani-sajjad-joty-abdelali-coling-16
     img: durrani-sajjad-joty-abdelali-coling-16-fig
-    slides: media/durrani-sajjad-joty-abdelali-coling-16.pdf
+    slides: media/durrani-sajjad-joty-abdelali-coling-16-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -2062,7 +2062,7 @@
     authors: Enamul Hoque, Shafiq Joty, Lluís Màrquez, Alberto Barron-Cedeno, Giovanni Da San Martino, Alessandro Moschitti, Preslav Nakov, Salvatore Romeo, and Giuseppe Carenini
     id: hoque-et-al-coling-16-demo
     img: hoque-et-al-coling-16-demo-fig
-    slides: media/hoque-et-al-coling-16-demo.pdf
+    slides: media/hoque-et-al-coling-16-demo-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -2103,7 +2103,7 @@
     authors: Alberto Barron-Codeno, Giovanni Da San Martino, Shafiq Joty, Alessandro Moschitti, Fahad Al-Obaidli, Salvatore Romeo, Kateryna Tymoshenko, and Antonio Uva
     id: cedeno-et-al-semeval-16
     img: cedeno-et-al-semeval-16-fig
-    slides: media/cedeno-et-al-semeval-16.pdf
+    slides: media/cedeno-et-al-semeval-16-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -2138,7 +2138,7 @@
     authors: Dat Tien, Shafiq Joty, Muhammad Imran, Hassan Sajjad, and Prasenjit Mitra
     id: nguyen-et-al-swdm-16
     img: nguyen-et-al-swdm-16-fig
-    slides: media/nguyen-et-al-swdm-16.pdf
+    slides: media/nguyen-et-al-swdm-16-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -2245,7 +2245,7 @@
     authors: Dat Nguyen, and Shafiq Joty
     id: nguyen-joty-acl-17
     img: nguyen-joty-acl-17-fig
-    slides: media/nguyen-joty-acl-17.pdf
+    slides: media/nguyen-joty-acl-17-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -2281,7 +2281,7 @@
     authors: Shafiq Joty, Preslav Nakov, Lluís Màrquez, and Israa Jaradat
     id: joty-nakov-marquez-jaradat-conll-17
     img: joty-nakov-marquez-jaradat-conll-17-fig
-    slides: media/joty-nakov-marquez-jaradat-conll-17.pdf
+    slides: media/joty-nakov-marquez-jaradat-conll-17-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -2317,7 +2317,7 @@
     authors: Tanay Saha, Shafiq Joty, and Mohammad Hasan
     id: saha-joty-hasan-ecml-17
     img: saha-joty-hasan-ecml-17-fig
-    slides: media/saha-joty-hasan-ecml-17.pdf
+    slides: media/saha-joty-hasan-ecml-17-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -2354,7 +2354,7 @@
     authors: Giovanni Da, Salvatore Romeo, Alberto Barron-Cedeno, Shafiq Joty, Lluís Màrquez, Alessandro Moschitti, and Preslav Nakov
     id: martino-et-al-sigir-17
     img: martino-et-al-sigir-17-fig
-    slides: media/martino-et-al-sigir-17.pdf
+    slides: media/martino-et-al-sigir-17-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -2395,7 +2395,7 @@
     authors: Dat Nguyen, Kamela Ali, Shafiq Joty, Hassan Sajjad, Muhammad Imran, and Prasenjit Mitra
     id: nguyen-et-al-icwsm-17
     img: nguyen-et-al-icwsm-17-fig
-    slides: media/nguyen-et-al-icwsm-17.pdf
+    slides: media/nguyen-et-al-icwsm-17-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -2432,7 +2432,7 @@
     authors: Enamul Hoque, Shafiq Joty, Lluís Màrquez, and Giuseppe Carenini
     id: hoque-et-al-iui-17
     img: hoque-et-al-iui-17-fig
-    slides: media/hoque-et-al-iui-17.pdf
+    slides: media/hoque-et-al-iui-17-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -2467,7 +2467,7 @@
     authors: Dat Nguyen, Shafiq Joty, Basma Boussaha, and Maarten Rijke
     id: nguyen-joty-boussaha-rijke-neuir-17
     img: nguyen-joty-boussaha-rijke-neuir-17-fig
-    slides: media/nguyen-joty-boussaha-rijke-neuir-17.pdf
+    slides: media/nguyen-joty-boussaha-rijke-neuir-17-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference

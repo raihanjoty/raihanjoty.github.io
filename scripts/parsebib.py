@@ -100,7 +100,7 @@ def parse(bibfile):
 			else:	 
 				sel    = "no" if entry["ID"] not in select_conf else "yes"
 				con    = "conference"
-				slides = "media/" + entry["ID"] + ".pdf" 
+				slides = "media/" + entry["ID"] + "-slides.pdf" 
 
 			print( "  -")
 			print ("    layout: paper")
