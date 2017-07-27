@@ -2024,7 +2024,7 @@
     venue: conference
     pages: 3177-3187
     booktitle: >
-      Proceedings of the 26th International Conference on Computational Linguistics, Proceedings of the Conference month     = December (COLING'16)
+      Proceedings of the 26th International Conference on Computational Linguistics (COLING'16)
     doc-url: http://aclweb.org/anthology/C/C16/C16-1299.pdf
     abstract: >
       We present a novel fusion model for domain adaptation in Statistical Machine Translation. Our model is based on the joint source-target neural network (Devlin et al., 2014), and is learned by fusing in- and out-domain models. The adaptation is performed by backpropagating errors from the output layer to the word embedding layer of each model, subsequently adjusting parameters of the composite model towards the in-domain data. On the standard tasks of translating English-to-German and Arabic-to-English TED talks, we observed average improvements of +0.9 and +0.7 BLEU points, respectively over a competition grade phrase-based system. We also demonstrate improvements over existing adaptation methods.
@@ -2042,9 +2042,9 @@
       Hassan Sajjad and
       Shafiq Joty and
       Ahmed Abdelali},
-       booktitle = {{Proceedings of the 26th International Conference on Computational Linguistics, Proceedings of the Conference}
-      month     = {December}},
+       booktitle = {Proceedings of the 26th International Conference on Computational Linguistics},
        link = {http://aclweb.org/anthology/C/C16/C16-1299.pdf},
+       month = {December},
        pages = {3177--3187},
        series = {COLING'16},
        title = {A Deep Fusion Model for Domain Adaptation in Phrase-based {MT}},
@@ -2109,7 +2109,7 @@
     venue: conference
     pages: 896-903
     booktitle: >
-      Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval'16)
+      Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016)
     doc-url: http://www.aclweb.org/anthology/S16-1138
     abstract: >
       We describe our system, ConvKN, participating to the SemEval-2016 Task 3 " Community Question Answering ". The task targeted the reranking of questions and comments in real-life web fora both in English and Arabic. ConvKN combines convolutional tree kernels with convolutional neural networks and additional manually designed features including text similarity and thread specific features. For the first time, we applied tree kernels to syntactic trees of Arabic sentences for a reranking task. Our approaches obtained the second best results in three out of four tasks. The only task we performed averagely is the one where we did not use tree kernels in our classifier.
@@ -2118,7 +2118,7 @@
        abstract = {We describe our system, ConvKN, participating to the SemEval-2016 Task 3 " Community Question Answering ". The task targeted the reranking of questions and comments in real-life web fora both in English and Arabic. ConvKN combines convolutional tree kernels with convolutional neural networks and additional manually designed features including text similarity and thread specific features. For the first time, we applied tree kernels to syntactic trees of Arabic sentences for a reranking task. Our approaches obtained the second best results in three out of four tasks. The only task we performed averagely is the one where we did not use tree kernels in our classifier.},
        address = {San Diego, California},
        author = {Barron-Codeno, Alberto  and  Da San Martino, Giovanni  and  Joty, Shafiq  and  Moschitti, Alessandro  and  Al-Obaidli, Fahad  and  Romeo, Salvatore  and  Tymoshenko, Kateryna  and  Uva, Antonio},
-       booktitle = {Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval'16)},
+       booktitle = {Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016)},
        link = {http://www.aclweb.org/anthology/S16-1138},
        month = {June},
        pages = {896--903},
@@ -2143,20 +2143,22 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      Proceedings of the 4th international workshop on Social Web for Disaster Management (SWDM'16)
+      4th international workshop on Social Web for Disaster Management (SWDM'16)
     doc-url: http://arxiv.org/abs/1610.01030
     abstract: >
       During natural or man-made disasters, humanitarian response organizations look for useful information to support their decision-making processes. Social media platforms such as Twitter have been considered as a vital source of useful information for disaster response and management. Despite advances in natural language processing techniques, processing short and informal Twitter messages is a challenging task. In this paper, we propose to use Deep Neural Network (DNN) to address two types of information needs of response organizations: 1) identifying informative tweets and 2) classifying them into topical classes. DNNs use distributed representation of words and learn the representation as well as higher level features automatically for the classification task. We propose a new online algorithm based on stochastic gradient descent to train DNNs in an online fashion during disaster situations. We test our models using a crisis-related real-world Twitter dataset.
     bibtex: >
       @inproceedings{nguyen-et-al-swdm-16,
        abstract = {During natural or man-made disasters, humanitarian response organizations look for useful information to support their decision-making processes. Social media platforms such as Twitter have been considered as a vital source of useful information for disaster response and management. Despite advances in natural language processing techniques, processing short and informal Twitter messages is a challenging task. In this paper, we propose to use Deep Neural Network (DNN) to address two types of information needs of response organizations: 1) identifying informative tweets and 2) classifying them into topical classes. DNNs use distributed representation of words and learn the representation as well as higher level features automatically for the classification task. We propose a new online algorithm based on stochastic gradient descent to train DNNs in an online fashion during disaster situations. We test our models using a crisis-related real-world Twitter dataset.},
-       author = {Dat Nguyen and
+       address = {Indianapolis, USA},
+       author = {Dat Tien Nguyen and
       Shafiq Joty and
       Muhammad Imran and
       Hassan Sajjad and
       Prasenjit Mitra},
-       address = {Indianapolis, USA},
+       booktitle = {4th international workshop on Social Web for Disaster Management},
        link = {http://arxiv.org/abs/1610.01030},
+       series = {SWDM'16},
        title = {Applications of Online Deep Learning for Crisis Response Using Social
       Media Information},
        volume = {abs/1610.01030},
@@ -2312,7 +2314,7 @@
     selected: yes
     title: >
       CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec
-    authors: Tanay Kumar, Shafiq Joty, and Mohammad Hasan
+    authors: Tanay Kumar, Shafiq Joty, and Mohammad Al
     id: saha-joty-hasan-ecml-17
     img: saha-joty-hasan-ecml-17-fig
     slides: media/saha-joty-hasan-ecml-17.pdf
@@ -2349,7 +2351,7 @@
     selected: no
     title: >
       Cross-Language Question Re-ranking
-    authors: Giovanni Da, Salvatore Romeo, Alberto Barron-Cedeno, Lluís Màrquez, Shafiq Joty, Alessandro Moschitti, and Preslav Nakov
+    authors: Giovanni Da, Salvatore Romeo, Alberto Barron-Cedeno, Shafiq Joty, Lluís Màrquez, Alessandro Moschitti, and Preslav Nakov
     id: martino-et-al-sigir-17
     img: martino-et-al-sigir-17-fig
     slides: media/martino-et-al-sigir-17.pdf
@@ -2358,7 +2360,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      In Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'17)
+      Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'17)
     doc-url: papers/martino-et-al-sigir-17.pdf
     abstract: >
       We study how to find relevant questions in community forums when the language of the query questions is different from that of the existing questions in the forum. In particular, we explore the Arabic-English language pair. We compare a kernel-based system with a feed-forward neural network in a scenario where a large parallel corpus is available for training a machine translation system, bilingual dictionaries, and cross-language word embeddings. We observe that both approaches degrade the performance of the system when working on the translated text, especially the kernel-based system, which depends heavily on a syntactic kernel. We address this issue using a cross-language tree kernel, which compares the original Arabic tree to the English trees of the forum questions. We show that this kernel almost closes the performance gap with respect to the monolingual system. On the neural network side, we use the parallel corpus to train cross-language embeddings, which we then use to represent the Arabic input and the English forum questions in the same space. The results also improve to close to those of the monolingual neural network. Overall, the kernel system shows a better performance compared to the neural network in all cases.
@@ -2372,7 +2374,7 @@
       The results also improve to close to those of the monolingual neural network. Overall, the kernel system shows a better performance compared to the neural network in all cases.},
        address = {Tokyo, Japan},
        author = {Giovanni Da San Martino and Salvatore Romeo and Alberto Barron-Cedeno and Shafiq Joty and Lluís Màrquez and Alessandro Moschitti and Preslav Nakov},
-       booktitle = {In Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+       booktitle = {Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval},
        link = {papers/martino-et-al-sigir-17.pdf},
        month = {September},
        pages = {xx--xx},
@@ -2399,7 +2401,7 @@
     venue: conference
     pages: 632-635
     booktitle: >
-      In Proceedings of the Eleventh International Conference on Web and Social Media (ICWSM'17)
+      Proceedings of the Eleventh International Conference on Web and Social Media (ICWSM'17)
     doc-url: papers/nguyen-et-al-icwsm-17.pdf
     abstract: >
       The role of social media, in particular microblogging platforms such as Twitter, as a conduit for actionable and tactical information during disasters is increasingly acknowledged. However, time-critical analysis of big crisis data on social media streams brings challenges to machine learning techniques, especially the ones that use supervised learning. The scarcity of labeled data, particularly in the early hours of a crisis, delays the learning process. Existing classification methods require a significant amount of labeled data specific to a particular event for training plus a lot of feature engineering to achieve best results. In this work, we introduce neural network based classification methods for identifying useful tweets during a crisis situation. At the onset of a disaster when no labeled data is available, our proposed method makes the best use of the out-of-event data and achieves good results.
@@ -2408,7 +2410,7 @@
        abstract = {The role of social media, in particular microblogging platforms such as Twitter, as a conduit for actionable and tactical information during disasters is increasingly acknowledged. However, time-critical analysis of big crisis data on social media streams brings challenges to machine learning techniques, especially the ones that use supervised learning. The scarcity of labeled data, particularly in the early hours of a crisis, delays the learning process. Existing classification methods require a significant amount of labeled data specific to a particular event for training plus a lot of feature engineering to achieve best results. In this work, we introduce neural network based classification methods for identifying useful tweets during a crisis situation. At the onset of a disaster when no labeled data is available, our proposed method makes the best use of the out-of-event data and achieves good results.},
        address = {Montr{\'{e}}al, Qu{\'{e}}bec, Canada},
        author = {Dat Nguyen and Kamela Ali Al Mannai and Shafiq Joty and Hassan Sajjad and Muhammad Imran and Prasenjit Mitra},
-       booktitle = {In Proceedings of the Eleventh International Conference on Web and Social
+       booktitle = {Proceedings of the Eleventh International Conference on Web and Social
       Media},
        link = {papers/nguyen-et-al-icwsm-17.pdf},
        month = {May},
@@ -2471,7 +2473,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      In Proceedings of the Neu-IR 2017 SIGIR Workshop on Neural Information Retrieval (NeuIR'17)
+      Proceedings of the Neu-IR 2017 SIGIR Workshop on Neural Information Retrieval (NeuIR'17)
     doc-url: papers/nguyen-joty-boussaha-rijke-neuir-17.pdf
     abstract: >
       Discussion forums are an important source of information. They are often used to answer specific questions a user might have and to discover more about a topic of interest. Discussions in these forums may evolve in intricate ways, making it difficult for users to follow the flow of ideas. We propose a novel approach for automatically identifying the underlying thread structure of a forum discussion. Our approach is based on a neural model that computes coherence scores of possible reconstructions and then selects the highest scoring, i.e., the most coherent one. Preliminary experiments demonstrate promising results outperforming a number of strong baseline methods.
@@ -2480,7 +2482,7 @@
        abstract = {Discussion forums are an important source of information. They are often used to answer specific questions a user might have and to discover more about a topic of interest. Discussions in these forums may evolve in intricate ways, making it difficult for users to follow the flow of ideas. We propose a novel approach for automatically identifying the underlying thread structure of a forum discussion. Our approach is based on a neural model that computes coherence scores of possible reconstructions and then selects the highest scoring, i.e., the most coherent one. Preliminary experiments demonstrate promising results outperforming a number of strong baseline methods.},
        address = {Tokyo, Japan},
        author = {Dat Nguyen and Shafiq Joty and Basma Boussaha and Maarten Rijke},
-       booktitle = {In Proceedings of the Neu-IR 2017 SIGIR Workshop on Neural Information Retrieval},
+       booktitle = {Proceedings of the Neu-IR 2017 SIGIR Workshop on Neural Information Retrieval},
        link = {papers/nguyen-joty-boussaha-rijke-neuir-17.pdf},
        month = {Aug},
        pages = {xx--xx},
