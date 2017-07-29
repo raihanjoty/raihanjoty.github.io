@@ -1975,15 +1975,11 @@
     booktitle: >
       Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL'16)
     doc-url: papers/joty-marquez-nakov-naacl-16.pdf
+    abstract: >
+      This paper addresses the problem of comment classification in community Question Answering. Following the state of the art, we approach the task with a global inference process to exploit the information of all comments in the answer-thread in the form of a fully connected graph. Our contribution comprises two novel joint learning models that are on-line and integrate inference within learning. The first one jointly learns two node- and edge-level MaxEnt classifiers with stochastic gradient descent and integrates the inference step with loopy belief propagation. The second model is an instance of fully connected pairwise CRFs (FCCRF). The FCCRF model significantly outperforms all other approaches and yields the best results on the task to date. Crucial elements for its success are the global normalization and an Ising-like edge potential.
     bibtex: >
       @inproceedings{joty-marquez-nakov-naacl-16,
-       address = {San Diego, California},
-       author = {Shafiq Joty and  M\`{a}rquez, Llu\'{i}s and Preslav Nakov},
-       booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-       numpages = {9},
-       pages = {703–-713},
-       publisher = {{ACL}
-      abstract = {This paper addresses the problem of comment
+       abstract = {This paper addresses the problem of comment
       classification in community Question Answering.
       Following the state of the art, we approach
       the task with a global inference process
@@ -2001,7 +1997,13 @@
       significantly outperforms all other approaches
       and yields the best results on the task to date.
       Crucial elements for its success are the global
-      normalization and an Ising-like edge potential.}},
+      normalization and an Ising-like edge potential.},
+       address = {San Diego, California},
+       author = {Shafiq Joty and  M\`{a}rquez, Llu\'{i}s and Preslav Nakov},
+       booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+       numpages = {9},
+       pages = {703–-713},
+       publisher = {ACL},
        series = {NAACL'16},
        title = {Joint Learning with Global Inference for Comment Classification in Community Question Answering},
        year = {2016}
