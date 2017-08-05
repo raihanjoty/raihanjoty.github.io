@@ -2251,7 +2251,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx-xx
+    pages: 1320-1330
     booktitle: >
       Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL'17)
     doc-url: papers/nguyen-joty-acl-17.pdf
@@ -2265,7 +2265,7 @@
        booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics},
        link = {papers/nguyen-joty-acl-17.pdf},
        month = {August},
-       pages = {xx--xx},
+       pages = {1320--1330},
        publisher = {Association for Computational Linguistics},
        series = {ACL'17},
        title = {A Neural Local Coherence Model},
@@ -2287,7 +2287,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx-xx
+    pages: 226-237
     booktitle: >
       Proceedings of The SIGNLL Conference on Computational Natural Language Learning (CoNLL'17)
     doc-url: papers/joty-nakov-marquez-jaradat-conll-17.pdf
@@ -2301,7 +2301,7 @@
        booktitle = {Proceedings of The SIGNLL Conference on Computational Natural Language Learning},
        link = {papers/joty-nakov-marquez-jaradat-conll-17.pdf},
        month = {August},
-       pages = {xx--xx},
+       pages = {226--237},
        publisher = {Association for Computational Linguistics},
        series = {CoNLL'17},
        title = {Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering},
@@ -2352,6 +2352,51 @@
     year: 2017
     selected: no
     title: >
+      Regularized and Retrofitted models for Learning Sentence Representation with Context
+    authors: Tanay Saha, Shafiq Joty, Naeemul Hassan, and Mohammad Hasan
+    id: saha-joty-hassan-hasan-cikm-17
+    img: saha-joty-hassan-hasan-cikm-17-fig
+    slides: media/saha-joty-hassan-hasan-cikm-17-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx-xx
+    booktitle: >
+      Proceedings of the 26th ACM International Conference on Information and Knowledge Management (CIKM'17)
+    doc-url: papers/saha-joty-hasan-cikm-17.pdf
+    abstract: >
+      Vector representation of sentences is important for many text processing tasks that involve classifying, clustering, or ranking sentences. For solving these tasks, bag-of-word based representation has been used for a long time. In recent years, distributed representation of sentences learned by neural models from unlabeled data has been shown to outperform traditional bag-of-words representations. However, most existing methods belonging to the neural models consider only the content of a sentence, and disregard its relations with other sentences in the context. In this paper, we first characterize two types of contexts depending on their scope and utility. We then propose two approaches to incorporate  contextual information into content-based models. We evaluate our sentence representation models in a setup, where context is available to infer sentence vectors. Experimental results demonstrate that our proposed models outshine existing models on three fundamental tasks, such as, classifying, clustering, and ranking sentences.
+    bibtex: >
+      @inproceedings{saha-joty-hassan-hasan-cikm-17,
+       abstract = {Vector representation of sentences is important for many text processing tasks that involve classifying, clustering, or ranking sentences. For solving these tasks, bag-of-word based
+      representation has been used for a long time. In recent years, distributed representation of sentences learned by neural models from unlabeled data has
+      been shown to outperform traditional bag-of-words representations.
+      However, most existing methods belonging to the neural models consider only
+      the content of a sentence, and disregard its relations with other sentences
+      in the context. In this paper, we first characterize two types of contexts
+      depending on their scope and utility. We then propose two approaches to incorporate  contextual information into content-based models. We evaluate our sentence representation
+      models in a setup, where context is available to infer sentence vectors.
+      Experimental results demonstrate that our proposed models outshine existing
+      models on three fundamental tasks, such as, classifying, clustering, and ranking sentences.},
+       address = {Singapore},
+       author = {Tanay Saha and Shafiq Joty and Naeemul Hassan and Mohammad Hasan},
+       booktitle = {Proceedings of the 26th ACM International Conference on Information and Knowledge Management},
+       link = {papers/saha-joty-hasan-cikm-17.pdf},
+       month = {November},
+       pages = {xx--xx},
+       publisher = {ACM},
+       series = {CIKM'17},
+       title = {Regularized and Retrofitted models for Learning Sentence Representation with Context},
+       year = {2017}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2017
+    selected: no
+    title: >
       Cross-Language Question Re-ranking
     authors: Giovanni Da, Salvatore Romeo, Alberto Barron-Cedeno, Shafiq Joty, Lluís Màrquez, Alessandro Moschitti, and Preslav Nakov
     id: martino-et-al-sigir-17
@@ -2360,26 +2405,21 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx-xx
+    pages: 1145-1148
     booktitle: >
       Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'17)
     doc-url: papers/martino-et-al-sigir-17.pdf
     abstract: >
-      We study how to find relevant questions in community forums when the language of the query questions is different from that of the existing questions in the forum. In particular, we explore the Arabic-English language pair. We compare a kernel-based system with a feed-forward neural network in a scenario where a large parallel corpus is available for training a machine translation system, bilingual dictionaries, and cross-language word embeddings. We observe that both approaches degrade the performance of the system when working on the translated text, especially the kernel-based system, which depends heavily on a syntactic kernel. We address this issue using a cross-language tree kernel, which compares the original Arabic tree to the English trees of the forum questions. We show that this kernel almost closes the performance gap with respect to the monolingual system. On the neural network side, we use the parallel corpus to train cross-language embeddings, which we then use to represent the Arabic input and the English forum questions in the same space. The results also improve to close to those of the monolingual neural network. Overall, the kernel system shows a better performance compared to the neural network in all cases.
+      We study how to find relevant questions in community forums when the language of the new questions is different from that of the existing questions in the forum. In particular, we explore the Arabic-English language pair. We compare a kernel-based system with a feed-forward neural network in a scenario where a large parallel corpus is available for training a machine translation system, bilingual dictionaries, and cross-language word embeddings. We observe that both approaches degrade the performance of the system when working on the translated text, especially the kernel-based system, which depends heavily on a syntactic kernel. We address this issue using a cross-language tree kernel, which compares the original Arabic tree to the English trees of the related questions. We show that this kernel almost closes the performance gap with respect to the monolingual system. On the neural network side, we use the parallel corpus to train cross-language embeddings, which we then use to represent the Arabic input and the English related questions in the same space. The results also improve to close to those of the monolingual neural network. Overall, the kernel system shows a better performance compared to the neural network in all cases.
     bibtex: >
       @inproceedings{martino-et-al-sigir-17,
-       abstract = {We study how to find relevant questions in community forums when the language of the query questions is different from that of the existing questions in the forum. In particular, we explore the Arabic--English language pair. We compare
-      a kernel-based system with
-      a feed-forward neural network in a scenario where a large parallel corpus is available for training a machine translation system, bilingual dictionaries, and cross-language word embeddings.
-      We observe that both approaches degrade the performance of the system when working on the translated text, especially the kernel-based system, which depends heavily on a syntactic kernel.
-      We address this issue using a cross-language tree kernel, which compares the original Arabic tree to the English trees of the forum questions. We show that this kernel almost closes the performance gap with respect to the monolingual system. On the neural network side, we use the parallel corpus to train cross-language embeddings, which we then use to represent the Arabic input and the English forum questions in the same space.
-      The results also improve to close to those of the monolingual neural network. Overall, the kernel system shows a better performance compared to the neural network in all cases.},
+       abstract = {We study how to find relevant questions in community forums when the language of the new questions is different from that of the existing questions in the forum. In particular, we explore the Arabic-English language pair. We compare a kernel-based system with a feed-forward neural network in a scenario where a large parallel corpus is available for training a machine translation system, bilingual dictionaries, and cross-language word embeddings. We observe that both approaches degrade the performance of the system when working on the translated text, especially the kernel-based system, which depends heavily on a syntactic kernel. We address this issue using a cross-language tree kernel, which compares the original Arabic tree to the English trees of the related questions. We show that this kernel almost closes the performance gap with respect to the monolingual system. On the neural network side, we use the parallel corpus to train cross-language embeddings, which we then use to represent the Arabic input and the English related questions in the same space. The results also improve to close to those of the monolingual neural network. Overall, the kernel system shows a better performance compared to the neural network in all cases.},
        address = {Tokyo, Japan},
        author = {Giovanni Da San Martino and Salvatore Romeo and Alberto Barron-Cedeno and Shafiq Joty and Lluís Màrquez and Alessandro Moschitti and Preslav Nakov},
        booktitle = {Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval},
        link = {papers/martino-et-al-sigir-17.pdf},
        month = {September},
-       pages = {xx--xx},
+       pages = {1145--1148},
        publisher = {ACM},
        series = {SIGIR'17},
        title = {Cross-Language Question Re-ranking},
