@@ -3,6 +3,8 @@ import simpleyaml as yaml
 import codecs
 import sys
 import os
+import re
+
 # -*- coding: utf-8 -*-
 from simpleyaml import Loader, SafeLoader
 
@@ -20,8 +22,7 @@ def main(file):
 		doc['picture']='shafiq'
 
 		string=yaml.dump(doc,explicit_start=True, default_flow_style=False,allow_unicode=True)
-		print string 
-		raw_input(' ')
+		string = re.sub("doc-url:\s*papers/", "doc-url: ", string)
 		newfile.write(string)
 		newfile.write("---\n\n")
 		newfile.write("{% include singlepaper.html paper=page %}")
