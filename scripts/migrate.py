@@ -20,6 +20,8 @@ def main(file):
 		doc['picture']='shafiq'
 
 		string=yaml.dump(doc,explicit_start=True, default_flow_style=False,allow_unicode=True)
+		print string 
+		raw_input(' ')
 		newfile.write(string)
 		newfile.write("---\n\n")
 		newfile.write("{% include singlepaper.html paper=page %}")
