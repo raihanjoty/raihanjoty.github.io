@@ -23,8 +23,8 @@ def main(file):
 
 		string=yaml.dump(doc,explicit_start=True, default_flow_style=False,allow_unicode=True)
 		string = re.sub("doc-url:\s*papers/", "doc-url: ", string)
-		print string 
-		raw_input(' ')
+#		print string 
+#		raw_input(' ')
 		newfile.write(string)
 		newfile.write("---\n\n")
 		newfile.write("{% include singlepaper.html paper=page %}")

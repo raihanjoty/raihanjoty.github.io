@@ -2182,7 +2182,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
-    pages: xx-xx
+    pages: 683-714
     journal: Computational Linguistics
     doc-url: papers/joty-guzman-marquez-nakov-cl-17.pdf
     abstract: >
@@ -2193,10 +2193,10 @@
        author = {Shafiq Joty and Guzm\'{a}n, Francisco and Màrquez, Lluís and Preslav Nakov},
        journal = {Computational Linguistics},
        link = {papers/joty-guzman-marquez-nakov-cl-17.pdf},
-       pages = {xx--xx},
+       pages = {683--714},
        publisher = {MIT Press},
        title = {Discourse Structure in Machine Translation Evaluation},
-       volume = {xx:x},
+       volume = {43:4},
        year = {2017}
       }
       
