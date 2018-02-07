@@ -2660,7 +2660,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
-    pages: 
+    pages: (Working paper)
     journal: Computational Linguistics
     doc-url: 
     abstract: >
@@ -2669,10 +2669,10 @@
       @article{joty-cl-18,
        abstract = {We propose a local coherence model based on a convolutional neural network that operates over the entity grid representation of a text. The model captures long range entity transitions  along with entity-specific features without loosing generalization, thanks to the power of  distributed representation. We present a pairwise ranking method to train the model in an end-to-end fashion on a task and learn task-specific high level features. We further extend our approach to model discourse coherence in asynchronous conversation (e.g., forum, email) by incorporating the conversational structure into the grid representation. Our evaluation on the standard coherence assessment tasks in monologue demonstrates that our model achieves state of the art results outperforming existing models by a good margin. The evaluation on a forum dataset shows the benefit of modeling conversational structure. A further evaluation demonstrates the utility of our neural coherence model for the task of thread reconstruction in forum conversation.},
        author = {Shafiq Joty and Dat Nguyen and Basma Boussaha and Maarten de-Rijke},
-       issue = {(Working paper)},
+       issue = {},
        journal = {Computational Linguistics},
        link = {},
-       pages = {},
+       pages = {(Working paper)},
        publisher = {MIT Press},
        title = {NeuralGrid: Entity-based Neural Coherence Models for Monologue and Conversation},
        year = {2018}
@@ -2693,7 +2693,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
-    pages: 
+    pages: (Under review)
     journal: Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)
     doc-url: 
     abstract: >
@@ -2713,10 +2713,10 @@
       provide better task-specific representations, (ii) the global structured model improves over local
       models, and (iii) adversarial training gives better domain-invariant representations.},
        author = {Shafiq Joty and Shafiq Joty},
-       issue = {(Under review)},
+       issue = {},
        journal = {Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)},
        link = {},
-       pages = {},
+       pages = {(Under review)},
        publisher = {MIT Press},
        title = {Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach},
        year = {2018}
