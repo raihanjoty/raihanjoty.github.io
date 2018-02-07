@@ -43,11 +43,7 @@ def processAuthor(text):
 def parseauthors(text):
 	final=[]
 
-	if not re.search("\s+and", text):
-		authors = text.strip()
-	else:	
-		authors=re.split('\s+and\s+', text)
-
+	authors=re.split('\s+and\s+', text)
 
 	for author in authors:
 		try:
