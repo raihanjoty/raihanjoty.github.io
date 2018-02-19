@@ -2548,7 +2548,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      arXiv preprint ((not peer reviewed))
+      Computer Vision and Pattern Recognition (CVPR'18)
     doc-url: https://arxiv.org/abs/1711.06420
     abstract: >
       Textual-visual cross-modal retrieval has been a hot research topic in both computer vision and natural language processing communities. Learning appropriate representations for multi-modal data is crucial for the cross-modal retrieval performance. Unlike existing image-text retrieval approaches that embed image-text pairs as single feature vectors in a common representational space, we propose to incorporate generative processes into the cross-modal feature embedding, through which we are able to learn not only the global abstract features but also the local grounded features. Extensive experiments show that our framework can well match images and sentences with complex content, and achieve the state-of-the-art cross-modal retrieval results on MSCOCO dataset.
@@ -2563,83 +2563,14 @@
       only the global abstract features but also the local grounded features. Extensive experiments
       show that our framework can well match images and sentences with complex content, and
       achieve the state-of-the-art cross-modal retrieval results on MSCOCO dataset.},
-       address = {},
+       address = {Salt Lake City, UTAH, USA},
        author = {Jiuxiang Gu and Jianfei Cai and Shafiq Joty and Li Niu and Gang Wang},
-       booktitle = {arXiv preprint},
+       booktitle = {Computer Vision and Pattern Recognition},
        link = {https://arxiv.org/abs/1711.06420},
        pages = {xx--xx},
-       publisher = {},
-       series = {(not peer reviewed)},
+       publisher = {IEEE},
+       series = {CVPR'18},
        title = {Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models},
-       year = {2018}
-      }
-      
-      
-       
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2018
-    selected: no
-    title: >
-      Unsupervised Representation Learning for Activity Time-Series
-    authors: Karan Aggarwal, Shafiq Joty, Luis F, and Jaideep Srivastava
-    id: aggarwal-et-al-kdd-18
-    img: aggarwal-et-al-kdd-18-fig
-    slides: media/aggarwal-et-al-kdd-18-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    pages: xx - xx
-    booktitle: >
-      Knowledge Discovery and Data Mining
-    doc-url: https://arxiv.org/abs/1712.09527
-    abstract: >
-      Physical activity and sleep play a major role in the prevention and management of many chronic conditions. It is not a trivial task to understand their impact on chronic conditions. Currently, data from electronic health records (EHRs), sleep lab studies, and activity/sleep logs are used. The rapid increase in the popularity of wearable health devices provides a significant new data source, making it possible to track the user's lifestyle real-time through web interfaces, both to consumer as well as their healthcare provider, potentially. However, at present there is a gap between lifestyle data (e.g., sleep, physical activity) and clinical outcomes normally captured in EHRs. This is a critical barrier for the use of this new source of signal for healthcare decision making. Applying deep learning to wearables data provides a new opportunity to overcome this barrier.To address the problem of the unavailability of clinical data from a major fraction of subjects and unrepresentative subject populations, we propose a novel unsupervised (task-agnostic) time-series representation learning technique called act2vec. act2vec learns useful features by taking into account the co-occurrence of activity levels along with periodicity of human activity patterns. The learned representations are then exploited to boost the performance of disorder-specific supervised learning models. Furthermore, since many disorders are often related to each other, a phenomenon referred to as co-morbidity, we use a multi-task learning framework for exploiting the shared structure of disorder inducing life-style choices partially captured in the wearables data. Empirical evaluation using actigraphy data from 4,124 subjects shows that our proposed method performs and generalizes substantially better than the conventional time-series symbolic representational methods and task-specific deep learning models.
-    bibtex: >
-      @inproceedings{aggarwal-et-al-kdd-18,
-       abstract = {Physical activity and sleep play a major role in the prevention and management of many chronic conditions. It is not a trivial task to understand their impact on chronic conditions. Currently, data from electronic health records (EHRs), sleep lab studies, and activity/sleep logs are used. The rapid increase in the popularity of wearable health devices provides a significant new data source, making it possible to track the user's lifestyle real-time through web interfaces, both to consumer as well as their healthcare provider, potentially. However, at present there is a gap between lifestyle data (e.g., sleep, physical activity) and clinical outcomes normally captured in EHRs. This is a critical barrier for the use of this new source of signal for healthcare decision making. Applying deep learning to wearables data provides a new opportunity to overcome this barrier.To address the problem of the unavailability of clinical data from a major fraction of subjects and unrepresentative subject populations, we propose a novel unsupervised (task-agnostic) time-series representation learning technique called act2vec. act2vec learns useful features by taking into account the co-occurrence of activity levels along with periodicity of human activity patterns. The learned representations are then exploited to boost the performance of disorder-specific supervised learning models. Furthermore, since many disorders are often related to each other, a phenomenon referred to as co-morbidity, we use a multi-task learning framework for exploiting the shared structure of disorder inducing life-style choices partially captured in the wearables data. Empirical evaluation using actigraphy data from 4,124 subjects shows that our proposed method performs and generalizes substantially better than the conventional time-series symbolic representational methods and task-specific deep learning models.},
-       address = {},
-       author = {Karan Aggarwal and Shafiq Joty and Luis F Luque and Jaideep Srivastava},
-       booktitle = {Knowledge Discovery and Data Mining},
-       link = {https://arxiv.org/abs/1712.09527},
-       pages = {xx -- xx},
-       publisher = {ACM},
-       series = {},
-       title = {Unsupervised Representation Learning for Activity Time-Series},
-       year = {2018}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: article #changes display of reference in paper list
-    year: 2018
-    selected: yes
-    title: >
-      NeuralGrid: Entity-based Neural Coherence Models for Monologue and Conversation
-    authors: Shafiq Joty, Dat Nguyen, Basma Boussaha, and Maarten de-Rijke
-    id: joty-cl-18
-    img: joty-cl-18-fig
-    slides: # e.g. media/$ID.pptx
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: journal
-    pages: (Working paper)
-    journal: Computational Linguistics
-    doc-url: 
-    abstract: >
-      We propose a local coherence model based on a convolutional neural network that operates over the entity grid representation of a text. The model captures long range entity transitions  along with entity-specific features without loosing generalization, thanks to the power of  distributed representation. We present a pairwise ranking method to train the model in an end-to-end fashion on a task and learn task-specific high level features. We further extend our approach to model discourse coherence in asynchronous conversation (e.g., forum, email) by incorporating the conversational structure into the grid representation. Our evaluation on the standard coherence assessment tasks in monologue demonstrates that our model achieves state of the art results outperforming existing models by a good margin. The evaluation on a forum dataset shows the benefit of modeling conversational structure. A further evaluation demonstrates the utility of our neural coherence model for the task of thread reconstruction in forum conversation.
-    bibtex: >
-      @article{joty-cl-18,
-       abstract = {We propose a local coherence model based on a convolutional neural network that operates over the entity grid representation of a text. The model captures long range entity transitions  along with entity-specific features without loosing generalization, thanks to the power of  distributed representation. We present a pairwise ranking method to train the model in an end-to-end fashion on a task and learn task-specific high level features. We further extend our approach to model discourse coherence in asynchronous conversation (e.g., forum, email) by incorporating the conversational structure into the grid representation. Our evaluation on the standard coherence assessment tasks in monologue demonstrates that our model achieves state of the art results outperforming existing models by a good margin. The evaluation on a forum dataset shows the benefit of modeling conversational structure. A further evaluation demonstrates the utility of our neural coherence model for the task of thread reconstruction in forum conversation.},
-       author = {Shafiq Joty and Dat Nguyen and Basma Boussaha and Maarten de-Rijke},
-       issue = {},
-       journal = {Computational Linguistics},
-       link = {},
-       pages = {(Working paper)},
-       publisher = {MIT Press},
-       title = {NeuralGrid: Entity-based Neural Coherence Models for Monologue and Conversation},
        year = {2018}
       }
       
