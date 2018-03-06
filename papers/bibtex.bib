@@ -959,28 +959,6 @@ the third best in the two English subtasks.},
 
 %% 2016
 
-@article{guzman-joty-marquez-nakov-csl-16,
-title = {Machine translation evaluation with neural networks},
-journal = {Computer Speech & Language},
-year = {2016},
-issn = {0885-2308},
-doi = {http://dx.doi.org/10.1016/j.csl.2016.12.005},
-url = {http://www.sciencedirect.com/science/article/pii/S0885230816301693},
-author = {Guzm\'{a}n, Francisco  and Joty, Shafiq  and Màrquez, Lluís  and Nakov, Preslav },
-pages = {180--200},
-abstract = {Abstract We present a framework for machine translation evaluation using neural networks in a pairwise setting,
-where the goal is to select the better translation from a pair of hypotheses, given the reference translation.
-In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses
-is embedded into compact distributed vector representations, and fed into a multi-layer neural network that
-models nonlinear interactions between each of the hypotheses and the reference, as well as between the two hypotheses.
-We experiment with the benchmark datasets from the \{WMT\} Metrics shared task, on which we obtain the best results published so far,
-with the basic network configuration.
-We also perform a series of experiments to analyze and understand the contribution of the different components of the network.
-We evaluate variants and extensions, including fine-tuning of the semantic embeddings, and sentence-based representations modeled with
-convolutional and recurrent neural networks. In summary, the proposed framework is flexible and generalizable,
-allows for efficient learning and scoring, and provides an \{MT\} evaluation metric that correlates with human judgments,
-and is on par with the state of the art. }
-}
 
 
 
@@ -1156,12 +1134,11 @@ running live as a part of the Qatar Living forums.},
 }
 
 
-
 @article{joty-durrani-sajjad-abdelali-csl-17,
   title="{Domain Adaptation Using Neural Network Joint Model}",
   author={Shafiq Joty and Nadir Durrani and Hassan Sajjad and Ahmed Abdelali},
-  journal = {Computer Speech & Language},
-  volume={45},
+  journal = {Computer Speech & Language (Special Issue on Deep Learning for Machine Translation)},
+  volume={45:C},
   publisher={Elsevier},
   pages={161-179},
   year={2017},
@@ -1170,6 +1147,30 @@ running live as a part of the Qatar Living forums.},
   abstract={We explore neural joint models for the task of domain adaptation in machine translation in two ways: (i) we apply state-of-the-art domain adaptation techniques, such as mixture modelling and data selection using the recently proposed Neural Network Joint Model (NNJM) (Devlin et al., 2014); (ii) we propose two novel approaches to perform adaptation through instance weighting and weight readjustment in the NNJM framework. In our first approach, we propose a pair of models called Neural Domain Adaptation Models (NDAM) that minimizes the cross entropy by regularizing the loss function with respect to in-domain (and optionally to out-domain) model. In the second approach, we present a set of Neural Fusion Models (NFM) that combines the in- and the out-domain models by readjusting their parameters based on the in-domain data.
 We evaluated our models on the standard task of translating English-to-German and Arabic-to-English TED talks. The NDAM models achieved better perplexities and modest BLEU improvements compared to the baseline NNJM, trained either on in-domain or on a concatenation of in- and out-domain data. On the other hand, the NFM models obtained significant improvements of up to +0.9 and +0.7 BLEU points, respectively. We also demonstrate improvements over existing adaptation methods such as instance weighting, phrasetable fill-up, linear and log-linear interpolations.},
   issn = {0885-2308},
+}
+
+@article{guzman-joty-marquez-nakov-csl-16,
+title = {Machine translation evaluation with neural networks},
+journal = {Computer Speech & Language (Special Issue on Deep Learning for Machine Translation)},
+year = {2017},
+issn = {0885-2308},
+volume={45:C},
+doi = {http://dx.doi.org/10.1016/j.csl.2016.12.005},
+url = {http://www.sciencedirect.com/science/article/pii/S0885230816301693},
+author = {Guzm\'{a}n, Francisco  and Joty, Shafiq  and Màrquez, Lluís  and Nakov, Preslav },
+pages = {180--200},
+abstract = {Abstract We present a framework for machine translation evaluation using neural networks in a pairwise setting,
+where the goal is to select the better translation from a pair of hypotheses, given the reference translation.
+In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses
+is embedded into compact distributed vector representations, and fed into a multi-layer neural network that
+models nonlinear interactions between each of the hypotheses and the reference, as well as between the two hypotheses.
+We experiment with the benchmark datasets from the \{WMT\} Metrics shared task, on which we obtain the best results published so far,
+with the basic network configuration.
+We also perform a series of experiments to analyze and understand the contribution of the different components of the network.
+We evaluate variants and extensions, including fine-tuning of the semantic embeddings, and sentence-based representations modeled with
+convolutional and recurrent neural networks. In summary, the proposed framework is flexible and generalizable,
+allows for efficient learning and scoring, and provides an \{MT\} evaluation metric that correlates with human judgments,
+and is on par with the state of the art. }
 }
 
 
