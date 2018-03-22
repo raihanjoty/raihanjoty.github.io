@@ -2539,38 +2539,6 @@
     year: 2018
     selected: no
     title: >
-      Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models
-    authors: Jiuxiang Gu, Jianfei Cai, Shafiq Joty, Li Niu, and Gang Wang
-    id: gu-et-al-cvpr-18
-    img: gu-et-al-cvpr-18-fig
-    slides: media/gu-et-al-cvpr-18-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    pages: xx-xx
-    booktitle: >
-      Computer Vision and Pattern Recognition (CVPR'18)
-    doc-url: https://arxiv.org/abs/1711.06420
-    bibtex: >
-      @inproceedings{gu-et-al-cvpr-18,
-       address = {Salt Lake City, UTAH, USA},
-       author = {Jiuxiang Gu and Jianfei Cai and Shafiq Joty and Li Niu and Gang Wang},
-       booktitle = {Computer Vision and Pattern Recognition},
-       link = {https://arxiv.org/abs/1711.06420},
-       pages = {xx--xx},
-       publisher = {IEEE},
-       series = {CVPR'18},
-       title = {Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models},
-       year = {2018}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2018
-    selected: no
-    title: >
       VQA-E: Explaining, Elaborating, and Enhancing Your Answers for Visual Questions
     authors: Qing Li, Qingyi Tao, Shafiq Joty, Jianfei Cai, and Jiebo Luo
     id: qing-et-al-eccv-18
@@ -2581,7 +2549,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      Computer Vision and Pattern Recognition
+      arXiv
     doc-url: https://arxiv.org/abs/1803.07464
     abstract: >
       Most existing works in visual question answering (VQA) are dedicated to improving the accuracy of predicted answers, while disregarding the explanations. We argue that the explanation for an answer is of the same or even more importance compared with the answer itself, since it makes the question and answering process more understandable and traceable. To this end, we propose a new task of VQA-E (VQA with Explanation), where the computational models are required to generate an explanation with the predicted answer. We first construct a new dataset, and then frame the VQA-E problem in a multi-task learning architecture. Our VQA-E dataset is automatically derived from the VQA v2 dataset by intelligently exploiting the available captions. We have conducted a user study to validate the quality of explanations synthesized by our method. We quantitatively show that the additional supervision from explanations can not only produce insightful textual sentences to justify the answers, but also improve the performance of answer prediction. Our model outperforms the state-of-the-art methods by a clear margin on the VQA v2 dataset.
@@ -2589,7 +2557,7 @@
       @inproceedings{qing-et-al-eccv-18,
        abstract = {Most existing works in visual question answering (VQA) are dedicated to improving the accuracy of predicted answers, while disregarding the explanations. We argue that the explanation for an answer is of the same or even more importance compared with the answer itself, since it makes the question and answering process more understandable and traceable. To this end, we propose a new task of VQA-E (VQA with Explanation), where the computational models are required to generate an explanation with the predicted answer. We first construct a new dataset, and then frame the VQA-E problem in a multi-task learning architecture. Our VQA-E dataset is automatically derived from the VQA v2 dataset by intelligently exploiting the available captions. We have conducted a user study to validate the quality of explanations synthesized by our method. We quantitatively show that the additional supervision from explanations can not only produce insightful textual sentences to justify the answers, but also improve the performance of answer prediction. Our model outperforms the state-of-the-art methods by a clear margin on the VQA v2 dataset.},
        author = {Qing Li and Qingyi Tao and Shafiq Joty and Jianfei Cai and Jiebo Luo},
-       booktitle = {Computer Vision and Pattern Recognition},
+       booktitle = {arXiv},
        link = {https://arxiv.org/abs/1803.07464},
        pages = {xx--xx},
        publisher = {arXiv},
@@ -2614,7 +2582,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      Computer Vision and Pattern Recognition
+      arXiv
     doc-url: https://arxiv.org/abs/1803.07464
     abstract: >
       Image captioning is a multimodal task involving computer vision and natural language processing, where the goal is to learn a mapping from the image to its natural language description. In general, the mapping function is learned from a training set of image-caption pairs. However, for some language, large scale image-caption paired corpus might not be available. We present an approach to this unpaired image captioning problem by language pivoting. Our method can effectively capture the characteristics of an image captioner from the pivot language (Chinese) and align it to the target language (English) using another pivot-target (Chinese-English) parallel corpus. We evaluate our method on two image-to-English benchmark datasets: MSCOCO and Flickr30K. Quantitative comparisons against several baseline approaches demonstrate the effectiveness of our method.
@@ -2622,11 +2590,43 @@
       @inproceedings{gu-et-al-eccv-18,
        abstract = {Image captioning is a multimodal task involving computer vision and natural language processing, where the goal is to learn a mapping from the image to its natural language description. In general, the mapping function is learned from a training set of image-caption pairs. However, for some language, large scale image-caption paired corpus might not be available. We present an approach to this unpaired image captioning problem by language pivoting. Our method can effectively capture the characteristics of an image captioner from the pivot language (Chinese) and align it to the target language (English) using another pivot-target (Chinese-English) parallel corpus. We evaluate our method on two image-to-English benchmark datasets: MSCOCO and Flickr30K. Quantitative comparisons against several baseline approaches demonstrate the effectiveness of our method.},
        author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Gang Wang},
-       booktitle = {Computer Vision and Pattern Recognition},
+       booktitle = {arXiv},
        link = {https://arxiv.org/abs/1803.07464},
        pages = {xx--xx},
-       publisher = {arXiv},
+       publisher = {arXiv.org},
        title = {Unpaired Image Captioning by Language Pivoting},
+       year = {2018}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2018
+    selected: no
+    title: >
+      Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models
+    authors: Jiuxiang Gu, Jianfei Cai, Shafiq Joty, Li Niu, and Gang Wang
+    id: gu-et-al-cvpr-18
+    img: gu-et-al-cvpr-18-fig
+    slides: media/gu-et-al-cvpr-18-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx-xx
+    booktitle: >
+      Computer Vision and Pattern Recognition (CVPR'18)
+    doc-url: https://arxiv.org/abs/1711.06420
+    bibtex: >
+      @inproceedings{gu-et-al-cvpr-18,
+       address = {Salt Lake City, UTAH, USA},
+       author = {Jiuxiang Gu and Jianfei Cai and Shafiq Joty and Li Niu and Gang Wang},
+       booktitle = {Computer Vision and Pattern Recognition},
+       link = {https://arxiv.org/abs/1711.06420},
+       pages = {xx--xx},
+       publisher = {IEEE},
+       series = {CVPR'18},
+       title = {Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models},
        year = {2018}
       }
       
