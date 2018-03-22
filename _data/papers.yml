@@ -2535,6 +2535,146 @@
       
   -
     layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2018
+    selected: yes
+    title: >
+      Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach
+    authors: Shafiq Joty, and Shafiq Joty
+    id: joty-cl-si-18
+    img: joty-cl-si-18-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    pages: (Conditionally accepted)
+    journal: Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)
+    doc-url: 
+    abstract: >
+      Participants in an asynchronous conversation (e.g., forums, emails) interact with each other at different times, performing certain communicative acts, called speech acts (e.g., question, request). In this article, we propose a hybrid approach to speech act recognition in asynchronous conversations. Our approach works in two steps: a long short-term memory (LSTM) recurrent neural network first encodes each sentence separately into a distribution representation, which are then used in a conditional structured model to capture the conversational dependencies between sentences. The structured model can consider arbitrary graph structures to model conversational dependencies in an asynchronous conversation. In addition, to mitigate the problem of limited annotated data in the asynchronous domains, we adapt the recurrent model to learn from synchronous conversations (e.g., meetings) using adversarial training of neural networks. Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTMs provide better task-specific representations, (ii) the global structured model improves over local models, and (iii) adversarial training gives better domain-invariant representations.
+    bibtex: >
+      @article{joty-cl-si-18,
+       abstract = {Participants in an asynchronous conversation (e.g., forums, emails) interact with each other
+      at different times, performing certain communicative acts, called speech acts (e.g., question, request). In this article, we propose a hybrid approach to speech act recognition in asynchronous
+      conversations. Our approach works in two steps: a long short-term memory (LSTM) recurrent
+      neural network first encodes each sentence separately into a distribution representation, which
+      are then used in a conditional structured model to capture the conversational dependencies
+      between sentences. The structured model can consider arbitrary graph structures to model conversational
+      dependencies in an asynchronous conversation. In addition, to mitigate the problem
+      of limited annotated data in the asynchronous domains, we adapt the recurrent model to learn
+      from synchronous conversations (e.g., meetings) using adversarial training of neural networks.
+      Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTMs
+      provide better task-specific representations, (ii) the global structured model improves over local
+      models, and (iii) adversarial training gives better domain-invariant representations.},
+       author = {Shafiq Joty and Shafiq Joty},
+       issue = {},
+       journal = {Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)},
+       link = {},
+       pages = {(Conditionally accepted)},
+       publisher = {MIT Press},
+       title = {Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach},
+       year = {2018}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2018
+    selected: no
+    title: >
+      Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models
+    authors: Jiuxiang Gu, Jianfei Cai, Shafiq Joty, Li Niu, and Gang Wang
+    id: gu-et-al-cvpr-18
+    img: gu-et-al-cvpr-18-fig
+    slides: media/gu-et-al-cvpr-18-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx-xx
+    booktitle: >
+      Computer Vision and Pattern Recognition (CVPR'18)
+    doc-url: https://arxiv.org/abs/1711.06420
+    abstract: >
+      {Textual-visual cross-modal retrieval has been a hot research topic in both computer vision and natural language processing communities. Learning appropriate representations for multi-modal data is crucial for the cross-modal retrieval performance. Unlike existing image-text retrieval approaches that embed image-text pairs as single feature vectors in a common representational space, we propose to incorporate generative processes into the cross-modal feature embedding, through which we are able to learn not only the global abstract features but also the local grounded features. Extensive experiments show that our framework can well match images and sentences with complex content, and achieve the state-of-the-art cross-modal retrieval results on MSCOCO dataset.} }  %series    = CVPR'18, %address   = Salt Lake City, UTAH, USA
+    bibtex: >
+      @inproceedings{gu-et-al-cvpr-18,
+       % pages = {{632--635},},
+       abstract = {{Textual-visual cross-modal retrieval has been a hot research topic in both
+      computer vision and natural language processing communities. Learning appropriate
+      representations for multi-modal data is crucial for the cross-modal retrieval performance.
+      Unlike existing image-text retrieval approaches that embed image-text pairs as single
+      feature vectors in a common representational space, we propose to incorporate generative
+      processes into the cross-modal feature embedding, through which we are able to learn not
+      only the global abstract features but also the local grounded features. Extensive experiments
+      show that our framework can well match images and sentences with complex content, and
+      achieve the state-of-the-art cross-modal retrieval results on MSCOCO dataset.}
+      }
+      
+      %series    = {CVPR'18}, %address   = {Salt Lake City, UTAH, USA}},
+       address = {Salt Lake City, UTAH, USA},
+       author = {Jiuxiang Gu and Jianfei Cai and Shafiq Joty and Li Niu and Gang Wang},
+       booktitle = {Computer Vision and Pattern Recognition},
+       link = {https://arxiv.org/abs/1711.06420},
+       pages = {xx--xx},
+       publisher = {IEEE},
+       series = {CVPR'18},
+       title = {Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models},
+       year = {2018}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2018
+    selected: no
+    title: >
+      Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets
+    authors: Firoj Alam, Shafiq Joty, and Muhammad Imran
+    id: firoj-et-al-icwsm-18
+    img: firoj-et-al-icwsm-18-fig
+    slides: media/firoj-et-al-icwsm-18-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx-xx
+    booktitle: >
+      Proceedings of the Twelfth International Conference on Web and Social Media (ICWSM'18)
+    doc-url: papers/firoj-et-al-icwsm-18.pdf
+    abstract: >
+      During time-critical situations such as natural disasters, rapid classification of data posted on social networks by affected people is useful for humanitarian organizations to gain situational awareness and to plan response efforts. However, the scarcity of labeled data in the early hours of a crisis hinders machine learning tasks thus delays crisis response. In this work, we propose to use an inductive semi-supervised technique to utilize unlabeled data, which is often abundant at the onset of a crisis event, along with fewer labeled data. Specifically, we adopt a graph-based deep learning framework to learn an inductive semi-supervised model. We use two realworld crisis datasets from Twitter to evaluate the proposed approach. Our results show significant improvements using unlabeled data as compared to only using labeled data.
+    bibtex: >
+      @inproceedings{firoj-et-al-icwsm-18,
+       abstract = {During time-critical situations such as natural disasters, rapid
+      classification of data posted on social networks by affected
+      people is useful for humanitarian organizations to gain situational
+      awareness and to plan response efforts. However, the
+      scarcity of labeled data in the early hours of a crisis hinders
+      machine learning tasks thus delays crisis response. In this
+      work, we propose to use an inductive semi-supervised technique
+      to utilize unlabeled data, which is often abundant at the
+      onset of a crisis event, along with fewer labeled data. Specifically, we adopt a graph-based deep learning framework to
+      learn an inductive semi-supervised model. We use two realworld
+      crisis datasets from Twitter to evaluate the proposed
+      approach. Our results show significant improvements using
+      unlabeled data as compared to only using labeled data.},
+       address = {Stanford, California},
+       author = {Firoj Alam and Shafiq Joty and Muhammad Imran},
+       booktitle = {Proceedings of the Twelfth International Conference on Web and Social
+      Media},
+       link = {papers/firoj-et-al-icwsm-18.pdf},
+       month = {June},
+       pages = {xx--xx},
+       publisher = {AAAI},
+       series = {ICWSM'18},
+       title = {Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets},
+       year = {2018}
+      }
+      
+      
+  -
+    layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2018
     selected: no
@@ -2595,82 +2735,6 @@
        pages = {xx--xx},
        publisher = {arXiv.org},
        title = {Unpaired Image Captioning by Language Pivoting},
-       year = {2018}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2018
-    selected: no
-    title: >
-      Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models
-    authors: Jiuxiang Gu, Jianfei Cai, Shafiq Joty, Li Niu, and Gang Wang
-    id: gu-et-al-cvpr-18
-    img: gu-et-al-cvpr-18-fig
-    slides: media/gu-et-al-cvpr-18-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    pages: xx-xx
-    booktitle: >
-      Computer Vision and Pattern Recognition (CVPR'18)
-    doc-url: https://arxiv.org/abs/1711.06420
-    bibtex: >
-      @inproceedings{gu-et-al-cvpr-18,
-       address = {Salt Lake City, UTAH, USA},
-       author = {Jiuxiang Gu and Jianfei Cai and Shafiq Joty and Li Niu and Gang Wang},
-       booktitle = {Computer Vision and Pattern Recognition},
-       link = {https://arxiv.org/abs/1711.06420},
-       pages = {xx--xx},
-       publisher = {IEEE},
-       series = {CVPR'18},
-       title = {Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models},
-       year = {2018}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: article #changes display of reference in paper list
-    year: 2018
-    selected: yes
-    title: >
-      Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach
-    authors: Shafiq Joty, and Shafiq Joty
-    id: joty-cl-si-18
-    img: joty-cl-si-18-fig
-    slides: # e.g. media/$ID.pptx
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: journal
-    pages: (Conditionally accepted)
-    journal: Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)
-    doc-url: 
-    abstract: >
-      Participants in an asynchronous conversation (e.g., forums, emails) interact with each other at different times, performing certain communicative acts, called speech acts (e.g., question, request). In this article, we propose a hybrid approach to speech act recognition in asynchronous conversations. Our approach works in two steps: a long short-term memory (LSTM) recurrent neural network first encodes each sentence separately into a distribution representation, which are then used in a conditional structured model to capture the conversational dependencies between sentences. The structured model can consider arbitrary graph structures to model conversational dependencies in an asynchronous conversation. In addition, to mitigate the problem of limited annotated data in the asynchronous domains, we adapt the recurrent model to learn from synchronous conversations (e.g., meetings) using adversarial training of neural networks. Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTMs provide better task-specific representations, (ii) the global structured model improves over local models, and (iii) adversarial training gives better domain-invariant representations.
-    bibtex: >
-      @article{joty-cl-si-18,
-       abstract = {Participants in an asynchronous conversation (e.g., forums, emails) interact with each other
-      at different times, performing certain communicative acts, called speech acts (e.g., question, request). In this article, we propose a hybrid approach to speech act recognition in asynchronous
-      conversations. Our approach works in two steps: a long short-term memory (LSTM) recurrent
-      neural network first encodes each sentence separately into a distribution representation, which
-      are then used in a conditional structured model to capture the conversational dependencies
-      between sentences. The structured model can consider arbitrary graph structures to model conversational
-      dependencies in an asynchronous conversation. In addition, to mitigate the problem
-      of limited annotated data in the asynchronous domains, we adapt the recurrent model to learn
-      from synchronous conversations (e.g., meetings) using adversarial training of neural networks.
-      Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTMs
-      provide better task-specific representations, (ii) the global structured model improves over local
-      models, and (iii) adversarial training gives better domain-invariant representations.},
-       author = {Shafiq Joty and Shafiq Joty},
-       issue = {},
-       journal = {Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)},
-       link = {},
-       pages = {(Conditionally accepted)},
-       publisher = {MIT Press},
-       title = {Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach},
        year = {2018}
       }
       
