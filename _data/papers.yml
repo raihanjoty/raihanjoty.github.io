@@ -2642,23 +2642,8 @@
     booktitle: >
       Proceedings of the Twelfth International Conference on Web and Social Media (ICWSM'18)
     doc-url: papers/firoj-et-al-icwsm-18.pdf
-    abstract: >
-      During time-critical situations such as natural disasters, rapid classification of data posted on social networks by affected people is useful for humanitarian organizations to gain situational awareness and to plan response efforts. However, the scarcity of labeled data in the early hours of a crisis hinders machine learning tasks thus delays crisis response. In this work, we propose to use an inductive semi-supervised technique to utilize unlabeled data, which is often abundant at the onset of a crisis event, along with fewer labeled data. Specifically, we adopt a graph-based deep learning framework to learn an inductive semi-supervised model. We use two realworld crisis datasets from Twitter to evaluate the proposed approach. Our results show significant improvements using unlabeled data as compared to only using labeled data.
     bibtex: >
       @inproceedings{firoj-et-al-icwsm-18,
-       abstract = {During time-critical situations such as natural disasters, rapid
-      classification of data posted on social networks by affected
-      people is useful for humanitarian organizations to gain situational
-      awareness and to plan response efforts. However, the
-      scarcity of labeled data in the early hours of a crisis hinders
-      machine learning tasks thus delays crisis response. In this
-      work, we propose to use an inductive semi-supervised technique
-      to utilize unlabeled data, which is often abundant at the
-      onset of a crisis event, along with fewer labeled data. Specifically, we adopt a graph-based deep learning framework to
-      learn an inductive semi-supervised model. We use two realworld
-      crisis datasets from Twitter to evaluate the proposed
-      approach. Our results show significant improvements using
-      unlabeled data as compared to only using labeled data.},
        address = {Stanford, California},
        author = {Firoj Alam and Shafiq Joty and Muhammad Imran},
        booktitle = {Proceedings of the Twelfth International Conference on Web and Social
