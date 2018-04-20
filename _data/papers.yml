@@ -2540,7 +2540,7 @@
     selected: no
     title: >
       Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach
-    authors: Shafiq Joty, Muhammad Tasnim, and Dat Tien
+    authors: Shafiq Joty, Muhammad Tasnim, and Dat Nguyen
     id: joty-mohiuddin-nguyen-acl-18
     img: joty-mohiuddin-nguyen-acl-18-fig
     slides: media/joty-mohiuddin-nguyen-acl-18-slides.pdf
@@ -2557,7 +2557,7 @@
       @inproceedings{joty-mohiuddin-nguyen-acl-18,
        abstract = {We propose a novel coherence model for written asynchronous conversations (e.g., forums, emails), and show its applications in coherence assessment and thread reconstruction tasks. We conduct our research in two steps. First, we propose improvements to the recently proposed neural entity grid model by lexicalizing its entity transitions. Then, we extend the model to asynchronous conversations by incorporating the underlying conversational structure in the entity grid representation and feature computation. Our model achieves state of the art results on standard coherence assessment tasks in monologue and conversations outperforming existing models. We also demonstrate its effectiveness in reconstructing thread structures.},
        address = {Melbourne, Australia},
-       author = {Shafiq Joty and Muhammad Tasnim Mohiuddin and Dat Tien Nguyen},
+       author = {Shafiq Joty and Muhammad Tasnim Mohiuddin and Dat Nguyen},
        booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
        link = {papers/joty-mohiuddin-nguyen-acl-18.pdf},
        pages = {xx--xx},
