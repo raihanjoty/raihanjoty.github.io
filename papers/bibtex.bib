@@ -1328,6 +1328,46 @@ models, and (iii) adversarial training gives better domain-invariant representat
 }
 }
 
+
+@InProceedings{joty-mohiuddin-nguyen-acl-18,
+  title="{Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach}",
+  author={Shafiq Joty and Muhammad Tasnim Mohiuddin and Dat Tien Nguyen},
+  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
+  series    ={ACL'18},
+  publisher={Association for Computational Linguistics},
+  pages={xx--xx},
+  url = {papers/joty-mohiuddin-nguyen-acl-18.pdf},
+  year={2018},
+  abstract={We propose a novel coherence model for written asynchronous conversations (e.g., forums, emails), and show its applications in coherence assessment and thread reconstruction tasks. We conduct our research in two steps. First, we propose improvements to the recently proposed neural entity grid model by lexicalizing its entity transitions. Then, we extend the model to asynchronous conversations by incorporating the underlying conversational structure in the entity grid representation and feature computation. Our model achieves state of the art results on standard coherence assessment tasks in monologue and conversations outperforming existing models. We also demonstrate its effectiveness in reconstructing thread structures.}
+}
+
+
+@InProceedings{firoj-et-al--acl-18,
+  title="{Domain Adaptation with Adversarial Training and Graph Embeddings}",
+  author={Firoj Alam and Shafiq Joty and Muhammad Imran},
+  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
+  series    ={ACL'18},
+  publisher={Association for Computational Linguistics},
+  pages={xx--xx},
+  url       = {papers/firoj-et-al-acl-18.pdf},
+  year={2018},
+  abstract={In recent years there has been a growing interest in deep neural networks (DNN)
+and representation learning with applications to a myriad of NLP and data
+mining problems. The success of DNNs is heavily dependent on the availability
+of labeled data. However, obtaining labeled data is a big challenge in many
+real-world problems. In such cases, a DNN model can leverage labeled and
+unlabeled data from a related domain, but it has to deal with the shift in data
+distributions between the domains. In this paper, we study the problem of
+classifying social media posts during a crisis event (e.g., Earthquake). For
+that, we use labeled and unlabeled data from past similar events (e.g., Flood)
+and unlabeled data for the current event. We propose a novel model that
+performs adversarial learning based domain adaptation to deal with distribution
+drifts and graph based semi-supervised learning to leverage unlabeled data
+within a single unified deep learning framework.
+Our experiments with two real-world crisis datasets collected from Twitter
+demonstrate significant improvements over several baselines.}
+}
+
 @InProceedings{gu-et-al-cvpr-18,
   author = {Jiuxiang Gu and Jianfei Cai and Shafiq Joty and Li Niu and Gang Wang},
   title = {Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models},
@@ -1348,6 +1388,7 @@ only the global abstract features but also the local grounded features. Extensiv
 show that our framework can well match images and sentences with complex content, and 
 achieve the state-of-the-art cross-modal retrieval results on MSCOCO dataset.}
   }
+
 
 @InProceedings{li-sun-joty-ijcai-18,
   author    = {Jing Li and Aixin Sun and Shafiq Joty},
@@ -1386,8 +1427,7 @@ and sentence-level discourse segmentation.}
 }   
 
 
-
-@InProceedings{firoj-et-al-icwsm-18,
+  @InProceedings{firoj-et-al-icwsm-18,
   author = {Firoj Alam and Shafiq Joty and Muhammad Imran},
   title = {Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets},
   booktitle = {Proceedings of the Twelfth International Conference on Web and Social
@@ -1399,7 +1439,22 @@ and sentence-level discourse segmentation.}
   publisher = {AAAI},
   pages     = {xx--xx},
   url       = {papers/firoj-et-al-icwsm-18.pdf},
+  abstract = {During time-critical situations such as natural disasters, rapid
+classification of data posted on social networks by affected
+people is useful for humanitarian organizations to gain situational
+awareness and to plan response efforts. However, the
+scarcity of labeled data in the early hours of a crisis hinders
+machine learning tasks thus delays crisis response. In this
+work, we propose to use an inductive semi-supervised technique
+to utilize unlabeled data, which is often abundant at the
+onset of a crisis event, along with fewer labeled data. Specifically,
+we adopt a graph-based deep learning framework to
+learn an inductive semi-supervised model. We use two realworld
+crisis datasets from Twitter to evaluate the proposed
+approach. Our results show significant improvements using
+unlabeled data as compared to only using labeled data.}
   }
+
 
 
 @InProceedings{qing-et-al-eccv-18,
