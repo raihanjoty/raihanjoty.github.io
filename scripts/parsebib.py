@@ -86,10 +86,7 @@ def parse(bibfile):
 			else:
 				venue=""
 
-			select_conf    =   ["saha-joty-hasan-ecml-17",\
-								"nguyen-joty-acl-17",\
-								"joty-nakov-marquez-jaradat-conll-17"\
-								"joty-marquez-nakov-naacl-16"]	
+			select_conf    =   []	
 
 			select_journal = ["chali-hasan-joty-ipm-11"]	
 

@@ -2242,7 +2242,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: yes
+    selected: no
     title: >
       A Neural Local Coherence Model
     authors: Dat Nguyen, and Shafiq Joty
@@ -2314,7 +2314,7 @@
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2017
-    selected: yes
+    selected: no
     title: >
       CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec
     authors: Tanay Saha, Shafiq Joty, and Mohammad Hasan
