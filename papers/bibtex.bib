@@ -1458,6 +1458,57 @@ models, and (iii) adversarial training gives better domain-invariant representat
 }
 }
 
+@InProceedings{Ebraheem-et-al-pvldb-18,
+  author    = {Muhammad Ebraheem and Saravanan Thirumuruganathan and Shafiq Joty and Mourad Ouzzani and Nan Tang
+},
+  title     = {SegBot: A Generic Neural Text Segmentation Model with Pointer Network},
+  booktitle = {Proceedings of the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence},
+  month     = {July},
+  year      = {2018},
+  series    = {IJCAI-ECAI-2018},
+  address   = {Stockholm, Sweden},
+  publisher = {},
+  pages     = {xx -- xx},
+  url       = {http://138.197.118.157:8000/segbot/},
+  abstract = {Text segmentation is a fundamental task in natural
+language processing. Depending on the levels of
+granularity, the task can be defined as segmenting
+a document into topical segments, or segmenting
+a sentence into elementary discourse units. Traditional
+solutions to the two tasks heavily rely on
+carefully designed features. The recently proposed
+neural models do not need manual feature engineering,
+but they either suffer from sparse boundary
+tags or they cannot well handle the issue of variable
+size output vocabulary. Our generic end-to-end
+segmentation model, named SEGBOT, uses a bidirectional
+recurrent neural network to encode input
+text sequence. The model then uses another recurrent
+neural network together with a pointer network
+to select text boundaries in the input sequence. In
+this way, SEGBOT does not require hand-crafted
+features. More importantly, our model inherently
+handles the issue of variable size output vocabulary
+and the issue of sparse boundary tags. In our
+experiments, SEGBOT outperforms state-of-the-art
+models on two tasks, document-level topic segmentation
+and sentence-level discourse segmentation.}
+}   
+
+
+
+
+
+@InProceedings{gu-et-al-eccv-18,
+  author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Gang Wang},
+  title = {Unpaired Image Captioning by Language Pivoting},
+  booktitle = {arXiv},
+  year      = {2018},
+  publisher = {arXiv.org},
+  pages     = {xx--xx},
+  url       = {https://arxiv.org/abs/1803.05526},
+  abstract  = {Image captioning is a multimodal task involving computer vision and natural language processing, where the goal is to learn a mapping from the image to its natural language description. In general, the mapping function is learned from a training set of image-caption pairs. However, for some language, large scale image-caption paired corpus might not be available. We present an approach to this unpaired image captioning problem by language pivoting. Our method can effectively capture the characteristics of an image captioner from the pivot language (Chinese) and align it to the target language (English) using another pivot-target (Chinese-English) parallel corpus. We evaluate our method on two image-to-English benchmark datasets: MSCOCO and Flickr30K. Quantitative comparisons against several baseline approaches demonstrate the effectiveness of our method.}
+  }
 
 
 @InProceedings{qing-et-al-eccv-18,
@@ -1471,16 +1522,6 @@ models, and (iii) adversarial training gives better domain-invariant representat
   abstract  = {Most existing works in visual question answering (VQA) are dedicated to improving the accuracy of predicted answers, while disregarding the explanations. We argue that the explanation for an answer is of the same or even more importance compared with the answer itself, since it makes the question and answering process more understandable and traceable. To this end, we propose a new task of VQA-E (VQA with Explanation), where the computational models are required to generate an explanation with the predicted answer. We first construct a new dataset, and then frame the VQA-E problem in a multi-task learning architecture. Our VQA-E dataset is automatically derived from the VQA v2 dataset by intelligently exploiting the available captions. We have conducted a user study to validate the quality of explanations synthesized by our method. We quantitatively show that the additional supervision from explanations can not only produce insightful textual sentences to justify the answers, but also improve the performance of answer prediction. Our model outperforms the state-of-the-art methods by a clear margin on the VQA v2 dataset.}
   }
   
-@InProceedings{gu-et-al-eccv-18,
-  author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Gang Wang},
-  title = {Unpaired Image Captioning by Language Pivoting},
-  booktitle = {arXiv},
-  year      = {2018},
-  publisher = {arXiv.org},
-  pages     = {xx--xx},
-  url       = {https://arxiv.org/abs/1803.05526},
-  abstract  = {Image captioning is a multimodal task involving computer vision and natural language processing, where the goal is to learn a mapping from the image to its natural language description. In general, the mapping function is learned from a training set of image-caption pairs. However, for some language, large scale image-caption paired corpus might not be available. We present an approach to this unpaired image captioning problem by language pivoting. Our method can effectively capture the characteristics of an image captioner from the pivot language (Chinese) and align it to the target language (English) using another pivot-target (Chinese-English) parallel corpus. We evaluate our method on two image-to-English benchmark datasets: MSCOCO and Flickr30K. Quantitative comparisons against several baseline approaches demonstrate the effectiveness of our method.}
-  }
 
 
 
