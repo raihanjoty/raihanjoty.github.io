@@ -2535,6 +2535,50 @@
       
   -
     layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2018
+    selected: yes
+    title: >
+      Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach
+    authors: Shafiq Joty, and Shafiq Joty
+    id: joty-cl-si-18
+    img: joty-cl-si-18-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    pages: (Conditionally accepted)
+    journal: Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)
+    doc-url: 
+    abstract: >
+      Participants in an asynchronous conversation (e.g., forums, emails) interact with each other at different times, performing certain communicative acts, called speech acts (e.g., question, request). In this article, we propose a hybrid approach to speech act recognition in asynchronous conversations. Our approach works in two steps: a long short-term memory (LSTM) recurrent neural network first encodes each sentence separately into a distribution representation, which are then used in a conditional structured model to capture the conversational dependencies between sentences. The structured model can consider arbitrary graph structures to model conversational dependencies in an asynchronous conversation. In addition, to mitigate the problem of limited annotated data in the asynchronous domains, we adapt the recurrent model to learn from synchronous conversations (e.g., meetings) using adversarial training of neural networks. Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTMs provide better task-specific representations, (ii) the global structured model improves over local models, and (iii) adversarial training gives better domain-invariant representations.
+    bibtex: >
+      @article{joty-cl-si-18,
+       abstract = {Participants in an asynchronous conversation (e.g., forums, emails) interact with each other
+      at different times, performing certain communicative acts, called speech acts (e.g., question, request). In this article, we propose a hybrid approach to speech act recognition in asynchronous
+      conversations. Our approach works in two steps: a long short-term memory (LSTM) recurrent
+      neural network first encodes each sentence separately into a distribution representation, which
+      are then used in a conditional structured model to capture the conversational dependencies
+      between sentences. The structured model can consider arbitrary graph structures to model conversational
+      dependencies in an asynchronous conversation. In addition, to mitigate the problem
+      of limited annotated data in the asynchronous domains, we adapt the recurrent model to learn
+      from synchronous conversations (e.g., meetings) using adversarial training of neural networks.
+      Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTMs
+      provide better task-specific representations, (ii) the global structured model improves over local
+      models, and (iii) adversarial training gives better domain-invariant representations.},
+       author = {Shafiq Joty and Shafiq Joty},
+       issue = {},
+       journal = {Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)},
+       link = {},
+       pages = {(Conditionally accepted)},
+       publisher = {MIT Press},
+       title = {Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach},
+       year = {2018}
+      }
+      
+      
+  -
+    layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2018
     selected: no
@@ -2656,6 +2700,74 @@
        publisher = {IEEE},
        series = {CVPR'18, Spotlight},
        title = {Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models},
+       year = {2018}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2018
+    selected: no
+    title: >
+      Unpaired Image Captioning by Language Pivoting
+    authors: Jiuxiang Gu, Shafiq Joty, Jianfei Cai, and Gang Wang
+    id: gu-et-al-eccv-18
+    img: gu-et-al-eccv-18-fig
+    slides: media/gu-et-al-eccv-18-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx-xx
+    booktitle: >
+      European Conference on Computer Vision (ECCV'18)
+    doc-url: https://arxiv.org/abs/1803.05526
+    abstract: >
+      Image captioning is a multimodal task involving computer vision and natural language processing, where the goal is to learn a mapping from the image to its natural language description. In general, the mapping function is learned from a training set of image-caption pairs. However, for some language, large scale image-caption paired corpus might not be available. We present an approach to this unpaired image captioning problem by language pivoting. Our method can effectively capture the characteristics of an image captioner from the pivot language (Chinese) and align it to the target language (English) using another pivot-target (Chinese-English) parallel corpus. We evaluate our method on two image-to-English benchmark datasets: MSCOCO and Flickr30K. Quantitative comparisons against several baseline approaches demonstrate the effectiveness of our method.
+    bibtex: >
+      @inproceedings{gu-et-al-eccv-18,
+       abstract = {Image captioning is a multimodal task involving computer vision and natural language processing, where the goal is to learn a mapping from the image to its natural language description. In general, the mapping function is learned from a training set of image-caption pairs. However, for some language, large scale image-caption paired corpus might not be available. We present an approach to this unpaired image captioning problem by language pivoting. Our method can effectively capture the characteristics of an image captioner from the pivot language (Chinese) and align it to the target language (English) using another pivot-target (Chinese-English) parallel corpus. We evaluate our method on two image-to-English benchmark datasets: MSCOCO and Flickr30K. Quantitative comparisons against several baseline approaches demonstrate the effectiveness of our method.},
+       author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Gang Wang},
+       booktitle = {European Conference on Computer Vision},
+       link = {https://arxiv.org/abs/1803.05526},
+       pages = {xx--xx},
+       publisher = {Springer},
+       series = {ECCV'18},
+       title = {Unpaired Image Captioning by Language Pivoting},
+       year = {2018}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2018
+    selected: no
+    title: >
+      VQA-E: Explaining, Elaborating, and Enhancing Your Answers for Visual Questions
+    authors: Qing Li, Qingyi Tao, Shafiq Joty, Jianfei Cai, and Jiebo Luo
+    id: qing-et-al-eccv-18
+    img: qing-et-al-eccv-18-fig
+    slides: media/qing-et-al-eccv-18-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx-xx
+    booktitle: >
+      European Conference on Computer Vision (ECCV'18)
+    doc-url: https://arxiv.org/abs/1803.07464
+    abstract: >
+      Most existing works in visual question answering (VQA) are dedicated to improving the accuracy of predicted answers, while disregarding the explanations. We argue that the explanation for an answer is of the same or even more importance compared with the answer itself, since it makes the question and answering process more understandable and traceable. To this end, we propose a new task of VQA-E (VQA with Explanation), where the computational models are required to generate an explanation with the predicted answer. We first construct a new dataset, and then frame the VQA-E problem in a multi-task learning architecture. Our VQA-E dataset is automatically derived from the VQA v2 dataset by intelligently exploiting the available captions. We have conducted a user study to validate the quality of explanations synthesized by our method. We quantitatively show that the additional supervision from explanations can not only produce insightful textual sentences to justify the answers, but also improve the performance of answer prediction. Our model outperforms the state-of-the-art methods by a clear margin on the VQA v2 dataset.
+    bibtex: >
+      @inproceedings{qing-et-al-eccv-18,
+       abstract = {Most existing works in visual question answering (VQA) are dedicated to improving the accuracy of predicted answers, while disregarding the explanations. We argue that the explanation for an answer is of the same or even more importance compared with the answer itself, since it makes the question and answering process more understandable and traceable. To this end, we propose a new task of VQA-E (VQA with Explanation), where the computational models are required to generate an explanation with the predicted answer. We first construct a new dataset, and then frame the VQA-E problem in a multi-task learning architecture. Our VQA-E dataset is automatically derived from the VQA v2 dataset by intelligently exploiting the available captions. We have conducted a user study to validate the quality of explanations synthesized by our method. We quantitatively show that the additional supervision from explanations can not only produce insightful textual sentences to justify the answers, but also improve the performance of answer prediction. Our model outperforms the state-of-the-art methods by a clear margin on the VQA v2 dataset.},
+       author = {Qing Li and Qingyi Tao and Shafiq Joty and Jianfei Cai and Jiebo Luo},
+       booktitle = {European Conference on Computer Vision},
+       link = {https://arxiv.org/abs/1803.07464},
+       pages = {xx--xx},
+       publisher = {Springer},
+       series = {ECCV'18},
+       title = {VQA-E: Explaining, Elaborating, and Enhancing Your Answers for Visual Questions},
        year = {2018}
       }
       
@@ -2800,116 +2912,6 @@
        publisher = {AAAI},
        series = {ICWSM'18},
        title = {Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets},
-       year = {2018}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: article #changes display of reference in paper list
-    year: 2018
-    selected: yes
-    title: >
-      Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach
-    authors: Shafiq Joty, and Shafiq Joty
-    id: joty-cl-si-18
-    img: joty-cl-si-18-fig
-    slides: # e.g. media/$ID.pptx
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: journal
-    pages: (Conditionally accepted)
-    journal: Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)
-    doc-url: 
-    abstract: >
-      Participants in an asynchronous conversation (e.g., forums, emails) interact with each other at different times, performing certain communicative acts, called speech acts (e.g., question, request). In this article, we propose a hybrid approach to speech act recognition in asynchronous conversations. Our approach works in two steps: a long short-term memory (LSTM) recurrent neural network first encodes each sentence separately into a distribution representation, which are then used in a conditional structured model to capture the conversational dependencies between sentences. The structured model can consider arbitrary graph structures to model conversational dependencies in an asynchronous conversation. In addition, to mitigate the problem of limited annotated data in the asynchronous domains, we adapt the recurrent model to learn from synchronous conversations (e.g., meetings) using adversarial training of neural networks. Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTMs provide better task-specific representations, (ii) the global structured model improves over local models, and (iii) adversarial training gives better domain-invariant representations.
-    bibtex: >
-      @article{joty-cl-si-18,
-       abstract = {Participants in an asynchronous conversation (e.g., forums, emails) interact with each other
-      at different times, performing certain communicative acts, called speech acts (e.g., question, request). In this article, we propose a hybrid approach to speech act recognition in asynchronous
-      conversations. Our approach works in two steps: a long short-term memory (LSTM) recurrent
-      neural network first encodes each sentence separately into a distribution representation, which
-      are then used in a conditional structured model to capture the conversational dependencies
-      between sentences. The structured model can consider arbitrary graph structures to model conversational
-      dependencies in an asynchronous conversation. In addition, to mitigate the problem
-      of limited annotated data in the asynchronous domains, we adapt the recurrent model to learn
-      from synchronous conversations (e.g., meetings) using adversarial training of neural networks.
-      Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTMs
-      provide better task-specific representations, (ii) the global structured model improves over local
-      models, and (iii) adversarial training gives better domain-invariant representations.},
-       author = {Shafiq Joty and Shafiq Joty},
-       issue = {},
-       journal = {Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)},
-       link = {},
-       pages = {(Conditionally accepted)},
-       publisher = {MIT Press},
-       title = {Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach},
-       year = {2018}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2018
-    selected: no
-    title: >
-      Unpaired Image Captioning by Language Pivoting
-    authors: Jiuxiang Gu, Shafiq Joty, Jianfei Cai, and Gang Wang
-    id: gu-et-al-eccv-18
-    img: gu-et-al-eccv-18-fig
-    slides: media/gu-et-al-eccv-18-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    pages: xx-xx
-    booktitle: >
-      arXiv
-    doc-url: https://arxiv.org/abs/1803.05526
-    abstract: >
-      Image captioning is a multimodal task involving computer vision and natural language processing, where the goal is to learn a mapping from the image to its natural language description. In general, the mapping function is learned from a training set of image-caption pairs. However, for some language, large scale image-caption paired corpus might not be available. We present an approach to this unpaired image captioning problem by language pivoting. Our method can effectively capture the characteristics of an image captioner from the pivot language (Chinese) and align it to the target language (English) using another pivot-target (Chinese-English) parallel corpus. We evaluate our method on two image-to-English benchmark datasets: MSCOCO and Flickr30K. Quantitative comparisons against several baseline approaches demonstrate the effectiveness of our method.
-    bibtex: >
-      @inproceedings{gu-et-al-eccv-18,
-       abstract = {Image captioning is a multimodal task involving computer vision and natural language processing, where the goal is to learn a mapping from the image to its natural language description. In general, the mapping function is learned from a training set of image-caption pairs. However, for some language, large scale image-caption paired corpus might not be available. We present an approach to this unpaired image captioning problem by language pivoting. Our method can effectively capture the characteristics of an image captioner from the pivot language (Chinese) and align it to the target language (English) using another pivot-target (Chinese-English) parallel corpus. We evaluate our method on two image-to-English benchmark datasets: MSCOCO and Flickr30K. Quantitative comparisons against several baseline approaches demonstrate the effectiveness of our method.},
-       author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Gang Wang},
-       booktitle = {arXiv},
-       link = {https://arxiv.org/abs/1803.05526},
-       pages = {xx--xx},
-       publisher = {arXiv.org},
-       title = {Unpaired Image Captioning by Language Pivoting},
-       year = {2018}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2018
-    selected: no
-    title: >
-      VQA-E: Explaining, Elaborating, and Enhancing Your Answers for Visual Questions
-    authors: Qing Li, Qingyi Tao, Shafiq Joty, Jianfei Cai, and Jiebo Luo
-    id: qing-et-al-eccv-18
-    img: qing-et-al-eccv-18-fig
-    slides: media/qing-et-al-eccv-18-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    pages: xx-xx
-    booktitle: >
-      arXiv
-    doc-url: https://arxiv.org/abs/1803.07464
-    abstract: >
-      Most existing works in visual question answering (VQA) are dedicated to improving the accuracy of predicted answers, while disregarding the explanations. We argue that the explanation for an answer is of the same or even more importance compared with the answer itself, since it makes the question and answering process more understandable and traceable. To this end, we propose a new task of VQA-E (VQA with Explanation), where the computational models are required to generate an explanation with the predicted answer. We first construct a new dataset, and then frame the VQA-E problem in a multi-task learning architecture. Our VQA-E dataset is automatically derived from the VQA v2 dataset by intelligently exploiting the available captions. We have conducted a user study to validate the quality of explanations synthesized by our method. We quantitatively show that the additional supervision from explanations can not only produce insightful textual sentences to justify the answers, but also improve the performance of answer prediction. Our model outperforms the state-of-the-art methods by a clear margin on the VQA v2 dataset.
-    bibtex: >
-      @inproceedings{qing-et-al-eccv-18,
-       abstract = {Most existing works in visual question answering (VQA) are dedicated to improving the accuracy of predicted answers, while disregarding the explanations. We argue that the explanation for an answer is of the same or even more importance compared with the answer itself, since it makes the question and answering process more understandable and traceable. To this end, we propose a new task of VQA-E (VQA with Explanation), where the computational models are required to generate an explanation with the predicted answer. We first construct a new dataset, and then frame the VQA-E problem in a multi-task learning architecture. Our VQA-E dataset is automatically derived from the VQA v2 dataset by intelligently exploiting the available captions. We have conducted a user study to validate the quality of explanations synthesized by our method. We quantitatively show that the additional supervision from explanations can not only produce insightful textual sentences to justify the answers, but also improve the performance of answer prediction. Our model outperforms the state-of-the-art methods by a clear margin on the VQA v2 dataset.},
-       author = {Qing Li and Qingyi Tao and Shafiq Joty and Jianfei Cai and Jiebo Luo},
-       booktitle = {arXiv},
-       link = {https://arxiv.org/abs/1803.07464},
-       pages = {xx--xx},
-       publisher = {arXiv},
-       title = {VQA-E: Explaining, Elaborating, and Enhancing Your Answers for Visual Questions},
        year = {2018}
       }
       
