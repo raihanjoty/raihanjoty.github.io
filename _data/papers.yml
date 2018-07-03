@@ -2594,7 +2594,7 @@
     pages: xx-xx
     booktitle: >
       Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL'18)
-    doc-url: papers/joty-mohiuddin-nguyen-acl-18.pdf
+    doc-url: https://arxiv.org/abs/1805.02275
     abstract: >
       We propose a novel coherence model for written asynchronous conversations (e.g., forums, emails), and show its applications in coherence assessment and thread reconstruction tasks. We conduct our research in two steps. First, we propose improvements to the recently proposed neural entity grid model by lexicalizing its entity transitions. Then, we extend the model to asynchronous conversations by incorporating the underlying conversational structure in the entity grid representation and feature computation. Our model achieves state of the art results on standard coherence assessment tasks in monologue and conversations outperforming existing models. We also demonstrate its effectiveness in reconstructing thread structures.
     bibtex: >
@@ -2603,7 +2603,7 @@
        address = {Melbourne, Australia},
        author = {Shafiq Joty and Muhammad Tasnim Mohiuddin and Dat Nguyen},
        booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
-       link = {papers/joty-mohiuddin-nguyen-acl-18.pdf},
+       link = {https://arxiv.org/abs/1805.02275},
        pages = {xx--xx},
        publisher = {Association for Computational Linguistics},
        series = {ACL'18},
@@ -2629,7 +2629,7 @@
     pages: xx-xx
     booktitle: >
       Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL'18)
-    doc-url: papers/firoj-et-al-acl-18.pdf
+    doc-url: https://arxiv.org/abs/1805.05151
     abstract: >
       In recent years there has been a growing interest in deep neural networks (DNN) and representation learning with applications to a myriad of NLP and data mining problems. The success of DNNs is heavily dependent on the availability of labeled data. However, obtaining labeled data is a big challenge in many real-world problems. In such cases, a DNN model can leverage labeled and unlabeled data from a related domain, but it has to deal with the shift in data distributions between the domains. In this paper, we study the problem of classifying social media posts during a crisis event (e.g., Earthquake). For that, we use labeled and unlabeled data from past similar events (e.g., Flood) and unlabeled data for the current event. We propose a novel model that performs adversarial learning based domain adaptation to deal with distribution drifts and graph based semi-supervised learning to leverage unlabeled data within a single unified deep learning framework. Our experiments with two real-world crisis datasets collected from Twitter demonstrate significant improvements over several baselines.
     bibtex: >
@@ -2652,7 +2652,7 @@
        address = {Melbourne, Australia},
        author = {Firoj Alam and Shafiq Joty and Muhammad Imran},
        booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
-       link = {papers/firoj-et-al-acl-18.pdf},
+       link = {https://arxiv.org/abs/1805.05151},
        pages = {xx--xx},
        publisher = {Association for Computational Linguistics},
        series = {ACL'18},
@@ -2727,6 +2727,7 @@
     bibtex: >
       @inproceedings{gu-et-al-eccv-18,
        abstract = {Image captioning is a multimodal task involving computer vision and natural language processing, where the goal is to learn a mapping from the image to its natural language description. In general, the mapping function is learned from a training set of image-caption pairs. However, for some language, large scale image-caption paired corpus might not be available. We present an approach to this unpaired image captioning problem by language pivoting. Our method can effectively capture the characteristics of an image captioner from the pivot language (Chinese) and align it to the target language (English) using another pivot-target (Chinese-English) parallel corpus. We evaluate our method on two image-to-English benchmark datasets: MSCOCO and Flickr30K. Quantitative comparisons against several baseline approaches demonstrate the effectiveness of our method.},
+       address = {Munich, Germany},
        author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Gang Wang},
        booktitle = {European Conference on Computer Vision},
        link = {https://arxiv.org/abs/1803.05526},
@@ -2761,6 +2762,7 @@
     bibtex: >
       @inproceedings{qing-et-al-eccv-18,
        abstract = {Most existing works in visual question answering (VQA) are dedicated to improving the accuracy of predicted answers, while disregarding the explanations. We argue that the explanation for an answer is of the same or even more importance compared with the answer itself, since it makes the question and answering process more understandable and traceable. To this end, we propose a new task of VQA-E (VQA with Explanation), where the computational models are required to generate an explanation with the predicted answer. We first construct a new dataset, and then frame the VQA-E problem in a multi-task learning architecture. Our VQA-E dataset is automatically derived from the VQA v2 dataset by intelligently exploiting the available captions. We have conducted a user study to validate the quality of explanations synthesized by our method. We quantitatively show that the additional supervision from explanations can not only produce insightful textual sentences to justify the answers, but also improve the performance of answer prediction. Our model outperforms the state-of-the-art methods by a clear margin on the VQA v2 dataset.},
+       address = {Munich, Germany},
        author = {Qing Li and Qingyi Tao and Shafiq Joty and Jianfei Cai and Jiebo Luo},
        booktitle = {European Conference on Computer Vision},
        link = {https://arxiv.org/abs/1803.07464},
