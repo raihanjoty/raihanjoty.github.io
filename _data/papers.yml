@@ -2539,6 +2539,60 @@
     year: 2018
     selected: no
     title: >
+      Joint Multitask Learning for Community Question Answering Using Task-Specific Embeddings
+    authors: Shafiq Joty, Lluís Màrquez, and Preslav Nakov
+    id: joty-et-al-emnlp-18
+    img: joty-et-al-emnlp-18-fig
+    slides: media/joty-et-al-emnlp-18-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx-xx
+    booktitle: >
+      Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing
+    doc-url: 
+    abstract: >
+      We address, for the first time, the joint resolution of two important Question Answering tasks on community forums: given a new question, (i) find related existing questions, and (ii) find relevant answers to the new question. We further use an auxiliary task to complement the previous two, i.e., (iii) find good answers with respect to the thread question in a question-comment thread. We use deep neural networks (DNNs) to learn meaningful task-specific embeddings, which we then incorporate into a conditional random field (CRF) model on the multitask problem, performing joint learning over arbitrary graph structures. The experimental results show that DNNs alone achieve competitive results when trained to produce the embeddings. Furthermore, the CRF model is able to effectively make use of the embeddings and the dependencies between the tasks to improve results significantly and consistently across a variety of evaluation metrics, thus showing the complementarity of DNNs and structured learning.
+    bibtex: >
+      @inproceedings{joty-et-al-emnlp-18,
+       abstract = {We address, for the first time, the joint resolution
+      of two important Question Answering
+      tasks on community forums: given a new
+      question, (i) find related existing questions, and (ii) find relevant answers to the new question.
+      We further use an auxiliary task to complement
+      the previous two, i.e., (iii) find good
+      answers with respect to the thread question
+      in a question-comment thread. We use deep
+      neural networks (DNNs) to learn meaningful
+      task-specific embeddings, which we then
+      incorporate into a conditional random field
+      (CRF) model on the multitask problem, performing
+      joint learning over arbitrary graph
+      structures. The experimental results show that
+      DNNs alone achieve competitive results when
+      trained to produce the embeddings. Furthermore, the CRF model is able to effectively
+      make use of the embeddings and the dependencies
+      between the tasks to improve results
+      significantly and consistently across a variety
+      of evaluation metrics, thus showing the complementarity
+      of DNNs and structured learning.},
+       address = {Brussels, Belgium},
+       author = {Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav},
+       booktitle = {Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},
+       link = {},
+       pages = {xx--xx},
+       publisher = {ACL},
+       title = {Joint Multitask Learning for Community Question Answering Using Task-Specific Embeddings},
+       year = {2018}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2018
+    selected: no
+    title: >
       Aspect-based Neural Recommender
     authors: Chin Yao, Kaiqi Zhao, Shafiq Joty, and Gao Cong
     id: chin-et-al-cikm-18

@@ -1303,6 +1303,41 @@ models on three fundamental tasks, such as, classifying, clustering, and ranking
 
 %% 2018
 
+@InProceedings{joty-et-al-emnlp-18,
+  author    = {Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav},
+  title     = {Joint Multitask Learning for Community Question Answering Using Task-Specific Embeddings},
+  booktitle = {Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2018},
+  address   = {Brussels, Belgium},
+  publisher = {ACL},
+  pages     = {xx--xx},
+  url       = {},
+  abstract = {We address, for the first time, the joint resolution
+of two important Question Answering
+tasks on community forums: given a new
+question, (i) find related existing questions,
+and (ii) find relevant answers to the new question.
+We further use an auxiliary task to complement
+the previous two, i.e., (iii) find good
+answers with respect to the thread question
+in a question-comment thread. We use deep
+neural networks (DNNs) to learn meaningful
+task-specific embeddings, which we then
+incorporate into a conditional random field
+(CRF) model on the multitask problem, performing
+joint learning over arbitrary graph
+structures. The experimental results show that
+DNNs alone achieve competitive results when
+trained to produce the embeddings. Furthermore,
+the CRF model is able to effectively
+make use of the embeddings and the dependencies
+between the tasks to improve results
+significantly and consistently across a variety
+of evaluation metrics, thus showing the complementarity
+of DNNs and structured learning.},
+}
+
+
 @InProceedings{chin-et-al-cikm-18,
   author    = {Chin Yao and Kaiqi Zhao and Shafiq Joty and Gao Cong},
   title     = {Aspect-based Neural Recommender},
