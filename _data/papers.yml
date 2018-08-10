@@ -2593,7 +2593,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing
+      Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP'18)
     doc-url: 
     abstract: >
       We address, for the first time, the joint resolution of two important Question Answering tasks on community forums: given a new question, (i) find related existing questions, and (ii) find relevant answers to the new question. We further use an auxiliary task to complement the previous two, i.e., (iii) find good answers with respect to the thread question in a question-comment thread. We use deep neural networks (DNNs) to learn meaningful task-specific embeddings, which we then incorporate into a conditional random field (CRF) model on the multitask problem, performing joint learning over arbitrary graph structures. The experimental results show that DNNs alone achieve competitive results when trained to produce the embeddings. Furthermore, the CRF model is able to effectively make use of the embeddings and the dependencies between the tasks to improve results significantly and consistently across a variety of evaluation metrics, thus showing the complementarity of DNNs and structured learning.
@@ -2625,7 +2625,7 @@
        booktitle = {Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},
        link = {},
        pages = {xx--xx},
-       publisher = {ACL},
+       series = {EMNLP'18},
        title = {Joint Multitask Learning for Community Question Answering Using Task-Specific Embeddings},
        year = {2018}
       }
