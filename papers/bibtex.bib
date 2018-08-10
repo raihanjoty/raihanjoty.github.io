@@ -1303,6 +1303,34 @@ models on three fundamental tasks, such as, classifying, clustering, and ranking
 
 %% 2018
 
+
+@article{joty-cl-si-18,
+  title="{Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach}",
+  author={Shafiq Joty and Shafiq Joty},
+  journal = {Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)},
+  publisher={MIT Press},
+  issue={},
+  pages={(Conditionally accepted)},
+  year={2018},
+  url = {},
+  abstract={Participants in an asynchronous conversation (e.g., forums, emails) interact with each other
+at different times, performing certain communicative acts, called speech acts (e.g., question,
+request). In this article, we propose a hybrid approach to speech act recognition in asynchronous
+conversations. Our approach works in two steps: a long short-term memory (LSTM) recurrent
+neural network first encodes each sentence separately into a distribution representation, which
+are then used in a conditional structured model to capture the conversational dependencies
+between sentences. The structured model can consider arbitrary graph structures to model conversational
+dependencies in an asynchronous conversation. In addition, to mitigate the problem
+of limited annotated data in the asynchronous domains, we adapt the recurrent model to learn
+from synchronous conversations (e.g., meetings) using adversarial training of neural networks.
+Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTMs
+provide better task-specific representations, (ii) the global structured model improves over local
+models, and (iii) adversarial training gives better domain-invariant representations.
+}
+}
+
+
+
 @InProceedings{joty-et-al-emnlp-18,
   author    = {Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav},
   title     = {Joint Multitask Learning for Community Question Answering Using Task-Specific Embeddings},
@@ -1335,6 +1363,47 @@ between the tasks to improve results
 significantly and consistently across a variety
 of evaluation metrics, thus showing the complementarity
 of DNNs and structured learning.},
+}
+
+@InProceedings{joty-mohiuddin-nguyen-acl-18,
+  title="{Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach}",
+  author={Shafiq Joty and Muhammad Tasnim Mohiuddin and Dat Nguyen},
+  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
+  series    ={ACL'18},
+  publisher={Association for Computational Linguistics},
+  address   = {Melbourne, Australia},
+  pages={xx--xx},
+  url = {https://arxiv.org/abs/1805.02275},
+  year={2018},
+  abstract={We propose a novel coherence model for written asynchronous conversations (e.g., forums, emails), and show its applications in coherence assessment and thread reconstruction tasks. We conduct our research in two steps. First, we propose improvements to the recently proposed neural entity grid model by lexicalizing its entity transitions. Then, we extend the model to asynchronous conversations by incorporating the underlying conversational structure in the entity grid representation and feature computation. Our model achieves state of the art results on standard coherence assessment tasks in monologue and conversations outperforming existing models. We also demonstrate its effectiveness in reconstructing thread structures.}
+}
+
+
+@InProceedings{firoj-et-al-acl-18,
+  title="{Domain Adaptation with Adversarial Training and Graph Embeddings}",
+  author={Firoj Alam and Shafiq Joty and Muhammad Imran},
+  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
+  series    ={ACL'18},
+  publisher={Association for Computational Linguistics},
+  address   = {Melbourne, Australia},
+  pages={xx--xx},
+  url       = {https://arxiv.org/abs/1805.05151},
+  year={2018},
+  abstract={In recent years there has been a growing interest in deep neural networks (DNN)
+and representation learning with applications to a myriad of NLP and data
+mining problems. The success of DNNs is heavily dependent on the availability
+of labeled data. However, obtaining labeled data is a big challenge in many
+real-world problems. In such cases, a DNN model can leverage labeled and
+unlabeled data from a related domain, but it has to deal with the shift in data
+distributions between the domains. In this paper, we study the problem of
+classifying social media posts during a crisis event (e.g., Earthquake). For
+that, we use labeled and unlabeled data from past similar events (e.g., Flood)
+and unlabeled data for the current event. We propose a novel model that
+performs adversarial learning based domain adaptation to deal with distribution
+drifts and graph based semi-supervised learning to leverage unlabeled data
+within a single unified deep learning framework.
+Our experiments with two real-world crisis datasets collected from Twitter
+demonstrate significant improvements over several baselines.}
 }
 
 
@@ -1396,72 +1465,9 @@ of DNNs and structured learning.},
   abstract = {Despite the efforts in 70+ years in all aspects of Entity res- olution (ER), there is still a high demand for democratizing ER – by reducing the heavy human involvement in label- ing data, performing feature engineering, tuning parameters, and defining blocking functions. With the recent advances in deep learning, in particular distributed representations of words (a.k.a. word embeddings), we present a novel ER sys- tem, called DeepER, that achieves good accuracy, high effi- ciency, as well as ease-of-use (i.e., much less human efforts). We use sophisticated composition methods, namely uni- and bi-directional recurrent neural networks (RNNs) with long short term memory (LSTM) hidden units, to convert each tuple to a distributed representation (i.e., a vector), which can in turn be used to effectively capture similarities be- tween tuples. We consider both the case where pre-trained word embeddings are available as well the case where they are not; we present ways to learn and tune the distributed representations that are customized for a specific ER task under different scenarios. We propose a locality sensitive hashing (LSH) based blocking approach that takes all at- tributes of a tuple into consideration and produces much smaller blocks, compared with traditional methods that con- sider only a few attributes. We evaluate our algorithms on multiple datasets (including benchmarks, biomedical data, as well as multi-lingual data) and the extensive experimental results show that DeepER outperforms existing solutions.}
 }   
 
-@article{joty-cl-si-18,
-  title="{Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach}",
-  author={Shafiq Joty and Shafiq Joty},
-  journal = {Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)},
-  publisher={MIT Press},
-  issue={},
-  pages={(Conditionally accepted)},
-  year={2018},
-  url = {},
-  abstract={Participants in an asynchronous conversation (e.g., forums, emails) interact with each other
-at different times, performing certain communicative acts, called speech acts (e.g., question,
-request). In this article, we propose a hybrid approach to speech act recognition in asynchronous
-conversations. Our approach works in two steps: a long short-term memory (LSTM) recurrent
-neural network first encodes each sentence separately into a distribution representation, which
-are then used in a conditional structured model to capture the conversational dependencies
-between sentences. The structured model can consider arbitrary graph structures to model conversational
-dependencies in an asynchronous conversation. In addition, to mitigate the problem
-of limited annotated data in the asynchronous domains, we adapt the recurrent model to learn
-from synchronous conversations (e.g., meetings) using adversarial training of neural networks.
-Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTMs
-provide better task-specific representations, (ii) the global structured model improves over local
-models, and (iii) adversarial training gives better domain-invariant representations.
-}
-}
 
 
-@InProceedings{joty-mohiuddin-nguyen-acl-18,
-  title="{Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach}",
-  author={Shafiq Joty and Muhammad Tasnim Mohiuddin and Dat Nguyen},
-  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
-  series    ={ACL'18},
-  publisher={Association for Computational Linguistics},
-  address   = {Melbourne, Australia},
-  pages={xx--xx},
-  url = {https://arxiv.org/abs/1805.02275},
-  year={2018},
-  abstract={We propose a novel coherence model for written asynchronous conversations (e.g., forums, emails), and show its applications in coherence assessment and thread reconstruction tasks. We conduct our research in two steps. First, we propose improvements to the recently proposed neural entity grid model by lexicalizing its entity transitions. Then, we extend the model to asynchronous conversations by incorporating the underlying conversational structure in the entity grid representation and feature computation. Our model achieves state of the art results on standard coherence assessment tasks in monologue and conversations outperforming existing models. We also demonstrate its effectiveness in reconstructing thread structures.}
-}
 
-
-@InProceedings{firoj-et-al-acl-18,
-  title="{Domain Adaptation with Adversarial Training and Graph Embeddings}",
-  author={Firoj Alam and Shafiq Joty and Muhammad Imran},
-  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
-  series    ={ACL'18},
-  publisher={Association for Computational Linguistics},
-  address   = {Melbourne, Australia},
-  pages={xx--xx},
-  url       = {https://arxiv.org/abs/1805.05151},
-  year={2018},
-  abstract={In recent years there has been a growing interest in deep neural networks (DNN)
-and representation learning with applications to a myriad of NLP and data
-mining problems. The success of DNNs is heavily dependent on the availability
-of labeled data. However, obtaining labeled data is a big challenge in many
-real-world problems. In such cases, a DNN model can leverage labeled and
-unlabeled data from a related domain, but it has to deal with the shift in data
-distributions between the domains. In this paper, we study the problem of
-classifying social media posts during a crisis event (e.g., Earthquake). For
-that, we use labeled and unlabeled data from past similar events (e.g., Flood)
-and unlabeled data for the current event. We propose a novel model that
-performs adversarial learning based domain adaptation to deal with distribution
-drifts and graph based semi-supervised learning to leverage unlabeled data
-within a single unified deep learning framework.
-Our experiments with two real-world crisis datasets collected from Twitter
-demonstrate significant improvements over several baselines.}
-}
 
 
 
