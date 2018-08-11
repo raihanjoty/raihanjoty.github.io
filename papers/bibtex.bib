@@ -1421,76 +1421,6 @@ demonstrate significant improvements over several baselines.}
   abstract = {Textual reviews, which are readily available on many e-commerce and review websites such as Amazon and Yelp, serve as an invaluable source of information for recommender systems. However, not all parts of the reviews are equally important, and the same choice of words may reflect a different meaning based on its context. In this paper, we propose a novel end-to-end Aspect-based Neural Recommender (ANR) to perform aspect-based representation learning for both users and items via an attention-based component. Furthermore, we model the multi-faceted process behind how users rate items by estimating the aspect-level user and item importance by adapting the neural co-attention mechanism. Our proposed model concurrently address several shortcomings of existing recommender systems, and a thorough experimental study on 25 benchmark datasets from Amazon and Yelp shows that ANR significantly outperforms recently proposed state-of-the-art baselines such as DeepCoNN, D-Attn and ALFM.}
 }
 
-@InProceedings{gu-et-al-eccv-18,
-  author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Gang Wang},
-  title = {Unpaired Image Captioning by Language Pivoting},
-  booktitle = {European Conference on Computer Vision},
-  year      = {2018},
-  series    = {ECCV'18},
-  publisher = {Springer},
-  pages     = {xx--xx},
-  address   = {Munich, Germany},
-  url       = {https://arxiv.org/abs/1803.05526},
-  abstract  = {Image captioning is a multimodal task involving computer vision and natural language processing, where the goal is to learn a mapping from the image to its natural language description. In general, the mapping function is learned from a training set of image-caption pairs. However, for some language, large scale image-caption paired corpus might not be available. We present an approach to this unpaired image captioning problem by language pivoting. Our method can effectively capture the characteristics of an image captioner from the pivot language (Chinese) and align it to the target language (English) using another pivot-target (Chinese-English) parallel corpus. We evaluate our method on two image-to-English benchmark datasets: MSCOCO and Flickr30K. Quantitative comparisons against several baseline approaches demonstrate the effectiveness of our method.}
-  }
-
-
-@InProceedings{qing-et-al-eccv-18,
-  author = {Qing Li and Qingyi Tao and Shafiq Joty and Jianfei Cai and Jiebo Luo},
-  title = {VQA-E: Explaining, Elaborating, and Enhancing Your Answers for Visual Questions},
-  booktitle = {European Conference on Computer Vision},
-  year      = {2018},
-  series    = {ECCV'18},
-  publisher = {Springer},
-  address   = {Munich, Germany},
-  pages     = {xx--xx},
-  url       = {https://arxiv.org/abs/1803.07464},
-  abstract  = {Most existing works in visual question answering (VQA) are dedicated to improving the accuracy of predicted answers, while disregarding the explanations. We argue that the explanation for an answer is of the same or even more importance compared with the answer itself, since it makes the question and answering process more understandable and traceable. To this end, we propose a new task of VQA-E (VQA with Explanation), where the computational models are required to generate an explanation with the predicted answer. We first construct a new dataset, and then frame the VQA-E problem in a multi-task learning architecture. Our VQA-E dataset is automatically derived from the VQA v2 dataset by intelligently exploiting the available captions. We have conducted a user study to validate the quality of explanations synthesized by our method. We quantitatively show that the additional supervision from explanations can not only produce insightful textual sentences to justify the answers, but also improve the performance of answer prediction. Our model outperforms the state-of-the-art methods by a clear margin on the VQA v2 dataset.}
-  }
-
-@InProceedings{Ebraheem-et-al-pvldb-18,
-  author    = {Muhammad Ebraheem and Saravanan Thirumuruganathan and Shafiq Joty and Mourad Ouzzani and Nan Tang
-},
-  title     = {Distributed Representations of Tuples for Entity Resolution},
-  booktitle = {The Forty-fourth International Conference on Very Large Data Bases},
-  month     = {August},
-  year      = {2018},
-  series    = {VLDB-2018},
-  address   = {Rio de Janeiro, Brazil},
-  publisher = {},
-  pages     = {xx -- xx},
-  url       = {},
-  volume    = {11},
-  number    = {10},
-  abstract = {Despite the efforts in 70+ years in all aspects of Entity res- olution (ER), there is still a high demand for democratizing ER – by reducing the heavy human involvement in label- ing data, performing feature engineering, tuning parameters, and defining blocking functions. With the recent advances in deep learning, in particular distributed representations of words (a.k.a. word embeddings), we present a novel ER sys- tem, called DeepER, that achieves good accuracy, high effi- ciency, as well as ease-of-use (i.e., much less human efforts). We use sophisticated composition methods, namely uni- and bi-directional recurrent neural networks (RNNs) with long short term memory (LSTM) hidden units, to convert each tuple to a distributed representation (i.e., a vector), which can in turn be used to effectively capture similarities be- tween tuples. We consider both the case where pre-trained word embeddings are available as well the case where they are not; we present ways to learn and tune the distributed representations that are customized for a specific ER task under different scenarios. We propose a locality sensitive hashing (LSH) based blocking approach that takes all at- tributes of a tuple into consideration and produces much smaller blocks, compared with traditional methods that con- sider only a few attributes. We evaluate our algorithms on multiple datasets (including benchmarks, biomedical data, as well as multi-lingual data) and the extensive experimental results show that DeepER outperforms existing solutions.}
-}   
-
-
-
-
-@InProceedings{gu-et-al-cvpr-18,
-  author = {Jiuxiang Gu and Jianfei Cai and Shafiq Joty and Li Niu and Gang Wang},
-  title = {Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models},
-  booktitle = {Computer Vision and Pattern Recognition},
-  year      = {2018},
-  series    = {CVPR'18, Spotlight},
-  address   = {Salt Lake City, UTAH, USA},
-  publisher = {IEEE},
-  pages     = {xx--xx},
-  url       = {https://arxiv.org/abs/1711.06420},
-  abstract  = {Textual-visual cross-modal retrieval has been a hot research topic in both 
-computer vision and natural language processing communities. Learning appropriate 
-representations for multi-modal data is crucial for the cross-modal retrieval performance. 
-Unlike existing image-text retrieval approaches that embed image-text pairs as single 
-feature vectors in a common representational space, we propose to incorporate generative 
-processes into the cross-modal feature embedding, through which we are able to learn not 
-only the global abstract features but also the local grounded features. Extensive experiments 
-show that our framework can well match images and sentences with complex content, and 
-achieve the state-of-the-art cross-modal retrieval results on MSCOCO dataset.}
-  }
-
-
-
 @InProceedings{li-sun-joty-ijcai-18,
   author    = {Jing Li and Aixin Sun and Shafiq Joty},
   title     = {SegBot: A Generic Neural Text Segmentation Model with Pointer Network},
@@ -1526,6 +1456,81 @@ experiments, SEGBOT outperforms state-of-the-art
 models on two tasks, document-level topic segmentation
 and sentence-level discourse segmentation.}
 }   
+
+
+
+@InProceedings{gu-et-al-eccv-18,
+  author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Gang Wang},
+  title = {Unpaired Image Captioning by Language Pivoting},
+  booktitle = {European Conference on Computer Vision},
+  year      = {2018},
+  series    = {ECCV'18},
+  publisher = {Springer},
+  pages     = {xx--xx},
+  address   = {Munich, Germany},
+  url       = {https://arxiv.org/abs/1803.05526},
+  abstract  = {Image captioning is a multimodal task involving computer vision and natural language processing, where the goal is to learn a mapping from the image to its natural language description. In general, the mapping function is learned from a training set of image-caption pairs. However, for some language, large scale image-caption paired corpus might not be available. We present an approach to this unpaired image captioning problem by language pivoting. Our method can effectively capture the characteristics of an image captioner from the pivot language (Chinese) and align it to the target language (English) using another pivot-target (Chinese-English) parallel corpus. We evaluate our method on two image-to-English benchmark datasets: MSCOCO and Flickr30K. Quantitative comparisons against several baseline approaches demonstrate the effectiveness of our method.}
+  }
+
+
+@InProceedings{qing-et-al-eccv-18,
+  author = {Qing Li and Qingyi Tao and Shafiq Joty and Jianfei Cai and Jiebo Luo},
+  title = {VQA-E: Explaining, Elaborating, and Enhancing Your Answers for Visual Questions},
+  booktitle = {European Conference on Computer Vision},
+  year      = {2018},
+  series    = {ECCV'18},
+  publisher = {Springer},
+  address   = {Munich, Germany},
+  pages     = {xx--xx},
+  url       = {https://arxiv.org/abs/1803.07464},
+  abstract  = {Most existing works in visual question answering (VQA) are dedicated to improving the accuracy of predicted answers, while disregarding the explanations. We argue that the explanation for an answer is of the same or even more importance compared with the answer itself, since it makes the question and answering process more understandable and traceable. To this end, we propose a new task of VQA-E (VQA with Explanation), where the computational models are required to generate an explanation with the predicted answer. We first construct a new dataset, and then frame the VQA-E problem in a multi-task learning architecture. Our VQA-E dataset is automatically derived from the VQA v2 dataset by intelligently exploiting the available captions. We have conducted a user study to validate the quality of explanations synthesized by our method. We quantitatively show that the additional supervision from explanations can not only produce insightful textual sentences to justify the answers, but also improve the performance of answer prediction. Our model outperforms the state-of-the-art methods by a clear margin on the VQA v2 dataset.}
+  }
+
+
+@InProceedings{gu-et-al-cvpr-18,
+  author = {Jiuxiang Gu and Jianfei Cai and Shafiq Joty and Li Niu and Gang Wang},
+  title = {Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models},
+  booktitle = {Computer Vision and Pattern Recognition},
+  year      = {2018},
+  series    = {CVPR'18, Spotlight},
+  address   = {Salt Lake City, UTAH, USA},
+  publisher = {IEEE},
+  pages     = {xx--xx},
+  url       = {https://arxiv.org/abs/1711.06420},
+  abstract  = {Textual-visual cross-modal retrieval has been a hot research topic in both 
+computer vision and natural language processing communities. Learning appropriate 
+representations for multi-modal data is crucial for the cross-modal retrieval performance. 
+Unlike existing image-text retrieval approaches that embed image-text pairs as single 
+feature vectors in a common representational space, we propose to incorporate generative 
+processes into the cross-modal feature embedding, through which we are able to learn not 
+only the global abstract features but also the local grounded features. Extensive experiments 
+show that our framework can well match images and sentences with complex content, and 
+achieve the state-of-the-art cross-modal retrieval results on MSCOCO dataset.}
+  }
+
+@InProceedings{Ebraheem-et-al-pvldb-18,
+  author    = {Muhammad Ebraheem and Saravanan Thirumuruganathan and Shafiq Joty and Mourad Ouzzani and Nan Tang
+},
+  title     = {Distributed Representations of Tuples for Entity Resolution},
+  booktitle = {The Forty-fourth International Conference on Very Large Data Bases},
+  month     = {August},
+  year      = {2018},
+  series    = {VLDB-2018},
+  address   = {Rio de Janeiro, Brazil},
+  publisher = {},
+  pages     = {xx -- xx},
+  url       = {},
+  volume    = {11},
+  number    = {10},
+  abstract = {Despite the efforts in 70+ years in all aspects of Entity res- olution (ER), there is still a high demand for democratizing ER – by reducing the heavy human involvement in label- ing data, performing feature engineering, tuning parameters, and defining blocking functions. With the recent advances in deep learning, in particular distributed representations of words (a.k.a. word embeddings), we present a novel ER sys- tem, called DeepER, that achieves good accuracy, high effi- ciency, as well as ease-of-use (i.e., much less human efforts). We use sophisticated composition methods, namely uni- and bi-directional recurrent neural networks (RNNs) with long short term memory (LSTM) hidden units, to convert each tuple to a distributed representation (i.e., a vector), which can in turn be used to effectively capture similarities be- tween tuples. We consider both the case where pre-trained word embeddings are available as well the case where they are not; we present ways to learn and tune the distributed representations that are customized for a specific ER task under different scenarios. We propose a locality sensitive hashing (LSH) based blocking approach that takes all at- tributes of a tuple into consideration and produces much smaller blocks, compared with traditional methods that con- sider only a few attributes. We evaluate our algorithms on multiple datasets (including benchmarks, biomedical data, as well as multi-lingual data) and the extensive experimental results show that DeepER outperforms existing solutions.}
+}   
+
+
+
+
+
+
+
 
 
 
