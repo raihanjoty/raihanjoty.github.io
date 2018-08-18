@@ -2965,6 +2965,67 @@
     year: 2018
     selected: no
     title: >
+      NLP for Conversations: Sentiment, Summarization, and Group Dynamics
+    authors: Gabriel Murray, Shafiq Joty, and Giuseppe Carenini
+    id: murray-joty-carenini-coling-18
+    img: murray-joty-carenini-coling-18-fig
+    slides: media/murray-joty-carenini-coling-18-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 1-4
+    booktitle: >
+      Proceedings of the 27th International Conference on Computational Linguistics: Tutorial Abstracts (COLING'18 (Tutorial))
+    doc-url: http://www.aclweb.org/anthology/C18-3001
+    abstract: >
+      The primary goal of this tutorial is for attendees to learn about recent work applying NLP to spoken and written conversations, with a focus on computational models for three related topics: conversational structure, summarization and sentiment detection, and group dynamics. We provide examples of specific NLP tasks within those three areas, how they relate to one another, their applications, and how we evaluate task performance. We will begin by discussing motivations and applications of applying NLP methods to conversations, including downstream applications that could benefit. Attendees will hear about the challenges of working with noisy data, and examples of datasets of spoken and/or written conversations. The first part of the tutorial covers conversational structures, the basic building blocks for working with conversational data. Participants will learn about computational methods for uncovering thread and topic structures of a conversation, detecting dialogue acts and adjacency pairs, identifying participant roles (where relevant), and how to treat disfluencies. We will cover methods for both synchronous (e.g., meeting, phone) and asynchronous (e.g., forum, email) conversations. In the second part of the tutorial, we will focus on sentiment analysis and summarization. Attendees will learn about the related, overlapping tasks of detecting sentiment, subjectivity, and opinions. We will cover unsupervised and supervised approaches, as well as multimodal sentiment detection. Participants will learn about intrinsic vs. extrinsic evaluation of sentiment analysis methods for conversations. For summarization, we will cover core topics, such as the notions of extractive vs. abstractive summarization, and summarization vs. compression. In particular, participants will learn about the limits of extractive summarization on noisy and opinion-filled conversation data. We will particularly emphasize the question of how to evaluate automatically generated summaries, including some of the controversial history surrounding automatic summarization metrics that are widely used. In the final part of the tutorial, participants will learn about the growing field of research that uses NLP and machine learning methods to model and predict group dynamics, including prediction of group performance and participant affect. Attendees will learn about the close relationship between these three areas of summarization, sentiment, and group dynamics, and why researchers in each one of those areas often end up being concerned with the other two topics as well. Finally, we will discuss promising current and future directions of applying NLP to conversations.
+    bibtex: >
+      @inproceedings{murray-joty-carenini-coling-18,
+       abstract = {The primary goal of this tutorial is for attendees to learn about recent work applying NLP to spoken
+      and written conversations, with a focus on computational models for three related topics: conversational
+      structure, summarization and sentiment detection, and group dynamics. We provide examples of specific
+      NLP tasks within those three areas, how they relate to one another, their applications, and how we
+      evaluate task performance.
+      We will begin by discussing motivations and applications of applying NLP methods to conversations, including downstream applications that could benefit. Attendees will hear about the challenges of working
+      with noisy data, and examples of datasets of spoken and/or written conversations.
+      The first part of the tutorial covers conversational structures, the basic building blocks for working
+      with conversational data. Participants will learn about computational methods for uncovering thread and
+      topic structures of a conversation, detecting dialogue acts and adjacency pairs, identifying participant
+      roles (where relevant), and how to treat disfluencies. We will cover methods for both synchronous (e.g., meeting, phone) and asynchronous (e.g., forum, email) conversations.
+      In the second part of the tutorial, we will focus on sentiment analysis and summarization. Attendees
+      will learn about the related, overlapping tasks of detecting sentiment, subjectivity, and opinions. We will
+      cover unsupervised and supervised approaches, as well as multimodal sentiment detection. Participants
+      will learn about intrinsic vs. extrinsic evaluation of sentiment analysis methods for conversations.
+      For summarization, we will cover core topics, such as the notions of extractive vs. abstractive summarization, and summarization vs. compression. In particular, participants will learn about the limits of
+      extractive summarization on noisy and opinion-filled conversation data. We will particularly emphasize
+      the question of how to evaluate automatically generated summaries, including some of the controversial
+      history surrounding automatic summarization metrics that are widely used.
+      In the final part of the tutorial, participants will learn about the growing field of research that uses NLP
+      and machine learning methods to model and predict group dynamics, including prediction of group
+      performance and participant affect. Attendees will learn about the close relationship between these three
+      areas of summarization, sentiment, and group dynamics, and why researchers in each one of those areas
+      often end up being concerned with the other two topics as well. Finally, we will discuss promising
+      current and future directions of applying NLP to conversations.},
+       address = {Santa Fe, New Maxico, USA},
+       author = {Gabriel Murray and
+      Shafiq Joty and
+      Giuseppe Carenini},
+       booktitle = {Proceedings of the 27th International Conference on Computational Linguistics: Tutorial Abstracts},
+       link = {http://www.aclweb.org/anthology/C18-3001},
+       month = {August},
+       pages = {1--4},
+       series = {COLING'18 (Tutorial)},
+       title = {NLP for Conversations: Sentiment, Summarization, and Group Dynamics},
+       year = {2018}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2018
+    selected: no
+    title: >
       Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets
     authors: Firoj Alam, Shafiq Joty, and Muhammad Imran
     id: firoj-et-al-icwsm-18
