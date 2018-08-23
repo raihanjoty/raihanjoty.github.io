@@ -2547,7 +2547,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
-    pages: (Conditionally accepted)
+    pages: (Accepted)
     journal: Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)
     doc-url: 
     abstract: >
@@ -2574,7 +2574,7 @@
        issue = {},
        journal = {Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)},
        link = {},
-       pages = {(Conditionally accepted)},
+       pages = {(Accepted)},
        publisher = {MIT Press},
        title = {Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach},
        year = {2018}
