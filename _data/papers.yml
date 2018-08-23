@@ -2540,7 +2540,7 @@
     selected: yes
     title: >
       Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach
-    authors: Shafiq Joty, and Shafiq Joty
+    authors: Shafiq Joty, and Tasnim Mohiuddin
     id: joty-cl-si-18
     img: joty-cl-si-18-fig
     slides: # e.g. media/$ID.pptx
@@ -2551,22 +2551,26 @@
     journal: Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)
     doc-url: 
     abstract: >
-      Participants in an asynchronous conversation (e.g., forums, emails) interact with each other at different times, performing certain communicative acts, called speech acts (e.g., question, request). In this article, we propose a hybrid approach to speech act recognition in asynchronous conversations. Our approach works in two steps: a long short-term memory (LSTM) recurrent neural network first encodes each sentence separately into a distribution representation, which are then used in a conditional structured model to capture the conversational dependencies between sentences. The structured model can consider arbitrary graph structures to model conversational dependencies in an asynchronous conversation. In addition, to mitigate the problem of limited annotated data in the asynchronous domains, we adapt the recurrent model to learn from synchronous conversations (e.g., meetings) using adversarial training of neural networks. Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTMs provide better task-specific representations, (ii) the global structured model improves over local models, and (iii) adversarial training gives better domain-invariant representations.
+      Participants in asynchronous conversations (e.g., forums, emails) interact with each other at different times, performing certain communicative acts, called speech acts (e.g., question, request). In this article, we propose a hybrid approach to speech act recognition in asynchronous conversations. Our approach works in two main steps: a long short-term memory recurrent neural network (LSTM-RNN) first encodes each sentence separately into a task-specific distributed representation, which is then used in a conditional random field (CRF) model to capture the conversational dependencies between sentences. The LSTM-RNN uses pretrained word embeddings learned from a large conversational corpus and is trained to classify sentences into speech act types. The CRF model can consider arbitrary graph structures to model conversational dependencies in an asynchronous conversation. In addition, to mitigate the problem of limited annotated data in the asynchronous domains, we adapt the LSTM-RNN model to learn from synchronous conversations (e.g., meetings) using domain adversarial training of neural networks. Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTM-RNNs provide better task-specific representations, (ii) conversational word embeddings benefit the LSTM-RNNs more than the off-the-shelf ones, (iii) adversarial training gives better domain-invariant representations, and (iv) the global CRF model improves over local models.
     bibtex: >
       @article{joty-cl-si-18,
-       abstract = {Participants in an asynchronous conversation (e.g., forums, emails) interact with each other
-      at different times, performing certain communicative acts, called speech acts (e.g., question, request). In this article, we propose a hybrid approach to speech act recognition in asynchronous
-      conversations. Our approach works in two steps: a long short-term memory (LSTM) recurrent
-      neural network first encodes each sentence separately into a distribution representation, which
-      are then used in a conditional structured model to capture the conversational dependencies
-      between sentences. The structured model can consider arbitrary graph structures to model conversational
-      dependencies in an asynchronous conversation. In addition, to mitigate the problem
-      of limited annotated data in the asynchronous domains, we adapt the recurrent model to learn
-      from synchronous conversations (e.g., meetings) using adversarial training of neural networks.
-      Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTMs
-      provide better task-specific representations, (ii) the global structured model improves over local
-      models, and (iii) adversarial training gives better domain-invariant representations.},
-       author = {Shafiq Joty and Shafiq Joty},
+       abstract = {Participants in asynchronous conversations (e.g., forums, emails) interact with each other at
+      different times, performing certain communicative acts, called speech acts (e.g., question, request).
+      In this article, we propose a hybrid approach to speech act recognition in asynchronous
+      conversations. Our approach works in two main steps: a long short-term memory recurrent
+      neural network (LSTM-RNN) first encodes each sentence separately into a task-specific distributed
+      representation, which is then used in a conditional random field (CRF) model to
+      capture the conversational dependencies between sentences. The LSTM-RNN uses pretrained
+      word embeddings learned from a large conversational corpus and is trained to classify sentences
+      into speech act types. The CRF model can consider arbitrary graph structures to model conversational
+      dependencies in an asynchronous conversation. In addition, to mitigate the problem of
+      limited annotated data in the asynchronous domains, we adapt the LSTM-RNN model to learn
+      from synchronous conversations (e.g., meetings) using domain adversarial training of neural
+      networks. Empirical evaluation shows the effectiveness of our approach over existing ones: (i)
+      LSTM-RNNs provide better task-specific representations, (ii) conversational word embeddings
+      benefit the LSTM-RNNs more than the off-the-shelf ones, (iii) adversarial training gives better
+      domain-invariant representations, and (iv) the global CRF model improves over local models.},
+       author = {Shafiq Joty and Tasnim Mohiuddin},
        issue = {},
        journal = {Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)},
        link = {},
@@ -2976,7 +2980,7 @@
     pages: 1-4
     booktitle: >
       Proceedings of the 27th International Conference on Computational Linguistics: Tutorial Abstracts (COLING'18)
-    doc-url: http://www.aclweb.org/anthology/C18-3001
+    doc-url: https://sites.google.com/view/nlpforconversations
     abstract: >
       The primary goal of this tutorial is for attendees to learn about recent work applying NLP to spoken and written conversations, with a focus on computational models for three related topics: conversational structure, summarization and sentiment detection, and group dynamics. We provide examples of specific NLP tasks within those three areas, how they relate to one another, their applications, and how we evaluate task performance. We will begin by discussing motivations and applications of applying NLP methods to conversations, including downstream applications that could benefit. Attendees will hear about the challenges of working with noisy data, and examples of datasets of spoken and/or written conversations. The first part of the tutorial covers conversational structures, the basic building blocks for working with conversational data. Participants will learn about computational methods for uncovering thread and topic structures of a conversation, detecting dialogue acts and adjacency pairs, identifying participant roles (where relevant), and how to treat disfluencies. We will cover methods for both synchronous (e.g., meeting, phone) and asynchronous (e.g., forum, email) conversations. In the second part of the tutorial, we will focus on sentiment analysis and summarization. Attendees will learn about the related, overlapping tasks of detecting sentiment, subjectivity, and opinions. We will cover unsupervised and supervised approaches, as well as multimodal sentiment detection. Participants will learn about intrinsic vs. extrinsic evaluation of sentiment analysis methods for conversations. For summarization, we will cover core topics, such as the notions of extractive vs. abstractive summarization, and summarization vs. compression. In particular, participants will learn about the limits of extractive summarization on noisy and opinion-filled conversation data. We will particularly emphasize the question of how to evaluate automatically generated summaries, including some of the controversial history surrounding automatic summarization metrics that are widely used. In the final part of the tutorial, participants will learn about the growing field of research that uses NLP and machine learning methods to model and predict group dynamics, including prediction of group performance and participant affect. Attendees will learn about the close relationship between these three areas of summarization, sentiment, and group dynamics, and why researchers in each one of those areas often end up being concerned with the other two topics as well. Finally, we will discuss promising current and future directions of applying NLP to conversations.
     bibtex: >
@@ -3011,7 +3015,7 @@
       Shafiq Joty and
       Giuseppe Carenini},
        booktitle = {Proceedings of the 27th International Conference on Computational Linguistics: Tutorial Abstracts},
-       link = {http://www.aclweb.org/anthology/C18-3001},
+       link = {https://sites.google.com/view/nlpforconversations},
        month = {August},
        pages = {1--4},
        series = {COLING'18},
