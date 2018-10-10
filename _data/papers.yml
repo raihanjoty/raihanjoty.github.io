@@ -3030,6 +3030,54 @@
     year: 2018
     selected: no
     title: >
+      Discourse Processing and Its Applications in Text Mining
+    authors: Shafiq Joty, Giuseppe Carenini, Raymond Ng, and Gabriel Murray
+    id: joty-et-al-icdm-18
+    img: joty-et-al-icdm-18-fig
+    slides: media/joty-et-al-icdm-18-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 1-2
+    booktitle: >
+      IEEE International Conference on Data Mining: Tutorial Abstracts (ICDM'18)
+    doc-url: https://ntunlpsg.github.io/project/icdmtutorial/
+    abstract: >
+      Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many text mining applications. This involves identifying the topic structure, the coherence structure, the coreference structure, and the conversation structure for conversational discourse. Taken together, these structures can inform text summarization, essay scoring, sentiment analysis, machine translation, information extraction, question answering, and thread recovery. The tutorial starts with an overview of basic concepts in discourse analysis – monologue vs. conversation, synchronous vs. asynchronous conversation, and key linguistic structures in discourse analysis. It then covers traditional machine learning methods along with the most recent works using deep learning, and compare their performances on benchmark datasets. For each discourse structure we describe, we show its applications in downstream text mining tasks.
+    bibtex: >
+      @inproceedings{joty-et-al-icdm-18,
+       abstract = {Discourse processing is a suite of Natural Language
+      Processing (NLP) tasks to uncover linguistic structures from
+      texts at several levels, which can support many text mining
+      applications. This involves identifying the topic structure, the
+      coherence structure, the coreference structure, and the conversation
+      structure for conversational discourse. Taken together, these structures can inform text summarization, essay scoring, sentiment analysis, machine translation, information extraction, question answering, and thread recovery.
+      The tutorial starts with an overview of basic concepts in
+      discourse analysis – monologue vs. conversation, synchronous
+      vs. asynchronous conversation, and key linguistic structures in
+      discourse analysis. It then covers traditional machine learning
+      methods along with the most recent works using deep learning, and compare their performances on benchmark datasets. For
+      each discourse structure we describe, we show its applications in
+      downstream text mining tasks.},
+       address = {Singapore},
+       author = {Shafiq Joty and Giuseppe Carenini and Raymond Ng and Gabriel Murray},
+       booktitle = {IEEE International Conference on Data Mining: Tutorial Abstracts},
+       link = {https://ntunlpsg.github.io/project/icdmtutorial/},
+       month = {November},
+       pages = {1--2},
+       series = {ICDM'18},
+       title = {Discourse Processing and Its Applications in Text
+      Mining},
+       year = {2018}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2018
+    selected: no
+    title: >
       Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets
     authors: Firoj Alam, Shafiq Joty, and Muhammad Imran
     id: firoj-et-al-icwsm-18
