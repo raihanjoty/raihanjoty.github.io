@@ -3,17 +3,21 @@
     text: >
       <font color="FF0000"> I am looking for two highly motivated PhD students and a postdoc researcher to work in natural language processing, deep learning, and machine learning. </font>
   - 
+    date: 16-Oct-2018
+    text: >
+      <font color="FF0000"> Check out our <a http://172.21.144.214:4200/?> Speech Act Recognition demo </a> (now only accessible inside NTU network). </font>
+  - 
     date: 6-Sep-2018
     text: >
       <font color="FF0000"> Check out our new <a href=http://172.21.145.63:4200/> Malay - English Neural MT demo </a> (now only accessible inside NTU network). </font>
   - 
     date: 17-Aug-2018
     text: >
-      <font color="0000FF"> Our tutorial on "Discourse Processing and Its Applications in Text Mining" has been accepted for ICDM-2018 </font>
+      <font color="0000FF"> Will give a tutorial on <a https://ntunlpsg.github.io/project/icdmtutorial/> "Discourse Processing and Its Applications in Text Mining" at ICDM-2018 in November </font>
   - 
     date: 14-Feb-2018
     text: >
-      <font color="0000FF"> Our <a href=https://sites.google.com/view/nlpforconversations> tutorial proposal on "NLP for Conversations" </a> has been accepted for COLING-2018 </font>
+      <font color="0000FF"> Gave a tutorial proposal on <a href=https://sites.google.com/view/nlpforconversations> "NLP for Conversations" </a> at COLING-2018 </font>
   - 
     date: 10-Aug-2018
     text: >
