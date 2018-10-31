@@ -2915,10 +2915,10 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx - xx
+    pages: 4166 - 4172
     booktitle: >
       Proceedings of the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence (IJCAI-ECAI-2018)
-    doc-url: http://138.197.118.157:8000/segbot/
+    doc-url: https://www.ijcai.org/proceedings/2018/0579.pdf
     abstract: >
       Text segmentation is a fundamental task in natural language processing. Depending on the levels of granularity, the task can be defined as segmenting a document into topical segments, or segmenting a sentence into elementary discourse units. Traditional solutions to the two tasks heavily rely on carefully designed features. The recently proposed neural models do not need manual feature engineering, but they either suffer from sparse boundary tags or they cannot well handle the issue of variable size output vocabulary. Our generic end-to-end segmentation model, named SEGBOT, uses a bidirectional recurrent neural network to encode input text sequence. The model then uses another recurrent neural network together with a pointer network to select text boundaries in the input sequence. In this way, SEGBOT does not require hand-crafted features. More importantly, our model inherently handles the issue of variable size output vocabulary and the issue of sparse boundary tags. In our experiments, SEGBOT outperforms state-of-the-art models on two tasks, document-level topic segmentation and sentence-level discourse segmentation.
     bibtex: >
@@ -2948,9 +2948,9 @@
        address = {Stockholm, Sweden},
        author = {Jing Li and Aixin Sun and Shafiq Joty},
        booktitle = {Proceedings of the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence},
-       link = {http://138.197.118.157:8000/segbot/},
+       link = {https://www.ijcai.org/proceedings/2018/0579.pdf},
        month = {July},
-       pages = {xx -- xx},
+       pages = {4166 -- 4172},
        publisher = {},
        series = {IJCAI-ECAI-2018},
        title = {SegBot: A Generic Neural Text Segmentation Model with Pointer Network},
@@ -3158,23 +3158,8 @@
     booktitle: >
       Proceedings of the Twelfth International Conference on Web and Social Media (ICWSM'18)
     doc-url: papers/firoj-et-al-icwsm-18.pdf
-    abstract: >
-      During time-critical situations such as natural disasters, rapid classification of data posted on social networks by affected people is useful for humanitarian organizations to gain situational awareness and to plan response efforts. However, the scarcity of labeled data in the early hours of a crisis hinders machine learning tasks thus delays crisis response. In this work, we propose to use an inductive semi-supervised technique to utilize unlabeled data, which is often abundant at the onset of a crisis event, along with fewer labeled data. Specifically, we adopt a graph-based deep learning framework to learn an inductive semi-supervised model. We use two realworld crisis datasets from Twitter to evaluate the proposed approach. Our results show significant improvements using unlabeled data as compared to only using labeled data.
     bibtex: >
       @inproceedings{firoj-et-al-icwsm-18,
-       abstract = {During time-critical situations such as natural disasters, rapid
-      classification of data posted on social networks by affected
-      people is useful for humanitarian organizations to gain situational
-      awareness and to plan response efforts. However, the
-      scarcity of labeled data in the early hours of a crisis hinders
-      machine learning tasks thus delays crisis response. In this
-      work, we propose to use an inductive semi-supervised technique
-      to utilize unlabeled data, which is often abundant at the
-      onset of a crisis event, along with fewer labeled data. Specifically, we adopt a graph-based deep learning framework to
-      learn an inductive semi-supervised model. We use two realworld
-      crisis datasets from Twitter to evaluate the proposed
-      approach. Our results show significant improvements using
-      unlabeled data as compared to only using labeled data.},
        address = {Stanford, California},
        author = {Firoj Alam and Shafiq Joty and Muhammad Imran},
        booktitle = {Proceedings of the Twelfth International Conference on Web and Social
@@ -3186,6 +3171,42 @@
        series = {ICWSM'18},
        title = {Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets},
        year = {2018}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2019
+    selected: no
+    title: >
+      Adversarial Unsupervised Representation Learning for Activity Time-Series
+    authors: Karan Aggarwal, Shafiq Joty, Luis Fernandez-Luque, and Jaideep Srivastava
+    id: karan-et-al-aaai-19
+    img: karan-et-al-aaai-19-fig
+    slides: media/karan-et-al-aaai-19-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx - xx
+    booktitle: >
+      Thirty-Third AAAI Conference on Artificial Intelligence (AAAI'19)
+    doc-url: 
+    abstract: >
+      Sufficient physical activity and restful sleep play a major role in the prevention and cure of many chronic conditions. Being able to proactively screen and monitor such chronic conditions would be a big step forward for overall health. The rapid increase in the popularity of wearable devices pro- vides a significant new source, making it possible to track the user’s lifestyle real-time. In this paper, we propose a novel unsupervised representation learning technique called activ- ity2vec that learns and “summarizes” the discrete-valued ac- tivity time-series. It learns the representations with three com- ponents: (i) the co-occurrence and magnitude of the activity levels in a time-segment, (ii) neighboring context of the time- segment, and (iii) promoting subject-invariance with adver- sarial training. We evaluate our method on four disorder pre- diction tasks using linear classifiers. Empirical evaluation and analysis demonstrate that our proposed method performs bet- ter than many strong baselines, and adversarial learning helps improve the generalizability of our representations by pro- moting subject invariant features. We also show that using the representations at the level of a day works the best since human activity is structured in terms of daily routines.
+    bibtex: >
+      @inproceedings{karan-et-al-aaai-19,
+       abstract = {Sufficient physical activity and restful sleep play a major role in the prevention and cure of many chronic conditions. Being able to proactively screen and monitor such chronic conditions would be a big step forward for overall health. The rapid increase in the popularity of wearable devices pro- vides a significant new source, making it possible to track the user’s lifestyle real-time. In this paper, we propose a novel unsupervised representation learning technique called activ- ity2vec that learns and “summarizes” the discrete-valued ac- tivity time-series. It learns the representations with three com- ponents: (i) the co-occurrence and magnitude of the activity levels in a time-segment, (ii) neighboring context of the time- segment, and (iii) promoting subject-invariance with adver- sarial training. We evaluate our method on four disorder pre- diction tasks using linear classifiers. Empirical evaluation and analysis demonstrate that our proposed method performs bet- ter than many strong baselines, and adversarial learning helps improve the generalizability of our representations by pro- moting subject invariant features. We also show that using the representations at the level of a day works the best since human activity is structured in terms of daily routines.},
+       address = {},
+       author = {Karan Aggarwal and Shafiq Joty and Luis Fernandez-Luque and Jaideep Srivastava},
+       booktitle = {Thirty-Third AAAI Conference on Artificial Intelligence},
+       link = {},
+       month = {September},
+       pages = {xx -- xx},
+       publisher = {AAAI},
+       series = {AAAI'19},
+       title = {Adversarial Unsupervised Representation Learning for Activity Time-Series},
+       year = {2019}
       }
       
       
