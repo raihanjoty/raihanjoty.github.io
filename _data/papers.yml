@@ -3154,19 +3154,19 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx-xx
+    pages: 556 - 559
     booktitle: >
       Proceedings of the Twelfth International Conference on Web and Social Media (ICWSM'18)
-    doc-url: papers/firoj-et-al-icwsm-18.pdf
+    doc-url: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/download/17815/17049
     bibtex: >
       @inproceedings{firoj-et-al-icwsm-18,
        address = {Stanford, California},
        author = {Firoj Alam and Shafiq Joty and Muhammad Imran},
        booktitle = {Proceedings of the Twelfth International Conference on Web and Social
       Media},
-       link = {papers/firoj-et-al-icwsm-18.pdf},
+       link = {https://www.aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/download/17815/17049},
        month = {June},
-       pages = {xx--xx},
+       pages = {556 -- 559},
        publisher = {AAAI},
        series = {ICWSM'18},
        title = {Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets},
