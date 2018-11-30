@@ -12,19 +12,6 @@
 }
 
 
-@InProceedings{saha-joty-hasan-kdd-18,
-  author    = {Tanay Saha and Shafiq Joty and Mohammad Hasan},
-  title     = {MCATS: Models for Capturing Temporal Smoothness in Evolving Network for Learning Latent Representation of Nodes},
-  booktitle = {Knowledge Discovery and Data Mining},
-  month     = {September},
-  year      = {2018},
-  series    = {(under review in KDD'18)},
-  address   = {},
-  publisher = {ACM},
-  pages     = {xx -- xx},
-  url       = {},
-  abstract = {}
-}
 
 
 
