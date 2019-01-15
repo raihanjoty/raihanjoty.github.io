@@ -15,6 +15,10 @@
     text: >
       <font color="0000FF"> Gave a tutorial on <a href=https://ntunlpsg.github.io/project/icdmtutorial/> "Discourse Processing and Its Applications in Text Mining" </a> at ICDM-2018 in November </font>
   - 
+    date: 14-June-2018
+    text: >
+      <font color="0000FF"> Gave a tutorial on <a href=https://sites.google.com/view/nlpforconversations> "NLP for Conversations" </a> at COLING-2018 </font>
+  - 
     date: 16-Oct-2018
     text: >
       <font color="FF0000"> Check out our <a http://172.21.144.214:4200/?> Speech Act Recognition demo </a> (now only accessible inside NTU network). </font>
@@ -22,7 +26,3 @@
     date: 6-Sep-2018
     text: >
       <font color="FF0000"> Check out our new <a href=http://172.21.145.63:4200/> Malay - English Neural MT demo </a> (now only accessible inside NTU network). </font>
-  - 
-    date: 14-June-2018
-    text: >
-      <font color="0000FF"> Gave a tutorial on <a href=https://sites.google.com/view/nlpforconversations> "NLP for Conversations" </a> at COLING-2018 </font>
