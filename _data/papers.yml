@@ -2580,9 +2580,9 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
-    pages: (Accepted)
+    pages: 859 - 894
     journal: Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)
-    doc-url: 
+    doc-url: https://www.mitpressjournals.org/doi/pdf/10.1162/coli_a_00339
     abstract: >
       Participants in asynchronous conversations (e.g., forums, emails) interact with each other at different times, performing certain communicative acts, called speech acts (e.g., question, request). In this article, we propose a hybrid approach to speech act recognition in asynchronous conversations. Our approach works in two main steps: a long short-term memory recurrent neural network (LSTM-RNN) first encodes each sentence separately into a task-specific distributed representation, which is then used in a conditional random field (CRF) model to capture the conversational dependencies between sentences. The LSTM-RNN uses pretrained word embeddings learned from a large conversational corpus and is trained to classify sentences into speech act types. The CRF model can consider arbitrary graph structures to model conversational dependencies in an asynchronous conversation. In addition, to mitigate the problem of limited annotated data in the asynchronous domains, we adapt the LSTM-RNN model to learn from synchronous conversations (e.g., meetings) using domain adversarial training of neural networks. Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTM-RNNs provide better task-specific representations, (ii) conversational word embeddings benefit the LSTM-RNNs more than the off-the-shelf ones, (iii) adversarial training gives better domain-invariant representations, and (iv) the global CRF model improves over local models.
     bibtex: >
@@ -2604,12 +2604,13 @@
       benefit the LSTM-RNNs more than the off-the-shelf ones, (iii) adversarial training gives better
       domain-invariant representations, and (iv) the global CRF model improves over local models.},
        author = {Shafiq Joty and Tasnim Mohiuddin},
-       issue = {},
        journal = {Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)},
-       link = {},
-       pages = {(Accepted)},
+       link = {https://www.mitpressjournals.org/doi/pdf/10.1162/coli_a_00339},
+       number = {4},
+       pages = {859 -- 894},
        publisher = {MIT Press},
        title = {Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach},
+       volume = {44},
        year = {2018}
       }
       
@@ -3193,10 +3194,10 @@
       Thirty-Third AAAI Conference on Artificial Intelligence (AAAI'19)
     doc-url: 
     abstract: >
-      Sufficient physical activity and restful sleep play a major role in the prevention and cure of many chronic conditions. Being able to proactively screen and monitor such chronic conditions would be a big step forward for overall health. The rapid increase in the popularity of wearable devices pro- vides a significant new source, making it possible to track the user’s lifestyle real-time. In this paper, we propose a novel unsupervised representation learning technique called activ- ity2vec that learns and “summarizes” the discrete-valued ac- tivity time-series. It learns the representations with three com- ponents: (i) the co-occurrence and magnitude of the activity levels in a time-segment, (ii) neighboring context of the time- segment, and (iii) promoting subject-invariance with adver- sarial training. We evaluate our method on four disorder pre- diction tasks using linear classifiers. Empirical evaluation and analysis demonstrate that our proposed method performs bet- ter than many strong baselines, and adversarial learning helps improve the generalizability of our representations by pro- moting subject invariant features. We also show that using the representations at the level of a day works the best since human activity is structured in terms of daily routines.
+      Sufficient physical activity and restful sleep play a major role in the prevention and cure of many chronic conditions. Being able to proactively screen and monitor such chronic conditions would be a big step forward for overall health. The rapid increase in the popularity of wearable devices provides a significant new source, making it possible to track the user’s lifestyle real-time. In this paper, we propose a novel unsupervised representation learning technique called activ- ity2vec that learns and “summarizes” the discrete-valued ac- tivity time-series. It learns the representations with three com- ponents: (i) the co-occurrence and magnitude of the activity levels in a time-segment, (ii) neighboring context of the time- segment, and (iii) promoting subject-invariance with adver- sarial training. We evaluate our method on four disorder pre- diction tasks using linear classifiers. Empirical evaluation and analysis demonstrate that our proposed method performs bet- ter than many strong baselines, and adversarial learning helps improve the generalizability of our representations by pro- moting subject invariant features. We also show that using the representations at the level of a day works the best since human activity is structured in terms of daily routines.
     bibtex: >
       @inproceedings{karan-et-al-aaai-19,
-       abstract = {Sufficient physical activity and restful sleep play a major role in the prevention and cure of many chronic conditions. Being able to proactively screen and monitor such chronic conditions would be a big step forward for overall health. The rapid increase in the popularity of wearable devices pro- vides a significant new source, making it possible to track the user’s lifestyle real-time. In this paper, we propose a novel unsupervised representation learning technique called activ- ity2vec that learns and “summarizes” the discrete-valued ac- tivity time-series. It learns the representations with three com- ponents: (i) the co-occurrence and magnitude of the activity levels in a time-segment, (ii) neighboring context of the time- segment, and (iii) promoting subject-invariance with adver- sarial training. We evaluate our method on four disorder pre- diction tasks using linear classifiers. Empirical evaluation and analysis demonstrate that our proposed method performs bet- ter than many strong baselines, and adversarial learning helps improve the generalizability of our representations by pro- moting subject invariant features. We also show that using the representations at the level of a day works the best since human activity is structured in terms of daily routines.},
+       abstract = {Sufficient physical activity and restful sleep play a major role in the prevention and cure of many chronic conditions. Being able to proactively screen and monitor such chronic conditions would be a big step forward for overall health. The rapid increase in the popularity of wearable devices provides a significant new source, making it possible to track the user’s lifestyle real-time. In this paper, we propose a novel unsupervised representation learning technique called activ- ity2vec that learns and “summarizes” the discrete-valued ac- tivity time-series. It learns the representations with three com- ponents: (i) the co-occurrence and magnitude of the activity levels in a time-segment, (ii) neighboring context of the time- segment, and (iii) promoting subject-invariance with adver- sarial training. We evaluate our method on four disorder pre- diction tasks using linear classifiers. Empirical evaluation and analysis demonstrate that our proposed method performs bet- ter than many strong baselines, and adversarial learning helps improve the generalizability of our representations by pro- moting subject invariant features. We also show that using the representations at the level of a day works the best since human activity is structured in terms of daily routines.},
        address = {Honolulu, Hawaii},
        author = {Karan Aggarwal and Shafiq Joty and Luis Fernandez-Luque and Jaideep Srivastava},
        booktitle = {Thirty-Third AAAI Conference on Artificial Intelligence},
@@ -3206,6 +3207,46 @@
        publisher = {AAAI},
        series = {AAAI'19},
        title = {Adversarial Unsupervised Representation Learning for Activity Time-Series},
+       year = {2019}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2019
+    selected: no
+    title: >
+      A Fatorial Deep Markov Model For Unsupervised Disentangled Representation Learning From Speech
+    authors: Shafiq Joty Sameer Khurana, and James Glass
+    id: sameer-et-al-icassp-19
+    img: sameer-et-al-icassp-19-fig
+    slides: media/sameer-et-al-icassp-19-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx - xx
+    booktitle: >
+      International Conference on Acoustics, Speech, and Signal Processing (ICASSP'19)
+    doc-url: http://people.csail.mit.edu/sameerk/papers/ICASSP_dmm_rev.pdf
+    abstract: >
+      We present the Factorial Deep Markov Model (FDMM) for representation learning of speech. The FDMM learns disentangled, interpretable and lower dimensional latent representations from speech without supervision. We use a static and dynamic latent variable to exploit the fact that information in a speech signal evolves at different time scales. Latent representations learned by the FDMM outperform a baseline ivector system on speaker verification and dialect identification while also reducing the error rate of a phone recognition system in a domain mismatch scenario.
+    bibtex: >
+      @inproceedings{sameer-et-al-icassp-19,
+       abstract = {We present the Factorial Deep Markov Model (FDMM) for
+      representation learning of speech. The FDMM learns disentangled, interpretable and lower dimensional latent representations from speech without supervision. We use a static and
+      dynamic latent variable to exploit the fact that information in
+      a speech signal evolves at different time scales. Latent representations learned by the FDMM outperform a baseline ivector system on speaker verification and dialect identification while also reducing the error rate of a phone recognition
+      system in a domain mismatch scenario.},
+       address = {Brighton, UK},
+       author = {Sameer Khurana, {Shafiq Joty}, Ahmed Ali, and James Glass},
+       booktitle = {International Conference on Acoustics, Speech, and Signal Processing},
+       link = {http://people.csail.mit.edu/sameerk/papers/ICASSP_dmm_rev.pdf},
+       month = {September},
+       pages = {xx -- xx},
+       publisher = {IEEE},
+       series = {ICASSP'19},
+       title = {A Fatorial Deep Markov Model For Unsupervised Disentangled Representation Learning From Speech},
        year = {2019}
       }
       
