@@ -3218,7 +3218,7 @@
     selected: no
     title: >
       A Fatorial Deep Markov Model For Unsupervised Disentangled Representation Learning From Speech
-    authors: Shafiq Joty Sameer Khurana, and James Glass
+    authors: Sameer Khurana, Shafiq Joty, Ahmed Ali, and James Glass
     id: sameer-et-al-icassp-19
     img: sameer-et-al-icassp-19-fig
     slides: media/sameer-et-al-icassp-19-slides.pdf
@@ -3239,7 +3239,7 @@
       a speech signal evolves at different time scales. Latent representations learned by the FDMM outperform a baseline ivector system on speaker verification and dialect identification while also reducing the error rate of a phone recognition
       system in a domain mismatch scenario.},
        address = {Brighton, UK},
-       author = {Sameer Khurana, {Shafiq Joty}, Ahmed Ali, and James Glass},
+       author = {Sameer Khurana and Shafiq Joty and Ahmed Ali and James Glass},
        booktitle = {International Conference on Acoustics, Speech, and Signal Processing},
        link = {http://people.csail.mit.edu/sameerk/papers/ICASSP_dmm_rev.pdf},
        month = {September},
