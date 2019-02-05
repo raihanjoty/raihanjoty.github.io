@@ -11,6 +11,10 @@
     text: >
       <font color="FF0000"> Will give a tutorial on "Discourse Processing and Its Applications" at ACL-2019 </font>
   - 
+    date: 10-Jan-2019
+    text: >
+      Gave two tutorials: one on <a href=https://ntunlpsg.github.io/project/icdmtutorial/> discourse </a> at ICDM-18 and the other on <a href=https://sites.google.com/view/nlpforconversations> NLP for Conversations </a> at COLING-18. 
+  - 
     date: 16-Oct-2018
     text: >
       Check out our <a http://172.21.144.214:4200/?> Speech Act Recognition demo </a> (now only accessible inside NTU network). 
