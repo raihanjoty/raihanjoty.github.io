@@ -23,11 +23,14 @@ work:
   email: srjoty_at_ntu_dot_edu_dot_sg 
   email2: sjoty_at_salesforce_dot_com 
   phone: +65 69041107
+  phone2: +65 
   cell:  +65 85752318 
 
   group:
     url: https://ntunlpsg.github.io/demo/#about
+    url2: https://einstein.ai/research
     name: NTU Natural Language Processing Group
+    name2: Salesforce AI Research
 
   department:
     url: http://scse.ntu.edu.sg/Pages/Home.aspx
@@ -72,21 +75,13 @@ work:
     <div class="col-sm-6">
       <address>
         {{ page.work.title2 }}<br/>
-        <a href="{{ page.work.group.url }}">{{ page.work.group.name }}</a><br/>
+        <a href="{{ page.work.group.url2 }}">{{ page.work.group.name2 }}</a><br/>
         Office: {{ page.work.office }}<br/> 
-        <a href="{{ page.work.department.url }}">{{ page.work.department.name }}</a><br/> 
-        <a href="{{ page.work.university.url }}">{{ page.work.university.name }}</a><br/>
       </address>
     </div>
     <div class="col-sm-4">
-      <a href="mailto:{{ page.work.email }}"><span class="glyphicon glyphicon-envelope"></span></a> Email<br/>
-      <a href="tel:{{ page.work.phone }}"><span class="glyphicon glyphicon-phone"></span>Phone</a><br/>
-      {% if page.scholar.id %}<a href="http://scholar.google.com/citations?user={{ page.scholar.id }}">
-        <img src="img/ico/gs.png" alt=""/>
-      </a> Google Scholar<br/>{% endif %}
-      {% if page.github.id %} <a href="http://github.com/{{ page.github.id }}">
-        <img src="img/ico/github_icon.png" alt=""/>
-      </a> Github {% endif %}
+      <a href="mailto:{{ page.work.email2 }}"><span class="glyphicon glyphicon-envelope"></span></a> Email<br/>
+      <a href="tel:{{ page.work.phone2 }}"><span class="glyphicon glyphicon-phone"></span>Phone</a><br/>
     </div>
   </div>
 </div>
