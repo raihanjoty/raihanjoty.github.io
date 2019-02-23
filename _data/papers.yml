@@ -3236,7 +3236,7 @@
     selected: no
     title: >
       Adaptation of Hierarchical Structured Models for Speech Act Recognition in Asynchronous Conversation
-    authors: Shafiq Joty, Tasnim Mohiuddin, and Thanh Nguyen
+    authors: Shafiq Joty, Tasnim Mohiuddin, and Tung Nguyen
     id: joty-mohiuddin-nguyen-naacl-19
     img: joty-mohiuddin-nguyen-naacl-19-fig
     slides: media/joty-mohiuddin-nguyen-naacl-19-slides.pdf
@@ -3274,7 +3274,7 @@
       from synchronous domains and by explicitly
       modeling the shift in two domains.},
        address = {Minneapolis, USA},
-       author = {Shafiq Joty and Tasnim Mohiuddin and Thanh Nguyen (Equal Contributions)},
+       author = {Shafiq Joty and Tasnim Mohiuddin and Tung Nguyen (Equal Contributions)},
        booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
        numpages = {9},
        pages = {xx–-xx},
