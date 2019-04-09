@@ -3192,7 +3192,7 @@
     pages: xx–-xx
     booktitle: >
       Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL'19)
-    doc-url: papers/mohiuddin-joty-naacl-19.pdf
+    doc-url: https://arxiv.org/abs/1904.04116
     abstract: >
       Adversarial training has shown impressive success in learning bilingual dictionary without any parallel data by mapping monolingual embeddings to a shared space. However, recent work has shown superior performance for non-adversarial methods in more challenging language pairs. In this work, we revisit adversarial autoencoder for unsupervised word translation and propose two novel extensions to it that yield more stable training and improved results. Our method includes regularization terms to enforce cycle consistency and input reconstruction, and puts the target encoders as an adversary against the corresponding discriminator. Extensive experimentations with European and non-European languages show that our method achieves better performance than recently proposed adversarial and non-adversarial approaches and is also competitive with the supervised system.
     bibtex: >
@@ -3220,6 +3220,7 @@
        address = {Minneapolis, USA},
        author = {Tasnim Mohiuddin and Shafiq Joty},
        booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+       link = {https://arxiv.org/abs/1904.04116},
        numpages = {9},
        pages = {xx–-xx},
        publisher = {ACL},
@@ -3246,7 +3247,7 @@
     pages: xx–-xx
     booktitle: >
       Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL'19)
-    doc-url: papers/joty-mohiuddin-nguyen-naacl-19.pdf
+    doc-url: https://arxiv.org/abs/1904.04021
     abstract: >
       We address the problem of speech act recognition (SAR) in asynchronous conversations (e.g., forums, emails). However, unlike synchronous conversations (e.g., meetings, phone), asynchronous domains lack large labeled datasets to train an effective SAR model. In this paper, we propose methods to effectively leverage abundant unlabeled conversational data and the available labeled data from synchronous domains. We carry out our research in three main steps. First, we introduce a neural architecture based on hierarchical LSTMs and conditional random fields (CRF) for SAR in asynchronous conversations, and show that our method outperforms existing methods when trained on in-domain data only. Second, we improve our initial SAR models by semi-supervised learning in the form of pretrained word embeddings learned from a large unlabeled conversational corpus. Finally, we employ adversarial training to improve the results further by leveraging the labeled data from synchronous domains and by explicitly modeling the shift in two domains.
     bibtex: >
@@ -3276,6 +3277,7 @@
        address = {Minneapolis, USA},
        author = {Tasnim Mohiuddin and Thanh-Tung Nguyen and Shafiq Joty (equal contributions)},
        booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+       link = {https://arxiv.org/abs/1904.04021},
        numpages = {9},
        pages = {xx–-xx},
        publisher = {ACL},
