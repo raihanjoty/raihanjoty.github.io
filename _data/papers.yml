@@ -3254,6 +3254,40 @@
     year: 2019
     selected: no
     title: >
+      Discourse Processing and Its Applications
+    authors: Shafiq Joty, Giuseppe Carenini, Raymond Ng, and Gabriel Murray
+    id: joty-et-al-acl-19
+    img: joty-et-al-acl-19-fig
+    slides: media/joty-et-al-acl-19-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 1-6
+    booktitle: >
+      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts (ACL'19)
+    doc-url: https://ntunlpsg.github.io/project/acl19tutorial/
+    abstract: >
+      Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many downstream applications. This involves identifying the topic structure, the coherence structure, the coreference structure, and the conversation structure for conversational discourse. Taken together, these structures can inform text summarization, machine translation, essay scoring, sentiment analysis,  information extraction, question answering, and thread recovery. The tutorial starts with an overview of basic concepts in discourse analysis - monologue vs. conversation, synchronous vs. asynchronous conversation, and key linguistic structures in discourse analysis. We also give an overview of linguistic structures and corresponding discourse analysis tasks that discourse researchers are generally interested in, as well as key applications on which these discourse structures have an impact.
+    bibtex: >
+      @inproceedings{joty-et-al-acl-19,
+       abstract = {Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many downstream applications. This involves identifying the topic structure, the coherence structure, the coreference structure, and the conversation structure for conversational discourse. Taken together, these structures can inform text summarization, machine translation, essay scoring, sentiment analysis,  information extraction, question answering, and thread recovery. The tutorial starts with an overview of basic concepts in discourse analysis -- monologue vs. conversation, synchronous vs. asynchronous conversation, and key linguistic structures in discourse analysis. We also give an overview of linguistic structures and corresponding discourse analysis tasks that discourse researchers are generally interested in, as well as key applications on which these discourse structures have an impact.},
+       address = {Florence, Italy},
+       author = {Shafiq Joty and Giuseppe Carenini and Raymond Ng and Gabriel Murray},
+       booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts},
+       link = {https://ntunlpsg.github.io/project/acl19tutorial/},
+       pages = {1--6},
+       series = {ACL'19},
+       title = {Discourse Processing and Its Applications},
+       year = {2019}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2019
+    selected: no
+    title: >
       Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training
     authors: Tasnim Mohiuddin, and Shafiq Joty
     id: mohiuddin-joty-naacl-19
