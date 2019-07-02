@@ -3181,6 +3181,42 @@
     year: 2019
     selected: no
     title: >
+      Watch It Twice: Video Captioning with a Refocused Video Encoder
+    authors: Xiangxi Shi, Jianfei Cai, Shafiq Joty, and Jiuxiang Gu
+    id: shi-et-al-acmmm-19
+    img: shi-et-al-acmmm-19-fig
+    slides: media/shi-et-al-acmmm-19-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the 27th ACM International Conference on Multimedia (ACMMM'19)
+    doc-url: 
+    abstract: >
+      With the rapid growth of video data and the increasing demands of various applications such as intelligent video search and assistance toward visually-impaired people, video captioning task has received a lot of attention recently in computer vision and natural language processing fields. The state-of-the-art video captioning methods focus more on encoding the temporal information, while lack of effective ways to remove irrelevant temporal information and also neglecting the spatial details. However, the current RNN encoding module in single time order can be influenced by the irrelevant temporal information, especially the irrelevant temporal information is at the beginning of the encoding. In addition, neglecting spatial information will lead to the relationship confusion of the words and detailed loss. Therefore, in this paper, we propose a novel recurrent video encoding method and a novel visual spatial feature for the video captioning task. The recurrent encoding module encodes the video twice with the predicted key frame to avoid the irrelevant temporal information often occurring at the beginning and the end of a video. The novel spatial features represent the spatial information in different regions of a video and enrich the details of a caption. Experiments on two benchmark datasets show superior performance of the proposed method.
+    bibtex: >
+      @inproceedings{shi-et-al-acmmm-19,
+       abstract = {With the rapid growth of video data and the increasing demands of various applications such as intelligent video search and assistance toward visually-impaired people, video captioning task has received a lot of attention recently in computer vision and natural language processing fields. The state-of-the-art video captioning methods focus more on encoding the temporal information, while lack of effective ways to remove irrelevant temporal information and also neglecting the spatial details. However, the current RNN encoding module in single time order can be influenced by the irrelevant temporal information, especially the irrelevant temporal information is at the beginning of the encoding. In addition, neglecting spatial information will lead to the relationship confusion of the words and detailed loss. Therefore, in this paper, we propose a novel recurrent video encoding method and a novel visual spatial feature for the video captioning task. The recurrent encoding module encodes the video twice with the predicted key frame to avoid the irrelevant temporal information often occurring at the beginning and the end of a video. The novel spatial features represent the spatial information in different regions of a video and enrich the details of a caption. Experiments on two benchmark datasets show superior performance of the proposed method.},
+       address = {Nice, France},
+       author = {Xiangxi Shi and Jianfei Cai and Shafiq Joty and Jiuxiang Gu},
+       booktitle = {Proceedings of the 27th ACM International Conference on Multimedia},
+       link = {},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACM},
+       series = {ACMMM'19},
+       title = {Watch It Twice: Video Captioning with a Refocused Video Encoder},
+       year = {2019}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2019
+    selected: no
+    title: >
       A Unified Linear-Time Framework for Sentence-Level Discourse Parsing
     authors: Xiang Lin*, Shafiq Joty*, Prathyusha Jwalapuram, and Saiful Bari
     id: lin-et-al-acl-19
