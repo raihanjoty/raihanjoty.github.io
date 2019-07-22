@@ -3181,6 +3181,38 @@
     year: 2019
     selected: no
     title: >
+      Unpaired Image Captioning via Scene Graph Alignments
+    authors: Jiuxiang Gu, Shafiq Joty, Jianfei Cai, Handong Zhao, Xu Yang, and Gang Wang
+    id: gu-et-al-iccv-19
+    img: gu-et-al-iccv-19-fig
+    slides: media/gu-et-al-iccv-19-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the International Conference on Computer Vision (ICCV'19)
+    doc-url: https://arxiv.org/abs/1903.10658
+    abstract: >
+      Deep neural networks have achieved great success on the image captioning task. However, most of the existing models depend heavily on paired image-sentence datasets, which are very expensive to acquire in most real-world scenarios. In this paper, we propose a scene graph based approach for unpaired image captioning. Our method merely requires an image set, a sentence corpus, an image scene graph generator, and a sentence scene graph generator. The sentence corpus is used to teach the decoder how to generate meaningful sentences from a scene graph. To further encourage the generated captions to be semantically consistent with the image, we employ adversarial learning to align the visual scene graph to the textual scene graph. Experimental results show that our proposed model can generate quite promising results without using any image-caption training pairs, outperforming existing methods by a wide margin.
+    bibtex: >
+      @inproceedings{gu-et-al-iccv-19,
+       abstract = {Deep neural networks have achieved great success on the image captioning task. However, most of the existing models depend heavily on paired image-sentence datasets, which are very expensive to acquire in most real-world scenarios. In this paper, we propose a scene graph based approach for unpaired image captioning. Our method merely requires an image set, a sentence corpus, an image scene graph generator, and a sentence scene graph generator. The sentence corpus is used to teach the decoder how to generate meaningful sentences from a scene graph. To further encourage the generated captions to be semantically consistent with the image, we employ adversarial learning to align the visual scene graph to the textual scene graph. Experimental results show that our proposed model can generate quite promising results without using any image-caption training pairs, outperforming existing methods by a wide margin.},
+       author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Handong Zhao and Xu Yang and Gang Wang},
+       booktitle = {Proceedings of the International Conference on Computer Vision},
+       link = {https://arxiv.org/abs/1903.10658},
+       publisher = {IEEE},
+       series = {ICCV'19},
+       title = {Unpaired Image Captioning via Scene Graph Alignments},
+       year = {2019}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2019
+    selected: no
+    title: >
       Watch It Twice: Video Captioning with a Refocused Video Encoder
     authors: Xiangxi Shi, Jianfei Cai, Shafiq Joty, and Jiuxiang Gu
     id: shi-et-al-acmmm-19
@@ -3202,7 +3234,7 @@
        author = {Xiangxi Shi and Jianfei Cai and Shafiq Joty and Jiuxiang Gu},
        booktitle = {Proceedings of the 27th ACM International Conference on Multimedia},
        link = {},
-       numpages = {9},
+       numpages = {10},
        pages = {xx–-xx},
        publisher = {ACM},
        series = {ACMMM'19},
@@ -3554,39 +3586,6 @@
        publisher = {ACM},
        series = {SIGMOD'19},
        title = {NEURON: Query Execution Plan Meets Natural Language Processing For Augmenting DB Education (Demo)},
-       year = {2019}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: article #changes display of reference in paper list
-    year: 2019
-    selected: yes
-    title: >
-      Unpaired Image Captioning via Scene Graph Alignments
-    authors: Jiuxiang Gu, Shafiq Joty, Jianfei Cai, Handong Zhao, Xu Yang, and Gang Wang
-    id: gu-et-al-iccv-19
-    img: gu-et-al-iccv-19-fig
-    slides: # e.g. media/$ID.pptx
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: journal
-    pages: 
-    journal: arXiv (* not peer reviewed)
-    doc-url: https://arxiv.org/abs/1903.10658
-    abstract: >
-      Deep neural networks have achieved great success on the image captioning task. However, most of the existing models depend heavily on paired image-sentence datasets, which are very expensive to acquire in most real-world scenarios. In this paper, we propose a scene graph based approach for unpaired image captioning. Our method merely requires an image set, a sentence corpus, an image scene graph generator, and a sentence scene graph generator. The sentence corpus is used to teach the decoder how to generate meaningful sentences from a scene graph. To further encourage the generated captions to be semantically consistent with the image, we employ adversarial learning to align the visual scene graph to the textual scene graph. Experimental results show that our proposed model can generate quite promising results without using any image-caption training pairs, outperforming existing methods by a wide margin.
-    bibtex: >
-      @article{gu-et-al-iccv-19,
-       abstract = {Deep neural networks have achieved great success on the image captioning task. However, most of the existing models depend heavily on paired image-sentence datasets, which are very expensive to acquire in most real-world scenarios. In this paper, we propose a scene graph based approach for unpaired image captioning. Our method merely requires an image set, a sentence corpus, an image scene graph generator, and a sentence scene graph generator. The sentence corpus is used to teach the decoder how to generate meaningful sentences from a scene graph. To further encourage the generated captions to be semantically consistent with the image, we employ adversarial learning to align the visual scene graph to the textual scene graph. Experimental results show that our proposed model can generate quite promising results without using any image-caption training pairs, outperforming existing methods by a wide margin.},
-       author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Handong Zhao and Xu Yang and Gang Wang},
-       issue = {},
-       journal = {arXiv (* not peer reviewed)},
-       link = {https://arxiv.org/abs/1903.10658},
-       pages = {},
-       publisher = {arXiv.org},
-       title = {Unpaired Image Captioning via Scene Graph Alignments},
        year = {2019}
       }
       
