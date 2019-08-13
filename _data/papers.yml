@@ -3183,9 +3183,9 @@
     title: >
       A Unified Neural Coherence Model
     authors: Han-Cheol Moon*, Tasnim Mohiuddin*, Shafiq Joty*, and Chi Xu
-    id: Moon-et-al-emnlp-19
-    img: Moon-et-al-emnlp-19-fig
-    slides: media/Moon-et-al-emnlp-19-slides.pdf
+    id: moon-et-al-emnlp-19
+    img: moon-et-al-emnlp-19-fig
+    slides: media/moon-et-al-emnlp-19-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -3196,7 +3196,7 @@
     abstract: >
       Recently, neural approaches to coherence modeling have achieved state-of-the-art results in several evaluation tasks. However, we show that most of these models often fail on harder tasks with more realistic application scenarios. In particular, the existing models underperform on tasks that require the model to be sensitive to local contexts such as candidate ranking in conversational dialogue and in machine translation. In this paper, we propose a unified coherence model that incorporates sentence grammar, inter-sentence coherence relations, and global coherence patterns into a common neural framework. With extensive experiments on local and global discrimination tasks, we demonstrate that our proposed model outperforms existing models by a good margin, and establish a new state-of-the-art.
     bibtex: >
-      @inproceedings{Moon-et-al-emnlp-19,
+      @inproceedings{moon-et-al-emnlp-19,
        abstract = {Recently, neural approaches to coherence modeling have achieved state-of-the-art results in several evaluation tasks. However, we show that most of these models often fail on harder tasks with more realistic application scenarios. In particular, the existing models underperform on tasks that require the model to be sensitive to local contexts such as candidate ranking in conversational dialogue and in machine translation. In this paper, we propose a unified coherence model that incorporates sentence grammar, inter-sentence coherence relations, and global coherence patterns into a common neural framework. With extensive experiments on local and global discrimination tasks, we demonstrate that our proposed model outperforms existing models by a good margin, and establish a new state-of-the-art.},
        address = {Hong Kong},
        author = {Han-Cheol Moon* and Tasnim Mohiuddin* and Shafiq Joty* and Chi Xu},
@@ -3207,6 +3207,42 @@
        publisher = {ACL},
        series = {EMNLP'19},
        title = {A Unified Neural Coherence Model},
+       year = {2019}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2019
+    selected: no
+    title: >
+      Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test Suite
+    authors: Prathyusha Jwalapuram, Shafiq Joty, Irina Temnikova, and Preslav Nakov
+    id: jwala-et-al-emnlp-19
+    img: jwala-et-al-emnlp-19-fig
+    slides: media/jwala-et-al-emnlp-19-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP'19)
+    doc-url: 
+    abstract: >
+      The ongoing neural revolution in machine translation has made it easier to model larger contexts beyond the sentence-level, which can potentially help resolve some discourse-level ambiguities such as pronominal anaphora, thus enabling better translations. Unfortunately, even when the resulting improvements are seen as substantial by humans, they remain virtually unnoticed by traditional automatic evaluation measures like BLEU, as only a few words end up being affected. Thus, specialized evaluation measures are needed. With this aim in mind, we contribute an extensive, targeted dataset that can be used as a test suite for pronoun translation, covering multiple source languages and different pronoun errors drawn from real system translations, for English. We further propose an evaluation measure to differentiate good and bad pronoun translations. We also conduct a user study to report correlations with human judgments.
+    bibtex: >
+      @inproceedings{jwala-et-al-emnlp-19,
+       abstract = {The ongoing neural revolution in machine translation has made it easier to model larger contexts beyond the sentence-level, which can potentially help resolve some discourse-level ambiguities such as pronominal anaphora, thus enabling better translations. Unfortunately, even when the resulting improvements are seen as substantial by humans, they remain virtually unnoticed by traditional automatic evaluation measures like BLEU, as only a few words end up being affected. Thus, specialized evaluation measures are needed. With this aim in mind, we contribute an extensive, targeted dataset that can be used as a test suite for pronoun translation, covering multiple source languages and different pronoun errors drawn from real system translations, for English. We further propose an evaluation measure to differentiate good and bad pronoun translations. We also conduct a user study to report correlations with human judgments.},
+       address = {Hong Kong},
+       author = {Prathyusha Jwalapuram and Shafiq Joty and Irina Temnikova and Preslav Nakov},
+       booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
+       link = {},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {EMNLP'19},
+       title = {Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test Suite},
        year = {2019}
       }
       
