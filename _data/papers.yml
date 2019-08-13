@@ -3181,42 +3181,6 @@
     year: 2019
     selected: no
     title: >
-      A Unified Neural Coherence Model
-    authors: Han-Cheol Moon*, Tasnim Mohiuddin*, Shafiq Joty*, and Chi Xu
-    id: moon-et-al-emnlp-19
-    img: moon-et-al-emnlp-19-fig
-    slides: media/moon-et-al-emnlp-19-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    pages: xx–-xx
-    booktitle: >
-      Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP'19)
-    doc-url: 
-    abstract: >
-      Recently, neural approaches to coherence modeling have achieved state-of-the-art results in several evaluation tasks. However, we show that most of these models often fail on harder tasks with more realistic application scenarios. In particular, the existing models underperform on tasks that require the model to be sensitive to local contexts such as candidate ranking in conversational dialogue and in machine translation. In this paper, we propose a unified coherence model that incorporates sentence grammar, inter-sentence coherence relations, and global coherence patterns into a common neural framework. With extensive experiments on local and global discrimination tasks, we demonstrate that our proposed model outperforms existing models by a good margin, and establish a new state-of-the-art.
-    bibtex: >
-      @inproceedings{moon-et-al-emnlp-19,
-       abstract = {Recently, neural approaches to coherence modeling have achieved state-of-the-art results in several evaluation tasks. However, we show that most of these models often fail on harder tasks with more realistic application scenarios. In particular, the existing models underperform on tasks that require the model to be sensitive to local contexts such as candidate ranking in conversational dialogue and in machine translation. In this paper, we propose a unified coherence model that incorporates sentence grammar, inter-sentence coherence relations, and global coherence patterns into a common neural framework. With extensive experiments on local and global discrimination tasks, we demonstrate that our proposed model outperforms existing models by a good margin, and establish a new state-of-the-art.},
-       address = {Hong Kong},
-       author = {Han-Cheol Moon* and Tasnim Mohiuddin* and Shafiq Joty* and Chi Xu},
-       booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
-       link = {},
-       numpages = {9},
-       pages = {xx–-xx},
-       publisher = {ACL},
-       series = {EMNLP'19},
-       title = {A Unified Neural Coherence Model},
-       year = {2019}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2019
-    selected: no
-    title: >
       Hierarchical Pointer Net Parsing
     authors: Linlin Liu*, Xiang Lin*, Shafiq Joty*, Simeng Han, and Lidong Bing
     id: linlin-et-al-emnlp-19
@@ -3243,6 +3207,42 @@
        publisher = {ACL},
        series = {EMNLP'19},
        title = {Hierarchical Pointer Net Parsing},
+       year = {2019}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2019
+    selected: no
+    title: >
+      A Unified Neural Coherence Model
+    authors: Han-Cheol Moon*, Tasnim Mohiuddin*, Shafiq Joty*, and Chi Xu
+    id: moon-et-al-emnlp-19
+    img: moon-et-al-emnlp-19-fig
+    slides: media/moon-et-al-emnlp-19-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP'19)
+    doc-url: 
+    abstract: >
+      Recently, neural approaches to coherence modeling have achieved state-of-the-art results in several evaluation tasks. However, we show that most of these models often fail on harder tasks with more realistic application scenarios. In particular, the existing models underperform on tasks that require the model to be sensitive to local contexts such as candidate ranking in conversational dialogue and in machine translation. In this paper, we propose a unified coherence model that incorporates sentence grammar, inter-sentence coherence relations, and global coherence patterns into a common neural framework. With extensive experiments on local and global discrimination tasks, we demonstrate that our proposed model outperforms existing models by a good margin, and establish a new state-of-the-art.
+    bibtex: >
+      @inproceedings{moon-et-al-emnlp-19,
+       abstract = {Recently, neural approaches to coherence modeling have achieved state-of-the-art results in several evaluation tasks. However, we show that most of these models often fail on harder tasks with more realistic application scenarios. In particular, the existing models underperform on tasks that require the model to be sensitive to local contexts such as candidate ranking in conversational dialogue and in machine translation. In this paper, we propose a unified coherence model that incorporates sentence grammar, inter-sentence coherence relations, and global coherence patterns into a common neural framework. With extensive experiments on local and global discrimination tasks, we demonstrate that our proposed model outperforms existing models by a good margin, and establish a new state-of-the-art.},
+       address = {Hong Kong},
+       author = {Han-Cheol Moon* and Tasnim Mohiuddin* and Shafiq Joty* and Chi Xu},
+       booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
+       link = {},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {EMNLP'19},
+       title = {A Unified Neural Coherence Model},
        year = {2019}
       }
       
