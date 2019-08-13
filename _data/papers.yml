@@ -3289,6 +3289,42 @@
     year: 2019
     selected: no
     title: >
+      Using Clinical Notes with Multimodal Learning for ICU Management
+    authors: Swaraj Khadanga, Karan Aggarwal, Shafiq Joty, and Jaideep Srivastava
+    id: khadanga-et-al-emnlp-19
+    img: khadanga-et-al-emnlp-19-fig
+    slides: media/khadanga-et-al-emnlp-19-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP'19)
+    doc-url: 
+    abstract: >
+      Monitoring patients in ICU is a challenging and high-cost task. Hence, predicting the condition of patients during their ICU stay can help provide better acute care and plan the hospital's resources. There has been continuous progress in machine learning research for ICU management, and most of this work has focused on using time series signals recorded by ICU instruments. In our work, we show that adding clinical notes as another modality improves the performance of the model for three benchmark tasks: in-hospital mortality prediction, modeling decompensation, and length of stay forecasting that play an important role in ICU management. While the time-series data is measured at regular intervals, doctor notes are charted at irregular times, making it challenging to model them together. We propose a method to model them jointly, achieving considerable improvement across benchmark tasks over baseline time-series model.
+    bibtex: >
+      @inproceedings{khadanga-et-al-emnlp-19,
+       abstract = {Monitoring patients in ICU is a challenging and high-cost task. Hence, predicting the condition of patients during their ICU stay can help provide better acute care and plan the hospital's resources. There has been continuous progress in machine learning research for ICU management, and most of this work has focused on using time series signals recorded by ICU instruments. In our work, we show that adding clinical notes as another modality improves the performance of the model for three benchmark tasks: in-hospital mortality prediction, modeling decompensation, and length of stay forecasting that play an important role in ICU management. While the time-series data is measured at regular intervals, doctor notes are charted at irregular times, making it challenging to model them together. We propose a method to model them jointly, achieving considerable improvement across benchmark tasks over baseline time-series model.},
+       address = {Hong Kong},
+       author = {Swaraj Khadanga and Karan Aggarwal and Shafiq Joty and Jaideep Srivastava},
+       booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
+       link = {},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {EMNLP'19},
+       title = {Using Clinical Notes with Multimodal Learning for ICU Management},
+       year = {2019}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2019
+    selected: no
+    title: >
       Unpaired Image Captioning via Scene Graph Alignments
     authors: Jiuxiang Gu, Shafiq Joty, Jianfei Cai, Handong Zhao, Xu Yang, and Gang Wang
     id: gu-et-al-iccv-19
