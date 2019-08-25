@@ -3189,7 +3189,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
-    pages: XXX - XXX
+    pages: (Conditionally accepted) XXX - XXX
     journal: Computational Linguistics (Special Issue of Computational Linguistics on Multilingual and Interlingual Semantic Representations for Natural Language Processing)
     doc-url: 
     abstract: >
@@ -3201,10 +3201,10 @@
        journal = {Computational Linguistics (Special Issue of Computational Linguistics on Multilingual and Interlingual Semantic Representations for Natural Language Processing)},
        link = {},
        number = {X},
-       pages = {XXX -- XXX},
+       pages = {(Conditionally accepted) XXX -- XXX},
        publisher = {MIT Press},
        title = {“Unsupervised Word Translation with Adversarial Autoencoder},
-       volume = {(Conditionally accepted)},
+       volume = {},
        year = {2019}
       }
       
