@@ -3177,6 +3177,40 @@
       
   -
     layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2019
+    selected: yes
+    title: >
+      “Unsupervised Word Translation with Adversarial Autoencoder
+    authors: Tasnim Mohiuddin, and Shafiq Joty
+    id: mohiuddin-joty-cl-19
+    img: mohiuddin-joty-cl-19-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    pages: XXX - XXX
+    journal: Computational Linguistics (Special Issue of Computational Linguistics on Multilingual and Interlingual Semantic Representations for Natural Language Processing)
+    doc-url: 
+    abstract: >
+      Cross-lingual word embeddings learned from monolingual embeddings have a crucial role in many downstream tasks, ranging from machine translation to transfer learning. Adversarial training has shown impressive success in learning cross-lingual embeddings and the associated word translation task without any parallel data by mapping monolingual embeddings to a shared space. However, recent work has shown superior performance for non-adversarial methods in more challenging language pairs. In this article,  we investigate adversarial autoencoder for unsupervised word translation and propose two novel extensions to it that yield more stable training and improved results. Our method includes regularization terms to enforce cycle consistency and input reconstruction, and puts the target encoders as an adversary against the corresponding discriminator. We use two types of refinement procedures sequentially after obtaining the trained encoders and mappings from the adversarial training, namely, refinement with Procrustes solution and refinement with symmetric re-weighting. Extensive experimentations with European, non-European and low-resource languages \bluefrom two different datasets show that our method achieves better performance than existing adversarial and non-adversarial approaches and is also competitive with the supervised system. Along with performing comprehensive ablation studies to understand the contribution of different components of our adversarial model, we also conduct a thorough analysis of the refinement procedures to understand their effects.
+    bibtex: >
+      @article{mohiuddin-joty-cl-19,
+       abstract = {Cross-lingual word embeddings learned from monolingual embeddings have a crucial role in many downstream tasks, ranging from machine translation to transfer learning. Adversarial training has shown impressive success in learning cross-lingual embeddings and the associated word translation task without any parallel data by mapping monolingual embeddings to a shared space. However, recent work has shown superior performance for non-adversarial methods in more challenging language pairs. In this article,  we investigate adversarial autoencoder for unsupervised word translation and propose two novel extensions to it that yield more stable training and improved results. Our method includes regularization terms to enforce cycle consistency and input reconstruction, and puts the target encoders as an adversary against the corresponding discriminator. We use two types of refinement procedures sequentially after obtaining the trained encoders and mappings from the adversarial training, namely, refinement with Procrustes solution and refinement with symmetric re-weighting. Extensive experimentations with European, non-European and low-resource languages \blue{from two different datasets} show that our method achieves better performance than existing adversarial and non-adversarial approaches and is also competitive with the supervised system. Along with performing comprehensive ablation studies to understand the contribution of different components of our adversarial model, we also conduct a thorough analysis of the refinement procedures to understand their effects.},
+       author = {Tasnim Mohiuddin and Shafiq Joty},
+       journal = {Computational Linguistics (Special Issue of Computational Linguistics on Multilingual and Interlingual Semantic Representations for Natural Language Processing)},
+       link = {},
+       number = {X},
+       pages = {XXX -- XXX},
+       publisher = {MIT Press},
+       title = {“Unsupervised Word Translation with Adversarial Autoencoder},
+       volume = {(Conditionally accepted)},
+       year = {2019}
+      }
+      
+      
+  -
+    layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2019
     selected: no
