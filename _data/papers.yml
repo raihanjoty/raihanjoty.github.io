@@ -3735,27 +3735,8 @@
     booktitle: >
       Proceedings of 45th ACM SIGMOD International Conference on Management of Data (SIGMOD'19)
     doc-url: papers/liu-et-al-sigmod-demo-19.pdf
-    abstract: >
-      A core component of a database systems course at the undergraduate level is the design and implementation of the query optimizer in a rdbms. The query optimization process produces a query execution plan (qep) which represents an execution strategy for a sql query. Unfortunately, in practice, it is often difficult for a student to comprehend the query execution strategy by perusing the qep, hindering her learning process. In this demonstration, we present a novel system called neuron that facilitates natural language interaction with qeps to enhance its understanding. neuron accepts a sql query (which may include joins, aggregation, nesting, among other things) as input, executes it, and generates a simplified natural language-based description (both in text and voice form) of the execution strategy deployed by the underlying rdbms. Furthermore, it facilitates understanding of various features related to the qep through a natural language-based question answering framework.We advocate that such tool, world’s first of its kind, can greatly enhance students’ learning of the query optimization topic.
     bibtex: >
       @inproceedings{liu-et-al-sigmod-demo-19,
-       abstract = {A core component of a database systems course at the undergraduate
-      level is the design and implementation of the
-      query optimizer in a rdbms. The query optimization process
-      produces a query execution plan (qep) which represents an
-      execution strategy for a sql query. Unfortunately, in practice, it is often difficult for a student to comprehend the query execution
-      strategy by perusing the qep, hindering her learning
-      process. In this demonstration, we present a novel system
-      called neuron that facilitates natural language interaction
-      with qeps to enhance its understanding. neuron accepts a
-      sql query (which may include joins, aggregation, nesting, among other things) as input, executes it, and generates a
-      simplified natural language-based description (both in text
-      and voice form) of the execution strategy deployed by the
-      underlying rdbms. Furthermore, it facilitates understanding
-      of various features related to the qep through a natural
-      language-based question answering framework.We advocate
-      that such tool, world’s first of its kind, can greatly enhance
-      students’ learning of the query optimization topic.},
        address = {Amsterdam, The Netherlands.},
        author = {Siyuan Liu and Sourav S Bhowmick and Wanlu Zhang and Shu Wang and Wanyi Huang and Shafiq Joty},
        booktitle = {Proceedings of 45th ACM SIGMOD International Conference on Management of Data},
@@ -3766,6 +3747,42 @@
        series = {SIGMOD'19},
        title = {NEURON: Query Execution Plan Meets Natural Language Processing For Augmenting DB Education (Demo)},
        year = {2019}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2020
+    selected: no
+    title: >
+      Zero-Resource Cross-Lingual Named Entity Recognition
+    authors: Saiful Bari, Shafiq Joty, and Prathyusha Jwalapuram
+    id: bari-et-al-aaai-20
+    img: bari-et-al-aaai-20-fig
+    slides: media/bari-et-al-aaai-20-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx - xx
+    booktitle: >
+      Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI'20)
+    doc-url: 
+    abstract: >
+      Recently, neural methods have achieved state-of-the-art (SOTA) results in Named Entity Recognition (NER) tasks for many languages without the need for manually crafted features. However, these models still require manually annotated training data, which is not available for many languages. In this paper, we propose an unsupervised cross-lingual NER model that can transfer knowledge from one language to another in a completely unsupervised way without relying on any bilingual dictionary or parallel data. Our model achieves this through end-to-end parameter sharing and adapting to the target domain through fine-tuning. Experiments on four different languages demonstrate the effectiveness of our approach, outperforming existing models by a good margin and setting a new SOTA for each language pair.
+    bibtex: >
+      @inproceedings{bari-et-al-aaai-20,
+       abstract = {Recently, neural methods have achieved state-of-the-art (SOTA) results in Named Entity Recognition (NER) tasks for many languages without the need for manually crafted features. However, these models still require manually annotated training data, which is not available for many languages. In this paper, we propose an unsupervised cross-lingual NER model that can transfer knowledge from one language to another in a completely unsupervised way without relying on any bilingual dictionary or parallel data. Our model achieves this through end-to-end parameter sharing and adapting to the target domain through fine-tuning. Experiments on four different languages demonstrate the effectiveness of our approach, outperforming existing models by a good margin and setting a new SOTA for each language pair.},
+       address = {New York, USA},
+       author = {Saiful Bari and Shafiq Joty and Prathyusha Jwalapuram},
+       booktitle = {Thirty-Fourth AAAI Conference on Artificial Intelligence},
+       link = {},
+       month = {September},
+       pages = {xx -- xx},
+       publisher = {AAAI},
+       series = {AAAI'20},
+       title = {Zero-Resource Cross-Lingual Named Entity Recognition},
+       year = {2020}
       }
       
       
