@@ -3854,7 +3854,7 @@
     year: 2020
     selected: yes
     title: >
-      “Unsupervised Word Translation with Adversarial Autoencoder
+      Unsupervised Word Translation with Adversarial Autoencoder
     authors: Tasnim Mohiuddin, and Shafiq Joty
     id: mohiuddin-joty-cl-19
     img: mohiuddin-joty-cl-19-fig
@@ -3876,7 +3876,7 @@
        number = {X},
        pages = {(Conditionally accepted) XXX -- XXX},
        publisher = {MIT Press},
-       title = {“Unsupervised Word Translation with Adversarial Autoencoder},
+       title = {Unsupervised Word Translation with Adversarial Autoencoder},
        volume = {},
        year = {2020}
       }
@@ -3888,7 +3888,7 @@
     year: 2020
     selected: yes
     title: >
-      “An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks
+      An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks
     authors: Jing Ma, Wei Gao, Shafiq Joty, and Kam-Fai Wong
     id: Jing-et-al-20
     img: Jing-et-al-20-fig
@@ -3910,7 +3910,7 @@
        number = {X},
        pages = {(Accepted) XXX -- XXX},
        publisher = {ACM},
-       title = {“An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks},
+       title = {An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks},
        volume = {},
        year = {2020}
       }
