@@ -151,11 +151,4 @@ work:
 <h4>Selected Papers</h4>
 
 <h5>This list contains only journal papers. For full list of papers see the <a href=https://raihanjoty.github.io/papers.html> Papers </a> tab. </h5>
-
-{%assign papers= site.data.papers | sort: "year" | reverse  %}
-{% for post in papers %}
-  {% if post.selected %}
-    {% include paper.html paper=post %}
-  {% endif %}
-{% endfor %}
 -->
