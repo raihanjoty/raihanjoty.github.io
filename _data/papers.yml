@@ -3818,6 +3818,42 @@
     year: 2020
     selected: no
     title: >
+      It’s Morphin’ Time! Combating Linguistic Discrimination with Inflectional Perturbations
+    authors: Samson Tan, Shafiq Joty, Min-Yen Kan, and Richard Socher
+    id: Tan-et-al-acl-20
+    img: Tan-et-al-acl-20-fig
+    slides: media/Tan-et-al-acl-20-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL'20)
+    doc-url: 
+    abstract: >
+      Training on only perfect Standard English cor- pora predisposes pre-trained neural networks to discriminate against minorities from non- standard linguistic backgrounds. We perturb the inflectional morphology of words to craft plausible and semantically similar adversarial examples that expose these biases in popu- lar models, e.g., BERT and Transformer, and show that adversarially finetuning them for a single epoch significantly improves robustness without sacrificing performance on clean data.
+    bibtex: >
+      @inproceedings{Tan-et-al-acl-20,
+       abstract = {Training on only perfect Standard English cor- pora predisposes pre-trained neural networks to discriminate against minorities from non- standard linguistic backgrounds. We perturb the inflectional morphology of words to craft plausible and semantically similar adversarial examples that expose these biases in popu- lar models, e.g., BERT and Transformer, and show that adversarially finetuning them for a single epoch significantly improves robustness without sacrificing performance on clean data.},
+       address = {Seattle, USA},
+       author = {Samson Tan and Shafiq Joty and Min-Yen Kan and Richard Socher},
+       booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
+       link = {},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {ACL'20},
+       title = {It’s Morphin’ Time! Combating Linguistic Discrimination with Inflectional Perturbations},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2020
+    selected: no
+    title: >
       Zero-Resource Cross-Lingual Named Entity Recognition
     authors: Saiful Bari, Shafiq Joty, and Prathyusha Jwalapuram
     id: bari-et-al-aaai-20
