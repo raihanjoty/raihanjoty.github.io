@@ -1,39 +1,36 @@
 ---
-abstract: 'Although coherence modeling has come a long way in developing novel models,
-  their evaluation on downstream applications has largely been neglected. With the
-  advancements made by neural approaches in applications such as machine translation,
-  text summarization and dialogue systems, the need for standard coherence evaluation
-  is now more crucial than ever. In this paper, we propose to benchmark coherence
-  models on a number of synthetic and downstream tasks. In particular, we evaluate
-  well-known traditional and neural coherence models on sentence ordering tasks, and
-  also on three downstream applications including coherence evaluation for machine
-  translation, summarization and next utterance prediction. We also show model produced
-  rankings for pre-trained language model outputs as another use-case. Our results
-  demonstrate a weak correlation between the model performances in the synthetic tasks
-  and the downstream applications, motivating alternate evaluation methods for coherence
-  models. This work has led us to create a leaderboard to foster further research
-  in coherence modeling.
+abstract: 'Transfer learning has yielded state-of-the-art results in many supervised
+  natural language processing tasks. However, annotated data for every target task
+  in every target language is rare, especially for low-resource languages. In this
+  work, we propose MultiMix, a novel data augmentation method for semi-supervised
+  learning in zero-shot transfer learning scenarios. In particular, MultiMix targets
+  to solve cross-lingual adaptation problems from a source (language) distribution
+  to an unknown target (language) distribution assuming it has no training labels
+  in the target language task. In its heart, MultiMix performs simultaneous self-training
+  with data augmentation and unsupervised sample selection. To show its effectiveness,
+  we have performed extensive experiments on zero-shot transfers for cross-lingual
+  named entity recognition (XNER) and natural language inference (XNLI). Our experiments
+  show sizeable improvements in both tasks outperforming the baselines by a good margin.
 
   '
-authors: Tasnim Mohiuddin, Prathyusha Jwalapuram, Xiang Lin, and Shafiq Joty
-bibtex: "@article{bari-et-al-arxiv-20,\n abstract = {Although coherence modeling has\
-  \ come a long way in developing novel models, their evaluation on downstream applications\
-  \ has largely been neglected. With the advancements made by neural approaches in\
-  \ applications such as machine translation, text summarization and dialogue systems,\
-  \ the need for standard coherence evaluation is now more crucial than ever. In this\
-  \ paper, we propose to benchmark coherence models on a number of synthetic and downstream\
-  \ tasks. In particular, we evaluate well-known traditional and neural coherence\
-  \ models on sentence ordering tasks, and also on three downstream applications including\
-  \ coherence evaluation for machine translation, summarization and next utterance\
-  \ prediction. We also show model produced rankings for pre-trained language model\
-  \ outputs as another use-case. Our results demonstrate a weak correlation between\
-  \ the model performances in the synthetic tasks and the downstream applications,\
-  \ motivating alternate evaluation methods for coherence models. This work has led\
-  \ us to create a leaderboard to foster further research in coherence modeling.},\n\
-  \ author = {Tasnim Mohiuddin and Prathyusha Jwalapuram and Xiang Lin and Shafiq\
-  \ Joty},\n issue = {},\n journal = {arXiv (* not peer reviewed)},\n link = {https://arxiv.org/abs/2004.13889},\n\
-  \ pages = {},\n publisher = {arXiv.org},\n title = {CohEval: Benchmarking Coherence\
-  \ Models},\n year = {2020}\n}\n"
+authors: M Saiful, Tasnim Mohiuddin, and Shafiq Joty
+bibtex: "@article{bari-et-al-arxiv-20,\n abstract = {Transfer learning has yielded\
+  \ state-of-the-art results in many supervised natural language processing tasks.\
+  \ However, annotated data for every target task in every target language is rare,\
+  \ especially for low-resource languages. In this work, we propose MultiMix, a novel\
+  \ data augmentation method for semi-supervised learning in zero-shot transfer learning\
+  \ scenarios. In particular, MultiMix targets to solve cross-lingual adaptation problems\
+  \ from a source (language) distribution to an unknown target (language) distribution\
+  \ assuming it has no training labels in the target language task. In its heart,\
+  \ MultiMix performs simultaneous self-training with data augmentation and unsupervised\
+  \ sample selection. To show its effectiveness, we have performed extensive experiments\
+  \ on zero-shot transfers for cross-lingual named entity recognition (XNER) and natural\
+  \ language inference (XNLI). Our experiments show sizeable improvements in both\
+  \ tasks outperforming the baselines by a good margin.},\n author = {M Saiful Bari\
+  \ and Tasnim Mohiuddin and Shafiq Joty},\n issue = {},\n journal = {arXiv (* not\
+  \ peer reviewed)},\n link = {https://arxiv.org/abs/2004.13889},\n pages = {},\n\
+  \ publisher = {arXiv.org},\n title = {MultiMix: A Robust Data Augmentation Strategy\
+  \ for Cross-Lingual NLP},\n year = {2020}\n}\n"
 code: null
 doc-url: https://arxiv.org/abs/2004.13889
 errata: null
@@ -46,7 +43,7 @@ paper-type: article
 picture: shafiq
 selected: true
 slides: null
-title: 'CohEval: Benchmarking Coherence Models
+title: 'MultiMix: A Robust Data Augmentation Strategy for Cross-Lingual NLP
 
   '
 venue: journal
