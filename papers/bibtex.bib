@@ -1961,3 +1961,31 @@ year={2020},
 url={https://openreview.net/forum?id=HJxK5pEYvr},
 abstract = {Incorporating hierarchical structures like constituency trees has been shown to be effective for various natural language processing (NLP) tasks. However, it is evident that state-of-the-art (SOTA) sequence-based models like the Transformer struggle to encode such structures inherently. On the other hand, dedicated models like the Tree-LSTM, while explicitly modeling hierarchical structures, do not perform as efficiently as the Transformer. In this paper, we attempt to bridge this gap with Hierarchical Accumulation to encode parse tree structures into self-attention at constant time complexity. Our approach outperforms SOTA methods in four IWSLT translation tasks and the WMT'14 English-German task. It also yields improvements over Transformer and Tree-LSTM on three text classification tasks. We further demonstrate that using hierarchical priors can compensate for data shortage, and that our model prefers phrase-level attentions over token-level attentions.}
 }
+
+@inproceedings{Nguyen-et-al-acl-20,
+ author = {Thanh-Tung Nguyen and Xuan-Phi Nguyen and Shafiq Joty and Xiaoli Li},
+ title = {Efficient Constituency Parsing by Pointing},
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
+  series = {ACL'20},
+  year = {2020},
+  address = {Seattle, USA},
+  pages = {xx–-xx},
+  numpages = {9},
+  publisher = {ACL},
+  url       = {https://oar.a-star.edu.sg/jspui/bitstream/123456789/4064/1/_ACL20__CR_Efficient_Constituency_Parsing_by_Pointing.pdf}, 
+  abstract = {We propose a novel constituency parsing model that casts the parsing problem into a series of pointing tasks. Specifically, our model estimates the likelihood of a span being a legitimate tree constituent via the pointing score corresponding to the boundary words of the span. Our parsing model supports efficient top-down decoding and our learning objective is able to enforce structural consistency without resorting to the expensive CKY inference. The experiments on the standard English Penn Treebank parsing task show that our method achieves 92.78 F1 without using pre-trained models, which is higher than all the existing methods with similar time complexity. Using pre-trained BERT, our model achieves 95.48 F1, which is competitive with the state-of-the-art while being faster. Our approach also establishes new state-of-the-art in Basque and Swedish in the SPMRL shared tasks on multilingual constituency parsing.},
+} 
+
+@inproceedings{Nguyen-et-al-acl2-20,
+ author = {Thanh-Tung Nguyen and Xuan-Phi Nguyen and Shafiq Joty and Xiaoli Li},
+ title = {Differentiable Window for Dynamic Local Attention},
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
+  series = {ACL'20},
+  year = {2020},
+  address = {Seattle, USA},
+  pages = {xx–-xx},
+  numpages = {9},
+  publisher = {ACL},
+  url       = {https://oar.a-star.edu.sg/jspui/bitstream/123456789/4063/1/_ACL_20__CR_Differentiable_Window_for_Dynamic_Local_Attention.pdf}, 
+  abstract = {We propose Differentiable Window, a new neural module and general purpose component for dynamic window selection. While universally applicable, we demonstrate a compelling use case of utilizing Differentiable Window to improve standard attention modules by enabling  more focused attentions over the input regions. We propose two variants of Differentiable Window, and integrate them within the Transformer architecture in two novel ways. We evaluate our proposed approach on a myriad of NLP tasks, including machine translation, sentiment analysis, subject-verb agreement and language modeling. Our experimental results demonstrate consistent and sizable improvements across all tasks.},
+} 
