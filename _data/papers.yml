@@ -3962,3 +3962,73 @@
       }
       
       
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2020
+    selected: no
+    title: >
+      Zero-Resource Cross-Lingual Named Entity Recognition
+    authors: Saiful Bari, Shafiq Joty, and Prathyusha Jwalapuram
+    id: bari-et-al-aaai-20
+    img: bari-et-al-aaai-20-fig
+    slides: media/bari-et-al-aaai-20-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx - xx
+    booktitle: >
+      Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI'20)
+    doc-url: https://arxiv.org/abs/1911.09812
+    abstract: >
+      Recently, neural methods have achieved state-of-the-art (SOTA) results in Named Entity Recognition (NER) tasks for many languages without the need for manually crafted features. However, these models still require manually annotated training data, which is not available for many languages. In this paper, we propose an unsupervised cross-lingual NER model that can transfer knowledge from one language to another in a completely unsupervised way without relying on any bilingual dictionary or parallel data. Our model achieves this through end-to-end parameter sharing and adapting to the target domain through fine-tuning. Experiments on four different languages demonstrate the effectiveness of our approach, outperforming existing models by a good margin and setting a new SOTA for each language pair.
+    bibtex: >
+      @inproceedings{bari-et-al-aaai-20,
+       abstract = {Recently, neural methods have achieved state-of-the-art (SOTA) results in Named Entity Recognition (NER) tasks for many languages without the need for manually crafted features. However, these models still require manually annotated training data, which is not available for many languages. In this paper, we propose an unsupervised cross-lingual NER model that can transfer knowledge from one language to another in a completely unsupervised way without relying on any bilingual dictionary or parallel data. Our model achieves this through end-to-end parameter sharing and adapting to the target domain through fine-tuning. Experiments on four different languages demonstrate the effectiveness of our approach, outperforming existing models by a good margin and setting a new SOTA for each language pair.},
+       address = {New York, USA},
+       author = {Saiful Bari and Shafiq Joty and Prathyusha Jwalapuram},
+       booktitle = {Thirty-Fourth AAAI Conference on Artificial Intelligence},
+       link = {https://arxiv.org/abs/1911.09812},
+       month = {September},
+       pages = {xx -- xx},
+       publisher = {AAAI},
+       series = {AAAI'20},
+       title = {Zero-Resource Cross-Lingual Named Entity Recognition},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2020
+    selected: yes
+    title: >
+      Unsupervised Word Translation with Adversarial Autoencoder
+    authors: Tasnim Mohiuddin, and Shafiq Joty
+    id: mohiuddin-joty-cl-19
+    img: mohiuddin-joty-cl-19-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    pages: 1 - 32
+    journal: Computational Linguistics (to be presented at ACL-2020)
+    doc-url: https://www.mitpressjournals.org/doi/abs/10.1162/coli_a_00374
+    abstract: >
+      Cross-lingual word embeddings learned from monolingual embeddings have a crucial role in many downstream tasks, ranging from machine translation to transfer learning. Adversarial training has shown impressive success in learning cross-lingual embeddings and the associated word translation task without any parallel data by mapping monolingual embeddings to a shared space. However, recent work has shown superior performance for non-adversarial methods in more challenging language pairs. In this article,  we investigate adversarial autoencoder for unsupervised word translation and propose two novel extensions to it that yield more stable training and improved results. Our method includes regularization terms to enforce cycle consistency and input reconstruction, and puts the target encoders as an adversary against the corresponding discriminator. We use two types of refinement procedures sequentially after obtaining the trained encoders and mappings from the adversarial training, namely, refinement with Procrustes solution and refinement with symmetric re-weighting. Extensive experimentations with European, non-European and low-resource languages from two different datasets show that our method achieves better performance than existing adversarial and non-adversarial approaches and is also competitive with the supervised system. Along with performing comprehensive ablation studies to understand the contribution of different components of our adversarial model, we also conduct a thorough analysis of the refinement procedures to understand their effects.
+    bibtex: >
+      @article{mohiuddin-joty-cl-19,
+       abstract = {Cross-lingual word embeddings learned from monolingual embeddings have a crucial role in many downstream tasks, ranging from machine translation to transfer learning. Adversarial training has shown impressive success in learning cross-lingual embeddings and the associated word translation task without any parallel data by mapping monolingual embeddings to a shared space. However, recent work has shown superior performance for non-adversarial methods in more challenging language pairs. In this article,  we investigate adversarial autoencoder for unsupervised word translation and propose two novel extensions to it that yield more stable training and improved results. Our method includes regularization terms to enforce cycle consistency and input reconstruction, and puts the target encoders as an adversary against the corresponding discriminator. We use two types of refinement procedures sequentially after obtaining the trained encoders and mappings from the adversarial training, namely, refinement with Procrustes solution and refinement with symmetric re-weighting. Extensive experimentations with European, non-European and low-resource languages from two different datasets show that our method achieves better performance than existing adversarial and non-adversarial approaches and is also competitive with the supervised system. Along with performing comprehensive ablation studies to understand the contribution of different components of our adversarial model, we also conduct a thorough analysis of the refinement procedures to understand their effects.},
+       author = {Tasnim Mohiuddin and Shafiq Joty},
+       journal = {Computational Linguistics (to be presented at ACL-2020)},
+       link = {https://www.mitpressjournals.org/doi/abs/10.1162/coli_a_00374},
+       number = {2},
+       pages = {1 -- 32},
+       publisher = {MIT Press},
+       title = {Unsupervised Word Translation with Adversarial Autoencoder},
+       volume = {46},
+       year = {2020}
+      }
+      
+      
