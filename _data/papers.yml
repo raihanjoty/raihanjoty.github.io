@@ -4035,7 +4035,7 @@
   -
     layout: paper
     paper-type: article #changes display of reference in paper list
-    year: June, 2020
+    year: 2020
     selected: yes
     title: >
       An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks
@@ -4062,7 +4062,7 @@
        publisher = {ACM},
        title = {An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks},
        volume = {11},
-       year = {June, 2020}
+       year = {2020}
       }
       
       
