@@ -3763,7 +3763,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx - xx
+    pages: x - x
     booktitle: >
       Proceedings of 45th ACM SIGMOD International Conference on Management of Data (SIGMOD'19)
     doc-url: papers/liu-et-al-sigmod-demo-19.pdf
@@ -3774,7 +3774,7 @@
        booktitle = {Proceedings of 45th ACM SIGMOD International Conference on Management of Data},
        link = {papers/liu-et-al-sigmod-demo-19.pdf},
        month = {July},
-       pages = {xx -- xx},
+       pages = {x -- x},
        publisher = {ACM},
        series = {SIGMOD'19},
        title = {NEURON: Query Execution Plan Meets Natural Language Processing For Augmenting DB Education (Demo)},
