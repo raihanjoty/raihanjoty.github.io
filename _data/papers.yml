@@ -3829,7 +3829,7 @@
     pages: xx–-xx
     booktitle: >
       Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL'20)
-    doc-url: 
+    doc-url: https://oar.a-star.edu.sg/jspui/bitstream/123456789/4064/1/_ACL20__CR_Efficient_Constituency_Parsing_by_Pointing.pdf
     abstract: >
       We propose a novel constituency parsing model that casts the parsing problem into a series of pointing tasks. Specifically, our model estimates the likelihood of a span being a legitimate tree constituent via the pointing score corresponding to the boundary words of the span. Our parsing model supports efficient top-down decoding and our learning objective is able to enforce structural consistency without resorting to the expensive CKY inference. The experiments on the standard English Penn Treebank parsing task show that our method achieves 92.78 F1 without using pre-trained models, which is higher than all the existing methods with similar time complexity. Using pre-trained BERT, our model achieves 95.48 F1, which is competitive with the state-of-the-art while being faster. Our approach also establishes new state-of-the-art in Basque and Swedish in the SPMRL shared tasks on multilingual constituency parsing.
     bibtex: >
@@ -3838,7 +3838,7 @@
        address = {Seattle, USA},
        author = {Thanh-Tung Nguyen and Xuan-Phi Nguyen and Shafiq Joty and Xiaoli Li},
        booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
-       link = {},
+       link = {https://oar.a-star.edu.sg/jspui/bitstream/123456789/4064/1/_ACL20__CR_Efficient_Constituency_Parsing_by_Pointing.pdf},
        numpages = {9},
        pages = {xx–-xx},
        publisher = {ACL},
@@ -3865,7 +3865,7 @@
     pages: xx–-xx
     booktitle: >
       Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL'20)
-    doc-url: 
+    doc-url: https://oar.a-star.edu.sg/jspui/bitstream/123456789/4063/1/_ACL_20__CR_Differentiable_Window_for_Dynamic_Local_Attention.pdf
     abstract: >
       We propose Differentiable Window, a new neural module and general purpose component for dynamic window selection. While universally applicable, we demonstrate a compelling use case of utilizing Differentiable Window to improve standard attention modules by enabling  more focused attentions over the input regions. We propose two variants of Differentiable Window, and integrate them within the Transformer architecture in two novel ways. We evaluate our proposed approach on a myriad of NLP tasks, including machine translation, sentiment analysis, subject-verb agreement and language modeling. Our experimental results demonstrate consistent and sizable improvements across all tasks.
     bibtex: >
@@ -3874,7 +3874,7 @@
        address = {Seattle, USA},
        author = {Thanh-Tung Nguyen and Xuan-Phi Nguyen and Shafiq Joty and Xiaoli Li},
        booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
-       link = {},
+       link = {https://oar.a-star.edu.sg/jspui/bitstream/123456789/4063/1/_ACL_20__CR_Differentiable_Window_for_Dynamic_Local_Attention.pdf},
        numpages = {9},
        pages = {xx–-xx},
        publisher = {ACL},
@@ -3890,7 +3890,7 @@
     year: 2020
     selected: no
     title: >
-      Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading
+      EMT: Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading
     authors: Yifan Gao, Chien-Sheng Wu, Shafiq Joty, Caiming Xiong, Richard Socher, Irwin King, Michael Lyu, and Steven C.H.
     id: Gao-et-al-acl-20
     img: Gao-et-al-acl-20-fig
@@ -3901,7 +3901,7 @@
     pages: xx–-xx
     booktitle: >
       Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL'20)
-    doc-url: 
+    doc-url: https://arxiv.org/abs/2005.12484
     abstract: >
       Conversational machine reading aims to teach machines to interact with users and answer their questions. It is challenging because machines have to understand the knowledge base text, evaluate and keep track of the user scenario, ask clarification questions, and then make a final decision. Existing approaches have implicit rule text reasoning processes for decision making and weak abilities for question-related rule extraction. In this paper, we present a new framework of conversational machine reading with a novel Explicit Memory Tracker (EMT) that explicitly tracks whether conditions listed in the rule text have already been satisfied to make a decision. Moreover, our framework generates clarifying questions by adopting a coarse-to-fine reasoning strategy, utilizing sentence-level selection scores to weight token-level distributions. On the ShARC benchmark (blind, held-out test set), EMT achieves new state-of-the-art results of 74.8% micro-averaged decision accuracy and 46.0 BLEU4. We also show that EMT is more interpretable by visualizing the entailment-oriented reasoning process as the conversation flows. Code and models will be released to facilitate research along this line.
     bibtex: >
@@ -3916,12 +3916,12 @@
        address = {Seattle, USA},
        author = {Yifan Gao and Chien-Sheng Wu and Shafiq Joty and Caiming Xiong and Richard Socher and Irwin King and Michael Lyu and Steven C.H. Hoi},
        booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
-       link = {},
+       link = {https://arxiv.org/abs/2005.12484},
        numpages = {9},
        pages = {xx–-xx},
        publisher = {ACL},
        series = {ACL'20},
-       title = {Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading},
+       title = {EMT: Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading},
        year = {2020}
       }
       
