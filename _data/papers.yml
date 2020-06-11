@@ -3884,3 +3884,81 @@
       }
       
       
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2020
+    selected: no
+    title: >
+      EMT: Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading
+    authors: Yifan Gao, Chien-Sheng Wu, Shafiq Joty, Caiming Xiong, Richard Socher, Irwin King, Michael Lyu, and Steven C.H.
+    id: Gao-et-al-acl-20
+    img: Gao-et-al-acl-20-fig
+    slides: media/Gao-et-al-acl-20-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL'20)
+    doc-url: https://arxiv.org/abs/2005.12484
+    abstract: >
+      Conversational machine reading aims to teach machines to interact with users and answer their questions. It is challenging because machines have to understand the knowledge base text, evaluate and keep track of the user scenario, ask clarification questions, and then make a final decision. Existing approaches have implicit rule text reasoning processes for decision making and weak abilities for question-related rule extraction. In this paper, we present a new framework of conversational machine reading with a novel Explicit Memory Tracker (EMT) that explicitly tracks whether conditions listed in the rule text have already been satisfied to make a decision. Moreover, our framework generates clarifying questions by adopting a coarse-to-fine reasoning strategy, utilizing sentence-level selection scores to weight token-level distributions. On the ShARC benchmark (blind, held-out test set), EMT achieves new state-of-the-art results of 74.8% micro-averaged decision accuracy and 46.0 BLEU4. We also show that EMT is more interpretable by visualizing the entailment-oriented reasoning process as the conversation flows. Code and models will be released to facilitate research along this line.
+    bibtex: >
+      @inproceedings{Gao-et-al-acl-20,
+       abstract = {Conversational machine reading aims to teach machines to interact with users and answer their questions. It is challenging because machines have to understand the knowledge base text, evaluate and keep track of the user scenario, ask clarification questions, and then make a final decision.
+      Existing approaches have implicit rule text reasoning processes for decision making and weak abilities for question-related rule extraction.
+      In this paper, we present a new framework of conversational machine reading with a novel Explicit Memory Tracker (EMT) that explicitly tracks whether conditions listed in the rule text have already been satisfied to make a decision.
+      Moreover, our framework generates clarifying questions by adopting a coarse-to-fine reasoning strategy, utilizing sentence-level selection scores to weight token-level distributions.
+      On the ShARC benchmark (blind, held-out test set), EMT achieves new state-of-the-art results of 74.8% micro-averaged decision accuracy and 46.0 BLEU4.
+      We also show that EMT is more interpretable by visualizing the entailment-oriented reasoning process as the conversation flows.
+      Code and models will be released to facilitate research along this line.},
+       address = {Seattle, USA},
+       author = {Yifan Gao and Chien-Sheng Wu and Shafiq Joty and Caiming Xiong and Richard Socher and Irwin King and Michael Lyu and Steven C.H. Hoi},
+       booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
+       link = {https://arxiv.org/abs/2005.12484},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {ACL'20},
+       title = {EMT: Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2020
+    selected: no
+    title: >
+      It’s Morphin’ Time! Combating Linguistic Discrimination with Inflectional Perturbations
+    authors: Samson Tan, Shafiq Joty, Min-Yen Kan, and Richard Socher
+    id: Tan-et-al-acl-20
+    img: Tan-et-al-acl-20-fig
+    slides: media/Tan-et-al-acl-20-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL'20)
+    doc-url: https://arxiv.org/abs/2005.04364
+    abstract: >
+      Training on only perfect Standard English cor- pora predisposes pre-trained neural networks to discriminate against minorities from non- standard linguistic backgrounds. We perturb the inflectional morphology of words to craft plausible and semantically similar adversarial examples that expose these biases in popu- lar models, e.g., BERT and Transformer, and show that adversarially finetuning them for a single epoch significantly improves robustness without sacrificing performance on clean data.
+    bibtex: >
+      @inproceedings{Tan-et-al-acl-20,
+       abstract = {Training on only perfect Standard English cor- pora predisposes pre-trained neural networks to discriminate against minorities from non- standard linguistic backgrounds. We perturb the inflectional morphology of words to craft plausible and semantically similar adversarial examples that expose these biases in popu- lar models, e.g., BERT and Transformer, and show that adversarially finetuning them for a single epoch significantly improves robustness without sacrificing performance on clean data.},
+       address = {Seattle, USA},
+       author = {Samson Tan and Shafiq Joty and Min-Yen Kan and Richard Socher},
+       booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
+       link = {https://arxiv.org/abs/2005.04364},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {ACL'20},
+       title = {It’s Morphin’ Time! Combating Linguistic Discrimination with Inflectional Perturbations},
+       year = {2020}
+      }
+      
+      
