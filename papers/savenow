@@ -1,0 +1,186 @@
+@article{nguyen2020multiagent,
+    title={Multi-Agent Cross-Translated Diversification for Unsupervised Machine Translation},
+    author={Xuan-Phi Nguyen and Shafiq Joty and Wu Kui and Ai Ti Aw},
+    journal = {arXiv (* not peer reviewed)},
+    publisher={arXiv.org},
+    issue={},
+    pages={xx--xx},
+    year={2020},
+    url = {https://arxiv.org/abs/2006.02163},
+    abstract={Recent unsupervised machine translation (UMT) systems usually employ three main principles: initialization, language modeling and iterative back-translation, though they may apply these principles differently. This work introduces another component to this framework: Multi-Agent Cross-translated Diversification (MACD). The method trains multiple UMT agents and then translates monolingual data back and forth using non-duplicative agents to acquire synthetic parallel data for supervised MT. MACD is applicable to all previous UMT approaches. In our experiments, the technique boosts the performance for some commonly used UMT methods by 1.5-2.0 BLEU. In particular, in WMT'14 English-French, WMT'16 German-English and English-Romanian, MACD outperforms cross-lingual masked language model pretraining by 2.3, 2.2 and 1.6 BLEU, respectively. It also yields 1.5-3.3 BLEU improvements in IWSLT English-French and English-German translation tasks. Through extensive experimental analyses, we show that MACD is effective because it embraces data diversity while other similar variants do not.},
+}
+
+
+@inproceedings{Nguyen-et-al-acl-20,
+ author = {Thanh-Tung Nguyen and Xuan-Phi Nguyen and Shafiq Joty and Xiaoli Li},
+ title = {Efficient Constituency Parsing by Pointing},
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
+  series = {ACL'20},
+  year = {2020},
+  address = {Seattle, USA},
+  pages = {xx–-xx},
+  numpages = {9},
+  publisher = {ACL},
+  url       = {https://oar.a-star.edu.sg/jspui/bitstream/123456789/4064/1/_ACL20__CR_Efficient_Constituency_Parsing_by_Pointing.pdf}, 
+  abstract = {We propose a novel constituency parsing model that casts the parsing problem into a series of pointing tasks. Specifically, our model estimates the likelihood of a span being a legitimate tree constituent via the pointing score corresponding to the boundary words of the span. Our parsing model supports efficient top-down decoding and our learning objective is able to enforce structural consistency without resorting to the expensive CKY inference. The experiments on the standard English Penn Treebank parsing task show that our method achieves 92.78 F1 without using pre-trained models, which is higher than all the existing methods with similar time complexity. Using pre-trained BERT, our model achieves 95.48 F1, which is competitive with the state-of-the-art while being faster. Our approach also establishes new state-of-the-art in Basque and Swedish in the SPMRL shared tasks on multilingual constituency parsing.},
+} 
+
+@inproceedings{Nguyen-et-al-acl2-20,
+ author = {Thanh-Tung Nguyen and Xuan-Phi Nguyen and Shafiq Joty and Xiaoli Li},
+ title = {Differentiable Window for Dynamic Local Attention},
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
+  series = {ACL'20},
+  year = {2020},
+  address = {Seattle, USA},
+  pages = {xx–-xx},
+  numpages = {9},
+  publisher = {ACL},
+  url       = {https://oar.a-star.edu.sg/jspui/bitstream/123456789/4063/1/_ACL_20__CR_Differentiable_Window_for_Dynamic_Local_Attention.pdf}, 
+  abstract = {We propose Differentiable Window, a new neural module and general purpose component for dynamic window selection. While universally applicable, we demonstrate a compelling use case of utilizing Differentiable Window to improve standard attention modules by enabling  more focused attentions over the input regions. We propose two variants of Differentiable Window, and integrate them within the Transformer architecture in two novel ways. We evaluate our proposed approach on a myriad of NLP tasks, including machine translation, sentiment analysis, subject-verb agreement and language modeling. Our experimental results demonstrate consistent and sizable improvements across all tasks.},
+} 
+
+
+@inproceedings{Gao-et-al-acl-20,
+ author = {Yifan Gao and Chien-Sheng Wu and Shafiq Joty and Caiming Xiong and Richard Socher and Irwin King and Michael Lyu and Steven C.H. Hoi},
+ title = {EMT: Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading},
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
+  series = {ACL'20},
+  year = {2020},
+  address = {Seattle, USA},
+  pages = {xx–-xx},
+  numpages = {9},
+  publisher = {ACL},
+  url       = {https://arxiv.org/abs/2005.12484}, 
+  abstract = {Conversational machine reading aims to teach machines to interact with users and answer their questions. It is challenging because machines have to understand the knowledge base text, evaluate and keep track of the user scenario, ask clarification questions, and then make a final decision.
+Existing approaches have implicit rule text reasoning processes for decision making and weak abilities for question-related rule extraction. 
+In this paper, we present a new framework of conversational machine reading with a novel Explicit Memory Tracker (EMT) that explicitly tracks whether conditions listed in the rule text have already been satisfied to make a decision.
+Moreover, our framework generates clarifying questions by adopting a coarse-to-fine reasoning strategy, utilizing sentence-level selection scores to weight token-level distributions. 
+On the ShARC benchmark (blind, held-out test set), EMT achieves new state-of-the-art results of 74.8% micro-averaged decision accuracy and 46.0 BLEU4. 
+We also show that EMT is more interpretable by visualizing the entailment-oriented reasoning process as the conversation flows.
+Code and models will be released to facilitate research along this line.},
+} 
+
+@inproceedings{Tan-et-al-acl-20,
+ author = {Samson Tan and Shafiq Joty and Min-Yen Kan and Richard Socher},
+ title = {It’s Morphin’ Time! Combating Linguistic Discrimination with Inflectional Perturbations},
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
+  series = {ACL'20},
+  year = {2020},
+  address = {Seattle, USA},
+  pages = {xx–-xx},
+  numpages = {9},
+  publisher = {ACL},
+  url       = {https://arxiv.org/abs/2005.04364}, 
+  abstract = {Training on only perfect Standard English cor- pora predisposes pre-trained neural networks to discriminate against minorities from non- standard linguistic backgrounds. We perturb the inflectional morphology of words to craft plausible and semantically similar adversarial examples that expose these biases in popu- lar models, e.g., BERT and Transformer, and show that adversarially finetuning them for a single epoch significantly improves robustness without sacrificing performance on clean data.},
+} 
+
+
+
+@article{mohiuddin-joty-cl-19,
+  title="{Unsupervised Word Translation with Adversarial Autoencoder}",
+  author={Tasnim Mohiuddin and Shafiq Joty},
+  journal = {Computational Linguistics (Special Issue of Computational Linguistics on Multilingual and Interlingual Semantic Representations for Natural Language Processing)},
+  publisher={MIT Press},
+  Volume ={46}, 
+  Number = {2},
+  pages={1 -- 32},
+  year={2020 (to be presented at ACL-2020)},
+  url = {https://www.mitpressjournals.org/doi/abs/10.1162/COLI_a_00374?mobileUi=0},
+  abstract={Cross-lingual word embeddings learned from monolingual embeddings have a crucial role in many downstream tasks, ranging from machine translation to transfer learning. Adversarial training has shown impressive success in learning cross-lingual embeddings and the associated word translation task without any parallel data by mapping monolingual embeddings to a shared space. However, recent work has shown superior performance for non-adversarial methods in more challenging language pairs. In this article,  we investigate adversarial autoencoder for unsupervised word translation and propose two novel extensions to it that yield more stable training and improved results. Our method includes regularization terms to enforce cycle consistency and input reconstruction, and puts the target encoders as an adversary against the corresponding discriminator. We use two types of refinement procedures sequentially after obtaining the trained encoders and mappings from the adversarial training, namely, refinement with Procrustes solution and refinement with symmetric re-weighting. Extensive experimentations with European, non-European and low-resource languages from two different datasets show that our method achieves better performance than existing adversarial and non-adversarial approaches and is also competitive with the supervised system. Along with performing comprehensive ablation studies to understand the contribution of different components of our adversarial model, we also conduct a thorough analysis of the refinement procedures to understand their effects.
+  }
+}
+
+
+@article{Jing-et-al-20,
+  title="{An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks}",
+  author = {Jing Ma and Wei Gao and Shafiq Joty and Kam-Fai Wong},
+  journal = {ACM Transactions on Intelligent Systems and Technology (TIST)},
+  publisher={ACM},
+  Volume ={11}, 
+  Number = {4:42},
+  pages={1--28},
+  year={June, 2020},
+  url = {https://dl.acm.org/doi/pdf/10.1145/3391250},
+  abstract={Rumors spread in social media severely jeopardize the credibility of online content. Thus, automatic debunking of rumors is of great importance to keep social media a healthy environment. While facing a dubious claim, people often dispute its truthfulness sporadically in their posts containing various cues, which can form useful evidence with long-distance dependencies. In this work, we propose to learn discriminative features from microblog posts by following their non-sequential propagation structure and generate more powerful representations for identifying rumors. For modeling non-sequential structure, we firstly represent the diffusion of microblog posts with propagation trees, which provide valuable clues on how a claim in the original post is transmitted and developed over time. We then present a bottom-up and a top-down tree-structured models based on Recursive Neural Networks (RvNN) for rumor representation learning and classification, which naturally conform to the message propagation process in microblogs. To enhance the rumor representation learning, we reveal that effective rumor detection is highly related to finding evidential posts, e.g., the posts expressing specific attitude towards the veracity of a claim, as an extension of the previous RvNN-based detection models that treat every post equally. For this reason, we design discriminative attention mechanisms for the RvNN-based models to selectively attend on the subset of evidential posts during the bottom-up/top-down recursive composition. Experimental results on four datasets collected from real-world microblog platforms confirm that 1) our RvNN-based models achieve much better rumor detection and classification performance than state-of-the-art approaches; 2) the attention mechanisms for focusing on evidential posts can further improve the performance of our RvNN-based method; and 3) our approach possesses superior capacity on detecting rumors at very early stage.
+  }
+}
+
+
+
+
+@article{tan-et-al-arxiv-20,
+  title="{Mind Your Inflections! Improving NLP for Non-Standard English with Base-Inflection Encoding}",
+  author={Samson Tan and Shafiq Joty and Lav R. Varshney and Min-Yen Kan},
+  journal = {arXiv (* not peer reviewed)},
+  publisher={arXiv.org},
+  issue={},
+  pages={},
+  year={2020},
+  url = {https://arxiv.org/abs/2004.14870},
+  abstract={Morphological inflection is a process of word formation where base words are modified to express different grammatical categories such as tense, case, voice, person, or number. World Englishes, such as Colloquial Singapore English (CSE) and African American Vernacular English (AAVE), differ from Standard English dialects in inflection use. Although comprehension by human readers is usually unimpaired by non-standard inflection use, NLP systems are not so robust. We introduce a new Base-Inflection Encoding of English text that is achieved by combining linguistic and statistical techniques. Fine-tuning pre-trained NLP models for downstream tasks under this novel encoding achieves robustness to non-standard inflection use while maintaining performance on Standard English examples. Models using this encoding also generalize better to non-standard dialects without explicit training. We suggest metrics to evaluate tokenizers and extensive model-independent analyses demonstrate the efficacy of the encoding when used together with data-driven subword tokenizers.},
+}
+
+
+
+@article{jwala-et-al-arxiv-20,
+  title="{Can Your Context-Aware MT System Pass the DiP Benchmark Tests? : Evaluation Benchmarks for Discourse Phenomena in Machine Translation}",
+  author={Prathyusha Jwalapuram and Barbara Rychalska and Shafiq Joty and Dominika Basaj},
+  journal = {arXiv (* not peer reviewed)},
+  publisher={arXiv.org},
+  issue={},
+  pages={},
+  year={2020},
+  url = {https://arxiv.org/abs/2004.14607},
+  abstract={Despite increasing instances of machine translation (MT) systems including contextual information, the evidence for translation quality improvement is sparse, especially for discourse phenomena. Popular metrics like BLEU are not expressive or sensitive enough to capture quality improvements or drops that are minor in size but significant in perception. We introduce the first of their kind MT benchmark datasets that aim to track and hail improvements across four main discourse phenomena: anaphora, lexical consistency, coherence and readability, and discourse connective translation. We also introduce evaluation methods for these tasks, and evaluate several baseline MT systems on the curated datasets. Surprisingly, we find that existing context-aware models do not improve discourse-related translations consistently across languages and phenomena.},
+}
+
+
+@article{mohiuddin-et-al-arxiv-20,
+  title="{LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space}",
+  author={Tasnim Mohiuddin and M Saiful Bari and Shafiq Joty},
+  journal = {arXiv (* not peer reviewed)},
+  publisher={arXiv.org},
+  issue={},
+  pages={},
+  year={2020},
+  url = {https://arxiv.org/abs/2004.13889},
+  abstract={Most of the successful and predominant methods for bilingual lexicon induction (BLI) are mapping-based, where a linear mapping function is learned with the assumption that the word embedding spaces of different languages exhibit similar geometric structures (i.e., approximately isomorphic). However, several recent studies have criticized this simplified assumption showing that it does not hold in general even for closely related languages. In this work, we propose a novel semi-supervised method to learn cross-lingual word embeddings for BLI. Our model is independent of the isomorphic assumption and uses nonlinear mapping in the latent space of two independently trained auto-encoders. Through extensive experiments on fifteen (15) different language pairs (in both directions) comprising resource-rich and low-resource languages from two different datasets, we demonstrate that our method outperforms existing models by a good margin. Ablation studies show the importance of different model components and the necessity of non-linear mapping.},
+}
+
+
+@article{yue-et-al-arxiv-20,
+  title="{VD-BERT: A Unified Vision and Dialog Transformer with BERT}",
+  author={Yue Wang and Shafiq Joty and Michael R. Lyu and Irwin King and Caiming Xiong and Steven C.H. Hoi},
+  journal = {arXiv (* not peer reviewed)},
+  publisher={arXiv.org},
+  issue={},
+  pages={},
+  year={2020},
+  url = {https://arxiv.org/abs/2004.13278},
+  abstract={Visual dialog is a challenging vision-language task, where a dialog agent needs to answer a series of questions through reasoning on the image content and dialog history. Prior work has mostly focused on various attention mechanisms to model such intricate interactions. By contrast, in this work, we propose VD-BERT, a simple yet effective framework of unified vision-dialog Transformer that leverages the pretrained BERT language models for Visual Dialog tasks. The model is unified in that (1) it captures all the interactions between the image and the multi-turn dialog using a single-stream Transformer encoder, and (2) it supports both answer ranking and answer generation seamlessly through the same architecture. More crucially, we adapt BERT for the effective fusion of vision and dialog contents via visually grounded training. Without the need of pretraining on external vision-language data, our model yields new state of the art, achieving the top position in both single-model and ensemble settings (74.54 and 75.35 NDCG scores) on the visual dialog leaderboard.},
+}
+
+@article{bari-et-al-arxiv-20,
+  title="{MultiMix: A Robust Data Augmentation Strategy for Cross-Lingual NLP}",
+  author={M Saiful Bari and Tasnim Mohiuddin and Shafiq Joty},
+  journal = {arXiv (* not peer reviewed)},
+  publisher={arXiv.org},
+  issue={},
+  pages={},
+  year={2020},
+  url = {https://arxiv.org/abs/2004.13889},
+  abstract={Transfer learning has yielded state-of-the-art results in many supervised natural language processing tasks. However, annotated data for every target task in every target language is rare, especially for low-resource languages. In this work, we propose MultiMix, a novel data augmentation method for semi-supervised learning in zero-shot transfer learning scenarios. In particular, MultiMix targets to solve cross-lingual adaptation problems from a source (language) distribution to an unknown target (language) distribution assuming it has no training labels in the target language task. In its heart, MultiMix performs simultaneous self-training with data augmentation and unsupervised sample selection. To show its effectiveness, we have performed extensive experiments on zero-shot transfers for cross-lingual named entity recognition (XNER) and natural language inference (XNLI). Our experiments show sizeable improvements in both tasks outperforming the baselines by a good margin.},
+}
+
+@article{mohiuddin-coh-et-al-arxiv-20,
+  title="{CohEval: Benchmarking Coherence Models}",
+  author={Tasnim Mohiuddin and Prathyusha Jwalapuram and Xiang Lin and Shafiq Joty},
+  journal = {arXiv (* not peer reviewed)},
+  publisher={arXiv.org},
+  issue={},
+  pages={},
+  year={2020},
+  url = {https://arxiv.org/abs/2004.13889},
+  abstract={Although coherence modeling has come a long way in developing novel models, their evaluation on downstream applications has largely been neglected. With the advancements made by neural approaches in applications such as machine translation, text summarization and dialogue systems, the need for standard coherence evaluation is now more crucial than ever. In this paper, we propose to benchmark coherence models on a number of synthetic and downstream tasks. In particular, we evaluate well-known traditional and neural coherence models on sentence ordering tasks, and also on three downstream applications including coherence evaluation for machine translation, summarization and next utterance prediction. We also show model produced rankings for pre-trained language model outputs as another use-case. Our results demonstrate a weak correlation between the model performances in the synthetic tasks and the downstream applications, motivating alternate evaluation methods for coherence models. This work has led us to create a leaderboard to foster further research in coherence modeling.},
+}
+
