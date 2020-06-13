@@ -4073,7 +4073,7 @@
     selected: yes
     title: >
       Conversational agents in healthcare: a scoping review and conceptual analysis
-    authors: Lorainne Tudor, Dhakshenya Ardhithy, Bhone Myint, Tobias Kowatsch, Shafiq Joty, Yin Leng, and Rifat Atun
+    authors: Lorainne Car, Dhakshenya Dhinagaran, Bhone Kyaw, Tobias Kowatsch, Shafiq Joty, Yin Theng, and Rifat Atun
     id: Car-et-al-jmir-20
     img: Car-et-al-jmir-20-fig
     slides: # e.g. media/$ID.pptx
@@ -4087,7 +4087,7 @@
     bibtex: >
       @article{Car-et-al-jmir-20,
        abstract = {},
-       author = {Lorainne Tudor Car and Dhakshenya Ardhithy Dhinagaran and Bhone Myint Kyaw and Tobias Kowatsch and Shafiq Joty and Yin Leng Theng and Rifat Atun},
+       author = {Lorainne Car and Dhakshenya Dhinagaran and Bhone Kyaw and Tobias Kowatsch and Shafiq Joty and Yin Theng and Rifat Atun},
        doi = {doi:10.2196/17158},
        journal = {Journal of Medical Internet Research (forthcoming)},
        link = {http://dx.doi.org/10.2196/17158},
