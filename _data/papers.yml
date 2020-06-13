@@ -3177,72 +3177,6 @@
       
   -
     layout: paper
-    paper-type: article #changes display of reference in paper list
-    year: 2019
-    selected: yes
-    title: >
-      Resurrecting Submodularity in Neural Abstractive Summarization
-    authors: Simeng Han, Xiang Lin, and Shafiq Joty
-    id: simeng-et-al-arxiv-19
-    img: simeng-et-al-arxiv-19-fig
-    slides: # e.g. media/$ID.pptx
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: journal
-    pages: 
-    journal: arXiv (* not peer reviewed)
-    doc-url: https://arxiv.org/abs/1911.03014
-    abstract: >
-      Submodularity is a desirable property for a variety of objectives in summarization in terms of content selection where the current encode-decoder framework is deficient. We propose diminishing attentions, a class of novel attention mechanisms. They are architecturally simple yet empirically effective to improve the coverage of neural abstractive summarization by exploiting the properties of submodular functions. Without adding any extra parameters to the Pointer-Generator baseline, our attention mechanism yields significant improvements in ROUGE scores and generates summaries of better quality measured from several aspects. Our method within the Pointer-Generator framework outperforms the recently proposed Transformer-based model for summarization while using only 5 times less parameters. When applied to the encoder-decoder attention in the Transformer model initialized with BERT, our method also achieves state-of-the-art results in abstractive summarization.
-    bibtex: >
-      @article{simeng-et-al-arxiv-19,
-       abstract = {Submodularity is a desirable property for a variety of objectives in summarization in terms of content selection where the current encode-decoder framework is deficient. We propose diminishing attentions, a class of novel attention mechanisms. They are architecturally simple yet empirically effective to improve the coverage of neural abstractive summarization by exploiting the properties of submodular functions. Without adding any extra parameters to the Pointer-Generator baseline, our attention mechanism yields significant improvements in ROUGE scores and generates summaries of better quality measured from several aspects. Our method within the Pointer-Generator framework outperforms the recently proposed Transformer-based model for summarization while using only 5 times less parameters. When applied to the encoder-decoder attention in the Transformer model initialized with BERT, our method also achieves state-of-the-art results in abstractive summarization.},
-       author = {Simeng Han and Xiang Lin and Shafiq Joty},
-       issue = {},
-       journal = {arXiv (* not peer reviewed)},
-       link = {https://arxiv.org/abs/1911.03014},
-       pages = {},
-       publisher = {arXiv.org},
-       title = {Resurrecting Submodularity in Neural Abstractive Summarization},
-       year = {2019}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: article #changes display of reference in paper list
-    year: 2019
-    selected: yes
-    title: >
-      Data Diversification: An Elegant Strategy For Neural Machine Translation
-    authors: Xuan-Phi Nguyen, Shafiq Joty, Wu Kui, and Ai Ti
-    id: phi-et-al-arxiv-19
-    img: phi-et-al-arxiv-19-fig
-    slides: # e.g. media/$ID.pptx
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: journal
-    pages: 
-    journal: arXiv (* not peer reviewed)
-    doc-url: https://arxiv.org/abs/1911.01986
-    abstract: >
-      A common approach to improve neural machine translation is to invent new architectures. However, the research process of designing and refining such new models is often exhausting. Another approach is to resort to huge extra monolingual data to conduct semi-supervised training, like back-translation. But extra monolingual data is not always available, especially for low resource languages. In this paper, we propose to diversify the available training data by using multiple forward and backward peer models to augment the original training dataset. Our method does not require extra data like back-translation, nor additional computations and parameters like using pretrained models. Our data diversification method achieves state-of-the-art BLEU score of 30.7 in the WMT'14 English-German task. It also consistently and substantially improves translation quality in 8 other translation tasks: 4 IWSLT tasks (English-German and English-French) and 4 low-resource translation tasks (English-Nepali and English-Sinhala).
-    bibtex: >
-      @article{phi-et-al-arxiv-19,
-       abstract = {A common approach to improve neural machine translation is to invent new architectures. However, the research process of designing and refining such new models is often exhausting. Another approach is to resort to huge extra monolingual data to conduct semi-supervised training, like back-translation. But extra monolingual data is not always available, especially for low resource languages. In this paper, we propose to diversify the available training data by using multiple forward and backward peer models to augment the original training dataset. Our method does not require extra data like back-translation, nor additional computations and parameters like using pretrained models. Our data diversification method achieves state-of-the-art BLEU score of 30.7 in the WMT'14 English-German task. It also consistently and substantially improves translation quality in 8 other translation tasks: 4 IWSLT tasks (English-German and English-French) and 4 low-resource translation tasks (English-Nepali and English-Sinhala).},
-       author = {Xuan-Phi Nguyen and Shafiq Joty and Wu Kui and Ai Ti Aw},
-       issue = {},
-       journal = {arXiv (* not peer reviewed)},
-       link = {https://arxiv.org/abs/1911.01986},
-       pages = {},
-       publisher = {arXiv.org},
-       title = {Data Diversification: An Elegant Strategy For Neural Machine Translation},
-       year = {2019}
-      }
-      
-      
-  -
-    layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2019
     selected: no
@@ -4128,6 +4062,72 @@
        pages = {xx--xx},
        publisher = {arXiv.org},
        title = {Multi-Agent Cross-Translated Diversification for Unsupervised Machine Translation},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2020
+    selected: yes
+    title: >
+      Data Diversification: An Elegant Strategy For Neural Machine Translation
+    authors: Xuan-Phi Nguyen, Shafiq Joty, Wu Kui, and Ai Ti
+    id: phi-et-al-arxiv-19
+    img: phi-et-al-arxiv-19-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    pages: 
+    journal: arXiv (* not peer reviewed)
+    doc-url: https://arxiv.org/abs/1911.01986
+    abstract: >
+      A common approach to improve neural machine translation is to invent new architectures. However, the research process of designing and refining such new models is often exhausting. Another approach is to resort to huge extra monolingual data to conduct semi-supervised training, like back-translation. But extra monolingual data is not always available, especially for low resource languages. In this paper, we propose to diversify the available training data by using multiple forward and backward peer models to augment the original training dataset. Our method does not require extra data like back-translation, nor additional computations and parameters like using pretrained models. Our data diversification method achieves state-of-the-art BLEU score of 30.7 in the WMT'14 English-German task. It also consistently and substantially improves translation quality in 8 other translation tasks: 4 IWSLT tasks (English-German and English-French) and 4 low-resource translation tasks (English-Nepali and English-Sinhala).
+    bibtex: >
+      @article{phi-et-al-arxiv-19,
+       abstract = {A common approach to improve neural machine translation is to invent new architectures. However, the research process of designing and refining such new models is often exhausting. Another approach is to resort to huge extra monolingual data to conduct semi-supervised training, like back-translation. But extra monolingual data is not always available, especially for low resource languages. In this paper, we propose to diversify the available training data by using multiple forward and backward peer models to augment the original training dataset. Our method does not require extra data like back-translation, nor additional computations and parameters like using pretrained models. Our data diversification method achieves state-of-the-art BLEU score of 30.7 in the WMT'14 English-German task. It also consistently and substantially improves translation quality in 8 other translation tasks: 4 IWSLT tasks (English-German and English-French) and 4 low-resource translation tasks (English-Nepali and English-Sinhala).},
+       author = {Xuan-Phi Nguyen and Shafiq Joty and Wu Kui and Ai Ti Aw},
+       issue = {},
+       journal = {arXiv (* not peer reviewed)},
+       link = {https://arxiv.org/abs/1911.01986},
+       pages = {},
+       publisher = {arXiv.org},
+       title = {Data Diversification: An Elegant Strategy For Neural Machine Translation},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2020
+    selected: yes
+    title: >
+      Resurrecting Submodularity For Neural Text Generation
+    authors: Simeng Han, Xiang Lin, and Shafiq Joty
+    id: simeng-et-al-arxiv-19
+    img: simeng-et-al-arxiv-19-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    pages: 
+    journal: arXiv (* not peer reviewed)
+    doc-url: https://arxiv.org/abs/1911.03014
+    abstract: >
+      Submodularity is a desirable property for a variety of objectives in content selection where the current neural encoder-decoder framework is deficient. We propose diminishing attentions, a class of novel attention mechanisms that exploit the properties of submodular functions. The resulting attention module offers an architecturally simple yet empirically effective method to improve the coverage of neural text generation. We run on three directed text generation tasks with different levels of recovering rate, across two modalities, three neural model architectures and two training strategy variations. The results and analyses demonstrate that our method generalizes well across these settings, produces texts of good quality, outperforms comparable baselines and achieves state-of-the-art performance.
+    bibtex: >
+      @article{simeng-et-al-arxiv-19,
+       abstract = {Submodularity is a desirable property for a variety of objectives in content selection where the current neural encoder-decoder framework is deficient. We propose diminishing attentions, a class of novel attention mechanisms that exploit the properties of submodular functions. The resulting attention module offers an architecturally simple yet empirically effective method to improve the coverage of neural text generation. We run on three directed text generation tasks with different levels of recovering rate, across two modalities, three neural model architectures and two training strategy variations. The results and analyses demonstrate that our method generalizes well across these settings, produces texts of good quality, outperforms comparable baselines and achieves state-of-the-art performance.},
+       author = {Simeng Han and Xiang Lin and Shafiq Joty},
+       issue = {},
+       journal = {arXiv (* not peer reviewed)},
+       link = {https://arxiv.org/abs/1911.03014},
+       pages = {},
+       publisher = {arXiv.org},
+       title = {Resurrecting Submodularity For Neural Text Generation},
        year = {2020}
       }
       

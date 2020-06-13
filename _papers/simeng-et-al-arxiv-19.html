@@ -1,36 +1,32 @@
 ---
-abstract: 'Submodularity is a desirable property for a variety of objectives in summarization
-  in terms of content selection where the current encode-decoder framework is deficient.
-  We propose diminishing attentions, a class of novel attention mechanisms. They are
-  architecturally simple yet empirically effective to improve the coverage of neural
-  abstractive summarization by exploiting the properties of submodular functions.
-  Without adding any extra parameters to the Pointer-Generator baseline, our attention
-  mechanism yields significant improvements in ROUGE scores and generates summaries
-  of better quality measured from several aspects. Our method within the Pointer-Generator
-  framework outperforms the recently proposed Transformer-based model for summarization
-  while using only 5 times less parameters. When applied to the encoder-decoder attention
-  in the Transformer model initialized with BERT, our method also achieves state-of-the-art
-  results in abstractive summarization.
+abstract: 'Submodularity is a desirable property for a variety of objectives in content
+  selection where the current neural encoder-decoder framework is deficient. We propose
+  diminishing attentions, a class of novel attention mechanisms that exploit the properties
+  of submodular functions. The resulting attention module offers an architecturally
+  simple yet empirically effective method to improve the coverage of neural text generation.
+  We run on three directed text generation tasks with different levels of recovering
+  rate, across two modalities, three neural model architectures and two training strategy
+  variations. The results and analyses demonstrate that our method generalizes well
+  across these settings, produces texts of good quality, outperforms comparable baselines
+  and achieves state-of-the-art performance.
 
   '
 authors: Simeng Han, Xiang Lin, and Shafiq Joty
 bibtex: "@article{simeng-et-al-arxiv-19,\n abstract = {Submodularity is a desirable\
-  \ property for a variety of objectives in summarization in terms of content selection\
-  \ where the current encode-decoder framework is deficient. We propose diminishing\
-  \ attentions, a class of novel attention mechanisms. They are architecturally simple\
-  \ yet empirically effective to improve the coverage of neural abstractive summarization\
-  \ by exploiting the properties of submodular functions. Without adding any extra\
-  \ parameters to the Pointer-Generator baseline, our attention mechanism yields significant\
-  \ improvements in ROUGE scores and generates summaries of better quality measured\
-  \ from several aspects. Our method within the Pointer-Generator framework outperforms\
-  \ the recently proposed Transformer-based model for summarization while using only\
-  \ 5 times less parameters. When applied to the encoder-decoder attention in the\
-  \ Transformer model initialized with BERT, our method also achieves state-of-the-art\
-  \ results in abstractive summarization.},\n author = {Simeng Han and Xiang Lin and\
-  \ Shafiq Joty},\n issue = {},\n journal = {arXiv (* not peer reviewed)},\n link\
-  \ = {https://arxiv.org/abs/1911.03014},\n pages = {},\n publisher = {arXiv.org},\n\
-  \ title = {Resurrecting Submodularity in Neural Abstractive Summarization},\n year\
-  \ = {2019}\n}\n"
+  \ property for a variety of objectives in content selection where the current neural\
+  \ encoder-decoder framework is deficient. We propose diminishing attentions, a class\
+  \ of novel attention mechanisms that exploit the properties of submodular functions.\
+  \ The resulting attention module offers an architecturally simple yet empirically\
+  \ effective method to improve the coverage of neural text generation. We run on\
+  \ three directed text generation tasks with different levels of recovering rate,\
+  \ across two modalities, three neural model architectures and two training strategy\
+  \ variations. The results and analyses demonstrate that our method generalizes well\
+  \ across these settings, produces texts of good quality, outperforms comparable\
+  \ baselines and achieves state-of-the-art performance.},\n author = {Simeng Han\
+  \ and Xiang Lin and Shafiq Joty},\n issue = {},\n journal = {arXiv (* not peer reviewed)},\n\
+  \ link = {https://arxiv.org/abs/1911.03014},\n pages = {},\n publisher = {arXiv.org},\n\
+  \ title = {Resurrecting Submodularity For Neural Text Generation},\n year = {2020}\n\
+  }\n"
 code: null
 doc-url: https://arxiv.org/abs/1911.03014
 errata: null
@@ -43,11 +39,11 @@ paper-type: article
 picture: shafiq
 selected: true
 slides: null
-title: 'Resurrecting Submodularity in Neural Abstractive Summarization
+title: 'Resurrecting Submodularity For Neural Text Generation
 
   '
 venue: journal
-year: 2019
+year: 2020
 ---
 
 {% include singlepaper.html paper=page %}
