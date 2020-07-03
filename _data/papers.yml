@@ -3902,6 +3902,41 @@
     year: 2020
     selected: no
     title: >
+      Finding It at Another Side: A Viewpoint-Adapted Matching Encoder for Change Captioning
+    authors: Xiangxi Shi, Xu Yang, Jiuxiang Gu, Shafiq Joty, and Jianfei Cai
+    id: shi-et-al-eccv-20
+    img: shi-et-al-eccv-20-fig
+    slides: media/shi-et-al-eccv-20-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      European Conference on Computer Vision (ECCV'20)
+    doc-url: 
+    abstract: >
+      Change Captioning is a task that aims to describe the difference between images with natural language. Most existing methods treat this problem as a difference judgment without the existence of distractors such as viewpoint changes. However, in practice, viewpoint changes happen often and can overwhelm the real difference to be described. In this paper, we propose a novel visual encoder to explicitly distinguish viewpoint changes from real changes in the change captioning task. Moreover, we further simulate the attention preference of humans and propose a novel reinforcement learning process to fine-tune the attention directly with the language evaluation rewards. Extensive experimental results show that our method outperforms the state-of-the-art approaches by a large margin in both Spot-the-Diff and CLEVR-Change datasets.
+    bibtex: >
+      @inproceedings{shi-et-al-eccv-20,
+       abstract = {Change Captioning is a task that aims to describe the difference between images with natural language. Most existing methods treat this problem as a difference judgment without the existence of distractors such as viewpoint changes. However, in practice, viewpoint changes happen often and can overwhelm the real difference to be described. In this paper, we propose a novel visual encoder to explicitly distinguish viewpoint changes from real changes in the change captioning task. Moreover, we further simulate the attention preference of humans and propose a novel reinforcement learning process to fine-tune the attention directly with the language evaluation rewards. Extensive experimental results show that our method outperforms the state-of-the-art approaches by a large margin in both Spot-the-Diff and CLEVR-Change datasets.},
+       address = {Virtual (online)},
+       author = {Xiangxi Shi and Xu Yang and Jiuxiang Gu and Shafiq Joty and Jianfei Cai},
+       booktitle = {European Conference on Computer Vision},
+       link = {},
+       numpages = {10},
+       pages = {xx–-xx},
+       series = {ECCV'20},
+       title = {Finding It at Another Side: A Viewpoint-Adapted Matching Encoder for Change Captioning},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2020
+    selected: no
+    title: >
       Zero-Resource Cross-Lingual Named Entity Recognition
     authors: Saiful Bari, Shafiq Joty, and Prathyusha Jwalapuram
     id: bari-et-al-aaai-20
@@ -4072,7 +4107,7 @@
     year: 2020
     selected: yes
     title: >
-      Data Diversification: An Elegant Strategy For Neural Machine Translation
+      Data Diversification: An Elegant Strategy for Neural Machine Translation
     authors: Xuan-Phi Nguyen, Shafiq Joty, Wu Kui, and Ai Ti
     id: phi-et-al-arxiv-19
     img: phi-et-al-arxiv-19-fig
@@ -4094,7 +4129,7 @@
        link = {https://arxiv.org/abs/1911.01986},
        pages = {},
        publisher = {arXiv.org},
-       title = {Data Diversification: An Elegant Strategy For Neural Machine Translation},
+       title = {Data Diversification: An Elegant Strategy for Neural Machine Translation},
        year = {2020}
       }
       
@@ -4105,7 +4140,7 @@
     year: 2020
     selected: yes
     title: >
-      Resurrecting Submodularity For Neural Text Generation
+      Resurrecting Submodularity for Neural Text Generation
     authors: Simeng Han, Xiang Lin, and Shafiq Joty
     id: simeng-et-al-arxiv-19
     img: simeng-et-al-arxiv-19-fig
@@ -4127,7 +4162,7 @@
        link = {https://arxiv.org/abs/1911.03014},
        pages = {},
        publisher = {arXiv.org},
-       title = {Resurrecting Submodularity For Neural Text Generation},
+       title = {Resurrecting Submodularity for Neural Text Generation},
        year = {2020}
       }
       
