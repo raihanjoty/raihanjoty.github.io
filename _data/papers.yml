@@ -3969,6 +3969,114 @@
       
   -
     layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2020
+    selected: no
+    title: >
+      Universal Speech Transformer
+    authors: Yingzhu Zhao, Chongjia Ni, Cheung-Chi LEUNG, Shafiq Joty, Eng Siong, and Bin Ma
+    id: Yingzhu-et-al-interspeech-20a
+    img: Yingzhu-et-al-interspeech-20a-fig
+    slides: media/Yingzhu-et-al-interspeech-20a-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx - xx
+    booktitle: >
+      21st Annual Conference of the International Speech Communication Association (Interspeech'20)
+    doc-url: 
+    abstract: >
+      Transformer model has made great progress in speech recognition. However, compared with models with iterative computation, transformer model has fixed encoder and decoder depth, thus losing the recurrent inductive bias. Besides, finding the optimal number of layers involves trial-and-error attempts. In this paper, the universal speech transformer is proposed, which to the best of our knowledge, is the first work to use universal transformer for speech recognition. It generalizes the speech transformer with dynamic numbers of encoder/decoder layers, which can relieve the burden of tuning depth related hyperparameters. Universal transformer adds the depth and positional embeddings repeatedly for each layer, which dilutes the acoustic information carried by hidden representation, and it also performs a partial update of hidden vectors between layers, which is less efficient especially on the very deep models. For better use of universal transformer, we modify its processing framework by removing the depth embedding and only adding the positional embedding once at transformer encoder frontend. Furthermore, to update the hidden vectors efficiently, especially on the very deep models, we adopt a full update. Experiments on LibriSpeech, Switchboard and AISHELL-1 datasets show that our model outperforms a baseline by 3.88%-13.7%, and surpasses other model with less computation cost.
+    bibtex: >
+      @inproceedings{Yingzhu-et-al-interspeech-20a,
+       abstract = {Transformer model has made great progress in speech recognition. However, compared with models with iterative computation, transformer model has fixed encoder and decoder depth, thus losing the recurrent inductive bias. Besides, finding the optimal number of layers involves trial-and-error attempts. In this paper, the universal speech transformer is proposed, which to the best of our knowledge, is the first work to use universal transformer for speech recognition. It generalizes the speech transformer with dynamic numbers of encoder/decoder layers, which can relieve the burden of tuning depth related hyperparameters. Universal transformer adds the depth and positional embeddings repeatedly for each layer, which dilutes the acoustic information carried by hidden representation, and it also performs a partial update of hidden vectors between layers, which is less efficient especially on the very deep models. For better use of universal transformer, we modify its processing framework by removing the depth embedding and only adding the positional embedding once at transformer encoder frontend. Furthermore, to update the hidden vectors efficiently, especially on the very deep models, we adopt a full update. Experiments on LibriSpeech, Switchboard and AISHELL-1 datasets show that our model outperforms a baseline by 3.88%-13.7%, and surpasses other model with less computation cost.},
+       address = {Shanghai, China},
+       author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
+       booktitle = {21st Annual Conference of the International Speech Communication Association},
+       link = {},
+       month = {October},
+       pages = {xx -- xx},
+       publisher = {IEEE},
+       series = {Interspeech'20},
+       title = {Universal Speech Transformer},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2020
+    selected: no
+    title: >
+      Speech Transformer with Speaker Aware Persistent Memory
+    authors: Yingzhu Zhao, Chongjia Ni, Cheung-Chi LEUNG, Shafiq Joty, Eng Siong, and Bin Ma
+    id: Yingzhu-et-al-interspeech-20b
+    img: Yingzhu-et-al-interspeech-20b-fig
+    slides: media/Yingzhu-et-al-interspeech-20b-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx - xx
+    booktitle: >
+      21st Annual Conference of the International Speech Communication Association (Interspeech'20)
+    doc-url: 
+    abstract: >
+      End-to-end models have been introduced into automatic speech recognition (ASR) successfully and achieved superior performance compared with conventional hybrid systems, especially with the newly proposed transformer model. However, speaker mismatch between training and test data remains a problem, and speaker adaptation for transformer model can be further improved. In this paper, we propose to conduct speaker aware training for ASR in transformer model. Specifically, we propose to embed speaker knowledge through a persistent memory model into speech transformer encoder at utterance level. The speaker information is represented by a number of static speaker i-vectors, which is concatenated to speech utterance at each encoder self-attention layer. Persistent memory is thus formed by carrying speaker information through the depth of encoder. The speaker knowledge is captured from self-attention between speech and persistent memory vector in encoder. Experiment results on LibriSpeech, Switchboard and AISHELL-1 ASR task show that our proposed model brings relative 4.7%-12.5% word error rate (WER) reductions, and achieves superior results compared with other models with the same objective. Furthermore, our model brings relative 2.1%-8.3% WER reductions compared with the first persistent memory model used in ASR.
+    bibtex: >
+      @inproceedings{Yingzhu-et-al-interspeech-20b,
+       abstract = {End-to-end models have been introduced into automatic speech recognition (ASR) successfully and achieved superior performance compared with conventional hybrid systems, especially with the newly proposed transformer model. However, speaker mismatch between training and test data remains a problem, and speaker adaptation for transformer model can be further improved. In this paper, we propose to conduct speaker aware training for ASR in transformer model. Specifically, we propose to embed speaker knowledge through a persistent memory model into speech transformer encoder at utterance level. The speaker information is represented by a number of static speaker i-vectors, which is concatenated to speech utterance at each encoder self-attention layer. Persistent memory is thus formed by carrying speaker information through the depth of encoder. The speaker knowledge is captured from self-attention between speech and persistent memory vector in encoder. Experiment results on LibriSpeech, Switchboard and AISHELL-1 ASR task show that our proposed model brings relative 4.7%-12.5% word error rate (WER) reductions, and achieves superior results compared with other models with the same objective. Furthermore, our model brings relative 2.1%-8.3% WER reductions compared with the first persistent memory model used in ASR.},
+       address = {Shanghai, China},
+       author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
+       booktitle = {21st Annual Conference of the International Speech Communication Association},
+       link = {},
+       month = {October},
+       pages = {xx -- xx},
+       publisher = {IEEE},
+       series = {Interspeech'20},
+       title = {Speech Transformer with Speaker Aware Persistent Memory},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2020
+    selected: no
+    title: >
+      Cross Attention with Monotonic Alignment for Speech Transformer
+    authors: Yingzhu Zhao, Chongjia Ni, Cheung-Chi LEUNG, Shafiq Joty, Eng Siong, and Bin Ma
+    id: Yingzhu-et-al-interspeech-20c
+    img: Yingzhu-et-al-interspeech-20c-fig
+    slides: media/Yingzhu-et-al-interspeech-20c-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx - xx
+    booktitle: >
+      21st Annual Conference of the International Speech Communication Association (Interspeech'20)
+    doc-url: 
+    abstract: >
+      Transformer, a state-of-the-art neural network architecture, has been used successfully for different sequence-to-sequence transformation tasks. This model architecture disperses the attention distribution over entire input to learn long-term dependencies, which is important for some sequence-to-sequence tasks, such as neural machine translation and text summarization. However, automatic speech recognition (ASR) has a characteristic to have monotonic alignment between text output and speech input. Techniques like Connectionist Temporal Classification (CTC), RNN Transducer (RNN-T) and Recurrent Neural Aligner (RNA) build on top of this monotonic alignment and use local encoded speech representations for corresponding token prediction. In this paper, we present an effective cross attention biasing technique in transformer that takes monotonic alignment between text output and speech input into consideration by making use of cross attention weights. Specifically, a Gaussian mask is applied on cross attention weights to limit the input speech context range locally given alignment information. We further introduce a regularizer for alignment regularization. Experiments on LibriSpeech dataset find that our proposed model can obtain improved output-input alignment for ASR, and yields 14.5%-25.0% relative word error rate (WER) reductions.
+    bibtex: >
+      @inproceedings{Yingzhu-et-al-interspeech-20c,
+       abstract = {Transformer, a state-of-the-art neural network architecture, has been used successfully for different sequence-to-sequence transformation tasks. This model architecture disperses the attention distribution over entire input to learn long-term dependencies, which is important for some sequence-to-sequence tasks, such as neural machine translation and text summarization. However, automatic speech recognition (ASR) has a characteristic to have monotonic alignment between text output and speech input. Techniques like Connectionist Temporal Classification (CTC), RNN Transducer (RNN-T) and Recurrent Neural Aligner (RNA) build on top of this monotonic alignment and use local encoded speech representations for corresponding token prediction. In this paper, we present an effective cross attention biasing technique in transformer that takes monotonic alignment between text output and speech input into consideration by making use of cross attention weights. Specifically, a Gaussian mask is applied on cross attention weights to limit the input speech context range locally given alignment information. We further introduce a regularizer for alignment regularization. Experiments on LibriSpeech dataset find that our proposed model can obtain improved output-input alignment for ASR, and yields 14.5%-25.0% relative word error rate (WER) reductions.},
+       address = {Shanghai, China},
+       author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
+       booktitle = {21st Annual Conference of the International Speech Communication Association},
+       link = {},
+       month = {October},
+       pages = {xx -- xx},
+       publisher = {IEEE},
+       series = {Interspeech'20},
+       title = {Cross Attention with Monotonic Alignment for Speech Transformer},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
     paper-type: article #changes display of reference in paper list
     year: 2020
     selected: yes

@@ -1,0 +1,68 @@
+---
+abstract: 'Transformer, a state-of-the-art neural network architecture, has been used
+  successfully for different sequence-to-sequence transformation tasks. This model
+  architecture disperses the attention distribution over entire input to learn long-term
+  dependencies, which is important for some sequence-to-sequence tasks, such as neural
+  machine translation and text summarization. However, automatic speech recognition
+  (ASR) has a characteristic to have monotonic alignment between text output and speech
+  input. Techniques like Connectionist Temporal Classification (CTC), RNN Transducer
+  (RNN-T) and Recurrent Neural Aligner (RNA) build on top of this monotonic alignment
+  and use local encoded speech representations for corresponding token prediction.
+  In this paper, we present an effective cross attention biasing technique in transformer
+  that takes monotonic alignment between text output and speech input into consideration
+  by making use of cross attention weights. Specifically, a Gaussian mask is applied
+  on cross attention weights to limit the input speech context range locally given
+  alignment information. We further introduce a regularizer for alignment regularization.
+  Experiments on LibriSpeech dataset find that our proposed model can obtain improved
+  output-input alignment for ASR, and yields 14.5%-25.0% relative word error rate
+  (WER) reductions.
+
+  '
+authors: Yingzhu Zhao, Chongjia Ni, Cheung-Chi LEUNG, Shafiq Joty, Eng Siong, and
+  Bin Ma
+bibtex: "@inproceedings{Yingzhu-et-al-interspeech-20c,\n abstract = {Transformer,\
+  \ a state-of-the-art neural network architecture, has been used successfully for\
+  \ different sequence-to-sequence transformation tasks. This model architecture disperses\
+  \ the attention distribution over entire input to learn long-term dependencies,\
+  \ which is important for some sequence-to-sequence tasks, such as neural machine\
+  \ translation and text summarization. However, automatic speech recognition (ASR)\
+  \ has a characteristic to have monotonic alignment between text output and speech\
+  \ input. Techniques like Connectionist Temporal Classification (CTC), RNN Transducer\
+  \ (RNN-T) and Recurrent Neural Aligner (RNA) build on top of this monotonic alignment\
+  \ and use local encoded speech representations for corresponding token prediction.\
+  \ In this paper, we present an effective cross attention biasing technique in transformer\
+  \ that takes monotonic alignment between text output and speech input into consideration\
+  \ by making use of cross attention weights. Specifically, a Gaussian mask is applied\
+  \ on cross attention weights to limit the input speech context range locally given\
+  \ alignment information. We further introduce a regularizer for alignment regularization.\
+  \ Experiments on LibriSpeech dataset find that our proposed model can obtain improved\
+  \ output-input alignment for ASR, and yields 14.5%-25.0% relative word error rate\
+  \ (WER) reductions.},\n address = {Shanghai, China},\n author = {Yingzhu Zhao and\
+  \ Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},\n\
+  \ booktitle = {21st Annual Conference of the International Speech Communication\
+  \ Association},\n link = {},\n month = {October},\n pages = {xx -- xx},\n publisher\
+  \ = {IEEE},\n series = {Interspeech'20},\n title = {Cross Attention with Monotonic\
+  \ Alignment for Speech Transformer},\n year = {2020}\n}\n"
+booktitle: '21st Annual Conference of the International Speech Communication Association
+  (Interspeech''20)
+
+  '
+code: null
+doc-url: null
+errata: null
+id: Yingzhu-et-al-interspeech-20c
+img: Yingzhu-et-al-interspeech-20c-fig
+layout: singlepaper
+pages: xx - xx
+paper-type: inproceedings
+picture: shafiq
+selected: false
+slides: media/Yingzhu-et-al-interspeech-20c-slides.pdf
+title: 'Cross Attention with Monotonic Alignment for Speech Transformer
+
+  '
+venue: conference
+year: 2020
+---
+
+{% include singlepaper.html paper=page %}

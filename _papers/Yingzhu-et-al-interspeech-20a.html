@@ -1,0 +1,69 @@
+---
+abstract: 'Transformer model has made great progress in speech recognition. However,
+  compared with models with iterative computation, transformer model has fixed encoder
+  and decoder depth, thus losing the recurrent inductive bias. Besides, finding the
+  optimal number of layers involves trial-and-error attempts. In this paper, the universal
+  speech transformer is proposed, which to the best of our knowledge, is the first
+  work to use universal transformer for speech recognition. It generalizes the speech
+  transformer with dynamic numbers of encoder/decoder layers, which can relieve the
+  burden of tuning depth related hyperparameters. Universal transformer adds the depth
+  and positional embeddings repeatedly for each layer, which dilutes the acoustic
+  information carried by hidden representation, and it also performs a partial update
+  of hidden vectors between layers, which is less efficient especially on the very
+  deep models. For better use of universal transformer, we modify its processing framework
+  by removing the depth embedding and only adding the positional embedding once at
+  transformer encoder frontend. Furthermore, to update the hidden vectors efficiently,
+  especially on the very deep models, we adopt a full update. Experiments on LibriSpeech,
+  Switchboard and AISHELL-1 datasets show that our model outperforms a baseline by
+  3.88%-13.7%, and surpasses other model with less computation cost.
+
+  '
+authors: Yingzhu Zhao, Chongjia Ni, Cheung-Chi LEUNG, Shafiq Joty, Eng Siong, and
+  Bin Ma
+bibtex: "@inproceedings{Yingzhu-et-al-interspeech-20a,\n abstract = {Transformer model\
+  \ has made great progress in speech recognition. However, compared with models with\
+  \ iterative computation, transformer model has fixed encoder and decoder depth,\
+  \ thus losing the recurrent inductive bias. Besides, finding the optimal number\
+  \ of layers involves trial-and-error attempts. In this paper, the universal speech\
+  \ transformer is proposed, which to the best of our knowledge, is the first work\
+  \ to use universal transformer for speech recognition. It generalizes the speech\
+  \ transformer with dynamic numbers of encoder/decoder layers, which can relieve\
+  \ the burden of tuning depth related hyperparameters. Universal transformer adds\
+  \ the depth and positional embeddings repeatedly for each layer, which dilutes the\
+  \ acoustic information carried by hidden representation, and it also performs a\
+  \ partial update of hidden vectors between layers, which is less efficient especially\
+  \ on the very deep models. For better use of universal transformer, we modify its\
+  \ processing framework by removing the depth embedding and only adding the positional\
+  \ embedding once at transformer encoder frontend. Furthermore, to update the hidden\
+  \ vectors efficiently, especially on the very deep models, we adopt a full update.\
+  \ Experiments on LibriSpeech, Switchboard and AISHELL-1 datasets show that our model\
+  \ outperforms a baseline by 3.88%-13.7%, and surpasses other model with less computation\
+  \ cost.},\n address = {Shanghai, China},\n author = {Yingzhu Zhao and Chongjia Ni\
+  \ and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},\n booktitle\
+  \ = {21st Annual Conference of the International Speech Communication Association},\n\
+  \ link = {},\n month = {October},\n pages = {xx -- xx},\n publisher = {IEEE},\n\
+  \ series = {Interspeech'20},\n title = {Universal Speech Transformer},\n year =\
+  \ {2020}\n}\n"
+booktitle: '21st Annual Conference of the International Speech Communication Association
+  (Interspeech''20)
+
+  '
+code: null
+doc-url: null
+errata: null
+id: Yingzhu-et-al-interspeech-20a
+img: Yingzhu-et-al-interspeech-20a-fig
+layout: singlepaper
+pages: xx - xx
+paper-type: inproceedings
+picture: shafiq
+selected: false
+slides: media/Yingzhu-et-al-interspeech-20a-slides.pdf
+title: 'Universal Speech Transformer
+
+  '
+venue: conference
+year: 2020
+---
+
+{% include singlepaper.html paper=page %}
