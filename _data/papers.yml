@@ -3951,6 +3951,42 @@
     year: 2020
     selected: no
     title: >
+      Pronoun-Targeted Finetuning for NMT with Hibrid Losses
+    authors: Prathyusha Jwalapuram, Shafiq Joty, and Youlin Shen
+    id: Jwalapuram-et-al-emnlp-20
+    img: Jwalapuram-et-al-emnlp-20-fig
+    slides: media/Jwalapuram-et-al-emnlp-20-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: XX–-XX
+    booktitle: >
+      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP'20)
+    doc-url: 
+    abstract: >
+      Popular Neural Machine Translation model training uses strategies like backtranslation to improve BLEU scores, requiring large amounts of additional data and training. We introduce a class of conditional generative-discriminative hybrid losses that we use to finetune a trained machine translation model. Through a combination of targeted finetuning objectives and intuitive re-use of the training data the model has failed to adequately learn from, we improve the model performance of both a sentence-level and a simple contextual model without using any additional data. We target the improvement of pronoun translations through our finetuning and evaluate our models on a pronoun benchmark testset. Our sentence-level model shows a 0.5 BLEU improvement on both the WMT14 and the IWSLT13 De-En testsets, while our simple contextual model achieves the best results, improving from 31.81 to 32 BLEU on WMT14 De-En testset, and from 32.10 to 33.13 on the IWSLT13 De-En testset, with corresponding improvements in pronoun translation.
+    bibtex: >
+      @inproceedings{Jwalapuram-et-al-emnlp-20,
+       abstract = {Popular Neural Machine Translation model training uses strategies like backtranslation to improve BLEU scores, requiring large amounts of additional data and training. We introduce a class of conditional generative-discriminative hybrid losses that we use to finetune a trained machine translation model. Through a combination of targeted finetuning objectives and intuitive re-use of the training data the model has failed to adequately learn from, we improve the model performance of both a sentence-level and a simple contextual model without using any additional data. We target the improvement of pronoun translations through our finetuning and evaluate our models on a pronoun benchmark testset. Our sentence-level model shows a 0.5 BLEU improvement on both the WMT14 and the IWSLT13 De-En testsets, while our simple contextual model achieves the best results, improving from 31.81 to 32 BLEU on WMT14 De-En testset, and from 32.10 to 33.13 on the IWSLT13 De-En testset, with corresponding improvements in pronoun translation.},
+       address = {Virtual},
+       author = {Prathyusha Jwalapuram and Shafiq Joty and Youlin Shen},
+       booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
+       link = {},
+       numpages = {9},
+       pages = {XX–-XX},
+       publisher = {ACL},
+       series = {EMNLP'20},
+       title = {Pronoun-Targeted Finetuning for NMT with Hibrid Losses},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2020
+    selected: no
+    title: >
       Efficient Constituency Parsing by Pointing
     authors: Thanh-Tung Nguyen, Xuan-Phi Nguyen, Shafiq Joty, and Xiaoli Li
     id: Nguyen-et-al-acl-20
