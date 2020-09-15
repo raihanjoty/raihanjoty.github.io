@@ -3903,6 +3903,54 @@
     year: 2020
     selected: no
     title: >
+      Response Selection for Multi-Party Conversations with Dynamic Topic Tracking
+    authors: Weishi Wang, Shafiq Joty, and Steven C.H.
+    id: Tao-emnlp-20
+    img: Tao-emnlp-20-fig
+    slides: media/Tao-emnlp-20-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: XX–-XX
+    booktitle: >
+      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP'20)
+    doc-url: 
+    abstract: >
+      While participants in a multi-party multi-turn conversation simultaneously engage in multiple conversation topics, existing response selection methods are developed mainly focusing on a two-party single-conversation scenario. Hence, the prolongation and transition of conversation topics are ignored by current methods. In this work, we frame response selection as a dynamic topic tracking task to match the topic between the response and relevant conversation context. With this new formulation, we propose a novel multi-task learning framework that supports efficient encoding through large pretrained models with only two utterances at once to perform dynamic topic disentanglement and response selection. We also propose Topic-BERT an essential pretraining step to embed topic information into BERT with self-supervised learning. Experimental results on the DSTC-8 Ubuntu IRC dataset show state-of-the-art results in response selection and topic disentanglement tasks outperforming existing methods by a good margin.
+    bibtex: >
+      @inproceedings{Tao-emnlp-20,
+       abstract = {While participants in a multi-party multi-turn
+      conversation simultaneously engage in multiple conversation topics, existing response selection methods are developed mainly focusing on a two-party single-conversation scenario. Hence, the prolongation and transition
+      of conversation topics are ignored by current
+      methods. In this work, we frame response
+      selection as a dynamic topic tracking task to
+      match the topic between the response and relevant conversation context. With this new formulation, we propose a novel multi-task learning framework that supports efficient encoding
+      through large pretrained models with only two
+      utterances at once to perform dynamic topic
+      disentanglement and response selection. We
+      also propose Topic-BERT an essential pretraining step to embed topic information into BERT
+      with self-supervised learning. Experimental
+      results on the DSTC-8 Ubuntu IRC dataset
+      show state-of-the-art results in response selection and topic disentanglement tasks outperforming existing methods by a good margin.},
+       address = {Virtual},
+       author = {Weishi Wang and Shafiq Joty and Steven C.H. Hoi},
+       booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
+       link = {},
+       numpages = {9},
+       pages = {XX–-XX},
+       publisher = {ACL},
+       series = {EMNLP'20},
+       title = {Response Selection for Multi-Party Conversations with Dynamic Topic Tracking},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2020
+    selected: no
+    title: >
       Efficient Constituency Parsing by Pointing
     authors: Thanh-Tung Nguyen, Xuan-Phi Nguyen, Shafiq Joty, and Xiaoli Li
     id: Nguyen-et-al-acl-20
