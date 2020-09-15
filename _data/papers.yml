@@ -3722,26 +3722,32 @@
     year: 2020
     selected: no
     title: >
-      Tree-Structured Attention with Hierarchical Accumulation
-    authors: Xuan-Phi Nguyen, Shafiq Joty, Steven Hoi, and Richard Socher
-    id: nguyen-et-al-20
-    img: nguyen-et-al-20-fig
-    slides: media/nguyen-et-al-20-slides.pdf
+      LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space
+    authors: Tasnim Mohiuddin, M Saiful, and Shafiq Joty
+    id: mohiuddin-et-al-arxiv-20
+    img: mohiuddin-et-al-arxiv-20-fig
+    slides: media/mohiuddin-et-al-arxiv-20-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
+    pages: xx–-xx
     booktitle: >
-      International Conference on Learning Representations (ICLR)
-    doc-url: https://openreview.net/forum?id=HJxK5pEYvr
+      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP'20)
+    doc-url: https://arxiv.org/abs/2004.13889
     abstract: >
-      Incorporating hierarchical structures like constituency trees has been shown to be effective for various natural language processing (NLP) tasks. However, it is evident that state-of-the-art (SOTA) sequence-based models like the Transformer struggle to encode such structures inherently. On the other hand, dedicated models like the Tree-LSTM, while explicitly modeling hierarchical structures, do not perform as efficiently as the Transformer. In this paper, we attempt to bridge this gap with Hierarchical Accumulation to encode parse tree structures into self-attention at constant time complexity. Our approach outperforms SOTA methods in four IWSLT translation tasks and the WMT'14 English-German task. It also yields improvements over Transformer and Tree-LSTM on three text classification tasks. We further demonstrate that using hierarchical priors can compensate for data shortage, and that our model prefers phrase-level attentions over token-level attentions.
+      Most of the successful and predominant methods for bilingual lexicon induction (BLI) are mapping-based, where a linear mapping function is learned with the assumption that the word embedding spaces of different languages exhibit similar geometric structures (i.e., approximately isomorphic). However, several recent studies have criticized this simplified assumption showing that it does not hold in general even for closely related languages. In this work, we propose a novel semi-supervised method to learn cross-lingual word embeddings for BLI. Our model is independent of the isomorphic assumption and uses nonlinear mapping in the latent space of two independently trained auto-encoders. Through extensive experiments on fifteen (15) different language pairs (in both directions) comprising resource-rich and low-resource languages from two different datasets, we demonstrate that our method outperforms existing models by a good margin. Ablation studies show the importance of different model components and the necessity of non-linear mapping.
     bibtex: >
-      @inproceedings{nguyen-et-al-20,
-       abstract = {Incorporating hierarchical structures like constituency trees has been shown to be effective for various natural language processing (NLP) tasks. However, it is evident that state-of-the-art (SOTA) sequence-based models like the Transformer struggle to encode such structures inherently. On the other hand, dedicated models like the Tree-LSTM, while explicitly modeling hierarchical structures, do not perform as efficiently as the Transformer. In this paper, we attempt to bridge this gap with Hierarchical Accumulation to encode parse tree structures into self-attention at constant time complexity. Our approach outperforms SOTA methods in four IWSLT translation tasks and the WMT'14 English-German task. It also yields improvements over Transformer and Tree-LSTM on three text classification tasks. We further demonstrate that using hierarchical priors can compensate for data shortage, and that our model prefers phrase-level attentions over token-level attentions.},
-       author = {Xuan-Phi Nguyen and Shafiq Joty and Steven Hoi and Richard Socher},
-       booktitle = {International Conference on Learning Representations (ICLR)},
-       link = {https://openreview.net/forum?id=HJxK5pEYvr},
-       title = {Tree-Structured Attention with Hierarchical Accumulation},
+      @inproceedings{mohiuddin-et-al-arxiv-20,
+       abstract = {Most of the successful and predominant methods for bilingual lexicon induction (BLI) are mapping-based, where a linear mapping function is learned with the assumption that the word embedding spaces of different languages exhibit similar geometric structures (i.e., approximately isomorphic). However, several recent studies have criticized this simplified assumption showing that it does not hold in general even for closely related languages. In this work, we propose a novel semi-supervised method to learn cross-lingual word embeddings for BLI. Our model is independent of the isomorphic assumption and uses nonlinear mapping in the latent space of two independently trained auto-encoders. Through extensive experiments on fifteen (15) different language pairs (in both directions) comprising resource-rich and low-resource languages from two different datasets, we demonstrate that our method outperforms existing models by a good margin. Ablation studies show the importance of different model components and the necessity of non-linear mapping.},
+       address = {Virtual},
+       author = {Tasnim Mohiuddin and M Saiful Bari and Shafiq Joty},
+       booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
+       link = {https://arxiv.org/abs/2004.13889},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {EMNLP'20},
+       title = {LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space},
        year = {2020}
       }
       
@@ -3892,6 +3898,36 @@
        publisher = {ACL},
        series = {ACL'20},
        title = {It’s Morphin’ Time! Combating Linguistic Discrimination with Inflectional Perturbations},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2020
+    selected: no
+    title: >
+      Tree-Structured Attention with Hierarchical Accumulation
+    authors: Xuan-Phi Nguyen, Shafiq Joty, Steven Hoi, and Richard Socher
+    id: nguyen-et-al-20
+    img: nguyen-et-al-20-fig
+    slides: media/nguyen-et-al-20-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      International Conference on Learning Representations (ICLR)
+    doc-url: https://openreview.net/forum?id=HJxK5pEYvr
+    abstract: >
+      Incorporating hierarchical structures like constituency trees has been shown to be effective for various natural language processing (NLP) tasks. However, it is evident that state-of-the-art (SOTA) sequence-based models like the Transformer struggle to encode such structures inherently. On the other hand, dedicated models like the Tree-LSTM, while explicitly modeling hierarchical structures, do not perform as efficiently as the Transformer. In this paper, we attempt to bridge this gap with Hierarchical Accumulation to encode parse tree structures into self-attention at constant time complexity. Our approach outperforms SOTA methods in four IWSLT translation tasks and the WMT'14 English-German task. It also yields improvements over Transformer and Tree-LSTM on three text classification tasks. We further demonstrate that using hierarchical priors can compensate for data shortage, and that our model prefers phrase-level attentions over token-level attentions.
+    bibtex: >
+      @inproceedings{nguyen-et-al-20,
+       abstract = {Incorporating hierarchical structures like constituency trees has been shown to be effective for various natural language processing (NLP) tasks. However, it is evident that state-of-the-art (SOTA) sequence-based models like the Transformer struggle to encode such structures inherently. On the other hand, dedicated models like the Tree-LSTM, while explicitly modeling hierarchical structures, do not perform as efficiently as the Transformer. In this paper, we attempt to bridge this gap with Hierarchical Accumulation to encode parse tree structures into self-attention at constant time complexity. Our approach outperforms SOTA methods in four IWSLT translation tasks and the WMT'14 English-German task. It also yields improvements over Transformer and Tree-LSTM on three text classification tasks. We further demonstrate that using hierarchical priors can compensate for data shortage, and that our model prefers phrase-level attentions over token-level attentions.},
+       author = {Xuan-Phi Nguyen and Shafiq Joty and Steven Hoi and Richard Socher},
+       booktitle = {International Conference on Learning Representations (ICLR)},
+       link = {https://openreview.net/forum?id=HJxK5pEYvr},
+       title = {Tree-Structured Attention with Hierarchical Accumulation},
        year = {2020}
       }
       
@@ -4337,39 +4373,6 @@
        pages = {},
        publisher = {arXiv.org},
        title = {Can Your Context-Aware MT System Pass the DiP Benchmark Tests? : Evaluation Benchmarks for Discourse Phenomena in Machine Translation},
-       year = {2020}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: article #changes display of reference in paper list
-    year: 2020
-    selected: yes
-    title: >
-      LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space
-    authors: Tasnim Mohiuddin, M Saiful, and Shafiq Joty
-    id: mohiuddin-et-al-arxiv-20
-    img: mohiuddin-et-al-arxiv-20-fig
-    slides: # e.g. media/$ID.pptx
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: journal
-    pages: 
-    journal: arXiv (* not peer reviewed)
-    doc-url: https://arxiv.org/abs/2004.13889
-    abstract: >
-      Most of the successful and predominant methods for bilingual lexicon induction (BLI) are mapping-based, where a linear mapping function is learned with the assumption that the word embedding spaces of different languages exhibit similar geometric structures (i.e., approximately isomorphic). However, several recent studies have criticized this simplified assumption showing that it does not hold in general even for closely related languages. In this work, we propose a novel semi-supervised method to learn cross-lingual word embeddings for BLI. Our model is independent of the isomorphic assumption and uses nonlinear mapping in the latent space of two independently trained auto-encoders. Through extensive experiments on fifteen (15) different language pairs (in both directions) comprising resource-rich and low-resource languages from two different datasets, we demonstrate that our method outperforms existing models by a good margin. Ablation studies show the importance of different model components and the necessity of non-linear mapping.
-    bibtex: >
-      @article{mohiuddin-et-al-arxiv-20,
-       abstract = {Most of the successful and predominant methods for bilingual lexicon induction (BLI) are mapping-based, where a linear mapping function is learned with the assumption that the word embedding spaces of different languages exhibit similar geometric structures (i.e., approximately isomorphic). However, several recent studies have criticized this simplified assumption showing that it does not hold in general even for closely related languages. In this work, we propose a novel semi-supervised method to learn cross-lingual word embeddings for BLI. Our model is independent of the isomorphic assumption and uses nonlinear mapping in the latent space of two independently trained auto-encoders. Through extensive experiments on fifteen (15) different language pairs (in both directions) comprising resource-rich and low-resource languages from two different datasets, we demonstrate that our method outperforms existing models by a good margin. Ablation studies show the importance of different model components and the necessity of non-linear mapping.},
-       author = {Tasnim Mohiuddin and M Saiful Bari and Shafiq Joty},
-       issue = {},
-       journal = {arXiv (* not peer reviewed)},
-       link = {https://arxiv.org/abs/2004.13889},
-       pages = {},
-       publisher = {arXiv.org},
-       title = {LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space},
        year = {2020}
       }
       
