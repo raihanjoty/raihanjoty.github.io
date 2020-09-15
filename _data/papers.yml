@@ -3758,6 +3758,42 @@
     year: 2020
     selected: no
     title: >
+      Mind Your Inflections! Improving NLP for Non-Standard English with Base-Inflection Encoding
+    authors: Samson Tan, Shafiq Joty, Lav R., and Min-Yen Kan
+    id: tan-et-al-arxiv-20
+    img: tan-et-al-arxiv-20-fig
+    slides: media/tan-et-al-arxiv-20-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP'20)
+    doc-url: https://arxiv.org/abs/2004.14870
+    abstract: >
+      Morphological inflection is a process of word formation where base words are modified to express different grammatical categories such as tense, case, voice, person, or number. World Englishes, such as Colloquial Singapore English (CSE) and African American Vernacular English (AAVE), differ from Standard English dialects in inflection use. Although comprehension by human readers is usually unimpaired by non-standard inflection use, NLP systems are not so robust. We introduce a new Base-Inflection Encoding of English text that is achieved by combining linguistic and statistical techniques. Fine-tuning pre-trained NLP models for downstream tasks under this novel encoding achieves robustness to non-standard inflection use while maintaining performance on Standard English examples. Models using this encoding also generalize better to non-standard dialects without explicit training. We suggest metrics to evaluate tokenizers and extensive model-independent analyses demonstrate the efficacy of the encoding when used together with data-driven subword tokenizers.
+    bibtex: >
+      @inproceedings{tan-et-al-arxiv-20,
+       abstract = {Morphological inflection is a process of word formation where base words are modified to express different grammatical categories such as tense, case, voice, person, or number. World Englishes, such as Colloquial Singapore English (CSE) and African American Vernacular English (AAVE), differ from Standard English dialects in inflection use. Although comprehension by human readers is usually unimpaired by non-standard inflection use, NLP systems are not so robust. We introduce a new Base-Inflection Encoding of English text that is achieved by combining linguistic and statistical techniques. Fine-tuning pre-trained NLP models for downstream tasks under this novel encoding achieves robustness to non-standard inflection use while maintaining performance on Standard English examples. Models using this encoding also generalize better to non-standard dialects without explicit training. We suggest metrics to evaluate tokenizers and extensive model-independent analyses demonstrate the efficacy of the encoding when used together with data-driven subword tokenizers.},
+       address = {Virtual},
+       author = {Samson Tan and Shafiq Joty and Lav R. Varshney and Min-Yen Kan},
+       booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
+       link = {https://arxiv.org/abs/2004.14870},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {EMNLP'20},
+       title = {Mind Your Inflections! Improving NLP for Non-Standard English with Base-Inflection Encoding},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2020
+    selected: no
+    title: >
       VD-BERT: A Unified Vision and Dialog Transformer with BERT
     authors: Yue Wang, Shafiq Joty, Michael R., Irwin King, Caiming Xiong, and Steven C.H.
     id: yue-et-al-arxiv-20
@@ -3796,9 +3832,9 @@
     title: >
       Discern: Discourse-Aware Entailment Reasoning Network for Conversational Machine Reading
     authors: Yifan Gao, Chien-Sheng Wu, Jingjing Li, Shafiq Joty, Steven C.H., Caiming Xiong, Irwin King, and Michael Lyu
-    id: Gao-et-al-acl-20
-    img: Gao-et-al-acl-20-fig
-    slides: media/Gao-et-al-acl-20-slides.pdf
+    id: Gao-et-al-emnlp-20
+    img: Gao-et-al-emnlp-20-fig
+    slides: media/Gao-et-al-emnlp-20-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -3809,7 +3845,7 @@
     abstract: >
       Document interpretation and dialog understanding are the two major challenges for conversational machine reading. In this work, we propose DISCERN, a discourse-aware entailment reasoning network to strengthen the connection and enhance the understanding for both document and dialog. Specifically, we split the document into clause-like elementary discourse units (EDU) using a pre-trained discourse segmentation model, and we train our model in a weakly-supervised manner to predict whether each EDU is entailed by the user feedback in a conversation. Based on the learned EDU and entailment representations, we either reply to the user our final decision “yes/no/irrelevant” of the initial question, or generate a follow-up question to inquiry more information. Our experiments on the ShARC benchmark (blind, held-out test set) show that DISCERN achieves state-of-the-art results of 78.3% macro-averaged accuracy on decision making and 64.0 BLEU1 on follow-up question generation.
     bibtex: >
-      @inproceedings{Gao-et-al-acl-20,
+      @inproceedings{Gao-et-al-emnlp-20,
        abstract = {Document interpretation and dialog understanding are the two major challenges for conversational machine reading. In this work, we propose DISCERN, a discourse-aware entailment reasoning network to strengthen the connection and enhance the understanding for both document and dialog. Specifically, we split the document into clause-like elementary discourse units (EDU) using a pre-trained discourse segmentation model, and we train our model in a weakly-supervised manner to predict whether each EDU is entailed by the user feedback in a conversation. Based on the learned EDU and entailment representations, we either reply to the user our final decision “yes/no/irrelevant” of the initial question, or generate a follow-up question to inquiry more information. Our experiments on the ShARC benchmark (blind, held-out test set) show that DISCERN achieves state-of-the-art results of 78.3% macro-averaged accuracy on decision making and 64.0 BLEU1 on follow-up question generation.},
        address = {Virtual},
        author = {Yifan Gao and Chien-Sheng Wu and Jingjing Li and Shafiq Joty and Steven C.H. Hoi and Caiming Xiong and Irwin King and Michael Lyu},
