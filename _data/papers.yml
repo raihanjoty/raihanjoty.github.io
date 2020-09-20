@@ -4526,7 +4526,7 @@
     venue: journal
     pages: xx-xx
     journal: arXiv (* not peer reviewed)
-    doc-url: https://arxiv.org/abs/2006.02163
+    doc-url: https://arxiv.org/pdf/2009.06367.pdf
     abstract: >
       Class-conditional language models (CC-LMs) can be used to generate natural language with specific attributes, such as style or sentiment, by conditioning on an attribute label, or control code. However, we find that these models struggle to control generation when applied to out-of-domain prompts or unseen control codes. To overcome these limitations, we propose generative discriminator (GeDi) guided contrastive generation, which uses CC-LMs as generative discriminators (GeDis) to efficiently guide generation from a (potentially much larger) LM towards a desired attribute. In our human evaluation experiments, we show that GeDis trained for sentiment control on movie reviews are able to control the tone of book text. We also demonstrate that GeDis are able to detoxify generation and control topic while maintaining the same level of linguistic acceptability as direct generation from GPT-2 (1.5B parameters). Lastly, we show that a GeDi trained on only 4 topics can generalize to new control codes from word embeddings, allowing it to guide generation towards wide array of topics.
     bibtex: >
@@ -4535,7 +4535,7 @@
        author = {Ben Krause and Akhilesh Deepak Gotmare and Bryan McCann and Nitish Shirish Keskar and Shafiq Joty and Richard Socher and Nazneen Fatema Rajani},
        issue = {},
        journal = {arXiv (* not peer reviewed)},
-       link = {https://arxiv.org/abs/2006.02163},
+       link = {https://arxiv.org/pdf/2009.06367.pdf},
        pages = {xx--xx},
        publisher = {arXiv.org},
        title = {GeDi: Generative Discriminator Guided Sequence Generation},
