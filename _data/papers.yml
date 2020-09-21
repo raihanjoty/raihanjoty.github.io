@@ -3758,7 +3758,7 @@
     year: 2020
     selected: no
     title: >
-      Pronoun-Targeted Finetuning for NMT with Hibrid Losses
+      Pronoun-Targeted Finetuning for NMT with Hybrid Losses
     authors: Prathyusha Jwalapuram, Shafiq Joty, and Youlin Shen
     id: jwala-et-al-emnlp-20
     img: jwala-et-al-emnlp-20-fig
@@ -3783,7 +3783,7 @@
        pages = {XX–-XX},
        publisher = {ACL},
        series = {EMNLP'20},
-       title = {Pronoun-Targeted Finetuning for NMT with Hibrid Losses},
+       title = {Pronoun-Targeted Finetuning for NMT with Hybrid Losses},
        year = {2020}
       }
       
