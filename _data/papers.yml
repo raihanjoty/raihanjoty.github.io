@@ -3722,6 +3722,40 @@
     year: 2020
     selected: no
     title: >
+      Data Diversification: An Elegant Strategy for Neural Machine Translation
+    authors: Xuan-Phi Nguyen, Shafiq Joty, Wu Kui, and Ai Ti
+    id: phi-et-al-arxiv-19
+    img: phi-et-al-arxiv-19-fig
+    slides: media/phi-et-al-arxiv-19-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      2020 Conference on Neural Information Processing Systems (NeurIPS'20)
+    doc-url: https://arxiv.org/abs/1911.01986
+    abstract: >
+      A common approach to improve neural machine translation is to invent new architectures. However, the research process of designing and refining such new models is often exhausting. Another approach is to resort to huge extra monolingual data to conduct semi-supervised training, like back-translation. But extra monolingual data is not always available, especially for low resource languages. In this paper, we propose to diversify the available training data by using multiple forward and backward peer models to augment the original training dataset. Our method does not require extra data like back-translation, nor additional computations and parameters like using pretrained models. Our data diversification method achieves state-of-the-art BLEU score of 30.7 in the WMT'14 English-German task. It also consistently and substantially improves translation quality in 8 other translation tasks: 4 IWSLT tasks (English-German and English-French) and 4 low-resource translation tasks (English-Nepali and English-Sinhala).
+    bibtex: >
+      @inproceedings{phi-et-al-arxiv-19,
+       abstract = {A common approach to improve neural machine translation is to invent new architectures. However, the research process of designing and refining such new models is often exhausting. Another approach is to resort to huge extra monolingual data to conduct semi-supervised training, like back-translation. But extra monolingual data is not always available, especially for low resource languages. In this paper, we propose to diversify the available training data by using multiple forward and backward peer models to augment the original training dataset. Our method does not require extra data like back-translation, nor additional computations and parameters like using pretrained models. Our data diversification method achieves state-of-the-art BLEU score of 30.7 in the WMT'14 English-German task. It also consistently and substantially improves translation quality in 8 other translation tasks: 4 IWSLT tasks (English-German and English-French) and 4 low-resource translation tasks (English-Nepali and English-Sinhala).},
+       address = {Virtual},
+       author = {Xuan-Phi Nguyen and Shafiq Joty and Wu Kui and Ai Ti Aw},
+       booktitle = {2020 Conference on Neural Information Processing Systems},
+       link = {https://arxiv.org/abs/1911.01986},
+       pages = {xx–-xx},
+       series = {NeurIPS'20},
+       title = {Data Diversification: An Elegant Strategy for Neural Machine Translation},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2020
+    selected: no
+    title: >
       LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space
     authors: Tasnim Mohiuddin, M Saiful, and Shafiq Joty
     id: mohiuddin-et-al-arxiv-20
@@ -4572,39 +4606,6 @@
        pages = {xx--xx},
        publisher = {arXiv.org},
        title = {Multi-Agent Cross-Translated Diversification for Unsupervised Machine Translation},
-       year = {2020}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: article #changes display of reference in paper list
-    year: 2020
-    selected: yes
-    title: >
-      Data Diversification: An Elegant Strategy for Neural Machine Translation
-    authors: Xuan-Phi Nguyen, Shafiq Joty, Wu Kui, and Ai Ti
-    id: phi-et-al-arxiv-19
-    img: phi-et-al-arxiv-19-fig
-    slides: # e.g. media/$ID.pptx
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: journal
-    pages: 
-    journal: arXiv (* not peer reviewed)
-    doc-url: https://arxiv.org/abs/1911.01986
-    abstract: >
-      A common approach to improve neural machine translation is to invent new architectures. However, the research process of designing and refining such new models is often exhausting. Another approach is to resort to huge extra monolingual data to conduct semi-supervised training, like back-translation. But extra monolingual data is not always available, especially for low resource languages. In this paper, we propose to diversify the available training data by using multiple forward and backward peer models to augment the original training dataset. Our method does not require extra data like back-translation, nor additional computations and parameters like using pretrained models. Our data diversification method achieves state-of-the-art BLEU score of 30.7 in the WMT'14 English-German task. It also consistently and substantially improves translation quality in 8 other translation tasks: 4 IWSLT tasks (English-German and English-French) and 4 low-resource translation tasks (English-Nepali and English-Sinhala).
-    bibtex: >
-      @article{phi-et-al-arxiv-19,
-       abstract = {A common approach to improve neural machine translation is to invent new architectures. However, the research process of designing and refining such new models is often exhausting. Another approach is to resort to huge extra monolingual data to conduct semi-supervised training, like back-translation. But extra monolingual data is not always available, especially for low resource languages. In this paper, we propose to diversify the available training data by using multiple forward and backward peer models to augment the original training dataset. Our method does not require extra data like back-translation, nor additional computations and parameters like using pretrained models. Our data diversification method achieves state-of-the-art BLEU score of 30.7 in the WMT'14 English-German task. It also consistently and substantially improves translation quality in 8 other translation tasks: 4 IWSLT tasks (English-German and English-French) and 4 low-resource translation tasks (English-Nepali and English-Sinhala).},
-       author = {Xuan-Phi Nguyen and Shafiq Joty and Wu Kui and Ai Ti Aw},
-       issue = {},
-       journal = {arXiv (* not peer reviewed)},
-       link = {https://arxiv.org/abs/1911.01986},
-       pages = {},
-       publisher = {arXiv.org},
-       title = {Data Diversification: An Elegant Strategy for Neural Machine Translation},
        year = {2020}
       }
       
