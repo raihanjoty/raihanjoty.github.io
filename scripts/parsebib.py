@@ -82,7 +82,7 @@ def parse(bibfile):
 			if("booktitle" in entry.keys()):
 				venue= preprocess(entry["booktitle"]) #.encode('UTF8')
 				if ("series" in entry.keys()):
-					venue += " (" + entry["series"] + ")"  #.encode('UTF8')
+					venue += " (<b>" + entry["series"] + "</b>)"  #.encode('UTF8')
 			else:
 				venue=""
 

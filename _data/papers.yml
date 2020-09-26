@@ -49,7 +49,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      Proceedings of the sixteenth Text Retrieval Conference (TREC'07)
+      Proceedings of the sixteenth Text Retrieval Conference (<b>TREC'07</b>)
     doc-url: papers/chali-joty-trec-07
     bibtex: >
       @inproceedings{chali-joty-trec-07,
@@ -81,7 +81,7 @@
     venue: conference
     pages: 476-479
     booktitle: >
-      Proceedings of the 4th International Workshop on Semantic Evaluations (SemEval'07)
+      Proceedings of the 4th International Workshop on Semantic Evaluations (<b>SemEval'07</b>)
     doc-url: papers/chali-joty-semeval-07
     abstract: >
       One of the main challenges in the applica- tions (i.e.: text summarization, question an- swering, information retrieval, etc.) of Natural Language Processing is to deter- mine which of the several senses of a word is used in a given context. The problem is phrased as “Word Sense Disambiguation (WSD)” in the NLP community. This paper presents the dictionary based disambigua- tion technique that adopts the assumption of one sense per discourse in the context of SemEval-2007 Task 7: “Coarse-grained English all-words”.
@@ -116,7 +116,7 @@
     venue: conference
     pages: 123-130
     booktitle: >
-      20th IEEE International Conference on Tools with Artificial Intelligence (ICTAI'08)
+      20th IEEE International Conference on Tools with Artificial Intelligence (<b>ICTAI'08</b>)
     doc-url: http://ieeexplore.ieee.org/document/4669764/
     abstract: >
       We consider the problem of answering complex questions that require inferencing and synthesizing information from multiple documents and can be seen as a kind of topic-oriented, informative multi-document summarization. The stochastic, graph-based method for computing the relative importance of textual units (i.e. sentences) is very successful in generic summarization. In this method, a sentence is encoded as a vector in which each component represents the occurrence frequency (TF*IDF) of a word. However, the major limitation of the TF*IDF approach is that it only retains the frequency of the words and does not take into account the sequence, syntactic and semantic information. In this paper, we study the impact of syntactic and shallow semantic information in the graph-based method for answering complex questions. Experimental results show the effectiveness of the syntactic and shallow semantic information for this task.
@@ -152,7 +152,7 @@
     venue: conference
     pages: 123-130
     booktitle: >
-      20th IEEE International Conference on Tools with Artificial Intelligence (ICTAI'08)
+      20th IEEE International Conference on Tools with Artificial Intelligence (<b>ICTAI'08</b>)
     doc-url: http://ieeexplore.ieee.org/document/4669765/
     abstract: >
       Unlike simple questions, complex questions cannot be answered by simply extracting named entities. These questions require inferencing and synthesizing information from multiple documents that can be seen as a kind of topic-oriented, informative multi-document summarization. In this paper, we have experimented with one empirical and two unsupervised statistical machine learning techniques: k-means and Expectation Maximization (EM), for computing relative importance of the sentences. The feature set includes different kinds of features: lexical, lexical semantic, cosine similarity, basic element, tree kernel based syntactic and shallow-semantic. A gradient descent local search technique is used to learn the optimal weights of the features. The effects of the different features are also shown for all the methods of generating summaries.
@@ -188,7 +188,7 @@
     venue: conference
     pages: 47-52
     booktitle: >
-      Proceedings of the Twenty-First International FLAIRS Conference (FLAIRS'08)
+      Proceedings of the Twenty-First International FLAIRS Conference (<b>FLAIRS'08</b>)
     doc-url: http://www.aaai.org/Library/FLAIRS/2008/flairs08-019.php
     abstract: >
       When a user is served with a ranked list of relevant documents by the standard document search engines, his search task is usually not over. He has to go through the entire document contents to judge its relevance and to find the precise piece of information he was looking for. Query–relevant summarization tries to remove the onus on the end–user by providing more condensed and direct access to relevant information. Query–relevant summarization is the task to synthesize a fluent, well–organized summary of the document collection that answers the user questions. We extracted several features of different types (i.e. lexical, lexical semantic, statistical and cosine similarity ) for each of the sentences in the document collection in order to measure its relevancy to the user query. We experimented with two well–known unsupervised statistical machine learning techniques: K–means and EM algorithms and evaluated their performances. For all these methods of generating summaries, we have shown the effects of different kinds of features.
@@ -223,7 +223,7 @@
     venue: conference
     pages: 1-7
     booktitle: >
-      Proceedings of the Text Analysis Conference (TAC'08)
+      Proceedings of the Text Analysis Conference (<b>TAC'08</b>)
     doc-url: https://tac.nist.gov//publications/2008/participant.papers/UBC.proceedings.pdf
     abstract: >
       In this paper we describe the University of British Columbia’s participation in the Text Analysis Conference 2008. This work represents our first submission to the DUC/TAC series of conferences, and we participated in both the summarization tasks: the main update task as well as the pilot task on summarizing blog opinions. We describe our systems in detail and describe our performance in the context of all submitted systems.
@@ -265,7 +265,7 @@
     venue: conference
     pages: 1-7
     booktitle: >
-      Proceedings of the Text Analysis Conference (TAC'08)
+      Proceedings of the Text Analysis Conference (<b>TAC'08</b>)
     doc-url: https://tac.nist.gov//publications/2008/participant.papers/UofL.proceedings.pdf
     abstract: >
       In this paper, we describe our update summarization and question answering (QA) systems participated in the TAC 2008 competition. We submitted three runs for the update summarization task using unsupervised and supervised techniques. On the other hand, the question answering system is built on our previous system participated in TREC 2007 QA track with different approach followed for the squishy list type questions. We submitted a single run for the QA task. This paper also presents the preliminary evaluation results of our systems.
@@ -310,7 +310,7 @@
     venue: conference
     pages: 9-12
     booktitle: >
-      Proceedings of the 46th Annual Meeting of the Association for Computational Linguistics (ACL'08)
+      Proceedings of the 46th Annual Meeting of the Association for Computational Linguistics (<b>ACL'08</b>)
     doc-url: http://www.aclweb.org/anthology/P08-2003
     abstract: >
       We consider the problem of answering complex questions that require inferencing and synthesizing information from multiple documents and can be seen as a kind of topic-oriented, informative multi-document summarization. The stochastic, graph-based method for computing the relative importance of textual units (i.e. sentences) is very successful in generic summarization. In this method, a sentence is encoded as a vector in which each component represents the occurrence frequency (TF*IDF) of a word. However, the major limitation of the TF*IDF approach is that it only retains the frequency of the words and does not take into account the sequence, syntactic and semantic information. In this paper, we study the impact of syntactic and shallow semantic information in the graph-based method for answering complex questions.
@@ -346,7 +346,7 @@
     venue: conference
     pages: 304-313
     booktitle: >
-      Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP'08)
+      Proceedings of the Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'08</b>)
     doc-url: http://www.aclweb.org/anthology/D/D08/D08-1032.pdf
     abstract: >
       Complex questions that require inferencing and synthesizing information from multiple documents can be seen as a kind of topicoriented, informative multi-document summarization. In this paper, we have experimented with one empirical and two unsupervised statistical machine learning techniques: kmeans and Expectation Maximization (EM), for computing relative importance of the sentences. However, the performance of these approaches depends entirely on the feature set used and the weighting of these features. We extracted different kinds of features (i.e. lexical, lexical semantic, cosine similarity, basic element, tree kernel based syntactic and shallow-semantic) for each of the document sentences in order to measure its importance and relevancy to the user query. We used a local search technique to learn the weights of the features. For all our methods of generating summaries, we have shown the effects of syntactic and shallow-semantic features over the bag of words (BOW) features.
@@ -459,7 +459,7 @@
     venue: conference
     pages: 329-332
     booktitle: >
-      Proceedings of the ACL-IJCNLP 2009 Conference (ACL'09)
+      Proceedings of the ACL-IJCNLP 2009 Conference (<b>ACL'09</b>)
     doc-url: http://www.aclweb.org/anthology/P/P09/P09-2083
     abstract: >
       In this paper, we analyze the impact of different automatic annotation methods on the performance of supervised approaches to the complex question answering problem (defined in the DUC-2007 main task). Huge amount of annotated or labeled data is a prerequisite for supervised training. The task of labeling can be accomplished either by humans or by computer programs. When humans are employed, the whole process becomes time consuming and expensive. So, in order to produce a large set of labeled data we prefer the automatic annotation strategy. We apply five different automatic annotation techniques to produce labeled data using ROUGE similarity measure, Basic Element (BE) overlap, syntactic similarity measure, semantic similarity measure, and Extended String Subsequence Kernel (ESSK). The representative supervised methods we use are Support Vector Machines (SVM), Conditional Random Fields (CRF), Hidden Markov Models (HMM), and Maximum Entropy (MaxEnt). Evaluation results are presented to show the impact.
@@ -519,7 +519,7 @@
     venue: conference
     pages: 199-202
     booktitle: >
-      Proceedings of the 22Nd Canadian Conference on Artificial Intelligence: Advances in Artificial Intelligence (Canadian AI '09)
+      Proceedings of the 22Nd Canadian Conference on Artificial Intelligence: Advances in Artificial Intelligence (<b>Canadian AI '09</b>)
     doc-url: http://dx.doi.org/10.1007/978-3-642-01818-3_23
     abstract: >
       In this paper, we present a Support Vector Machine (SVM) based ensemble approach to combat the extractive multi-document summarization problem. Although SVM can have a good generalization ability, it may experience a performance degradation through wrong classifications. We use a committee of several SVMs, i.e. Cross-Validation Committees (CVC), to form an ensemble of classifiers where the strategy is to improve the performance by correcting errors of one classifier using the accurate output of others. The practicality and effectiveness of this technique is demonstrated using the experimental results.
@@ -604,7 +604,7 @@
     venue: conference
     pages: 388-398
     booktitle: >
-      Proceedings of the conference on Empirical Methods in Natural Language Processing (EMNLP'10)
+      Proceedings of the conference on Empirical Methods in Natural Language Processing (<b>EMNLP'10</b>)
     doc-url: http://www.aclweb.org/anthology/D10-1038
     abstract: >
       This work concerns automatic topic segmentation of email conversations. We present a corpus of email threads manually annotated with topics, and evaluate annotator reliability. To our knowledge, this is the first such email corpus. We show how the existing topic segmentation models (i.e., Lexical Chain Segmenter (LCSeg) and Latent Dirichlet Allocation (LDA)) which are solely based on lexical information, can be applied to emails. By pointing out where these methods fail and what any desired model should consider, we propose two novel extensions of the models that not only use lexical information but also exploit finer level conversation structure in a principled way. Empirical evaluation shows that LCSeg is a better model than LDA for segmenting an email thread into topical clusters and incorporating conversation structure into these models improves the performance significantly
@@ -658,7 +658,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      The Pacific Northwest Regional NLP Workshop (NWNLP'10)
+      The Pacific Northwest Regional NLP Workshop (<b>NWNLP'10</b>)
     doc-url: papers/joty-carenini-murray-ng-nwnlp-10
     abstract: >
       Our ongoing research addresses the task of finding topics at the sentence level in email conversations. We first describe how the existing topic models can be applied to this problem. Then we demonstrate why the existing methods are inadequate for this task and what more we need to consider. With an experiment we further show that conversation structure in the form of fragment quotation graph can be helpful for finding topics. To this end, we propose a novel graph-theoretic framework to solve the problem. Crucial to our proposed approach is that it captures the rich conversation features and integrates the strengths of the supervised approach with the unsupervised technique.
@@ -737,7 +737,7 @@
     venue: conference
     pages: 1807-1813
     booktitle: >
-      Proceedings of the twenty second International Joint Conference on Artificial Intelligence (IJCAI'11)
+      Proceedings of the twenty second International Joint Conference on Artificial Intelligence (<b>IJCAI'11</b>)
     doc-url: https://www.aaai.org/ocs/index.php/IJCAI/IJCAI11/paper/viewFile/3357/3759
     abstract: >
       We present unsupervised approaches to the problem of modeling dialog acts in asynchronous conversations; i.e., conversations where participants collaborate with each other at different times. In particular, we investigate a graph-theoretic deterministic framework and two probabilistic conversation models (i.e., HMM and HMM+Mix) for modeling dialog acts in emails and forums. We train and test our conversation models on (a) temporal order and (b) graph-structural order of the datasets. Empirical evaluation suggests (i) the graph-theoretic framework that relies on lexical and structural similarity metrics is not the right model for this task, (ii) conversation models perform better on the graphstructural order than the temporal order of the datasets and (iii) HMM+Mix is a better conversation model than the simple HMM model.
@@ -787,7 +787,7 @@
     venue: conference
     pages: 530-533
     booktitle: >
-      Proceedings of the Fifth International AAAI Conference on Weblogs and Social Media (ICWSM'11)
+      Proceedings of the Fifth International AAAI Conference on Weblogs and Social Media (<b>ICWSM'11</b>)
     doc-url: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2882/3228
     abstract: >
       We propose a graph-theoretic supervised topic segmentation model for email conversations which combines (i) lexical knowledge, (ii) conversational features, and (iii) topic features. We compare our results with the existing unsupervised models (i.e., LCSeg and LDA), and with their two extensions for email conversations (i.e., LCSeg+FQG and LDA+FQG) that not only use lexical information but also exploit finer conversation structure. Empirical evaluation shows that our supervised model is the best performer and achieves highest accuracy by combining the three different knowledge sources, where knowledge about the conversation has proved to be the most important indicator for segmenting emails.
@@ -833,7 +833,7 @@
     venue: conference
     pages: 122-127
     booktitle: >
-      Advances in Artificial Intelligence - 24th Canadian Conference on Artificial Intelligence Proceedings (CAI'11)
+      Advances in Artificial Intelligence - 24th Canadian Conference on Artificial Intelligence Proceedings (<b>CAI'11</b>)
     doc-url: https://doi.org/10.1007/978-3-642-21043-3_15
     abstract: >
       In this work, we present a method for classifying the quality of blog comments using Linear-Chain Conditional Random Fields (CRFs). This approach is found to yield high accuracy on binary classification of high-quality comments, with conversational features contributing strongly to the accuracy. We also present a new corpus of blog data in conversational form, complete with user-generated quality moderation labels from the science and technology news blog Slashdot.
@@ -869,7 +869,7 @@
     venue: conference
     pages: 904-915
     booktitle: >
-      Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL'12)
+      Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (<b>EMNLP-CoNLL'12</b>)
     doc-url: http://www.aclweb.org/anthology/D12-1083
     abstract: >
       We propose a complete probabilistic discriminative framework for performing sentencelevel discourse analysis. Our framework comprises a discourse segmenter, based on a binary classifier, and a discourse parser, which applies an optimal CKY-like parsing algorithm to probabilities inferred from a Dynamic Conditional Random Field. We show on two corpora that our approach outperforms the state-of-the-art, often by a wide margin.
@@ -912,7 +912,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      The Pacific Northwest Regional NLP Workshop (NWNLP'12)
+      The Pacific Northwest Regional NLP Workshop (<b>NWNLP'12</b>)
     doc-url: papers/joty-carenini-ng-nwnlp-12
     bibtex: >
       @inproceedings{joty-carenini-ng-nwnlp-12,
@@ -941,7 +941,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      The Pacific Northwest Regional NLP Workshop (NWNLP'12)
+      The Pacific Northwest Regional NLP Workshop (<b>NWNLP'12</b>)
     doc-url: papers/jin-joty-carenini-ng-nwnlp-12
     bibtex: >
       @inproceedings{jin-joty-carenini-ng-nwnlp-12,
@@ -1016,7 +1016,7 @@
     venue: conference
     pages: 486-496
     booktitle: >
-      Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (ACL'13)
+      Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (<b>ACL'13</b>)
     doc-url: papers/joty-carenini-ng-mehdad-acl-13.pdf
     abstract: >
       We propose a novel approach for developing a two-stage document-level discourse parser. Our parser builds a discourse tree by applying an optimal parsing algorithm to probabilities inferred from two Conditional Random Fields: one for intrasentential parsing and the other for multisentential parsing. We present two approaches to combine these two stages of discourse parsing effectively. A set of empirical evaluations over two different datasets demonstrates that our discourse parser significantly outperforms the stateof-the-art, often by a wide margin.
@@ -1063,7 +1063,7 @@
     venue: conference
     pages: 179-189
     booktitle: >
-      Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL'13)
+      Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (<b>NAACL'13</b>)
     doc-url: papers/mehdad-carenini-ng-joty-naacl-13.pdf
     abstract: >
       We propose a novel framework for topic labeling that assigns the most representative phrases for a given set of sentences covering the same topic. We build an entailment graph over phrases that are extracted from the sentences, and use the entailment relations to identify and select the most relevant phrases. We then aggregate those selected phrases by means of phrase generalization and merging. We motivate our approach by applying over conversational data, and show that our framework improves performance significantly over baseline algorithms.
@@ -1110,7 +1110,7 @@
     venue: conference
     pages: 117-121
     booktitle: >
-      Proceedings of the Special Interest Group on Discourse and Dialogue Conference (SIGDIAL'13)
+      Proceedings of the Special Interest Group on Discourse and Dialogue Conference (<b>SIGDIAL'13</b>)
     doc-url: http://www.aclweb.org/anthology/W13-4017
     abstract: >
       In this work, we study the effectiveness of state-of-the-art, sophisticated supervised learning algorithms for dialogue act modeling across a comprehensive set of different spoken and written conversations including: emails, forums, meetings, and phone conversations. To this aim, we compare the results of SVM-multiclass and two structured predictors namely SVMhmm and CRF algorithms. Extensive empirical results, across different conversational modalities, demonstrate the effectiveness of our SVM-hmm model for dialogue act recognition in conversations.
@@ -1159,7 +1159,7 @@
     venue: conference
     pages: 687-698
     booktitle: >
-      Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (ACL'14)
+      Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (<b>ACL'14</b>)
     doc-url: http://www.aclweb.org/anthology/P/P14/P14-1065
     abstract: >
       We present experiments in using discourse structure for improving machine translation evaluation. We first design two discourse-aware similarity measures, which use all-subtree kernels to compare discourse parse trees in accordance with the Rhetorical Structure Theory. Then, we show that these measures can help improve a number of existing machine translation evaluation metrics both at the segmentand at the system-level. Rather than proposing a single new metric, we show that discourse information is complementary to the state-of-the-art evaluation metrics, and thus should be taken into account in the development of future richer evaluation metrics.
@@ -1195,7 +1195,7 @@
     venue: conference
     pages: 214-220
     booktitle: >
-      Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP'14)
+      Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'14</b>)
     doc-url: http://www.aclweb.org/anthology/D14-1027
     abstract: >
       We present a pairwise learning-to-rank approach to machine translation evaluation that learns to differentiate better from worse translations in the context of a given reference. We integrate several layers of linguistic information encapsulated in tree-based structures, making use of both the reference and the system output simultaneously, thus bringing our ranking closer to how humans evaluate translations. Most importantly, instead of deciding upfront which types of features are important, we use the learning framework of preference re-ranking kernels to learn the features automatically. The evaluation results show that learning in the proposed framework yields better correlation with humans than computing the direct similarity over the same type of structures. Also, we show our structural kernel learning (SKL) can be a general framework for MT evaluation, in which syntactic and semantic information can be naturally incorporated.
@@ -1231,7 +1231,7 @@
     venue: conference
     pages: 402-408
     booktitle: >
-      Proceedings of the Ninth Workshop on Statistical Machine Translation (WMT'14)
+      Proceedings of the Ninth Workshop on Statistical Machine Translation (<b>WMT'14</b>)
     doc-url: http://www.aclweb.org/anthology/W/W14/W14-3352
     abstract: >
       We present novel automatic metrics for machine translation evaluation that use discourse structure and convolution kernels to compare the discourse tree of an automatic translation with that of the human reference. We experiment with five transformations and augmentations of a base discourse tree representation based on the rhetorical structure theory, and we combine the kernel scores for each of them into a single score. Finally, we add other metrics from the ASIYA MT evaluation toolkit, and we tune the weights of the combination on actual human judgments. Experiments on the WMT12 and WMT13 metrics shared task datasets show correlation with human judgments that outperforms what the best systems that participated in these years achieved, both at the segment and at the system level.
@@ -1267,7 +1267,7 @@
     venue: conference
     pages: 45-52
     booktitle: >
-      Proceedings of the Workshop on Interactive Language Learning, Visualization, and Interfaces (ILLVI'14)
+      Proceedings of the Workshop on Interactive Language Learning, Visualization, and Interfaces (<b>ILLVI'14</b>)
     doc-url: http://www.aclweb.org/anthology/W14-3107
     abstract: >
       Exploring an online conversation can be very difficult for a user, especially when it becomes a long complex thread. We follow a human-centered design approach to tightly integrate text mining methods with interactive visualization techniques to support the users in fulfilling their information needs. The resulting visual text analytic system provides multifaceted exploration of asynchronous conversations. We discuss a number of open challenges and possible directions for further improvement including the integration of interactive human feedback in the text mining loop, applying more advanced text analysis methods with visualization techniques, and evaluating the system with real users.
@@ -1318,7 +1318,7 @@
     venue: conference
     pages: 2049-2060
     booktitle: >
-      Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP'14)
+      Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'14</b>)
     doc-url: http://www.aclweb.org/anthology/D14-1219
     abstract: >
       In this paper, we present a discriminative approach for reranking discourse trees generated by an existing probabilistic discourse parser. The reranker relies on tree kernels (TKs) to capture the global dependencies between discourse units in a tree. In particular, we design new computational structures of discourse trees, which combined with standard TKs, originate novel discourse TKs. The empirical evaluation shows that our reranker can improve the state-of-the-art sentence-level parsing accuracy from 79.77% to 82.15%, a relative error reduction of 11.8%, which in turn pushes the state-of-the-art documentlevel accuracy from 55.8% to 57.3%.
@@ -1369,7 +1369,7 @@
     venue: conference
     pages: 436-442
     booktitle: >
-      Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP'14)
+      Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'14</b>)
     doc-url: http://www.aclweb.org/anthology/D14-1050
     abstract: >
       We present an empirical study on the use of semantic information for Concept Segmentation and Labeling (CSL), which is an important step for semantic parsing. We represent the alternative analyses output by a state-of-the-art CSL parser with tree structures, which we rerank with a classifier trained on two types of semantic tree kernels: one processing structures built with words, concepts and Brown clusters, and another one using semantic similarity among the words composing the structure. The results on a corpus from the restaurant domain show that our semantic kernels exploiting similarity measures outperform state-of-the-art rerankers.
@@ -1420,7 +1420,7 @@
     venue: conference
     pages: 193-202
     booktitle: >
-      Proceedings of the 25th International Conference on Computational Linguistics: Technical Papers (COLING'14)
+      Proceedings of the 25th International Conference on Computational Linguistics: Technical Papers (<b>COLING'14</b>)
     doc-url: http://www.aclweb.org/anthology/C14-1020
     abstract: >
       This paper presents an empirical study on using syntactic and semantic information for Concept Segmentation and Labeling (CSL), a well-known component in spoken language understanding. Our approach is based on reranking N-best outputs from a state-of-the-art CSL parser. We perform extensive experimentation by comparing different tree-based kernels with a variety of representations of the available linguistic information, including semantic concepts, words, POS tags, shallow and full syntax, and discourse trees. The results show that the structured representation with the semantic concepts yields significant improvement over the base CSL parser, much larger compared to learning with an explicit feature vector representation. We also show that shallow syntax helps improve the results and that discourse relations can be partially beneficial.
@@ -1508,7 +1508,7 @@
     venue: conference
     pages: 805-814
     booktitle: >
-      Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and The 7th International Joint Conference of the Asian Federation of Natural Language Processing (ACL'15)
+      Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and The 7th International Joint Conference of the Asian Federation of Natural Language Processing (<b>ACL'15</b>)
     doc-url: http://www.aclweb.org/anthology/P15-1078
     abstract: >
       We present a novel framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation. In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses is compacted into relatively small distributed vector representations, and fed into a multi-layer neural network that models the interaction between each of the hypotheses and the reference, as well as between the two hypotheses. These compact representations are in turn based on word and sentence embeddings, which are learned using neural networks. The framework is flexible, allows for efficient learning and classification, and yields correlation with humans that rivals the state of the art.
@@ -1545,7 +1545,7 @@
     venue: conference
     pages: 687-693
     booktitle: >
-      Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (ACL'15)
+      Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (<b>ACL'15</b>)
     doc-url: http://www.aclweb.org/anthology/P15-2113
     abstract: >
       Community Question Answering (cQA) is a new application of QA in social contexts (e.g., fora). It presents new interesting challenges and research directions, e.g., exploiting the dependencies between the different comments of a thread to select the best answer for a given question. In this paper, we explored two ways of modeling such dependencies: (i) by designing specific features looking globally at the thread; and (ii) by applying structure prediction models. We trained and evaluated our models on data from SemEval-2015 Task 3 on Answer Selection in cQA. Our experiments show that: (i) the thread-level features consistently improve the performance for a variety of machine learning models, yielding state-of-the-art results; and (ii) sequential dependencies between the answer labels captured by structured prediction models are not enough to improve the results, indicating that more information is needed in the joint model.
@@ -1602,7 +1602,7 @@
     venue: conference
     pages: 687-693
     booktitle: >
-      Proceedings of the Association for Machine Translation in the Americas (AMTA'15)
+      Proceedings of the Association for Machine Translation in the Americas (<b>AMTA'15</b>)
     doc-url: papers/durrani-et-al-amta-15
     abstract: >
       Joint models have recently shown to improve the state-of-the-art in machine translation (MT). We apply EM-based mixture modeling and data selection techniques using two joint models, namely the Operation Sequence Model or OSM — an ngram-based translation and reordering model, and the Neural Network Joint Model or NNJM — a continuous space translation model, to carry out domain adaptation for MT. The diversity of the two models, OSM with inherit reordering information and NNJM with continuous space modeling makes them interesting to be explored for this task. Our contribution in this paper is fusing the existing known techniques (linear interpolation, cross-entropy) with the state-of-the-art MT models (OSM, NNJM). On a standard task of translating German-to-English and Arabic-to-English IWSLT TED talks, we observed statistically significant improvements of up to +0.9 BLEU points.
@@ -1644,7 +1644,7 @@
     venue: conference
     pages: 1259-1270
     booktitle: >
-      Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP'15)
+      Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'15</b>)
     doc-url: http://aclweb.org/anthology/D15-1147
     abstract: >
       We present novel models for domain adaptation based on the neural network joint model (NNJM). Our models maximize the cross entropy by regularizing the loss function with respect to in-domain model. Domain adaptation is carried out by assigning higher weight to out-domain sequences that are similar to the in-domain data. In our alternative model we take a more restrictive approach by additionally penalizing sequences similar to the outdomain data. Our models achieve better perplexities than the baseline NNJM models and give improvements of up to 0.5 and 0.6 BLEU points in Arabic-to-English and English-to-German language pairs, on a standard task of translating TED talks.
@@ -1695,7 +1695,7 @@
     venue: conference
     pages: 1433-1443
     booktitle: >
-      Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP'15)
+      Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'15</b>)
     doc-url: http://aclweb.org/anthology/D15-1168
     abstract: >
       The tasks in fine-grained opinion mining can be regarded as either a token-level sequence labeling problem or as a semantic compositional task. We propose a general class of discriminative models based on recurrent neural networks (RNNs) and word embeddings that can be successfully applied to such tasks without any taskspecific feature engineering effort. Our experimental results on the task of opinion target identification show that RNNs, without using any hand-crafted features, outperform feature-rich CRF-based models. Our framework is flexible, allows us to incorporate other linguistic features, and achieves results that rival the top performing systems in SemEval-2014.
@@ -1796,7 +1796,7 @@
     venue: conference
     pages: 203-209
     booktitle: >
-      Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval'15)
+      Proceedings of the 9th International Workshop on Semantic Evaluation (<b>SemEval'15</b>)
     doc-url: http://aclweb.org/anthology/S/S15/S15-2036.pdf
     abstract: >
       This paper describes QCRI’s participation in SemEval-2015 Task 3 “Answer Selection in Community Question Answering”, which targeted real-life Web forums, and was offered in both Arabic and English. We apply a supervised machine learning approach considering a manifold of features including among others word n-grams, text similarity, sentiment analysis, the presence of specific words, and the context of a comment. Our approach was the best performing one in the Arabic subtask and the third best in the two English subtasks.
@@ -1884,7 +1884,7 @@
     venue: conference
     pages: 1746-1756
     booktitle: >
-      Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL'16)
+      Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (<b>ACL'16</b>)
     doc-url: papers/joty-hoque-acl-16.pdf
     abstract: >
       This paper addresses the problem of speech act recognition in written asynchronous conversations (e.g., fora, emails). We propose a class of conditional structured models defined over arbitrary graph structures to capture the conversational dependencies between sentences. Our models use sentence representations encoded by a long short term memory (LSTM) recurrent neural model. Empirical evaluation shows the effectiveness of our approach over existing ones: (i) LSTMs provide better task-specific representations, and (ii) the global joint model improves over local models.
@@ -1933,7 +1933,7 @@
     venue: conference
     pages: 703–-713
     booktitle: >
-      Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL'16)
+      Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (<b>NAACL'16</b>)
     doc-url: papers/joty-marquez-nakov-naacl-16.pdf
     abstract: >
       This paper addresses the problem of comment classification in community Question Answering. Following the state of the art, we approach the task with a global inference process to exploit the information of all comments in the answer-thread in the form of a fully connected graph. Our contribution comprises two novel joint learning models that are on-line and integrate inference within learning. The first one jointly learns two node- and edge-level MaxEnt classifiers with stochastic gradient descent and integrates the inference step with loopy belief propagation. The second model is an instance of fully connected pairwise CRFs (FCCRF). The FCCRF model significantly outperforms all other approaches and yields the best results on the task to date. Crucial elements for its success are the global normalization and an Ising-like edge potential.
@@ -1986,7 +1986,7 @@
     venue: conference
     pages: 3177-3187
     booktitle: >
-      Proceedings of the 26th International Conference on Computational Linguistics (COLING'16)
+      Proceedings of the 26th International Conference on Computational Linguistics (<b>COLING'16</b>)
     doc-url: http://aclweb.org/anthology/C/C16/C16-1299.pdf
     abstract: >
       We present a novel fusion model for domain adaptation in Statistical Machine Translation. Our model is based on the joint source-target neural network (Devlin et al., 2014), and is learned by fusing in- and out-domain models. The adaptation is performed by backpropagating errors from the output layer to the word embedding layer of each model, subsequently adjusting parameters of the composite model towards the in-domain data. On the standard tasks of translating English-to-German and Arabic-to-English TED talks, we observed average improvements of +0.9 and +0.7 BLEU points, respectively over a competition grade phrase-based system. We also demonstrate improvements over existing adaptation methods.
@@ -2030,7 +2030,7 @@
     venue: conference
     pages: 1-5
     booktitle: >
-      Proceedings of the 26th International Conference on Computational Linguistics: System Demonstrations (COLING'16)
+      Proceedings of the 26th International Conference on Computational Linguistics: System Demonstrations (<b>COLING'16</b>)
     doc-url: http://aclweb.org/anthology/C16-2001
     abstract: >
       We present an interactive system to provide effective and efficient search capabilities in Community Question Answering (cQA) forums. The system integrates state-of-the-art technology for answer search with a Web-based user interface specifically tailored to support the cQA forum readers. The answer search module automatically finds relevant answers for a new question by exploring related questions and the comments within their threads. The graphical user interface presents the search results and supports the exploration of related information. The system is running live as a part of the Qatar Living forums.
@@ -2105,7 +2105,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      4th international workshop on Social Web for Disaster Management (SWDM'16)
+      4th international workshop on Social Web for Disaster Management (<b>SWDM'16</b>)
     doc-url: http://arxiv.org/abs/1610.01030
     abstract: >
       During natural or man-made disasters, humanitarian response organizations look for useful information to support their decision-making processes. Social media platforms such as Twitter have been considered as a vital source of useful information for disaster response and management. Despite advances in natural language processing techniques, processing short and informal Twitter messages is a challenging task. In this paper, we propose to use Deep Neural Network (DNN) to address two types of information needs of response organizations: 1) identifying informative tweets and 2) classifying them into topical classes. DNNs use distributed representation of words and learn the representation as well as higher level features automatically for the classification task. We propose a new online algorithm based on stochastic gradient descent to train DNNs in an online fashion during disaster situations. We test our models using a crisis-related real-world Twitter dataset.
@@ -2254,7 +2254,7 @@
     venue: conference
     pages: 1320-1330
     booktitle: >
-      Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL'17)
+      Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (<b>ACL'17</b>)
     doc-url: papers/nguyen-joty-acl-17.pdf
     abstract: >
       We propose a local coherence model based on a convolutional neural network that operates over the entity grid representation of a text. The model captures long range entity transitions along with entity-specific features without loosing generalization, thanks to the power of distributed representation. We present a pairwise ranking method to train the model in an end-to-end fashion on a task and learn task-specific high level features. Our evaluation on three different coherence assessment tasks demonstrates that our model achieves state of the art results outperforming existing models by a good margin.
@@ -2290,7 +2290,7 @@
     venue: conference
     pages: 226-237
     booktitle: >
-      Proceedings of The SIGNLL Conference on Computational Natural Language Learning (CoNLL'17)
+      Proceedings of The SIGNLL Conference on Computational Natural Language Learning (<b>CoNLL'17</b>)
     doc-url: papers/joty-nakov-marquez-jaradat-conll-17.pdf
     abstract: >
       We propose a local coherence model based on a convolutional neural network that operates over the entity grid representation of a text. The model captures long range entity transitions along with entity-specific features without loosing generalization, thanks to the power of distributed representation. We present a pairwise ranking method to train the model in an end-to-end fashion on a task and learn task-specific high level features. Our evaluation on three different coherence assessment tasks demonstrates that our model achieves state of the art results outperforming existing models by a good margin.
@@ -2326,7 +2326,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      Proceedings of The European Conference on Machine Learning & Principles and Practice of knowledge discovery in databases (ECML-PKDD'17)
+      Proceedings of The European Conference on Machine Learning & Principles and Practice of knowledge discovery in databases (<b>ECML-PKDD'17</b>)
     doc-url: papers/saha-joty-hasan-ecml-17.pdf
     abstract: >
       We present a novel approach to learn distributed representation of sentences from unlabeled data by modeling both content and context of a sentence. The content model learns sentence representation by predicting its words. On the other hand, the context model comprises a neighbor prediction component and a regularizer to model distributional and proximity hypotheses, respectively. We propose an online algorithm to train the model components jointly. We evaluate the models in a setup, where contextual information is available. The experimental results on tasks involving classification, clustering, and ranking of sentences show that our model outperforms the best existing models by a wide margin across multiple datasets.
@@ -2363,7 +2363,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      Proceedings of the 26th ACM International Conference on Information and Knowledge Management (CIKM'17)
+      Proceedings of the 26th ACM International Conference on Information and Knowledge Management (<b>CIKM'17</b>)
     doc-url: papers/saha-joty-hassan-hasan-cikm-17.pdf
     abstract: >
       Vector representation of sentences is important for many text processing tasks that involve classifying, clustering, or ranking sentences. For solving these tasks, bag-of-word based representation has been used for a long time. In recent years, distributed representation of sentences learned by neural models from unlabeled data has been shown to outperform traditional bag-of-words representations. However, most existing methods belonging to the neural models consider only the content of a sentence, and disregard its relations with other sentences in the context. In this paper, we first characterize two types of contexts depending on their scope and utility. We then propose two approaches to incorporate  contextual information into content-based models. We evaluate our sentence representation models in a setup, where context is available to infer sentence vectors. Experimental results demonstrate that our proposed models outshine existing models on three fundamental tasks, such as, classifying, clustering, and ranking sentences.
@@ -2408,7 +2408,7 @@
     venue: conference
     pages: 1145-1148
     booktitle: >
-      Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'17)
+      Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (<b>SIGIR'17</b>)
     doc-url: papers/martino-et-al-sigir-17.pdf
     abstract: >
       We study how to find relevant questions in community forums when the language of the new questions is different from that of the existing questions in the forum. In particular, we explore the Arabic-English language pair. We compare a kernel-based system with a feed-forward neural network in a scenario where a large parallel corpus is available for training a machine translation system, bilingual dictionaries, and cross-language word embeddings. We observe that both approaches degrade the performance of the system when working on the translated text, especially the kernel-based system, which depends heavily on a syntactic kernel. We address this issue using a cross-language tree kernel, which compares the original Arabic tree to the English trees of the related questions. We show that this kernel almost closes the performance gap with respect to the monolingual system. On the neural network side, we use the parallel corpus to train cross-language embeddings, which we then use to represent the Arabic input and the English related questions in the same space. The results also improve to close to those of the monolingual neural network. Overall, the kernel system shows a better performance compared to the neural network in all cases.
@@ -2444,7 +2444,7 @@
     venue: conference
     pages: 632-635
     booktitle: >
-      Proceedings of the Eleventh International Conference on Web and Social Media (ICWSM'17)
+      Proceedings of the Eleventh International Conference on Web and Social Media (<b>ICWSM'17</b>)
     doc-url: papers/nguyen-et-al-icwsm-17.pdf
     abstract: >
       The role of social media, in particular microblogging platforms such as Twitter, as a conduit for actionable and tactical information during disasters is increasingly acknowledged. However, time-critical analysis of big crisis data on social media streams brings challenges to machine learning techniques, especially the ones that use supervised learning. The scarcity of labeled data, particularly in the early hours of a crisis, delays the learning process. Existing classification methods require a significant amount of labeled data specific to a particular event for training plus a lot of feature engineering to achieve best results. In this work, we introduce neural network based classification methods for identifying useful tweets during a crisis situation. At the onset of a disaster when no labeled data is available, our proposed method makes the best use of the out-of-event data and achieves good results.
@@ -2481,7 +2481,7 @@
     venue: conference
     pages: 161-172
     booktitle: >
-      Proceedings of the 2017 international conference on Intelligent user interfaces (IUI'17)
+      Proceedings of the 2017 international conference on Intelligent user interfaces (<b>IUI'17</b>)
     doc-url: http://dl.acm.org/citation.cfm?id=3025210
     abstract: >
       Community question answering (CQA) forums can provide effective means for sharing information and addressing a user's information needs about particular topics. However, many such online forums are not moderated, resulting in many low quality and redundant comments, which makes it very challenging for users to find the appropriate answers to their questions. In this paper, we apply a user-centered design approach to develop a system, CQAVis, which supports users in identifying high quality comments and get their questions answered. Informed by the user's requirements, the system combines both text analytics and interactive visualization techniques together in a synergistic way. Given a new question posed by the user, the text analytic module automatically finds relevant answers by exploring existing related questions and the comments within their threads. Then the visualization module presents the search results to the user and supports the exploration of related comments. We have evaluated the system in the wild by deploying it within a CQA forum among thousands of real users. Through the online study, we gained deeper insights about the potential utility of the system, as well as learned generalizable lessons for designing visual text analytics systems for the domain of CQA forums.
@@ -2516,7 +2516,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      Proceedings of the Neu-IR 2017 SIGIR Workshop on Neural Information Retrieval (NeuIR'17)
+      Proceedings of the Neu-IR 2017 SIGIR Workshop on Neural Information Retrieval (<b>NeuIR'17</b>)
     doc-url: papers/nguyen-joty-boussaha-rijke-neuir-17.pdf
     bibtex: >
       @inproceedings{nguyen-joty-boussaha-rijke-neuir-17,
@@ -2631,7 +2631,7 @@
     venue: conference
     pages: 4196 - 4207
     booktitle: >
-      Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP'18)
+      Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'18</b>)
     doc-url: http://aclweb.org/anthology/D18-1452
     abstract: >
       We address, for the first time, the joint resolution of two important Question Answering tasks on community forums: given a new question, (i) find related existing questions, and (ii) find relevant answers to the new question. We further use an auxiliary task to complement the previous two, i.e., (iii) find good answers with respect to the thread question in a question-comment thread. We use deep neural networks (DNNs) to learn meaningful task-specific embeddings, which we then incorporate into a conditional random field (CRF) model on the multitask problem, performing joint learning over arbitrary graph structures. The experimental results show that DNNs alone achieve competitive results when trained to produce the embeddings. Furthermore, the CRF model is able to effectively make use of the embeddings and the dependencies between the tasks to improve results significantly and consistently across a variety of evaluation metrics, thus showing the complementarity of DNNs and structured learning.
@@ -2685,7 +2685,7 @@
     venue: conference
     pages: 558–-568
     booktitle: >
-      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL'18)
+      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (<b>ACL'18</b>)
     doc-url: http://aclweb.org/anthology/P18-1052
     abstract: >
       We propose a novel coherence model for written asynchronous conversations (e.g., forums, emails), and show its applications in coherence assessment and thread reconstruction tasks. We conduct our research in two steps. First, we propose improvements to the recently proposed neural entity grid model by lexicalizing its entity transitions. Then, we extend the model to asynchronous conversations by incorporating the underlying conversational structure in the entity grid representation and feature computation. Our model achieves state of the art results on standard coherence assessment tasks in monologue and conversations outperforming existing models. We also demonstrate its effectiveness in reconstructing thread structures.
@@ -2720,7 +2720,7 @@
     venue: conference
     pages: 1077–-1087
     booktitle: >
-      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL'18)
+      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (<b>ACL'18</b>)
     doc-url: http://aclweb.org/anthology/P18-1099
     abstract: >
       In recent years there has been a growing interest in deep neural networks (DNN) and representation learning with applications to a myriad of NLP and data mining problems. The success of DNNs is heavily dependent on the availability of labeled data. However, obtaining labeled data is a big challenge in many real-world problems. In such cases, a DNN model can leverage labeled and unlabeled data from a related domain, but it has to deal with the shift in data distributions between the domains. In this paper, we study the problem of classifying social media posts during a crisis event (e.g., Earthquake). For that, we use labeled and unlabeled data from past similar events (e.g., Flood) and unlabeled data for the current event. We propose a novel model that performs adversarial learning based domain adaptation to deal with distribution drifts and graph based semi-supervised learning to leverage unlabeled data within a single unified deep learning framework. Our experiments with two real-world crisis datasets collected from Twitter demonstrate significant improvements over several baselines.
@@ -2769,7 +2769,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      European Conference on Computer Vision (ECCV'18)
+      European Conference on Computer Vision (<b>ECCV'18</b>)
     doc-url: https://arxiv.org/abs/1803.05526
     abstract: >
       Image captioning is a multimodal task involving computer vision and natural language processing, where the goal is to learn a mapping from the image to its natural language description. In general, the mapping function is learned from a training set of image-caption pairs. However, for some language, large scale image-caption paired corpus might not be available. We present an approach to this unpaired image captioning problem by language pivoting. Our method can effectively capture the characteristics of an image captioner from the pivot language (Chinese) and align it to the target language (English) using another pivot-target (Chinese-English) parallel corpus. We evaluate our method on two image-to-English benchmark datasets: MSCOCO and Flickr30K. Quantitative comparisons against several baseline approaches demonstrate the effectiveness of our method.
@@ -2804,7 +2804,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      European Conference on Computer Vision (ECCV'18)
+      European Conference on Computer Vision (<b>ECCV'18</b>)
     doc-url: https://arxiv.org/abs/1803.07464
     abstract: >
       Most existing works in visual question answering (VQA) are dedicated to improving the accuracy of predicted answers, while disregarding the explanations. We argue that the explanation for an answer is of the same or even more importance compared with the answer itself, since it makes the question and answering process more understandable and traceable. To this end, we propose a new task of VQA-E (VQA with Explanation), where the computational models are required to generate an explanation with the predicted answer. We first construct a new dataset, and then frame the VQA-E problem in a multi-task learning architecture. Our VQA-E dataset is automatically derived from the VQA v2 dataset by intelligently exploiting the available captions. We have conducted a user study to validate the quality of explanations synthesized by our method. We quantitatively show that the additional supervision from explanations can not only produce insightful textual sentences to justify the answers, but also improve the performance of answer prediction. Our model outperforms the state-of-the-art methods by a clear margin on the VQA v2 dataset.
@@ -2839,7 +2839,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      Computer Vision and Pattern Recognition (CVPR'18, Spotlight)
+      Computer Vision and Pattern Recognition (<b>CVPR'18, Spotlight</b>)
     doc-url: https://arxiv.org/abs/1711.06420
     abstract: >
       Textual-visual cross-modal retrieval has been a hot research topic in both computer vision and natural language processing communities. Learning appropriate representations for multi-modal data is crucial for the cross-modal retrieval performance. Unlike existing image-text retrieval approaches that embed image-text pairs as single feature vectors in a common representational space, we propose to incorporate generative processes into the cross-modal feature embedding, through which we are able to learn not only the global abstract features but also the local grounded features. Extensive experiments show that our framework can well match images and sentences with complex content, and achieve the state-of-the-art cross-modal retrieval results on MSCOCO dataset.
@@ -2882,7 +2882,7 @@
     venue: conference
     pages: 147 - 156
     booktitle: >
-      Proceedings of the 27th ACM International Conference on Information and Knowledge Management (CIKM'18)
+      Proceedings of the 27th ACM International Conference on Information and Knowledge Management (<b>CIKM'18</b>)
     doc-url: https://dl.acm.org/citation.cfm?id=3271810
     abstract: >
       Textual reviews, which are readily available on many e-commerce and review websites such as Amazon and Yelp, serve as an invaluable source of information for recommender systems. However, not all parts of the reviews are equally important, and the same choice of words may reflect a different meaning based on its context. In this paper, we propose a novel end-to-end Aspect-based Neural Recommender (ANR) to perform aspect-based representation learning for both users and items via an attention-based component. Furthermore, we model the multi-faceted process behind how users rate items by estimating the aspect-level user and item importance by adapting the neural co-attention mechanism. Our proposed model concurrently address several shortcomings of existing recommender systems, and a thorough experimental study on 25 benchmark datasets from Amazon and Yelp shows that ANR significantly outperforms recently proposed state-of-the-art baselines such as DeepCoNN, D-Attn and ALFM.
@@ -2918,7 +2918,7 @@
     venue: conference
     pages: 4166 - 4172
     booktitle: >
-      Proceedings of the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence (IJCAI-ECAI-2018)
+      Proceedings of the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence (<b>IJCAI-ECAI-2018</b>)
     doc-url: https://www.ijcai.org/proceedings/2018/0579.pdf
     abstract: >
       Text segmentation is a fundamental task in natural language processing. Depending on the levels of granularity, the task can be defined as segmenting a document into topical segments, or segmenting a sentence into elementary discourse units. Traditional solutions to the two tasks heavily rely on carefully designed features. The recently proposed neural models do not need manual feature engineering, but they either suffer from sparse boundary tags or they cannot well handle the issue of variable size output vocabulary. Our generic end-to-end segmentation model, named SEGBOT, uses a bidirectional recurrent neural network to encode input text sequence. The model then uses another recurrent neural network together with a pointer network to select text boundaries in the input sequence. In this way, SEGBOT does not require hand-crafted features. More importantly, our model inherently handles the issue of variable size output vocabulary and the issue of sparse boundary tags. In our experiments, SEGBOT outperforms state-of-the-art models on two tasks, document-level topic segmentation and sentence-level discourse segmentation.
@@ -3010,7 +3010,7 @@
     venue: conference
     pages: 1454 - 1467
     booktitle: >
-      The Forty-fourth International Conference on Very Large Data Bases (VLDB-2018)
+      The Forty-fourth International Conference on Very Large Data Bases (<b>VLDB-2018</b>)
     doc-url: http://www.vldb.org/pvldb/vol11/p1454-ebraheem.pdf
     abstract: >
       Despite the efforts in 70+ years in all aspects of Entity res- olution (ER), there is still a high demand for democratizing ER – by reducing the heavy human involvement in label- ing data, performing feature engineering, tuning parameters, and defining blocking functions. With the recent advances in deep learning, in particular distributed representations of words (a.k.a. word embeddings), we present a novel ER sys- tem, called DeepER, that achieves good accuracy, high effi- ciency, as well as ease-of-use (i.e., much less human efforts). We use sophisticated composition methods, namely uni- and bi-directional recurrent neural networks (RNNs) with long short term memory (LSTM) hidden units, to convert each tuple to a distributed representation (i.e., a vector), which can in turn be used to effectively capture similarities be- tween tuples. We consider both the case where pre-trained word embeddings are available as well the case where they are not; we present ways to learn and tune the distributed representations that are customized for a specific ER task under different scenarios. We propose a locality sensitive hashing (LSH) based blocking approach that takes all at- tributes of a tuple into consideration and produces much smaller blocks, compared with traditional methods that con- sider only a few attributes. We evaluate our algorithms on multiple datasets (including benchmarks, biomedical data, as well as multi-lingual data) and the extensive experimental results show that DeepER outperforms existing solutions.
@@ -3048,7 +3048,7 @@
     venue: conference
     pages: 1-4
     booktitle: >
-      Proceedings of the 27th International Conference on Computational Linguistics: Tutorial Abstracts (COLING'18)
+      Proceedings of the 27th International Conference on Computational Linguistics: Tutorial Abstracts (<b>COLING'18</b>)
     doc-url: https://sites.google.com/view/nlpforconversations
     abstract: >
       The primary goal of this tutorial is for attendees to learn about recent work applying NLP to spoken and written conversations, with a focus on computational models for three related topics: conversational structure, summarization and sentiment detection, and group dynamics. We provide examples of specific NLP tasks within those three areas, how they relate to one another, their applications, and how we evaluate task performance. We will begin by discussing motivations and applications of applying NLP methods to conversations, including downstream applications that could benefit. Attendees will hear about the challenges of working with noisy data, and examples of datasets of spoken and/or written conversations. The first part of the tutorial covers conversational structures, the basic building blocks for working with conversational data. Participants will learn about computational methods for uncovering thread and topic structures of a conversation, detecting dialogue acts and adjacency pairs, identifying participant roles (where relevant), and how to treat disfluencies. We will cover methods for both synchronous (e.g., meeting, phone) and asynchronous (e.g., forum, email) conversations. In the second part of the tutorial, we will focus on sentiment analysis and summarization. Attendees will learn about the related, overlapping tasks of detecting sentiment, subjectivity, and opinions. We will cover unsupervised and supervised approaches, as well as multimodal sentiment detection. Participants will learn about intrinsic vs. extrinsic evaluation of sentiment analysis methods for conversations. For summarization, we will cover core topics, such as the notions of extractive vs. abstractive summarization, and summarization vs. compression. In particular, participants will learn about the limits of extractive summarization on noisy and opinion-filled conversation data. We will particularly emphasize the question of how to evaluate automatically generated summaries, including some of the controversial history surrounding automatic summarization metrics that are widely used. In the final part of the tutorial, participants will learn about the growing field of research that uses NLP and machine learning methods to model and predict group dynamics, including prediction of group performance and participant affect. Attendees will learn about the close relationship between these three areas of summarization, sentiment, and group dynamics, and why researchers in each one of those areas often end up being concerned with the other two topics as well. Finally, we will discuss promising current and future directions of applying NLP to conversations.
@@ -3109,7 +3109,7 @@
     venue: conference
     pages: 1-2
     booktitle: >
-      IEEE International Conference on Data Mining: Tutorial Abstracts (ICDM'18)
+      IEEE International Conference on Data Mining: Tutorial Abstracts (<b>ICDM'18</b>)
     doc-url: https://ntunlpsg.github.io/project/icdmtutorial/
     abstract: >
       Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many text mining applications. This involves identifying the topic structure, the coherence structure, the coreference structure, and the conversation structure for conversational discourse. Taken together, these structures can inform text summarization, essay scoring, sentiment analysis, machine translation, information extraction, question answering, and thread recovery. The tutorial starts with an overview of basic concepts in discourse analysis – monologue vs. conversation, synchronous vs. asynchronous conversation, and key linguistic structures in discourse analysis. It then covers traditional machine learning methods along with the most recent works using deep learning, and compare their performances on benchmark datasets. For each discourse structure we describe, we show its applications in downstream text mining tasks.
@@ -3157,7 +3157,7 @@
     venue: conference
     pages: 556 - 559
     booktitle: >
-      Proceedings of the Twelfth International Conference on Web and Social Media (ICWSM'18)
+      Proceedings of the Twelfth International Conference on Web and Social Media (<b>ICWSM'18</b>)
     doc-url: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/download/17815/17049
     bibtex: >
       @inproceedings{firoj-et-al-icwsm-18,
@@ -3191,7 +3191,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP'19)
+      Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'19</b>)
     doc-url: https://www.aclweb.org/anthology/D19-1093.pdf
     abstract: >
       Transition-based top-down parsing with pointer networks have achieved state-of-the-art results in multiple parsing tasks, while having a linear time complexity. However, the decoder of these parsers has a sequential structure, which does not yield the most appropriate inductive bias for deriving tree structures. In this paper, we propose  hierarchical pointer network parsers, and apply them to dependency and discourse parsing tasks. Our results on standard benchmark datasets demonstrate the effectiveness of our approach, outperforming existing methods and setting a new state-of-the-art in both parsing tasks.
@@ -3227,7 +3227,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP'19)
+      Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'19</b>)
     doc-url: https://arxiv.org/abs/1909.00349
     abstract: >
       Recently, neural approaches to coherence modeling have achieved state-of-the-art results in several evaluation tasks. However, we show that most of these models often fail on harder tasks with more realistic application scenarios. In particular, the existing models underperform on tasks that require the model to be sensitive to local contexts such as candidate ranking in conversational dialogue and in machine translation. In this paper, we propose a unified coherence model that incorporates sentence grammar, inter-sentence coherence relations, and global coherence patterns into a common neural framework. With extensive experiments on local and global discrimination tasks, we demonstrate that our proposed model outperforms existing models by a good margin, and establish a new state-of-the-art.
@@ -3263,7 +3263,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP'19)
+      Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'19</b>)
     doc-url: https://arxiv.org/abs/1909.00131
     abstract: >
       The ongoing neural revolution in machine translation has made it easier to model larger contexts beyond the sentence-level, which can potentially help resolve some discourse-level ambiguities such as pronominal anaphora, thus enabling better translations. Unfortunately, even when the resulting improvements are seen as substantial by humans, they remain virtually unnoticed by traditional automatic evaluation measures like BLEU, as only a few words end up being affected. Thus, specialized evaluation measures are needed. With this aim in mind, we contribute an extensive, targeted dataset that can be used as a test suite for pronoun translation, covering multiple source languages and different pronoun errors drawn from real system translations, for English. We further propose an evaluation measure to differentiate good and bad pronoun translations. We also conduct a user study to report correlations with human judgments.
@@ -3299,7 +3299,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP'19)
+      Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'19</b>)
     doc-url: https://arxiv.org/pdf/1909.09702.pdf
     abstract: >
       Monitoring patients in ICU is a challenging and high-cost task. Hence, predicting the condition of patients during their ICU stay can help provide better acute care and plan the hospital's resources. There has been continuous progress in machine learning research for ICU management, and most of this work has focused on using time series signals recorded by ICU instruments. In our work, we show that adding clinical notes as another modality improves the performance of the model for three benchmark tasks: in-hospital mortality prediction, modeling decompensation, and length of stay forecasting that play an important role in ICU management. While the time-series data is measured at regular intervals, doctor notes are charted at irregular times, making it challenging to model them together. We propose a method to model them jointly, achieving considerable improvement across benchmark tasks over baseline time-series model.
@@ -3334,7 +3334,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      Proceedings of the International Conference on Computer Vision (ICCV'19)
+      Proceedings of the International Conference on Computer Vision (<b>ICCV'19</b>)
     doc-url: https://arxiv.org/abs/1903.10658
     abstract: >
       Deep neural networks have achieved great success on the image captioning task. However, most of the existing models depend heavily on paired image-sentence datasets, which are very expensive to acquire in most real-world scenarios. In this paper, we propose a scene graph based approach for unpaired image captioning. Our method merely requires an image set, a sentence corpus, an image scene graph generator, and a sentence scene graph generator. The sentence corpus is used to teach the decoder how to generate meaningful sentences from a scene graph. To further encourage the generated captions to be semantically consistent with the image, we employ adversarial learning to align the visual scene graph to the textual scene graph. Experimental results show that our proposed model can generate quite promising results without using any image-caption training pairs, outperforming existing methods by a wide margin.
@@ -3368,7 +3368,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      Proceedings of the 27th ACM International Conference on Multimedia (ACMMM'19)
+      Proceedings of the 27th ACM International Conference on Multimedia (<b>ACMMM'19</b>)
     doc-url: 
     abstract: >
       With the rapid growth of video data and the increasing demands of various applications such as intelligent video search and assistance toward visually-impaired people, video captioning task has received a lot of attention recently in computer vision and natural language processing fields. The state-of-the-art video captioning methods focus more on encoding the temporal information, while lack of effective ways to remove irrelevant temporal information and also neglecting the spatial details. However, the current RNN encoding module in single time order can be influenced by the irrelevant temporal information, especially the irrelevant temporal information is at the beginning of the encoding. In addition, neglecting spatial information will lead to the relationship confusion of the words and detailed loss. Therefore, in this paper, we propose a novel recurrent video encoding method and a novel visual spatial feature for the video captioning task. The recurrent encoding module encodes the video twice with the predicted key frame to avoid the irrelevant temporal information often occurring at the beginning and the end of a video. The novel spatial features represent the spatial information in different regions of a video and enrich the details of a caption. Experiments on two benchmark datasets show superior performance of the proposed method.
@@ -3404,7 +3404,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL'19)
+      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (<b>ACL'19</b>)
     doc-url: https://arxiv.org/abs/1905.05682
     abstract: >
       We propose an efficient neural framework for sentence-level discourse analysis in accordance with Rhetorical Structure Theory (RST). Our framework comprises a discourse segmenter to identify the elementary discourse units (EDU) in a text, and a discourse parser that constructs a discourse tree in a top-down fashion. Both the segmenter and the parser are based on Pointer Networks and operate in linear time. Our segmenter yields an F1 score of 95.4, and our parser achieves an F1 score of 81.7 on the aggregated labeled (relation) metric, surpassing previous approaches by a good margin and approaching human agreement on both tasks (98.3 and 83.0 F1)
@@ -3440,7 +3440,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL'19)
+      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (<b>ACL'19</b>)
     doc-url: https://www.aclweb.org/anthology/P19-1244/
     abstract: >
       Claim verification is generally a task of verifying the veracity of a given claim, which is critical to many downstream applications. It is cumbersome and inefficient for human fact-checkers to find consistent evidences, from which solid verdict could be inferred against the claim. In this paper, we propose a novel end-to-end hierarchical attention network focusing on learning to represent coherent evidences as well as their semantic relatedness with the claim. Our model consists of three main components: 1) A coherence-based attention layer embeds coherent evidences considering the claim and sentences from relevant articles; 2) An entailment-based attention layer attends on sentences that can semantically infer the claim on top of the first attention; and 3) An output layer predicts the verdict based on the the embedded evidences. Experimental results on three public benchmark datasets show that our proposed model outperforms a set of state-of-the-art baselines.
@@ -3477,7 +3477,7 @@
     venue: conference
     pages: 1-6
     booktitle: >
-      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts (ACL'19)
+      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts (<b>ACL'19</b>)
     doc-url: papers/joty-et-al-acl-19.pdf
     abstract: >
       Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many downstream applications. This involves identifying the topic structure, the coherence structure, the coreference structure, and the conversation structure for conversational discourse. Taken together, these structures can inform text summarization, machine translation, essay scoring, sentiment analysis,  information extraction, question answering, and thread recovery. The tutorial starts with an overview of basic concepts in discourse analysis - monologue vs. conversation, synchronous vs. asynchronous conversation, and key linguistic structures in discourse analysis. We also give an overview of linguistic structures and corresponding discourse analysis tasks that discourse researchers are generally interested in, as well as key applications on which these discourse structures have an impact.
@@ -3511,7 +3511,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL'19)
+      Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (<b>NAACL'19</b>)
     doc-url: https://arxiv.org/abs/1904.04116
     abstract: >
       Adversarial training has shown impressive success in learning bilingual dictionary without any parallel data by mapping monolingual embeddings to a shared space. However, recent work has shown superior performance for non-adversarial methods in more challenging language pairs. In this work, we revisit adversarial autoencoder for unsupervised word translation and propose two novel extensions to it that yield more stable training and improved results. Our method includes regularization terms to enforce cycle consistency and input reconstruction, and puts the target encoders as an adversary against the corresponding discriminator. Extensive experimentations with European and non-European languages show that our method achieves better performance than recently proposed adversarial and non-adversarial approaches and is also competitive with the supervised system.
@@ -3566,7 +3566,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL'19)
+      Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (<b>NAACL'19</b>)
     doc-url: https://arxiv.org/abs/1904.04021
     abstract: >
       We address the problem of speech act recognition (SAR) in asynchronous conversations (e.g., forums, emails). However, unlike synchronous conversations (e.g., meetings, phone), asynchronous domains lack large labeled datasets to train an effective SAR model. In this paper, we propose methods to effectively leverage abundant unlabeled conversational data and the available labeled data from synchronous domains. We carry out our research in three main steps. First, we introduce a neural architecture based on hierarchical LSTMs and conditional random fields (CRF) for SAR in asynchronous conversations, and show that our method outperforms existing methods when trained on in-domain data only. Second, we improve our initial SAR models by semi-supervised learning in the form of pretrained word embeddings learned from a large unlabeled conversational corpus. Finally, we employ adversarial training to improve the results further by leveraging the labeled data from synchronous domains and by explicitly modeling the shift in two domains.
@@ -3623,7 +3623,7 @@
     venue: conference
     pages: xx - xx
     booktitle: >
-      Thirty-Third AAAI Conference on Artificial Intelligence (AAAI'19)
+      Thirty-Third AAAI Conference on Artificial Intelligence (<b>AAAI'19</b>)
     doc-url: https://arxiv.org/abs/1811.06847
     abstract: >
       Sufficient physical activity and restful sleep play a major role in the prevention and cure of many chronic conditions. Being able to proactively screen and monitor such chronic conditions would be a big step forward for overall health. The rapid increase in the popularity of wearable devices provides a significant new source, making it possible to track the user’s lifestyle real-time. In this paper, we propose a novel unsupervised representation learning technique called activ- ity2vec that learns and “summarizes” the discrete-valued ac- tivity time-series. It learns the representations with three com- ponents: (i) the co-occurrence and magnitude of the activity levels in a time-segment, (ii) neighboring context of the time- segment, and (iii) promoting subject-invariance with adver- sarial training. We evaluate our method on four disorder pre- diction tasks using linear classifiers. Empirical evaluation and analysis demonstrate that our proposed method performs bet- ter than many strong baselines, and adversarial learning helps improve the generalizability of our representations by pro- moting subject invariant features. We also show that using the representations at the level of a day works the best since human activity is structured in terms of daily routines.
@@ -3659,7 +3659,7 @@
     venue: conference
     pages: xx - xx
     booktitle: >
-      International Conference on Acoustics, Speech, and Signal Processing (ICASSP'19)
+      International Conference on Acoustics, Speech, and Signal Processing (<b>ICASSP'19</b>)
     doc-url: http://people.csail.mit.edu/sameerk/papers/ICASSP_dmm_rev.pdf
     abstract: >
       We present the Factorial Deep Markov Model (FDMM) for representation learning of speech. The FDMM learns disentangled, interpretable and lower dimensional latent representations from speech without supervision. We use a static and dynamic latent variable to exploit the fact that information in a speech signal evolves at different time scales. Latent representations learned by the FDMM outperform a baseline ivector system on speaker verification and dialect identification while also reducing the error rate of a phone recognition system in a domain mismatch scenario.
@@ -3699,7 +3699,7 @@
     venue: conference
     pages: x - x
     booktitle: >
-      Proceedings of 45th ACM SIGMOD International Conference on Management of Data (SIGMOD'19)
+      Proceedings of 45th ACM SIGMOD International Conference on Management of Data (<b>SIGMOD'19</b>)
     doc-url: papers/liu-et-al-sigmod-demo-19.pdf
     bibtex: >
       @inproceedings{liu-et-al-sigmod-demo-19,
@@ -3732,7 +3732,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      2020 Conference on Neural Information Processing Systems (NeurIPS'20)
+      2020 Conference on Neural Information Processing Systems (<b><b>NeurIPS'20</b></b>)
     doc-url: https://arxiv.org/abs/1911.01986
     abstract: >
       A common approach to improve neural machine translation is to invent new architectures. However, the research process of designing and refining such new models is often exhausting. Another approach is to resort to huge extra monolingual data to conduct semi-supervised training, like back-translation. But extra monolingual data is not always available, especially for low resource languages. In this paper, we propose to diversify the available training data by using multiple forward and backward peer models to augment the original training dataset. Our method does not require extra data like back-translation, nor additional computations and parameters like using pretrained models. Our data diversification method achieves state-of-the-art BLEU score of 30.7 in the WMT'14 English-German task. It also consistently and substantially improves translation quality in 8 other translation tasks: 4 IWSLT tasks (English-German and English-French) and 4 low-resource translation tasks (English-Nepali and English-Sinhala).
@@ -3744,7 +3744,7 @@
        booktitle = {2020 Conference on Neural Information Processing Systems},
        link = {https://arxiv.org/abs/1911.01986},
        pages = {xx–-xx},
-       series = {NeurIPS'20},
+       series = {<b>NeurIPS'20</b>},
        title = {Data Diversification: An Elegant Strategy for Neural Machine Translation},
        year = {2020}
       }
@@ -3766,7 +3766,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      2020 Conference on Neural Information Processing Systems (NeurIPS'20)
+      2020 Conference on Neural Information Processing Systems (<b>NeurIPS'20</b>)
     doc-url: 
     abstract: >
       Structured representations of images according to visual relationships are beneficial for many vision and vision-language applications. However, current human-annotated visual relationship datasets suffer from the long-tailed predicate distribution problem which limits the potentials of visual relationship models. In this work, we introduce a self-supervised method that implicitly learns the visual relationships without relying on any ground-truth visual relationship annotations. Our method relies on 1) intra- and inter-modality encodings to respectively model relationships within each modality separately and jointly, and 2) relationship probing, which seeks to discover the graph structure within each modality. By leveraging masked language modeling, contrastive learning, and dependency tree distances for self-supervision, our method can learn better object features as well as implicit visual relationships. We verify the effectiveness of our proposed method on various vision-language tasks that benefit from improved visual relationship understanding.
@@ -3800,7 +3800,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP'20)
+      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'20</b>)
     doc-url: https://arxiv.org/abs/2004.13889
     abstract: >
       Most of the successful and predominant methods for bilingual lexicon induction (BLI) are mapping-based, where a linear mapping function is learned with the assumption that the word embedding spaces of different languages exhibit similar geometric structures (i.e., approximately isomorphic). However, several recent studies have criticized this simplified assumption showing that it does not hold in general even for closely related languages. In this work, we propose a novel semi-supervised method to learn cross-lingual word embeddings for BLI. Our model is independent of the isomorphic assumption and uses nonlinear mapping in the latent space of two independently trained auto-encoders. Through extensive experiments on fifteen (15) different language pairs (in both directions) comprising resource-rich and low-resource languages from two different datasets, we demonstrate that our method outperforms existing models by a good margin. Ablation studies show the importance of different model components and the necessity of non-linear mapping.
@@ -3836,7 +3836,7 @@
     venue: conference
     pages: XX–-XX
     booktitle: >
-      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP'20)
+      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'20</b>)
     doc-url: 
     abstract: >
       Popular Neural Machine Translation model training uses strategies like backtranslation to improve BLEU scores, requiring large amounts of additional data and training. We introduce a class of conditional generative-discriminative hybrid losses that we use to finetune a trained machine translation model. Through a combination of targeted finetuning objectives and intuitive re-use of the training data the model has failed to adequately learn from, we improve the model performance of both a sentence-level and a simple contextual model without using any additional data. We target the improvement of pronoun translations through our finetuning and evaluate our models on a pronoun benchmark testset. Our sentence-level model shows a 0.5 BLEU improvement on both the WMT14 and the IWSLT13 De-En testsets, while our simple contextual model achieves the best results, improving from 31.81 to 32 BLEU on WMT14 De-En testset, and from 32.10 to 33.13 on the IWSLT13 De-En testset, with corresponding improvements in pronoun translation.
@@ -3872,7 +3872,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP'20)
+      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'20</b>)
     doc-url: https://arxiv.org/abs/2004.14870
     abstract: >
       Morphological inflection is a process of word formation where base words are modified to express different grammatical categories such as tense, case, voice, person, or number. World Englishes, such as Colloquial Singapore English (CSE) and African American Vernacular English (AAVE), differ from Standard English dialects in inflection use. Although comprehension by human readers is usually unimpaired by non-standard inflection use, NLP systems are not so robust. We introduce a new Base-Inflection Encoding of English text that is achieved by combining linguistic and statistical techniques. Fine-tuning pre-trained NLP models for downstream tasks under this novel encoding achieves robustness to non-standard inflection use while maintaining performance on Standard English examples. Models using this encoding also generalize better to non-standard dialects without explicit training. We suggest metrics to evaluate tokenizers and extensive model-independent analyses demonstrate the efficacy of the encoding when used together with data-driven subword tokenizers.
@@ -3908,7 +3908,7 @@
     venue: conference
     pages: XX–-XX
     booktitle: >
-      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP'20)
+      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'20</b>)
     doc-url: 
     abstract: >
       While participants in a multi-party multi-turn conversation simultaneously engage in multiple conversation topics, existing response selection methods are developed mainly focusing on a two-party single-conversation scenario. Hence, the prolongation and transition of conversation topics are ignored by current methods. In this work, we frame response selection as a dynamic topic tracking task to match the topic between the response and relevant conversation context. With this new formulation, we propose a novel multi-task learning framework that supports efficient encoding through large pretrained models with only two utterances at once to perform dynamic topic disentanglement and response selection. We also propose Topic-BERT an essential pretraining step to embed topic information into BERT with self-supervised learning. Experimental results on the DSTC-8 Ubuntu IRC dataset show state-of-the-art results in response selection and topic disentanglement tasks outperforming existing methods by a good margin.
@@ -3956,7 +3956,7 @@
     venue: conference
     pages: XX–-XX
     booktitle: >
-      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP'20)
+      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'20</b>)
     doc-url: 
     abstract: >
       Huge amounts of textual conversations occur online everyday, where multiple conversations take place concurrently. Interleaved conversations lead to difficulties in not only following the ongoing discussions but also extracting relevant information from simultaneous messages. Conversation disentanglement aims to separate intermingled messages into detached conversations. However existing disentanglement methods rely mostly on hand-crafted features that are dataset specific, which hinders generalization and adaptability. In this work, we propose an end-to-end online framework for conversation disentanglement that avoids time-consuming domain-specific feature engineering. We design a novel way to embed the whole utterance that comprises timestamp, speaker and message text, and propose a custom attention mechanism that models disentanglement as a pointing problem while effectively capturing inter-utterance interactions in an end-to-end fashion. We also introduce a joint-learning objective to better capture contextual information. Our experiments on the Ubuntu IRC dataset show that our method achieves state-of-the-art performance in both link and conversation prediction tasks.
@@ -3993,7 +3993,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP'20)
+      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'20</b>)
     doc-url: https://arxiv.org/abs/2004.13278
     abstract: >
       Visual dialog is a challenging vision-language task, where a dialog agent needs to answer a series of questions through reasoning on the image content and dialog history. Prior work has mostly focused on various attention mechanisms to model such intricate interactions. By contrast, in this work, we propose VD-BERT, a simple yet effective framework of unified vision-dialog Transformer that leverages the pretrained BERT language models for Visual Dialog tasks. The model is unified in that (1) it captures all the interactions between the image and the multi-turn dialog using a single-stream Transformer encoder, and (2) it supports both answer ranking and answer generation seamlessly through the same architecture. More crucially, we adapt BERT for the effective fusion of vision and dialog contents via visually grounded training. Without the need of pretraining on external vision-language data, our model yields new state of the art, achieving the top position in both single-model and ensemble settings (74.54 and 75.35 NDCG scores) on the visual dialog leaderboard.
@@ -4029,7 +4029,7 @@
     venue: conference
     pages: XX–-XX
     booktitle: >
-      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP'20)
+      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'20</b>)
     doc-url: 
     abstract: >
       Document interpretation and dialog understanding are the two major challenges for conversational machine reading. In this work, we propose DISCERN, a discourse-aware entailment reasoning network to strengthen the connection and enhance the understanding for both document and dialog. Specifically, we split the document into clause-like elementary discourse units (EDU) using a pre-trained discourse segmentation model, and we train our model in a weakly-supervised manner to predict whether each EDU is entailed by the user feedback in a conversation. Based on the learned EDU and entailment representations, we either reply to the user our final decision “yes/no/irrelevant” of the initial question, or generate a follow-up question to inquiry more information. Our experiments on the ShARC benchmark (blind, held-out test set) show that DISCERN achieves state-of-the-art results of 78.3% macro-averaged accuracy on decision making and 64.0 BLEU1 on follow-up question generation.
@@ -4065,7 +4065,7 @@
     venue: conference
     pages: XX–-XX
     booktitle: >
-      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP'20)
+      Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'20</b>)
     doc-url: 
     abstract: >
       Data augmentation techniques have been widely used to improve machine learning performance. In this work, we propose a novel method to generate high quality synthetic data for low-resource tagging tasks with language models, where the language model is trained with the linearized labeled sentences. Our method is applicable to both supervised and semi-supervised settings. For the supervised setting, we conduct extensive experiments on named entity recognition (NER), part of speech (POS) and end-to-end target based sentiment analysis (E2E-TBSA) tasks. While for the semi-supervised setting, we evaluate our method on the NER task under the conditions of given unlabeled data only and unlabeled data plus a knowledge base. The results show that our method can consistently outperform the baselines, particularly when the given gold training data are less.
@@ -4101,7 +4101,7 @@
     venue: conference
     pages: 3284–-3294
     booktitle: >
-      Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL'20)
+      Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (<b>ACL'20</b>)
     doc-url: https://www.aclweb.org/anthology/2020.acl-main.301/
     abstract: >
       We propose a novel constituency parsing model that casts the parsing problem into a series of pointing tasks. Specifically, our model estimates the likelihood of a span being a legitimate tree constituent via the pointing score corresponding to the boundary words of the span. Our parsing model supports efficient top-down decoding and our learning objective is able to enforce structural consistency without resorting to the expensive CKY inference. The experiments on the standard English Penn Treebank parsing task show that our method achieves 92.78 F1 without using pre-trained models, which is higher than all the existing methods with similar time complexity. Using pre-trained BERT, our model achieves 95.48 F1, which is competitive with the state-of-the-art while being faster. Our approach also establishes new state-of-the-art in Basque and Swedish in the SPMRL shared tasks on multilingual constituency parsing.
@@ -4137,7 +4137,7 @@
     venue: conference
     pages: 6589–-6599
     booktitle: >
-      Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL'20)
+      Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (<b>ACL'20</b>)
     doc-url: https://www.aclweb.org/anthology/2020.acl-main.589/
     abstract: >
       We propose Differentiable Window, a new neural module and general purpose component for dynamic window selection. While universally applicable, we demonstrate a compelling use case of utilizing Differentiable Window to improve standard attention modules by enabling  more focused attentions over the input regions. We propose two variants of Differentiable Window, and integrate them within the Transformer architecture in two novel ways. We evaluate our proposed approach on a myriad of NLP tasks, including machine translation, sentiment analysis, subject-verb agreement and language modeling. Our experimental results demonstrate consistent and sizable improvements across all tasks.
@@ -4173,7 +4173,7 @@
     venue: conference
     pages: 935–-945
     booktitle: >
-      Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL'20)
+      Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (<b>ACL'20</b>)
     doc-url: https://www.aclweb.org/anthology/2020.acl-main.88/
     abstract: >
       Conversational machine reading aims to teach machines to interact with users and answer their questions. It is challenging because machines have to understand the knowledge base text, evaluate and keep track of the user scenario, ask clarification questions, and then make a final decision. Existing approaches have implicit rule text reasoning processes for decision making and weak abilities for question-related rule extraction. In this paper, we present a new framework of conversational machine reading with a novel Explicit Memory Tracker (EMT) that explicitly tracks whether conditions listed in the rule text have already been satisfied to make a decision. Moreover, our framework generates clarifying questions by adopting a coarse-to-fine reasoning strategy, utilizing sentence-level selection scores to weight token-level distributions. On the ShARC benchmark (blind, held-out test set), EMT achieves new state-of-the-art results of 74.8% micro-averaged decision accuracy and 46.0 BLEU4. We also show that EMT is more interpretable by visualizing the entailment-oriented reasoning process as the conversation flows. Code and models will be released to facilitate research along this line.
@@ -4215,7 +4215,7 @@
     venue: conference
     pages: 2920–-2935
     booktitle: >
-      Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL'20)
+      Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (<b>ACL'20</b>)
     doc-url: https://www.aclweb.org/anthology/2020.acl-main.263/
     abstract: >
       Training on only perfect Standard English cor- pora predisposes pre-trained neural networks to discriminate against minorities from non- standard linguistic backgrounds. We perturb the inflectional morphology of words to craft plausible and semantically similar adversarial examples that expose these biases in popu- lar models, e.g., BERT and Transformer, and show that adversarially finetuning them for a single epoch significantly improves robustness without sacrificing performance on clean data.
@@ -4281,7 +4281,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      European Conference on Computer Vision (ECCV'20)
+      European Conference on Computer Vision (<b>ECCV'20</b>)
     doc-url: 
     abstract: >
       Change Captioning is a task that aims to describe the difference between images with natural language. Most existing methods treat this problem as a difference judgment without the existence of distractors such as viewpoint changes. However, in practice, viewpoint changes happen often and can overwhelm the real difference to be described. In this paper, we propose a novel visual encoder to explicitly distinguish viewpoint changes from real changes in the change captioning task. Moreover, we further simulate the attention preference of humans and propose a novel reinforcement learning process to fine-tune the attention directly with the language evaluation rewards. Extensive experimental results show that our method outperforms the state-of-the-art approaches by a large margin in both Spot-the-Diff and CLEVR-Change datasets.
@@ -4316,7 +4316,7 @@
     venue: conference
     pages: xx - xx
     booktitle: >
-      Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI'20)
+      Thirty-Fourth AAAI Conference on Artificial Intelligence (<b>AAAI'20</b>)
     doc-url: https://arxiv.org/abs/1911.09812
     abstract: >
       Recently, neural methods have achieved state-of-the-art (SOTA) results in Named Entity Recognition (NER) tasks for many languages without the need for manually crafted features. However, these models still require manually annotated training data, which is not available for many languages. In this paper, we propose an unsupervised cross-lingual NER model that can transfer knowledge from one language to another in a completely unsupervised way without relying on any bilingual dictionary or parallel data. Our model achieves this through end-to-end parameter sharing and adapting to the target domain through fine-tuning. Experiments on four different languages demonstrate the effectiveness of our approach, outperforming existing models by a good margin and setting a new SOTA for each language pair.
@@ -4352,7 +4352,7 @@
     venue: conference
     pages: xx - xx
     booktitle: >
-      21st Annual Conference of the International Speech Communication Association (Interspeech'20)
+      21st Annual Conference of the International Speech Communication Association (<b>Interspeech'20</b>)
     doc-url: 
     abstract: >
       Transformer model has made great progress in speech recognition. However, compared with models with iterative computation, transformer model has fixed encoder and decoder depth, thus losing the recurrent inductive bias. Besides, finding the optimal number of layers involves trial-and-error attempts. In this paper, the universal speech transformer is proposed, which to the best of our knowledge, is the first work to use universal transformer for speech recognition. It generalizes the speech transformer with dynamic numbers of encoder/decoder layers, which can relieve the burden of tuning depth related hyperparameters. Universal transformer adds the depth and positional embeddings repeatedly for each layer, which dilutes the acoustic information carried by hidden representation, and it also performs a partial update of hidden vectors between layers, which is less efficient especially on the very deep models. For better use of universal transformer, we modify its processing framework by removing the depth embedding and only adding the positional embedding once at transformer encoder frontend. Furthermore, to update the hidden vectors efficiently, especially on the very deep models, we adopt a full update. Experiments on LibriSpeech, Switchboard and AISHELL-1 datasets show that our model outperforms a baseline by 3.88%-13.7%, and surpasses other model with less computation cost.
@@ -4388,7 +4388,7 @@
     venue: conference
     pages: xx - xx
     booktitle: >
-      21st Annual Conference of the International Speech Communication Association (Interspeech'20)
+      21st Annual Conference of the International Speech Communication Association (<b>Interspeech'20</b>)
     doc-url: 
     abstract: >
       End-to-end models have been introduced into automatic speech recognition (ASR) successfully and achieved superior performance compared with conventional hybrid systems, especially with the newly proposed transformer model. However, speaker mismatch between training and test data remains a problem, and speaker adaptation for transformer model can be further improved. In this paper, we propose to conduct speaker aware training for ASR in transformer model. Specifically, we propose to embed speaker knowledge through a persistent memory model into speech transformer encoder at utterance level. The speaker information is represented by a number of static speaker i-vectors, which is concatenated to speech utterance at each encoder self-attention layer. Persistent memory is thus formed by carrying speaker information through the depth of encoder. The speaker knowledge is captured from self-attention between speech and persistent memory vector in encoder. Experiment results on LibriSpeech, Switchboard and AISHELL-1 ASR task show that our proposed model brings relative 4.7%-12.5% word error rate (WER) reductions, and achieves superior results compared with other models with the same objective. Furthermore, our model brings relative 2.1%-8.3% WER reductions compared with the first persistent memory model used in ASR.
@@ -4424,7 +4424,7 @@
     venue: conference
     pages: xx - xx
     booktitle: >
-      21st Annual Conference of the International Speech Communication Association (Interspeech'20)
+      21st Annual Conference of the International Speech Communication Association (<b>Interspeech'20</b>)
     doc-url: 
     abstract: >
       Transformer, a state-of-the-art neural network architecture, has been used successfully for different sequence-to-sequence transformation tasks. This model architecture disperses the attention distribution over entire input to learn long-term dependencies, which is important for some sequence-to-sequence tasks, such as neural machine translation and text summarization. However, automatic speech recognition (ASR) has a characteristic to have monotonic alignment between text output and speech input. Techniques like Connectionist Temporal Classification (CTC), RNN Transducer (RNN-T) and Recurrent Neural Aligner (RNA) build on top of this monotonic alignment and use local encoded speech representations for corresponding token prediction. In this paper, we present an effective cross attention biasing technique in transformer that takes monotonic alignment between text output and speech input into consideration by making use of cross attention weights. Specifically, a Gaussian mask is applied on cross attention weights to limit the input speech context range locally given alignment information. We further introduce a regularizer for alignment regularization. Experiments on LibriSpeech dataset find that our proposed model can obtain improved output-input alignment for ASR, and yields 14.5%-25.0% relative word error rate (WER) reductions.
