@@ -14,7 +14,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      Proceedings of the Document Understanding Conference (DUC'07)
+      Proceedings of the Document Understanding Conference (<b>DUC'07</b>)
     doc-url: papers/chali-joty-duc-07
     abstract: >
       This paper presents the summarization technique implemented by the University of Lethbridge summarizer in order to generate summaries of maximum 250 words from multiple documents. We describe our system for query-focused summarization based on an enhanced, feature-based framework.
