@@ -4562,8 +4562,11 @@
     venue: journal
     journal: Journal of Medical Internet Research (JMIR)
     doc-url: http://dx.doi.org/10.2196/17158
+    abstract: >
+      
     bibtex: >
       @article{Car-et-al-jmir-20,
+       abstract = {},
        author = {Lorainne Car and Dhakshenya Dhinagaran and Bhone Kyaw and Tobias Kowatsch and Shafiq Joty and Yin Theng and Rifat Atun},
        doi = {doi:10.2196/17158},
        journal = {Journal of Medical Internet Research (JMIR)},
