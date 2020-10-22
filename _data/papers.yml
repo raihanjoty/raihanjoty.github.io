@@ -4354,7 +4354,7 @@
     pages: xx - xx
     booktitle: >
       21st Annual Conference of the International Speech Communication Association (<b>Interspeech'20</b>)
-    doc-url: http://www.interspeech2020.org/index.php?m=content&c=index&a=show&catid=418&id=1328
+    doc-url: 
     abstract: >
       Transformer model has made great progress in speech recognition. However, compared with models with iterative computation, transformer model has fixed encoder and decoder depth, thus losing the recurrent inductive bias. Besides, finding the optimal number of layers involves trial-and-error attempts. In this paper, the universal speech transformer is proposed, which to the best of our knowledge, is the first work to use universal transformer for speech recognition. It generalizes the speech transformer with dynamic numbers of encoder/decoder layers, which can relieve the burden of tuning depth related hyperparameters. Universal transformer adds the depth and positional embeddings repeatedly for each layer, which dilutes the acoustic information carried by hidden representation, and it also performs a partial update of hidden vectors between layers, which is less efficient especially on the very deep models. For better use of universal transformer, we modify its processing framework by removing the depth embedding and only adding the positional embedding once at transformer encoder frontend. Furthermore, to update the hidden vectors efficiently, especially on the very deep models, we adopt a full update. Experiments on LibriSpeech, Switchboard and AISHELL-1 datasets show that our model outperforms a baseline by 3.88%-13.7%, and surpasses other model with less computation cost.
     bibtex: >
@@ -4363,7 +4363,7 @@
        address = {Shanghai, China},
        author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
        booktitle = {21st Annual Conference of the International Speech Communication Association},
-       link = {http://www.interspeech2020.org/index.php?m=content&c=index&a=show&catid=418&id=1328},
+       link = {},
        month = {October},
        pages = {xx -- xx},
        publisher = {IEEE},
@@ -4390,7 +4390,7 @@
     pages: xx - xx
     booktitle: >
       21st Annual Conference of the International Speech Communication Association (<b>Interspeech'20</b>)
-    doc-url: https://indico2.conference4me.psnc.pl/event/35/contributions/3110/attachments/650/681/Mon-3-7-4.pdf
+    doc-url: 
     abstract: >
       End-to-end models have been introduced into automatic speech recognition (ASR) successfully and achieved superior performance compared with conventional hybrid systems, especially with the newly proposed transformer model. However, speaker mismatch between training and test data remains a problem, and speaker adaptation for transformer model can be further improved. In this paper, we propose to conduct speaker aware training for ASR in transformer model. Specifically, we propose to embed speaker knowledge through a persistent memory model into speech transformer encoder at utterance level. The speaker information is represented by a number of static speaker i-vectors, which is concatenated to speech utterance at each encoder self-attention layer. Persistent memory is thus formed by carrying speaker information through the depth of encoder. The speaker knowledge is captured from self-attention between speech and persistent memory vector in encoder. Experiment results on LibriSpeech, Switchboard and AISHELL-1 ASR task show that our proposed model brings relative 4.7%-12.5% word error rate (WER) reductions, and achieves superior results compared with other models with the same objective. Furthermore, our model brings relative 2.1%-8.3% WER reductions compared with the first persistent memory model used in ASR.
     bibtex: >
@@ -4399,7 +4399,7 @@
        address = {Shanghai, China},
        author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
        booktitle = {21st Annual Conference of the International Speech Communication Association},
-       link = {https://indico2.conference4me.psnc.pl/event/35/contributions/3110/attachments/650/681/Mon-3-7-4.pdf},
+       link = {},
        month = {October},
        pages = {xx -- xx},
        publisher = {IEEE},
@@ -4426,7 +4426,7 @@
     pages: xx - xx
     booktitle: >
       21st Annual Conference of the International Speech Communication Association (<b>Interspeech'20</b>)
-    doc-url: https://indico2.conference4me.psnc.pl/event/35/contributions/3935/attachments/977/1016/Thu-3-10-8.pdf
+    doc-url: 
     abstract: >
       Transformer, a state-of-the-art neural network architecture, has been used successfully for different sequence-to-sequence transformation tasks. This model architecture disperses the attention distribution over entire input to learn long-term dependencies, which is important for some sequence-to-sequence tasks, such as neural machine translation and text summarization. However, automatic speech recognition (ASR) has a characteristic to have monotonic alignment between text output and speech input. Techniques like Connectionist Temporal Classification (CTC), RNN Transducer (RNN-T) and Recurrent Neural Aligner (RNA) build on top of this monotonic alignment and use local encoded speech representations for corresponding token prediction. In this paper, we present an effective cross attention biasing technique in transformer that takes monotonic alignment between text output and speech input into consideration by making use of cross attention weights. Specifically, a Gaussian mask is applied on cross attention weights to limit the input speech context range locally given alignment information. We further introduce a regularizer for alignment regularization. Experiments on LibriSpeech dataset find that our proposed model can obtain improved output-input alignment for ASR, and yields 14.5%-25.0% relative word error rate (WER) reductions.
     bibtex: >
@@ -4435,7 +4435,7 @@
        address = {Shanghai, China},
        author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
        booktitle = {21st Annual Conference of the International Speech Communication Association},
-       link = {https://indico2.conference4me.psnc.pl/event/35/contributions/3935/attachments/977/1016/Thu-3-10-8.pdf},
+       link = {},
        month = {October},
        pages = {xx -- xx},
        publisher = {IEEE},
@@ -4516,7 +4516,7 @@
   -
     layout: paper
     paper-type: article #changes display of reference in paper list
-    year: Dec, 2020
+    year: 2020
     selected: yes
     title: >
       Video Captioning with Boundary-Aware Hierarchical Language Decoding and Joint Video Prediction
@@ -4528,7 +4528,7 @@
     errata: #if you have errata, insert here
     venue: journal
     journal: Neurocomputing
-    doc-url: https://www.sciencedirect.com/science/article/abs/pii/S0925231220313023
+    doc-url: 
     abstract: >
       The explosion of video data on the Internet requires effective and efficient technology to generate captions automatically for people, especially those who are visually im- paired. Despite the great progress of video captioning research, particularly in video feature encoding, the language decoder is still largely based on the prevailing recurrent structure such as LSTM, which tends to prefer frequent words that align with the video and do not generalize well to new videos. In this paper, we propose a boundary-aware hierarchical language decoder for video captioning, which consists of a high-level de- coder, working as a global (caption-level) language model, and a low-level decoder, working as a local (phrase-level) language model. Most importantly, we introduce a binary gate into the low-level language decoder to detect the phrasal boundaries. To- gether with other advanced components including a joint video prediction module, a shared soft attention, and a boundary-aware video encoding module, our integrated video captioning framework can discover hierarchical language information and dis- tinguish the subjects from the objects of the verbs in a sentence, which are usually confusing during caption generation. Extensive experiments on two widely-used video captioning datasets, MSR-Video-to-Text (MSR-VTT) and YouTube-to-Text (MSVD), show that our method is highly competitive, compared with the state-of-the-art methods.
     bibtex: >
@@ -4537,12 +4537,12 @@
        author = {Xiangxi Shi and Jianfei Cai and Jiuxiang Gu and Shafiq Joty},
        doi = {},
        journal = {Neurocomputing},
-       link = {https://www.sciencedirect.com/science/article/abs/pii/S0925231220313023},
+       link = {},
        number = {},
        publisher = {Elsevier},
        title = {Video Captioning with Boundary-Aware Hierarchical Language Decoding and Joint Video Prediction},
-       volume = {417},
-       year = {Dec, 2020}
+       volume = {},
+       year = {2020}
       }
       
       
@@ -4561,19 +4561,13 @@
     errata: #if you have errata, insert here
     venue: journal
     journal: Journal of Medical Internet Research (JMIR)
-    doc-url: https://www.jmir.org/2020/8/e17158/
-    abstract: >
-      Background: Conversational agents, also known as chatbots, are computer programs designed to simulate human text or verbal conversations. They are increasingly used in a range of fields, including health care. By enabling better accessibility, personalization, and efficiency, conversational agents have the potential to improve patient care. Objective: This study aimed to review the current applications, gaps, and challenges in the literature on conversational agents in health care and provide recommendations for their future research, design, and application. Methods: We performed a scoping review. A broad literature search was performed in MEDLINE (Medical Literature Analysis and Retrieval System Online; Ovid), EMBASE (Excerpta Medica database; Ovid), PubMed, Scopus, and Cochrane Central with the search terms “conversational agents,” “conversational AI,” “chatbots,” and associated synonyms. We also searched the gray literature using sources such as the OCLC (Online Computer Library Center) WorldCat database and ResearchGate in April 2019. Reference lists of relevant articles were checked for further articles. Screening and data extraction were performed in parallel by 2 reviewers. The included evidence was analyzed narratively by employing the principles of thematic analysis. Results: The literature search yielded 47 study reports (45 articles and 2 ongoing clinical trials) that matched the inclusion criteria. The identified conversational agents were largely delivered via smartphone apps (n=23) and used free text only as the main input (n=19) and output (n=30) modality. Case studies describing chatbot development (n=18) were the most prevalent, and only 11 randomized controlled trials were identified. The 3 most commonly reported conversational agent applications in the literature were treatment and monitoring, health care service support, and patient education.
+    doc-url: http://dx.doi.org/10.2196/17158
     bibtex: >
       @article{Car-et-al-jmir-20,
-       abstract = {Background: Conversational agents, also known as chatbots, are computer programs designed to simulate human text or verbal conversations. They are increasingly used in a range of fields, including health care. By enabling better accessibility, personalization, and efficiency, conversational agents have the potential to improve patient care.
-      Objective: This study aimed to review the current applications, gaps, and challenges in the literature on conversational agents in health care and provide recommendations for their future research, design, and application.
-      Methods: We performed a scoping review. A broad literature search was performed in MEDLINE (Medical Literature Analysis and Retrieval System Online; Ovid), EMBASE (Excerpta Medica database; Ovid), PubMed, Scopus, and Cochrane Central with the search terms “conversational agents,” “conversational AI,” “chatbots,” and associated synonyms. We also searched the gray literature using sources such as the OCLC (Online Computer Library Center) WorldCat database and ResearchGate in April 2019. Reference lists of relevant articles were checked for further articles. Screening and data extraction were performed in parallel by 2 reviewers. The included evidence was analyzed narratively by employing the principles of thematic analysis.
-      Results: The literature search yielded 47 study reports (45 articles and 2 ongoing clinical trials) that matched the inclusion criteria. The identified conversational agents were largely delivered via smartphone apps (n=23) and used free text only as the main input (n=19) and output (n=30) modality. Case studies describing chatbot development (n=18) were the most prevalent, and only 11 randomized controlled trials were identified. The 3 most commonly reported conversational agent applications in the literature were treatment and monitoring, health care service support, and patient education.},
        author = {Lorainne Car and Dhakshenya Dhinagaran and Bhone Kyaw and Tobias Kowatsch and Shafiq Joty and Yin Theng and Rifat Atun},
        doi = {doi:10.2196/17158},
        journal = {Journal of Medical Internet Research (JMIR)},
-       link = {https://www.jmir.org/2020/8/e17158/},
+       link = {http://dx.doi.org/10.2196/17158},
        number = {8},
        pmid = {},
        title = {Conversational agents in healthcare: a scoping review and conceptual analysis},
