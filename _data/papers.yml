@@ -4549,7 +4549,7 @@
   -
     layout: paper
     paper-type: article #changes display of reference in paper list
-    year: Aug, 2020
+    year: 2020
     selected: yes
     title: >
       Conversational agents in healthcare: a scoping review and conceptual analysis
@@ -4560,7 +4560,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
-    journal: Journal of Medical Internet Research (JMIR)
+    journal: Journal of Medical Internet Research (forthcoming)
     doc-url: http://dx.doi.org/10.2196/17158
     abstract: >
       
@@ -4569,13 +4569,13 @@
        abstract = {},
        author = {Lorainne Car and Dhakshenya Dhinagaran and Bhone Kyaw and Tobias Kowatsch and Shafiq Joty and Yin Theng and Rifat Atun},
        doi = {doi:10.2196/17158},
-       journal = {Journal of Medical Internet Research (JMIR)},
+       journal = {Journal of Medical Internet Research (forthcoming)},
        link = {http://dx.doi.org/10.2196/17158},
-       number = {8},
+       number = {},
        pmid = {},
        title = {Conversational agents in healthcare: a scoping review and conceptual analysis},
-       volume = {22},
-       year = {Aug, 2020}
+       volume = {},
+       year = {2020}
       }
       
       
