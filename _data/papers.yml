@@ -4527,7 +4527,6 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
-    pages: 347-356
     journal: Neurocomputing
     doc-url: https://www.sciencedirect.com/science/article/abs/pii/S0925231220313023
     abstract: >
@@ -4540,7 +4539,6 @@
        journal = {Neurocomputing},
        link = {https://www.sciencedirect.com/science/article/abs/pii/S0925231220313023},
        number = {},
-       pages = {347-356},
        publisher = {Elsevier},
        title = {Video Captioning with Boundary-Aware Hierarchical Language Decoding and Joint Video Prediction},
        volume = {417},
