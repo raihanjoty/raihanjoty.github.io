@@ -1930,15 +1930,16 @@ students’ learning of the query optimization topic.}
 
 %% 2020
 
+
 @inproceedings{phi-et-al-arxiv-19,
   title="{Data Diversification: An Elegant Strategy for Neural Machine Translation}",
   author={Xuan-Phi Nguyen and Shafiq Joty and Wu Kui and Ai Ti Aw},
   booktitle = {2020 Conference on Neural Information Processing Systems},
-  address = {Punta Cana, Dominican Republic},
+  address = {Vancouver, Canada},
   pages = {xx–-xx},
   series = {NeurIPS'20},
   year={2020},
-  url = {https://arxiv.org/abs/1911.01986},
+  url = {https://proceedings.neurips.cc/paper/2020/file/7221e5c8ec6b08ef6d3f9ff3ce6eb1d1-Paper.pdf},
   abstract={A common approach to improve neural machine translation is to invent new architectures. However, the research process of designing and refining such new models is often exhausting. Another approach is to resort to huge extra monolingual data to conduct semi-supervised training, like back-translation. But extra monolingual data is not always available, especially for low resource languages. In this paper, we propose to diversify the available training data by using multiple forward and backward peer models to augment the original training dataset. Our method does not require extra data like back-translation, nor additional computations and parameters like using pretrained models. Our data diversification method achieves state-of-the-art BLEU score of 30.7 in the WMT'14 English-German task. It also consistently and substantially improves translation quality in 8 other translation tasks: 4 IWSLT tasks (English-German and English-French) and 4 low-resource translation tasks (English-Nepali and English-Sinhala).}
 }
 
@@ -1946,11 +1947,11 @@ students’ learning of the query optimization topic.}
   title="{Self-Supervised Relationship Probing}",
   author={Jiuxiang Gu and Jason Kuen and Shafiq Joty and Jianfei Cai and Vlad Morariu and Handong Zhao and Tong Sun},
   booktitle = {2020 Conference on Neural Information Processing Systems},
-  address = {Punta Cana, Dominican Republic},
+  address = {Vancouver, Canada},
   pages = {xx–-xx},
   series = {NeurIPS'20},
   year={2020},
-  url = {},
+  url = {https://papers.nips.cc/paper/2020/file/13f320e7b5ead1024ac95c3b208610db-Paper.pdf},
   abstract={Structured representations of images according to visual relationships are beneficial for many vision and vision-language applications. However, current human-annotated visual relationship datasets suffer from the long-tailed predicate distribution problem which limits the potentials of visual relationship models. In this work, we introduce a self-supervised method that implicitly learns the visual relationships without relying on any ground-truth visual relationship annotations. Our method relies on 1) intra- and inter-modality encodings to respectively model relationships within each modality separately and jointly, and 2) relationship probing, which seeks to discover the graph structure within each modality. By leveraging masked language modeling, contrastive learning, and dependency tree distances for self-supervision, our method can learn better object features as well as implicit visual relationships. We verify the effectiveness of our proposed method on various vision-language tasks that benefit from improved visual relationship understanding.}
 }
 
@@ -1961,11 +1962,11 @@ students’ learning of the query optimization topic.}
   year={2020},
   series = {EMNLP'20},
   address = {Punta Cana, Dominican Republic},
-  pages = {xx–-xx},
+  pages = {2712–-2723},
   numpages = {9},
   publisher = {ACL},
   booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
-  url = {https://arxiv.org/abs/2004.13889},
+  url = {https://www.aclweb.org/anthology/2020.emnlp-main.215/},
   abstract={Most of the successful and predominant methods for bilingual lexicon induction (BLI) are mapping-based, where a linear mapping function is learned with the assumption that the word embedding spaces of different languages exhibit similar geometric structures (i.e., approximately isomorphic). However, several recent studies have criticized this simplified assumption showing that it does not hold in general even for closely related languages. In this work, we propose a novel semi-supervised method to learn cross-lingual word embeddings for BLI. Our model is independent of the isomorphic assumption and uses nonlinear mapping in the latent space of two independently trained auto-encoders. Through extensive experiments on fifteen (15) different language pairs (in both directions) comprising resource-rich and low-resource languages from two different datasets, we demonstrate that our method outperforms existing models by a good margin. Ablation studies show the importance of different model components and the necessity of non-linear mapping.},
 }
 
@@ -1976,10 +1977,10 @@ students’ learning of the query optimization topic.}
   series = {EMNLP'20},
   year = {2020},
   address = {Punta Cana, Dominican Republic},
-  pages = {XX–-XX},
+  pages = {2267–2279},
   numpages = {9},
   publisher = {ACL},
-  url       = {}, 
+  url       = {https://www.aclweb.org/anthology/2020.emnlp-main.177/}, 
   abstract = {Popular Neural Machine Translation model training uses strategies like backtranslation to improve BLEU scores, requiring large amounts of additional data and training. We introduce a class of conditional generative-discriminative hybrid losses that we use to finetune a trained machine translation model. Through a combination of targeted finetuning objectives and intuitive re-use of the training data the model has failed to adequately learn from, we improve the model performance of both a sentence-level and a simple contextual model without using any additional data. We target the improvement of pronoun translations through our finetuning and evaluate our models on a pronoun benchmark testset. Our sentence-level model shows a 0.5 BLEU improvement on both the WMT14 and the IWSLT13 De-En testsets, while our simple contextual model achieves the best results, improving from 31.81 to 32 BLEU on WMT14 De-En testset, and from 32.10 to 33.13 on the IWSLT13 De-En testset, with corresponding improvements in pronoun translation.},
 } 
 
@@ -1990,11 +1991,11 @@ students’ learning of the query optimization topic.}
   year={2020},
   series = {EMNLP'20},
   address = {Punta Cana, Dominican Republic},
-  pages = {xx–-xx},
+  pages = {5647–-5663},
   numpages = {9},
   publisher = {ACL},
   booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
-  url = {https://arxiv.org/abs/2004.14870},
+  url = {https://www.aclweb.org/anthology/2020.emnlp-main.455/},
   abstract={Morphological inflection is a process of word formation where base words are modified to express different grammatical categories such as tense, case, voice, person, or number. World Englishes, such as Colloquial Singapore English (CSE) and African American Vernacular English (AAVE), differ from Standard English dialects in inflection use. Although comprehension by human readers is usually unimpaired by non-standard inflection use, NLP systems are not so robust. We introduce a new Base-Inflection Encoding of English text that is achieved by combining linguistic and statistical techniques. Fine-tuning pre-trained NLP models for downstream tasks under this novel encoding achieves robustness to non-standard inflection use while maintaining performance on Standard English examples. Models using this encoding also generalize better to non-standard dialects without explicit training. We suggest metrics to evaluate tokenizers and extensive model-independent analyses demonstrate the efficacy of the encoding when used together with data-driven subword tokenizers.},
 }
 
@@ -2005,10 +2006,10 @@ students’ learning of the query optimization topic.}
   series = {EMNLP'20},
   year = {2020},
   address = {Punta Cana, Dominican Republic},
-  pages = {XX–-XX},
+  pages = {6581–-6591},
   numpages = {9},
   publisher = {ACL},
-  url       = {https://arxiv.org/abs/2010.07785}, 
+  url       = {https://www.aclweb.org/anthology/2020.emnlp-main.533/}, 
   abstract = {While participants in a multi-party multi-turn
 conversation simultaneously engage in multiple conversation topics, existing response selection methods are developed mainly focusing on a two-party single-conversation scenario. Hence, the prolongation and transition
 of conversation topics are ignored by current
@@ -2031,16 +2032,14 @@ show state-of-the-art results in response selection and topic disentanglement ta
   series = {EMNLP'20},
   year = {2020},
   address = {Punta Cana, Dominican Republic},
-  pages = {XX–-XX},
+  pages = {6321–-6330},
   numpages = {9},
   publisher = {ACL},
-  url       = {https://arxiv.org/pdf/2010.11080.pdf}, 
+  url       = {https://www.aclweb.org/anthology/2020.emnlp-main.512/}, 
   abstract = {Huge amounts of textual conversations occur online everyday, where multiple conversations take place concurrently. Interleaved conversations lead to difficulties in not only following the ongoing discussions but also extracting relevant information from simultaneous messages. Conversation disentanglement aims to separate intermingled messages into detached conversations. However existing disentanglement methods rely mostly on hand-crafted features that are dataset specific, which hinders generalization and adaptability. In this work,
 we propose an end-to-end online framework for conversation disentanglement that avoids time-consuming domain-specific feature engineering. We design a novel way to embed the whole utterance that comprises timestamp, speaker and message text, and propose a custom attention mechanism that models disentanglement as a pointing problem while effectively capturing inter-utterance interactions in an end-to-end fashion. We also introduce a joint-learning objective to better capture contextual information.
 Our experiments on the Ubuntu IRC dataset show that our method achieves state-of-the-art performance in both link and conversation prediction tasks.},
 } 
-
-
 
 
 @inproceedings{yue-et-al-arxiv-20,
@@ -2049,11 +2048,11 @@ Our experiments on the Ubuntu IRC dataset show that our method achieves state-of
   year={2020},
   series = {EMNLP'20},
   address = {Punta Cana, Dominican Republic},
-  pages = {xx–-xx},
+  pages = {3325–-3338},
   numpages = {9},
   publisher = {ACL},
   booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
-  url = {https://arxiv.org/abs/2004.13278},
+  url = {https://www.aclweb.org/anthology/2020.emnlp-main.269/},
   abstract={Visual dialog is a challenging vision-language task, where a dialog agent needs to answer a series of questions through reasoning on the image content and dialog history. Prior work has mostly focused on various attention mechanisms to model such intricate interactions. By contrast, in this work, we propose VD-BERT, a simple yet effective framework of unified vision-dialog Transformer that leverages the pretrained BERT language models for Visual Dialog tasks. The model is unified in that (1) it captures all the interactions between the image and the multi-turn dialog using a single-stream Transformer encoder, and (2) it supports both answer ranking and answer generation seamlessly through the same architecture. More crucially, we adapt BERT for the effective fusion of vision and dialog contents via visually grounded training. Without the need of pretraining on external vision-language data, our model yields new state of the art, achieving the top position in both single-model and ensemble settings (74.54 and 75.35 NDCG scores) on the visual dialog leaderboard.},
 }
 
@@ -2065,10 +2064,10 @@ Our experiments on the Ubuntu IRC dataset show that our method achieves state-of
   series = {EMNLP'20},
   year = {2020},
   address = {Punta Cana, Dominican Republic},
-  pages = {XX–-XX},
+  pages = {2439–-2449},
   numpages = {9},
   publisher = {ACL},
-  url       = {https://arxiv.org/abs/2010.01838}, 
+  url       = {https://www.aclweb.org/anthology/2020.emnlp-main.191/}, 
   abstract = {Document interpretation and dialog understanding are the two major challenges for conversational machine reading. In this work, we propose DISCERN, a discourse-aware entailment reasoning network to strengthen the connection and enhance the understanding for both document and dialog. Specifically, we split the document into clause-like elementary discourse units (EDU) using a pre-trained discourse segmentation model, and we train our model in a weakly-supervised manner to predict whether each EDU is entailed by the user feedback in a conversation. Based on the learned EDU and entailment representations, we either reply to the user our final decision “yes/no/irrelevant” of the initial question, or generate a follow-up question to inquiry more information. Our experiments on the ShARC benchmark (blind, held-out test set) show that DISCERN achieves state-of-the-art results of 78.3% macro-averaged accuracy on decision making and 64.0 BLEU1 on follow-up question generation.},
 } 
 
@@ -2076,7 +2075,7 @@ Our experiments on the Ubuntu IRC dataset show that our method achieves state-of
 @inproceedings{bosheng-et-al-emnlp-20,
  author = {Bosheng Ding and Linlin Liu and Lidong Bing and Canasai Kruengkrai and Thien Hai Nguyen and Shafiq Joty and Luo Si and Chunyan Miao
 },
- title = {An Effective Data Augmentation Method for Low-resource Tagging Tasks},
+ title = {DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks},
   booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
   series = {EMNLP'20},
   year = {2020},
@@ -2084,7 +2083,7 @@ Our experiments on the Ubuntu IRC dataset show that our method achieves state-of
   pages = {XX–-XX},
   numpages = {9},
   publisher = {ACL},
-  url       = {}, 
+  url       = {https://www.aclweb.org/anthology/2020.emnlp-main.488/}, 
   abstract = {Data augmentation techniques have been widely used to improve machine learning performance. In this work, we propose a novel method to generate high quality synthetic data for low-resource tagging tasks with language models, where the language model is trained with the linearized labeled sentences. Our method is applicable to both supervised and semi-supervised settings. For the supervised setting, we conduct extensive experiments on named entity recognition (NER), part of speech (POS) and end-to-end target based sentiment analysis (E2E-TBSA) tasks. While for the semi-supervised setting, we evaluate our method on the NER task under the conditions of given unlabeled data only and unlabeled data plus a knowledge base. The results show that our method can consistently outperform the baselines, particularly when the given gold training data are less.},
 } 
 
@@ -2171,10 +2170,10 @@ abstract = {Incorporating hierarchical structures like constituency trees has be
   booktitle = {European Conference on Computer Vision},
   series = {ECCV'20},
   year = {2020},
-  address = {Punta Cana, Dominican Republic (online)},
+  address = {Virtual},
   pages = {xx–-xx},
   numpages = {10},
-  url       = {}, 
+  url       = {http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590562.pdf}, 
   abstract = {Change Captioning is a task that aims to describe the difference between images with natural language. Most existing methods treat this problem as a difference judgment without the existence of distractors such as viewpoint changes. However, in practice, viewpoint changes happen often and can overwhelm the real difference to be described. In this paper, we propose a novel visual encoder to explicitly distinguish viewpoint changes from real changes in the change captioning task. Moreover, we further simulate the attention preference of humans and propose a novel reinforcement learning process to fine-tune the attention directly with the language evaluation rewards. Extensive experimental results show that our method outperforms the state-of-the-art approaches by a large margin in both Spot-the-Diff and CLEVR-Change datasets.},
 } 
 
@@ -2189,8 +2188,8 @@ abstract = {Incorporating hierarchical structures like constituency trees has be
   series    = {AAAI'20},
   publisher = {AAAI},
   address   = {New York, USA}, 
-  pages     = {xx -- xx},
-  url={https://arxiv.org/abs/1911.09812},
+  pages     = {7415--7423},
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/6237},
   abstract = {Recently, neural methods have achieved state-of-the-art (SOTA) results in Named Entity Recognition (NER) tasks for many languages without the need for manually crafted features. However, these models still require manually annotated training data, which is not available for many languages. In this paper, we propose an unsupervised cross-lingual NER model that can transfer knowledge from one language to another in a completely unsupervised way without relying on any bilingual dictionary or parallel data. Our model achieves this through end-to-end parameter sharing and adapting to the target domain through fine-tuning. Experiments on four different languages demonstrate the effectiveness of our approach, outperforming existing models by a good margin and setting a new SOTA for each language pair.}
 }
 
