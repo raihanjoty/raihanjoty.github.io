@@ -4091,7 +4091,7 @@
     year: 2020
     selected: no
     title: >
-      Proceedings of SustaiNLP: Workshop on Simple and Efficient Natural Language Processing
+      Workshop on Simple and Efficient Natural Language Processing
     authors: Nafise Sadat Moosavi, Angela Fan, Vered Shwartz, Goran Glavas, Shafiq Joty, Alex Wang, and Thomas Wolf
     id: sustainlp-2020-sustainlp
     img: sustainlp-2020-sustainlp-fig
@@ -4099,16 +4099,19 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
+    booktitle: >
+      Proceedings of SustaiNLP (<b>EMNLP'20 Workshop</b>)
     doc-url: https://www.aclweb.org/anthology/2020.sustainlp-1.0
     bibtex: >
       @inproceedings{sustainlp-2020-sustainlp,
        address = {Punta Cana, Dominican Republic},
        author = {Moosavi, Nafise Sadat  and Fan, Angela  and  Shwartz, Vered  and Glavas, Goran  and Joty, Shafiq  and
       Wang, Alex  and Wolf, Thomas},
+       booktitle = {Proceedings of SustaiNLP},
        link = {https://www.aclweb.org/anthology/2020.sustainlp-1.0},
        publisher = {ACL},
        series = {EMNLP'20 Workshop},
-       title = {Proceedings of SustaiNLP: Workshop on Simple and Efficient Natural Language Processing},
+       title = {Workshop on Simple and Efficient Natural Language Processing},
        year = {2020}
       }
       
