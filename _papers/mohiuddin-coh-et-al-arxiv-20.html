@@ -1,56 +1,60 @@
 ---
 abstract: 'Although coherence modeling has come a long way in developing novel models,
-  their evaluation on downstream applications has largely been neglected. With the
-  advancements made by neural approaches in applications such as machine translation,
-  text summarization and dialogue systems, the need for standard coherence evaluation
-  is now more crucial than ever. In this paper, we propose to benchmark coherence
-  models on a number of synthetic and downstream tasks. In particular, we evaluate
-  well-known traditional and neural coherence models on sentence ordering tasks, and
-  also on three downstream applications including coherence evaluation for machine
-  translation, summarization and next utterance prediction. We also show model produced
-  rankings for pre-trained language model outputs as another use-case. Our results
-  demonstrate a weak correlation between the model performances in the synthetic tasks
-  and the downstream applications, motivating alternate evaluation methods for coherence
-  models. This work has led us to create a leaderboard to foster further research
-  in coherence modeling.
+  their evaluation on downstream applications for which they are purportedly developed
+  has largely been neglected. With the advancements made by neural approaches in applications
+  such as machine translation (MT), summarization and dialog systems, the need for
+  coherence evaluation of these tasks is now more crucial than ever. However, coherence
+  models are typically evaluated only on synthetic tasks, which may not be representative
+  of their performance in downstream applications. To investigate how representative
+  the synthetic tasks are of downstream use cases, we conduct experiments on benchmarking
+  well-known traditional and neural coherence models on synthetic sentence ordering
+  tasks, and contrast this with their performance on three downstream applications:
+  coherence evaluation for MT and summarization, and next utterance prediction in
+  retrieval-based dialog. Our results demonstrate a weak correlation between the model
+  performances in the synthetic tasks and the downstream applications, motivating
+  alternate training and evaluation methods for coherence models
 
   '
 authors: Tasnim Mohiuddin, Prathyusha Jwalapuram, Xiang Lin, and Shafiq Joty
-bibtex: "@article{mohiuddin-coh-et-al-arxiv-20,\n abstract = {Although coherence modeling\
-  \ has come a long way in developing novel models, their evaluation on downstream\
-  \ applications has largely been neglected. With the advancements made by neural\
-  \ approaches in applications such as machine translation, text summarization and\
-  \ dialogue systems, the need for standard coherence evaluation is now more crucial\
-  \ than ever. In this paper, we propose to benchmark coherence models on a number\
-  \ of synthetic and downstream tasks. In particular, we evaluate well-known traditional\
-  \ and neural coherence models on sentence ordering tasks, and also on three downstream\
-  \ applications including coherence evaluation for machine translation, summarization\
-  \ and next utterance prediction. We also show model produced rankings for pre-trained\
-  \ language model outputs as another use-case. Our results demonstrate a weak correlation\
-  \ between the model performances in the synthetic tasks and the downstream applications,\
-  \ motivating alternate evaluation methods for coherence models. This work has led\
-  \ us to create a leaderboard to foster further research in coherence modeling.},\n\
-  \ author = {Tasnim Mohiuddin and Prathyusha Jwalapuram and Xiang Lin and Shafiq\
-  \ Joty},\n issue = {},\n journal = {arXiv (* not peer reviewed)},\n link = {https://arxiv.org/abs/2004.13889},\n\
-  \ pages = {},\n publisher = {arXiv.org},\n title = {CohEval: Benchmarking Coherence\
-  \ Models},\n year = {2020}\n}\n"
+bibtex: "@inproceedings{mohiuddin-coh-et-al-arxiv-20,\n abstract = {Although coherence\
+  \ modeling has come a long way in developing novel models, their evaluation on downstream\
+  \ applications for which they are purportedly developed has largely been neglected.\
+  \ With the advancements made\nby neural approaches in applications such as machine\
+  \ translation (MT), summarization and dialog systems, the need for coherence evaluation\
+  \ of these tasks is now more crucial than ever. However, coherence models are typically\
+  \ evaluated only on synthetic tasks, which may not be representative of their performance\
+  \ in downstream applications. To investigate how representative the synthetic tasks\
+  \ are of downstream use cases, we conduct experiments on benchmarking well-known\
+  \ traditional and neural coherence models on synthetic sentence ordering tasks,\
+  \ and contrast this with their performance on three downstream applications: coherence\
+  \ evaluation for MT and summarization, and next utterance prediction in retrieval-based\
+  \ dialog. Our results demonstrate a weak correlation between the model performances\
+  \ in the synthetic tasks and the downstream applications, motivating alternate training\
+  \ and evaluation methods for coherence models},\n address = {Kyiv},\n author = {Tasnim\
+  \ Mohiuddin and Prathyusha Jwalapuram and Xiang Lin and Shafiq Joty},\n booktitle\
+  \ = {Proceedings of the European Chapter of the ACL},\n link = {https://arxiv.org/abs/2004.13889},\n\
+  \ numpages = {9},\n pages = {x–-x},\n publisher = {ACL},\n series = {EACL'21},\n\
+  \ title = {Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks},\n year\
+  \ = {2021}\n}\n"
+booktitle: 'Proceedings of the European Chapter of the ACL (<b>EACL''21</b>)
+
+  '
 code: null
 doc-url: https://arxiv.org/abs/2004.13889
 errata: null
 id: mohiuddin-coh-et-al-arxiv-20
 img: mohiuddin-coh-et-al-arxiv-20-fig
-journal: arXiv (* not peer reviewed)
 layout: singlepaper
-pages: null
-paper-type: article
+pages: x–-x
+paper-type: inproceedings
 picture: shafiq
-selected: true
-slides: null
-title: 'CohEval: Benchmarking Coherence Models
+selected: false
+slides: media/mohiuddin-coh-et-al-arxiv-20-slides.pdf
+title: 'Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks
 
   '
-venue: journal
-year: 2020
+venue: conference
+year: 2021
 ---
 
 {% include singlepaper.html paper=page %}

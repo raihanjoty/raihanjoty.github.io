@@ -4491,7 +4491,7 @@
     errata: #if you have errata, insert here
     venue: journal
     pages: 1 - 32
-    journal: Computational Linguistics (to be presented at ACL-2020)
+    journal: Computational Linguistics (presented at ACL-2020)
     doc-url: https://www.mitpressjournals.org/doi/abs/10.1162/coli_a_00374
     abstract: >
       Cross-lingual word embeddings learned from monolingual embeddings have a crucial role in many downstream tasks, ranging from machine translation to transfer learning. Adversarial training has shown impressive success in learning cross-lingual embeddings and the associated word translation task without any parallel data by mapping monolingual embeddings to a shared space. However, recent work has shown superior performance for non-adversarial methods in more challenging language pairs. In this article,  we investigate adversarial autoencoder for unsupervised word translation and propose two novel extensions to it that yield more stable training and improved results. Our method includes regularization terms to enforce cycle consistency and input reconstruction, and puts the target encoders as an adversary against the corresponding discriminator. We use two types of refinement procedures sequentially after obtaining the trained encoders and mappings from the adversarial training, namely, refinement with Procrustes solution and refinement with symmetric re-weighting. Extensive experimentations with European, non-European and low-resource languages from two different datasets show that our method achieves better performance than existing adversarial and non-adversarial approaches and is also competitive with the supervised system. Along with performing comprehensive ablation studies to understand the contribution of different components of our adversarial model, we also conduct a thorough analysis of the refinement procedures to understand their effects.
@@ -4499,7 +4499,7 @@
       @article{mohiuddin-joty-cl-19,
        abstract = {Cross-lingual word embeddings learned from monolingual embeddings have a crucial role in many downstream tasks, ranging from machine translation to transfer learning. Adversarial training has shown impressive success in learning cross-lingual embeddings and the associated word translation task without any parallel data by mapping monolingual embeddings to a shared space. However, recent work has shown superior performance for non-adversarial methods in more challenging language pairs. In this article,  we investigate adversarial autoencoder for unsupervised word translation and propose two novel extensions to it that yield more stable training and improved results. Our method includes regularization terms to enforce cycle consistency and input reconstruction, and puts the target encoders as an adversary against the corresponding discriminator. We use two types of refinement procedures sequentially after obtaining the trained encoders and mappings from the adversarial training, namely, refinement with Procrustes solution and refinement with symmetric re-weighting. Extensive experimentations with European, non-European and low-resource languages from two different datasets show that our method achieves better performance than existing adversarial and non-adversarial approaches and is also competitive with the supervised system. Along with performing comprehensive ablation studies to understand the contribution of different components of our adversarial model, we also conduct a thorough analysis of the refinement procedures to understand their effects.},
        author = {Tasnim Mohiuddin and Shafiq Joty},
-       journal = {Computational Linguistics (to be presented at ACL-2020)},
+       journal = {Computational Linguistics (presented at ACL-2020)},
        link = {https://www.mitpressjournals.org/doi/abs/10.1162/coli_a_00374},
        number = {2},
        pages = {1 -- 32},
@@ -4786,34 +4786,42 @@
       
   -
     layout: paper
-    paper-type: article #changes display of reference in paper list
-    year: 2020
-    selected: yes
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2021
+    selected: no
     title: >
-      CohEval: Benchmarking Coherence Models
+      Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks
     authors: Tasnim Mohiuddin, Prathyusha Jwalapuram, Xiang Lin, and Shafiq Joty
     id: mohiuddin-coh-et-al-arxiv-20
     img: mohiuddin-coh-et-al-arxiv-20-fig
-    slides: # e.g. media/$ID.pptx
+    slides: media/mohiuddin-coh-et-al-arxiv-20-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
-    venue: journal
-    pages: 
-    journal: arXiv (* not peer reviewed)
+    venue: conference
+    pages: x–-x
+    booktitle: >
+      Proceedings of the European Chapter of the ACL (<b>EACL'21</b>)
     doc-url: https://arxiv.org/abs/2004.13889
     abstract: >
-      Although coherence modeling has come a long way in developing novel models, their evaluation on downstream applications has largely been neglected. With the advancements made by neural approaches in applications such as machine translation, text summarization and dialogue systems, the need for standard coherence evaluation is now more crucial than ever. In this paper, we propose to benchmark coherence models on a number of synthetic and downstream tasks. In particular, we evaluate well-known traditional and neural coherence models on sentence ordering tasks, and also on three downstream applications including coherence evaluation for machine translation, summarization and next utterance prediction. We also show model produced rankings for pre-trained language model outputs as another use-case. Our results demonstrate a weak correlation between the model performances in the synthetic tasks and the downstream applications, motivating alternate evaluation methods for coherence models. This work has led us to create a leaderboard to foster further research in coherence modeling.
+      Although coherence modeling has come a long way in developing novel models, their evaluation on downstream applications for which they are purportedly developed has largely been neglected. With the advancements made by neural approaches in applications such as machine translation (MT), summarization and dialog systems, the need for coherence evaluation of these tasks is now more crucial than ever. However, coherence models are typically evaluated only on synthetic tasks, which may not be representative of their performance in downstream applications. To investigate how representative the synthetic tasks are of downstream use cases, we conduct experiments on benchmarking well-known traditional and neural coherence models on synthetic sentence ordering tasks, and contrast this with their performance on three downstream applications: coherence evaluation for MT and summarization, and next utterance prediction in retrieval-based dialog. Our results demonstrate a weak correlation between the model performances in the synthetic tasks and the downstream applications, motivating alternate training and evaluation methods for coherence models
     bibtex: >
-      @article{mohiuddin-coh-et-al-arxiv-20,
-       abstract = {Although coherence modeling has come a long way in developing novel models, their evaluation on downstream applications has largely been neglected. With the advancements made by neural approaches in applications such as machine translation, text summarization and dialogue systems, the need for standard coherence evaluation is now more crucial than ever. In this paper, we propose to benchmark coherence models on a number of synthetic and downstream tasks. In particular, we evaluate well-known traditional and neural coherence models on sentence ordering tasks, and also on three downstream applications including coherence evaluation for machine translation, summarization and next utterance prediction. We also show model produced rankings for pre-trained language model outputs as another use-case. Our results demonstrate a weak correlation between the model performances in the synthetic tasks and the downstream applications, motivating alternate evaluation methods for coherence models. This work has led us to create a leaderboard to foster further research in coherence modeling.},
+      @inproceedings{mohiuddin-coh-et-al-arxiv-20,
+       abstract = {Although coherence modeling has come a long way in developing novel models, their evaluation on downstream applications for which they are purportedly developed has largely been neglected. With the advancements made
+      by neural approaches in applications such as machine translation (MT), summarization and dialog systems, the need for coherence evaluation of these tasks is now more crucial than ever. However, coherence models are typically
+      evaluated only on synthetic tasks, which may not be representative of their performance in downstream applications. To investigate how representative the synthetic tasks are of downstream use cases, we conduct experiments on
+      benchmarking well-known traditional and neural coherence models on synthetic sentence ordering tasks, and contrast this with their performance on three downstream applications: coherence evaluation for MT and summarization, and next utterance prediction in retrieval-based
+      dialog. Our results demonstrate a weak correlation between the model performances in
+      the synthetic tasks and the downstream applications, motivating alternate training and evaluation methods for coherence models},
+       address = {Kyiv},
        author = {Tasnim Mohiuddin and Prathyusha Jwalapuram and Xiang Lin and Shafiq Joty},
-       issue = {},
-       journal = {arXiv (* not peer reviewed)},
+       booktitle = {Proceedings of the European Chapter of the ACL},
        link = {https://arxiv.org/abs/2004.13889},
-       pages = {},
-       publisher = {arXiv.org},
-       title = {CohEval: Benchmarking Coherence Models},
-       year = {2020}
+       numpages = {9},
+       pages = {x–-x},
+       publisher = {ACL},
+       series = {EACL'21},
+       title = {Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks},
+       year = {2021}
       }
       
       

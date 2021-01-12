@@ -2252,7 +2252,7 @@ abstract = {Incorporating hierarchical structures like constituency trees has be
 @article{mohiuddin-joty-cl-19,
   title="{Unsupervised Word Translation with Adversarial Autoencoder}",
   author={Tasnim Mohiuddin and Shafiq Joty},
-  journal = {Computational Linguistics (to be presented at ACL-2020)},
+  journal = {Computational Linguistics (presented at ACL-2020)},
   publisher={MIT Press},
   Volume ={46}, 
   Number = {2},
@@ -2360,8 +2360,6 @@ Conclusions: The literature on conversational agents in health care is largely d
 
 
 
-
-
 @article{jwala-et-al-arxiv-20,
   title="{Can Your Context-Aware MT System Pass the DiP Benchmark Tests? : Evaluation Benchmarks for Discourse Phenomena in Machine Translation}",
   author={Prathyusha Jwalapuram and Barbara Rychalska and Shafiq Joty and Dominika Basaj},
@@ -2387,19 +2385,29 @@ Conclusions: The literature on conversational agents in health care is largely d
   abstract={Transfer learning has yielded state-of-the-art results in many supervised natural language processing tasks. However, annotated data for every target task in every target language is rare, especially for low-resource languages. In this work, we propose MultiMix, a novel data augmentation method for semi-supervised learning in zero-shot transfer learning scenarios. In particular, MultiMix targets to solve cross-lingual adaptation problems from a source (language) distribution to an unknown target (language) distribution assuming it has no training labels in the target language task. In its heart, MultiMix performs simultaneous self-training with data augmentation and unsupervised sample selection. To show its effectiveness, we have performed extensive experiments on zero-shot transfers for cross-lingual named entity recognition (XNER) and natural language inference (XNLI). Our experiments show sizeable improvements in both tasks outperforming the baselines by a good margin.},
 }
 
-@article{mohiuddin-coh-et-al-arxiv-20,
-  title="{CohEval: Benchmarking Coherence Models}",
-  author={Tasnim Mohiuddin and Prathyusha Jwalapuram and Xiang Lin and Shafiq Joty},
-  journal = {arXiv (* not peer reviewed)},
-  publisher={arXiv.org},
-  issue={},
-  pages={},
-  year={2020},
-  url = {https://arxiv.org/abs/2004.13889},
-  abstract={Although coherence modeling has come a long way in developing novel models, their evaluation on downstream applications has largely been neglected. With the advancements made by neural approaches in applications such as machine translation, text summarization and dialogue systems, the need for standard coherence evaluation is now more crucial than ever. In this paper, we propose to benchmark coherence models on a number of synthetic and downstream tasks. In particular, we evaluate well-known traditional and neural coherence models on sentence ordering tasks, and also on three downstream applications including coherence evaluation for machine translation, summarization and next utterance prediction. We also show model produced rankings for pre-trained language model outputs as another use-case. Our results demonstrate a weak correlation between the model performances in the synthetic tasks and the downstream applications, motivating alternate evaluation methods for coherence models. This work has led us to create a leaderboard to foster further research in coherence modeling.},
-}
 
 %% 2021
+
+
+@InProceedings{mohiuddin-coh-et-al-arxiv-20,
+  title="{Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks}",
+  author={Tasnim Mohiuddin and Prathyusha Jwalapuram and Xiang Lin and Shafiq Joty},
+  booktitle = {Proceedings of the European Chapter of the ACL},
+  series = {EACL'21},
+  address = {Kyiv},
+  pages = {x–-x},
+  year = {2021},
+  numpages = {9},
+  publisher = {ACL},
+  url = {https://arxiv.org/abs/2004.13889},
+  abstract={Although coherence modeling has come a long way in developing novel models, their evaluation on downstream applications for which they are purportedly developed has largely been neglected. With the advancements made
+by neural approaches in applications such as machine translation (MT), summarization and dialog systems, the need for coherence evaluation of these tasks is now more crucial than ever. However, coherence models are typically
+evaluated only on synthetic tasks, which may not be representative of their performance in downstream applications. To investigate how representative the synthetic tasks are of downstream use cases, we conduct experiments on
+benchmarking well-known traditional and neural coherence models on synthetic sentence ordering tasks, and contrast this with their performance on three downstream applications: coherence evaluation for MT and summarization,
+and next utterance prediction in retrieval-based
+dialog. Our results demonstrate a weak correlation between the model performances in
+the synthetic tasks and the downstream applications, motivating alternate training and evaluation methods for coherence models}
+}
 
 
 @InProceedings{wang-et-al-sigmod-21,
