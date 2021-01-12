@@ -4791,7 +4791,7 @@
     selected: no
     title: >
       Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks
-    authors: Tasnim Mohiuddin, Prathyusha Jwalapuram, Xiang Lin, and Shafiq Joty
+    authors: Tasnim Mohiuddin*, Prathyusha Jwalapuram*, Xiang Lin*, and Shafiq Joty*
     id: mohiuddin-coh-et-al-arxiv-20
     img: mohiuddin-coh-et-al-arxiv-20-fig
     slides: media/mohiuddin-coh-et-al-arxiv-20-slides.pdf
@@ -4813,7 +4813,7 @@
       dialog. Our results demonstrate a weak correlation between the model performances in
       the synthetic tasks and the downstream applications, motivating alternate training and evaluation methods for coherence models},
        address = {Kyiv},
-       author = {Tasnim Mohiuddin and Prathyusha Jwalapuram and Xiang Lin and Shafiq Joty},
+       author = {Tasnim Mohiuddin* and Prathyusha Jwalapuram* and Xiang Lin* and Shafiq Joty*},
        booktitle = {Proceedings of the European Chapter of the ACL},
        link = {https://arxiv.org/abs/2004.13889},
        numpages = {9},
