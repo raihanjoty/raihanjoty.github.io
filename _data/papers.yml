@@ -4861,3 +4861,36 @@
       }
       
       
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2021
+    selected: no
+    title: >
+      Preventing Early Endpointing for Online Automatic Speech Recognition
+    authors: Yingzhu Zhao, Chongjia Ni, Cheung-Chi Leung, Shafiq Joty, Eng Siong, and  Bin Ma
+    id: zhao-et-al-icassp-21
+    img: zhao-et-al-icassp-21-fig
+    slides: media/zhao-et-al-icassp-21-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx - xx
+    booktitle: >
+      International Conference on Acoustics, Speech, and Signal Processing (<b>ICASSP'21</b>)
+    doc-url: https://2021.ieeeicassp.org/Papers/AcceptedPapers.asp
+    bibtex: >
+      @inproceedings{zhao-et-al-icassp-21,
+       address = {Brighton, UK},
+       author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi Leung and Shafiq Joty and Eng Siong Chng and Bin Ma,},
+       booktitle = {International Conference on Acoustics, Speech, and Signal Processing},
+       link = {https://2021.ieeeicassp.org/Papers/AcceptedPapers.asp},
+       month = {May},
+       pages = {xx -- xx},
+       publisher = {IEEE},
+       series = {ICASSP'21},
+       title = {Preventing Early Endpointing for Online Automatic Speech Recognition},
+       year = {2021}
+      }
+      
+      
