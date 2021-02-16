@@ -1,46 +1,10 @@
+There are 2 primary goals in this project. The first involves creating datasets to benchmark NLP tasks in low resource languages. The second goal involves developing novel multilingual, multidialectal NLP systems. There have been a lot of work on speech and language processing with specific focus on low-resource languages. Several works that had already been carried out in I2R (ASTAR), such as participating in keyword spotting for low-resource language, etc. Hence, PI would need to be able to differentiate his work from theirs.
 
+Overall, this is a well written and interesting proposal. The PI has a strong background in the subject area and will be able to conduct the proposed study.
 
+The PI is advised to revise the abstract (currently scientific abstract is the same as the lay abstract in the proposal).
 
-
-
-
-
-NAME: QIN CHENGWEI
-Application number: R2011116
-BSc from Tshinghua University. 
-
-
-
-Hi there, 
-
-I am writing regarding . 
-Please find the attached resume. Here is 
-
-
-
-NAME: QIN CHENGWEI
-Application number: R2011116
-BSc from Tshinghua University 
-One of the top ranked in his batch 
-
-
-
-
-Miao Li: R2000678
-
-Chen Hailin: R1928574
-
-
-
-
-
-
-
-
-
-
-1. Ruochen Zhao — MSc from Harvard, BS from NYU (both are top US schools)
-2. Chengwei Qin - BSc Peking Univ (top school in China; good GPA and rank)
-3. Miao Li -- MS University of Chinese Academy of Sciences (UCAS), BS from Northeastern University (NEU); have top-tier papers
-
-
+Additional Comments from Reviewer(s):
+2. The scope is too big to be finished for Tier-2. Better to focus on one or two NLP tasks.
+3. Better to highligh the challenges of collecting the proposed benchmark datasets, and describe in detial the proposed solution to address the challenges.
+4. No concrete approaches are proposed, but only some state-of-the-art methods are mentioned in a high level.
