@@ -4790,6 +4790,114 @@
     year: 2021
     selected: no
     title: >
+      Code-Mixing on Sesame Street: Dawn of the Adversarial Polyglots
+    authors: Samson Tan, and Shafiq Joty
+    id: samson-naacl-21
+    img: samson-naacl-21-fig
+    slides: media/samson-naacl-21-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (<b>NAACL'21</b>)
+    doc-url: https://openreview.net/pdf?id=Dqj-Ou60fg0
+    abstract: >
+      Multilingual models have demonstrated impressive cross-lingual transfer performance. However, test sets like XNLI are monolingual at the example level. In multilingual communities, it is common for polyglots to code-mix when conversing with each other. Inspired by this phenomenon, we present two strong black-box adversarial attacks (one word-level, one phrase-level) for multilingual models that push their ability to handle code-mixed sentences to the limit. The former uses bilingual dictionaries to propose perturbations and translations of the clean example for sense disambiguation. The latter directly aligns the clean example with its translations before extracting phrases as perturbations. Our phrase-level attack has a success rate of 89.75\% against XLM-R$_\textlarge$, bringing its average accuracy of 79.85 down to 8.18 on XNLI. Finally, we propose an efficient adversarial training scheme that trains in the same number of steps as the original model and show that it improves model accuracy.
+    bibtex: >
+      @inproceedings{samson-naacl-21,
+       abstract = {Multilingual models have demonstrated impressive cross-lingual transfer performance. However, test sets like XNLI are monolingual at the example level. In multilingual communities, it is common for polyglots to code-mix when conversing with each other. Inspired by this phenomenon, we present two strong black-box adversarial attacks (one word-level, one phrase-level) for multilingual models that push their ability to handle code-mixed sentences to the limit. The former uses bilingual dictionaries to propose perturbations and translations of the clean example for sense disambiguation. The latter directly aligns the clean example with its translations before extracting phrases as perturbations. Our phrase-level attack has a success rate of 89.75\% against XLM-R$_\text{large}$, bringing its average accuracy of 79.85 down to 8.18 on XNLI. Finally, we propose an efficient adversarial training scheme that trains in the same number of steps as the original model and show that it improves model accuracy.},
+       address = {Mexico City, Mexico},
+       author = {Samson Tan and Shafiq Joty},
+       booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+       link = {https://openreview.net/pdf?id=Dqj-Ou60fg0},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {NAACL'21},
+       title = {Code-Mixing on Sesame Street: Dawn of the Adversarial Polyglots},
+       year = {2021}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2021
+    selected: no
+    title: >
+      RST Parsing from Scratch
+    authors: Thanh-Tung Nguyen, Xuan-Phi Nguyen, Shafiq Joty, and Xiaoli Li
+    id: nguyen-naacl-21
+    img: nguyen-naacl-21-fig
+    slides: media/nguyen-naacl-21-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (<b>NAACL'21</b>)
+    doc-url: https://arxiv.org/abs/2010.12836
+    abstract: >
+      We introduce a novel top-down end-to-end formulation of document level discourse parsing in the Rhetorical Structure Theory (RST) framework. In this formulation, we consider discourse parsing as a sequence of splitting decisions at token boundaries and use a seq2seq network to model the splitting decisions. Our framework facilitates discourse parsing from scratch without requiring discourse segmentation as a prerequisite; rather, it yields segmentation as part of the parsing process. Our unified parsing model adopts a beam search to decode the best tree structure by searching through a space of high scoring trees. With extensive experiments on the standard RST discourse treebank, we demonstrate that our parser outperforms existing methods by a good margin in both end-to-end parsing and parsing with gold segmentation. More importantly, it does so without using any handcrafted features, making it faster and easily adaptable to new languages and domains.
+    bibtex: >
+      @inproceedings{nguyen-naacl-21,
+       abstract = {We introduce a novel top-down end-to-end formulation of document level discourse parsing in the Rhetorical Structure Theory (RST) framework. In this formulation, we consider discourse parsing as a sequence of splitting decisions at token boundaries and use a seq2seq network to model the splitting decisions. Our framework facilitates discourse parsing from scratch without requiring discourse segmentation as a prerequisite; rather, it yields segmentation as part of the parsing process. Our unified parsing model adopts a beam search to decode the best tree structure by searching through a space of high scoring trees. With extensive experiments on the standard RST discourse treebank, we demonstrate that our parser outperforms existing methods by a good margin in both end-to-end parsing and parsing with gold segmentation. More importantly, it does so without using any handcrafted features, making it faster and easily adaptable to new languages and domains.},
+       address = {Mexico City, Mexico},
+       author = {Thanh-Tung Nguyen and Xuan-Phi Nguyen and Shafiq Joty and Xiaoli Li},
+       booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+       link = {https://arxiv.org/abs/2010.12836},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {NAACL'21},
+       title = {RST Parsing from Scratch},
+       year = {2021}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2021
+    selected: no
+    title: >
+      Improving Zero and Few-Shot Abstractive Summarization with Intermediate Fine-tuning and Data Augmentation
+    authors: Alexander Fabbri, Simeng Han, Haoyuan Li, Haoran Li, Marjan Ghazvininejad, Shafiq Joty, Dragomir Radev, and Yashar Mehdad
+    id: alex-naacl-21
+    img: alex-naacl-21-fig
+    slides: media/alex-naacl-21-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (<b>NAACL'21</b>)
+    doc-url: https://arxiv.org/abs/2010.12836
+    abstract: >
+      Models pretrained with self-supervised objectives on large text corpora achieve state-of-the-art performance on text summarization tasks. However, these models are typically fine-tuned on hundreds of thousands of data points, an infeasible requirement when applying summarization to new, niche domains. In this work, we introduce a general method, called WikiTransfer, for fine-tuning pretrained models for summarization in an unsupervised, dataset-specific manner which makes use of characteristics of the target dataset such as the length and abstractiveness of the desired summaries. We achieve state-of-the-art, zero-shot abstractive summarization performance on the CNN-DailyMail dataset and demonstrate the effectiveness of our approach on three additional, diverse datasets. The models fine-tuned in this unsupervised manner are more robust to noisy data and also achieve better few-shot performance using 10 and 100 training examples. We perform ablation studies on the effect of the components of our unsupervised fine-tuning data and analyze the performance of these models in few-shot scenarios along with data augmentation techniques using both automatic and human evaluation.
+    bibtex: >
+      @inproceedings{alex-naacl-21,
+       abstract = {Models pretrained with self-supervised objectives on large text corpora achieve state-of-the-art performance on text summarization tasks. However, these models are typically fine-tuned on hundreds of thousands of data points, an infeasible requirement when applying summarization to new, niche domains. In this work, we introduce a general method, called WikiTransfer, for fine-tuning pretrained models for summarization in an unsupervised, dataset-specific manner which makes use of characteristics of the target dataset such as the length and abstractiveness of the desired summaries. We achieve state-of-the-art, zero-shot abstractive summarization performance on the CNN-DailyMail dataset and demonstrate the effectiveness of our approach on three additional, diverse datasets. The models fine-tuned in this unsupervised manner are more robust to noisy data and also achieve better few-shot performance using 10 and 100 training examples. We perform ablation studies on the effect of the components of our unsupervised fine-tuning data and analyze the performance of these models in few-shot scenarios along with data augmentation techniques using both automatic and human evaluation.},
+       address = {Mexico City, Mexico},
+       author = {Alexander Fabbri and Simeng Han and Haoyuan Li and Haoran Li and Marjan Ghazvininejad and Shafiq Joty and Dragomir Radev and Yashar Mehdad},
+       booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+       link = {https://arxiv.org/abs/2010.12836},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {NAACL'21},
+       title = {Improving Zero and Few-Shot Abstractive Summarization with Intermediate Fine-tuning and Data Augmentation},
+       year = {2021}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2021
+    selected: no
+    title: >
       Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks
     authors: Tasnim Mohiuddin*, Prathyusha Jwalapuram*, Xiang Lin*, and Shafiq Joty*
     id: mohiuddin-coh-et-al-arxiv-20
@@ -4879,8 +4987,11 @@
     booktitle: >
       International Conference on Acoustics, Speech, and Signal Processing (<b>ICASSP'21</b>)
     doc-url: https://2021.ieeeicassp.org/Papers/AcceptedPapers.asp
+    abstract: >
+      With the recent development of end-to-end models in speech recognition, there have been more interests in adapting these models for online speech recognition. However, using end- to-end models for online speech recognition is known to suf- fer from an early endpointing problem, which brings in many deletion errors. In this paper, we propose to address the early endpointing problem from the gradient perspective. Specifi- cally, we leverage on the recently proposed ScaleGrad tech- nique, which was proposed to mitigate the text degeneration issue. Different from ScaleGrad, we adapt it to discourage the early generation of the end-of-sentence (<eos>) token. A scaling term is added to directly maneuver the gradient of the training loss to encourage the model to learn to keep generating non-<eos> tokens. Compared with previous ap- proaches such as voice-activity-detection and end-of-query detection, the proposed method does not rely on various types of silence, and it also saves the trouble from obtaining the ground truth endpoint with forced alignment. Nevertheless, it can be jointly applied with other techniques. Experiments on AISHELL-1 dataset show that our model brings relative 5.4%-10.1% CER reductions over the baseline, and surpasses the unlikelihood training method which directly reduces the generation probability of <eos> token.
     bibtex: >
       @inproceedings{zhao-et-al-icassp-21,
+       abstract = {With the recent development of end-to-end models in speech recognition, there have been more interests in adapting these models for online speech recognition. However, using end- to-end models for online speech recognition is known to suf- fer from an early endpointing problem, which brings in many deletion errors. In this paper, we propose to address the early endpointing problem from the gradient perspective. Specifi- cally, we leverage on the recently proposed ScaleGrad tech- nique, which was proposed to mitigate the text degeneration issue. Different from ScaleGrad, we adapt it to discourage the early generation of the end-of-sentence (<eos>) token. A scaling term is added to directly maneuver the gradient of the training loss to encourage the model to learn to keep generating non-<eos> tokens. Compared with previous ap- proaches such as voice-activity-detection and end-of-query detection, the proposed method does not rely on various types of silence, and it also saves the trouble from obtaining the ground truth endpoint with forced alignment. Nevertheless, it can be jointly applied with other techniques. Experiments on AISHELL-1 dataset show that our model brings relative 5.4%-10.1% CER reductions over the baseline, and surpasses the unlikelihood training method which directly reduces the generation probability of <eos> token.},
        address = {Brighton, UK},
        author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi Leung and Shafiq Joty and Eng Siong Chng and Bin Ma,},
        booktitle = {International Conference on Acoustics, Speech, and Signal Processing},
