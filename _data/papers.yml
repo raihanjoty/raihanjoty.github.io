@@ -2215,10 +2215,10 @@
     journal: Computer Speech & Language (Special Issue on Deep Learning for Machine Translation)
     doc-url: http://www.sciencedirect.com/science/article/pii/S0885230816301693
     abstract: >
-      Abstract We present a framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation. In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses is embedded into compact distributed vector representations, and fed into a multi-layer neural network that models nonlinear interactions between each of the hypotheses and the reference, as well as between the two hypotheses. We experiment with the benchmark datasets from the \WMT\ Metrics shared task, on which we obtain the best results published so far, with the basic network configuration. We also perform a series of experiments to analyze and understand the contribution of the different components of the network. We evaluate variants and extensions, including fine-tuning of the semantic embeddings, and sentence-based representations modeled with convolutional and recurrent neural networks. In summary, the proposed framework is flexible and generalizable, allows for efficient learning and scoring, and provides an \MT\ evaluation metric that correlates with human judgments, and is on par with the state of the art.
+      We present a framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation. In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses is embedded into compact distributed vector representations, and fed into a multi-layer neural network that models nonlinear interactions between each of the hypotheses and the reference, as well as between the two hypotheses. We experiment with the benchmark datasets from the \WMT\ Metrics shared task, on which we obtain the best results published so far, with the basic network configuration. We also perform a series of experiments to analyze and understand the contribution of the different components of the network. We evaluate variants and extensions, including fine-tuning of the semantic embeddings, and sentence-based representations modeled with convolutional and recurrent neural networks. In summary, the proposed framework is flexible and generalizable, allows for efficient learning and scoring, and provides an \MT\ evaluation metric that correlates with human judgments, and is on par with the state of the art.
     bibtex: >
       @article{guzman-joty-marquez-nakov-csl-16,
-       abstract = {Abstract We present a framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation.
+       abstract = {We present a framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation.
       In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses
       is embedded into compact distributed vector representations, and fed into a multi-layer neural network that
       models nonlinear interactions between each of the hypotheses and the reference, as well as between the two hypotheses.
@@ -2676,7 +2676,7 @@
     selected: no
     title: >
       Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach
-    authors: Shafiq Joty*, Muhammad Tasnim, and Dat Nguyen*
+    authors: Shafiq Joty*, Tasnim Mohiuddin*, and Dat Nguyen*
     id: joty-mohiuddin-nguyen-acl-18
     img: joty-mohiuddin-nguyen-acl-18-fig
     slides: media/joty-mohiuddin-nguyen-acl-18-slides.pdf
@@ -2693,7 +2693,7 @@
       @inproceedings{joty-mohiuddin-nguyen-acl-18,
        abstract = {We propose a novel coherence model for written asynchronous conversations (e.g., forums, emails), and show its applications in coherence assessment and thread reconstruction tasks. We conduct our research in two steps. First, we propose improvements to the recently proposed neural entity grid model by lexicalizing its entity transitions. Then, we extend the model to asynchronous conversations by incorporating the underlying conversational structure in the entity grid representation and feature computation. Our model achieves state of the art results on standard coherence assessment tasks in monologue and conversations outperforming existing models. We also demonstrate its effectiveness in reconstructing thread structures.},
        address = {Melbourne, Australia},
-       author = {Shafiq Joty* and Muhammad Tasnim Mohiuddin* and Dat Nguyen*},
+       author = {Shafiq Joty* and Tasnim Mohiuddin* and Dat Nguyen*},
        booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
        link = {http://aclweb.org/anthology/P18-1052},
        pages = {558–-568},
@@ -2973,7 +2973,6 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx - xx
     booktitle: >
       IEEE Big Data 2018
     doc-url: papers/karan-et-al-ieee-big-data-18.pdf
@@ -2987,7 +2986,6 @@
        author = {Karan Aggarwal and Swaraj Khadanga and Shafiq Joty and Louis Kazaglis and Jaideep Srivastava},
        booktitle = {IEEE Big Data 2018},
        link = {papers/karan-et-al-ieee-big-data-18.pdf},
-       pages = {xx -- xx},
        publisher = {IEEE},
        title = {A Structured Learning Approach with Neural Conditional Random Fields for Sleep Staging},
        year = {2018}
@@ -3189,7 +3187,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx–-xx
+    pages: 1007–-1017
     booktitle: >
       Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'19</b>)
     doc-url: https://www.aclweb.org/anthology/D19-1093.pdf
@@ -3203,10 +3201,46 @@
        booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
        link = {https://www.aclweb.org/anthology/D19-1093.pdf},
        numpages = {9},
-       pages = {xx–-xx},
+       pages = {1007–-1017},
        publisher = {ACL},
        series = {EMNLP'19},
        title = {Hierarchical Pointer Net Parsing},
+       year = {2019}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2019
+    selected: no
+    title: >
+      A Unified Linear-Time Framework for Sentence-Level Discourse Parsing
+    authors: Xiang Lin*, Shafiq Joty*, Prathyusha Jwalapuram, and Saiful Bari
+    id: lin-et-al-acl-19
+    img: lin-et-al-acl-19-fig
+    slides: media/lin-et-al-acl-19-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 4190–4200
+    booktitle: >
+      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (<b>ACL'19</b>)
+    doc-url: https://www.aclweb.org/anthology/P19-1410/
+    abstract: >
+      We propose an efficient neural framework for sentence-level discourse analysis in accordance with Rhetorical Structure Theory (RST). Our framework comprises a discourse segmenter to identify the elementary discourse units (EDU) in a text, and a discourse parser that constructs a discourse tree in a top-down fashion. Both the segmenter and the parser are based on Pointer Networks and operate in linear time. Our segmenter yields an F1 score of 95.4, and our parser achieves an F1 score of 81.7 on the aggregated labeled (relation) metric, surpassing previous approaches by a good margin and approaching human agreement on both tasks (98.3 and 83.0 F1)
+    bibtex: >
+      @inproceedings{lin-et-al-acl-19,
+       abstract = {We propose an efficient neural framework for sentence-level discourse analysis in accordance with Rhetorical Structure Theory (RST). Our framework comprises a discourse segmenter to identify the elementary discourse units (EDU) in a text, and a discourse parser that constructs a discourse tree in a top-down fashion. Both the segmenter and the parser are based on Pointer Networks and operate in linear time. Our segmenter yields an F1 score of 95.4, and our parser achieves an F1 score of 81.7 on the aggregated labeled (relation) metric, surpassing previous approaches by a good margin and approaching human agreement on both tasks (98.3 and 83.0 F1)},
+       address = {Florence, Italy},
+       author = {Xiang Lin* and Shafiq Joty* and Prathyusha Jwalapuram and Saiful Bari},
+       booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
+       link = {https://www.aclweb.org/anthology/P19-1410/},
+       numpages = {9},
+       pages = {4190–4200},
+       publisher = {ACL},
+       series = {ACL'19},
+       title = {A Unified Linear-Time Framework for Sentence-Level Discourse Parsing},
        year = {2019}
       }
       
@@ -3225,10 +3259,10 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx–-xx
+    pages: 2262–2272
     booktitle: >
       Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'19</b>)
-    doc-url: https://arxiv.org/abs/1909.00349
+    doc-url: https://www.aclweb.org/anthology/D19-1231/
     abstract: >
       Recently, neural approaches to coherence modeling have achieved state-of-the-art results in several evaluation tasks. However, we show that most of these models often fail on harder tasks with more realistic application scenarios. In particular, the existing models underperform on tasks that require the model to be sensitive to local contexts such as candidate ranking in conversational dialogue and in machine translation. In this paper, we propose a unified coherence model that incorporates sentence grammar, inter-sentence coherence relations, and global coherence patterns into a common neural framework. With extensive experiments on local and global discrimination tasks, we demonstrate that our proposed model outperforms existing models by a good margin, and establish a new state-of-the-art.
     bibtex: >
@@ -3237,9 +3271,9 @@
        address = {Hong Kong},
        author = {Han-Cheol Moon* and Tasnim Mohiuddin* and Shafiq Joty* and Chi Xu},
        booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://arxiv.org/abs/1909.00349},
+       link = {https://www.aclweb.org/anthology/D19-1231/},
        numpages = {9},
-       pages = {xx–-xx},
+       pages = {2262–2272},
        publisher = {ACL},
        series = {EMNLP'19},
        title = {A Unified Neural Coherence Model},
@@ -3261,10 +3295,10 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx–-xx
+    pages: 2964–2975
     booktitle: >
       Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'19</b>)
-    doc-url: https://arxiv.org/abs/1909.00131
+    doc-url: https://www.aclweb.org/anthology/D19-1294/
     abstract: >
       The ongoing neural revolution in machine translation has made it easier to model larger contexts beyond the sentence-level, which can potentially help resolve some discourse-level ambiguities such as pronominal anaphora, thus enabling better translations. Unfortunately, even when the resulting improvements are seen as substantial by humans, they remain Punta Cana, Dominican Republicly unnoticed by traditional automatic evaluation measures like BLEU, as only a few words end up being affected. Thus, specialized evaluation measures are needed. With this aim in mind, we contribute an extensive, targeted dataset that can be used as a test suite for pronoun translation, covering multiple source languages and different pronoun errors drawn from real system translations, for English. We further propose an evaluation measure to differentiate good and bad pronoun translations. We also conduct a user study to report correlations with human judgments.
     bibtex: >
@@ -3273,9 +3307,9 @@
        address = {Hong Kong},
        author = {Prathyusha Jwalapuram and Shafiq Joty and Irina Temnikova and Preslav Nakov},
        booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://arxiv.org/abs/1909.00131},
+       link = {https://www.aclweb.org/anthology/D19-1294/},
        numpages = {9},
-       pages = {xx–-xx},
+       pages = {2964–2975},
        publisher = {ACL},
        series = {EMNLP'19},
        title = {Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test Suite},
@@ -3297,10 +3331,10 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx–-xx
+    pages: 6432–6437
     booktitle: >
       Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'19</b>)
-    doc-url: https://arxiv.org/pdf/1909.09702.pdf
+    doc-url: https://www.aclweb.org/anthology/D19-1678.pdf
     abstract: >
       Monitoring patients in ICU is a challenging and high-cost task. Hence, predicting the condition of patients during their ICU stay can help provide better acute care and plan the hospital's resources. There has been continuous progress in machine learning research for ICU management, and most of this work has focused on using time series signals recorded by ICU instruments. In our work, we show that adding clinical notes as another modality improves the performance of the model for three benchmark tasks: in-hospital mortality prediction, modeling decompensation, and length of stay forecasting that play an important role in ICU management. While the time-series data is measured at regular intervals, doctor notes are charted at irregular times, making it challenging to model them together. We propose a method to model them jointly, achieving considerable improvement across benchmark tasks over baseline time-series model.
     bibtex: >
@@ -3309,9 +3343,9 @@
        address = {Hong Kong},
        author = {Swaraj Khadanga and Karan Aggarwal and Shafiq Joty and Jaideep Srivastava},
        booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://arxiv.org/pdf/1909.09702.pdf},
-       numpages = {9},
-       pages = {xx–-xx},
+       link = {https://www.aclweb.org/anthology/D19-1678.pdf},
+       numpages = {5},
+       pages = {6432–6437},
        publisher = {ACL},
        series = {EMNLP'19},
        title = {Using Clinical Notes with Multimodal Learning for ICU Management},
@@ -3333,9 +3367,10 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
+    pages: 10323-10332
     booktitle: >
       Proceedings of the International Conference on Computer Vision (<b>ICCV'19</b>)
-    doc-url: https://arxiv.org/abs/1903.10658
+    doc-url: https://openaccess.thecvf.com/content_ICCV_2019/html/Gu_Unpaired_Image_Captioning_via_Scene_Graph_Alignments_ICCV_2019_paper.html
     abstract: >
       Deep neural networks have achieved great success on the image captioning task. However, most of the existing models depend heavily on paired image-sentence datasets, which are very expensive to acquire in most real-world scenarios. In this paper, we propose a scene graph based approach for unpaired image captioning. Our method merely requires an image set, a sentence corpus, an image scene graph generator, and a sentence scene graph generator. The sentence corpus is used to teach the decoder how to generate meaningful sentences from a scene graph. To further encourage the generated captions to be semantically consistent with the image, we employ adversarial learning to align the visual scene graph to the textual scene graph. Experimental results show that our proposed model can generate quite promising results without using any image-caption training pairs, outperforming existing methods by a wide margin.
     bibtex: >
@@ -3344,7 +3379,8 @@
        address = {Seoul, Korea},
        author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Handong Zhao and Xu Yang and Gang Wang},
        booktitle = {Proceedings of the International Conference on Computer Vision},
-       link = {https://arxiv.org/abs/1903.10658},
+       link = {https://openaccess.thecvf.com/content_ICCV_2019/html/Gu_Unpaired_Image_Captioning_via_Scene_Graph_Alignments_ICCV_2019_paper.html},
+       pages = {10323-10332},
        publisher = {IEEE},
        series = {ICCV'19},
        title = {Unpaired Image Captioning via Scene Graph Alignments},
@@ -3366,10 +3402,10 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx–-xx
+    pages: 818–826
     booktitle: >
       Proceedings of the 27th ACM International Conference on Multimedia (<b>ACMMM'19</b>)
-    doc-url: 
+    doc-url: https://dl.acm.org/doi/10.1145/3343031.3351060
     abstract: >
       With the rapid growth of video data and the increasing demands of various applications such as intelligent video search and assistance toward visually-impaired people, video captioning task has received a lot of attention recently in computer vision and natural language processing fields. The state-of-the-art video captioning methods focus more on encoding the temporal information, while lack of effective ways to remove irrelevant temporal information and also neglecting the spatial details. However, the current RNN encoding module in single time order can be influenced by the irrelevant temporal information, especially the irrelevant temporal information is at the beginning of the encoding. In addition, neglecting spatial information will lead to the relationship confusion of the words and detailed loss. Therefore, in this paper, we propose a novel recurrent video encoding method and a novel visual spatial feature for the video captioning task. The recurrent encoding module encodes the video twice with the predicted key frame to avoid the irrelevant temporal information often occurring at the beginning and the end of a video. The novel spatial features represent the spatial information in different regions of a video and enrich the details of a caption. Experiments on two benchmark datasets show superior performance of the proposed method.
     bibtex: >
@@ -3378,48 +3414,12 @@
        address = {Nice, France},
        author = {Xiangxi Shi and Jianfei Cai and Shafiq Joty and Jiuxiang Gu},
        booktitle = {Proceedings of the 27th ACM International Conference on Multimedia},
-       link = {},
+       link = {https://dl.acm.org/doi/10.1145/3343031.3351060},
        numpages = {10},
-       pages = {xx–-xx},
+       pages = {818–826},
        publisher = {ACM},
        series = {ACMMM'19},
        title = {Watch It Twice: Video Captioning with a Refocused Video Encoder},
-       year = {2019}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2019
-    selected: no
-    title: >
-      A Unified Linear-Time Framework for Sentence-Level Discourse Parsing
-    authors: Xiang Lin*, Shafiq Joty*, Prathyusha Jwalapuram, and Saiful Bari
-    id: lin-et-al-acl-19
-    img: lin-et-al-acl-19-fig
-    slides: media/lin-et-al-acl-19-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    pages: xx–-xx
-    booktitle: >
-      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (<b>ACL'19</b>)
-    doc-url: https://arxiv.org/abs/1905.05682
-    abstract: >
-      We propose an efficient neural framework for sentence-level discourse analysis in accordance with Rhetorical Structure Theory (RST). Our framework comprises a discourse segmenter to identify the elementary discourse units (EDU) in a text, and a discourse parser that constructs a discourse tree in a top-down fashion. Both the segmenter and the parser are based on Pointer Networks and operate in linear time. Our segmenter yields an F1 score of 95.4, and our parser achieves an F1 score of 81.7 on the aggregated labeled (relation) metric, surpassing previous approaches by a good margin and approaching human agreement on both tasks (98.3 and 83.0 F1)
-    bibtex: >
-      @inproceedings{lin-et-al-acl-19,
-       abstract = {We propose an efficient neural framework for sentence-level discourse analysis in accordance with Rhetorical Structure Theory (RST). Our framework comprises a discourse segmenter to identify the elementary discourse units (EDU) in a text, and a discourse parser that constructs a discourse tree in a top-down fashion. Both the segmenter and the parser are based on Pointer Networks and operate in linear time. Our segmenter yields an F1 score of 95.4, and our parser achieves an F1 score of 81.7 on the aggregated labeled (relation) metric, surpassing previous approaches by a good margin and approaching human agreement on both tasks (98.3 and 83.0 F1)},
-       address = {Florence, Italy},
-       author = {Xiang Lin* and Shafiq Joty* and Prathyusha Jwalapuram and Saiful Bari},
-       booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://arxiv.org/abs/1905.05682},
-       numpages = {9},
-       pages = {xx–-xx},
-       publisher = {ACL},
-       series = {ACL'19},
-       title = {A Unified Linear-Time Framework for Sentence-Level Discourse Parsing},
        year = {2019}
       }
       
@@ -3438,7 +3438,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx–-xx
+    pages: 2561–2571
     booktitle: >
       Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (<b>ACL'19</b>)
     doc-url: https://www.aclweb.org/anthology/P19-1244/
@@ -3453,7 +3453,7 @@
        booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
        link = {https://www.aclweb.org/anthology/P19-1244/},
        numpages = {9},
-       pages = {xx–-xx},
+       pages = {2561–2571},
        publisher = {ACL},
        series = {ACL'19},
        title = {Sentence-Level Evidence Embedding for End-to-End Claim Verification with Hierarchical Attention Networks},
@@ -3509,10 +3509,10 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx–-xx
+    pages: 3857–3867
     booktitle: >
       Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (<b>NAACL'19</b>)
-    doc-url: https://arxiv.org/abs/1904.04116
+    doc-url: https://www.aclweb.org/anthology/N19-1386/
     abstract: >
       Adversarial training has shown impressive success in learning bilingual dictionary without any parallel data by mapping monolingual embeddings to a shared space. However, recent work has shown superior performance for non-adversarial methods in more challenging language pairs. In this work, we revisit adversarial autoencoder for unsupervised word translation and propose two novel extensions to it that yield more stable training and improved results. Our method includes regularization terms to enforce cycle consistency and input reconstruction, and puts the target encoders as an adversary against the corresponding discriminator. Extensive experimentations with European and non-European languages show that our method achieves better performance than recently proposed adversarial and non-adversarial approaches and is also competitive with the supervised system.
     bibtex: >
@@ -3540,9 +3540,9 @@
        address = {Minneapolis, USA},
        author = {Tasnim Mohiuddin and Shafiq Joty},
        booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-       link = {https://arxiv.org/abs/1904.04116},
+       link = {https://www.aclweb.org/anthology/N19-1386/},
        numpages = {9},
-       pages = {xx–-xx},
+       pages = {3857–3867},
        publisher = {ACL},
        series = {NAACL'19},
        title = {Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training},
@@ -3564,10 +3564,10 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx–-xx
+    pages: 1326–1336
     booktitle: >
       Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (<b>NAACL'19</b>)
-    doc-url: https://arxiv.org/abs/1904.04021
+    doc-url: https://www.aclweb.org/anthology/N19-1134/
     abstract: >
       We address the problem of speech act recognition (SAR) in asynchronous conversations (e.g., forums, emails). However, unlike synchronous conversations (e.g., meetings, phone), asynchronous domains lack large labeled datasets to train an effective SAR model. In this paper, we propose methods to effectively leverage abundant unlabeled conversational data and the available labeled data from synchronous domains. We carry out our research in three main steps. First, we introduce a neural architecture based on hierarchical LSTMs and conditional random fields (CRF) for SAR in asynchronous conversations, and show that our method outperforms existing methods when trained on in-domain data only. Second, we improve our initial SAR models by semi-supervised learning in the form of pretrained word embeddings learned from a large unlabeled conversational corpus. Finally, we employ adversarial training to improve the results further by leveraging the labeled data from synchronous domains and by explicitly modeling the shift in two domains.
     bibtex: >
@@ -3597,9 +3597,9 @@
        address = {Minneapolis, USA},
        author = {Tasnim Mohiuddin* and Thanh-Tung Nguyen* and Shafiq Joty*},
        booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-       link = {https://arxiv.org/abs/1904.04021},
+       link = {https://www.aclweb.org/anthology/N19-1134/},
        numpages = {9},
-       pages = {xx–-xx},
+       pages = {1326–1336},
        publisher = {ACL},
        series = {NAACL'19},
        title = {Adaptation of Hierarchical Structured Models for Speech Act Recognition in Asynchronous Conversation},
@@ -3621,7 +3621,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx - xx
+    pages: 834 - 841
     booktitle: >
       Thirty-Third AAAI Conference on Artificial Intelligence (<b>AAAI'19</b>)
     doc-url: https://arxiv.org/abs/1811.06847
@@ -3635,7 +3635,7 @@
        booktitle = {Thirty-Third AAAI Conference on Artificial Intelligence},
        link = {https://arxiv.org/abs/1811.06847},
        month = {September},
-       pages = {xx -- xx},
+       pages = {834 -- 841},
        publisher = {AAAI},
        series = {AAAI'19},
        title = {Adversarial Unsupervised Representation Learning for Activity Time-Series},
@@ -3657,10 +3657,10 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx - xx
+    pages: 6540 - 6544
     booktitle: >
       International Conference on Acoustics, Speech, and Signal Processing (<b>ICASSP'19</b>)
-    doc-url: http://people.csail.mit.edu/sameerk/papers/ICASSP_dmm_rev.pdf
+    doc-url: https://groups.csail.mit.edu/sls/publications/2019/SameerKhurana_ICASSP-2019.pdf
     abstract: >
       We present the Factorial Deep Markov Model (FDMM) for representation learning of speech. The FDMM learns disentangled, interpretable and lower dimensional latent representations from speech without supervision. We use a static and dynamic latent variable to exploit the fact that information in a speech signal evolves at different time scales. Latent representations learned by the FDMM outperform a baseline ivector system on speaker verification and dialect identification while also reducing the error rate of a phone recognition system in a domain mismatch scenario.
     bibtex: >
@@ -3673,9 +3673,9 @@
        address = {Brighton, UK},
        author = {Sameer Khurana and Shafiq Joty and Ahmed Ali and James Glass},
        booktitle = {International Conference on Acoustics, Speech, and Signal Processing},
-       link = {http://people.csail.mit.edu/sameerk/papers/ICASSP_dmm_rev.pdf},
+       link = {https://groups.csail.mit.edu/sls/publications/2019/SameerKhurana_ICASSP-2019.pdf},
        month = {September},
-       pages = {xx -- xx},
+       pages = {6540 -- 6544},
        publisher = {IEEE},
        series = {ICASSP'19},
        title = {A Fatorial Deep Markov Model For Unsupervised Disentangled Representation Learning From Speech},
@@ -3697,7 +3697,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: x - x
+    pages: 1953–1956
     booktitle: >
       Proceedings of 45th ACM SIGMOD International Conference on Management of Data (<b>SIGMOD'19</b>)
     doc-url: papers/liu-et-al-sigmod-demo-19.pdf
@@ -3708,7 +3708,7 @@
        booktitle = {Proceedings of 45th ACM SIGMOD International Conference on Management of Data},
        link = {papers/liu-et-al-sigmod-demo-19.pdf},
        month = {July},
-       pages = {x -- x},
+       pages = {1953–1956},
        publisher = {ACM},
        series = {SIGMOD'19},
        title = {NEURON: Query Execution Plan Meets Natural Language Processing For Augmenting DB Education (Demo)},
@@ -3730,7 +3730,6 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx–-xx
     booktitle: >
       2020 Conference on Neural Information Processing Systems (<b>NeurIPS'20</b>)
     doc-url: https://proceedings.neurips.cc/paper/2020/file/7221e5c8ec6b08ef6d3f9ff3ce6eb1d1-Paper.pdf
@@ -3743,7 +3742,6 @@
        author = {Xuan-Phi Nguyen and Shafiq Joty and Wu Kui and Ai Ti Aw},
        booktitle = {2020 Conference on Neural Information Processing Systems},
        link = {https://proceedings.neurips.cc/paper/2020/file/7221e5c8ec6b08ef6d3f9ff3ce6eb1d1-Paper.pdf},
-       pages = {xx–-xx},
        series = {NeurIPS'20},
        title = {Data Diversification: An Elegant Strategy for Neural Machine Translation},
        year = {2020}
@@ -3764,7 +3762,6 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx–-xx
     booktitle: >
       2020 Conference on Neural Information Processing Systems (<b>NeurIPS'20</b>)
     doc-url: https://papers.nips.cc/paper/2020/file/13f320e7b5ead1024ac95c3b208610db-Paper.pdf
@@ -3777,7 +3774,6 @@
        author = {Jiuxiang Gu and Jason Kuen and Shafiq Joty and Jianfei Cai and Vlad Morariu and Handong Zhao and Tong Sun},
        booktitle = {2020 Conference on Neural Information Processing Systems},
        link = {https://papers.nips.cc/paper/2020/file/13f320e7b5ead1024ac95c3b208610db-Paper.pdf},
-       pages = {xx–-xx},
        series = {NeurIPS'20},
        title = {Self-Supervised Relationship Probing},
        year = {2020}
@@ -4311,7 +4307,6 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx–-xx
     booktitle: >
       European Conference on Computer Vision (<b>ECCV'20</b>)
     doc-url: http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590562.pdf
@@ -4325,7 +4320,6 @@
        booktitle = {European Conference on Computer Vision},
        link = {http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590562.pdf},
        numpages = {10},
-       pages = {xx–-xx},
        series = {ECCV'20},
        title = {Finding It at Another Side: A Viewpoint-Adapted Matching Encoder for Change Captioning},
        year = {2020}
@@ -4382,10 +4376,10 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx - xx
+    pages: 5021 - 5025
     booktitle: >
       21st Annual Conference of the International Speech Communication Association (<b>Interspeech'20</b>)
-    doc-url: http://www.interspeech2020.org/index.php?m=content&c=index&a=show&catid=418&id=1328
+    doc-url: https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1716.pdf
     abstract: >
       Transformer model has made great progress in speech recognition. However, compared with models with iterative computation, transformer model has fixed encoder and decoder depth, thus losing the recurrent inductive bias. Besides, finding the optimal number of layers involves trial-and-error attempts. In this paper, the universal speech transformer is proposed, which to the best of our knowledge, is the first work to use universal transformer for speech recognition. It generalizes the speech transformer with dynamic numbers of encoder/decoder layers, which can relieve the burden of tuning depth related hyperparameters. Universal transformer adds the depth and positional embeddings repeatedly for each layer, which dilutes the acoustic information carried by hidden representation, and it also performs a partial update of hidden vectors between layers, which is less efficient especially on the very deep models. For better use of universal transformer, we modify its processing framework by removing the depth embedding and only adding the positional embedding once at transformer encoder frontend. Furthermore, to update the hidden vectors efficiently, especially on the very deep models, we adopt a full update. Experiments on LibriSpeech, Switchboard and AISHELL-1 datasets show that our model outperforms a baseline by 3.88%-13.7%, and surpasses other model with less computation cost.
     bibtex: >
@@ -4394,9 +4388,9 @@
        address = {Shanghai, China},
        author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
        booktitle = {21st Annual Conference of the International Speech Communication Association},
-       link = {http://www.interspeech2020.org/index.php?m=content&c=index&a=show&catid=418&id=1328},
+       link = {https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1716.pdf},
        month = {October},
-       pages = {xx -- xx},
+       pages = {5021 -- 5025},
        publisher = {IEEE},
        series = {Interspeech'20},
        title = {Universal Speech Transformer},
@@ -4418,10 +4412,10 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx - xx
+    pages: 1261 - 1265
     booktitle: >
       21st Annual Conference of the International Speech Communication Association (<b>Interspeech'20</b>)
-    doc-url: http://www.interspeech2020.org/index.php?m=content&c=index&a=show&catid=278&id=570
+    doc-url: https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1281.pdf
     abstract: >
       End-to-end models have been introduced into automatic speech recognition (ASR) successfully and achieved superior performance compared with conventional hybrid systems, especially with the newly proposed transformer model. However, speaker mismatch between training and test data remains a problem, and speaker adaptation for transformer model can be further improved. In this paper, we propose to conduct speaker aware training for ASR in transformer model. Specifically, we propose to embed speaker knowledge through a persistent memory model into speech transformer encoder at utterance level. The speaker information is represented by a number of static speaker i-vectors, which is concatenated to speech utterance at each encoder self-attention layer. Persistent memory is thus formed by carrying speaker information through the depth of encoder. The speaker knowledge is captured from self-attention between speech and persistent memory vector in encoder. Experiment results on LibriSpeech, Switchboard and AISHELL-1 ASR task show that our proposed model brings relative 4.7%-12.5% word error rate (WER) reductions, and achieves superior results compared with other models with the same objective. Furthermore, our model brings relative 2.1%-8.3% WER reductions compared with the first persistent memory model used in ASR.
     bibtex: >
@@ -4430,9 +4424,9 @@
        address = {Shanghai, China},
        author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
        booktitle = {21st Annual Conference of the International Speech Communication Association},
-       link = {http://www.interspeech2020.org/index.php?m=content&c=index&a=show&catid=278&id=570},
+       link = {https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1281.pdf},
        month = {October},
-       pages = {xx -- xx},
+       pages = {1261 - 1265},
        publisher = {IEEE},
        series = {Interspeech'20},
        title = {Speech Transformer with Speaker Aware Persistent Memory},
@@ -4454,10 +4448,10 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx - xx
+    pages: 5031 - 5035
     booktitle: >
       21st Annual Conference of the International Speech Communication Association (<b>Interspeech'20</b>)
-    doc-url: http://www.interspeech2020.org/index.php?m=content&c=index&a=show&catid=418&id=1330
+    doc-url: https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1198.pdf
     abstract: >
       Transformer, a state-of-the-art neural network architecture, has been used successfully for different sequence-to-sequence transformation tasks. This model architecture disperses the attention distribution over entire input to learn long-term dependencies, which is important for some sequence-to-sequence tasks, such as neural machine translation and text summarization. However, automatic speech recognition (ASR) has a characteristic to have monotonic alignment between text output and speech input. Techniques like Connectionist Temporal Classification (CTC), RNN Transducer (RNN-T) and Recurrent Neural Aligner (RNA) build on top of this monotonic alignment and use local encoded speech representations for corresponding token prediction. In this paper, we present an effective cross attention biasing technique in transformer that takes monotonic alignment between text output and speech input into consideration by making use of cross attention weights. Specifically, a Gaussian mask is applied on cross attention weights to limit the input speech context range locally given alignment information. We further introduce a regularizer for alignment regularization. Experiments on LibriSpeech dataset find that our proposed model can obtain improved output-input alignment for ASR, and yields 14.5%-25.0% relative word error rate (WER) reductions.
     bibtex: >
@@ -4466,9 +4460,9 @@
        address = {Shanghai, China},
        author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
        booktitle = {21st Annual Conference of the International Speech Communication Association},
-       link = {http://www.interspeech2020.org/index.php?m=content&c=index&a=show&catid=418&id=1330},
+       link = {https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1198.pdf},
        month = {October},
-       pages = {xx -- xx},
+       pages = {5031 - 5035},
        publisher = {IEEE},
        series = {Interspeech'20},
        title = {Cross Attention with Monotonic Alignment for Speech Transformer},
@@ -4558,8 +4552,9 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
+    pages: 347-356
     journal: Neurocomputing
-    doc-url: 
+    doc-url: https://www.sciencedirect.com/science/article/abs/pii/S0925231220313023
     abstract: >
       The explosion of video data on the Internet requires effective and efficient technology to generate captions automatically for people, especially those who are visually im- paired. Despite the great progress of video captioning research, particularly in video feature encoding, the language decoder is still largely based on the prevailing recurrent structure such as LSTM, which tends to prefer frequent words that align with the video and do not generalize well to new videos. In this paper, we propose a boundary-aware hierarchical language decoder for video captioning, which consists of a high-level de- coder, working as a global (caption-level) language model, and a low-level decoder, working as a local (phrase-level) language model. Most importantly, we introduce a binary gate into the low-level language decoder to detect the phrasal boundaries. To- gether with other advanced components including a joint video prediction module, a shared soft attention, and a boundary-aware video encoding module, our integrated video captioning framework can discover hierarchical language information and dis- tinguish the subjects from the objects of the verbs in a sentence, which are usually confusing during caption generation. Extensive experiments on two widely-used video captioning datasets, MSR-Video-to-Text (MSR-VTT) and YouTube-to-Text (MSVD), show that our method is highly competitive, compared with the state-of-the-art methods.
     bibtex: >
@@ -4568,8 +4563,9 @@
        author = {Xiangxi Shi and Jianfei Cai and Jiuxiang Gu and Shafiq Joty},
        doi = {},
        journal = {Neurocomputing},
-       link = {},
+       link = {https://www.sciencedirect.com/science/article/abs/pii/S0925231220313023},
        number = {},
+       pages = {347-356},
        publisher = {Elsevier},
        title = {Video Captioning with Boundary-Aware Hierarchical Language Decoding and Joint Video Prediction},
        volume = {},
@@ -4753,34 +4749,181 @@
       
   -
     layout: paper
-    paper-type: article #changes display of reference in paper list
-    year: 2020
-    selected: yes
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2021
+    selected: no
     title: >
-      MultiMix: A Robust Data Augmentation Strategy for Cross-Lingual NLP
+      UXLA: A Robust Unsupervised Data Augmentation Framework for Cross-Lingual NLP
     authors: M Saiful, Tasnim Mohiuddin, and Shafiq Joty
     id: bari-et-al-arxiv-20
     img: bari-et-al-arxiv-20-fig
-    slides: # e.g. media/$ID.pptx
+    slides: media/bari-et-al-arxiv-20-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
-    venue: journal
-    pages: 
-    journal: arXiv (* not peer reviewed)
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (<b>ACL'21</b>)
     doc-url: https://arxiv.org/abs/2004.13889
     abstract: >
       Transfer learning has yielded state-of-the-art results in many supervised natural language processing tasks. However, annotated data for every target task in every target language is rare, especially for low-resource languages. In this work, we propose MultiMix, a novel data augmentation method for semi-supervised learning in zero-shot transfer learning scenarios. In particular, MultiMix targets to solve cross-lingual adaptation problems from a source (language) distribution to an unknown target (language) distribution assuming it has no training labels in the target language task. In its heart, MultiMix performs simultaneous self-training with data augmentation and unsupervised sample selection. To show its effectiveness, we have performed extensive experiments on zero-shot transfers for cross-lingual named entity recognition (XNER) and natural language inference (XNLI). Our experiments show sizeable improvements in both tasks outperforming the baselines by a good margin.
     bibtex: >
-      @article{bari-et-al-arxiv-20,
+      @inproceedings{bari-et-al-arxiv-20,
        abstract = {Transfer learning has yielded state-of-the-art results in many supervised natural language processing tasks. However, annotated data for every target task in every target language is rare, especially for low-resource languages. In this work, we propose MultiMix, a novel data augmentation method for semi-supervised learning in zero-shot transfer learning scenarios. In particular, MultiMix targets to solve cross-lingual adaptation problems from a source (language) distribution to an unknown target (language) distribution assuming it has no training labels in the target language task. In its heart, MultiMix performs simultaneous self-training with data augmentation and unsupervised sample selection. To show its effectiveness, we have performed extensive experiments on zero-shot transfers for cross-lingual named entity recognition (XNER) and natural language inference (XNLI). Our experiments show sizeable improvements in both tasks outperforming the baselines by a good margin.},
+       address = {Bangkok, Thailand},
        author = {M Saiful Bari and Tasnim Mohiuddin and Shafiq Joty},
-       issue = {},
-       journal = {arXiv (* not peer reviewed)},
+       booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
        link = {https://arxiv.org/abs/2004.13889},
-       pages = {},
-       publisher = {arXiv.org},
-       title = {MultiMix: A Robust Data Augmentation Strategy for Cross-Lingual NLP},
-       year = {2020}
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {ACL'21},
+       title = {UXLA: A Robust Unsupervised Data Augmentation Framework for Cross-Lingual NLP},
+       year = {2021}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2021
+    selected: no
+    title: >
+      A Conditional Splitting Framework for Efficient Constituency Parsing
+    authors: Thanh-Tung Nguyen, Xuan-Phi Nguyen, Shafiq Joty, and Xiaoli Li
+    id: Nguyen-et-al-acl-21
+    img: Nguyen-et-al-acl-21-fig
+    slides: media/Nguyen-et-al-acl-21-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (<b>ACL'21</b>)
+    doc-url: 
+    abstract: >
+      We introduce a generic seq2seq parsing framework that casts constituency parsing problems (syntactic and discourse parsing) into a series of conditional splitting decisions. Our parsing model estimates the conditional probability distribution of possible splitting points in a given text span and supports efficient top-down decoding, which is linear in number of nodes. The conditional splitting formulation together with efficient beam search inference facilitate structural consistency without relying on expensive structured inference. Crucially, for discourse analysis we show that in our formulation, discourse segmentation can be framed as a special case of parsing which allows us to perform discourse parsing without requiring  segmentation as a pre-requisite. Experiments show that our model achieves good results on the standard syntactic parsing tasks under settings with/without pre-trained representations and rivals state-of-the-art (SoTA) methods that are more computationally expensive than ours. In discourse parsing, our method outperforms SoTA by a good margin. Our source code will be publicly available.
+    bibtex: >
+      @inproceedings{Nguyen-et-al-acl-21,
+       abstract = {We introduce a generic seq2seq parsing framework that casts constituency parsing problems (syntactic and discourse parsing) into a series of conditional splitting decisions. Our parsing model estimates the conditional probability distribution of possible splitting points in a given text span and supports efficient top-down decoding, which is linear in number of nodes. The conditional splitting formulation together with efficient beam search inference facilitate structural consistency without relying on expensive structured inference. Crucially, for discourse analysis we show that in our formulation, discourse segmentation can be framed as a special case of parsing which allows us to perform discourse parsing without requiring  segmentation as a pre-requisite. Experiments show that our model achieves good results on the standard syntactic parsing tasks under settings with/without pre-trained representations and rivals state-of-the-art (SoTA) methods that are more computationally expensive than ours. In discourse parsing, our method outperforms SoTA by a good margin. Our source code will be publicly available.},
+       address = {Bangkok, Thailand},
+       author = {Thanh-Tung Nguyen and Xuan-Phi Nguyen and Shafiq Joty and Xiaoli Li},
+       booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+       link = {},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {ACL'21},
+       title = {A Conditional Splitting Framework for Efficient Constituency Parsing},
+       year = {2021}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2021
+    selected: no
+    title: >
+      Reliability Testing for Natural Language Processing Systems: An Adversarial Perspective
+    authors: Samson Tan, Shafiq Joty, Kathy Baxter, Araz Taeihagh, Gregory A., and Min-Yen Kan
+    id: Tan-et-al-acl-21
+    img: Tan-et-al-acl-21-fig
+    slides: media/Tan-et-al-acl-21-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (<b>ACL'21</b>)
+    doc-url: https://openreview.net/pdf?id=7ZL84tVlHZN
+    abstract: >
+      Questions of fairness, robustness, and transparency are paramount to address before deploying NLP systems. Central to these concerns is the question of reliability: Can NLP systems reliably treat different demographics fairly \emphand function correctly in diverse and noisy environments? To address this, we argue for the need for reliability testing and contextualize it among existing work on improving accountability. We show how adversarial attacks can be reframed for this goal, via a framework for developing reliability tests. We argue that reliability testing -- with an emphasis on interdisciplinary collaboration -- will enable rigorous and targeted testing, and aid in the enactment and enforcement of industry standards.
+    bibtex: >
+      @inproceedings{Tan-et-al-acl-21,
+       abstract = {Questions of fairness, robustness, and transparency are paramount to address before deploying NLP systems. Central to these concerns is the question of reliability: Can NLP systems reliably treat different demographics fairly \emph{and} function correctly in diverse and noisy environments? To address this, we argue for the need for reliability testing and contextualize it among existing work on improving accountability. We show how adversarial attacks can be reframed for this goal, via a framework for developing reliability tests. We argue that reliability testing --- with an emphasis on interdisciplinary collaboration --- will enable rigorous and targeted testing, and aid in the enactment and enforcement of industry standards.},
+       address = {Bangkok, Thailand},
+       author = {Samson Tan and Shafiq Joty and Kathy Baxter and Araz Taeihagh and Gregory A. Bennett and Min-Yen Kan},
+       booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+       link = {https://openreview.net/pdf?id=7ZL84tVlHZN},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {ACL'21},
+       title = {Reliability Testing for Natural Language Processing Systems: An Adversarial Perspective},
+       year = {2021}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2021
+    selected: no
+    title: >
+      MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER
+    authors: Linlin Liu, Bosheng Ding, Lidong Bing, Shafiq Joty, Luo Si, and Chunyan Miao
+    id: linlin-et-al-acl-21
+    img: linlin-et-al-acl-21-fig
+    slides: media/linlin-et-al-acl-21-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (<b>ACL'21</b>)
+    doc-url: 
+    abstract: >
+      Named Entity Recognition (NER) for low-resource languages is a both practical and challenging research problem. This paper addresses zero-shot transfer for cross-lingual NER, especially when the amount of source-language training data is also limited. The paper first proposes a simple but effective labeled sequence translation method to translate source-language training data to target languages and avoids problems such as word order change and entity span determination. With the source-language data as well as the translated data, a generation-based multilingual data augmentation method is introduced to further increase diversity by generating synthetic labeled data in multiple languages. These augmented data enable the language model based NER models to generalize better with both the language-specific features from the target-language synthetic data and the language-independent features from multilingual synthetic data. An extensive set of experiments were conducted to demonstrate encouraging cross-lingual transfer performance of the new research on a wide variety of target languages. The code and data in this work will be made public for the research community.
+    bibtex: >
+      @inproceedings{linlin-et-al-acl-21,
+       abstract = {Named Entity Recognition (NER) for low-resource languages is a both practical and challenging research problem. This paper addresses zero-shot transfer for cross-lingual NER, especially when the amount of source-language training data is also limited. The paper first proposes a simple but effective labeled sequence translation method to translate source-language training data to target languages and avoids problems such as word order change and entity span determination. With the source-language data as well as the translated data, a generation-based multilingual data augmentation method is introduced to further increase diversity by generating synthetic labeled data in multiple languages. These augmented data enable the language model based NER models to generalize better with both the language-specific features from the target-language synthetic data and the language-independent features from multilingual synthetic data. An extensive set of experiments were conducted to demonstrate encouraging cross-lingual transfer performance of the new research on a wide variety of target languages. The code and data in this work will be made public for the research community.},
+       address = {Bangkok, Thailand},
+       author = {Linlin Liu and Bosheng Ding and Lidong Bing and Shafiq Joty and Luo Si and Chunyan Miao},
+       booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+       link = {},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {ACL'21},
+       title = {MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER},
+       year = {2021}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2021
+    selected: no
+    title: >
+      AugVic: Exploiting BiText Vicinity for Low-Resource NMT
+    authors: Tasnim Mohiuddin, M Saiful, and Shafiq Joty
+    id: Mohiuddin-et-al-acl-21
+    img: Mohiuddin-et-al-acl-21-fig
+    slides: media/Mohiuddin-et-al-acl-21-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx–-xx
+    booktitle: >
+      Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (<b>ACL'21</b>)
+    doc-url: 
+    abstract: >
+      The success of Neural Machine Translation (NMT) largely depends on the availability of large bitext training corpora. Due to the lack of such large corpora in low-resource language pairs,  NMT systems often exhibit poor performance. Extra relevant monolingual data often helps, but acquiring it could be quite expensive, especially for low-resource languages. Moreover, domain mismatch between bitext (train/test) and monolingual data might degrade the performance. To alleviate such issues, we propose AugVic, a novel data augmentation framework for low-resource NMT which exploits the vicinal samples of the given bitext without using any extra monolingual data explicitly. It can diversify the in-domain bitext data with finer level control. Through extensive experiments on four low-resource language pairs comprising data from different domains, we have shown that our method is comparable to the traditional back-translation that uses extra in-domain monolingual data. When we combine the synthetic parallel data generated from AugVic with the ones from the extra monolingual data, we achieve further improvements. We show that AugVic helps to attenuate the discrepancies between relevant and distant-domain monolingual data in traditional back-translation. To understand the contributions of different components of AugVic, we perform an in-depth framework analysis.
+    bibtex: >
+      @inproceedings{Mohiuddin-et-al-acl-21,
+       abstract = {The success of Neural Machine Translation (NMT) largely depends on the availability of large bitext training corpora. Due to the lack of such large corpora in low-resource language pairs,  NMT systems often exhibit poor performance. Extra relevant monolingual data often helps, but acquiring it could be quite expensive, especially for low-resource languages. Moreover, domain mismatch between bitext (train/test) and monolingual data might degrade the performance. To alleviate such issues, we propose AugVic, a novel data augmentation framework for low-resource NMT which exploits the vicinal samples of the given bitext without using any extra monolingual data explicitly. It can diversify the in-domain bitext data with finer level control. Through extensive experiments on four low-resource language pairs comprising data from different domains, we have shown that our method is comparable to the traditional back-translation that uses extra in-domain monolingual data. When we combine the synthetic parallel data generated from AugVic with the ones from the extra monolingual data, we achieve further improvements. We show that AugVic helps to attenuate the discrepancies between relevant and distant-domain monolingual data in traditional back-translation. To understand the contributions of different components of AugVic, we perform an in-depth framework analysis.},
+       address = {Bangkok, Thailand},
+       author = {Tasnim Mohiuddin and M Saiful Bari and Shafiq Joty},
+       booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+       link = {},
+       numpages = {9},
+       pages = {xx–-xx},
+       publisher = {ACL},
+       series = {ACL'21},
+       title = {AugVic: Exploiting BiText Vicinity for Low-Resource NMT},
+       year = {2021}
       }
       
       
