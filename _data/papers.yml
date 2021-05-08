@@ -4732,10 +4732,10 @@
       In Thirty-eighth International Conference on Machine Learning (<b>ICML'21 (long 3%)</b>)
     doc-url: https://openreview.net/pdf?id=JAlqRs9duhz
     abstract: >
-      The success of Neural Machine Translation (NMT) largely depends on the availability of large bitext training corpora. Due to the lack of such large corpora in low-resource language pairs,  NMT systems often exhibit poor performance. Extra relevant monolingual data often helps, but acquiring it could be quite expensive, especially for low-resource languages. Moreover, domain mismatch between bitext (train/test) and monolingual data might degrade the performance. To alleviate such issues, we propose AugVic, a novel data augmentation framework for low-resource NMT which exploits the vicinal samples of the given bitext without using any extra monolingual data explicitly. It can diversify the in-domain bitext data with finer level control. Through extensive experiments on four low-resource language pairs comprising data from different domains, we have shown that our method is comparable to the traditional back-translation that uses extra in-domain monolingual data. When we combine the synthetic parallel data generated from AugVic with the ones from the extra monolingual data, we achieve further improvements. We show that AugVic helps to attenuate the discrepancies between relevant and distant-domain monolingual data in traditional back-translation. To understand the contributions of different components of AugVic, we perform an in-depth framework analysis.
+      Advanced large-scale neural language models have led to significant success in many language generation tasks. However, the most commonly used training objective, Maximum Likelihood Estimation (MLE), has been shown problematic, where the trained model prefers using dull and repetitive phrases. In this work, we introduce ScaleGrad, a  modification straight to the gradient of the loss function, to  remedy the degeneration issue of the standard MLE objective. By directly maneuvering the gradient information, ScaleGrad makes the model learn to use novel tokens. Empirical results show the effectiveness of our method not only in open-ended generation, but also in directed generation tasks. With the simplicity in architecture, our method can serve as a general training objective that is applicable to most of the neural text generation tasks.
     bibtex: >
       @inproceedings{lin-et-al-arxiv-21,
-       abstract = {The success of Neural Machine Translation (NMT) largely depends on the availability of large bitext training corpora. Due to the lack of such large corpora in low-resource language pairs,  NMT systems often exhibit poor performance. Extra relevant monolingual data often helps, but acquiring it could be quite expensive, especially for low-resource languages. Moreover, domain mismatch between bitext (train/test) and monolingual data might degrade the performance. To alleviate such issues, we propose AugVic, a novel data augmentation framework for low-resource NMT which exploits the vicinal samples of the given bitext without using any extra monolingual data explicitly. It can diversify the in-domain bitext data with finer level control. Through extensive experiments on four low-resource language pairs comprising data from different domains, we have shown that our method is comparable to the traditional back-translation that uses extra in-domain monolingual data. When we combine the synthetic parallel data generated from AugVic with the ones from the extra monolingual data, we achieve further improvements. We show that AugVic helps to attenuate the discrepancies between relevant and distant-domain monolingual data in traditional back-translation. To understand the contributions of different components of AugVic, we perform an in-depth framework analysis.},
+       abstract = {Advanced large-scale neural language models have led to significant success in many language generation tasks. However, the most commonly used training objective, Maximum Likelihood Estimation (MLE), has been shown problematic, where the trained model prefers using dull and repetitive phrases. In this work, we introduce {ScaleGrad}, a  modification straight to the gradient of the loss function, to  remedy the degeneration issue of the standard MLE objective. By directly maneuvering the gradient information, {ScaleGrad} makes the model learn to use novel tokens. Empirical results show the effectiveness of our method not only in open-ended generation, but also in directed generation tasks. With the simplicity in architecture, our method can serve as a general training objective that is applicable to most of the neural text generation tasks.},
        address = {Virtual},
        author = {Xiang Lin and Simeng Han and Shafiq Joty},
        booktitle = {In Thirty-eighth International Conference on Machine Learning},
@@ -4751,7 +4751,7 @@
   -
     layout: paper
     paper-type: article #changes display of reference in paper list
-    year: 2020
+    year: 2021
     selected: yes
     title: >
       Cross-model Back-translated Distillation for Unsupervised Machine Translation
@@ -4762,22 +4762,23 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
-    pages: xx-xx
-    journal: arXiv (* not peer reviewed)
+    booktitle: >
+      In Thirty-eighth International Conference on Machine Learning (<b>ICML'21</b>)
     doc-url: https://arxiv.org/abs/2006.02163
     abstract: >
       Recent unsupervised machine translation (UMT) systems usually employ three main principles: initialization, language modeling and iterative back-translation, though they may apply these principles differently. This work introduces another component to this framework: Multi-Agent Cross-translated Diversification (MACD). The method trains multiple UMT agents and then translates monolingual data back and forth using non-duplicative agents to acquire synthetic parallel data for supervised MT. MACD is applicable to all previous UMT approaches. In our experiments, the technique boosts the performance for some commonly used UMT methods by 1.5-2.0 BLEU. In particular, in WMT'14 English-French, WMT'16 German-English and English-Romanian, MACD outperforms cross-lingual masked language model pretraining by 2.3, 2.2 and 1.6 BLEU, respectively. It also yields 1.5-3.3 BLEU improvements in IWSLT English-French and English-German translation tasks. Through extensive experimental analyses, we show that MACD is effective because it embraces data diversity while other similar variants do not.
     bibtex: >
       @article{nguyen2020multiagent,
        abstract = {Recent unsupervised machine translation (UMT) systems usually employ three main principles: initialization, language modeling and iterative back-translation, though they may apply these principles differently. This work introduces another component to this framework: Multi-Agent Cross-translated Diversification (MACD). The method trains multiple UMT agents and then translates monolingual data back and forth using non-duplicative agents to acquire synthetic parallel data for supervised MT. MACD is applicable to all previous UMT approaches. In our experiments, the technique boosts the performance for some commonly used UMT methods by 1.5-2.0 BLEU. In particular, in WMT'14 English-French, WMT'16 German-English and English-Romanian, MACD outperforms cross-lingual masked language model pretraining by 2.3, 2.2 and 1.6 BLEU, respectively. It also yields 1.5-3.3 BLEU improvements in IWSLT English-French and English-German translation tasks. Through extensive experimental analyses, we show that MACD is effective because it embraces data diversity while other similar variants do not.},
+       address = {Virtual},
        author = {Xuan-Phi Nguyen and Shafiq Joty and Thanh-Tung Nguyen and Wu Kui and Ai Ti Aw},
-       issue = {},
-       journal = {arXiv (* not peer reviewed)},
+       booktitle = {In Thirty-eighth International Conference on Machine Learning},
        link = {https://arxiv.org/abs/2006.02163},
-       pages = {xx--xx},
-       publisher = {arXiv.org},
+       numpages = {9},
+       publisher = {},
+       series = {ICML'21},
        title = {Cross-model Back-translated Distillation for Unsupervised Machine Translation},
-       year = {2020}
+       year = {2021}
       }
       
       
