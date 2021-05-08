@@ -4721,7 +4721,7 @@
     selected: no
     title: >
       Straight to the Gradient: Learning to Use Novel Tokens for Neural Text Generation
-    authors: Xiang Lin, Simeng Han, and Shafiq Joty
+    authors: Xiang Lin, and Shafiq Joty
     id: lin-et-al-arxiv-21
     img: lin-et-al-arxiv-21-fig
     slides: media/lin-et-al-arxiv-21-slides.pdf
@@ -4737,7 +4737,7 @@
       @inproceedings{lin-et-al-arxiv-21,
        abstract = {Advanced large-scale neural language models have led to significant success in many language generation tasks. However, the most commonly used training objective, Maximum Likelihood Estimation (MLE), has been shown problematic, where the trained model prefers using dull and repetitive phrases. In this work, we introduce {ScaleGrad}, a  modification straight to the gradient of the loss function, to  remedy the degeneration issue of the standard MLE objective. By directly maneuvering the gradient information, {ScaleGrad} makes the model learn to use novel tokens. Empirical results show the effectiveness of our method not only in open-ended generation, but also in directed generation tasks. With the simplicity in architecture, our method can serve as a general training objective that is applicable to most of the neural text generation tasks.},
        address = {Virtual},
-       author = {Xiang Lin and Simeng Han and Shafiq Joty},
+       author = {Xiang Lin and Shafiq Joty},
        booktitle = {In Thirty-eighth International Conference on Machine Learning},
        link = {https://openreview.net/pdf?id=JAlqRs9duhz},
        numpages = {9},
