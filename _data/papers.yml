@@ -4860,7 +4860,7 @@
     year: 2021
     selected: no
     title: >
-      Reliability Testing for Natural Language Processing Systems: An Adversarial Perspective
+      Reliability Testing for Natural Language Processing Systems
     authors: Samson Tan, Shafiq Joty, Kathy Baxter, Araz Taeihagh, Gregory A., and Min-Yen Kan
     id: Tan-et-al-acl-21
     img: Tan-et-al-acl-21-fig
@@ -4885,7 +4885,7 @@
        pages = {xx–-xx},
        publisher = {ACL},
        series = {ACL'21},
-       title = {Reliability Testing for Natural Language Processing Systems: An Adversarial Perspective},
+       title = {Reliability Testing for Natural Language Processing Systems},
        year = {2021}
       }
       
