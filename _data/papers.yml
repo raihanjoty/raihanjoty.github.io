@@ -4729,7 +4729,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      In Thirty-eighth International Conference on Machine Learning (<b>ICML'21 (as long talk ~3%)</b>)
+      Thirty-eighth International Conference on Machine Learning (<b>ICML'21 (as long talk ~3%)</b>)
     doc-url: https://openreview.net/pdf?id=JAlqRs9duhz
     abstract: >
       Advanced large-scale neural language models have led to significant success in many language generation tasks. However, the most commonly used training objective, Maximum Likelihood Estimation (MLE), has been shown problematic, where the trained model prefers using dull and repetitive phrases. In this work, we introduce ScaleGrad, a  modification straight to the gradient of the loss function, to  remedy the degeneration issue of the standard MLE objective. By directly maneuvering the gradient information, ScaleGrad makes the model learn to use novel tokens. Empirical results show the effectiveness of our method not only in open-ended generation, but also in directed generation tasks. With the simplicity in architecture, our method can serve as a general training objective that is applicable to most of the neural text generation tasks.
@@ -4738,7 +4738,7 @@
        abstract = {Advanced large-scale neural language models have led to significant success in many language generation tasks. However, the most commonly used training objective, Maximum Likelihood Estimation (MLE), has been shown problematic, where the trained model prefers using dull and repetitive phrases. In this work, we introduce {ScaleGrad}, a  modification straight to the gradient of the loss function, to  remedy the degeneration issue of the standard MLE objective. By directly maneuvering the gradient information, {ScaleGrad} makes the model learn to use novel tokens. Empirical results show the effectiveness of our method not only in open-ended generation, but also in directed generation tasks. With the simplicity in architecture, our method can serve as a general training objective that is applicable to most of the neural text generation tasks.},
        address = {Virtual},
        author = {Xiang Lin and Simeng Han and Shafiq Joty},
-       booktitle = {In Thirty-eighth International Conference on Machine Learning},
+       booktitle = {Thirty-eighth International Conference on Machine Learning},
        link = {https://openreview.net/pdf?id=JAlqRs9duhz},
        numpages = {9},
        publisher = {},
@@ -4763,7 +4763,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      In Thirty-eighth International Conference on Machine Learning (<b>ICML'21</b>)
+      Thirty-eighth International Conference on Machine Learning (<b>ICML'21</b>)
     doc-url: https://arxiv.org/abs/2006.02163
     abstract: >
       Recent unsupervised machine translation (UMT) systems usually employ three main principles: initialization, language modeling and iterative back-translation, though they may apply these principles differently. This work introduces another component to this framework: Multi-Agent Cross-translated Diversification (MACD). The method trains multiple UMT agents and then translates monolingual data back and forth using non-duplicative agents to acquire synthetic parallel data for supervised MT. MACD is applicable to all previous UMT approaches. In our experiments, the technique boosts the performance for some commonly used UMT methods by 1.5-2.0 BLEU. In particular, in WMT'14 English-French, WMT'16 German-English and English-Romanian, MACD outperforms cross-lingual masked language model pretraining by 2.3, 2.2 and 1.6 BLEU, respectively. It also yields 1.5-3.3 BLEU improvements in IWSLT English-French and English-German translation tasks. Through extensive experimental analyses, we show that MACD is effective because it embraces data diversity while other similar variants do not.
@@ -4772,7 +4772,7 @@
        abstract = {Recent unsupervised machine translation (UMT) systems usually employ three main principles: initialization, language modeling and iterative back-translation, though they may apply these principles differently. This work introduces another component to this framework: Multi-Agent Cross-translated Diversification (MACD). The method trains multiple UMT agents and then translates monolingual data back and forth using non-duplicative agents to acquire synthetic parallel data for supervised MT. MACD is applicable to all previous UMT approaches. In our experiments, the technique boosts the performance for some commonly used UMT methods by 1.5-2.0 BLEU. In particular, in WMT'14 English-French, WMT'16 German-English and English-Romanian, MACD outperforms cross-lingual masked language model pretraining by 2.3, 2.2 and 1.6 BLEU, respectively. It also yields 1.5-3.3 BLEU improvements in IWSLT English-French and English-German translation tasks. Through extensive experimental analyses, we show that MACD is effective because it embraces data diversity while other similar variants do not.},
        address = {Virtual},
        author = {Xuan-Phi Nguyen and Shafiq Joty and Thanh-Tung Nguyen and Wu Kui and Ai Ti Aw},
-       booktitle = {In Thirty-eighth International Conference on Machine Learning},
+       booktitle = {Thirty-eighth International Conference on Machine Learning},
        link = {https://arxiv.org/abs/2006.02163},
        numpages = {9},
        publisher = {},
@@ -5015,7 +5015,7 @@
     pages: xx–-xx
     booktitle: >
       Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (<b>NAACL'21</b>)
-    doc-url: https://arxiv.org/abs/2010.12836
+    doc-url: https://arxiv.org/abs/2105.10861
     abstract: >
       We introduce a novel top-down end-to-end formulation of document level discourse parsing in the Rhetorical Structure Theory (RST) framework. In this formulation, we consider discourse parsing as a sequence of splitting decisions at token boundaries and use a seq2seq network to model the splitting decisions. Our framework facilitates discourse parsing from scratch without requiring discourse segmentation as a prerequisite; rather, it yields segmentation as part of the parsing process. Our unified parsing model adopts a beam search to decode the best tree structure by searching through a space of high scoring trees. With extensive experiments on the standard RST discourse treebank, we demonstrate that our parser outperforms existing methods by a good margin in both end-to-end parsing and parsing with gold segmentation. More importantly, it does so without using any handcrafted features, making it faster and easily adaptable to new languages and domains.
     bibtex: >
@@ -5024,7 +5024,7 @@
        address = {Mexico City, Mexico},
        author = {Thanh-Tung Nguyen and Xuan-Phi Nguyen and Shafiq Joty and Xiaoli Li},
        booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-       link = {https://arxiv.org/abs/2010.12836},
+       link = {https://arxiv.org/abs/2105.10861},
        numpages = {9},
        pages = {xx–-xx},
        publisher = {ACL},
