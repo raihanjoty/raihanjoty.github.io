@@ -3,3 +3,48 @@ SAL33
 
 
 pfnjld
+
+While sentences in natural language can be modeled as if they were linear sequences, the underlying
+process is compositional ()
+
+Construction process of natural language is said to be hierarchical & recursive [Hauser et al., 2002] 
+
+CODRA: A Novel Discriminative Framework for Rhetorical Analysis. Shafiq Joty, Giuseppe Carenini, and Raymond T Ng. In Computational Linguistics: pages 385-435, 2015.
+
+Combining Intra- and Multi-sentential Rhetorical Parsing for Document-level Discourse Analysis
+Shafiq Joty, Giuseppe Carenini, Raymond T. Ng, and Yashar Mehdad. In Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (ACL'13).
+
+
+
+2408.45, 2500
+2312.90, 0ut 2221.25
+
+2617.22, 2500 = 127. 
+2475.73, out 2603.10
+
+
+
+
+
+
+
+
+
+
+
+
+Dear [Name of the addressee, like Mr. Jones]:
+
+Thank you very much for the invitation to interview for the [job title] position. I am definitely interested in learning more about this opportunity, and I look forward to our virtual meeting on Tuesday, the 9th, at 10:30 AM.
+
+I understand that we will be using Zoom, and that the URL and password will be provided to me on the day before the interview via email.
+
+Will other people be participating in the interview? Please, if possible, share the names and job titles of the other people who will be interviewing me.
+
+If I should expect to spend more than two hours, please give me your best estimate of the amount of time needed.
+
+If you would like any additional information about me, please let me know.
+
+If the original invitation does not include the date and time, add this paragraph --
+
+The best times for me to attend this interview are: [first preference for date and time] or, if that is unavailable, [second preference for date and time]. Let me know which date is best for you.
