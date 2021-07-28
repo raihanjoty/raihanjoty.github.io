@@ -2369,7 +2369,7 @@ Conclusions: The literature on conversational agents in health care is largely d
   address = {Virtual},
   numpages = {9},
   publisher = {},
-  url = {https://openreview.net/pdf?id=JAlqRs9duhz},
+  url = {http://proceedings.mlr.press/v139/lin21b.html},
   abstract = {Advanced large-scale neural language models have led to significant success in many language generation tasks. However, the most commonly used training objective, Maximum Likelihood Estimation (MLE), has been shown problematic, where the trained model prefers using dull and repetitive phrases. In this work, we introduce {ScaleGrad}, a  modification straight to the gradient of the loss function, to  remedy the degeneration issue of the standard MLE objective. By directly maneuvering the gradient information, {ScaleGrad} makes the model learn to use novel tokens. Empirical results show the effectiveness of our method not only in open-ended generation, but also in directed generation tasks. With the simplicity in architecture, our method can serve as a general training objective that is applicable to most of the neural text generation tasks.},
 } 
 
@@ -2382,7 +2382,7 @@ Conclusions: The literature on conversational agents in health care is largely d
     address = {Virtual},
     numpages = {9},
     publisher = {},
-    url = {https://arxiv.org/abs/2006.02163},
+    url = {http://proceedings.mlr.press/v139/nguyen21c/nguyen21c.pdf},
     abstract={Recent unsupervised machine translation (UMT) systems usually employ three main principles: initialization, language modeling and iterative back-translation, though they may apply these principles differently. This work introduces another component to this framework: Multi-Agent Cross-translated Diversification (MACD). The method trains multiple UMT agents and then translates monolingual data back and forth using non-duplicative agents to acquire synthetic parallel data for supervised MT. MACD is applicable to all previous UMT approaches. In our experiments, the technique boosts the performance for some commonly used UMT methods by 1.5-2.0 BLEU. In particular, in WMT'14 English-French, WMT'16 German-English and English-Romanian, MACD outperforms cross-lingual masked language model pretraining by 2.3, 2.2 and 1.6 BLEU, respectively. It also yields 1.5-3.3 BLEU improvements in IWSLT English-French and English-German translation tasks. Through extensive experimental analyses, we show that MACD is effective because it embraces data diversity while other similar variants do not.},
 }
 
@@ -2399,7 +2399,7 @@ Conclusions: The literature on conversational agents in health care is largely d
   numpages = {9},
   publisher = {ACL},
   url       = {}, 
-  url = {https://arxiv.org/abs/2004.13889},
+  url = {https://aclanthology.org/2021.acl-long.154/},
   abstract={Transfer learning has yielded state-of-the-art results in many supervised natural language processing tasks. However, annotated data for every target task in every target language is rare, especially for low-resource languages. In this work, we propose MultiMix, a novel data augmentation method for semi-supervised learning in zero-shot transfer learning scenarios. In particular, MultiMix targets to solve cross-lingual adaptation problems from a source (language) distribution to an unknown target (language) distribution assuming it has no training labels in the target language task. In its heart, MultiMix performs simultaneous self-training with data augmentation and unsupervised sample selection. To show its effectiveness, we have performed extensive experiments on zero-shot transfers for cross-lingual named entity recognition (XNER) and natural language inference (XNLI). Our experiments show sizeable improvements in both tasks outperforming the baselines by a good margin.},
 }
 
@@ -2414,7 +2414,7 @@ Conclusions: The literature on conversational agents in health care is largely d
   pages = {xx–-xx},
   numpages = {9},
   publisher = {ACL},
-  url       = {}, 
+  url       = {https://aclanthology.org/2021.acl-long.450/}, 
   abstract = {We introduce a generic seq2seq parsing framework that casts constituency parsing problems (syntactic and discourse parsing) into a series of conditional splitting decisions. Our parsing model estimates the conditional probability distribution of possible splitting points in a given text span and supports efficient top-down decoding, which is linear in number of nodes. The conditional splitting formulation together with efficient beam search inference facilitate structural consistency without relying on expensive structured inference. Crucially, for discourse analysis we show that in our formulation, discourse segmentation can be framed as a special case of parsing which allows us to perform discourse parsing without requiring  segmentation as a pre-requisite. Experiments show that our model achieves good results on the standard syntactic parsing tasks under settings with/without pre-trained representations and rivals state-of-the-art (SoTA) methods that are more computationally expensive than ours. In discourse parsing, our method outperforms SoTA by a good margin. Our source code will be publicly available.},
 } 
 
@@ -2429,7 +2429,7 @@ Conclusions: The literature on conversational agents in health care is largely d
   pages = {xx–-xx},
   numpages = {9},
   publisher = {ACL},
-  url       = {https://openreview.net/pdf?id=7ZL84tVlHZN}, 
+  url       = {https://aclanthology.org/2021.acl-long.321/}, 
   abstract = {Questions of fairness, robustness, and transparency are paramount to address before deploying NLP systems. Central to these concerns is the question of reliability: Can NLP systems reliably treat different demographics fairly \emph{and} function correctly in diverse and noisy environments? To address this, we argue for the need for reliability testing and contextualize it among existing work on improving accountability. We show how adversarial attacks can be reframed for this goal, via a framework for developing reliability tests. We argue that reliability testing --- with an emphasis on interdisciplinary collaboration --- will enable rigorous and targeted testing, and aid in the enactment and enforcement of industry standards.},
 } 
 
@@ -2443,7 +2443,7 @@ Conclusions: The literature on conversational agents in health care is largely d
   pages = {xx–-xx},
   numpages = {9},
   publisher = {ACL},
-  url       = {}, 
+  url       = {https://aclanthology.org/2021.acl-long.453/}, 
   abstract = {Named Entity Recognition (NER) for low-resource languages is a both practical and challenging research problem. This paper addresses zero-shot transfer for cross-lingual NER, especially when the amount of source-language training data is also limited. The paper first proposes a simple but effective labeled sequence translation method to translate source-language training data to target languages and avoids problems such as word order change and entity span determination. With the source-language data as well as the translated data, a generation-based multilingual data augmentation method is introduced to further increase diversity by generating synthetic labeled data in multiple languages. These augmented data enable the language model based NER models to generalize better with both the language-specific features from the target-language synthetic data and the language-independent features from multilingual synthetic data. An extensive set of experiments were conducted to demonstrate encouraging cross-lingual transfer performance of the new research on a wide variety of target languages. The code and data in this work will be made public for the research community.},
 } 
 
@@ -2457,7 +2457,7 @@ Conclusions: The literature on conversational agents in health care is largely d
   pages = {xx–-xx},
   numpages = {9},
   publisher = {ACL},
-  url       = {}, 
+  url       = {https://arxiv.org/abs/2106.05141}, 
   abstract = {The success of Neural Machine Translation (NMT) largely depends on the availability of large bitext training corpora. Due to the lack of such large corpora in low-resource language pairs,  NMT systems often exhibit poor performance. Extra relevant monolingual data often helps, but acquiring it could be quite expensive, especially for low-resource languages. Moreover, domain mismatch between bitext (train/test) and monolingual data might degrade the performance. To alleviate such issues, we propose AugVic, a novel data augmentation framework for low-resource NMT which exploits the vicinal samples of the given bitext without using any extra monolingual data explicitly. It can diversify the in-domain bitext data with finer level control. Through extensive experiments on four low-resource language pairs comprising data from different domains, we have shown that our method is comparable to the traditional back-translation that uses extra in-domain monolingual data. When we combine the synthetic parallel data generated from AugVic with the ones from the extra monolingual data, we achieve further improvements. We show that AugVic helps to attenuate the discrepancies between relevant and distant-domain monolingual data in traditional back-translation. To understand the contributions of different components of AugVic, we perform an in-depth framework analysis.},
 } 
 
@@ -2473,7 +2473,7 @@ booktitle = {Proceedings of the North American Chapter of the Association for Co
  pages = {xx–-xx},
  numpages = {9},
  publisher = {ACL},
- url       = {https://openreview.net/pdf?id=Dqj-Ou60fg0}, 
+ url       = {https://aclanthology.org/2021.naacl-main.282.pdf}, 
 abstract = {Multilingual models have demonstrated impressive cross-lingual transfer performance. However, test sets like XNLI are monolingual at the example level. In multilingual communities, it is common for polyglots to code-mix when conversing with each other. Inspired by this phenomenon, we present two strong black-box adversarial attacks (one word-level, one phrase-level) for multilingual models that push their ability to handle code-mixed sentences to the limit. The former uses bilingual dictionaries to propose perturbations and translations of the clean example for sense disambiguation. The latter directly aligns the clean example with its translations before extracting phrases as perturbations. Our phrase-level attack has a success rate of 89.75\% against XLM-R$_\text{large}$, bringing its average accuracy of 79.85 down to 8.18 on XNLI. Finally, we propose an efficient adversarial training scheme that trains in the same number of steps as the original model and show that it improves model accuracy.},
 } 
 
