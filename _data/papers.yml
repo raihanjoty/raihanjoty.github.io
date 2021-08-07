@@ -4796,7 +4796,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx–-xx
+    pages: 1978–-1992
     booktitle: >
       Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (<b>ACL'21</b>)
     doc-url: https://aclanthology.org/2021.acl-long.154/
@@ -4810,7 +4810,7 @@
        booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
        link = {https://aclanthology.org/2021.acl-long.154/},
        numpages = {9},
-       pages = {xx–-xx},
+       pages = {1978–-1992},
        publisher = {ACL},
        series = {ACL'21},
        title = {UXLA: A Robust Unsupervised Data Augmentation Framework for Cross-Lingual NLP},
@@ -4868,7 +4868,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: xx–-xx
+    pages: 4153–4169
     booktitle: >
       Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (<b>ACL'21</b>)
     doc-url: https://aclanthology.org/2021.acl-long.321/
@@ -4882,7 +4882,7 @@
        booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
        link = {https://aclanthology.org/2021.acl-long.321/},
        numpages = {9},
-       pages = {xx–-xx},
+       pages = {4153–4169},
        publisher = {ACL},
        series = {ACL'21},
        title = {Reliability Testing for Natural Language Processing Systems},
