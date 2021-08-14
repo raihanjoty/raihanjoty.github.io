@@ -1,18 +1,46 @@
 
+
+
+
+
+
+@InProceedings{Yingzhu-et-al-emnlp-21,
+  author    = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
+  title     = {A Unified Speaker Adaptation Approach for ASR},
+  booktitle = {The 2021 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2021},
+  series    = {EMNLP'21},
+  publisher = {ACL},
+  address   = {Online}, 
+  abstract = {Transformer models have been used in automatic speech recognition (ASR) successfully and yields state-of-the-art results. However, its performance is still affected by speaker mismatch between training and test data. Further finetuning a trained model with target speaker data is the most natural approach for adaptation, but it takes a lot of compute and may cause catastrophic forgetting to the existing speakers. In this work, we propose a unified speaker adaptation approach consisting of feature adaptation and model adaptation. For feature adaptation, we employ a speaker-aware persistent memory model which generalizes better to unseen test speakers by making use of speaker i-vectors to form a persistent memory. For model adaptation, we use a novel gradual pruning method to adapt to target speakers without changing the model architecture, which to the best of our knowledge, has never been explored in ASR. Specifically, we gradually prune less contributing parameters on model encoder to a certain sparsity level, and use the pruned parameters for adaptation, while freezing the unpruned parameters to keep the original model performance. We conduct experiments on the Librispeech dataset. Our proposed approach brings relative 2.74-6.52\% word error rate (WER) reduction on general speaker adaptation. On target speaker adaptation, our method outperforms the baseline with up to 20.1\% relative WER reduction, and surpasses the finetuning method by up to relative 8.62\%. Besides, with extremely low-resource adaptation data (e.g., 1 utterance), our method could improve the WER by relative 6.53\% with only a few epochs of training.}
+}
+
+@inproceedings{Junnan-et-al-nips-21,
+  title="{Align before Fuse: Vision and Language Representation Learning with
+               Momentum Distillation}",
+  author    = {Junnan Li and
+               Ramprasaath R. Selvaraju and
+               Akhilesh Deepak Gotmare and
+               Shafiq Joty and
+               Caiming Xiong and
+               Steven C. H. Hoi},
+  booktitle = {2021 Conference on Neural Information Processing Systems},
+  address = {Online},
+  series = {NeurIPS'21 (under review)},
+  year={2021},
+  url = {https://arxiv.org/abs/2107.07651},
+  abstract={Large-scale vision and language representation learning has shown promising improvements on various vision-language tasks. Most existing methods employ a transformer-based multimodal encoder to jointly model visual tokens (region-based image features) and word tokens. Because the visual tokens and word tokens are unaligned, it is challenging for the multimodal encoder to learn image-text interactions. In this paper, we introduce a contrastive loss to ALign the image and text representations BEfore Fusing (ALBEF) them through cross-modal attention, which enables more grounded vision and language representation learning. Unlike most existing methods, our method does not require bounding box annotations nor high-resolution images. In order to improve learning from noisy web data, we propose momentum distillation, a self-training method which learns from pseudo-targets produced by a momentum model. We provide a theoretical analysis of ALBEF from a mutual information maximization perspective, showing that different training tasks can be interpreted as different ways to generate views for an image-text pair. ALBEF achieves state-of-the-art performance on multiple downstream vision-language tasks. On image-text retrieval, ALBEF outperforms methods that are pre-trained on orders of magnitude larger datasets. On VQA and NLVR2, ALBEF achieves absolute improvements of 2.37\% and 3.84\% compared to the state-of-the-art, while enjoying faster inference speed. Code and pre-trained models are available at .}
+}
+
+
+
+
+
 SAL33
 
 
 pfnjld
 
-While sentences in natural language can be modeled as if they were linear sequences, the underlying
-process is compositional ()
-
-Construction process of natural language is said to be hierarchical & recursive [Hauser et al., 2002] 
-
-CODRA: A Novel Discriminative Framework for Rhetorical Analysis. Shafiq Joty, Giuseppe Carenini, and Raymond T Ng. In Computational Linguistics: pages 385-435, 2015.
-
-Combining Intra- and Multi-sentential Rhetorical Parsing for Document-level Discourse Analysis
-Shafiq Joty, Giuseppe Carenini, Raymond T. Ng, and Yashar Mehdad. In Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (ACL'13).
 
 
 
@@ -33,18 +61,3 @@ Shafiq Joty, Giuseppe Carenini, Raymond T. Ng, and Yashar Mehdad. In Proceedings
 
 
 
-Dear [Name of the addressee, like Mr. Jones]:
-
-Thank you very much for the invitation to interview for the [job title] position. I am definitely interested in learning more about this opportunity, and I look forward to our virtual meeting on Tuesday, the 9th, at 10:30 AM.
-
-I understand that we will be using Zoom, and that the URL and password will be provided to me on the day before the interview via email.
-
-Will other people be participating in the interview? Please, if possible, share the names and job titles of the other people who will be interviewing me.
-
-If I should expect to spend more than two hours, please give me your best estimate of the amount of time needed.
-
-If you would like any additional information about me, please let me know.
-
-If the original invitation does not include the date and time, add this paragraph --
-
-The best times for me to attend this interview are: [first preference for date and time] or, if that is unavailable, [second preference for date and time]. Let me know which date is best for you.
