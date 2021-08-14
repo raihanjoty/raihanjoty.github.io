@@ -2573,3 +2573,33 @@ the synthetic tasks and the downstream applications, motivating alternate traini
   abstract = {With the recent development of end-to-end models in speech recognition, there have been more interests in adapting these models for online speech recognition. However, using end- to-end models for online speech recognition is known to suf- fer from an early endpointing problem, which brings in many deletion errors. In this paper, we propose to address the early endpointing problem from the gradient perspective. Specifi- cally, we leverage on the recently proposed ScaleGrad tech- nique, which was proposed to mitigate the text degeneration issue. Different from ScaleGrad, we adapt it to discourage the early generation of the end-of-sentence (<eos>) token. A scaling term is added to directly maneuver the gradient of the training loss to encourage the model to learn to keep generating non-<eos> tokens. Compared with previous ap- proaches such as voice-activity-detection and end-of-query detection, the proposed method does not rely on various types of silence, and it also saves the trouble from obtaining the ground truth endpoint with forced alignment. Nevertheless, it can be jointly applied with other techniques. Experiments on AISHELL-1 dataset show that our model brings relative 5.4%-10.1% CER reductions over the baseline, and surpasses the unlikelihood training method which directly reduces the generation probability of <eos> token.}
 }
 
+
+@InProceedings{Li-et-al-CIKM21,
+  author    = {Xiangju Li and Wei Gao and Shi Feng and Wang Daling and Shafiq Joty},
+  title     = {Span-Level Emotion Cause Analysis by BERT-based Graph Attention Network},
+  booktitle = {Proceedings of The 30th ACM International Conference on Information and Knowledge Management},
+  month     = {November},
+  year      = {2021},
+  series    = {CIKM'21},
+  address   = {Online},
+  publisher = {ACM},
+  pages     = {xx--xx},
+  url       = {},
+  abstract = {We study the task of span-level emotion cause analysis (SECA), which is focused on identifying the specific emotion cause span(s) triggering a certain emotion in the text. Compared to the popular clause-level emotion cause analysis (CECA), it is a finer-grained emotion cause analysis (ECA) task. Existing SECA method relies on the manually engineered features, which is labor-intensive and not generalized well. In this paper, we design a BERT-based graph attention network for emotion cause span(s) identification. The proposed model takes advantage the structure of BERT to capture the relationship information between emotion and text, and utilizes graph attention network to model the structure information of the text. Our SECA method can be easily used for extracting clause-level emotion causes for CECA as well. Experimental results show that the proposed method consistently outperform the state-of-the-art ECA methods on benchmark emotion cause dataset.}
+}
+
+@InProceedings{Li-et-al-CIKM21b,
+  author    = {Xiangju Li and Wei Gao and Shi Feng and Wang Daling and Shafiq Joty},
+  title     = {Span-level Emotion Cause Analysis with Neural Sequence Tagging},
+  booktitle = {Proceedings of The 30th ACM International Conference on Information and Knowledge Management},
+  month     = {November},
+  year      = {2021},
+  series    = {CIKM'21},
+  address   = {Online},
+  publisher = {ACM},
+  pages     = {xx--xx},
+  url       = {},
+  abstract = {We study the task of span-level Emotion cause analysis (SECA), which is focused on extracting the specific emotion cause span(s) for a certain emotion expressed in the given context. Compared to popular clause-level emotion cause analysis (CECA), it is a finer-grained emotion cause analysis (ECA) task. The existing SECA method heavily dependents on the effectiveness of designed features, which is labor-intensive and not generalized well. In this paper, we formalize SECA as a sequence tagging task for which several variants of neural network-based sequence tagging models to extract specific emotion cause span(s) in the given context. These models combine different types of encoding and decoding approaches. Furthermore, to make our models more ``emotionally sensitive'', we utilize the multi-head attention mechanism to enhance the representation of context. Experimental evaluations conducted on two benchmark datasets show that our proposed models create new state-of-the-art results. Our work is the first using neural sequence tagging method for span-level ECA.}
+}
+
+
