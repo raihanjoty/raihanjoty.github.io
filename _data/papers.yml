@@ -5155,9 +5155,9 @@
     title: >
       Span-Level Emotion Cause Analysis by BERT-based Graph Attention Network
     authors: Xiangju Li, Wei Gao, Shi Feng, Wang Daling, and Shafiq Joty
-    id: Li-et-al-CIKM21
-    img: Li-et-al-CIKM21-fig
-    slides: media/Li-et-al-CIKM21-slides.pdf
+    id: li-cikm21
+    img: li-cikm21-fig
+    slides: media/li-cikm21-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -5168,7 +5168,7 @@
     abstract: >
       We study the task of span-level emotion cause analysis (SECA), which is focused on identifying the specific emotion cause span(s) triggering a certain emotion in the text. Compared to the popular clause-level emotion cause analysis (CECA), it is a finer-grained emotion cause analysis (ECA) task. Existing SECA method relies on the manually engineered features, which is labor-intensive and not generalized well. In this paper, we design a BERT-based graph attention network for emotion cause span(s) identification. The proposed model takes advantage the structure of BERT to capture the relationship information between emotion and text, and utilizes graph attention network to model the structure information of the text. Our SECA method can be easily used for extracting clause-level emotion causes for CECA as well. Experimental results show that the proposed method consistently outperform the state-of-the-art ECA methods on benchmark emotion cause dataset.
     bibtex: >
-      @inproceedings{Li-et-al-CIKM21,
+      @inproceedings{li-cikm21,
        abstract = {We study the task of span-level emotion cause analysis (SECA), which is focused on identifying the specific emotion cause span(s) triggering a certain emotion in the text. Compared to the popular clause-level emotion cause analysis (CECA), it is a finer-grained emotion cause analysis (ECA) task. Existing SECA method relies on the manually engineered features, which is labor-intensive and not generalized well. In this paper, we design a BERT-based graph attention network for emotion cause span(s) identification. The proposed model takes advantage the structure of BERT to capture the relationship information between emotion and text, and utilizes graph attention network to model the structure information of the text. Our SECA method can be easily used for extracting clause-level emotion causes for CECA as well. Experimental results show that the proposed method consistently outperform the state-of-the-art ECA methods on benchmark emotion cause dataset.},
        address = {Online},
        author = {Xiangju Li and Wei Gao and Shi Feng and Wang Daling and Shafiq Joty},
@@ -5191,9 +5191,9 @@
     title: >
       Span-level Emotion Cause Analysis with Neural Sequence Tagging
     authors: Xiangju Li, Wei Gao, Shi Feng, Wang Daling, and Shafiq Joty
-    id: Li-et-al-CIKM21b
-    img: Li-et-al-CIKM21b-fig
-    slides: media/Li-et-al-CIKM21b-slides.pdf
+    id: li-cikm21b
+    img: li-cikm21b-fig
+    slides: media/li-cikm21b-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -5204,7 +5204,7 @@
     abstract: >
       We study the task of span-level Emotion cause analysis (SECA), which is focused on extracting the specific emotion cause span(s) for a certain emotion expressed in the given context. Compared to popular clause-level emotion cause analysis (CECA), it is a finer-grained emotion cause analysis (ECA) task. The existing SECA method heavily dependents on the effectiveness of designed features, which is labor-intensive and not generalized well. In this paper, we formalize SECA as a sequence tagging task for which several variants of neural network-based sequence tagging models to extract specific emotion cause span(s) in the given context. These models combine different types of encoding and decoding approaches. Furthermore, to make our models more ``emotionally sensitive'', we utilize the multi-head attention mechanism to enhance the representation of context. Experimental evaluations conducted on two benchmark datasets show that our proposed models create new state-of-the-art results. Our work is the first using neural sequence tagging method for span-level ECA.
     bibtex: >
-      @inproceedings{Li-et-al-CIKM21b,
+      @inproceedings{li-cikm21b,
        abstract = {We study the task of span-level Emotion cause analysis (SECA), which is focused on extracting the specific emotion cause span(s) for a certain emotion expressed in the given context. Compared to popular clause-level emotion cause analysis (CECA), it is a finer-grained emotion cause analysis (ECA) task. The existing SECA method heavily dependents on the effectiveness of designed features, which is labor-intensive and not generalized well. In this paper, we formalize SECA as a sequence tagging task for which several variants of neural network-based sequence tagging models to extract specific emotion cause span(s) in the given context. These models combine different types of encoding and decoding approaches. Furthermore, to make our models more ``emotionally sensitive'', we utilize the multi-head attention mechanism to enhance the representation of context. Experimental evaluations conducted on two benchmark datasets show that our proposed models create new state-of-the-art results. Our work is the first using neural sequence tagging method for span-level ECA.},
        address = {Online},
        author = {Xiangju Li and Wei Gao and Shi Feng and Wang Daling and Shafiq Joty},
@@ -5215,42 +5215,6 @@
        publisher = {ACM},
        series = {CIKM'21 (short paper)},
        title = {Span-level Emotion Cause Analysis with Neural Sequence Tagging},
-       year = {2021}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2021
-    selected: no
-    title: >
-      Towards Enhancing Database Education: Natural Language Generation Meets Query Execution Plans
-    authors: Weiguo Wang, Sourav S, Hui Li, Shafiq Joty, and Siyuan Liu
-    id: wang-et-al-sigmod-21
-    img: wang-et-al-sigmod-21-fig
-    slides: media/wang-et-al-sigmod-21-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    pages: x - x
-    booktitle: >
-      Proceedings of 2021 ACM SIGMOD International Conference on Management of Data (<b>SIGMOD'21</b>)
-    doc-url: 
-    abstract: >
-      The widespread usage of rdbms in the commercial world has played a pivotal role in the offering of database systems course in major universities. A key challenge encountered by learners taking such a course is the topic of query optimization. The query optimization process produces a query execution plan (qep), which represents an execution strategy for an sql query. Unfortunately, in practice, it is often difficult for a learner to comprehend query execution strategies by perusing vendor-specific qeps, hindering her learning process. In this paper, we present a novel, end-to-end, generic sys- tem called lantern that generates a natural language description of a qep to enhance its understanding. It takes as input an sql query and its qep, and generates a natural language description of the execution strategy deployed by the underlying rdbms. Specifi- cally, it deploys a declarative framework called pool that enables subject matter experts to efficiently create and maintain natural language descriptions of physical operators used in qeps. A rule- based framework called rule-lantern is proposed that exploits pool to generate natural language descriptions of qeps. Despite the high accuracy of rule-lantern, our engagement with learners reveal that consistent with existing psychology theories perusing such rule-based descriptions lead to boredom due to repetitive state- ments across different qeps. To address this issue, we present a novel deep learning-based language generation framework called neural-lantern that infuses language variability in the gener- ated description by exploiting a set of paraphrasing tools and word embedding. Our experimental study with real learners shows the effectiveness of lantern in facilitating comprehension of qeps.
-    bibtex: >
-      @inproceedings{wang-et-al-sigmod-21,
-       abstract = {The widespread usage of rdbms in the commercial world has played a pivotal role in the offering of database systems course in major universities. A key challenge encountered by learners taking such a course is the topic of query optimization. The query optimization process produces a query execution plan (qep), which represents an execution strategy for an sql query. Unfortunately, in practice, it is often difficult for a learner to comprehend query execution strategies by perusing vendor-specific qeps, hindering her learning process. In this paper, we present a novel, end-to-end, generic sys- tem called lantern that generates a natural language description of a qep to enhance its understanding. It takes as input an sql query and its qep, and generates a natural language description of the execution strategy deployed by the underlying rdbms. Specifi- cally, it deploys a declarative framework called pool that enables subject matter experts to efficiently create and maintain natural language descriptions of physical operators used in qeps. A rule- based framework called rule-lantern is proposed that exploits pool to generate natural language descriptions of qeps. Despite the high accuracy of rule-lantern, our engagement with learners reveal that consistent with existing psychology theories perusing such rule-based descriptions lead to boredom due to repetitive state- ments across different qeps. To address this issue, we present a novel deep learning-based language generation framework called neural-lantern that infuses language variability in the gener- ated description by exploiting a set of paraphrasing tools and word embedding. Our experimental study with real learners shows the effectiveness of lantern in facilitating comprehension of qeps.},
-       address = {Xi'an, Shaanxi, China},
-       author = {Weiguo Wang and Sourav S Bhowmick and Hui Li and Shafiq Joty and Siyuan Liu},
-       booktitle = {Proceedings of 2021 ACM SIGMOD International Conference on Management of Data},
-       link = {},
-       month = {June},
-       pages = {x -- x},
-       publisher = {ACM},
-       series = {SIGMOD'21},
-       title = {Towards Enhancing Database Education: Natural Language Generation Meets Query Execution Plans},
        year = {2021}
       }
       
@@ -5287,6 +5251,42 @@
        publisher = {IEEE},
        series = {ICASSP'21},
        title = {Preventing Early Endpointing for Online Automatic Speech Recognition},
+       year = {2021}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2021
+    selected: no
+    title: >
+      Towards Enhancing Database Education: Natural Language Generation Meets Query Execution Plans
+    authors: Weiguo Wang, Sourav S, Hui Li, Shafiq Joty, and Siyuan Liu
+    id: wang-et-al-sigmod-21
+    img: wang-et-al-sigmod-21-fig
+    slides: media/wang-et-al-sigmod-21-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: x - x
+    booktitle: >
+      Proceedings of 2021 ACM SIGMOD International Conference on Management of Data (<b>SIGMOD'21</b>)
+    doc-url: 
+    abstract: >
+      The widespread usage of rdbms in the commercial world has played a pivotal role in the offering of database systems course in major universities. A key challenge encountered by learners taking such a course is the topic of query optimization. The query optimization process produces a query execution plan (qep), which represents an execution strategy for an sql query. Unfortunately, in practice, it is often difficult for a learner to comprehend query execution strategies by perusing vendor-specific qeps, hindering her learning process. In this paper, we present a novel, end-to-end, generic sys- tem called lantern that generates a natural language description of a qep to enhance its understanding. It takes as input an sql query and its qep, and generates a natural language description of the execution strategy deployed by the underlying rdbms. Specifi- cally, it deploys a declarative framework called pool that enables subject matter experts to efficiently create and maintain natural language descriptions of physical operators used in qeps. A rule- based framework called rule-lantern is proposed that exploits pool to generate natural language descriptions of qeps. Despite the high accuracy of rule-lantern, our engagement with learners reveal that consistent with existing psychology theories perusing such rule-based descriptions lead to boredom due to repetitive state- ments across different qeps. To address this issue, we present a novel deep learning-based language generation framework called neural-lantern that infuses language variability in the gener- ated description by exploiting a set of paraphrasing tools and word embedding. Our experimental study with real learners shows the effectiveness of lantern in facilitating comprehension of qeps.
+    bibtex: >
+      @inproceedings{wang-et-al-sigmod-21,
+       abstract = {The widespread usage of rdbms in the commercial world has played a pivotal role in the offering of database systems course in major universities. A key challenge encountered by learners taking such a course is the topic of query optimization. The query optimization process produces a query execution plan (qep), which represents an execution strategy for an sql query. Unfortunately, in practice, it is often difficult for a learner to comprehend query execution strategies by perusing vendor-specific qeps, hindering her learning process. In this paper, we present a novel, end-to-end, generic sys- tem called lantern that generates a natural language description of a qep to enhance its understanding. It takes as input an sql query and its qep, and generates a natural language description of the execution strategy deployed by the underlying rdbms. Specifi- cally, it deploys a declarative framework called pool that enables subject matter experts to efficiently create and maintain natural language descriptions of physical operators used in qeps. A rule- based framework called rule-lantern is proposed that exploits pool to generate natural language descriptions of qeps. Despite the high accuracy of rule-lantern, our engagement with learners reveal that consistent with existing psychology theories perusing such rule-based descriptions lead to boredom due to repetitive state- ments across different qeps. To address this issue, we present a novel deep learning-based language generation framework called neural-lantern that infuses language variability in the gener- ated description by exploiting a set of paraphrasing tools and word embedding. Our experimental study with real learners shows the effectiveness of lantern in facilitating comprehension of qeps.},
+       address = {Xi'an, Shaanxi, China},
+       author = {Weiguo Wang and Sourav S Bhowmick and Hui Li and Shafiq Joty and Siyuan Liu},
+       booktitle = {Proceedings of 2021 ACM SIGMOD International Conference on Management of Data},
+       link = {},
+       month = {June},
+       pages = {x -- x},
+       publisher = {ACM},
+       series = {SIGMOD'21},
+       title = {Towards Enhancing Database Education: Natural Language Generation Meets Query Execution Plans},
        year = {2021}
       }
       
