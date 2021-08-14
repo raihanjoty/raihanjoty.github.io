@@ -5153,78 +5153,6 @@
     year: 2021
     selected: no
     title: >
-      Towards Enhancing Database Education: Natural Language Generation Meets Query Execution Plans
-    authors: Weiguo Wang, Sourav S, Hui Li, Shafiq Joty, and Siyuan Liu
-    id: wang-et-al-sigmod-21
-    img: wang-et-al-sigmod-21-fig
-    slides: media/wang-et-al-sigmod-21-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    pages: x - x
-    booktitle: >
-      Proceedings of 2021 ACM SIGMOD International Conference on Management of Data (<b>SIGMOD'21</b>)
-    doc-url: 
-    abstract: >
-      The widespread usage of rdbms in the commercial world has played a pivotal role in the offering of database systems course in major universities. A key challenge encountered by learners taking such a course is the topic of query optimization. The query optimization process produces a query execution plan (qep), which represents an execution strategy for an sql query. Unfortunately, in practice, it is often difficult for a learner to comprehend query execution strategies by perusing vendor-specific qeps, hindering her learning process. In this paper, we present a novel, end-to-end, generic sys- tem called lantern that generates a natural language description of a qep to enhance its understanding. It takes as input an sql query and its qep, and generates a natural language description of the execution strategy deployed by the underlying rdbms. Specifi- cally, it deploys a declarative framework called pool that enables subject matter experts to efficiently create and maintain natural language descriptions of physical operators used in qeps. A rule- based framework called rule-lantern is proposed that exploits pool to generate natural language descriptions of qeps. Despite the high accuracy of rule-lantern, our engagement with learners reveal that consistent with existing psychology theories perusing such rule-based descriptions lead to boredom due to repetitive state- ments across different qeps. To address this issue, we present a novel deep learning-based language generation framework called neural-lantern that infuses language variability in the gener- ated description by exploiting a set of paraphrasing tools and word embedding. Our experimental study with real learners shows the effectiveness of lantern in facilitating comprehension of qeps.
-    bibtex: >
-      @inproceedings{wang-et-al-sigmod-21,
-       abstract = {The widespread usage of rdbms in the commercial world has played a pivotal role in the offering of database systems course in major universities. A key challenge encountered by learners taking such a course is the topic of query optimization. The query optimization process produces a query execution plan (qep), which represents an execution strategy for an sql query. Unfortunately, in practice, it is often difficult for a learner to comprehend query execution strategies by perusing vendor-specific qeps, hindering her learning process. In this paper, we present a novel, end-to-end, generic sys- tem called lantern that generates a natural language description of a qep to enhance its understanding. It takes as input an sql query and its qep, and generates a natural language description of the execution strategy deployed by the underlying rdbms. Specifi- cally, it deploys a declarative framework called pool that enables subject matter experts to efficiently create and maintain natural language descriptions of physical operators used in qeps. A rule- based framework called rule-lantern is proposed that exploits pool to generate natural language descriptions of qeps. Despite the high accuracy of rule-lantern, our engagement with learners reveal that consistent with existing psychology theories perusing such rule-based descriptions lead to boredom due to repetitive state- ments across different qeps. To address this issue, we present a novel deep learning-based language generation framework called neural-lantern that infuses language variability in the gener- ated description by exploiting a set of paraphrasing tools and word embedding. Our experimental study with real learners shows the effectiveness of lantern in facilitating comprehension of qeps.},
-       address = {Xi'an, Shaanxi, China},
-       author = {Weiguo Wang and Sourav S Bhowmick and Hui Li and Shafiq Joty and Siyuan Liu},
-       booktitle = {Proceedings of 2021 ACM SIGMOD International Conference on Management of Data},
-       link = {},
-       month = {June},
-       pages = {x -- x},
-       publisher = {ACM},
-       series = {SIGMOD'21},
-       title = {Towards Enhancing Database Education: Natural Language Generation Meets Query Execution Plans},
-       year = {2021}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2021
-    selected: no
-    title: >
-      Preventing Early Endpointing for Online Automatic Speech Recognition
-    authors: Yingzhu Zhao, Chongjia Ni, Cheung-Chi Leung, Shafiq Joty, Eng Siong, and  Bin Ma
-    id: zhao-et-al-icassp-21
-    img: zhao-et-al-icassp-21-fig
-    slides: media/zhao-et-al-icassp-21-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    pages: xx - xx
-    booktitle: >
-      International Conference on Acoustics, Speech, and Signal Processing (<b>ICASSP'21</b>)
-    doc-url: https://2021.ieeeicassp.org/Papers/AcceptedPapers.asp
-    abstract: >
-      With the recent development of end-to-end models in speech recognition, there have been more interests in adapting these models for online speech recognition. However, using end- to-end models for online speech recognition is known to suf- fer from an early endpointing problem, which brings in many deletion errors. In this paper, we propose to address the early endpointing problem from the gradient perspective. Specifi- cally, we leverage on the recently proposed ScaleGrad tech- nique, which was proposed to mitigate the text degeneration issue. Different from ScaleGrad, we adapt it to discourage the early generation of the end-of-sentence (<eos>) token. A scaling term is added to directly maneuver the gradient of the training loss to encourage the model to learn to keep generating non-<eos> tokens. Compared with previous ap- proaches such as voice-activity-detection and end-of-query detection, the proposed method does not rely on various types of silence, and it also saves the trouble from obtaining the ground truth endpoint with forced alignment. Nevertheless, it can be jointly applied with other techniques. Experiments on AISHELL-1 dataset show that our model brings relative 5.4%-10.1% CER reductions over the baseline, and surpasses the unlikelihood training method which directly reduces the generation probability of <eos> token.
-    bibtex: >
-      @inproceedings{zhao-et-al-icassp-21,
-       abstract = {With the recent development of end-to-end models in speech recognition, there have been more interests in adapting these models for online speech recognition. However, using end- to-end models for online speech recognition is known to suf- fer from an early endpointing problem, which brings in many deletion errors. In this paper, we propose to address the early endpointing problem from the gradient perspective. Specifi- cally, we leverage on the recently proposed ScaleGrad tech- nique, which was proposed to mitigate the text degeneration issue. Different from ScaleGrad, we adapt it to discourage the early generation of the end-of-sentence (<eos>) token. A scaling term is added to directly maneuver the gradient of the training loss to encourage the model to learn to keep generating non-<eos> tokens. Compared with previous ap- proaches such as voice-activity-detection and end-of-query detection, the proposed method does not rely on various types of silence, and it also saves the trouble from obtaining the ground truth endpoint with forced alignment. Nevertheless, it can be jointly applied with other techniques. Experiments on AISHELL-1 dataset show that our model brings relative 5.4%-10.1% CER reductions over the baseline, and surpasses the unlikelihood training method which directly reduces the generation probability of <eos> token.},
-       address = {Brighton, UK},
-       author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi Leung and Shafiq Joty and Eng Siong Chng and Bin Ma,},
-       booktitle = {International Conference on Acoustics, Speech, and Signal Processing},
-       link = {https://2021.ieeeicassp.org/Papers/AcceptedPapers.asp},
-       month = {May},
-       pages = {xx -- xx},
-       publisher = {IEEE},
-       series = {ICASSP'21},
-       title = {Preventing Early Endpointing for Online Automatic Speech Recognition},
-       year = {2021}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2021
-    selected: no
-    title: >
       Span-Level Emotion Cause Analysis by BERT-based Graph Attention Network
     authors: Xiangju Li, Wei Gao, Shi Feng, Wang Daling, and Shafiq Joty
     id: Li-et-al-CIKM21
@@ -5287,6 +5215,78 @@
        publisher = {ACM},
        series = {CIKM'21 (short paper)},
        title = {Span-level Emotion Cause Analysis with Neural Sequence Tagging},
+       year = {2021}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2021
+    selected: no
+    title: >
+      Towards Enhancing Database Education: Natural Language Generation Meets Query Execution Plans
+    authors: Weiguo Wang, Sourav S, Hui Li, Shafiq Joty, and Siyuan Liu
+    id: wang-et-al-sigmod-21
+    img: wang-et-al-sigmod-21-fig
+    slides: media/wang-et-al-sigmod-21-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: x - x
+    booktitle: >
+      Proceedings of 2021 ACM SIGMOD International Conference on Management of Data (<b>SIGMOD'21</b>)
+    doc-url: 
+    abstract: >
+      The widespread usage of rdbms in the commercial world has played a pivotal role in the offering of database systems course in major universities. A key challenge encountered by learners taking such a course is the topic of query optimization. The query optimization process produces a query execution plan (qep), which represents an execution strategy for an sql query. Unfortunately, in practice, it is often difficult for a learner to comprehend query execution strategies by perusing vendor-specific qeps, hindering her learning process. In this paper, we present a novel, end-to-end, generic sys- tem called lantern that generates a natural language description of a qep to enhance its understanding. It takes as input an sql query and its qep, and generates a natural language description of the execution strategy deployed by the underlying rdbms. Specifi- cally, it deploys a declarative framework called pool that enables subject matter experts to efficiently create and maintain natural language descriptions of physical operators used in qeps. A rule- based framework called rule-lantern is proposed that exploits pool to generate natural language descriptions of qeps. Despite the high accuracy of rule-lantern, our engagement with learners reveal that consistent with existing psychology theories perusing such rule-based descriptions lead to boredom due to repetitive state- ments across different qeps. To address this issue, we present a novel deep learning-based language generation framework called neural-lantern that infuses language variability in the gener- ated description by exploiting a set of paraphrasing tools and word embedding. Our experimental study with real learners shows the effectiveness of lantern in facilitating comprehension of qeps.
+    bibtex: >
+      @inproceedings{wang-et-al-sigmod-21,
+       abstract = {The widespread usage of rdbms in the commercial world has played a pivotal role in the offering of database systems course in major universities. A key challenge encountered by learners taking such a course is the topic of query optimization. The query optimization process produces a query execution plan (qep), which represents an execution strategy for an sql query. Unfortunately, in practice, it is often difficult for a learner to comprehend query execution strategies by perusing vendor-specific qeps, hindering her learning process. In this paper, we present a novel, end-to-end, generic sys- tem called lantern that generates a natural language description of a qep to enhance its understanding. It takes as input an sql query and its qep, and generates a natural language description of the execution strategy deployed by the underlying rdbms. Specifi- cally, it deploys a declarative framework called pool that enables subject matter experts to efficiently create and maintain natural language descriptions of physical operators used in qeps. A rule- based framework called rule-lantern is proposed that exploits pool to generate natural language descriptions of qeps. Despite the high accuracy of rule-lantern, our engagement with learners reveal that consistent with existing psychology theories perusing such rule-based descriptions lead to boredom due to repetitive state- ments across different qeps. To address this issue, we present a novel deep learning-based language generation framework called neural-lantern that infuses language variability in the gener- ated description by exploiting a set of paraphrasing tools and word embedding. Our experimental study with real learners shows the effectiveness of lantern in facilitating comprehension of qeps.},
+       address = {Xi'an, Shaanxi, China},
+       author = {Weiguo Wang and Sourav S Bhowmick and Hui Li and Shafiq Joty and Siyuan Liu},
+       booktitle = {Proceedings of 2021 ACM SIGMOD International Conference on Management of Data},
+       link = {},
+       month = {June},
+       pages = {x -- x},
+       publisher = {ACM},
+       series = {SIGMOD'21},
+       title = {Towards Enhancing Database Education: Natural Language Generation Meets Query Execution Plans},
+       year = {2021}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2021
+    selected: no
+    title: >
+      Preventing Early Endpointing for Online Automatic Speech Recognition
+    authors: Yingzhu Zhao, Chongjia Ni, Cheung-Chi Leung, Shafiq Joty, Eng Siong, and  Bin Ma
+    id: zhao-et-al-icassp-21
+    img: zhao-et-al-icassp-21-fig
+    slides: media/zhao-et-al-icassp-21-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: xx - xx
+    booktitle: >
+      International Conference on Acoustics, Speech, and Signal Processing (<b>ICASSP'21</b>)
+    doc-url: https://2021.ieeeicassp.org/Papers/AcceptedPapers.asp
+    abstract: >
+      With the recent development of end-to-end models in speech recognition, there have been more interests in adapting these models for online speech recognition. However, using end- to-end models for online speech recognition is known to suf- fer from an early endpointing problem, which brings in many deletion errors. In this paper, we propose to address the early endpointing problem from the gradient perspective. Specifi- cally, we leverage on the recently proposed ScaleGrad tech- nique, which was proposed to mitigate the text degeneration issue. Different from ScaleGrad, we adapt it to discourage the early generation of the end-of-sentence (<eos>) token. A scaling term is added to directly maneuver the gradient of the training loss to encourage the model to learn to keep generating non-<eos> tokens. Compared with previous ap- proaches such as voice-activity-detection and end-of-query detection, the proposed method does not rely on various types of silence, and it also saves the trouble from obtaining the ground truth endpoint with forced alignment. Nevertheless, it can be jointly applied with other techniques. Experiments on AISHELL-1 dataset show that our model brings relative 5.4%-10.1% CER reductions over the baseline, and surpasses the unlikelihood training method which directly reduces the generation probability of <eos> token.
+    bibtex: >
+      @inproceedings{zhao-et-al-icassp-21,
+       abstract = {With the recent development of end-to-end models in speech recognition, there have been more interests in adapting these models for online speech recognition. However, using end- to-end models for online speech recognition is known to suf- fer from an early endpointing problem, which brings in many deletion errors. In this paper, we propose to address the early endpointing problem from the gradient perspective. Specifi- cally, we leverage on the recently proposed ScaleGrad tech- nique, which was proposed to mitigate the text degeneration issue. Different from ScaleGrad, we adapt it to discourage the early generation of the end-of-sentence (<eos>) token. A scaling term is added to directly maneuver the gradient of the training loss to encourage the model to learn to keep generating non-<eos> tokens. Compared with previous ap- proaches such as voice-activity-detection and end-of-query detection, the proposed method does not rely on various types of silence, and it also saves the trouble from obtaining the ground truth endpoint with forced alignment. Nevertheless, it can be jointly applied with other techniques. Experiments on AISHELL-1 dataset show that our model brings relative 5.4%-10.1% CER reductions over the baseline, and surpasses the unlikelihood training method which directly reduces the generation probability of <eos> token.},
+       address = {Brighton, UK},
+       author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi Leung and Shafiq Joty and Eng Siong Chng and Bin Ma,},
+       booktitle = {International Conference on Acoustics, Speech, and Signal Processing},
+       link = {https://2021.ieeeicassp.org/Papers/AcceptedPapers.asp},
+       month = {May},
+       pages = {xx -- xx},
+       publisher = {IEEE},
+       series = {ICASSP'21},
+       title = {Preventing Early Endpointing for Online Automatic Speech Recognition},
        year = {2021}
       }
       
