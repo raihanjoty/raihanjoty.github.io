@@ -3895,7 +3895,7 @@
     selected: no
     title: >
       Response Selection for Multi-Party Conversations with Dynamic Topic Tracking
-    authors: Weishi Wang, Shafiq Joty, and Steven C.H.
+    authors: Weishi Wang, Shafiq Joty, and Steven Hoi
     id: Weishi-et-al-emnlp-20
     img: Weishi-et-al-emnlp-20-fig
     slides: media/Weishi-et-al-emnlp-20-slides.pdf
@@ -3924,7 +3924,7 @@
       results on the DSTC-8 Ubuntu IRC dataset
       show state-of-the-art results in response selection and topic disentanglement tasks outperforming existing methods by a good margin.},
        address = {Punta Cana, Dominican Republic},
-       author = {Weishi Wang and Shafiq Joty and Steven C.H. Hoi},
+       author = {Weishi Wang and Shafiq Joty and Steven Hoi},
        booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
        link = {https://www.aclweb.org/anthology/2020.emnlp-main.533/},
        numpages = {9},
@@ -3980,7 +3980,7 @@
     selected: no
     title: >
       VD-BERT: A Unified Vision and Dialog Transformer with BERT
-    authors: Yue Wang, Shafiq Joty, Michael R., Irwin King, Caiming Xiong, and Steven C.H.
+    authors: Yue Wang, Shafiq Joty, Michael R., Irwin King, Caiming Xiong, and Steven Hoi
     id: yue-et-al-arxiv-20
     img: yue-et-al-arxiv-20-fig
     slides: media/yue-et-al-arxiv-20-slides.pdf
@@ -3997,7 +3997,7 @@
       @inproceedings{yue-et-al-arxiv-20,
        abstract = {Visual dialog is a challenging vision-language task, where a dialog agent needs to answer a series of questions through reasoning on the image content and dialog history. Prior work has mostly focused on various attention mechanisms to model such intricate interactions. By contrast, in this work, we propose VD-BERT, a simple yet effective framework of unified vision-dialog Transformer that leverages the pretrained BERT language models for Visual Dialog tasks. The model is unified in that (1) it captures all the interactions between the image and the multi-turn dialog using a single-stream Transformer encoder, and (2) it supports both answer ranking and answer generation seamlessly through the same architecture. More crucially, we adapt BERT for the effective fusion of vision and dialog contents via visually grounded training. Without the need of pretraining on external vision-language data, our model yields new state of the art, achieving the top position in both single-model and ensemble settings (74.54 and 75.35 NDCG scores) on the visual dialog leaderboard.},
        address = {Punta Cana, Dominican Republic},
-       author = {Yue Wang and Shafiq Joty and Michael R. Lyu and Irwin King and Caiming Xiong and Steven C.H. Hoi},
+       author = {Yue Wang and Shafiq Joty and Michael R. Lyu and Irwin King and Caiming Xiong and Steven Hoi},
        booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
        link = {https://www.aclweb.org/anthology/2020.emnlp-main.269/},
        numpages = {9},
@@ -4016,7 +4016,7 @@
     selected: no
     title: >
       Discern: Discourse-Aware Entailment Reasoning Network for Conversational Machine Reading
-    authors: Yifan Gao, Chien-Sheng Wu, Jingjing Li, Shafiq Joty, Steven C.H., Caiming Xiong, Irwin King, and Michael Lyu
+    authors: Yifan Gao, Chien-Sheng Wu, Jingjing Li, Shafiq Joty, Steven Hoi, Caiming Xiong, Irwin King, and Michael Lyu
     id: Gao-et-al-emnlp-20
     img: Gao-et-al-emnlp-20-fig
     slides: media/Gao-et-al-emnlp-20-slides.pdf
@@ -4033,7 +4033,7 @@
       @inproceedings{Gao-et-al-emnlp-20,
        abstract = {Document interpretation and dialog understanding are the two major challenges for conversational machine reading. In this work, we propose DISCERN, a discourse-aware entailment reasoning network to strengthen the connection and enhance the understanding for both document and dialog. Specifically, we split the document into clause-like elementary discourse units (EDU) using a pre-trained discourse segmentation model, and we train our model in a weakly-supervised manner to predict whether each EDU is entailed by the user feedback in a conversation. Based on the learned EDU and entailment representations, we either reply to the user our final decision “yes/no/irrelevant” of the initial question, or generate a follow-up question to inquiry more information. Our experiments on the ShARC benchmark (blind, held-out test set) show that DISCERN achieves state-of-the-art results of 78.3% macro-averaged accuracy on decision making and 64.0 BLEU1 on follow-up question generation.},
        address = {Punta Cana, Dominican Republic},
-       author = {Yifan Gao and Chien-Sheng Wu and Jingjing Li and Shafiq Joty and Steven C.H. Hoi and Caiming Xiong and Irwin King and Michael Lyu},
+       author = {Yifan Gao and Chien-Sheng Wu and Jingjing Li and Shafiq Joty and Steven Hoi and Caiming Xiong and Irwin King and Michael Lyu},
        booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
        link = {https://www.aclweb.org/anthology/2020.emnlp-main.191/},
        numpages = {9},
@@ -4191,7 +4191,7 @@
     selected: no
     title: >
       EMT: Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading
-    authors: Yifan Gao, Chien-Sheng Wu, Shafiq Joty, Caiming Xiong, Richard Socher, Irwin King, Michael Lyu, and Steven C.H.
+    authors: Yifan Gao, Chien-Sheng Wu, Shafiq Joty, Caiming Xiong, Richard Socher, Irwin King, Michael Lyu, and Steven Hoi
     id: Gao-et-al-acl-20
     img: Gao-et-al-acl-20-fig
     slides: media/Gao-et-al-acl-20-slides.pdf
@@ -4214,7 +4214,7 @@
       We also show that EMT is more interpretable by visualizing the entailment-oriented reasoning process as the conversation flows.
       Code and models will be released to facilitate research along this line.},
        address = {Seattle, USA},
-       author = {Yifan Gao and Chien-Sheng Wu and Shafiq Joty and Caiming Xiong and Richard Socher and Irwin King and Michael Lyu and Steven C.H. Hoi},
+       author = {Yifan Gao and Chien-Sheng Wu and Shafiq Joty and Caiming Xiong and Richard Socher and Irwin King and Michael Lyu and Steven Hoi},
        booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
        link = {https://www.aclweb.org/anthology/2020.acl-main.88/},
        numpages = {9},
@@ -4688,7 +4688,7 @@
     selected: no
     title: >
       Align before Fuse: Vision and Language Representation Learning with Momentum Distillation
-    authors: Junnan Li, Ramprasaath R., Akhilesh Deepak, Shafiq Joty, Caiming Xiong, and Steven C.
+    authors: Junnan Li, Ramprasaath R., Akhilesh Deepak, Shafiq Joty, Caiming Xiong, and Steven Hoi
     id: Junnan-et-al-nips-21
     img: Junnan-et-al-nips-21-fig
     slides: media/Junnan-et-al-nips-21-slides.pdf
@@ -4709,7 +4709,7 @@
       Akhilesh Deepak Gotmare and
       Shafiq Joty and
       Caiming Xiong and
-      Steven C. H. Hoi},
+      Steven Hoi},
        booktitle = {2021 Conference on Neural Information Processing Systems},
        link = {https://arxiv.org/abs/2107.07651},
        series = {NeurIPS'21 (under review)},
