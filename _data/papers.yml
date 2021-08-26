@@ -4621,39 +4621,6 @@
     year: 2020
     selected: yes
     title: >
-      GeDi: Generative Discriminator Guided Sequence Generation
-    authors: Ben Krause, Akhilesh Deepak, Bryan McCann, Nitish Shirish, Shafiq Joty, Richard Socher, and Nazneen Fatema
-    id: ben-et-al-arxiv-20
-    img: ben-et-al-arxiv-20-fig
-    slides: # e.g. media/$ID.pptx
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: journal
-    pages: xx-xx
-    journal: arXiv (* not peer reviewed)
-    doc-url: https://arxiv.org/pdf/2009.06367.pdf
-    abstract: >
-      Class-conditional language models (CC-LMs) can be used to generate natural language with specific attributes, such as style or sentiment, by conditioning on an attribute label, or control code. However, we find that these models struggle to control generation when applied to out-of-domain prompts or unseen control codes. To overcome these limitations, we propose generative discriminator (GeDi) guided contrastive generation, which uses CC-LMs as generative discriminators (GeDis) to efficiently guide generation from a (potentially much larger) LM towards a desired attribute. In our human evaluation experiments, we show that GeDis trained for sentiment control on movie reviews are able to control the tone of book text. We also demonstrate that GeDis are able to detoxify generation and control topic while maintaining the same level of linguistic acceptability as direct generation from GPT-2 (1.5B parameters). Lastly, we show that a GeDi trained on only 4 topics can generalize to new control codes from word embeddings, allowing it to guide generation towards wide array of topics.
-    bibtex: >
-      @article{ben-et-al-arxiv-20,
-       abstract = {Class-conditional language models (CC-LMs) can be used to generate natural language with specific attributes, such as style or sentiment, by conditioning on an attribute label, or control code. However, we find that these models struggle to control generation when applied to out-of-domain prompts or unseen control codes. To overcome these limitations, we propose generative discriminator (GeDi) guided contrastive generation, which uses CC-LMs as generative discriminators (GeDis) to efficiently guide generation from a (potentially much larger) LM towards a desired attribute. In our human evaluation experiments, we show that GeDis trained for sentiment control on movie reviews are able to control the tone of book text. We also demonstrate that GeDis are able to detoxify generation and control topic while maintaining the same level of linguistic acceptability as direct generation from GPT-2 (1.5B parameters). Lastly, we show that a GeDi trained on only 4 topics can generalize to new control codes from word embeddings, allowing it to guide generation towards wide array of topics.},
-       author = {Ben Krause and Akhilesh Deepak Gotmare and Bryan McCann and Nitish Shirish Keskar and Shafiq Joty and Richard Socher and Nazneen Fatema Rajani},
-       issue = {},
-       journal = {arXiv (* not peer reviewed)},
-       link = {https://arxiv.org/pdf/2009.06367.pdf},
-       pages = {xx--xx},
-       publisher = {arXiv.org},
-       title = {GeDi: Generative Discriminator Guided Sequence Generation},
-       year = {2020}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: article #changes display of reference in paper list
-    year: 2020
-    selected: yes
-    title: >
       Resurrecting Submodularity for Neural Text Generation
     authors: Simeng Han, Xiang Lin, and Shafiq Joty
     id: simeng-et-al-arxiv-19
@@ -5384,6 +5351,75 @@
        publisher = {ACM},
        series = {SIGMOD'21},
        title = {Towards Enhancing Database Education: Natural Language Generation Meets Query Execution Plans},
+       year = {2021}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2020
+    selected: yes
+    title: >
+      GeDi: Generative Discriminator Guided Sequence Generation
+    authors: Ben Krause, Akhilesh Deepak, Bryan McCann, Nitish Shirish, Shafiq Joty, Richard Socher, and Nazneen Fatema
+    id: ben-et-al-arxiv-20
+    img: ben-et-al-arxiv-20-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    pages: xx-xx
+    journal: arXiv (* not peer reviewed)
+    doc-url: https://arxiv.org/pdf/2009.06367.pdf
+    abstract: >
+      Class-conditional language models (CC-LMs) can be used to generate natural language with specific attributes, such as style or sentiment, by conditioning on an attribute label, or control code. However, we find that these models struggle to control generation when applied to out-of-domain prompts or unseen control codes. To overcome these limitations, we propose generative discriminator (GeDi) guided contrastive generation, which uses CC-LMs as generative discriminators (GeDis) to efficiently guide generation from a (potentially much larger) LM towards a desired attribute. In our human evaluation experiments, we show that GeDis trained for sentiment control on movie reviews are able to control the tone of book text. We also demonstrate that GeDis are able to detoxify generation and control topic while maintaining the same level of linguistic acceptability as direct generation from GPT-2 (1.5B parameters). Lastly, we show that a GeDi trained on only 4 topics can generalize to new control codes from word embeddings, allowing it to guide generation towards wide array of topics.
+    bibtex: >
+      @article{ben-et-al-arxiv-20,
+       abstract = {Class-conditional language models (CC-LMs) can be used to generate natural language with specific attributes, such as style or sentiment, by conditioning on an attribute label, or control code. However, we find that these models struggle to control generation when applied to out-of-domain prompts or unseen control codes. To overcome these limitations, we propose generative discriminator (GeDi) guided contrastive generation, which uses CC-LMs as generative discriminators (GeDis) to efficiently guide generation from a (potentially much larger) LM towards a desired attribute. In our human evaluation experiments, we show that GeDis trained for sentiment control on movie reviews are able to control the tone of book text. We also demonstrate that GeDis are able to detoxify generation and control topic while maintaining the same level of linguistic acceptability as direct generation from GPT-2 (1.5B parameters). Lastly, we show that a GeDi trained on only 4 topics can generalize to new control codes from word embeddings, allowing it to guide generation towards wide array of topics.},
+       author = {Ben Krause and Akhilesh Deepak Gotmare and Bryan McCann and Nitish Shirish Keskar and Shafiq Joty and Richard Socher and Nazneen Fatema Rajani},
+       issue = {},
+       journal = {arXiv (* not peer reviewed)},
+       link = {https://arxiv.org/pdf/2009.06367.pdf},
+       pages = {xx--xx},
+       publisher = {arXiv.org},
+       title = {GeDi: Generative Discriminator Guided Sequence Generation},
+       year = {2020}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2021
+    selected: yes
+    title: >
+      Align before Fuse: Vision and Language Representation Learning with Momentum Distillation
+    authors: Junnan Li, Ramprasaath R., Akhilesh Deepak, Shafiq Joty, Caiming Xiong, and Steven C.
+    id: Junnan-et-al-nips-21
+    img: Junnan-et-al-nips-21-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    journal: arXiv (* not peer reviewed)
+    doc-url: https://arxiv.org/abs/2107.07651
+    abstract: >
+      Large-scale vision and language representation learning has shown promising improvements on various vision-language tasks. Most existing methods employ a transformer-based multimodal encoder to jointly model visual tokens (region-based image features) and word tokens. Because the visual tokens and word tokens are unaligned, it is challenging for the multimodal encoder to learn image-text interactions. In this paper, we introduce a contrastive loss to ALign the image and text representations BEfore Fusing (ALBEF) them through cross-modal attention, which enables more grounded vision and language representation learning. Unlike most existing methods, our method does not require bounding box annotations nor high-resolution images. In order to improve learning from noisy web data, we propose momentum distillation, a self-training method which learns from pseudo-targets produced by a momentum model. We provide a theoretical analysis of ALBEF from a mutual information maximization perspective, showing that different training tasks can be interpreted as different ways to generate views for an image-text pair. ALBEF achieves state-of-the-art performance on multiple downstream vision-language tasks. On image-text retrieval, ALBEF outperforms methods that are pre-trained on orders of magnitude larger datasets. On VQA and NLVR2, ALBEF achieves absolute improvements of 2.37\% and 3.84\% compared to the state-of-the-art, while enjoying faster inference speed. Code and pre-trained models are available at .
+    bibtex: >
+      @article{Junnan-et-al-nips-21,
+       abstract = {Large-scale vision and language representation learning has shown promising improvements on various vision-language tasks. Most existing methods employ a transformer-based multimodal encoder to jointly model visual tokens (region-based image features) and word tokens. Because the visual tokens and word tokens are unaligned, it is challenging for the multimodal encoder to learn image-text interactions. In this paper, we introduce a contrastive loss to ALign the image and text representations BEfore Fusing (ALBEF) them through cross-modal attention, which enables more grounded vision and language representation learning. Unlike most existing methods, our method does not require bounding box annotations nor high-resolution images. In order to improve learning from noisy web data, we propose momentum distillation, a self-training method which learns from pseudo-targets produced by a momentum model. We provide a theoretical analysis of ALBEF from a mutual information maximization perspective, showing that different training tasks can be interpreted as different ways to generate views for an image-text pair. ALBEF achieves state-of-the-art performance on multiple downstream vision-language tasks. On image-text retrieval, ALBEF outperforms methods that are pre-trained on orders of magnitude larger datasets. On VQA and NLVR2, ALBEF achieves absolute improvements of 2.37\% and 3.84\% compared to the state-of-the-art, while enjoying faster inference speed. Code and pre-trained models are available at .},
+       author = {Junnan Li and
+      Ramprasaath R. Selvaraju and
+      Akhilesh Deepak Gotmare and
+      Shafiq Joty and
+      Caiming Xiong and
+      Steven C. H. Hoi},
+       journal = {arXiv (* not peer reviewed)},
+       link = {https://arxiv.org/abs/2107.07651},
+       publisher = {arXiv.org},
+       title = {Align before Fuse: Vision and Language Representation Learning with
+      Momentum Distillation},
        year = {2021}
       }
       
