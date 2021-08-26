@@ -2345,6 +2345,26 @@ Conclusions: The literature on conversational agents in health care is largely d
 %% 2021
 
 
+
+
+@inproceedings{Junnan-et-al-nips-21,
+  title="{Align before Fuse: Vision and Language Representation Learning with
+               Momentum Distillation}",
+  author    = {Junnan Li and
+               Ramprasaath R. Selvaraju and
+               Akhilesh Deepak Gotmare and
+               Shafiq Joty and
+               Caiming Xiong and
+               Steven C. H. Hoi},
+  booktitle = {2021 Conference on Neural Information Processing Systems},
+  address = {Online},
+  series = {NeurIPS'21 (under review)},
+  year={2021},
+  url = {https://arxiv.org/abs/2107.07651},
+  abstract={Large-scale vision and language representation learning has shown promising improvements on various vision-language tasks. Most existing methods employ a transformer-based multimodal encoder to jointly model visual tokens (region-based image features) and word tokens. Because the visual tokens and word tokens are unaligned, it is challenging for the multimodal encoder to learn image-text interactions. In this paper, we introduce a contrastive loss to ALign the image and text representations BEfore Fusing (ALBEF) them through cross-modal attention, which enables more grounded vision and language representation learning. Unlike most existing methods, our method does not require bounding box annotations nor high-resolution images. In order to improve learning from noisy web data, we propose momentum distillation, a self-training method which learns from pseudo-targets produced by a momentum model. We provide a theoretical analysis of ALBEF from a mutual information maximization perspective, showing that different training tasks can be interpreted as different ways to generate views for an image-text pair. ALBEF achieves state-of-the-art performance on multiple downstream vision-language tasks. On image-text retrieval, ALBEF outperforms methods that are pre-trained on orders of magnitude larger datasets. On VQA and NLVR2, ALBEF achieves absolute improvements of 2.37\% and 3.84\% compared to the state-of-the-art, while enjoying faster inference speed. Code and pre-trained models are available at .}
+}
+
+
 @InProceedings{Yue-emnlp-21,
   author = {Yue Wang and Weishi Wang and Shafiq Joty and Steven Hoi},
   title     = {CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation},
@@ -2644,22 +2664,5 @@ the synthetic tasks and the downstream applications, motivating alternate traini
     url = {https://arxiv.org/pdf/2009.06367.pdf},
     abstract={Class-conditional language models (CC-LMs) can be used to generate natural language with specific attributes, such as style or sentiment, by conditioning on an attribute label, or control code. However, we find that these models struggle to control generation when applied to out-of-domain prompts or unseen control codes. To overcome these limitations, we propose generative discriminator (GeDi) guided contrastive generation, which uses CC-LMs as generative discriminators (GeDis) to efficiently guide generation from a (potentially much larger) LM towards a desired attribute. In our human evaluation experiments, we show that GeDis trained for sentiment control on movie reviews are able to control the tone of book text. We also demonstrate that GeDis are able to detoxify generation and control topic while maintaining the same level of linguistic acceptability as direct generation from GPT-2 (1.5B parameters). Lastly, we show that a GeDi trained on only 4 topics can generalize to new control codes from word embeddings, allowing it to guide generation towards wide array of topics.},
 }
-
-@article{Junnan-et-al-nips-21,
-  title="{Align before Fuse: Vision and Language Representation Learning with
-               Momentum Distillation}",
-  author    = {Junnan Li and
-               Ramprasaath R. Selvaraju and
-               Akhilesh Deepak Gotmare and
-               Shafiq Joty and
-               Caiming Xiong and
-               Steven C. H. Hoi},
-  journal = {arXiv (* not peer reviewed)},
-  publisher={arXiv.org},
-  year={2021},
-  url = {https://arxiv.org/abs/2107.07651},
-  abstract={Large-scale vision and language representation learning has shown promising improvements on various vision-language tasks. Most existing methods employ a transformer-based multimodal encoder to jointly model visual tokens (region-based image features) and word tokens. Because the visual tokens and word tokens are unaligned, it is challenging for the multimodal encoder to learn image-text interactions. In this paper, we introduce a contrastive loss to ALign the image and text representations BEfore Fusing (ALBEF) them through cross-modal attention, which enables more grounded vision and language representation learning. Unlike most existing methods, our method does not require bounding box annotations nor high-resolution images. In order to improve learning from noisy web data, we propose momentum distillation, a self-training method which learns from pseudo-targets produced by a momentum model. We provide a theoretical analysis of ALBEF from a mutual information maximization perspective, showing that different training tasks can be interpreted as different ways to generate views for an image-text pair. ALBEF achieves state-of-the-art performance on multiple downstream vision-language tasks. On image-text retrieval, ALBEF outperforms methods that are pre-trained on orders of magnitude larger datasets. On VQA and NLVR2, ALBEF achieves absolute improvements of 2.37\% and 3.84\% compared to the state-of-the-art, while enjoying faster inference speed. Code and pre-trained models are available at .}
-}
-
 
 
