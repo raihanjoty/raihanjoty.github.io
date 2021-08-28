@@ -4831,7 +4831,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      the 2021 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'21 (Findings)</b>)
+      the 2021 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'21 Findings</b>)
     doc-url: https://arxiv.org/pdf/2009.06367.pdf
     abstract: >
       Class-conditional language models (CC-LMs) can be used to generate natural language with specific attributes, such as style or sentiment, by conditioning on an attribute label, or control code. However, we find that these models struggle to control generation when applied to out-of-domain prompts or unseen control codes. To overcome these limitations, we propose generative discriminator (GeDi) guided contrastive generation, which uses CC-LMs as generative discriminators (GeDis) to efficiently guide generation from a (potentially much larger) LM towards a desired attribute. In our human evaluation experiments, we show that GeDis trained for sentiment control on movie reviews are able to control the tone of book text. We also demonstrate that GeDis are able to detoxify generation and control topic while maintaining the same level of linguistic acceptability as direct generation from GPT-2 (1.5B parameters). Lastly, we show that a GeDi trained on only 4 topics can generalize to new control codes from word embeddings, allowing it to guide generation towards wide array of topics.
@@ -4843,7 +4843,7 @@
        booktitle = {the 2021 Conference on Empirical Methods in Natural Language Processing},
        link = {https://arxiv.org/pdf/2009.06367.pdf},
        publisher = {ACL},
-       series = {EMNLP'21 (Findings)},
+       series = {EMNLP'21 Findings},
        title = {GeDi: Generative Discriminator Guided Sequence Generation},
        year = {2021}
       }
@@ -5077,7 +5077,7 @@
     venue: conference
     pages: xx–-xx
     booktitle: >
-      Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (<b>ACL'21 (Findings)</b>)
+      Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (<b>ACL'21 Findings</b>)
     doc-url: https://arxiv.org/abs/2106.05141
     abstract: >
       The success of Neural Machine Translation (NMT) largely depends on the availability of large bitext training corpora. Due to the lack of such large corpora in low-resource language pairs,  NMT systems often exhibit poor performance. Extra relevant monolingual data often helps, but acquiring it could be quite expensive, especially for low-resource languages. Moreover, domain mismatch between bitext (train/test) and monolingual data might degrade the performance. To alleviate such issues, we propose AugVic, a novel data augmentation framework for low-resource NMT which exploits the vicinal samples of the given bitext without using any extra monolingual data explicitly. It can diversify the in-domain bitext data with finer level control. Through extensive experiments on four low-resource language pairs comprising data from different domains, we have shown that our method is comparable to the traditional back-translation that uses extra in-domain monolingual data. When we combine the synthetic parallel data generated from AugVic with the ones from the extra monolingual data, we achieve further improvements. We show that AugVic helps to attenuate the discrepancies between relevant and distant-domain monolingual data in traditional back-translation. To understand the contributions of different components of AugVic, we perform an in-depth framework analysis.
@@ -5091,7 +5091,7 @@
        numpages = {9},
        pages = {xx–-xx},
        publisher = {ACL},
-       series = {ACL'21 (Findings)},
+       series = {ACL'21 Findings},
        title = {AugVic: Exploiting BiText Vicinity for Low-Resource NMT},
        year = {2021}
       }
