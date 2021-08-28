@@ -2365,17 +2365,6 @@ Conclusions: The literature on conversational agents in health care is largely d
 }
 
 
-@InProceedings{ben-et-al-arxiv-20,
-    title={GeDi: Generative Discriminator Guided Sequence Generation},
-    author={Ben Krause and Akhilesh Deepak Gotmare and Bryan McCann and Nitish Shirish Keskar and Shafiq Joty and Richard Socher and Nazneen Fatema Rajani},
-  booktitle = {the 2021 Conference on Empirical Methods in Natural Language Processing},
-  year      = {2021},
-  series    = {EMNLP'21 (Findings)},
-  publisher = {ACL},
-  address   = {Online}, 
-    url = {https://arxiv.org/pdf/2009.06367.pdf},
-    abstract={Class-conditional language models (CC-LMs) can be used to generate natural language with specific attributes, such as style or sentiment, by conditioning on an attribute label, or control code. However, we find that these models struggle to control generation when applied to out-of-domain prompts or unseen control codes. To overcome these limitations, we propose generative discriminator (GeDi) guided contrastive generation, which uses CC-LMs as generative discriminators (GeDis) to efficiently guide generation from a (potentially much larger) LM towards a desired attribute. In our human evaluation experiments, we show that GeDis trained for sentiment control on movie reviews are able to control the tone of book text. We also demonstrate that GeDis are able to detoxify generation and control topic while maintaining the same level of linguistic acceptability as direct generation from GPT-2 (1.5B parameters). Lastly, we show that a GeDi trained on only 4 topics can generalize to new control codes from word embeddings, allowing it to guide generation towards wide array of topics.},
-}
 
 
 
@@ -2414,6 +2403,18 @@ Further analysis reveals that our model can better capture semantic information 
   publisher = {ACL},
   address   = {Online}, 
   abstract = {Transformer models have been used in automatic speech recognition (ASR) successfully and yields state-of-the-art results. However, its performance is still affected by speaker mismatch between training and test data. Further finetuning a trained model with target speaker data is the most natural approach for adaptation, but it takes a lot of compute and may cause catastrophic forgetting to the existing speakers. In this work, we propose a unified speaker adaptation approach consisting of feature adaptation and model adaptation. For feature adaptation, we employ a speaker-aware persistent memory model which generalizes better to unseen test speakers by making use of speaker i-vectors to form a persistent memory. For model adaptation, we use a novel gradual pruning method to adapt to target speakers without changing the model architecture, which to the best of our knowledge, has never been explored in ASR. Specifically, we gradually prune less contributing parameters on model encoder to a certain sparsity level, and use the pruned parameters for adaptation, while freezing the unpruned parameters to keep the original model performance. We conduct experiments on the Librispeech dataset. Our proposed approach brings relative 2.74-6.52\% word error rate (WER) reduction on general speaker adaptation. On target speaker adaptation, our method outperforms the baseline with up to 20.1\% relative WER reduction, and surpasses the finetuning method by up to relative 8.62\%. Besides, with extremely low-resource adaptation data (e.g., 1 utterance), our method could improve the WER by relative 6.53\% with only a few epochs of training.}
+}
+
+@InProceedings{ben-et-al-arxiv-20,
+    title={GeDi: Generative Discriminator Guided Sequence Generation},
+    author={Ben Krause and Akhilesh Deepak Gotmare and Bryan McCann and Nitish Shirish Keskar and Shafiq Joty and Richard Socher and Nazneen Fatema Rajani},
+  booktitle = {the 2021 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2021},
+  series    = {EMNLP'21 (Findings)},
+  publisher = {ACL},
+  address   = {Online}, 
+    url = {https://arxiv.org/pdf/2009.06367.pdf},
+    abstract={Class-conditional language models (CC-LMs) can be used to generate natural language with specific attributes, such as style or sentiment, by conditioning on an attribute label, or control code. However, we find that these models struggle to control generation when applied to out-of-domain prompts or unseen control codes. To overcome these limitations, we propose generative discriminator (GeDi) guided contrastive generation, which uses CC-LMs as generative discriminators (GeDis) to efficiently guide generation from a (potentially much larger) LM towards a desired attribute. In our human evaluation experiments, we show that GeDis trained for sentiment control on movie reviews are able to control the tone of book text. We also demonstrate that GeDis are able to detoxify generation and control topic while maintaining the same level of linguistic acceptability as direct generation from GPT-2 (1.5B parameters). Lastly, we show that a GeDi trained on only 4 topics can generalize to new control codes from word embeddings, allowing it to guide generation towards wide array of topics.},
 }
 
 
