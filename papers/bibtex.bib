@@ -2365,6 +2365,20 @@ Conclusions: The literature on conversational agents in health care is largely d
 }
 
 
+@InProceedings{ben-et-al-arxiv-20,
+    title={GeDi: Generative Discriminator Guided Sequence Generation},
+    author={Ben Krause and Akhilesh Deepak Gotmare and Bryan McCann and Nitish Shirish Keskar and Shafiq Joty and Richard Socher and Nazneen Fatema Rajani},
+  booktitle = {the 2021 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2021},
+  series    = {EMNLP'21 (Findings)},
+  publisher = {ACL},
+  address   = {Online}, 
+    url = {https://arxiv.org/pdf/2009.06367.pdf},
+    abstract={Class-conditional language models (CC-LMs) can be used to generate natural language with specific attributes, such as style or sentiment, by conditioning on an attribute label, or control code. However, we find that these models struggle to control generation when applied to out-of-domain prompts or unseen control codes. To overcome these limitations, we propose generative discriminator (GeDi) guided contrastive generation, which uses CC-LMs as generative discriminators (GeDis) to efficiently guide generation from a (potentially much larger) LM towards a desired attribute. In our human evaluation experiments, we show that GeDis trained for sentiment control on movie reviews are able to control the tone of book text. We also demonstrate that GeDis are able to detoxify generation and control topic while maintaining the same level of linguistic acceptability as direct generation from GPT-2 (1.5B parameters). Lastly, we show that a GeDi trained on only 4 topics can generalize to new control codes from word embeddings, allowing it to guide generation towards wide array of topics.},
+}
+
+
+
 @InProceedings{Yue-emnlp-21,
   author = {Yue Wang and Weishi Wang and Shafiq Joty and Steven Hoi},
   title     = {CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation},
@@ -2652,17 +2666,5 @@ the synthetic tasks and the downstream applications, motivating alternate traini
   abstract = {The widespread usage of rdbms in the commercial world has played a pivotal role in the offering of database systems course in major universities. A key challenge encountered by learners taking such a course is the topic of query optimization. The query optimization process produces a query execution plan (qep), which represents an execution strategy for an sql query. Unfortunately, in practice, it is often difficult for a learner to comprehend query execution strategies by perusing vendor-specific qeps, hindering her learning process. In this paper, we present a novel, end-to-end, generic sys- tem called lantern that generates a natural language description of a qep to enhance its understanding. It takes as input an sql query and its qep, and generates a natural language description of the execution strategy deployed by the underlying rdbms. Specifi- cally, it deploys a declarative framework called pool that enables subject matter experts to efficiently create and maintain natural language descriptions of physical operators used in qeps. A rule- based framework called rule-lantern is proposed that exploits pool to generate natural language descriptions of qeps. Despite the high accuracy of rule-lantern, our engagement with learners reveal that consistent with existing psychology theories perusing such rule-based descriptions lead to boredom due to repetitive state- ments across different qeps. To address this issue, we present a novel deep learning-based language generation framework called neural-lantern that infuses language variability in the gener- ated description by exploiting a set of paraphrasing tools and word embedding. Our experimental study with real learners shows the effectiveness of lantern in facilitating comprehension of qeps.}
 }
 
-
-@article{ben-et-al-arxiv-20,
-    title={GeDi: Generative Discriminator Guided Sequence Generation},
-    author={Ben Krause and Akhilesh Deepak Gotmare and Bryan McCann and Nitish Shirish Keskar and Shafiq Joty and Richard Socher and Nazneen Fatema Rajani},
-    journal = {arXiv (* not peer reviewed)},
-    publisher={arXiv.org},
-    issue={},
-    pages={xx--xx},
-    year={2020},
-    url = {https://arxiv.org/pdf/2009.06367.pdf},
-    abstract={Class-conditional language models (CC-LMs) can be used to generate natural language with specific attributes, such as style or sentiment, by conditioning on an attribute label, or control code. However, we find that these models struggle to control generation when applied to out-of-domain prompts or unseen control codes. To overcome these limitations, we propose generative discriminator (GeDi) guided contrastive generation, which uses CC-LMs as generative discriminators (GeDis) to efficiently guide generation from a (potentially much larger) LM towards a desired attribute. In our human evaluation experiments, we show that GeDis trained for sentiment control on movie reviews are able to control the tone of book text. We also demonstrate that GeDis are able to detoxify generation and control topic while maintaining the same level of linguistic acceptability as direct generation from GPT-2 (1.5B parameters). Lastly, we show that a GeDi trained on only 4 topics can generalize to new control codes from word embeddings, allowing it to guide generation towards wide array of topics.},
-}
 
 

@@ -17,10 +17,10 @@ abstract: 'Class-conditional language models (CC-LMs) can be used to generate na
   '
 authors: Ben Krause, Akhilesh Deepak, Bryan McCann, Nitish Shirish, Shafiq Joty, Richard
   Socher, and Nazneen Fatema
-bibtex: "@article{ben-et-al-arxiv-20,\n abstract = {Class-conditional language models\
-  \ (CC-LMs) can be used to generate natural language with specific attributes, such\
-  \ as style or sentiment, by conditioning on an attribute label, or control code.\
-  \ However, we find that these models struggle to control generation when applied\
+bibtex: "@inproceedings{ben-et-al-arxiv-20,\n abstract = {Class-conditional language\
+  \ models (CC-LMs) can be used to generate natural language with specific attributes,\
+  \ such as style or sentiment, by conditioning on an attribute label, or control\
+  \ code. However, we find that these models struggle to control generation when applied\
   \ to out-of-domain prompts or unseen control codes. To overcome these limitations,\
   \ we propose generative discriminator (GeDi) guided contrastive generation, which\
   \ uses CC-LMs as generative discriminators (GeDis) to efficiently guide generation\
@@ -31,28 +31,31 @@ bibtex: "@article{ben-et-al-arxiv-20,\n abstract = {Class-conditional language m
   \ of linguistic acceptability as direct generation from GPT-2 (1.5B parameters).\
   \ Lastly, we show that a GeDi trained on only 4 topics can generalize to new control\
   \ codes from word embeddings, allowing it to guide generation towards wide array\
-  \ of topics.},\n author = {Ben Krause and Akhilesh Deepak Gotmare and Bryan McCann\
-  \ and Nitish Shirish Keskar and Shafiq Joty and Richard Socher and Nazneen Fatema\
-  \ Rajani},\n issue = {},\n journal = {arXiv (* not peer reviewed)},\n link = {https://arxiv.org/pdf/2009.06367.pdf},\n\
-  \ pages = {xx--xx},\n publisher = {arXiv.org},\n title = {GeDi: Generative Discriminator\
-  \ Guided Sequence Generation},\n year = {2020}\n}\n"
+  \ of topics.},\n address = {Online},\n author = {Ben Krause and Akhilesh Deepak\
+  \ Gotmare and Bryan McCann and Nitish Shirish Keskar and Shafiq Joty and Richard\
+  \ Socher and Nazneen Fatema Rajani},\n booktitle = {the 2021 Conference on Empirical\
+  \ Methods in Natural Language Processing},\n link = {https://arxiv.org/pdf/2009.06367.pdf},\n\
+  \ publisher = {ACL},\n series = {EMNLP'21 (Findings)},\n title = {GeDi: Generative\
+  \ Discriminator Guided Sequence Generation},\n year = {2021}\n}\n"
+booktitle: 'the 2021 Conference on Empirical Methods in Natural Language Processing
+  (<b>EMNLP''21 (Findings)</b>)
+
+  '
 code: null
 doc-url: https://arxiv.org/pdf/2009.06367.pdf
 errata: null
 id: ben-et-al-arxiv-20
 img: ben-et-al-arxiv-20-fig
-journal: arXiv (* not peer reviewed)
 layout: singlepaper
-pages: xx-xx
-paper-type: article
+paper-type: inproceedings
 picture: shafiq
-selected: true
-slides: null
+selected: false
+slides: media/ben-et-al-arxiv-20-slides.pdf
 title: 'GeDi: Generative Discriminator Guided Sequence Generation
 
   '
-venue: journal
-year: 2020
+venue: conference
+year: 2021
 ---
 
 {% include singlepaper.html paper=page %}
