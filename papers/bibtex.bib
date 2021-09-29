@@ -2358,11 +2358,39 @@ Conclusions: The literature on conversational agents in health care is largely d
                Steven Hoi},
   booktitle = {2021 Conference on Neural Information Processing Systems},
   address = {Online},
-  series = {NeurIPS'21 (spotlight)},
+  series = {NeurIPS'21 (spotlight ~3%)},
   year={2021},
   url = {https://arxiv.org/abs/2107.07651},
   abstract={Large-scale vision and language representation learning has shown promising improvements on various vision-language tasks. Most existing methods employ a transformer-based multimodal encoder to jointly model visual tokens (region-based image features) and word tokens. Because the visual tokens and word tokens are unaligned, it is challenging for the multimodal encoder to learn image-text interactions. In this paper, we introduce a contrastive loss to ALign the image and text representations BEfore Fusing (ALBEF) them through cross-modal attention, which enables more grounded vision and language representation learning. Unlike most existing methods, our method does not require bounding box annotations nor high-resolution images. In order to improve learning from noisy web data, we propose momentum distillation, a self-training method which learns from pseudo-targets produced by a momentum model. We provide a theoretical analysis of ALBEF from a mutual information maximization perspective, showing that different training tasks can be interpreted as different ways to generate views for an image-text pair. ALBEF achieves state-of-the-art performance on multiple downstream vision-language tasks. On image-text retrieval, ALBEF outperforms methods that are pre-trained on orders of magnitude larger datasets. On VQA and NLVR2, ALBEF achieves absolute improvements of 2.37\% and 3.84\% compared to the state-of-the-art, while enjoying faster inference speed. Code and pre-trained models are available at .}
 }
+
+
+@inproceedings{lin-et-al-arxiv-21,
+   title="{Straight to the Gradient: Learning to Use Novel Tokens for Neural Text Generation}",
+   author={Xiang Lin and Simeng Han and Shafiq Joty},
+   booktitle = {Thirty-eighth International Conference on Machine Learning},
+  series = {ICML'21 (as long talk ~3%)},
+  year = {2021},
+  address = {Virtual},
+  numpages = {9},
+  publisher = {},
+  url = {http://proceedings.mlr.press/v139/lin21b.html},
+  abstract = {Advanced large-scale neural language models have led to significant success in many language generation tasks. However, the most commonly used training objective, Maximum Likelihood Estimation (MLE), has been shown problematic, where the trained model prefers using dull and repetitive phrases. In this work, we introduce {ScaleGrad}, a  modification straight to the gradient of the loss function, to  remedy the degeneration issue of the standard MLE objective. By directly maneuvering the gradient information, {ScaleGrad} makes the model learn to use novel tokens. Empirical results show the effectiveness of our method not only in open-ended generation, but also in directed generation tasks. With the simplicity in architecture, our method can serve as a general training objective that is applicable to most of the neural text generation tasks.},
+} 
+
+@inproceedings{nguyen2020multiagent,
+    title={Cross-model Back-translated Distillation for Unsupervised Machine Translation},
+    author={Xuan-Phi Nguyen and Shafiq Joty and Thanh-Tung Nguyen and Wu Kui and Ai Ti Aw},
+    booktitle = {Thirty-eighth International Conference on Machine Learning},
+    series = {ICML'21},
+    year = {2021},
+    address = {Virtual},
+    numpages = {9},
+    publisher = {},
+    url = {http://proceedings.mlr.press/v139/nguyen21c/nguyen21c.pdf},
+    abstract={Recent unsupervised machine translation (UMT) systems usually employ three main principles: initialization, language modeling and iterative back-translation, though they may apply these principles differently. This work introduces another component to this framework: Multi-Agent Cross-translated Diversification (MACD). The method trains multiple UMT agents and then translates monolingual data back and forth using non-duplicative agents to acquire synthetic parallel data for supervised MT. MACD is applicable to all previous UMT approaches. In our experiments, the technique boosts the performance for some commonly used UMT methods by 1.5-2.0 BLEU. In particular, in WMT'14 English-French, WMT'16 German-English and English-Romanian, MACD outperforms cross-lingual masked language model pretraining by 2.3, 2.2 and 1.6 BLEU, respectively. It also yields 1.5-3.3 BLEU improvements in IWSLT English-French and English-German translation tasks. Through extensive experimental analyses, we show that MACD is effective because it embraces data diversity while other similar variants do not.},
+}
+
 
 
 
@@ -2417,32 +2445,6 @@ Further analysis reveals that our model can better capture semantic information 
     abstract={Class-conditional language models (CC-LMs) can be used to generate natural language with specific attributes, such as style or sentiment, by conditioning on an attribute label, or control code. However, we find that these models struggle to control generation when applied to out-of-domain prompts or unseen control codes. To overcome these limitations, we propose generative discriminator (GeDi) guided contrastive generation, which uses CC-LMs as generative discriminators (GeDis) to efficiently guide generation from a (potentially much larger) LM towards a desired attribute. In our human evaluation experiments, we show that GeDis trained for sentiment control on movie reviews are able to control the tone of book text. We also demonstrate that GeDis are able to detoxify generation and control topic while maintaining the same level of linguistic acceptability as direct generation from GPT-2 (1.5B parameters). Lastly, we show that a GeDi trained on only 4 topics can generalize to new control codes from word embeddings, allowing it to guide generation towards wide array of topics.},
 }
 
-
-@inproceedings{lin-et-al-arxiv-21,
-   title="{Straight to the Gradient: Learning to Use Novel Tokens for Neural Text Generation}",
-   author={Xiang Lin and Simeng Han and Shafiq Joty},
-   booktitle = {Thirty-eighth International Conference on Machine Learning},
-  series = {ICML'21 (as long talk ~3%)},
-  year = {2021},
-  address = {Virtual},
-  numpages = {9},
-  publisher = {},
-  url = {http://proceedings.mlr.press/v139/lin21b.html},
-  abstract = {Advanced large-scale neural language models have led to significant success in many language generation tasks. However, the most commonly used training objective, Maximum Likelihood Estimation (MLE), has been shown problematic, where the trained model prefers using dull and repetitive phrases. In this work, we introduce {ScaleGrad}, a  modification straight to the gradient of the loss function, to  remedy the degeneration issue of the standard MLE objective. By directly maneuvering the gradient information, {ScaleGrad} makes the model learn to use novel tokens. Empirical results show the effectiveness of our method not only in open-ended generation, but also in directed generation tasks. With the simplicity in architecture, our method can serve as a general training objective that is applicable to most of the neural text generation tasks.},
-} 
-
-@inproceedings{nguyen2020multiagent,
-    title={Cross-model Back-translated Distillation for Unsupervised Machine Translation},
-    author={Xuan-Phi Nguyen and Shafiq Joty and Thanh-Tung Nguyen and Wu Kui and Ai Ti Aw},
-    booktitle = {Thirty-eighth International Conference on Machine Learning},
-    series = {ICML'21},
-    year = {2021},
-    address = {Virtual},
-    numpages = {9},
-    publisher = {},
-    url = {http://proceedings.mlr.press/v139/nguyen21c/nguyen21c.pdf},
-    abstract={Recent unsupervised machine translation (UMT) systems usually employ three main principles: initialization, language modeling and iterative back-translation, though they may apply these principles differently. This work introduces another component to this framework: Multi-Agent Cross-translated Diversification (MACD). The method trains multiple UMT agents and then translates monolingual data back and forth using non-duplicative agents to acquire synthetic parallel data for supervised MT. MACD is applicable to all previous UMT approaches. In our experiments, the technique boosts the performance for some commonly used UMT methods by 1.5-2.0 BLEU. In particular, in WMT'14 English-French, WMT'16 German-English and English-Romanian, MACD outperforms cross-lingual masked language model pretraining by 2.3, 2.2 and 1.6 BLEU, respectively. It also yields 1.5-3.3 BLEU improvements in IWSLT English-French and English-German translation tasks. Through extensive experimental analyses, we show that MACD is effective because it embraces data diversity while other similar variants do not.},
-}
 
 
 
