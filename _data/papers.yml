@@ -4836,7 +4836,7 @@
     venue: conference
     booktitle: >
       the 2021 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'21</b>)
-    doc-url: papers/Tao-emnlp-21.pdf
+    doc-url: https://aclanthology.org/2021.emnlp-main.668/
     abstract: >
       Large scale multilingual pre-trained language models have shown promising results in zero- and few-shot cross-lingual tasks. However, recent studies have shown their lack of generalizability when the languages are structurally dissimilar. In this work, we propose a novel fine-tuning method based on co-training that aims to learn more generalized semantic equivalences as complementary to multilingual language modeling using the unlabeled data in the target language.  We also propose an adaption method based on contrastive learning to better capture the semantic relationship in the parallel data, when a few translation pairs are available. To show our method's effectiveness, we conduct extensive experiments on cross-lingual inference and review classification tasks across various languages. We report significant gains compared to directly fine-tuning multilingual pre-trained models and other semi-supervised alternatives.\footnoteCode and models are available at \scriptsize{\urlstyle{tt\url<redacted>}}.
     bibtex: >
@@ -4845,6 +4845,7 @@
        address = {Online},
        author = {Tao Yu and Shafiq Joty},
        booktitle = {the 2021 Conference on Empirical Methods in Natural Language Processing},
+       link = {https://aclanthology.org/2021.emnlp-main.668/},
        publisher = {ACL},
        series = {EMNLP'21},
        title = {Effective Fine-tuning Methods for Cross-lingual Adaptation},
@@ -5408,11 +5409,8 @@
     booktitle: >
       Proceedings of 2021 ACM SIGMOD International Conference on Management of Data (<b>SIGMOD'21</b>)
     doc-url: 
-    abstract: >
-      The widespread usage of rdbms in the commercial world has played a pivotal role in the offering of database systems course in major universities. A key challenge encountered by learners taking such a course is the topic of query optimization. The query optimization process produces a query execution plan (qep), which represents an execution strategy for an sql query. Unfortunately, in practice, it is often difficult for a learner to comprehend query execution strategies by perusing vendor-specific qeps, hindering her learning process. In this paper, we present a novel, end-to-end, generic sys- tem called lantern that generates a natural language description of a qep to enhance its understanding. It takes as input an sql query and its qep, and generates a natural language description of the execution strategy deployed by the underlying rdbms. Specifi- cally, it deploys a declarative framework called pool that enables subject matter experts to efficiently create and maintain natural language descriptions of physical operators used in qeps. A rule- based framework called rule-lantern is proposed that exploits pool to generate natural language descriptions of qeps. Despite the high accuracy of rule-lantern, our engagement with learners reveal that consistent with existing psychology theories perusing such rule-based descriptions lead to boredom due to repetitive state- ments across different qeps. To address this issue, we present a novel deep learning-based language generation framework called neural-lantern that infuses language variability in the gener- ated description by exploiting a set of paraphrasing tools and word embedding. Our experimental study with real learners shows the effectiveness of lantern in facilitating comprehension of qeps.
     bibtex: >
       @inproceedings{wang-et-al-sigmod-21,
-       abstract = {The widespread usage of rdbms in the commercial world has played a pivotal role in the offering of database systems course in major universities. A key challenge encountered by learners taking such a course is the topic of query optimization. The query optimization process produces a query execution plan (qep), which represents an execution strategy for an sql query. Unfortunately, in practice, it is often difficult for a learner to comprehend query execution strategies by perusing vendor-specific qeps, hindering her learning process. In this paper, we present a novel, end-to-end, generic sys- tem called lantern that generates a natural language description of a qep to enhance its understanding. It takes as input an sql query and its qep, and generates a natural language description of the execution strategy deployed by the underlying rdbms. Specifi- cally, it deploys a declarative framework called pool that enables subject matter experts to efficiently create and maintain natural language descriptions of physical operators used in qeps. A rule- based framework called rule-lantern is proposed that exploits pool to generate natural language descriptions of qeps. Despite the high accuracy of rule-lantern, our engagement with learners reveal that consistent with existing psychology theories perusing such rule-based descriptions lead to boredom due to repetitive state- ments across different qeps. To address this issue, we present a novel deep learning-based language generation framework called neural-lantern that infuses language variability in the gener- ated description by exploiting a set of paraphrasing tools and word embedding. Our experimental study with real learners shows the effectiveness of lantern in facilitating comprehension of qeps.},
        address = {Xi'an, Shaanxi, China},
        author = {Weiguo Wang and Sourav S Bhowmick and Hui Li and Shafiq Joty and Siyuan Liu},
        booktitle = {Proceedings of 2021 ACM SIGMOD International Conference on Management of Data},
@@ -5423,6 +5421,84 @@
        series = {SIGMOD'21},
        title = {Towards Enhancing Database Education: Natural Language Generation Meets Query Execution Plans},
        year = {2021}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2022
+    selected: yes
+    title: >
+      Weakly Supervised Neuro-Symbolic Module Networks for Numerical Reasoning
+    authors: Amrita Saha, Shafiq Joty, and Steven C.H.
+    id: Saha-aaai-2022
+    img: Saha-aaai-2022-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    pages: 
+    journal: arXiv (* not peer reviewed)
+    doc-url: https://arxiv.org/pdf/2101.11802.pdf
+    abstract: >
+      Neural Module Networks (NMNs) have been quite successful in incorporating explicit reasoning as learnable modules in various question answering tasks, including the most generic form of numerical reasoning over text in Machine Reading Comprehension (MRC). However, to achieve this, contemporary NMNs need strong supervision in executing the query as a specialized program over reasoning modules and fail to generalize to more open-ended settings without such supervision. Hence we propose Weakly-Supervised Neuro-Symbolic Module Network (WNSMN) trained with answers as the sole supervision for numerical reasoning based MRC. It learns to execute a noisy heuristic program obtained from the dependency parsing of the query, as discrete actions over both neural and symbolic reasoning modules and trains it end-to-end in a reinforcement learning framework with discrete reward from answer matching. On the numerical-answer subset of DROP, WNSMN outperforms NMN by 32% and the reasoning-free language model GenBERT by 8% in exact match accuracy when trained under comparable weak supervised settings. This showcases the effectiveness and generalizability of modular networks that can handle explicit discrete reasoning over noisy programs in an end-to-end manner.
+    bibtex: >
+      @article{Saha-aaai-2022,
+       abstract = {Neural Module Networks (NMNs) have been quite successful in incorporating explicit reasoning as learnable modules in various question answering tasks, including
+      the most generic form of numerical reasoning over text in Machine Reading Comprehension (MRC). However, to achieve this, contemporary NMNs need strong
+      supervision in executing the query as a specialized program over reasoning modules
+      and fail to generalize to more open-ended settings without such supervision. Hence
+      we propose Weakly-Supervised Neuro-Symbolic Module Network (WNSMN)
+      trained with answers as the sole supervision for numerical reasoning based MRC. It
+      learns to execute a noisy heuristic program obtained from the dependency parsing
+      of the query, as discrete actions over both neural and symbolic reasoning modules
+      and trains it end-to-end in a reinforcement learning framework with discrete reward
+      from answer matching. On the numerical-answer subset of DROP, WNSMN outperforms NMN by 32% and the reasoning-free language model GenBERT by 8%
+      in exact match accuracy when trained under comparable weak supervised settings.
+      This showcases the effectiveness and generalizability of modular networks that can
+      handle explicit discrete reasoning over noisy programs in an end-to-end manner.},
+       author = {Amrita Saha and Shafiq Joty and Steven C.H. Hoi},
+       issue = {},
+       journal = {arXiv (* not peer reviewed)},
+       link = {https://arxiv.org/pdf/2101.11802.pdf},
+       pages = {},
+       publisher = {arXiv.org},
+       title = {Weakly Supervised Neuro-Symbolic Module Networks for Numerical Reasoning},
+       year = {2022}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2022
+    selected: yes
+    title: >
+      Unsupervised Cross-lingual Image Captioning
+    authors: Jiahui Gao, Yi Zhou, Philip Yu, Shafiq Joty, and Jiuxiang Gu
+    id: Gao-aaai-2022
+    img: Gao-aaai-2022-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    pages: 
+    journal: arXiv (* not peer reviewed)
+    doc-url: https://arxiv.org/abs/2010.01288
+    abstract: >
+      Research in image captioning has mostly focused on English because of the availability of image-caption paired datasets in this language. However, building vision-language systems only for English deprives a large part of the world population of AI technologies' benefit. On the other hand, creating image-caption paired datasets for every target language is expensive. In this work, we present a novel unsupervised cross-lingual method to generate image captions in a target language without using any image-caption corpus in the source or target languages. Our method relies on (i) a cross-lingual scene graph to sentence translation process, which learns to decode sentences in the target language from a cross-lingual encoding space of scene graphs using a sentence parallel (bitext) corpus, and (ii) an unsupervised cross-modal feature mapping which seeks to map an encoded scene graph features from image modality to language modality. We verify the effectiveness of our proposed method on the Chinese image caption generation task. The comparisons against several existing methods demonstrate the effectiveness of our approach.
+    bibtex: >
+      @article{Gao-aaai-2022,
+       abstract = {Research in image captioning has mostly focused on English because of the availability of image-caption paired datasets in this language. However, building vision-language systems only for English deprives a large part of the world population of AI technologies' benefit. On the other hand, creating image-caption paired datasets for every target language is expensive. In this work, we present a novel unsupervised cross-lingual method to generate image captions in a target language without using any image-caption corpus in the source or target languages. Our method relies on (i) a cross-lingual scene graph to sentence translation process, which learns to decode sentences in the target language from a cross-lingual encoding space of scene graphs using a sentence parallel (bitext) corpus, and (ii) an unsupervised cross-modal feature mapping which seeks to map an encoded scene graph features from image modality to language modality. We verify the effectiveness of our proposed method on the Chinese image caption generation task. The comparisons against several existing methods demonstrate the effectiveness of our approach.},
+       author = {Jiahui Gao and Yi Zhou and Philip Yu and Shafiq Joty and Jiuxiang Gu},
+       issue = {},
+       journal = {arXiv (* not peer reviewed)},
+       link = {https://arxiv.org/abs/2010.01288},
+       pages = {},
+       publisher = {arXiv.org},
+       title = {Unsupervised Cross-lingual Image Captioning},
+       year = {2022}
       }
       
       

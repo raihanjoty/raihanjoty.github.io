@@ -2417,6 +2417,7 @@ Further analysis reveals that our model can better capture semantic information 
   series    = {EMNLP'21},
   publisher = {ACL},
   address   = {Online}, 
+  url =  {https://aclanthology.org/2021.emnlp-main.668/},
   abstract = {Large scale multilingual pre-trained language models have shown promising results in zero- and few-shot cross-lingual tasks. However, recent studies have shown their lack of generalizability when the languages are structurally dissimilar. In this work, we propose a novel fine-tuning method based on co-training that aims to learn more generalized semantic equivalences as complementary to multilingual language modeling using the unlabeled data in the target language.  We also propose an adaption method based on contrastive learning to better capture the semantic relationship in the parallel data, when a few translation pairs are available. To show our method's effectiveness, we conduct extensive experiments on cross-lingual inference and review classification tasks across various languages. We report significant gains compared to directly fine-tuning multilingual pre-trained models and other semi-supervised alternatives.\footnote{Code and models are available at \scriptsize{\urlstyle{tt}\url{<redacted>}}}.}
 }
 
@@ -2670,4 +2671,44 @@ the synthetic tasks and the downstream applications, motivating alternate traini
 }
 
 
+%% 2022
+
+@article{Saha-aaai-2022,
+  title={Weakly Supervised Neuro-Symbolic Module Networks for Numerical Reasoning},
+  author={Amrita Saha and Shafiq Joty and Steven C.H. Hoi},
+  journal = {arXiv (* not peer reviewed)},
+  publisher={arXiv.org},
+  issue={},
+  pages={},
+  year={2022},
+  url = {https://arxiv.org/pdf/2101.11802.pdf},
+  abstract={Neural Module Networks (NMNs) have been quite successful in incorporating explicit reasoning as learnable modules in various question answering tasks, including
+the most generic form of numerical reasoning over text in Machine Reading Comprehension (MRC). However, to achieve this, contemporary NMNs need strong
+supervision in executing the query as a specialized program over reasoning modules
+and fail to generalize to more open-ended settings without such supervision. Hence
+we propose Weakly-Supervised Neuro-Symbolic Module Network (WNSMN)
+trained with answers as the sole supervision for numerical reasoning based MRC. It
+learns to execute a noisy heuristic program obtained from the dependency parsing
+of the query, as discrete actions over both neural and symbolic reasoning modules
+and trains it end-to-end in a reinforcement learning framework with discrete reward
+from answer matching. On the numerical-answer subset of DROP, WNSMN outperforms NMN by 32% and the reasoning-free language model GenBERT by 8%
+in exact match accuracy when trained under comparable weak supervised settings.
+This showcases the effectiveness and generalizability of modular networks that can
+handle explicit discrete reasoning over noisy programs in an end-to-end manner.
+}
+}
+
+
+@article{Gao-aaai-2022,
+  title="{Unsupervised Cross-lingual Image Captioning}",
+  author={Jiahui Gao and Yi Zhou and Philip Yu and Shafiq Joty and Jiuxiang Gu},
+  journal = {arXiv (* not peer reviewed)},
+  publisher={arXiv.org},
+  issue={},
+  pages={},
+  year={2022},
+  url = {https://arxiv.org/abs/2010.01288},
+  abstract={Research in image captioning has mostly focused on English because of the availability of image-caption paired datasets in this language. However, building vision-language systems only for English deprives a large part of the world population of AI technologies' benefit. On the other hand, creating image-caption paired datasets for every target language is expensive. In this work, we present a novel unsupervised cross-lingual method to generate image captions in a target language without using any image-caption corpus in the source or target languages. Our method relies on (i) a cross-lingual scene graph to sentence translation process, which learns to decode sentences in the target language from a cross-lingual encoding space of scene graphs using a sentence parallel (bitext) corpus, and (ii) an unsupervised cross-modal feature mapping which seeks to map an encoded scene graph features from image modality to language modality. We verify the effectiveness of our proposed method on the Chinese image caption generation task. The comparisons against several existing methods demonstrate the effectiveness of our approach.
+}
+}
 
