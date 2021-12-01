@@ -5428,18 +5428,18 @@
       
   -
     layout: paper
-    paper-type: article #changes display of reference in paper list
+    paper-type: inproceedings #changes display of reference in paper list
     year: 2022
-    selected: yes
+    selected: no
     title: >
       Weakly Supervised Neuro-Symbolic Module Networks for Numerical Reasoning
     authors: Amrita Saha, Shafiq Joty, and Steven Hoi
     id: Saha-aaai-2022
     img: Saha-aaai-2022-fig
-    slides: # e.g. media/$ID.pptx
+    slides: media/Saha-aaai-2022-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
-    venue: journal
+    venue: conference
     pages: 
     booktitle: >
       In Thirty-Sixth AAAI Conference on Artificial Intelligence (<b>AAAI'22</b>)
@@ -5447,7 +5447,7 @@
     abstract: >
       Neural Module Networks (NMNs) have been quite successful in incorporating explicit reasoning as learnable modules in various question answering tasks, including the most generic form of numerical reasoning over text in Machine Reading Comprehension (MRC). However, to achieve this, contemporary NMNs need strong supervision in executing the query as a specialized program over reasoning modules and fail to generalize to more open-ended settings without such supervision. Hence we propose Weakly-Supervised Neuro-Symbolic Module Network (WNSMN) trained with answers as the sole supervision for numerical reasoning based MRC. It learns to execute a noisy heuristic program obtained from the dependency parsing of the query, as discrete actions over both neural and symbolic reasoning modules and trains it end-to-end in a reinforcement learning framework with discrete reward from answer matching. On the numerical-answer subset of DROP, WNSMN outperforms NMN by 32% and the reasoning-free language model GenBERT by 8% in exact match accuracy when trained under comparable weak supervised settings. This showcases the effectiveness and generalizability of modular networks that can handle explicit discrete reasoning over noisy programs in an end-to-end manner.
     bibtex: >
-      @article{Saha-aaai-2022,
+      @inproceedings{Saha-aaai-2022,
        abstract = {Neural Module Networks (NMNs) have been quite successful in incorporating explicit reasoning as learnable modules in various question answering tasks, including
       the most generic form of numerical reasoning over text in Machine Reading Comprehension (MRC). However, to achieve this, contemporary NMNs need strong
       supervision in executing the query as a specialized program over reasoning modules
@@ -5474,18 +5474,18 @@
       
   -
     layout: paper
-    paper-type: article #changes display of reference in paper list
+    paper-type: inproceedings #changes display of reference in paper list
     year: 2022
-    selected: yes
+    selected: no
     title: >
       Unsupervised Cross-lingual Image Captioning
     authors: Jiahui Gao, Yi Zhou, Philip Yu, Shafiq Joty, and Jiuxiang Gu
     id: Gao-aaai-2022
     img: Gao-aaai-2022-fig
-    slides: # e.g. media/$ID.pptx
+    slides: media/Gao-aaai-2022-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
-    venue: journal
+    venue: conference
     pages: 
     booktitle: >
       In Thirty-Sixth AAAI Conference on Artificial Intelligence (<b>AAAI'22</b>)
@@ -5493,7 +5493,7 @@
     abstract: >
       Research in image captioning has mostly focused on English because of the availability of image-caption paired datasets in this language. However, building vision-language systems only for English deprives a large part of the world population of AI technologies' benefit. On the other hand, creating image-caption paired datasets for every target language is expensive. In this work, we present a novel unsupervised cross-lingual method to generate image captions in a target language without using any image-caption corpus in the source or target languages. Our method relies on (i) a cross-lingual scene graph to sentence translation process, which learns to decode sentences in the target language from a cross-lingual encoding space of scene graphs using a sentence parallel (bitext) corpus, and (ii) an unsupervised cross-modal feature mapping which seeks to map an encoded scene graph features from image modality to language modality. We verify the effectiveness of our proposed method on the Chinese image caption generation task. The comparisons against several existing methods demonstrate the effectiveness of our approach.
     bibtex: >
-      @article{Gao-aaai-2022,
+      @inproceedings{Gao-aaai-2022,
        abstract = {Research in image captioning has mostly focused on English because of the availability of image-caption paired datasets in this language. However, building vision-language systems only for English deprives a large part of the world population of AI technologies' benefit. On the other hand, creating image-caption paired datasets for every target language is expensive. In this work, we present a novel unsupervised cross-lingual method to generate image captions in a target language without using any image-caption corpus in the source or target languages. Our method relies on (i) a cross-lingual scene graph to sentence translation process, which learns to decode sentences in the target language from a cross-lingual encoding space of scene graphs using a sentence parallel (bitext) corpus, and (ii) an unsupervised cross-modal feature mapping which seeks to map an encoded scene graph features from image modality to language modality. We verify the effectiveness of our proposed method on the Chinese image caption generation task. The comparisons against several existing methods demonstrate the effectiveness of our approach.},
        address = {Vancouver, Canada},
        author = {Jiahui Gao and Yi Zhou and Philip Yu and Shafiq Joty and Jiuxiang Gu},
