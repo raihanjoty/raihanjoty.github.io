@@ -37,30 +37,15 @@ Further analysis reveals that our model can better capture semantic information 
   abstract = {Transformer models have been used in automatic speech recognition (ASR) successfully and yields state-of-the-art results. However, its performance is still affected by speaker mismatch between training and test data. Further finetuning a trained model with target speaker data is the most natural approach for adaptation, but it takes a lot of compute and may cause catastrophic forgetting to the existing speakers. In this work, we propose a unified speaker adaptation approach consisting of feature adaptation and model adaptation. For feature adaptation, we employ a speaker-aware persistent memory model which generalizes better to unseen test speakers by making use of speaker i-vectors to form a persistent memory. For model adaptation, we use a novel gradual pruning method to adapt to target speakers without changing the model architecture, which to the best of our knowledge, has never been explored in ASR. Specifically, we gradually prune less contributing parameters on model encoder to a certain sparsity level, and use the pruned parameters for adaptation, while freezing the unpruned parameters to keep the original model performance. We conduct experiments on the Librispeech dataset. Our proposed approach brings relative 2.74-6.52\% word error rate (WER) reduction on general speaker adaptation. On target speaker adaptation, our method outperforms the baseline with up to 20.1\% relative WER reduction, and surpasses the finetuning method by up to relative 8.62\%. Besides, with extremely low-resource adaptation data (e.g., 1 utterance), our method could improve the WER by relative 6.53\% with only a few epochs of training.}
 }
 
-@article{Saha-aaai-2022,
-  title="{Weakly Supervised Neuro-Symbolic Module Networks for Numerical Reasoning}",
-  author={Amrita Saha, Shafiq Joty, Steven C.H. Hoi},
-  journal = {arXiv (* not peer reviewed)},
-  publisher={arXiv.org},
-  issue={},
-  pages={},
-  year={2022},
-  url = {https://arxiv.org/abs/2101.11802},
-  abstract={Neural Module Networks (NMNs) have been quite successful in incorporating explicit reasoning as learnable modules in various question answering tasks, including
-the most generic form of numerical reasoning over text in Machine Reading Comprehension (MRC). However, to achieve this, contemporary NMNs need strong
-supervision in executing the query as a specialized program over reasoning modules
-and fail to generalize to more open-ended settings without such supervision. Hence
-we propose Weakly-Supervised Neuro-Symbolic Module Network (WNSMN)
-trained with answers as the sole supervision for numerical reasoning based MRC. It
-learns to execute a noisy heuristic program obtained from the dependency parsing
-of the query, as discrete actions over both neural and symbolic reasoning modules
-and trains it end-to-end in a reinforcement learning framework with discrete reward
-from answer matching. On the numerical-answer subset of DROP, WNSMN outperforms NMN by 32% and the reasoning-free language model GenBERT by 8%
-in exact match accuracy when trained under comparable weak supervised settings.
-This showcases the effectiveness and generalizability of modular networks that can
-handle explicit discrete reasoning over noisy programs in an end-to-end manner.
-}
-}
+
+
+
+
+How about we interview 
+
+1. Shengqiong Wu
+2. DOROTHEA FRENCH
+
 
 
 
@@ -82,24 +67,34 @@ pfnjld
 
 
 
-Shafiq Joty is an Asst. Prof. in the School of Computer Science and Engineering (SCSE) at NTU, where he leads the NTU-NLP group. He is also a senior manager of NLP research and a founding member at Salesforce AI Research Asia. His work has primarily focused on developing language analysis tools (e.g., syntactic parsers, NER, discourse parser, coherence models) and downstream NLP applications including question answering, text summarization and language modeling. A significant part of his current research focuses on machine translation, multilingual processing, multimodal processing, and robustness of NLP models. His work has mostly relied on deep learning for better representation of the input text and on probabilistic graphical models and reinforcement learning for capturing dependencies in the output. He served as a (senior) area chair for ACL'19-21, EMNLP'19,21 and NAACL’21, EACL’21, and a senior PC member for AAAI’21 and IJCAI'19. He gave tutorials at ACL-2019, ICDM-2018 and COLING-2018 conferences. He is currently serving as an action editor for the ACL rolling review system (a centralized reviewing system for ACL conferences), and previously served as an associate editor for ACM Transactions on Asian and Low Resource Language Processing. He has published more than 100 papers in top-tier NLP/AI conferences and journals including ACL, EMNLP, NAACL, NeurIPS, ICML, ICLR, CVPR, ECCV, ICCV, CL and JAIR. 
 
 
 
 
 
 
-This paper extends the idea of prefix tuning to controllable generation, i.e., steer generation such that the resulting sequences carry a chosen attribute. On the positive side, the proposed method requires less number of parameters to be trained compared to other methods like GeDi. The results for the baselines reported in this paper seem to contradict with the origianl paper's findings (e.g., linguistic quality, degeneration) as identified by Reviewers rpJ2 and GHyw. The description of human evaluation needs to be improved with more details about the subjects, their agreements etc (Reviewers ZTVW and GHyw). Reviewer rpJ2 also pointed out two other weaknesses: the inability to counter the domain effect and an artificial unsupervised setup. Reviewer EjkZ and ZTVW question the novelty beyound prefix tuning and VQ-VAE although I personally think the unsupervised and the multi-attribute settings are quite interesting.   
 
 
 
+a) 
 
-1. Weishi Wang (NLP) - NTU - Advised by me + Steven (SF)
-2. Hailin Chen (NLP) - NTU - Advised by me + Steven (SF)
-3. Hualin Liu (Vision)  - NTU - Advised by Hanwang + Junnan (SF)
-4. Anthony Meng Huat (Vision) - NTU - started with Lin Guosheng, then transferred to Boyang "Albert" Li + Junnan (SF)
-5. Samson Tag (NLP) - NUS - Advised by Min-Yen + me (SF)
-6. Gerald Woo (AIOps) - SMU - 
+2_PTT
+
+Intends to use the property as principal residence
+No
+
+b) 
+
+File Name: Acknowledgment of Receipt of Mtg Terms.rtf
+
+Principal Amount: $2,260,000.00
+
+It should be "Registered Mortgage Amount"?
+
+Registered Mortgage Amount
+$1,179,750.00
+
+
 
 
 

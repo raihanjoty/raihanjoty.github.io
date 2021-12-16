@@ -5428,6 +5428,39 @@
       
   -
     layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2022
+    selected: yes
+    title: >
+      LFPT5: A Unified Framework for Lifelong Few-shot Language Learning Based on Prompt Tuning of T5
+    authors: Chengwei Qin, and Shafiq Joty
+    id: Chengwei-et-al-arxiv-22
+    img: Chengwei-et-al-arxiv-22-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    pages: 
+    journal: arXiv (* not peer reviewed)
+    doc-url: https://arxiv.org/abs/2110.07298
+    abstract: >
+      Existing approaches to lifelong language learning rely on plenty of labeled data for learning a new task, which is hard to obtain in most real scenarios. Considering that humans can continually learn new tasks from a handful of examples, we expect the models also to be able to generalize well on new few-shot tasks without forgetting the previous ones. In this work, we define this more challenging yet practical problem as Lifelong Few-shot Language Learning (LFLL) and propose a unified framework for it based on prompt tuning of T5. Our framework called LFPT5 takes full advantage of PT's strong few-shot learning ability, and simultaneously trains the model as a task solver and a data generator. Before learning a new domain of the same task type, LFPT5 generates pseudo (labeled) samples of previously learned domains, and later gets trained on those samples to alleviate forgetting of previous knowledge as it learns the new domain. In addition, a KL divergence loss is minimized to achieve label consistency between the previous and the current model. While adapting to a new task type, LFPT5 includes and tunes additional prompt embeddings for the new task. With extensive experiments, we demonstrate that LFPT5 can be applied to various different types of tasks and significantly outperform previous methods in different LFLL settings.
+    bibtex: >
+      @article{Chengwei-et-al-arxiv-22,
+       abstract = {Existing approaches to lifelong language learning rely on plenty of labeled data for learning a new task, which is hard to obtain in most real scenarios. Considering that humans can continually learn new tasks from a handful of examples, we expect the models also to be able to generalize well on new few-shot tasks without forgetting the previous ones. In this work, we define this more challenging yet practical problem as Lifelong Few-shot Language Learning (LFLL) and propose a unified framework for it based on prompt tuning of T5. Our framework called LFPT5 takes full advantage of PT's strong few-shot learning ability, and simultaneously trains the model as a task solver and a data generator. Before learning a new domain of the same task type, LFPT5 generates pseudo (labeled) samples of previously learned domains, and later gets trained on those samples to alleviate forgetting of previous knowledge as it learns the new domain. In addition, a KL divergence loss is minimized to achieve label consistency between the previous and the current model. While adapting to a new task type, LFPT5 includes and tunes additional prompt embeddings for the new task. With extensive experiments, we demonstrate that LFPT5 can be applied to various different types of tasks and significantly outperform previous methods in different LFLL settings.},
+       author = {Chengwei Qin and Shafiq Joty},
+       issue = {},
+       journal = {arXiv (* not peer reviewed)},
+       link = {https://arxiv.org/abs/2110.07298},
+       pages = {},
+       publisher = {arXiv.org},
+       title = {LFPT5: A Unified Framework for Lifelong Few-shot Language Learning Based on Prompt Tuning of T5},
+       year = {2022}
+      }
+      
+      
+  -
+    layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2022
     selected: no
