@@ -5466,6 +5466,50 @@
     year: 2022
     selected: no
     title: >
+      Contrastive Clustering to Mine Pseudo Parallel Data for Unsupervised Translation
+    authors: Xuan-Phi Nguyen, Hongyu Gong, Yun Tang, Changhan Wang, Philipp Koehn, and Shafiq Joty
+    id: Phi-et-al-ICLR-22
+    img: Phi-et-al-ICLR-22-fig
+    slides: media/Phi-et-al-ICLR-22-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 
+    booktitle: >
+      International Conference on Learning Representations (<b>ICLR-22</b>)
+    doc-url: https://openreview.net/pdf?id=pN1JOdrSY9
+    abstract: >
+      Modern unsupervised machine translation systems mostly train their models by generating synthetic parallel training data from large unlabeled monolingual corpora of different languages through various means, such as iterative backtranslation. However, there may exist small amount of actual parallel data hidden in the sea of unlabeled data, which has not been exploited. We develop a new fine-tuning objective, called Language-Agnostic Constraint for SwAV loss, or LAgSwAV, which enables a pre-trained model to extract such pseudo-parallel data from the monolingual corpora in a fully unsupervised manner. We then propose an effective strategy to utilize the obtained synthetic data to augment unsupervised machine translation. Our method achieves the state of the art in the WMT’14 English-French, WMT’16 German-English and English-Romanian bilingual unsupervised translation tasks, with 40.2, 36.8, and 37.0 BLEU, respectively. We also achieve substantial improvements in the FLoRes low-resource English-Nepali and English-Sinhala unsupervised tasks with 5.3 and 5.4 BLEU, respectively.
+    bibtex: >
+      @inproceedings{Phi-et-al-ICLR-22,
+       abstract = {Modern unsupervised machine translation systems mostly train their models
+      by generating synthetic parallel training data from large unlabeled monolingual
+      corpora of different languages through various means, such as iterative backtranslation. However, there may exist small amount of actual parallel data hidden in the sea of unlabeled data, which has not been exploited. We develop a
+      new fine-tuning objective, called Language-Agnostic Constraint for SwAV loss, or
+      LAgSwAV, which enables a pre-trained model to extract such pseudo-parallel data
+      from the monolingual corpora in a fully unsupervised manner. We then propose an
+      effective strategy to utilize the obtained synthetic data to augment unsupervised
+      machine translation. Our method achieves the state of the art in the WMT’14
+      English-French, WMT’16 German-English and English-Romanian bilingual unsupervised translation tasks, with 40.2, 36.8, and 37.0 BLEU, respectively. We
+      also achieve substantial improvements in the FLoRes low-resource English-Nepali
+      and English-Sinhala unsupervised tasks with 5.3 and 5.4 BLEU, respectively.},
+       author = {Xuan-Phi Nguyen  and Hongyu Gong and Yun Tang and Changhan Wang and Philipp Koehn and Shafiq Joty},
+       booktitle = {International Conference on Learning Representations},
+       issue = {},
+       link = {https://openreview.net/pdf?id=pN1JOdrSY9},
+       pages = {},
+       series = {ICLR-22},
+       title = {Contrastive Clustering to Mine Pseudo Parallel Data for Unsupervised Translation},
+       year = {2022}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2022
+    selected: no
+    title: >
       Weakly Supervised Neuro-Symbolic Module Networks for Numerical Reasoning
     authors: Amrita Saha, Shafiq Joty, and Steven Hoi
     id: Saha-aaai-2022
