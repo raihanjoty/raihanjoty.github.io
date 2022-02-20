@@ -1,55 +1,75 @@
-
-
-@InProceedings{Yue-emnlp-21,
-  author = {Yue Wang and Weishi Wang and Shafiq Joty and Steven Hoi},
-  title     = {CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation},
-  booktitle = {the 2021 Conference on Empirical Methods in Natural Language Processing},
-  year      = {2021},
-  series    = {EMNLP'21},
+@InProceedings{Ravaut-acl-22,
+  author = {Mathieu Ravaut and Nancy F. Chen and Shafiq Joty},
+  title     = {SummaReranker: A Multi-Task Mixture-of-Experts Re-Ranking Framework for Abstractive Summarization},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2022},
+  series    = {ACL'22},
   publisher = {ACL},
   address   = {Online}, 
-  abstract = {Pre-trained models for Natural Languages (NL) like BERT and GPT have been recently shown to transfer well to Programming Languages (PL) and largely benefit a broad set of code-related tasks. Despite their success, most current methods either rely on an encoder-only (or decoder-only) pre-training that is suboptimal for generation (resp. understanding) tasks or process the code snippet in the same way as NL, neglecting the special characteristics of PL such as token types. We present CodeT5, a unified pre-trained encoder-decoder Transformer model that better leverages the code semantics conveyed from the developer-assigned identifiers. Our model is unified in that it builds on a unified framework to seamlessly support both code understanding and generation tasks, and it employs a unified format of task control codes to allow for multi-task learning. We propose a novel identifier-aware pre-training objective that enables the model to distinguish which code tokens are identifiers and to recover them when they are masked. To further close the gap between the pre-training and fine-tuning, we propose a bimodal dual generation task to encourage the alignment between NL and PL. Comprehensive experiments show that CodeT5 significantly outperforms prior methods on understanding tasks such as code defect detection and clone detection, and generation tasks across various directions including PL-NL, NL-PL, and PL-PL. 
-Further analysis reveals that our model can better capture semantic information from code.}
+  abstract = {Sequence-to-sequence neural networks have recently achieved great success in abstractive summarization, especially with the trend of fine-tuning large pre-trained language models on the downstream dataset. These models are typically decoded with beam search to generate a unique summary. However, the search space is very large, and due to exposure bias, such decoding is not optimal. In this paper, we show that it is possible to directly train a second-stage model performing re-ranking on a set of summary candidates. Our mixture-of-experts SummaReranker learns to select a better candidate and systematically improves the performance of the base model. With a base PEGASUS, we push ROUGE scores by 5.44% on CNN-DailyMail (47.16 ROUGE-1), 1.31% on XSum (48.12 ROUGE-1) and 9.34% on Reddit TIFU (29.83 ROUGE-1), reaching a new state-of-the-art.}
+}
+
+@InProceedings{Bosheng-acl-22,
+  author = {Bosheng Ding and Junjie Hu and Lidong Bing and Mahani Aljunied and Shafiq Joty and Luo Si and Chunyan Miao},
+  title     = {GlobalWoZ: Globalizing MultiWoZ to Develop Multilingual Task-Oriented Dialogue Systems},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2022},
+  series    = {ACL'22},
+  publisher = {ACL},
+  address   = {Online}, 
+  abstract = {Over the last few years, there has been a move towards data curation for multilingual task-oriented dialogue (ToD) systems that can serve people speaking different languages. However, existing multilingual ToD datasets either have a limited coverage of languages due to the high cost of data curation, or ignore the fact that dialogue entities barely exist in countries speaking these languages. To tackle these limitations, we introduce a novel data curation method that generates GlobalWoZ --- a large-scale multilingual ToD dataset globalized from an English ToD dataset for three unexplored use cases of  multilingual ToD systems. Our method is based on translating dialogue templates and filling them with local entities in the target-language countries. Besides, we extend the coverage of target languages to 20 languages. We will release our dataset and a set of strong baselines to encourage research on multilingual ToD systems for real use cases.}
 }
 
 
-@InProceedings{Tao-emnlp-21,
-  author = {Tao Yu and Shafiq Joty},
-  title     = {Effective Fine-tuning Methods for Cross-lingual Adaptation},
-  booktitle = {the 2021 Conference on Empirical Methods in Natural Language Processing},
-  year      = {2021},
-  series    = {EMNLP'21},
+@InProceedings{Chengwei-acl-22,
+  author = {Chengwei Qin and Shafiq Joty},
+  title     = {Continual Few-shot Relation Learning via Embedding Space Regularization and Data Augmentation},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2022},
+  series    = {ACL'22},
   publisher = {ACL},
   address   = {Online}, 
-  abstract = {Large scale multilingual pre-trained language models have shown promising results in zero- and few-shot cross-lingual tasks. However, recent studies have shown their lack of generalizability when the languages are structurally dissimilar. In this work, we propose a novel fine-tuning method based on co-training that aims to learn more generalized semantic equivalences as complementary to multilingual language modeling using the unlabeled data in the target language.  We also propose an adaption method based on contrastive learning to better capture the semantic relationship in the parallel data, when a few translation pairs are available. To show our method's effectiveness, we conduct extensive experiments on cross-lingual inference and review classification tasks across various languages. We report significant gains compared to directly fine-tuning multilingual pre-trained models and other semi-supervised alternatives.\footnote{Code and models are available at \scriptsize{\urlstyle{tt}\url{<redacted>}}}.}
+  abstract = {Existing continual relation learning (CRL) methods rely on plenty of labeled training data for learning a new task, which can be hard to acquire in real scenario as getting large and representative labeled data is often expensive and time-consuming. It is therefore necessary for the model to learn novel relational patterns with very few labeled data while avoiding catastrophic forgetting of previous task knowledge. In this paper, we formulate this challenging yet practical problem as continual few-shot relation learning (CFRL). Based on the finding that learning for new emerging few-shot tasks often results in feature distributions that are incompatible with previous tasks' learned distributions, we propose a novel method based on embedding space regularization and data augmentation. Our method generalizes to new few-shot tasks and avoids catastrophic forgetting of previous tasks by enforcing extra constraints on the relational embeddings and by adding extra {relevant} data in a self-supervised manner. With extensive experiments we demonstrate that our method can significantly outperform previous state-of-the-art methods in CFRL task settings.}
 }
 
-
-
-@InProceedings{Yingzhu-et-al-emnlp-21,
-  author    = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
-  title     = {A Unified Speaker Adaptation Approach for ASR},
-  booktitle = {the 2021 Conference on Empirical Methods in Natural Language Processing},
-  year      = {2021},
-  series    = {EMNLP'21},
+@InProceedings{Shankar-acl-22,
+  author = {Shankar Kantharaj and Rixie Leong and Xiang Lin and Ahmed Masry and Megh Thakkar and Enamul Hoque and Shafiq Joty},
+  title     = {Chart-to-Text: A Large-Scale Benchmark for Chart Summarization},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2022},
+  series    = {ACL'22},
   publisher = {ACL},
   address   = {Online}, 
-  abstract = {Transformer models have been used in automatic speech recognition (ASR) successfully and yields state-of-the-art results. However, its performance is still affected by speaker mismatch between training and test data. Further finetuning a trained model with target speaker data is the most natural approach for adaptation, but it takes a lot of compute and may cause catastrophic forgetting to the existing speakers. In this work, we propose a unified speaker adaptation approach consisting of feature adaptation and model adaptation. For feature adaptation, we employ a speaker-aware persistent memory model which generalizes better to unseen test speakers by making use of speaker i-vectors to form a persistent memory. For model adaptation, we use a novel gradual pruning method to adapt to target speakers without changing the model architecture, which to the best of our knowledge, has never been explored in ASR. Specifically, we gradually prune less contributing parameters on model encoder to a certain sparsity level, and use the pruned parameters for adaptation, while freezing the unpruned parameters to keep the original model performance. We conduct experiments on the Librispeech dataset. Our proposed approach brings relative 2.74-6.52\% word error rate (WER) reduction on general speaker adaptation. On target speaker adaptation, our method outperforms the baseline with up to 20.1\% relative WER reduction, and surpasses the finetuning method by up to relative 8.62\%. Besides, with extremely low-resource adaptation data (e.g., 1 utterance), our method could improve the WER by relative 6.53\% with only a few epochs of training.}
+  abstract = {Charts are commonly used for exploring data and communicating insights. Generating natural language summaries from charts can be very helpful for people in inferring key insights that would otherwise require a lot of cognitive and perceptual efforts. We present Chart-to-text, a large-scale benchmark with two datasets and a total of 44,096 charts covering a wide range of topics and chart types. We explain the dataset construction process and analyze the datasets. We also introduce a number of state-of-the-art neural models as baselines that utilize image captioning and data-to-text generation techniques to tackle two problem variations: one assumes the underlying data table of the chart is available while the other needs to extract data from chart images. Our analysis with automatic and human evaluation shows that while our best models usually generate fluent summaries and yield reasonable BLEU scores, they also suffer from  hallucinations and factual errors as well as difficulties in correctly explaining complex patterns and trends in charts.}
 }
-
-
 
   
+@InProceedings{Ahmed-acl-22,
+  author = {Ahmed Masry and Do Xuan Long and Jia Qing Tan and Shafiq Joty and Enamul Hoque},
+  title     = {ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2022},
+  series    = {ACL'22},
+  publisher = {ACL},
+  address   = {Online}, 
+  abstract = {Charts are very popular for analyzing data. When exploring charts, people often ask a variety of complex reasoning questions that involve several logical and arithmetic operations. They also commonly refer to visual features of a chart in their questions. However, most existing datasets do not focus on such complex reasoning questions as their questions are template-based and answers come from a fixed-vocabulary. In this work, we present a large-scale benchmark covering 9.6K human-written questions as well as 23.1K questions generated from human-written chart summaries. To address the unique challenges in our benchmark involving visual and logical reasoning over charts, we present two transformer-based models that combine visual features and the data table of the chart in a unified way to answer questions. While our models achieve the state-of-the-art results on the previous datasets as well as on our benchmark, the evaluation also reveals several challenges in answering complex reasoning questions.}
+}
 
 
-How about we interview 
+@InProceedings{chen-et-al-sigmod-22-demo,
+  author    = {Peng Chen and Hui Li  and Sourav Bhowmick and Shafiq Joty and Weiguo Wang},
+  title     = {LANTERN: Boredom-conscious Natural Language Description Generation of Query Execution Plans for Database Education},
+  booktitle = {Proceedings of 2022 ACM SIGMOD International Conference on Management of Data (Demo)},
+  month     = {June},
+  year      = {2022},
+  series    = {SIGMOD'22 (Demo)},
+  publisher = {ACM},
+  address   = {Philadelphia, PA, USA}, 
+  pages     = {x -- x},
+  url       = {papers/chen-et-al-sigmod-22-demo.pdf},
+  abstract = {The database systems course in an undergraduate computer science degree program is gaining increasing importance due to the con- tinuous supply of database-related jobs as well as the rise of Data Science. A key learning goal of learners taking such a course is to understand how sql queries are executed in an rdbms in practice. Existing rdbms typically expose a query execution plan (qep) in visual or textual format, which describes the execution steps for a given query. However, it is often daunting for a learner to compre- hend these qeps containing vendor-specific implementation details. In this demonstration, we present a novel, generic, and portable system called lantern that generates a natural language-based description of the execution strategy chosen by the underlying rdbms to process a query. It provides a declarative framework called pool for subject matter experts (sme) to efficiently create and ma- nipulate natural language descriptions of physical operators of any rdbms. It then exploits pool to generate nl description of a qep by integrating rule-based and deep learning-based techniques to infuse language variability in the descriptions. Such nl generation strategy mitigates the impact of boredom on learners caused by repeated exposure of similar text generated by rule-based systems.}
+}
 
-1. Shengqiong Wu
-2. DOROTHEA FRENCH
-
-
-
-3. Linlin Liu, Bosheng Ding, Bing Lidong Shafiq Joty, Miao Chunyan, Si Luo. Data Augmentation Method, Named Recognition Method, Equipment and Electronic Device. NTU-Ref: 2021-520
 
 SAL33
 
@@ -66,9 +86,6 @@ pfnjld
 2475.73, out 2603.10
 
 
-Samson joined our team at Salesforce Research Asia under our Industrial PhD Program. He is proactive and self-driven in generating new research ideas and implementing them rapidly. Despite having no prior academic publications and natural language processing experience, he learnt quickly and got his first research paper accepted to ACL 2020 in his first term. He subsequently published three long papers at top NLP conferences in a row, including one which was nominated for best theme paper at ACL 2021. Two of these papers also resulted in patent applications.  He is not only a critical thinker who can come up with the right research questions,  but is also someone who can communicate well in both writing and presentations.
-Beyond individual achievements, Samson has also successfully collaborated across institutions, geographical boundaries, and disciplines (e.g., ethics, public policy). After I introduced him to the Big-Science project led by Huggingface, he co-chaired a working group on tokenization where he worked with many other researchers including Benoît Sagot, Colin Raffel and Sabrina Mielke.
-In summary, Samson has proved to have good research and presentation skills with high quality of perseverance, initiative and intellectual creativity, and he is a great team player.
 
 
 
@@ -81,15 +98,19 @@ Case id: FCS21101200417
   - 1378$
 
 
+Base:
 
-- Call BC hydro (electricity) and fortis BC (gas)
-- setup a new account
-pass nanaimo3238
+250 - 
 
-
-
+foster city 
 
 
+
+
+
+
+
+6742787
 
 
 

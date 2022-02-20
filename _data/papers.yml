@@ -3689,7 +3689,7 @@
     year: 2019
     selected: no
     title: >
-      NEURON: Query Execution Plan Meets Natural Language Processing For Augmenting DB Education (Demo)
+      NEURON: Query Execution Plan Meets Natural Language Processing For Augmenting DB Education
     authors: Siyuan Liu, Sourav S, Wanlu Zhang, Shu Wang, Wanyi Huang, and Shafiq Joty
     id: liu-et-al-sigmod-demo-19
     img: liu-et-al-sigmod-demo-19-fig
@@ -3699,19 +3699,19 @@
     venue: conference
     pages: 1953–1956
     booktitle: >
-      Proceedings of 45th ACM SIGMOD International Conference on Management of Data (<b>SIGMOD'19</b>)
+      Proceedings of 45th ACM SIGMOD International Conference on Management of Data (Demo) (<b>SIGMOD'19 (Demo)</b>)
     doc-url: papers/liu-et-al-sigmod-demo-19.pdf
     bibtex: >
       @inproceedings{liu-et-al-sigmod-demo-19,
        address = {Amsterdam, The Netherlands.},
        author = {Siyuan Liu and Sourav S Bhowmick and Wanlu Zhang and Shu Wang and Wanyi Huang and Shafiq Joty},
-       booktitle = {Proceedings of 45th ACM SIGMOD International Conference on Management of Data},
+       booktitle = {Proceedings of 45th ACM SIGMOD International Conference on Management of Data (Demo)},
        link = {papers/liu-et-al-sigmod-demo-19.pdf},
        month = {July},
        pages = {1953–1956},
        publisher = {ACM},
-       series = {SIGMOD'19},
-       title = {NEURON: Query Execution Plan Meets Natural Language Processing For Augmenting DB Education (Demo)},
+       series = {SIGMOD'19 (Demo)},
+       title = {NEURON: Query Execution Plan Meets Natural Language Processing For Augmenting DB Education},
        year = {2019}
       }
       
