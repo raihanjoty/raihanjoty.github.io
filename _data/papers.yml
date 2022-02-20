@@ -3215,42 +3215,6 @@
     year: 2019
     selected: no
     title: >
-      A Unified Linear-Time Framework for Sentence-Level Discourse Parsing
-    authors: Xiang Lin*, Shafiq Joty*, Prathyusha Jwalapuram, and Saiful Bari
-    id: lin-et-al-acl-19
-    img: lin-et-al-acl-19-fig
-    slides: media/lin-et-al-acl-19-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    pages: 4190–4200
-    booktitle: >
-      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (<b>ACL'19</b>)
-    doc-url: https://www.aclweb.org/anthology/P19-1410/
-    abstract: >
-      We propose an efficient neural framework for sentence-level discourse analysis in accordance with Rhetorical Structure Theory (RST). Our framework comprises a discourse segmenter to identify the elementary discourse units (EDU) in a text, and a discourse parser that constructs a discourse tree in a top-down fashion. Both the segmenter and the parser are based on Pointer Networks and operate in linear time. Our segmenter yields an F1 score of 95.4, and our parser achieves an F1 score of 81.7 on the aggregated labeled (relation) metric, surpassing previous approaches by a good margin and approaching human agreement on both tasks (98.3 and 83.0 F1)
-    bibtex: >
-      @inproceedings{lin-et-al-acl-19,
-       abstract = {We propose an efficient neural framework for sentence-level discourse analysis in accordance with Rhetorical Structure Theory (RST). Our framework comprises a discourse segmenter to identify the elementary discourse units (EDU) in a text, and a discourse parser that constructs a discourse tree in a top-down fashion. Both the segmenter and the parser are based on Pointer Networks and operate in linear time. Our segmenter yields an F1 score of 95.4, and our parser achieves an F1 score of 81.7 on the aggregated labeled (relation) metric, surpassing previous approaches by a good margin and approaching human agreement on both tasks (98.3 and 83.0 F1)},
-       address = {Florence, Italy},
-       author = {Xiang Lin* and Shafiq Joty* and Prathyusha Jwalapuram and Saiful Bari},
-       booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://www.aclweb.org/anthology/P19-1410/},
-       numpages = {9},
-       pages = {4190–4200},
-       publisher = {ACL},
-       series = {ACL'19},
-       title = {A Unified Linear-Time Framework for Sentence-Level Discourse Parsing},
-       year = {2019}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2019
-    selected: no
-    title: >
       A Unified Neural Coherence Model
     authors: Han-Cheol Moon*, Tasnim Mohiuddin*, Shafiq Joty*, and Chi Xu
     id: moon-et-al-emnlp-19
@@ -3359,67 +3323,32 @@
     year: 2019
     selected: no
     title: >
-      Unpaired Image Captioning via Scene Graph Alignments
-    authors: Jiuxiang Gu, Shafiq Joty, Jianfei Cai, Handong Zhao, Xu Yang, and Gang Wang
-    id: gu-et-al-iccv-19
-    img: gu-et-al-iccv-19-fig
-    slides: media/gu-et-al-iccv-19-slides.pdf
+      A Unified Linear-Time Framework for Sentence-Level Discourse Parsing
+    authors: Xiang Lin*, Shafiq Joty*, Prathyusha Jwalapuram, and Saiful Bari
+    id: lin-et-al-acl-19
+    img: lin-et-al-acl-19-fig
+    slides: media/lin-et-al-acl-19-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: 10323-10332
+    pages: 4190–4200
     booktitle: >
-      Proceedings of the International Conference on Computer Vision (<b>ICCV'19</b>)
-    doc-url: https://openaccess.thecvf.com/content_ICCV_2019/html/Gu_Unpaired_Image_Captioning_via_Scene_Graph_Alignments_ICCV_2019_paper.html
+      Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (<b>ACL'19</b>)
+    doc-url: https://www.aclweb.org/anthology/P19-1410/
     abstract: >
-      Deep neural networks have achieved great success on the image captioning task. However, most of the existing models depend heavily on paired image-sentence datasets, which are very expensive to acquire in most real-world scenarios. In this paper, we propose a scene graph based approach for unpaired image captioning. Our method merely requires an image set, a sentence corpus, an image scene graph generator, and a sentence scene graph generator. The sentence corpus is used to teach the decoder how to generate meaningful sentences from a scene graph. To further encourage the generated captions to be semantically consistent with the image, we employ adversarial learning to align the visual scene graph to the textual scene graph. Experimental results show that our proposed model can generate quite promising results without using any image-caption training pairs, outperforming existing methods by a wide margin.
+      We propose an efficient neural framework for sentence-level discourse analysis in accordance with Rhetorical Structure Theory (RST). Our framework comprises a discourse segmenter to identify the elementary discourse units (EDU) in a text, and a discourse parser that constructs a discourse tree in a top-down fashion. Both the segmenter and the parser are based on Pointer Networks and operate in linear time. Our segmenter yields an F1 score of 95.4, and our parser achieves an F1 score of 81.7 on the aggregated labeled (relation) metric, surpassing previous approaches by a good margin and approaching human agreement on both tasks (98.3 and 83.0 F1)
     bibtex: >
-      @inproceedings{gu-et-al-iccv-19,
-       abstract = {Deep neural networks have achieved great success on the image captioning task. However, most of the existing models depend heavily on paired image-sentence datasets, which are very expensive to acquire in most real-world scenarios. In this paper, we propose a scene graph based approach for unpaired image captioning. Our method merely requires an image set, a sentence corpus, an image scene graph generator, and a sentence scene graph generator. The sentence corpus is used to teach the decoder how to generate meaningful sentences from a scene graph. To further encourage the generated captions to be semantically consistent with the image, we employ adversarial learning to align the visual scene graph to the textual scene graph. Experimental results show that our proposed model can generate quite promising results without using any image-caption training pairs, outperforming existing methods by a wide margin.},
-       address = {Seoul, Korea},
-       author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Handong Zhao and Xu Yang and Gang Wang},
-       booktitle = {Proceedings of the International Conference on Computer Vision},
-       link = {https://openaccess.thecvf.com/content_ICCV_2019/html/Gu_Unpaired_Image_Captioning_via_Scene_Graph_Alignments_ICCV_2019_paper.html},
-       pages = {10323-10332},
-       publisher = {IEEE},
-       series = {ICCV'19},
-       title = {Unpaired Image Captioning via Scene Graph Alignments},
-       year = {2019}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2019
-    selected: no
-    title: >
-      Watch It Twice: Video Captioning with a Refocused Video Encoder
-    authors: Xiangxi Shi, Jianfei Cai, Shafiq Joty, and Jiuxiang Gu
-    id: shi-et-al-acmmm-19
-    img: shi-et-al-acmmm-19-fig
-    slides: media/shi-et-al-acmmm-19-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    pages: 818–826
-    booktitle: >
-      Proceedings of the 27th ACM International Conference on Multimedia (<b>ACMMM'19</b>)
-    doc-url: https://dl.acm.org/doi/10.1145/3343031.3351060
-    abstract: >
-      With the rapid growth of video data and the increasing demands of various applications such as intelligent video search and assistance toward visually-impaired people, video captioning task has received a lot of attention recently in computer vision and natural language processing fields. The state-of-the-art video captioning methods focus more on encoding the temporal information, while lack of effective ways to remove irrelevant temporal information and also neglecting the spatial details. However, the current RNN encoding module in single time order can be influenced by the irrelevant temporal information, especially the irrelevant temporal information is at the beginning of the encoding. In addition, neglecting spatial information will lead to the relationship confusion of the words and detailed loss. Therefore, in this paper, we propose a novel recurrent video encoding method and a novel visual spatial feature for the video captioning task. The recurrent encoding module encodes the video twice with the predicted key frame to avoid the irrelevant temporal information often occurring at the beginning and the end of a video. The novel spatial features represent the spatial information in different regions of a video and enrich the details of a caption. Experiments on two benchmark datasets show superior performance of the proposed method.
-    bibtex: >
-      @inproceedings{shi-et-al-acmmm-19,
-       abstract = {With the rapid growth of video data and the increasing demands of various applications such as intelligent video search and assistance toward visually-impaired people, video captioning task has received a lot of attention recently in computer vision and natural language processing fields. The state-of-the-art video captioning methods focus more on encoding the temporal information, while lack of effective ways to remove irrelevant temporal information and also neglecting the spatial details. However, the current RNN encoding module in single time order can be influenced by the irrelevant temporal information, especially the irrelevant temporal information is at the beginning of the encoding. In addition, neglecting spatial information will lead to the relationship confusion of the words and detailed loss. Therefore, in this paper, we propose a novel recurrent video encoding method and a novel visual spatial feature for the video captioning task. The recurrent encoding module encodes the video twice with the predicted key frame to avoid the irrelevant temporal information often occurring at the beginning and the end of a video. The novel spatial features represent the spatial information in different regions of a video and enrich the details of a caption. Experiments on two benchmark datasets show superior performance of the proposed method.},
-       address = {Nice, France},
-       author = {Xiangxi Shi and Jianfei Cai and Shafiq Joty and Jiuxiang Gu},
-       booktitle = {Proceedings of the 27th ACM International Conference on Multimedia},
-       link = {https://dl.acm.org/doi/10.1145/3343031.3351060},
-       numpages = {10},
-       pages = {818–826},
-       publisher = {ACM},
-       series = {ACMMM'19},
-       title = {Watch It Twice: Video Captioning with a Refocused Video Encoder},
+      @inproceedings{lin-et-al-acl-19,
+       abstract = {We propose an efficient neural framework for sentence-level discourse analysis in accordance with Rhetorical Structure Theory (RST). Our framework comprises a discourse segmenter to identify the elementary discourse units (EDU) in a text, and a discourse parser that constructs a discourse tree in a top-down fashion. Both the segmenter and the parser are based on Pointer Networks and operate in linear time. Our segmenter yields an F1 score of 95.4, and our parser achieves an F1 score of 81.7 on the aggregated labeled (relation) metric, surpassing previous approaches by a good margin and approaching human agreement on both tasks (98.3 and 83.0 F1)},
+       address = {Florence, Italy},
+       author = {Xiang Lin* and Shafiq Joty* and Prathyusha Jwalapuram and Saiful Bari},
+       booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
+       link = {https://www.aclweb.org/anthology/P19-1410/},
+       numpages = {9},
+       pages = {4190–4200},
+       publisher = {ACL},
+       series = {ACL'19},
+       title = {A Unified Linear-Time Framework for Sentence-Level Discourse Parsing},
        year = {2019}
       }
       
@@ -3491,6 +3420,77 @@
        pages = {1--6},
        series = {ACL'19},
        title = {Discourse Processing and Its Applications},
+       year = {2019}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2019
+    selected: no
+    title: >
+      Unpaired Image Captioning via Scene Graph Alignments
+    authors: Jiuxiang Gu, Shafiq Joty, Jianfei Cai, Handong Zhao, Xu Yang, and Gang Wang
+    id: gu-et-al-iccv-19
+    img: gu-et-al-iccv-19-fig
+    slides: media/gu-et-al-iccv-19-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 10323-10332
+    booktitle: >
+      Proceedings of the International Conference on Computer Vision (<b>ICCV'19</b>)
+    doc-url: https://openaccess.thecvf.com/content_ICCV_2019/html/Gu_Unpaired_Image_Captioning_via_Scene_Graph_Alignments_ICCV_2019_paper.html
+    abstract: >
+      Deep neural networks have achieved great success on the image captioning task. However, most of the existing models depend heavily on paired image-sentence datasets, which are very expensive to acquire in most real-world scenarios. In this paper, we propose a scene graph based approach for unpaired image captioning. Our method merely requires an image set, a sentence corpus, an image scene graph generator, and a sentence scene graph generator. The sentence corpus is used to teach the decoder how to generate meaningful sentences from a scene graph. To further encourage the generated captions to be semantically consistent with the image, we employ adversarial learning to align the visual scene graph to the textual scene graph. Experimental results show that our proposed model can generate quite promising results without using any image-caption training pairs, outperforming existing methods by a wide margin.
+    bibtex: >
+      @inproceedings{gu-et-al-iccv-19,
+       abstract = {Deep neural networks have achieved great success on the image captioning task. However, most of the existing models depend heavily on paired image-sentence datasets, which are very expensive to acquire in most real-world scenarios. In this paper, we propose a scene graph based approach for unpaired image captioning. Our method merely requires an image set, a sentence corpus, an image scene graph generator, and a sentence scene graph generator. The sentence corpus is used to teach the decoder how to generate meaningful sentences from a scene graph. To further encourage the generated captions to be semantically consistent with the image, we employ adversarial learning to align the visual scene graph to the textual scene graph. Experimental results show that our proposed model can generate quite promising results without using any image-caption training pairs, outperforming existing methods by a wide margin.},
+       address = {Seoul, Korea},
+       author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Handong Zhao and Xu Yang and Gang Wang},
+       booktitle = {Proceedings of the International Conference on Computer Vision},
+       link = {https://openaccess.thecvf.com/content_ICCV_2019/html/Gu_Unpaired_Image_Captioning_via_Scene_Graph_Alignments_ICCV_2019_paper.html},
+       pages = {10323-10332},
+       publisher = {IEEE},
+       series = {ICCV'19},
+       title = {Unpaired Image Captioning via Scene Graph Alignments},
+       year = {2019}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2019
+    selected: no
+    title: >
+      Watch It Twice: Video Captioning with a Refocused Video Encoder
+    authors: Xiangxi Shi, Jianfei Cai, Shafiq Joty, and Jiuxiang Gu
+    id: shi-et-al-acmmm-19
+    img: shi-et-al-acmmm-19-fig
+    slides: media/shi-et-al-acmmm-19-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 818–826
+    booktitle: >
+      Proceedings of the 27th ACM International Conference on Multimedia (<b>ACMMM'19</b>)
+    doc-url: https://dl.acm.org/doi/10.1145/3343031.3351060
+    abstract: >
+      With the rapid growth of video data and the increasing demands of various applications such as intelligent video search and assistance toward visually-impaired people, video captioning task has received a lot of attention recently in computer vision and natural language processing fields. The state-of-the-art video captioning methods focus more on encoding the temporal information, while lack of effective ways to remove irrelevant temporal information and also neglecting the spatial details. However, the current RNN encoding module in single time order can be influenced by the irrelevant temporal information, especially the irrelevant temporal information is at the beginning of the encoding. In addition, neglecting spatial information will lead to the relationship confusion of the words and detailed loss. Therefore, in this paper, we propose a novel recurrent video encoding method and a novel visual spatial feature for the video captioning task. The recurrent encoding module encodes the video twice with the predicted key frame to avoid the irrelevant temporal information often occurring at the beginning and the end of a video. The novel spatial features represent the spatial information in different regions of a video and enrich the details of a caption. Experiments on two benchmark datasets show superior performance of the proposed method.
+    bibtex: >
+      @inproceedings{shi-et-al-acmmm-19,
+       abstract = {With the rapid growth of video data and the increasing demands of various applications such as intelligent video search and assistance toward visually-impaired people, video captioning task has received a lot of attention recently in computer vision and natural language processing fields. The state-of-the-art video captioning methods focus more on encoding the temporal information, while lack of effective ways to remove irrelevant temporal information and also neglecting the spatial details. However, the current RNN encoding module in single time order can be influenced by the irrelevant temporal information, especially the irrelevant temporal information is at the beginning of the encoding. In addition, neglecting spatial information will lead to the relationship confusion of the words and detailed loss. Therefore, in this paper, we propose a novel recurrent video encoding method and a novel visual spatial feature for the video captioning task. The recurrent encoding module encodes the video twice with the predicted key frame to avoid the irrelevant temporal information often occurring at the beginning and the end of a video. The novel spatial features represent the spatial information in different regions of a video and enrich the details of a caption. Experiments on two benchmark datasets show superior performance of the proposed method.},
+       address = {Nice, France},
+       author = {Xiangxi Shi and Jianfei Cai and Shafiq Joty and Jiuxiang Gu},
+       booktitle = {Proceedings of the 27th ACM International Conference on Multimedia},
+       link = {https://dl.acm.org/doi/10.1145/3343031.3351060},
+       numpages = {10},
+       pages = {818–826},
+       publisher = {ACM},
+       series = {ACMMM'19},
+       title = {Watch It Twice: Video Captioning with a Refocused Video Encoder},
        year = {2019}
       }
       
@@ -5580,6 +5580,42 @@
        pages = {},
        series = {AAAI'22},
        title = {Unsupervised Cross-lingual Image Captioning},
+       year = {2022}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2022
+    selected: no
+    title: >
+      LANTERN: Boredom-conscious Natural Language Description Generation of Query Execution Plans for Database Education
+    authors: Peng Chen, Hui Li, Sourav Bhowmick, Shafiq Joty, and Weiguo Wang
+    id: chen-et-al-sigmod-22-demo
+    img: chen-et-al-sigmod-22-demo-fig
+    slides: media/chen-et-al-sigmod-22-demo-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: x - x
+    booktitle: >
+      Proceedings of 2022 ACM SIGMOD International Conference on Management of Data (Demo) (<b>SIGMOD'22 (Demo)</b>)
+    doc-url: papers/chen-et-al-sigmod-22-demo.pdf
+    abstract: >
+      The database systems course in an undergraduate computer science degree program is gaining increasing importance due to the con- tinuous supply of database-related jobs as well as the rise of Data Science. A key learning goal of learners taking such a course is to understand how sql queries are executed in an rdbms in practice. Existing rdbms typically expose a query execution plan (qep) in visual or textual format, which describes the execution steps for a given query. However, it is often daunting for a learner to compre- hend these qeps containing vendor-specific implementation details. In this demonstration, we present a novel, generic, and portable system called lantern that generates a natural language-based description of the execution strategy chosen by the underlying rdbms to process a query. It provides a declarative framework called pool for subject matter experts (sme) to efficiently create and ma- nipulate natural language descriptions of physical operators of any rdbms. It then exploits pool to generate nl description of a qep by integrating rule-based and deep learning-based techniques to infuse language variability in the descriptions. Such nl generation strategy mitigates the impact of boredom on learners caused by repeated exposure of similar text generated by rule-based systems.
+    bibtex: >
+      @inproceedings{chen-et-al-sigmod-22-demo,
+       abstract = {The database systems course in an undergraduate computer science degree program is gaining increasing importance due to the con- tinuous supply of database-related jobs as well as the rise of Data Science. A key learning goal of learners taking such a course is to understand how sql queries are executed in an rdbms in practice. Existing rdbms typically expose a query execution plan (qep) in visual or textual format, which describes the execution steps for a given query. However, it is often daunting for a learner to compre- hend these qeps containing vendor-specific implementation details. In this demonstration, we present a novel, generic, and portable system called lantern that generates a natural language-based description of the execution strategy chosen by the underlying rdbms to process a query. It provides a declarative framework called pool for subject matter experts (sme) to efficiently create and ma- nipulate natural language descriptions of physical operators of any rdbms. It then exploits pool to generate nl description of a qep by integrating rule-based and deep learning-based techniques to infuse language variability in the descriptions. Such nl generation strategy mitigates the impact of boredom on learners caused by repeated exposure of similar text generated by rule-based systems.},
+       address = {Philadelphia, PA, USA},
+       author = {Peng Chen and Hui Li  and Sourav Bhowmick and Shafiq Joty and Weiguo Wang},
+       booktitle = {Proceedings of 2022 ACM SIGMOD International Conference on Management of Data (Demo)},
+       link = {papers/chen-et-al-sigmod-22-demo.pdf},
+       month = {June},
+       pages = {x -- x},
+       publisher = {ACM},
+       series = {SIGMOD'22 (Demo)},
+       title = {LANTERN: Boredom-conscious Natural Language Description Generation of Query Execution Plans for Database Education},
        year = {2022}
       }
       

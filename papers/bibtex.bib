@@ -1676,19 +1676,6 @@ unlabeled data as compared to only using labeled data.}
 } 
 
 
-@inproceedings{lin-et-al-acl-19,
- author = {Xiang Lin* and Shafiq Joty* and Prathyusha Jwalapuram and Saiful Bari},
- title = {A Unified Linear-Time Framework for Sentence-Level Discourse Parsing},
-  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
-  series = {ACL'19},
-  year = {2019},
-  address = {Florence, Italy},
-  pages = {4190–4200},
-  numpages = {9},
-  publisher = {ACL},
-  url       = {https://www.aclweb.org/anthology/P19-1410/}, 
-  abstract = {We propose an efficient neural framework for sentence-level discourse analysis in accordance with Rhetorical Structure Theory (RST). Our framework comprises a discourse segmenter to identify the elementary discourse units (EDU) in a text, and a discourse parser that constructs a discourse tree in a top-down fashion. Both the segmenter and the parser are based on Pointer Networks and operate in linear time. Our segmenter yields an F1 score of 95.4, and our parser achieves an F1 score of 81.7 on the aggregated labeled (relation) metric, surpassing previous approaches by a good margin and approaching human agreement on both tasks (98.3 and 83.0 F1)},
-} 
 
 @inproceedings{moon-et-al-emnlp-19,
  author = {Han-Cheol Moon* and Tasnim Mohiuddin* and Shafiq Joty* and Chi Xu},
@@ -1734,7 +1721,46 @@ unlabeled data as compared to only using labeled data.}
   abstract = {Monitoring patients in ICU is a challenging and high-cost task. Hence, predicting the condition of patients during their ICU stay can help provide better acute care and plan the hospital's resources. There has been continuous progress in machine learning research for ICU management, and most of this work has focused on using time series signals recorded by ICU instruments. In our work, we show that adding clinical notes as another modality improves the performance of the model for three benchmark tasks: in-hospital mortality prediction, modeling decompensation, and length of stay forecasting that play an important role in ICU management. While the time-series data is measured at regular intervals, doctor notes are charted at irregular times, making it challenging to model them together. We propose a method to model them jointly, achieving considerable improvement across benchmark tasks over baseline time-series model.},
 } 
 
+@inproceedings{lin-et-al-acl-19,
+ author = {Xiang Lin* and Shafiq Joty* and Prathyusha Jwalapuram and Saiful Bari},
+ title = {A Unified Linear-Time Framework for Sentence-Level Discourse Parsing},
+  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
+  series = {ACL'19},
+  year = {2019},
+  address = {Florence, Italy},
+  pages = {4190–4200},
+  numpages = {9},
+  publisher = {ACL},
+  url       = {https://www.aclweb.org/anthology/P19-1410/}, 
+  abstract = {We propose an efficient neural framework for sentence-level discourse analysis in accordance with Rhetorical Structure Theory (RST). Our framework comprises a discourse segmenter to identify the elementary discourse units (EDU) in a text, and a discourse parser that constructs a discourse tree in a top-down fashion. Both the segmenter and the parser are based on Pointer Networks and operate in linear time. Our segmenter yields an F1 score of 95.4, and our parser achieves an F1 score of 81.7 on the aggregated labeled (relation) metric, surpassing previous approaches by a good margin and approaching human agreement on both tasks (98.3 and 83.0 F1)},
+} 
 
+@inproceedings{jing-et-al-acl-19,
+ author = {Jing Ma and Wei Gao and Shafiq Joty and Kam-Fai Wong},
+ title = {Sentence-Level Evidence Embedding for End-to-End Claim Verification with Hierarchical Attention Networks},
+  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
+  series = {ACL'19},
+  year = {2019},
+  address = {Florence, Italy},
+  pages = {2561–2571},
+  numpages = {9},
+  publisher = {ACL},
+  url       = {https://www.aclweb.org/anthology/P19-1244/}, 
+  abstract = {Claim verification is generally a task of verifying the veracity of a given claim, which is critical to many downstream applications. It is cumbersome and inefficient for human fact-checkers to find consistent evidences, from which solid verdict could be inferred against the claim. In this paper, we propose a novel end-to-end hierarchical attention network focusing on learning to represent coherent evidences as well as their semantic relatedness with the claim. Our model consists of three main components: 1) A coherence-based attention layer embeds coherent evidences considering the claim and sentences from relevant articles; 2) An entailment-based attention layer attends on sentences that can semantically infer the claim on top of the first attention; and 3) An output layer predicts the verdict based on the the embedded evidences. 
+Experimental results on three public benchmark datasets show that our proposed model outperforms a set of state-of-the-art baselines.},
+} 
+
+@inproceedings{joty-et-al-acl-19,
+  author    = {Shafiq Joty* and Giuseppe Carenini* and Raymond Ng and Gabriel Murray},
+  title     = {Discourse Processing and Its Applications},
+  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts},
+  address   = {Florence, Italy},
+  series = {ACL'19},
+  pages     = {1--6},
+  year      = {2019},
+  url       = {papers/joty-et-al-acl-19.pdf},
+  abstract  = {Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many downstream applications. This involves identifying the topic structure, the coherence structure, the coreference structure, and the conversation structure for conversational discourse. Taken together, these structures can inform text summarization, machine translation, essay scoring, sentiment analysis,  information extraction, question answering, and thread recovery. The tutorial starts with an overview of basic concepts in discourse analysis -- monologue vs. conversation, synchronous vs. asynchronous conversation, and key linguistic structures in discourse analysis. We also give an overview of linguistic structures and corresponding discourse analysis tasks that discourse researchers are generally interested in, as well as key applications on which these discourse structures have an impact.}
+}
 
 @inproceedings{gu-et-al-iccv-19,
   title={Unpaired Image Captioning via Scene Graph Alignments},
@@ -1765,32 +1791,6 @@ unlabeled data as compared to only using labeled data.}
 } 
 
 
-@inproceedings{jing-et-al-acl-19,
- author = {Jing Ma and Wei Gao and Shafiq Joty and Kam-Fai Wong},
- title = {Sentence-Level Evidence Embedding for End-to-End Claim Verification with Hierarchical Attention Networks},
-  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
-  series = {ACL'19},
-  year = {2019},
-  address = {Florence, Italy},
-  pages = {2561–2571},
-  numpages = {9},
-  publisher = {ACL},
-  url       = {https://www.aclweb.org/anthology/P19-1244/}, 
-  abstract = {Claim verification is generally a task of verifying the veracity of a given claim, which is critical to many downstream applications. It is cumbersome and inefficient for human fact-checkers to find consistent evidences, from which solid verdict could be inferred against the claim. In this paper, we propose a novel end-to-end hierarchical attention network focusing on learning to represent coherent evidences as well as their semantic relatedness with the claim. Our model consists of three main components: 1) A coherence-based attention layer embeds coherent evidences considering the claim and sentences from relevant articles; 2) An entailment-based attention layer attends on sentences that can semantically infer the claim on top of the first attention; and 3) An output layer predicts the verdict based on the the embedded evidences. 
-Experimental results on three public benchmark datasets show that our proposed model outperforms a set of state-of-the-art baselines.},
-} 
-
-@inproceedings{joty-et-al-acl-19,
-  author    = {Shafiq Joty* and Giuseppe Carenini* and Raymond Ng and Gabriel Murray},
-  title     = {Discourse Processing and Its Applications},
-  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts},
-  address   = {Florence, Italy},
-  series = {ACL'19},
-  pages     = {1--6},
-  year      = {2019},
-  url       = {papers/joty-et-al-acl-19.pdf},
-  abstract  = {Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many downstream applications. This involves identifying the topic structure, the coherence structure, the coreference structure, and the conversation structure for conversational discourse. Taken together, these structures can inform text summarization, machine translation, essay scoring, sentiment analysis,  information extraction, question answering, and thread recovery. The tutorial starts with an overview of basic concepts in discourse analysis -- monologue vs. conversation, synchronous vs. asynchronous conversation, and key linguistic structures in discourse analysis. We also give an overview of linguistic structures and corresponding discourse analysis tasks that discourse researchers are generally interested in, as well as key applications on which these discourse structures have an impact.}
-}
 
 
 @inproceedings{mohiuddin-joty-naacl-19,
@@ -2755,4 +2755,19 @@ handle explicit discrete reasoning over noisy programs in an end-to-end manner.
   abstract={Research in image captioning has mostly focused on English because of the availability of image-caption paired datasets in this language. However, building vision-language systems only for English deprives a large part of the world population of AI technologies' benefit. On the other hand, creating image-caption paired datasets for every target language is expensive. In this work, we present a novel unsupervised cross-lingual method to generate image captions in a target language without using any image-caption corpus in the source or target languages. Our method relies on (i) a cross-lingual scene graph to sentence translation process, which learns to decode sentences in the target language from a cross-lingual encoding space of scene graphs using a sentence parallel (bitext) corpus, and (ii) an unsupervised cross-modal feature mapping which seeks to map an encoded scene graph features from image modality to language modality. We verify the effectiveness of our proposed method on the Chinese image caption generation task. The comparisons against several existing methods demonstrate the effectiveness of our approach.
 }
 }
+
+@InProceedings{chen-et-al-sigmod-22-demo,
+  author    = {Peng Chen and Hui Li  and Sourav Bhowmick and Shafiq Joty and Weiguo Wang},
+  title     = {LANTERN: Boredom-conscious Natural Language Description Generation of Query Execution Plans for Database Education},
+  booktitle = {Proceedings of 2022 ACM SIGMOD International Conference on Management of Data (Demo)},
+  month     = {June},
+  year      = {2022},
+  series    = {SIGMOD'22 (Demo)},
+  publisher = {ACM},
+  address   = {Philadelphia, PA, USA}, 
+  pages     = {x -- x},
+  url       = {papers/chen-et-al-sigmod-22-demo.pdf},
+  abstract = {The database systems course in an undergraduate computer science degree program is gaining increasing importance due to the con- tinuous supply of database-related jobs as well as the rise of Data Science. A key learning goal of learners taking such a course is to understand how sql queries are executed in an rdbms in practice. Existing rdbms typically expose a query execution plan (qep) in visual or textual format, which describes the execution steps for a given query. However, it is often daunting for a learner to compre- hend these qeps containing vendor-specific implementation details. In this demonstration, we present a novel, generic, and portable system called lantern that generates a natural language-based description of the execution strategy chosen by the underlying rdbms to process a query. It provides a declarative framework called pool for subject matter experts (sme) to efficiently create and ma- nipulate natural language descriptions of physical operators of any rdbms. It then exploits pool to generate nl description of a qep by integrating rule-based and deep learning-based techniques to infuse language variability in the descriptions. Such nl generation strategy mitigates the impact of boredom on learners caused by repeated exposure of similar text generated by rule-based systems.}
+}
+
 
