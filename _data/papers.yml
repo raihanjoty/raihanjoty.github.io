@@ -5497,7 +5497,7 @@
     selected: no
     title: >
       SummaReranker: A Multi-Task Mixture-of-Experts Re-Ranking Framework for Abstractive Summarization
-    authors: Mathieu Ravaut, Nancy F., and Shafiq Joty
+    authors: Mathieu Ravaut, Nancy Chen, and Shafiq Joty
     id: Ravaut-acl-22
     img: Ravaut-acl-22-fig
     slides: media/Ravaut-acl-22-slides.pdf
@@ -5513,7 +5513,7 @@
       @inproceedings{Ravaut-acl-22,
        abstract = {Sequence-to-sequence neural networks have recently achieved great success in abstractive summarization, especially with the trend of fine-tuning large pre-trained language models on the downstream dataset. These models are typically decoded with beam search to generate a unique summary. However, the search space is very large, and due to exposure bias, such decoding is not optimal. In this paper, we show that it is possible to directly train a second-stage model performing re-ranking on a set of summary candidates. Our mixture-of-experts SummaReranker learns to select a better candidate and systematically improves the performance of the base model. With a base PEGASUS, we push ROUGE scores by 5.44% on CNN-DailyMail (47.16 ROUGE-1), 1.31% on XSum (48.12 ROUGE-1) and 9.34% on Reddit TIFU (29.83 ROUGE-1), reaching a new state-of-the-art.},
        address = {Online},
-       author = {Mathieu Ravaut and Nancy F. Chen and Shafiq Joty},
+       author = {Mathieu Ravaut and Nancy Chen and Shafiq Joty},
        booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
        publisher = {ACL},
        series = {ACL'22},
