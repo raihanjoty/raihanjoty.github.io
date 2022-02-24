@@ -2676,6 +2676,73 @@ the synthetic tasks and the downstream applications, motivating alternate traini
 %% 2022
 
 
+@InProceedings{Jwala-acl-22,
+  author = {Prathyusha Jwalapuram and Shafiq Joty and Xiang Lin},
+  title     = {Rethinking Self-Supervision Objectives for Generalizable Coherence Modeling},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2022},
+  series    = {ACL'22},
+  publisher = {ACL},
+  address   = {Online}, 
+  abstract = {Given the claims of improved text generation quality across various pre-trained neural models, we consider the coherence evaluation of machine generated text to be one of the principal applications of coherence models that needs to be investigated. Prior work in neural coherence modeling has primarily focused on devising new architectures for solving the permuted document task. We instead use a basic model architecture and show significant improvements over state of the art within the same training regime. We then design a harder self-supervision objective by increasing the ratio of negative samples within a contrastive learning setup, and  enhance the model further through automatic hard negative mining coupled with a large global negative queue encoded by a momentum encoder. We show empirically that increasing the density of negative samples improves the basic model, and using a global negative queue further improves and stabilizes the model while training with hard negative samples. We evaluate the coherence model on task-independent test sets that resemble real-world applications and show significant improvements in coherence evaluations of downstream tasks.}
+}
+
+@InProceedings{Chengwei-acl-22,
+  author = {Chengwei Qin and Shafiq Joty},
+  title     = {Continual Few-shot Relation Learning via Embedding Space Regularization and Data Augmentation},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2022},
+  series    = {ACL'22},
+  publisher = {ACL},
+  address   = {Online}, 
+  abstract = {Existing continual relation learning (CRL) methods rely on plenty of labeled training data for learning a new task, which can be hard to acquire in real scenario as getting large and representative labeled data is often expensive and time-consuming. It is therefore necessary for the model to learn novel relational patterns with very few labeled data while avoiding catastrophic forgetting of previous task knowledge. In this paper, we formulate this challenging yet practical problem as continual few-shot relation learning (CFRL). Based on the finding that learning for new emerging few-shot tasks often results in feature distributions that are incompatible with previous tasks' learned distributions, we propose a novel method based on embedding space regularization and data augmentation. Our method generalizes to new few-shot tasks and avoids catastrophic forgetting of previous tasks by enforcing extra constraints on the relational embeddings and by adding extra {relevant} data in a self-supervised manner. With extensive experiments we demonstrate that our method can significantly outperform previous state-of-the-art methods in CFRL task settings.}
+}
+
+
+@InProceedings{Ravaut-acl-22,
+  author = {Mathieu Ravaut and Nancy F. Chen and Shafiq Joty},
+  title     = {SummaReranker: A Multi-Task Mixture-of-Experts Re-Ranking Framework for Abstractive Summarization},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2022},
+  series    = {ACL'22},
+  publisher = {ACL},
+  address   = {Online}, 
+  abstract = {Sequence-to-sequence neural networks have recently achieved great success in abstractive summarization, especially with the trend of fine-tuning large pre-trained language models on the downstream dataset. These models are typically decoded with beam search to generate a unique summary. However, the search space is very large, and due to exposure bias, such decoding is not optimal. In this paper, we show that it is possible to directly train a second-stage model performing re-ranking on a set of summary candidates. Our mixture-of-experts SummaReranker learns to select a better candidate and systematically improves the performance of the base model. With a base PEGASUS, we push ROUGE scores by 5.44% on CNN-DailyMail (47.16 ROUGE-1), 1.31% on XSum (48.12 ROUGE-1) and 9.34% on Reddit TIFU (29.83 ROUGE-1), reaching a new state-of-the-art.}
+}
+
+@InProceedings{Shankar-acl-22,
+  author = {Shankar Kantharaj and Rixie Leong and Xiang Lin and Ahmed Masry and Megh Thakkar and Enamul Hoque and Shafiq Joty},
+  title     = {Chart-to-Text: A Large-Scale Benchmark for Chart Summarization},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2022},
+  series    = {ACL'22},
+  publisher = {ACL},
+  address   = {Online}, 
+  abstract = {Charts are commonly used for exploring data and communicating insights. Generating natural language summaries from charts can be very helpful for people in inferring key insights that would otherwise require a lot of cognitive and perceptual efforts. We present Chart-to-text, a large-scale benchmark with two datasets and a total of 44,096 charts covering a wide range of topics and chart types. We explain the dataset construction process and analyze the datasets. We also introduce a number of state-of-the-art neural models as baselines that utilize image captioning and data-to-text generation techniques to tackle two problem variations: one assumes the underlying data table of the chart is available while the other needs to extract data from chart images. Our analysis with automatic and human evaluation shows that while our best models usually generate fluent summaries and yield reasonable BLEU scores, they also suffer from  hallucinations and factual errors as well as difficulties in correctly explaining complex patterns and trends in charts.}
+}
+
+  
+@InProceedings{Ahmed-acl-22,
+  author = {Ahmed Masry and Do Xuan Long and Jia Qing Tan and Shafiq Joty and Enamul Hoque},
+  title     = {ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2022},
+  series    = {ACL'22},
+  publisher = {ACL},
+  address   = {Online}, 
+  abstract = {Charts are very popular for analyzing data. When exploring charts, people often ask a variety of complex reasoning questions that involve several logical and arithmetic operations. They also commonly refer to visual features of a chart in their questions. However, most existing datasets do not focus on such complex reasoning questions as their questions are template-based and answers come from a fixed-vocabulary. In this work, we present a large-scale benchmark covering 9.6K human-written questions as well as 23.1K questions generated from human-written chart summaries. To address the unique challenges in our benchmark involving visual and logical reasoning over charts, we present two transformer-based models that combine visual features and the data table of the chart in a unified way to answer questions. While our models achieve the state-of-the-art results on the previous datasets as well as on our benchmark, the evaluation also reveals several challenges in answering complex reasoning questions.}
+}
+
+@InProceedings{Bosheng-acl-22,
+  author = {Bosheng Ding and Junjie Hu and Lidong Bing and Mahani Aljunied and Shafiq Joty and Luo Si and Chunyan Miao},
+  title     = {GlobalWoZ: Globalizing MultiWoZ to Develop Multilingual Task-Oriented Dialogue Systems},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2022},
+  series    = {ACL'22},
+  publisher = {ACL},
+  address   = {Online}, 
+  abstract = {Over the last few years, there has been a move towards data curation for multilingual task-oriented dialogue (ToD) systems that can serve people speaking different languages. However, existing multilingual ToD datasets either have a limited coverage of languages due to the high cost of data curation, or ignore the fact that dialogue entities barely exist in countries speaking these languages. To tackle these limitations, we introduce a novel data curation method that generates GlobalWoZ --- a large-scale multilingual ToD dataset globalized from an English ToD dataset for three unexplored use cases of  multilingual ToD systems. Our method is based on translating dialogue templates and filling them with local entities in the target-language countries. Besides, we extend the coverage of target languages to 20 languages. We will release our dataset and a set of strong baselines to encourage research on multilingual ToD systems for real use cases.}
+}
 
 
 @InProceedings{Chengwei-et-al-arxiv-22,
