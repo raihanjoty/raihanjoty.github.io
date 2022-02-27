@@ -5560,38 +5560,6 @@
     year: 2022
     selected: no
     title: >
-      ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning
-    authors: Ahmed Masry, Do Xuan, Jia Qing, Shafiq Joty, and Enamul Hoque
-    id: Ahmed-acl-22
-    img: Ahmed-acl-22-fig
-    slides: media/Ahmed-acl-22-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    booktitle: >
-      Findings of the 59th Annual Meeting of the Association for Computational Linguistics (<b>ACL'22 Findings</b>)
-    doc-url: papers/Ahmed-acl-22.pdf
-    abstract: >
-      Charts are very popular for analyzing data. When exploring charts, people often ask a variety of complex reasoning questions that involve several logical and arithmetic operations. They also commonly refer to visual features of a chart in their questions. However, most existing datasets do not focus on such complex reasoning questions as their questions are template-based and answers come from a fixed-vocabulary. In this work, we present a large-scale benchmark covering 9.6K human-written questions as well as 23.1K questions generated from human-written chart summaries. To address the unique challenges in our benchmark involving visual and logical reasoning over charts, we present two transformer-based models that combine visual features and the data table of the chart in a unified way to answer questions. While our models achieve the state-of-the-art results on the previous datasets as well as on our benchmark, the evaluation also reveals several challenges in answering complex reasoning questions.
-    bibtex: >
-      @inproceedings{Ahmed-acl-22,
-       abstract = {Charts are very popular for analyzing data. When exploring charts, people often ask a variety of complex reasoning questions that involve several logical and arithmetic operations. They also commonly refer to visual features of a chart in their questions. However, most existing datasets do not focus on such complex reasoning questions as their questions are template-based and answers come from a fixed-vocabulary. In this work, we present a large-scale benchmark covering 9.6K human-written questions as well as 23.1K questions generated from human-written chart summaries. To address the unique challenges in our benchmark involving visual and logical reasoning over charts, we present two transformer-based models that combine visual features and the data table of the chart in a unified way to answer questions. While our models achieve the state-of-the-art results on the previous datasets as well as on our benchmark, the evaluation also reveals several challenges in answering complex reasoning questions.},
-       address = {Online},
-       author = {Ahmed Masry and Do Xuan Long and Jia Qing Tan and Shafiq Joty and Enamul Hoque},
-       booktitle = {Findings of the 59th Annual Meeting of the Association for Computational Linguistics},
-       publisher = {ACL},
-       series = {ACL'22 Findings},
-       title = {ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning},
-       year = {2022}
-      }
-      
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2022
-    selected: no
-    title: >
       GlobalWoZ: Globalizing MultiWoZ to Develop Multilingual Task-Oriented Dialogue Systems
     authors: Bosheng Ding, Junjie Hu, Lidong Bing, Mahani Aljunied, Shafiq Joty, Luo Si, and Chunyan Miao
     id: Bosheng-acl-22
@@ -5614,6 +5582,38 @@
        publisher = {ACL},
        series = {ACL'22},
        title = {GlobalWoZ: Globalizing MultiWoZ to Develop Multilingual Task-Oriented Dialogue Systems},
+       year = {2022}
+      }
+      
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2022
+    selected: no
+    title: >
+      ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning
+    authors: Ahmed Masry, Do Xuan, Jia Qing, Shafiq Joty, and Enamul Hoque
+    id: Ahmed-acl-22
+    img: Ahmed-acl-22-fig
+    slides: media/Ahmed-acl-22-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Findings of the 59th Annual Meeting of the Association for Computational Linguistics (<b>ACL'22 Findings</b>)
+    doc-url: papers/Ahmed-acl-22.pdf
+    abstract: >
+      Charts are very popular for analyzing data. When exploring charts, people often ask a variety of complex reasoning questions that involve several logical and arithmetic operations. They also commonly refer to visual features of a chart in their questions. However, most existing datasets do not focus on such complex reasoning questions as their questions are template-based and answers come from a fixed-vocabulary. In this work, we present a large-scale benchmark covering 9.6K human-written questions as well as 23.1K questions generated from human-written chart summaries. To address the unique challenges in our benchmark involving visual and logical reasoning over charts, we present two transformer-based models that combine visual features and the data table of the chart in a unified way to answer questions. While our models achieve the state-of-the-art results on the previous datasets as well as on our benchmark, the evaluation also reveals several challenges in answering complex reasoning questions.
+    bibtex: >
+      @inproceedings{Ahmed-acl-22,
+       abstract = {Charts are very popular for analyzing data. When exploring charts, people often ask a variety of complex reasoning questions that involve several logical and arithmetic operations. They also commonly refer to visual features of a chart in their questions. However, most existing datasets do not focus on such complex reasoning questions as their questions are template-based and answers come from a fixed-vocabulary. In this work, we present a large-scale benchmark covering 9.6K human-written questions as well as 23.1K questions generated from human-written chart summaries. To address the unique challenges in our benchmark involving visual and logical reasoning over charts, we present two transformer-based models that combine visual features and the data table of the chart in a unified way to answer questions. While our models achieve the state-of-the-art results on the previous datasets as well as on our benchmark, the evaluation also reveals several challenges in answering complex reasoning questions.},
+       address = {Online},
+       author = {Ahmed Masry and Do Xuan Long and Jia Qing Tan and Shafiq Joty and Enamul Hoque},
+       booktitle = {Findings of the 59th Annual Meeting of the Association for Computational Linguistics},
+       publisher = {ACL},
+       series = {ACL'22 Findings},
+       title = {ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning},
        year = {2022}
       }
       
