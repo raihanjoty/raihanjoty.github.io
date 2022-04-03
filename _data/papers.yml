@@ -5817,3 +5817,33 @@
       }
       
       
+  -
+    layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2022
+    selected: yes
+    title: >
+      PIANO: Influence Maximization Meets Deep Reinforcement Learning
+    authors: Hui Li, Mengting Xu, Sourav Bhowmick, Shafiq Joty, Changsheng Sun, and Jiangtao Cui
+    id: li-et-al-piano-ieee-2022
+    img: li-et-al-piano-ieee-2022-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    journal: IEEE Transactions on Computational Social Systems (IEEE TCSS)
+    doc-url: papers/li-et-al-piano-ieee-2022.pdf
+    abstract: >
+      Since its introduction in 2003, the influence maximization (IM) problem has drawn significant research attention in the literature. The aim of IM, which is NP-hard, is to select a set of k users known as seed users who can influence the most individuals in the social network. The state-of-the-art algorithms estimate the expected influence of nodes based on sampled diffusion paths. As the number of required samples have been recently proven to be lower bounded by a particular threshold that presets tradeoff between the accuracy and efficiency, the result quality of these traditional solutions is hard to be further improved without sacrificing efficiency. In this paper, we present an orthogonal and novel paradigm to address the IM problem by leveraging deep reinforcement learning to estimate the expected influence. Specifically, we present a novel framework called PIANO that incorporates network embedding and reinforcement learning techniques to address this problem. In order to make it practical, we further present PIANO-E and PIANO@⟨d⟩, both of which can be applied directly to answer IM without training the model from scratch. Experimental study on real-world networks demonstrates that PIANO achieves the best performance w.r.t efficiency and influence spread quality compared to state-of-the- art classical solutions. We also demonstrate that the learned parametric models generalize well across different networks. Besides, we provide a pool of pretrained PIANO models such that any IM task can be addressed by directly applying a model from the pool without training over the targeted network.
+    bibtex: >
+      @article{li-et-al-piano-ieee-2022,
+       abstract = {Since its introduction in 2003, the influence maximization (IM) problem has drawn significant research attention in the literature. The aim of IM, which is NP-hard, is to select a set of k users known as seed users who can influence the most individuals in the social network. The state-of-the-art algorithms estimate the expected influence of nodes based on sampled diffusion paths. As the number of required samples have been recently proven to be lower bounded by a particular threshold that presets tradeoff between the accuracy and efficiency, the result quality of these traditional solutions is hard to be further improved without sacrificing efficiency. In this paper, we present an orthogonal and novel paradigm to address the IM problem by leveraging deep reinforcement learning to estimate the expected influence. Specifically, we present a novel framework called PIANO that incorporates network embedding and reinforcement learning techniques to address this problem. In order to make it practical, we further present PIANO-E and PIANO@⟨d⟩, both of which can be applied directly to answer IM without training the model from scratch. Experimental study on real-world networks demonstrates that PIANO achieves the best performance w.r.t efficiency and influence spread quality compared to state-of-the- art classical solutions. We also demonstrate that the learned parametric models generalize well across different networks. Besides, we provide a pool of pretrained PIANO models such that any IM task can be addressed by directly applying a model from the pool without training over the targeted network.},
+       author = {Hui Li and Mengting Xu and Sourav Bhowmick and Shafiq Joty and Changsheng Sun and Jiangtao Cui},
+       journal = {IEEE Transactions on Computational Social Systems (IEEE TCSS)},
+       link = {papers/li-et-al-piano-ieee-2022.pdf},
+       publisher = {IEEE CS Press},
+       title = {PIANO: Influence Maximization Meets Deep Reinforcement Learning},
+       year = {2022}
+      }
+      
+      
