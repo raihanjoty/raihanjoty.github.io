@@ -5441,7 +5441,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<b>KDD'22</b>)
+      28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<b>SIGKDD'22</b>)
     doc-url: 
     abstract: >
       We present GradMask, a simple adversarial example detection scheme for natural language processing (NLP) models. It uses gradient signals to detect adversarially perturbed tokens in an input sequence and occludes such tokens by a masking process. GradMask provides several advantages over existing methods including improved detection performance and an interpretation of its decision with a only moderate computational cost. Its approximated inference cost is no more than a single forward- and back-propagation through the target model without requiring any additional detection module. Extensive evaluation on widely adopted NLP benchmark datasets demonstrate the efficiency and effectiveness of GradMask.
@@ -5453,7 +5453,7 @@
        booktitle = {28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
        link = {},
        publisher = {ACM},
-       series = {KDD'22},
+       series = {SIGKDD'22},
        title = {GradMask: Gradient-Guided Token Masking for Textual Adversarial Example Detection},
        year = {2022}
       }
