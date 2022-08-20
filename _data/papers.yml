@@ -5720,6 +5720,51 @@
     year: 2022
     selected: no
     title: >
+      Weakly Supervised Neuro-Symbolic Module Networks for Numerical Reasoning
+    authors: Amrita Saha, Shafiq Joty, and Steven Hoi
+    id: Saha2-aaai-2022
+    img: Saha2-aaai-2022-fig
+    slides: media/Saha2-aaai-2022-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 
+    booktitle: >
+      Thirty-Sixth AAAI Conference on Artificial Intelligence (<b>AAAI'22</b>)
+    doc-url: https://arxiv.org/pdf/2101.11802.pdf
+    abstract: >
+      Neural Module Networks (NMNs) have been quite successful in incorporating explicit reasoning as learnable modules in various question answering tasks, including the most generic form of numerical reasoning over text in Machine Reading Comprehension (MRC). However, to achieve this, contemporary NMNs need strong supervision in executing the query as a specialized program over reasoning modules and fail to generalize to more open-ended settings without such supervision. Hence we propose Weakly-Supervised Neuro-Symbolic Module Network (WNSMN) trained with answers as the sole supervision for numerical reasoning based MRC. It learns to execute a noisy heuristic program obtained from the dependency parsing of the query, as discrete actions over both neural and symbolic reasoning modules and trains it end-to-end in a reinforcement learning framework with discrete reward from answer matching. On the numerical-answer subset of DROP, WNSMN outperforms NMN by 32% and the reasoning-free language model GenBERT by 8% in exact match accuracy when trained under comparable weak supervised settings. This showcases the effectiveness and generalizability of modular networks that can handle explicit discrete reasoning over noisy programs in an end-to-end manner.
+    bibtex: >
+      @inproceedings{Saha2-aaai-2022,
+       abstract = {Neural Module Networks (NMNs) have been quite successful in incorporating explicit reasoning as learnable modules in various question answering tasks, including
+      the most generic form of numerical reasoning over text in Machine Reading Comprehension (MRC). However, to achieve this, contemporary NMNs need strong
+      supervision in executing the query as a specialized program over reasoning modules
+      and fail to generalize to more open-ended settings without such supervision. Hence
+      we propose Weakly-Supervised Neuro-Symbolic Module Network (WNSMN)
+      trained with answers as the sole supervision for numerical reasoning based MRC. It
+      learns to execute a noisy heuristic program obtained from the dependency parsing
+      of the query, as discrete actions over both neural and symbolic reasoning modules
+      and trains it end-to-end in a reinforcement learning framework with discrete reward
+      from answer matching. On the numerical-answer subset of DROP, WNSMN outperforms NMN by 32% and the reasoning-free language model GenBERT by 8%
+      in exact match accuracy when trained under comparable weak supervised settings.
+      This showcases the effectiveness and generalizability of modular networks that can
+      handle explicit discrete reasoning over noisy programs in an end-to-end manner.},
+       address = {Vancouver, Canada},
+       author = {Amrita Saha and Shafiq Joty and Steven Hoi},
+       booktitle = {Thirty-Sixth AAAI Conference on Artificial Intelligence},
+       pages = {},
+       series = {AAAI'22},
+       title = {{Weakly Supervised Neuro-Symbolic Module Networks for Numerical Reasoning}},
+       url = {https://arxiv.org/pdf/2101.11802.pdf},
+       year = {2022}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2022
+    selected: no
+    title: >
       Unsupervised Cross-lingual Image Captioning
     authors: Jiahui Gao, Yi Zhou, Philip Yu, Shafiq Joty, and Jiuxiang Gu
     id: Gao-aaai-2022
