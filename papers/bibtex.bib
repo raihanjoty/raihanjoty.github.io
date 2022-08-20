@@ -2845,6 +2845,20 @@ handle explicit discrete reasoning over noisy programs in an end-to-end manner.
   abstract  = {Conversational question generation (CQG) serves as a vital task for machines to assist humans, such as interactive reading comprehension, through conversations. Compared to traditional single-turn question generation (SQG), CQG is more challenging in the sense that the generated question is required not only to be meaningful, but also to align with the provided conversation. Previous studies mainly focus on how to model the flow and alignment of the conversation, but do not thoroughly study which parts of the context and history are necessary for the model. We believe that shortening the context and history is crucial as it can help the model to optimise more on the conversational alignment property. To this end, we propose CoHS-CQG, a two-stage CQG framework, which adopts a novel CoHS module to shorten the context and history of the input. In particular, it selects the top-p sentences and history turns by calculating the relevance scores of them. Our model achieves state-of-the-art performances on CoQA in both the answer-aware and answer-unaware settings.}
 }
 
+@inproceedings{linlin-coling-22,
+  author    = {Linlin Liu and Thien Hai Nguyen and Shafiq Joty and Lidong Bing and Luo Si
+              },
+  title     = {Towards Multi-Sense Cross-Lingual Alignment of Contextual Embeddings},
+  booktitle = {Proceedings of the 29th International Conference on Computational Linguistics},
+  month     = {October}, 
+  address   = {Gyeongju, Republic of Korea},
+  series = {COLING'22},
+  pages     = {xx--xx},
+  year      = {2022},
+  url       = {},
+  abstract  = {Cross-lingual word embeddings (CLWE) have been proven useful in many cross-lingual tasks. However, most existing approaches to learn CLWE including the ones with contextual embeddings are sense agnostic. In this work, we propose a novel framework to align contextual embeddings at the sense level by leveraging cross-lingual signal from bilingual dictionaries only. We operationalize our framework by first proposing a novel sense-aware cross entropy loss to model word senses explicitly. The monolingual ELMo and BERT models pretrained with our sense-aware cross entropy loss demonstrate significant performance improvement for word sense disambiguation tasks. We then propose a sense alignment objective on top of the sense-aware cross entropy loss for cross-lingual model pretraining, and pretrain cross-lingual models for several language pairs (English to German/Spanish/Japanese/Chinese). Compared with the best baseline results, our cross-lingual models achieve 0.52\%, 2.09\% and 1.29\% average performance improvements on zero-shot cross-lingual NER, sentiment classification and XNLI tasks, respectively. We will release our code.}
+}
+
 
 @InProceedings{Gao-aaai-2022,
   title="{Unsupervised Cross-lingual Image Captioning}",
