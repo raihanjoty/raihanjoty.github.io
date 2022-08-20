@@ -13,9 +13,12 @@
 # python parsebib.py bibtex.bib
 
 import sys
+#from builtins import reload
+import importlib
 #print(sys.version)
-reload(sys)
-sys.setdefaultencoding('utf8')
+#reload(sys)
+importlib.reload(sys)
+#sys.setdefaultencoding('utf8')
 import bibtexparser
 from bibtexparser.bwriter import BibTexWriter
 
@@ -74,8 +77,8 @@ def parse(bibfile):
 
 		for entry in bib_database.entries:
 
-#			print entry
-#			raw_input(' ')
+			#print entry
+			#raw_input(' ')
 
 			authors=parseauthors(preprocess(entry["author"])) #.encode('UTF8')
 

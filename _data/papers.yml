@@ -24,14 +24,13 @@
        address = {Rochester, USA},
        author = {Yllias Chali* and Shafiq Joty*},
        booktitle = {Proceedings of the Document Understanding Conference},
-       link = {papers/chali-joty-duc-07},
        pages = {xx-xx},
        publisher = {NIST},
        series = {DUC'07},
-       title = {University of Lethbridge's participation in DUC-2007 main task},
+       title = {{University of Lethbridge's participation in DUC-2007 main task}},
+       url = {papers/chali-joty-duc-07},
        year = {2007}
       }
-      
       
   -
     layout: paper
@@ -56,14 +55,13 @@
        address = {Gaithersburg, USA},
        author = {Yllias Chali* and Shafiq Joty*},
        booktitle = {Proceedings of the sixteenth Text Retrieval Conference},
-       link = {papers/chali-joty-trec-07},
        pages = {xx-xx},
        publisher = {NIST},
        series = {TREC'07},
-       title = {University of Lethbridge's Participation in TREC-2007 QA Track},
+       title = {{University of Lethbridge's Participation in TREC-2007 QA Track}},
+       url = {papers/chali-joty-trec-07},
        year = {2007}
       }
-      
       
   -
     layout: paper
@@ -91,14 +89,13 @@
        address = {Prague, Check Republic},
        author = {Yllias Chali* and Shafiq Joty*},
        booktitle = {Proceedings of the 4th International Workshop on Semantic Evaluations},
-       link = {papers/chali-joty-semeval-07},
        pages = {476--479},
        publisher = {ACL},
        series = {SemEval'07},
-       title = {Word Sense Disambiguation Using Lexical Cohesion},
+       title = {{Word Sense Disambiguation Using Lexical Cohesion}},
+       url = {papers/chali-joty-semeval-07},
        year = {2007}
       }
-      
       
   -
     layout: paper
@@ -127,14 +124,13 @@
        author = {Yllias Chali* and Shafiq Joty*},
        booktitle = {20th IEEE International Conference on Tools with Artificial Intelligence},
        doi = {10.1109/ICTAI.2008.26},
-       link = {http://ieeexplore.ieee.org/document/4669764/},
        pages = {123-130},
        publisher = {IEEE},
        series = {ICTAI'08},
        title = {Exploiting Syntactic and Shallow Semantic Kernels to Improve Random Walks for Complex Question Answering},
+       url = {http://ieeexplore.ieee.org/document/4669764/},
        year = {2008}
       }
-      
       
   -
     layout: paper
@@ -163,14 +159,13 @@
        author = {Yllias Chali* and Shafiq Joty*},
        booktitle = {20th IEEE International Conference on Tools with Artificial Intelligence},
        doi = {10.1109/ICTAI.2008.84},
-       link = {http://ieeexplore.ieee.org/document/4669765/},
        pages = {123-130},
        publisher = {IEEE},
        series = {ICTAI'08},
        title = {Answering Complex Questions Using Query-Focused Summarization Technique},
+       url = {http://ieeexplore.ieee.org/document/4669765/},
        year = {2008}
       }
-      
       
   -
     layout: paper
@@ -198,14 +193,13 @@
        author = {Chali*, Yllias and Joty*, Shafiq},
        booktitle = {Proceedings of the Twenty-First International FLAIRS Conference},
        isbn = {978-1-57735-365-2},
-       link = {http://www.aaai.org/Library/FLAIRS/2008/flairs08-019.php},
        pages = {47-52},
        publisher = {AAAI Press},
        series = {FLAIRS'08},
        title = {Unsupervised Approach for Selecting Sentences in Query-based Summarization.},
+       url = {http://www.aaai.org/Library/FLAIRS/2008/flairs08-019.php},
        year = {2008}
       }
-      
       
   -
     layout: paper
@@ -241,13 +235,12 @@
       context of all submitted systems.},
        author = {Gabriel Murray and Shafiq Joty and Giuseppe Carenini and Raymond Ng},
        booktitle = {Proceedings of the Text Analysis Conference},
-       link = {https://tac.nist.gov//publications/2008/participant.papers/UBC.proceedings.pdf},
        pages = {1-7},
        series = {TAC'08},
        title = {The University of British Columbia at TAC 2008},
+       url = {https://tac.nist.gov//publications/2008/participant.papers/UBC.proceedings.pdf},
        year = {2008}
       }
-      
       
   -
     layout: paper
@@ -286,13 +279,12 @@
       our systems.},
        author = {Chali, Yllias* and Joty*, Shafiq and Hasan*, Sadid},
        booktitle = {Proceedings of the Text Analysis Conference},
-       link = {https://tac.nist.gov//publications/2008/participant.papers/UofL.proceedings.pdf},
        pages = {1-7},
        series = {TAC'08},
        title = {UofL at TAC 2008 Update Summarization and Question Answering},
+       url = {https://tac.nist.gov//publications/2008/participant.papers/UofL.proceedings.pdf},
        year = {2008}
       }
-      
       
   -
     layout: paper
@@ -320,15 +312,14 @@
        address = {Columbus, Ohio},
        author = {Chali*, Yllias and Joty*, Shafiq},
        booktitle = {Proceedings of the 46th Annual Meeting of the Association for Computational Linguistics},
-       link = {http://www.aclweb.org/anthology/P08-2003},
        numpages = {4},
        pages = {9--12},
        publisher = {ACL},
        series = {ACL'08},
        title = {Improving the Performance of the Random Walk Model for Answering Complex Questions},
+       url = {http://www.aclweb.org/anthology/P08-2003},
        year = {2008}
       }
-      
       
   -
     layout: paper
@@ -354,15 +345,18 @@
       @inproceedings{chali-joty-emnlp-08,
        abstract = {Complex questions that require inferencing
       and synthesizing information from multiple
-      documents can be seen as a kind of topicoriented, informative multi-document summarization.
+      documents can be seen as a kind of topicoriented,
+      informative multi-document summarization.
       In this paper, we have experimented
       with one empirical and two unsupervised
       statistical machine learning techniques: kmeans
-      and Expectation Maximization (EM), for computing relative importance of the sentences.
+      and Expectation Maximization (EM),
+      for computing relative importance of the sentences.
       However, the performance of these approaches
       depends entirely on the feature set
       used and the weighting of these features. We
-      extracted different kinds of features (i.e. lexical, lexical semantic, cosine similarity, basic
+      extracted different kinds of features (i.e. lexical,
+      lexical semantic, cosine similarity, basic
       element, tree kernel based syntactic and
       shallow-semantic) for each of the document
       sentences in order to measure its importance
@@ -376,15 +370,14 @@
        address = {Honolulu, Hawaii},
        author = {Chali*, Yllias and Joty*, Shafiq},
        booktitle = {Proceedings of the Conference on Empirical Methods in Natural Language Processing},
-       link = {http://www.aclweb.org/anthology/D/D08/D08-1032.pdf},
        numpages = {10},
        pages = {304--313},
        publisher = {Association for Computational Linguistics},
        series = {EMNLP'08},
        title = {Selecting Sentences for Answering Complex Questions},
+       url = {http://www.aclweb.org/anthology/D/D08/D08-1032.pdf},
        year = {2008}
       }
-      
       
   -
     layout: paper
@@ -417,7 +410,8 @@
       empirical approach outperforms the other two techniques and EM performs better than
       K-means. However, the performance of these approaches depends entirely on the feature
       set used and the weighting of these features. In order to measure the importance and
-      relevance to the user query we extract different kinds of features (i.e. lexical, lexical semantic, cosine similarity, basic element, tree kernel based syntactic and shallow-semantic)
+      relevance to the user query we extract different kinds of features (i.e. lexical, lexical semantic,
+      cosine similarity, basic element, tree kernel based syntactic and shallow-semantic)
       for each of the document sentences. We use a local search technique to learn the weights
       of the features. To the best of our knowledge, no study has used tree kernel functions
       to encode syntactic/semantic information for more complex tasks such as computing the
@@ -431,17 +425,15 @@
        issn = {1076-9757},
        issue_date = {2009},
        journal = {Journal of Artificial Intelligence Research},
-       link = {https://www.jair.org/media/2784/live-2784-4446-jair.pdf},
-       month = {may},
        number = {1},
        numpages = {47},
        pages = {1--47},
        publisher = {AI Access Foundation},
        title = {Complex Question Answering: Unsupervised Learning Approaches and Experiments},
+       url = {https://www.jair.org/media/2784/live-2784-4446-jair.pdf},
        volume = {35},
        year = {2009}
       }
-      
       
   -
     layout: paper
@@ -474,7 +466,8 @@
       data is a prerequisite for supervised training.
       The task of labeling can be accomplished
       either by humans or by computer
-      programs. When humans are employed, the whole process becomes time
+      programs. When humans are employed,
+      the whole process becomes time
       consuming and expensive. So, in order
       to produce a large set of labeled data we
       prefer the automatic annotation strategy.
@@ -482,7 +475,8 @@
       techniques to produce labeled data
       using ROUGE similarity measure, Basic
       Element (BE) overlap, syntactic similarity
-      measure, semantic similarity measure, and Extended String Subsequence
+      measure, semantic similarity measure,
+      and Extended String Subsequence
       Kernel (ESSK). The representative supervised
       methods we use are Support Vector
       Machines (SVM), Conditional Random
@@ -493,15 +487,14 @@
        address = {Suntec, Singapore},
        author = {Chali*, Yllias  and  Hasan*, Sadid  and  Joty*, Shafiq},
        booktitle = {Proceedings of the ACL-IJCNLP 2009 Conference},
-       link = {http://www.aclweb.org/anthology/P/P09/P09-2083},
        month = {August},
        pages = {329--332},
        publisher = {Association for Computational Linguistics},
        series = {ACL'09},
        title = {Do Automatic Annotation Techniques Have Any Impact on Supervised Complex Question Answering?},
+       url = {http://www.aclweb.org/anthology/P/P09/P09-2083},
        year = {2009}
       }
-      
       
   -
     layout: paper
@@ -532,16 +525,15 @@
        booktitle = {Proceedings of the 22Nd Canadian Conference on Artificial Intelligence: Advances in Artificial Intelligence},
        doi = {10.1007/978-3-642-01818-3_23},
        isbn = {978-3-642-01817-6},
-       link = {http://dx.doi.org/10.1007/978-3-642-01818-3_23},
        location = {Kelowna, Canada},
        numpages = {4},
        pages = {199--202},
        publisher = {Springer-Verlag},
        series = {Canadian AI '09},
        title = {A SVM-Based Ensemble Approach to Multi-Document Summarization},
+       url = {http://dx.doi.org/10.1007/978-3-642-01818-3_23},
        year = {2009}
       }
-      
       
   -
     layout: paper
@@ -582,11 +574,10 @@
        address = {Whistler, Canada},
        author = {Shafiq Joty and Giuseppe Carenini and Gabriel Murray and Raymond Ng},
        booktitle = {NIPS-2009 workshop on applications for topic models: text and beyond},
-       link = {papers/joty-carenini-ng-lda-nips-09},
-       title = {Finding Topics in Emails: Is LDA enough?},
+       title = {{Finding Topics in Emails: Is LDA enough?}},
+       url = {papers/joty-carenini-ng-lda-nips-09},
        year = {2009}
       }
-      
       
   -
     layout: paper
@@ -634,14 +625,13 @@
        address = {Massachusetts, USA},
        author = {Shafiq Joty and Giuseppe Carenini and Gabriel Murray and Raymond Ng},
        booktitle = {Proceedings of the conference on Empirical Methods in Natural Language Processing},
-       link = {http://www.aclweb.org/anthology/D10-1038},
        pages = {388--398},
        publisher = {ACL},
        series = {EMNLP'10},
-       title = {Exploiting Conversation Structure in Unsupervised Topic Segmentation for Emails},
+       title = {{Exploiting Conversation Structure in Unsupervised Topic Segmentation for Emails}},
+       url = {http://www.aclweb.org/anthology/D10-1038},
        year = {2010}
       }
-      
       
   -
     layout: paper
@@ -673,12 +663,11 @@
        address = {Microsoft Research, Redmond},
        author = {Shafiq Joty and Giuseppe Carenini and Gabriel Murray and Raymond Ng},
        booktitle = {The Pacific Northwest Regional NLP Workshop},
-       link = {papers/joty-carenini-murray-ng-nwnlp-10},
        series = {NWNLP'10},
-       title = {Exploiting Conversation Features for Finding Topics in Emails},
+       title = {{Exploiting Conversation Features for Finding Topics in Emails}},
+       url = {papers/joty-carenini-murray-ng-nwnlp-10},
        year = {2010}
       }
-      
       
   -
     layout: paper
@@ -709,17 +698,15 @@
        issn = {0306-4573},
        issue_date = {November, 2011},
        journal = {Information Processing & Management},
-       link = {http://dx.doi.org/10.1016/j.ipm.2010.10.002},
-       month = {nov},
        number = {6},
        numpages = {13},
        pages = {843--855},
        publisher = {Elsevier},
        title = {Improving Graph-based Random Walks for Complex Question Answering Using Syntactic, Shallow Semantic and Extended String Subsequence Kernels},
+       url = {http://dx.doi.org/10.1016/j.ipm.2010.10.002},
        volume = {47},
        year = {2011}
       }
-      
       
   -
     layout: paper
@@ -763,13 +750,12 @@
        address = {Barcelona, Spain},
        author = {Shafiq Joty and Giuseppe Carenini and Chin-Yew Lin},
        booktitle = {Proceedings of the twenty second International Joint Conference on Artificial Intelligence},
-       link = {https://www.aaai.org/ocs/index.php/IJCAI/IJCAI11/paper/viewFile/3357/3759},
        pages = {1807--1813},
        series = {IJCAI'11},
-       title = {Unsupervised Modeling of Dialog Acts in Asynchronous Conversations},
+       title = {{Unsupervised Modeling of Dialog Acts in Asynchronous Conversations}},
+       url = {https://www.aaai.org/ocs/index.php/IJCAI/IJCAI11/paper/viewFile/3357/3759},
        year = {2011}
       }
-      
       
   -
     layout: paper
@@ -798,7 +784,8 @@
       (i) lexical knowledge, (ii) conversational features, and
       (iii) topic features. We compare our results with the existing
       unsupervised models (i.e., LCSeg and LDA), and
-      with their two extensions for email conversations (i.e., LCSeg+FQG and LDA+FQG) that not only use lexical
+      with their two extensions for email conversations (i.e.,
+      LCSeg+FQG and LDA+FQG) that not only use lexical
       information but also exploit finer conversation structure.
       Empirical evaluation shows that our supervised model
       is the best performer and achieves highest accuracy by
@@ -808,14 +795,13 @@
        address = {Barcelona, Spain},
        author = {Shafiq Joty and Giuseppe Carenini and Gabriel Murray and Raymod Ng},
        booktitle = {Proceedings of the Fifth International AAAI Conference on Weblogs and Social Media},
-       link = {https://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2882/3228},
        pages = {530--533},
        publisher = {AAAI},
        series = {ICWSM'11},
-       title = {Supervised Topic Segmentation of Email Conversations},
+       title = {{Supervised Topic Segmentation of Email Conversations}},
+       url = {https://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2882/3228},
        year = {2011}
       }
-      
       
   -
     layout: paper
@@ -845,13 +831,12 @@
        booktitle = {Advances in Artificial Intelligence - 24th Canadian Conference on
       Artificial Intelligence Proceedings},
        doi = {10.1007/978-3-642-21043-3_15},
-       link = {https://doi.org/10.1007/978-3-642-21043-3_15},
        pages = {122--127},
        series = {CAI'11},
        title = {Exploiting Conversational Features to Detect High-Quality Blog Comments},
+       url = {https://doi.org/10.1007/978-3-642-21043-3_15},
        year = {2011}
       }
-      
       
   -
     layout: paper
@@ -859,7 +844,7 @@
     year: 2012
     selected: no
     title: >
-      A Novel Discriminative Framework for Sentence-Level Discourse Analysis
+      A Novel Discriminative Framework for Sentence-Level Discourse Analysis 
     authors: Shafiq Joty, Giuseppe Carenini, and Raymond Ng
     id: joty-carenini-ng-emnlp-12
     img: joty-carenini-ng-emnlp-12-fig
@@ -888,14 +873,14 @@
        address = {Jeju Island, Korea},
        author = {Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond},
        booktitle = {Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning},
-       link = {http://www.aclweb.org/anthology/D12-1083},
        pages = {904--915},
        publisher = {ACL},
        series = {EMNLP-CoNLL'12},
-       title = {A Novel Discriminative Framework for Sentence-Level Discourse Analysis},
+       title = {A Novel Discriminative Framework for Sentence-Level Discourse Analysis
+      },
+       url = {http://www.aclweb.org/anthology/D12-1083},
        year = {2012}
       }
-      
       
   -
     layout: paper
@@ -919,12 +904,11 @@
        address = {Microsoft Research, Redmond},
        author = {Shafiq Joty and Giuseppe Carenini and Raymond Ng},
        booktitle = {The Pacific Northwest Regional NLP Workshop},
-       link = {papers/joty-carenini-ng-nwnlp-12},
        series = {NWNLP'12},
-       title = {Automatic Topic Labeling in Asynchronous Conversations},
+       title = {{Automatic Topic Labeling in Asynchronous Conversations}},
+       url = {papers/joty-carenini-ng-nwnlp-12},
        year = {2012}
       }
-      
       
   -
     layout: paper
@@ -948,12 +932,11 @@
        address = {Microsoft Research, Redmond},
        author = {Wei Jin and Shafiq Joty and Giuseppe Carenini and Raymond Ng},
        booktitle = {The Pacific Northwest Regional NLP Workshop},
-       link = {papers/jin-joty-carenini-ng-nwnlp-12},
        series = {NWNLP'12},
-       title = {Detecting Informative Blog Comments using Tree Structured Conditional Random Fields},
+       title = {{Detecting Informative Blog Comments using Tree Structured Conditional Random Fields}},
+       url = {papers/jin-joty-carenini-ng-nwnlp-12},
        year = {2012}
       }
-      
       
   -
     layout: paper
@@ -982,7 +965,8 @@
       with topics, and evaluate annotator reliability for the segmentation and labeling tasks in
       these asynchronous conversations. We propose a complete computational framework for
       topic segmentation and labeling in asynchronous conversations. Our approach extends
-      state-of-the-art methods by considering a fine-grained structure of an asynchronous conversation, along with other conversational features by applying recent graph-based methods
+      state-of-the-art methods by considering a fine-grained structure of an asynchronous conversation,
+      along with other conversational features by applying recent graph-based methods
       for NLP. For topic segmentation, we propose two novel unsupervised models that exploit
       the fine-grained conversational structure, and a novel graph-theoretic supervised model that
       combines lexical, conversational and topic features. For topic labeling, we propose two novel
@@ -992,13 +976,12 @@
       best models beat the state-of-the-art, and are highly correlated with human annotations.},
        author = {Shafiq Joty and Giuseppe Carenini and Raymond Ng},
        journal = {Journal of Artificial Intelligence Research},
-       link = {https://www.jair.org/media/3940/live-3940-7166-jair.pdf},
        pages = {521--573},
-       title = {Topic Segmentation and Labeling in Asynchronous Conversations},
+       title = {{Topic Segmentation and Labeling in Asynchronous Conversations}},
+       url = {https://www.jair.org/media/3940/live-3940-7166-jair.pdf},
        volume = {47},
        year = {2013}
       }
-      
       
   -
     layout: paper
@@ -1034,7 +1017,8 @@
       discourse parsing effectively. A set of
       empirical evaluations over two different
       datasets demonstrates that our discourse
-      parser significantly outperforms the stateof-the-art, often by a wide margin.},
+      parser significantly outperforms the stateof-the-art,
+      often by a wide margin.},
        address = {Sofia, Bulgaria},
        author = {Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond T. and Mehdad, Yashar},
        booktitle = {Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics},
@@ -1042,10 +1026,9 @@
        pages = {486--496},
        publisher = {ACL},
        series = {ACL'13},
-       title = {Combining Intra- and Multi-sentential Rhetorical Parsing for Document-level Discourse Analysis},
+       title = {{Combining Intra- and Multi-sentential Rhetorical Parsing for Document-level Discourse Analysis}},
        year = {2013}
       }
-      
       
   -
     layout: paper
@@ -1093,7 +1076,6 @@
        year = {2013}
       }
       
-      
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
@@ -1133,15 +1115,14 @@
        address = {Metz, France},
        author = {Tavafi, Maryam  and  Mehdad, Yashar  and  Joty, Shafiq  and  Carenini, Giuseppe  and  Ng, Raymond},
        booktitle = {Proceedings of the Special Interest Group on Discourse and Dialogue Conference},
-       link = {http://www.aclweb.org/anthology/W13-4017},
        month = {August},
        pages = {117--121},
        publisher = {Association for Computational Linguistics},
        series = {SIGDIAL'13},
        title = {Dialogue Act Recognition in Synchronous and Asynchronous Conversations},
+       url = {http://www.aclweb.org/anthology/W13-4017},
        year = {2013}
       }
-      
       
   -
     layout: paper
@@ -1169,15 +1150,14 @@
        address = {Baltimore, Maryland, USA},
        author = {Guzm\'{a}n, Francisco  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav},
        booktitle = {Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics},
-       link = {http://www.aclweb.org/anthology/P/P14/P14-1065},
        month = {June},
        pages = {687--698},
        publisher = {Association for Computational Linguistics},
        series = {ACL'14},
        title = {Using Discourse Structure Improves Machine Translation Evaluation},
+       url = {http://www.aclweb.org/anthology/P/P14/P14-1065},
        year = {2014}
       }
-      
       
   -
     layout: paper
@@ -1205,15 +1185,14 @@
        address = {Doha, Qatar},
        author = {Guzm\'{a}n, Francisco  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Moschitti, Alessandro  and  Nakov, Preslav  and  Nicosia, Massimo},
        booktitle = {Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing},
-       link = {http://www.aclweb.org/anthology/D14-1027},
        month = {October},
        pages = {214--220},
        publisher = {Association for Computational Linguistics},
        series = {EMNLP'14},
        title = {Learning to Differentiate Better from Worse Translations},
+       url = {http://www.aclweb.org/anthology/D14-1027},
        year = {2014}
       }
-      
       
   -
     layout: paper
@@ -1241,15 +1220,14 @@
        address = {Baltimore, Maryland, USA},
        author = {Joty, Shafiq  and  Guzm\'{a}n, Francisco  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav},
        booktitle = {Proceedings of the Ninth Workshop on Statistical Machine Translation},
-       link = {http://www.aclweb.org/anthology/W/W14/W14-3352},
        month = {June},
        pages = {402--408},
        publisher = {Association for Computational Linguistics},
        series = {WMT'14},
        title = {DiscoTK: Using Discourse Structure for Machine Translation Evaluation},
+       url = {http://www.aclweb.org/anthology/W/W14/W14-3352},
        year = {2014}
       }
-      
       
   -
     layout: paper
@@ -1288,19 +1266,19 @@
       including the integration of interactive
       human feedback in the text mining
       loop, applying more advanced text analysis
-      methods with visualization techniques, and evaluating the system with real users.},
+      methods with visualization techniques,
+      and evaluating the system with real users.},
        address = {Baltimore, Maryland, USA},
        author = {Hoque, Enamul  and  Carenini, Giuseppe  and  Joty, Shafiq},
        booktitle = {Proceedings of the Workshop on Interactive Language Learning, Visualization, and Interfaces},
-       link = {http://www.aclweb.org/anthology/W14-3107},
        month = {June},
        pages = {45--52},
        publisher = {Association for Computational Linguistics},
        series = {ILLVI'14},
        title = {Interactive Exploration of Asynchronous Conversations: Applying a User-centered Approach to Design a Visual Text Analytic System},
+       url = {http://www.aclweb.org/anthology/W14-3107},
        year = {2014}
       }
-      
       
   -
     layout: paper
@@ -1343,15 +1321,14 @@
        address = {Doha, Qatar},
        author = {Joty, Shafiq  and  Moschitti, Alessandro},
        booktitle = {Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing},
-       link = {http://www.aclweb.org/anthology/D14-1219},
        month = {October},
        pages = {2049--2060},
        publisher = {ACL},
        series = {EMNLP'14},
        title = {Discriminative Reranking of Discourse Parses Using Tree Kernels},
+       url = {http://www.aclweb.org/anthology/D14-1219},
        year = {2014}
       }
-      
       
   -
     layout: paper
@@ -1394,15 +1371,14 @@
        address = {Doha, Qatar},
        author = {Saleh, Iman  and  Moschitti, Alessandro  and  Nakov, Preslav  and  M\`{a}rquez, Llu\'{i}s  and  Joty, Shafiq},
        booktitle = {Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing},
-       link = {http://www.aclweb.org/anthology/D14-1050},
        month = {October},
        pages = {436--442},
        publisher = {Association for Computational Linguistics},
        series = {EMNLP'14},
        title = {Semantic Kernels for Semantic Parsing},
+       url = {http://www.aclweb.org/anthology/D14-1050},
        year = {2014}
       }
-      
       
   -
     layout: paper
@@ -1437,15 +1413,14 @@
        address = {Dublin, Ireland},
        author = {Saleh, Iman  and  Cyphers, Scott  and  Glass, Jim  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Moschitti, Alessandro  and  Nakov, Preslav},
        booktitle = {Proceedings of the 25th International Conference on Computational Linguistics: Technical Papers},
-       link = {http://www.aclweb.org/anthology/C14-1020},
        month = {August},
        pages = {193--202},
        publisher = {Dublin City University and Association for Computational Linguistics},
        series = {COLING'14},
        title = {A Study of using Syntactic and Semantic Structures for Concept Segmentation and Labeling},
+       url = {http://www.aclweb.org/anthology/C14-1020},
        year = {2014}
       }
-      
       
   -
     layout: paper
@@ -1472,25 +1447,26 @@
       between them carries important information that allows the discourse to express a meaning as a
       whole beyond the sum of its individual parts. Rhetorical analysis seeks to uncover this coherence
       structure. In this article, we present CODRA— a COmplete probabilistic Discriminative
-      framework for performing Rhetorical Analysis in accordance with Rhetorical Structure Theory, which posits a tree representation of a discourse.
+      framework for performing Rhetorical Analysis in accordance with Rhetorical Structure Theory,
+      which posits a tree representation of a discourse.
       CODRA comprises a discourse segmenter and a discourse parser. First, the discourse
       segmenter, which is based on a binary classifier, identifies the elementary discourse units in a
       given text. Then the discourse parser builds a discourse tree by applying an optimal parsing
       algorithm to probabilities inferred from two Conditional Random Fields: one for intra-sentential
       parsing and the other for multi-sentential parsing. We present two approaches to combine these
       two stages of parsing effectively. By conducting a series of empirical evaluations over two
-      different data sets, we demonstrate that CODRA significantly outperforms the state-of-the-art, often by a wide margin. We also show that a reranking of the k-best parse hypotheses generated
+      different data sets, we demonstrate that CODRA significantly outperforms the state-of-the-art,
+      often by a wide margin. We also show that a reranking of the k-best parse hypotheses generated
       by CODRA can potentially improve the accuracy even further.},
        author = {Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond T},
        journal = {Computational Linguistics},
-       link = {papers/joty-carenini-ng-cl-15},
        pages = {385-435},
        publisher = {MIT Press},
-       title = {CODRA: A Novel Discriminative Framework for Rhetorical Analysis},
+       title = {{CODRA: A Novel Discriminative Framework for Rhetorical Analysis}},
+       url = {papers/joty-carenini-ng-cl-15},
        volume = {41:3},
        year = {2015}
       }
-      
       
   -
     layout: paper
@@ -1516,18 +1492,17 @@
       @inproceedings{guzman-joty-marquez-nakov-acl-15,
        abstract = {We present a novel framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation. In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses is compacted into relatively small distributed vector representations, and fed into a multi-layer neural network that models the interaction between each of the hypotheses and the reference, as well as between the two hypotheses. These compact representations are in turn based on word and sentence embeddings, which are learned using neural networks. The framework is flexible, allows for efficient learning and classification, and yields correlation with humans that rivals the state of the art.},
        address = {Beijing, China},
-       author = {Guzm\'{a}n, Francisco  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav},
+       author = {Guzm\'{a}n, Francisco  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav },
        booktitle = {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and The 7th International Joint Conference of the Asian
       Federation of Natural Language Processing},
-       link = {http://www.aclweb.org/anthology/P15-1078},
        month = {July},
        pages = {805--814},
        publisher = {Association for Computational Linguistics},
        series = {ACL'15},
        title = {Pairwise Neural Machine Translation Evaluation},
+       url = {http://www.aclweb.org/anthology/P15-1078},
        year = {2015}
       }
-      
       
   -
     layout: paper
@@ -1554,7 +1529,8 @@
        abstract = {Community Question Answering (cQA) is
       a new application of QA in social contexts
       (e.g., fora). It presents new interesting
-      challenges and research directions, e.g., exploiting the dependencies between the
+      challenges and research directions, e.g.,
+      exploiting the dependencies between the
       different comments of a thread to select
       the best answer for a given question. In
       this paper, we explored two ways of modeling
@@ -1576,15 +1552,14 @@
        address = {Beijing, China},
        author = {Barron-Cedeno, Alberto  and  Filice, Simone  and  Da San Martino, Giovanni  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav  and  Moschitti, Alessandro},
        booktitle = {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing},
-       link = {http://www.aclweb.org/anthology/P15-2113},
        month = {July},
        pages = {687--693},
        publisher = {Association for Computational Linguistics},
        series = {ACL'15},
        title = {Thread-Level Information for Comment Classification in Community Question Answering},
+       url = {http://www.aclweb.org/anthology/P15-2113},
        year = {2015}
       }
-      
       
   -
     layout: paper
@@ -1609,8 +1584,10 @@
     bibtex: >
       @inproceedings{durrani-et-al-amta-15,
        abstract = {Joint models have recently shown to improve the state-of-the-art in machine translation (MT).
-      We apply EM-based mixture modeling and data selection techniques using two joint models, namely the Operation Sequence Model or OSM — an ngram-based translation and reordering
-      model, and the Neural Network Joint Model or NNJM — a continuous space translation model, to carry out domain adaptation for MT. The diversity of the two models, OSM with inherit
+      We apply EM-based mixture modeling and data selection techniques using two joint models,
+      namely the Operation Sequence Model or OSM — an ngram-based translation and reordering
+      model, and the Neural Network Joint Model or NNJM — a continuous space translation model,
+      to carry out domain adaptation for MT. The diversity of the two models, OSM with inherit
       reordering information and NNJM with continuous space modeling makes them interesting to
       be explored for this task. Our contribution in this paper is fusing the existing known techniques
       (linear interpolation, cross-entropy) with the state-of-the-art MT models (OSM, NNJM). On a
@@ -1619,14 +1596,13 @@
        address = {Florida, USA},
        author = {Nadir Durrani and Hassan Sajjad and Shafiq Joty and Ahmed Abdelali and Stephan Vogel},
        booktitle = {Proceedings of the Association for Machine Translation in the Americas},
-       link = {papers/durrani-et-al-amta-15},
        month = {November},
        pages = {687--693},
        series = {AMTA'15},
        title = {Using Joint Models for Domain Adaptation in Statistical Machine Translation},
+       url = {papers/durrani-et-al-amta-15},
        year = {2015}
       }
-      
       
   -
     layout: paper
@@ -1670,14 +1646,13 @@
        address = {Lisbon, Portugal},
        author = {Joty, Shafiq  and  Sajjad, Hassan  and  Durrani, Nadir  and  Al-Mannai, Kamla  and  Abdelali, Ahmed  and  Vogel, Stephan},
        booktitle = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing},
-       link = {http://aclweb.org/anthology/D15-1147},
        pages = {1259--1270},
        publisher = {ACL},
        series = {EMNLP'15},
        title = {How to Avoid Unwanted Pregnancies: Domain Adaptation using Neural Network Models},
+       url = {http://aclweb.org/anthology/D15-1147},
        year = {2015}
       }
-      
       
   -
     layout: paper
@@ -1711,7 +1686,9 @@
       applied to such tasks without any taskspecific
       feature engineering effort. Our
       experimental results on the task of opinion
-      target identification show that RNNs, without using any hand-crafted features, outperform feature-rich CRF-based models.
+      target identification show that RNNs,
+      without using any hand-crafted features,
+      outperform feature-rich CRF-based models.
       Our framework is flexible, allows us to
       incorporate other linguistic features, and
       achieves results that rival the top performing
@@ -1719,14 +1696,13 @@
        address = {Lisbon, Portugal},
        author = {Liu, Pengfei  and  Joty, Shafiq  and  Meng, Helen},
        booktitle = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing},
-       link = {http://aclweb.org/anthology/D15-1168},
        pages = {1433--1443},
        publisher = {ACL},
        series = {EMNLP'15},
        title = {Fine-grained Opinion Mining with Recurrent Neural Networks and Word Embeddings},
+       url = {http://aclweb.org/anthology/D15-1168},
        year = {2015}
       }
-      
       
   -
     layout: paper
@@ -1758,7 +1734,8 @@
       of the wisdom of the crowd. Here we
       try to help the user by deciding automatically
       which answers are good and which
-      are bad for a given question. In particular, we focus on exploiting the output structure
+      are bad for a given question. In particular,
+      we focus on exploiting the output structure
       at the thread level in order to make
       more consistent global decisions. More
       specifically, we exploit the relations between
@@ -1772,13 +1749,12 @@
        address = {Lisbon, Portugal},
        author = {Joty, Shafiq  and  Barron-Cedeno, Alberto  and  Da San Martino, Giovanni  and  Filice, Simone  and  M\`{a}rquez, Llu\'{i}s  and  Moschitti, Alessandro  and  Nakov, Preslav},
        booktitle = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://aclweb.org/anthology/D/D15/D15-1068},
        pages = {573--578},
        publisher = {ACL},
        title = {Global Thread-level Inference for Comment Classification in Community Question Answering},
+       url = {https://aclweb.org/anthology/D/D15/D15-1068},
        year = {2015}
       }
-      
       
   -
     layout: paper
@@ -1809,22 +1785,22 @@
       in both Arabic and English. We apply a supervised
       machine learning approach considering
       a manifold of features including among others
-      word n-grams, text similarity, sentiment analysis, the presence of specific words, and the
+      word n-grams, text similarity, sentiment analysis,
+      the presence of specific words, and the
       context of a comment. Our approach was the
       best performing one in the Arabic subtask and
       the third best in the two English subtasks.},
        address = {Denver, Colorado, USA},
        author = {Massimo Nicosia and Simone Filice and Alberto Barron-Cedeno and Iman Saleh and Hamdy Mubarak and Wei Gao and Preslav Nakov and Giovanni Da San Martino and Alessandro Moschitti and Kareem Darwish and Llu{\i}s M\`{a}rquez and Shafiq R. Joty and Walid Magdy},
        booktitle = {Proceedings of the 9th International Workshop on Semantic Evaluation},
-       link = {http://aclweb.org/anthology/S/S15/S15-2036.pdf},
        month = {June},
        pages = {203--209},
        series = {SemEval'15},
        title = {{QCRI:} Answer Selection for Community Question Answering - Experiments
       for Arabic and English},
+       url = {http://aclweb.org/anthology/S/S15/S15-2036.pdf},
        year = {2015}
       }
-      
       
   -
     layout: paper
@@ -1859,14 +1835,13 @@
        author = {Aarti Sathyanarayana and Shafiq Joty and Luis Fernandez-Luque and Ferda Ofli and Jaideep Srivastava and Ahmed Elmagarmid and Shahrad Taheri and Teresa Arora},
        doi = {10.2196/mhealth.6562},
        journal = {JMIR mHealth and uHealth (JMU)},
-       link = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5116102/},
        number = {e125},
        pmid = {27815231},
-       title = {Sleep Quality Prediction From Wearable Data Using Deep Learning},
+       title = {{Sleep Quality Prediction From Wearable Data Using Deep Learning}},
+       url = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5116102/},
        volume = {4(4)},
        year = {2016}
       }
-      
       
   -
     layout: paper
@@ -1892,7 +1867,8 @@
       @inproceedings{joty-hoque-acl-16,
        abstract = {This paper addresses the problem of
       speech act recognition in written asynchronous
-      conversations (e.g., fora, emails). We propose a class of conditional
+      conversations (e.g., fora,
+      emails). We propose a class of conditional
       structured models defined over arbitrary
       graph structures to capture the conversational
       dependencies between sentences.
@@ -1907,15 +1883,14 @@
        address = {Berlin, Germany},
        author = {Shafiq Joty and Enamul Hoque},
        booktitle = {Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics},
-       link = {papers/joty-hoque-acl-16.pdf},
        numpages = {9},
        pages = {1746--1756},
        publisher = {ACL},
        series = {ACL'16},
        title = {Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models},
+       url = {papers/joty-hoque-acl-16.pdf},
        year = {2016}
       }
-      
       
   -
     layout: paper
@@ -1969,7 +1944,6 @@
        year = {2016}
       }
       
-      
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
@@ -2005,14 +1979,13 @@
       Shafiq Joty and
       Ahmed Abdelali},
        booktitle = {Proceedings of the 26th International Conference on Computational Linguistics},
-       link = {http://aclweb.org/anthology/C/C16/C16-1299.pdf},
        month = {December},
        pages = {3177--3187},
        series = {COLING'16},
        title = {A Deep Fusion Model for Domain Adaptation in Phrase-based {MT}},
+       url = {http://aclweb.org/anthology/C/C16/C16-1299.pdf},
        year = {2016}
       }
-      
       
   -
     layout: paper
@@ -2045,15 +2018,14 @@
        address = {Osaka, Japan},
        author = {Hoque, Enamul  and  Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Barron-Cedeno, Alberto  and  Da San Martino, Giovanni  and  Moschitti, Alessandro  and  Nakov, Preslav  and  Romeo, Salvatore  and  Carenini, Giuseppe},
        booktitle = {Proceedings of the 26th International Conference on Computational Linguistics: System Demonstrations},
-       link = {http://aclweb.org/anthology/C16-2001},
        month = {December},
        pages = {1--5},
        publisher = {The COLING 2016 Organizing Committee},
        series = {COLING'16},
        title = {An Interactive System for Exploring Community Question Answering Forums},
+       url = {http://aclweb.org/anthology/C16-2001},
        year = {2016}
       }
-      
       
   -
     layout: paper
@@ -2081,14 +2053,13 @@
        address = {San Diego, California},
        author = {Barron-Codeno, Alberto  and  Da San Martino, Giovanni  and  Joty, Shafiq  and  Moschitti, Alessandro  and  Al-Obaidli, Fahad  and  Romeo, Salvatore  and  Tymoshenko, Kateryna  and  Uva, Antonio},
        booktitle = {Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016)},
-       link = {http://www.aclweb.org/anthology/S16-1138},
        month = {June},
        pages = {896--903},
        publisher = {Association for Computational Linguistics},
        title = {ConvKN at SemEval-2016 Task 3: Answer and Question Selection for Question Answering on Arabic and English Fora},
+       url = {http://www.aclweb.org/anthology/S16-1138},
        year = {2016}
       }
-      
       
   -
     layout: paper
@@ -2119,14 +2090,13 @@
       Hassan Sajjad and
       Prasenjit Mitra},
        booktitle = {4th international workshop on Social Web for Disaster Management},
-       link = {http://arxiv.org/abs/1610.01030},
        series = {SWDM'16},
        title = {Applications of Online Deep Learning for Crisis Response Using Social
       Media Information},
+       url = {http://arxiv.org/abs/1610.01030},
        volume = {abs/1610.01030},
        year = {2016}
       }
-      
       
   -
     layout: paper
@@ -2152,14 +2122,13 @@
        abstract = {In this article, we explore the potential of using sentence-level discourse structure for machine translation evaluation. We first design discourse-aware similarity measures, which use all- subtree kernels to compare discourse parse trees in accordance with the Rhetorical Structure Theory (RST). Then, we show that a simple linear combination with these measures can help improve various existing machine translation evaluation metrics regarding correlation with human judgments both at the segment- and at the system-level. This suggests that discourse information is complementary to the information used by many of the existing evaluation metrics, and thus it could be taken into account when developing richer evaluation metrics, such as the WMT-14 winning combined metric DISCOTKparty. We also provide a detailed analysis of the relevance of various discourse elements and relations from the RST parse trees for machine translation evaluation. In particular, we show that (i) all aspects of the RST tree are relevant, (ii) nuclearity is more useful than relation type, and (iii) the similarity of the translation RST tree to the reference RST tree is positively correlated with translation quality.},
        author = {Shafiq Joty and Guzm\'{a}n, Francisco and Màrquez, Lluís and Preslav Nakov},
        journal = {Computational Linguistics},
-       link = {http://www.mitpressjournals.org/doi/pdfplus/10.1162/COLI_a_00298},
        pages = {683--722},
        publisher = {MIT Press},
-       title = {Discourse Structure in Machine Translation Evaluation},
+       title = {{Discourse Structure in Machine Translation Evaluation}},
+       url = {http://www.mitpressjournals.org/doi/pdfplus/10.1162/COLI_a_00298},
        volume = {43:4},
        year = {2017}
       }
-      
       
   -
     layout: paper
@@ -2188,14 +2157,13 @@
        doi = {https://doi.org/10.1016/j.csl.2016.12.006},
        issn = {0885-2308},
        journal = {Computer Speech & Language (Special Issue on Deep Learning for Machine Translation)},
-       link = {http://www.sciencedirect.com/science/article/pii/S0885230816301474},
        pages = {161-179},
        publisher = {Elsevier},
-       title = {Domain Adaptation Using Neural Network Joint Model},
+       title = {{Domain Adaptation Using Neural Network Joint Model}},
+       url = {http://www.sciencedirect.com/science/article/pii/S0885230816301474},
        volume = {45:C},
        year = {2017}
       }
-      
       
   -
     layout: paper
@@ -2215,28 +2183,31 @@
     journal: Computer Speech & Language (Special Issue on Deep Learning for Machine Translation)
     doc-url: http://www.sciencedirect.com/science/article/pii/S0885230816301693
     abstract: >
-      We present a framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation. In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses is embedded into compact distributed vector representations, and fed into a multi-layer neural network that models nonlinear interactions between each of the hypotheses and the reference, as well as between the two hypotheses. We experiment with the benchmark datasets from the \WMT\ Metrics shared task, on which we obtain the best results published so far, with the basic network configuration. We also perform a series of experiments to analyze and understand the contribution of the different components of the network. We evaluate variants and extensions, including fine-tuning of the semantic embeddings, and sentence-based representations modeled with convolutional and recurrent neural networks. In summary, the proposed framework is flexible and generalizable, allows for efficient learning and scoring, and provides an \MT\ evaluation metric that correlates with human judgments, and is on par with the state of the art.
+      We present a framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation. In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses is embedded into compact distributed vector representations, and fed into a multi-layer neural network that models nonlinear interactions between each of the hypotheses and the reference, as well as between the two hypotheses. We experiment with the benchmark datasets from the \WMT\ Metrics shared task, on which we obtain the best results published so far, with the basic network configuration. We also perform a series of experiments to analyze and understand the contribution of the different components of the network. We evaluate variants and extensions, including fine-tuning of the semantic embeddings, and sentence-based representations modeled with convolutional and recurrent neural networks. In summary, the proposed framework is flexible and generalizable, allows for efficient learning and scoring, and provides an \MT\ evaluation metric that correlates with human judgments, and is on par with the state of the art. 
     bibtex: >
       @article{guzman-joty-marquez-nakov-csl-16,
-       abstract = {We present a framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation.
+       abstract = {We present a framework for machine translation evaluation using neural networks in a pairwise setting,
+      where the goal is to select the better translation from a pair of hypotheses, given the reference translation.
       In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses
       is embedded into compact distributed vector representations, and fed into a multi-layer neural network that
       models nonlinear interactions between each of the hypotheses and the reference, as well as between the two hypotheses.
-      We experiment with the benchmark datasets from the \{WMT\} Metrics shared task, on which we obtain the best results published so far, with the basic network configuration.
+      We experiment with the benchmark datasets from the \{WMT\} Metrics shared task, on which we obtain the best results published so far,
+      with the basic network configuration.
       We also perform a series of experiments to analyze and understand the contribution of the different components of the network.
       We evaluate variants and extensions, including fine-tuning of the semantic embeddings, and sentence-based representations modeled with
-      convolutional and recurrent neural networks. In summary, the proposed framework is flexible and generalizable, allows for efficient learning and scoring, and provides an \{MT\} evaluation metric that correlates with human judgments, and is on par with the state of the art.},
-       author = {Guzm\'{a}n, Francisco  and Joty, Shafiq  and Màrquez, Lluís  and Nakov, Preslav},
+      convolutional and recurrent neural networks. In summary, the proposed framework is flexible and generalizable,
+      allows for efficient learning and scoring, and provides an \{MT\} evaluation metric that correlates with human judgments,
+      and is on par with the state of the art. },
+       author = {Guzm\'{a}n, Francisco  and Joty, Shafiq  and Màrquez, Lluís  and Nakov, Preslav },
        doi = {http://dx.doi.org/10.1016/j.csl.2016.12.005},
        issn = {0885-2308},
        journal = {Computer Speech & Language (Special Issue on Deep Learning for Machine Translation)},
-       link = {http://www.sciencedirect.com/science/article/pii/S0885230816301693},
        pages = {180--200},
        title = {Machine translation evaluation with neural networks},
+       url = {http://www.sciencedirect.com/science/article/pii/S0885230816301693},
        volume = {45:C},
        year = {2017}
       }
-      
       
   -
     layout: paper
@@ -2264,15 +2235,14 @@
        address = {Vancouver, Canada},
        author = {Dat Nguyen* and Shafiq Joty*},
        booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics},
-       link = {papers/nguyen-joty-acl-17.pdf},
        month = {August},
        pages = {1320--1330},
        publisher = {Association for Computational Linguistics},
        series = {ACL'17},
        title = {A Neural Local Coherence Model},
+       url = {papers/nguyen-joty-acl-17.pdf},
        year = {2017}
       }
-      
       
   -
     layout: paper
@@ -2300,15 +2270,14 @@
        address = {Vancouver, Canada},
        author = {Shafiq Joty and Preslav Nakov and Lluís Màrquez and Israa Jaradat},
        booktitle = {Proceedings of The SIGNLL Conference on Computational Natural Language Learning},
-       link = {papers/joty-nakov-marquez-jaradat-conll-17.pdf},
        month = {August},
        pages = {226--237},
        publisher = {Association for Computational Linguistics},
        series = {CoNLL'17},
        title = {Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering},
+       url = {papers/joty-nakov-marquez-jaradat-conll-17.pdf},
        year = {2017}
       }
-      
       
   -
     layout: paper
@@ -2326,7 +2295,7 @@
     venue: conference
     pages: xx-xx
     booktitle: >
-      Proceedings of The European Conference on Machine Learning & Principles and Practice of knowledge discovery in databases (<b>ECML-PKDD'17</b>)
+      Proceedings of The European Conference on Machine Learning &  Principles and Practice of knowledge discovery in databases (<b>ECML-PKDD'17</b>)
     doc-url: papers/saha-joty-hasan-ecml-17.pdf
     abstract: >
       We present a novel approach to learn distributed representation of sentences from unlabeled data by modeling both content and context of a sentence. The content model learns sentence representation by predicting its words. On the other hand, the context model comprises a neighbor prediction component and a regularizer to model distributional and proximity hypotheses, respectively. We propose an online algorithm to train the model components jointly. We evaluate the models in a setup, where contextual information is available. The experimental results on tasks involving classification, clustering, and ranking of sentences show that our model outperforms the best existing models by a wide margin across multiple datasets.
@@ -2335,17 +2304,16 @@
        abstract = {We present a novel approach to learn distributed representation of sentences from unlabeled data by modeling both content and context of a sentence. The content model learns sentence representation by predicting its words. On the other hand, the context model comprises a neighbor prediction component and a regularizer to model distributional and proximity hypotheses, respectively. We propose an online algorithm to train the model components jointly. We evaluate the models in a setup, where contextual information is available. The experimental results on tasks involving classification, clustering, and ranking of sentences show that our model outperforms the best existing models by a wide margin across multiple datasets.},
        address = {Macedonia, Skopje},
        author = {Tanay Saha and Shafiq Joty and Mohammad Hasan},
-       booktitle = {Proceedings of The European Conference on Machine Learning &
+       booktitle = {Proceedings of The European Conference on Machine Learning & 
       Principles and Practice of knowledge discovery in databases},
-       link = {papers/saha-joty-hasan-ecml-17.pdf},
        month = {September},
        pages = {xx--xx},
        publisher = {Springer},
        series = {ECML-PKDD'17},
        title = {CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec},
+       url = {papers/saha-joty-hasan-ecml-17.pdf},
        year = {2017}
       }
-      
       
   -
     layout: paper
@@ -2366,31 +2334,31 @@
       Proceedings of the 26th ACM International Conference on Information and Knowledge Management (<b>CIKM'17</b>)
     doc-url: papers/saha-joty-hassan-hasan-cikm-17.pdf
     abstract: >
-      Vector representation of sentences is important for many text processing tasks that involve classifying, clustering, or ranking sentences. For solving these tasks, bag-of-word based representation has been used for a long time. In recent years, distributed representation of sentences learned by neural models from unlabeled data has been shown to outperform traditional bag-of-words representations. However, most existing methods belonging to the neural models consider only the content of a sentence, and disregard its relations with other sentences in the context. In this paper, we first characterize two types of contexts depending on their scope and utility. We then propose two approaches to incorporate  contextual information into content-based models. We evaluate our sentence representation models in a setup, where context is available to infer sentence vectors. Experimental results demonstrate that our proposed models outshine existing models on three fundamental tasks, such as, classifying, clustering, and ranking sentences.
+      Vector representation of sentences is important for many text processing tasks that involve classifying, clustering, or ranking sentences. For solving these tasks, bag-of-word based representation has been used for a long time. In recent years,  distributed representation of sentences learned by neural models from unlabeled data has  been shown to outperform traditional bag-of-words representations.  However, most existing methods belonging to the neural models consider only  the content of a sentence, and disregard its relations with other sentences  in the context. In this paper, we first characterize two types of contexts  depending on their scope and utility. We then propose two approaches to incorporate  contextual information into content-based models. We evaluate our sentence representation  models in a setup, where context is available to infer sentence vectors.  Experimental results demonstrate that our proposed models outshine existing  models on three fundamental tasks, such as, classifying, clustering, and ranking sentences.
     bibtex: >
       @inproceedings{saha-joty-hassan-hasan-cikm-17,
        abstract = {Vector representation of sentences is important for many text processing tasks that involve classifying, clustering, or ranking sentences. For solving these tasks, bag-of-word based
-      representation has been used for a long time. In recent years, distributed representation of sentences learned by neural models from unlabeled data has
-      been shown to outperform traditional bag-of-words representations.
-      However, most existing methods belonging to the neural models consider only
-      the content of a sentence, and disregard its relations with other sentences
-      in the context. In this paper, we first characterize two types of contexts
-      depending on their scope and utility. We then propose two approaches to incorporate  contextual information into content-based models. We evaluate our sentence representation
-      models in a setup, where context is available to infer sentence vectors.
-      Experimental results demonstrate that our proposed models outshine existing
+      representation has been used for a long time. In recent years, 
+      distributed representation of sentences learned by neural models from unlabeled data has 
+      been shown to outperform traditional bag-of-words representations. 
+      However, most existing methods belonging to the neural models consider only 
+      the content of a sentence, and disregard its relations with other sentences 
+      in the context. In this paper, we first characterize two types of contexts 
+      depending on their scope and utility. We then propose two approaches to incorporate  contextual information into content-based models. We evaluate our sentence representation 
+      models in a setup, where context is available to infer sentence vectors. 
+      Experimental results demonstrate that our proposed models outshine existing 
       models on three fundamental tasks, such as, classifying, clustering, and ranking sentences.},
        address = {Singapore},
        author = {Tanay Saha and Shafiq Joty and Naeemul Hassan and Mohammad Hasan},
        booktitle = {Proceedings of the 26th ACM International Conference on Information and Knowledge Management},
-       link = {papers/saha-joty-hassan-hasan-cikm-17.pdf},
        month = {November},
        pages = {xx--xx},
        publisher = {ACM},
        series = {CIKM'17},
        title = {Regularized and Retrofitted models for Learning Sentence Representation with Context},
+       url = {papers/saha-joty-hassan-hasan-cikm-17.pdf},
        year = {2017}
       }
-      
       
   -
     layout: paper
@@ -2418,15 +2386,14 @@
        address = {Tokyo, Japan},
        author = {Giovanni Da San Martino and Salvatore Romeo and Alberto Barron-Cedeno and Shafiq Joty and Lluís Màrquez and Alessandro Moschitti and Preslav Nakov},
        booktitle = {Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval},
-       link = {papers/martino-et-al-sigir-17.pdf},
        month = {September},
        pages = {1145--1148},
        publisher = {ACM},
        series = {SIGIR'17},
        title = {Cross-Language Question Re-ranking},
+       url = {papers/martino-et-al-sigir-17.pdf},
        year = {2017}
       }
-      
       
   -
     layout: paper
@@ -2442,7 +2409,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: 632-635
+    pages: xx-xx
     booktitle: >
       Proceedings of the Eleventh International Conference on Web and Social Media (<b>ICWSM'17</b>)
     doc-url: papers/nguyen-et-al-icwsm-17.pdf
@@ -2455,15 +2422,13 @@
        author = {Dat Nguyen and Kamela Ali Al Mannai and Shafiq Joty and Hassan Sajjad and Muhammad Imran and Prasenjit Mitra},
        booktitle = {Proceedings of the Eleventh International Conference on Web and Social
       Media},
-       link = {papers/nguyen-et-al-icwsm-17.pdf},
-       month = {May},
-       pages = {632--635},
+       pages = {xx--xx},
        publisher = {AAAI},
        series = {ICWSM'17},
        title = {Robust Classification of Crisis-Related Data on Social Networks Using Convolutional Neural Networks},
+       url = {papers/nguyen-et-al-icwsm-17.pdf},
        year = {2017}
       }
-      
       
   -
     layout: paper
@@ -2491,14 +2456,13 @@
        address = {Limassol, Cyprus},
        author = {Enamul Hoque and Shafiq Joty and Lluís Màrquez and Giuseppe Carenini},
        booktitle = {Proceedings of the 2017 international conference on Intelligent user interfaces},
-       link = {http://dl.acm.org/citation.cfm?id=3025210},
        pages = {161--172},
        publisher = {ACM},
        series = {IUI'17},
-       title = {CQAVis: Visual Text Analytics for Community Question Answering},
+       title = {{CQAVis: Visual Text Analytics for Community Question Answering}},
+       url = {http://dl.acm.org/citation.cfm?id=3025210},
        year = {2017}
       }
-      
       
   -
     layout: paper
@@ -2518,20 +2482,22 @@
     booktitle: >
       Proceedings of the Neu-IR 2017 SIGIR Workshop on Neural Information Retrieval (<b>NeuIR'17</b>)
     doc-url: papers/nguyen-joty-boussaha-rijke-neuir-17.pdf
+    abstract: >
+      Discussion forums are an important source of information. They are often used to answer specific questions a user might have and to discover more about a topic of interest. Discussions in these forums may evolve in intricate ways, making it difficult for users to follow the flow of ideas. We propose a novel approach for automatically identifying the underlying thread structure of a forum discussion. Our approach is based on a neural model that computes coherence scores of possible reconstructions and then selects the highest scoring, i.e., the most coherent one. Preliminary experiments demonstrate promising results outperforming a number of strong baseline methods.
     bibtex: >
       @inproceedings{nguyen-joty-boussaha-rijke-neuir-17,
+       abstract = {Discussion forums are an important source of information. They are often used to answer specific questions a user might have and to discover more about a topic of interest. Discussions in these forums may evolve in intricate ways, making it difficult for users to follow the flow of ideas. We propose a novel approach for automatically identifying the underlying thread structure of a forum discussion. Our approach is based on a neural model that computes coherence scores of possible reconstructions and then selects the highest scoring, i.e., the most coherent one. Preliminary experiments demonstrate promising results outperforming a number of strong baseline methods.},
        address = {Tokyo, Japan},
        author = {Dat Nguyen and Shafiq Joty and Basma Boussaha and Maarten Rijke},
        booktitle = {Proceedings of the Neu-IR 2017 SIGIR Workshop on Neural Information Retrieval},
-       link = {papers/nguyen-joty-boussaha-rijke-neuir-17.pdf},
        month = {Aug},
        pages = {xx--xx},
        publisher = {ACM},
        series = {NeuIR'17},
        title = {Thread Reconstruction in Conversational Data using Neural Coherence Models},
+       url = {papers/nguyen-joty-boussaha-rijke-neuir-17.pdf},
        year = {2017}
       }
-      
       
   -
     layout: paper
@@ -2558,13 +2524,12 @@
        author = {Phi Xuan Nguyen and Shafiq Joty},
        issue = {},
        journal = {arXiv (* not peer reviewed)},
-       link = {https://arxiv.org/abs/1810.03444},
        pages = {},
        publisher = {arXiv.org},
-       title = {Phrase-Based Attentions},
+       title = {{Phrase-Based Attentions}},
+       url = {https://arxiv.org/abs/1810.03444},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -2605,15 +2570,14 @@
       domain-invariant representations, and (iv) the global CRF model improves over local models.},
        author = {Shafiq Joty and Tasnim Mohiuddin},
        journal = {Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)},
-       link = {https://www.mitpressjournals.org/doi/pdf/10.1162/coli_a_00339},
        number = {4},
        pages = {859 -- 894},
        publisher = {MIT Press},
-       title = {Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach},
+       title = {{Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach}},
+       url = {https://www.mitpressjournals.org/doi/pdf/10.1162/coli_a_00339},
        volume = {44},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -2640,7 +2604,8 @@
        abstract = {We address, for the first time, the joint resolution
       of two important Question Answering
       tasks on community forums: given a new
-      question, (i) find related existing questions, and (ii) find relevant answers to the new question.
+      question, (i) find related existing questions,
+      and (ii) find relevant answers to the new question.
       We further use an auxiliary task to complement
       the previous two, i.e., (iii) find good
       answers with respect to the thread question
@@ -2652,7 +2617,8 @@
       joint learning over arbitrary graph
       structures. The experimental results show that
       DNNs alone achieve competitive results when
-      trained to produce the embeddings. Furthermore, the CRF model is able to effectively
+      trained to produce the embeddings. Furthermore,
+      the CRF model is able to effectively
       make use of the embeddings and the dependencies
       between the tasks to improve results
       significantly and consistently across a variety
@@ -2661,13 +2627,12 @@
        address = {Brussels, Belgium},
        author = {Joty, Shafiq  and  M\`{a}rquez, Llu\'{i}s  and  Nakov, Preslav},
        booktitle = {Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},
-       link = {http://aclweb.org/anthology/D18-1452},
        pages = {4196 -- 4207},
        series = {EMNLP'18},
        title = {Joint Multitask Learning for Community Question Answering Using Task-Specific Embeddings},
+       url = {http://aclweb.org/anthology/D18-1452},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -2695,14 +2660,13 @@
        address = {Melbourne, Australia},
        author = {Shafiq Joty* and Tasnim Mohiuddin* and Dat Nguyen*},
        booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
-       link = {http://aclweb.org/anthology/P18-1052},
        pages = {558–-568},
        publisher = {Association for Computational Linguistics},
        series = {ACL'18},
-       title = {Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach},
+       title = {{Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach}},
+       url = {http://aclweb.org/anthology/P18-1052},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -2744,14 +2708,13 @@
        address = {Melbourne, Australia},
        author = {Firoj Alam and Shafiq Joty and Muhammad Imran},
        booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
-       link = {http://aclweb.org/anthology/P18-1099},
        pages = {1077–-1087},
        publisher = {Association for Computational Linguistics},
        series = {ACL'18},
-       title = {Domain Adaptation with Adversarial Training and Graph Embeddings},
+       title = {{Domain Adaptation with Adversarial Training and Graph Embeddings}},
+       url = {http://aclweb.org/anthology/P18-1099},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -2779,14 +2742,13 @@
        address = {Munich, Germany},
        author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Gang Wang},
        booktitle = {European Conference on Computer Vision},
-       link = {https://arxiv.org/abs/1803.05526},
        pages = {xx--xx},
        publisher = {Springer},
        series = {ECCV'18},
        title = {Unpaired Image Captioning by Language Pivoting},
+       url = {https://arxiv.org/abs/1803.05526},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -2814,14 +2776,13 @@
        address = {Munich, Germany},
        author = {Qing Li and Qingyi Tao and Shafiq Joty and Jianfei Cai and Jiebo Luo},
        booktitle = {European Conference on Computer Vision},
-       link = {https://arxiv.org/abs/1803.07464},
        pages = {xx--xx},
        publisher = {Springer},
        series = {ECCV'18},
        title = {VQA-E: Explaining, Elaborating, and Enhancing Your Answers for Visual Questions},
+       url = {https://arxiv.org/abs/1803.07464},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -2842,29 +2803,28 @@
       Computer Vision and Pattern Recognition (<b>CVPR'18, Spotlight</b>)
     doc-url: https://arxiv.org/abs/1711.06420
     abstract: >
-      Textual-visual cross-modal retrieval has been a hot research topic in both computer vision and natural language processing communities. Learning appropriate representations for multi-modal data is crucial for the cross-modal retrieval performance. Unlike existing image-text retrieval approaches that embed image-text pairs as single feature vectors in a common representational space, we propose to incorporate generative processes into the cross-modal feature embedding, through which we are able to learn not only the global abstract features but also the local grounded features. Extensive experiments show that our framework can well match images and sentences with complex content, and achieve the state-of-the-art cross-modal retrieval results on MSCOCO dataset.
+      Textual-visual cross-modal retrieval has been a hot research topic in both  computer vision and natural language processing communities. Learning appropriate  representations for multi-modal data is crucial for the cross-modal retrieval performance.  Unlike existing image-text retrieval approaches that embed image-text pairs as single  feature vectors in a common representational space, we propose to incorporate generative  processes into the cross-modal feature embedding, through which we are able to learn not  only the global abstract features but also the local grounded features. Extensive experiments  show that our framework can well match images and sentences with complex content, and  achieve the state-of-the-art cross-modal retrieval results on MSCOCO dataset.
     bibtex: >
       @inproceedings{gu-et-al-cvpr-18,
-       abstract = {Textual-visual cross-modal retrieval has been a hot research topic in both
-      computer vision and natural language processing communities. Learning appropriate
-      representations for multi-modal data is crucial for the cross-modal retrieval performance.
-      Unlike existing image-text retrieval approaches that embed image-text pairs as single
-      feature vectors in a common representational space, we propose to incorporate generative
-      processes into the cross-modal feature embedding, through which we are able to learn not
-      only the global abstract features but also the local grounded features. Extensive experiments
-      show that our framework can well match images and sentences with complex content, and
+       abstract = {Textual-visual cross-modal retrieval has been a hot research topic in both 
+      computer vision and natural language processing communities. Learning appropriate 
+      representations for multi-modal data is crucial for the cross-modal retrieval performance. 
+      Unlike existing image-text retrieval approaches that embed image-text pairs as single 
+      feature vectors in a common representational space, we propose to incorporate generative 
+      processes into the cross-modal feature embedding, through which we are able to learn not 
+      only the global abstract features but also the local grounded features. Extensive experiments 
+      show that our framework can well match images and sentences with complex content, and 
       achieve the state-of-the-art cross-modal retrieval results on MSCOCO dataset.},
        address = {Salt Lake City, UTAH, USA},
        author = {Jiuxiang Gu and Jianfei Cai and Shafiq Joty and Li Niu and Gang Wang},
        booktitle = {Computer Vision and Pattern Recognition},
-       link = {https://arxiv.org/abs/1711.06420},
        pages = {xx--xx},
        publisher = {IEEE},
        series = {CVPR'18, Spotlight},
        title = {Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models},
+       url = {https://arxiv.org/abs/1711.06420},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -2892,15 +2852,14 @@
        address = {Turin, Italy},
        author = {Chin Yao and Kaiqi Zhao and Shafiq Joty and Gao Cong},
        booktitle = {Proceedings of the 27th ACM International Conference on Information and Knowledge Management},
-       link = {https://dl.acm.org/citation.cfm?id=3271810},
        month = {October},
        pages = {147 -- 156},
        publisher = {ACM},
        series = {CIKM'18},
        title = {Aspect-based Neural Recommender},
+       url = {https://dl.acm.org/citation.cfm?id=3271810},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -2931,7 +2890,8 @@
       a sentence into elementary discourse units. Traditional
       solutions to the two tasks heavily rely on
       carefully designed features. The recently proposed
-      neural models do not need manual feature engineering, but they either suffer from sparse boundary
+      neural models do not need manual feature engineering,
+      but they either suffer from sparse boundary
       tags or they cannot well handle the issue of variable
       size output vocabulary. Our generic end-to-end
       segmentation model, named SEGBOT, uses a bidirectional
@@ -2949,15 +2909,14 @@
        address = {Stockholm, Sweden},
        author = {Jing Li and Aixin Sun and Shafiq Joty},
        booktitle = {Proceedings of the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence},
-       link = {https://www.ijcai.org/proceedings/2018/0579.pdf},
        month = {July},
        pages = {4166 -- 4172},
        publisher = {},
        series = {IJCAI-ECAI-2018},
        title = {SegBot: A Generic Neural Text Segmentation Model with Pointer Network},
+       url = {https://www.ijcai.org/proceedings/2018/0579.pdf},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -2977,20 +2936,19 @@
       IEEE Big Data 2018
     doc-url: papers/karan-et-al-ieee-big-data-18.pdf
     abstract: >
-      Sleep plays a vital role in human health, both mental and physical. Sleep disorders like sleep apnea are increasing in prevalence, with the rapid increase in factors like obesity.  Sleep apnea is most commonly treated with Continuous Positive Air Pressure (CPAP) therapy. Presently, however, there is no mechanism to monitor a patient's progress with CPAP. Accurate detection of sleep stages from CPAP flow signal is crucial for such a mechanism.  We propose, for the first time, an automated sleep staging model based only on the flow signal. Deep neural networks have recently shown high accuracy on sleep staging by eliminating handcrafted features. However, these methods focus exclusively on extracting informative features from the input signal, without paying much attention to the dynamics of sleep stages in the output sequence.  We propose an end-to-end framework that uses a combination of deep convolution and recurrent neural networks to extract high-level features from raw flow signal with a structured output layer based on a conditional random field to model the temporal transition structure of the sleep stages. We improve upon the previous methods by 10\% using our model, that can be augmented to the previous sleep staging deep learning methods. We also show that our method can be used to accurately track sleep metrics like sleep efficiency calculated from sleep stages that can be deployed for monitoring the response of CPAP therapy on sleep apnea patients. Apart from the technical contributions, we expect this study to motivate new research questions in sleep science.
+      Sleep plays a vital role in human health, both mental and physical. Sleep disorders like sleep apnea are increasing in prevalence, with the rapid increase in factors like obesity.  Sleep apnea is most commonly treated with Continuous Positive Air Pressure (CPAP) therapy. Presently, however, there is no mechanism to monitor a patient's progress with CPAP. Accurate detection of sleep stages from CPAP flow signal is crucial for such a mechanism.  We propose, for the first time, an automated sleep staging model based only on the flow signal. Deep neural networks have recently shown high accuracy on sleep staging by eliminating handcrafted features. However, these methods focus exclusively on extracting informative features from the input signal, without paying much attention to the dynamics of sleep stages in the output sequence.  We propose an end-to-end framework that uses a combination of deep convolution and recurrent neural networks to extract high-level features from raw flow signal with a structured output layer based on a conditional random field to model the temporal transition structure of the sleep stages. We improve upon the previous methods by 10\%  using our model, that can be augmented to the previous sleep staging deep learning methods. We also show that our method can be used to accurately track sleep metrics like sleep efficiency calculated from sleep stages that can be deployed for monitoring the response of CPAP therapy on sleep apnea patients. Apart from the technical contributions, we expect this study to motivate new research questions in sleep science.
     bibtex: >
       @inproceedings{karan-et-al-ieee-big-data-18,
-       abstract = {Sleep plays a vital role in human health, both mental and physical. Sleep disorders like sleep apnea are increasing in prevalence, with the rapid increase in factors like obesity.  Sleep apnea is most commonly treated with Continuous Positive Air Pressure (CPAP) therapy. Presently, however, there is no mechanism to monitor a patient's progress with CPAP. Accurate detection of sleep stages from CPAP flow signal is crucial for such a mechanism.  We propose, for the first time, an automated sleep staging model based only on the flow signal. Deep neural networks have recently shown high accuracy on sleep staging by eliminating handcrafted features. However, these methods focus exclusively on extracting informative features from the input signal, without paying much attention to the dynamics of sleep stages in the output sequence.  We propose an end-to-end framework that uses a combination of deep convolution and recurrent neural networks to extract high-level features from raw flow signal with a structured output layer based on a conditional random field to model the temporal transition structure of the sleep stages. We improve upon the previous methods by 10\%
+       abstract = {Sleep plays a vital role in human health, both mental and physical. Sleep disorders like sleep apnea are increasing in prevalence, with the rapid increase in factors like obesity.  Sleep apnea is most commonly treated with Continuous Positive Air Pressure (CPAP) therapy. Presently, however, there is no mechanism to monitor a patient's progress with CPAP. Accurate detection of sleep stages from CPAP flow signal is crucial for such a mechanism.  We propose, for the first time, an automated sleep staging model based only on the flow signal. Deep neural networks have recently shown high accuracy on sleep staging by eliminating handcrafted features. However, these methods focus exclusively on extracting informative features from the input signal, without paying much attention to the dynamics of sleep stages in the output sequence.  We propose an end-to-end framework that uses a combination of deep convolution and recurrent neural networks to extract high-level features from raw flow signal with a structured output layer based on a conditional random field to model the temporal transition structure of the sleep stages. We improve upon the previous methods by 10\% 
       using our model, that can be augmented to the previous sleep staging deep learning methods. We also show that our method can be used to accurately track sleep metrics like sleep efficiency calculated from sleep stages that can be deployed for monitoring the response of CPAP therapy on sleep apnea patients. Apart from the technical contributions, we expect this study to motivate new research questions in sleep science.},
        address = {},
        author = {Karan Aggarwal and Swaraj Khadanga and Shafiq Joty and Louis Kazaglis and Jaideep Srivastava},
        booktitle = {IEEE Big Data 2018},
-       link = {papers/karan-et-al-ieee-big-data-18.pdf},
        publisher = {IEEE},
        title = {A Structured Learning Approach with Neural Conditional Random Fields for Sleep Staging},
+       url = {papers/karan-et-al-ieee-big-data-18.pdf},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -3018,17 +2976,16 @@
        address = {Rio de Janeiro, Brazil},
        author = {Muhammad Ebraheem and Saravanan Thirumuruganathan and Shafiq Joty and Mourad Ouzzani and Nan Tang},
        booktitle = {The Forty-fourth International Conference on Very Large Data Bases},
-       link = {http://www.vldb.org/pvldb/vol11/p1454-ebraheem.pdf},
        month = {August},
        number = {10},
        pages = {1454 -- 1467},
        publisher = {},
        series = {VLDB-2018},
        title = {Distributed Representations of Tuples for Entity Resolution},
+       url = {http://www.vldb.org/pvldb/vol11/p1454-ebraheem.pdf},
        volume = {11},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -3057,17 +3014,20 @@
       structure, summarization and sentiment detection, and group dynamics. We provide examples of specific
       NLP tasks within those three areas, how they relate to one another, their applications, and how we
       evaluate task performance.
-      We will begin by discussing motivations and applications of applying NLP methods to conversations, including downstream applications that could benefit. Attendees will hear about the challenges of working
+      We will begin by discussing motivations and applications of applying NLP methods to conversations,
+      including downstream applications that could benefit. Attendees will hear about the challenges of working
       with noisy data, and examples of datasets of spoken and/or written conversations.
       The first part of the tutorial covers conversational structures, the basic building blocks for working
       with conversational data. Participants will learn about computational methods for uncovering thread and
       topic structures of a conversation, detecting dialogue acts and adjacency pairs, identifying participant
-      roles (where relevant), and how to treat disfluencies. We will cover methods for both synchronous (e.g., meeting, phone) and asynchronous (e.g., forum, email) conversations.
+      roles (where relevant), and how to treat disfluencies. We will cover methods for both synchronous (e.g.,
+      meeting, phone) and asynchronous (e.g., forum, email) conversations.
       In the second part of the tutorial, we will focus on sentiment analysis and summarization. Attendees
       will learn about the related, overlapping tasks of detecting sentiment, subjectivity, and opinions. We will
       cover unsupervised and supervised approaches, as well as multimodal sentiment detection. Participants
       will learn about intrinsic vs. extrinsic evaluation of sentiment analysis methods for conversations.
-      For summarization, we will cover core topics, such as the notions of extractive vs. abstractive summarization, and summarization vs. compression. In particular, participants will learn about the limits of
+      For summarization, we will cover core topics, such as the notions of extractive vs. abstractive summarization,
+      and summarization vs. compression. In particular, participants will learn about the limits of
       extractive summarization on noisy and opinion-filled conversation data. We will particularly emphasize
       the question of how to evaluate automatically generated summaries, including some of the controversial
       history surrounding automatic summarization metrics that are widely used.
@@ -3082,14 +3042,13 @@
       Shafiq Joty* and
       Giuseppe Carenini*},
        booktitle = {Proceedings of the 27th International Conference on Computational Linguistics: Tutorial Abstracts},
-       link = {https://sites.google.com/view/nlpforconversations},
        month = {August},
        pages = {1--4},
        series = {COLING'18},
        title = {NLP for Conversations: Sentiment, Summarization, and Group Dynamics},
+       url = {https://sites.google.com/view/nlpforconversations},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -3118,26 +3077,29 @@
       texts at several levels, which can support many text mining
       applications. This involves identifying the topic structure, the
       coherence structure, the coreference structure, and the conversation
-      structure for conversational discourse. Taken together, these structures can inform text summarization, essay scoring, sentiment analysis, machine translation, information extraction, question answering, and thread recovery.
+      structure for conversational discourse. Taken together,
+      these structures can inform text summarization, essay scoring,
+      sentiment analysis, machine translation, information extraction,
+      question answering, and thread recovery.
       The tutorial starts with an overview of basic concepts in
       discourse analysis – monologue vs. conversation, synchronous
       vs. asynchronous conversation, and key linguistic structures in
       discourse analysis. It then covers traditional machine learning
-      methods along with the most recent works using deep learning, and compare their performances on benchmark datasets. For
+      methods along with the most recent works using deep learning,
+      and compare their performances on benchmark datasets. For
       each discourse structure we describe, we show its applications in
       downstream text mining tasks.},
        address = {Singapore},
        author = {Shafiq Joty and Giuseppe Carenini and Raymond Ng and Gabriel Murray},
        booktitle = {IEEE International Conference on Data Mining: Tutorial Abstracts},
-       link = {https://ntunlpsg.github.io/project/icdmtutorial/},
        month = {November},
        pages = {1--2},
        series = {ICDM'18},
        title = {Discourse Processing and Its Applications in Text
       Mining},
+       url = {https://ntunlpsg.github.io/project/icdmtutorial/},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -3157,21 +3119,36 @@
     booktitle: >
       Proceedings of the Twelfth International Conference on Web and Social Media (<b>ICWSM'18</b>)
     doc-url: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/download/17815/17049
+    abstract: >
+      During time-critical situations such as natural disasters, rapid classification of data posted on social networks by affected people is useful for humanitarian organizations to gain situational awareness and to plan response efforts. However, the scarcity of labeled data in the early hours of a crisis hinders machine learning tasks thus delays crisis response. In this work, we propose to use an inductive semi-supervised technique to utilize unlabeled data, which is often abundant at the onset of a crisis event, along with fewer labeled data. Specifically, we adopt a graph-based deep learning framework to learn an inductive semi-supervised model. We use two realworld crisis datasets from Twitter to evaluate the proposed approach. Our results show significant improvements using unlabeled data as compared to only using labeled data.
     bibtex: >
       @inproceedings{firoj-et-al-icwsm-18,
+       abstract = {During time-critical situations such as natural disasters, rapid
+      classification of data posted on social networks by affected
+      people is useful for humanitarian organizations to gain situational
+      awareness and to plan response efforts. However, the
+      scarcity of labeled data in the early hours of a crisis hinders
+      machine learning tasks thus delays crisis response. In this
+      work, we propose to use an inductive semi-supervised technique
+      to utilize unlabeled data, which is often abundant at the
+      onset of a crisis event, along with fewer labeled data. Specifically,
+      we adopt a graph-based deep learning framework to
+      learn an inductive semi-supervised model. We use two realworld
+      crisis datasets from Twitter to evaluate the proposed
+      approach. Our results show significant improvements using
+      unlabeled data as compared to only using labeled data.},
        address = {Stanford, California},
        author = {Firoj Alam and Shafiq Joty and Muhammad Imran},
        booktitle = {Proceedings of the Twelfth International Conference on Web and Social
       Media},
-       link = {https://www.aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/download/17815/17049},
        month = {June},
        pages = {556 -- 559},
        publisher = {AAAI},
        series = {ICWSM'18},
        title = {Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets},
+       url = {https://www.aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/download/17815/17049},
        year = {2018}
       }
-      
       
   -
     layout: paper
@@ -3199,15 +3176,14 @@
        address = {Hong Kong},
        author = {Linlin Liu* and Xiang Lin* and Shafiq Joty and Simeng Han and Lidong Bing},
        booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://www.aclweb.org/anthology/D19-1093.pdf},
        numpages = {9},
        pages = {1007–-1017},
        publisher = {ACL},
        series = {EMNLP'19},
        title = {Hierarchical Pointer Net Parsing},
+       url = {https://www.aclweb.org/anthology/D19-1093.pdf},
        year = {2019}
       }
-      
       
   -
     layout: paper
@@ -3235,15 +3211,14 @@
        address = {Hong Kong},
        author = {Han-Cheol Moon* and Tasnim Mohiuddin* and Shafiq Joty* and Chi Xu},
        booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://www.aclweb.org/anthology/D19-1231/},
        numpages = {9},
        pages = {2262–2272},
        publisher = {ACL},
        series = {EMNLP'19},
        title = {A Unified Neural Coherence Model},
+       url = {https://www.aclweb.org/anthology/D19-1231/},
        year = {2019}
       }
-      
       
   -
     layout: paper
@@ -3271,15 +3246,14 @@
        address = {Hong Kong},
        author = {Prathyusha Jwalapuram and Shafiq Joty and Irina Temnikova and Preslav Nakov},
        booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://www.aclweb.org/anthology/D19-1294/},
        numpages = {9},
        pages = {2964–2975},
        publisher = {ACL},
        series = {EMNLP'19},
        title = {Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test Suite},
+       url = {https://www.aclweb.org/anthology/D19-1294/},
        year = {2019}
       }
-      
       
   -
     layout: paper
@@ -3307,15 +3281,14 @@
        address = {Hong Kong},
        author = {Swaraj Khadanga and Karan Aggarwal and Shafiq Joty and Jaideep Srivastava},
        booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://www.aclweb.org/anthology/D19-1678.pdf},
        numpages = {5},
        pages = {6432–6437},
        publisher = {ACL},
        series = {EMNLP'19},
        title = {Using Clinical Notes with Multimodal Learning for ICU Management},
+       url = {https://www.aclweb.org/anthology/D19-1678.pdf},
        year = {2019}
       }
-      
       
   -
     layout: paper
@@ -3343,15 +3316,14 @@
        address = {Florence, Italy},
        author = {Xiang Lin* and Shafiq Joty* and Prathyusha Jwalapuram and Saiful Bari},
        booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://www.aclweb.org/anthology/P19-1410/},
        numpages = {9},
        pages = {4190–4200},
        publisher = {ACL},
        series = {ACL'19},
        title = {A Unified Linear-Time Framework for Sentence-Level Discourse Parsing},
+       url = {https://www.aclweb.org/anthology/P19-1410/},
        year = {2019}
       }
-      
       
   -
     layout: paper
@@ -3372,23 +3344,22 @@
       Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (<b>ACL'19</b>)
     doc-url: https://www.aclweb.org/anthology/P19-1244/
     abstract: >
-      Claim verification is generally a task of verifying the veracity of a given claim, which is critical to many downstream applications. It is cumbersome and inefficient for human fact-checkers to find consistent evidences, from which solid verdict could be inferred against the claim. In this paper, we propose a novel end-to-end hierarchical attention network focusing on learning to represent coherent evidences as well as their semantic relatedness with the claim. Our model consists of three main components: 1) A coherence-based attention layer embeds coherent evidences considering the claim and sentences from relevant articles; 2) An entailment-based attention layer attends on sentences that can semantically infer the claim on top of the first attention; and 3) An output layer predicts the verdict based on the the embedded evidences. Experimental results on three public benchmark datasets show that our proposed model outperforms a set of state-of-the-art baselines.
+      Claim verification is generally a task of verifying the veracity of a given claim, which is critical to many downstream applications. It is cumbersome and inefficient for human fact-checkers to find consistent evidences, from which solid verdict could be inferred against the claim. In this paper, we propose a novel end-to-end hierarchical attention network focusing on learning to represent coherent evidences as well as their semantic relatedness with the claim. Our model consists of three main components: 1) A coherence-based attention layer embeds coherent evidences considering the claim and sentences from relevant articles; 2) An entailment-based attention layer attends on sentences that can semantically infer the claim on top of the first attention; and 3) An output layer predicts the verdict based on the the embedded evidences.  Experimental results on three public benchmark datasets show that our proposed model outperforms a set of state-of-the-art baselines.
     bibtex: >
       @inproceedings{jing-et-al-acl-19,
-       abstract = {Claim verification is generally a task of verifying the veracity of a given claim, which is critical to many downstream applications. It is cumbersome and inefficient for human fact-checkers to find consistent evidences, from which solid verdict could be inferred against the claim. In this paper, we propose a novel end-to-end hierarchical attention network focusing on learning to represent coherent evidences as well as their semantic relatedness with the claim. Our model consists of three main components: 1) A coherence-based attention layer embeds coherent evidences considering the claim and sentences from relevant articles; 2) An entailment-based attention layer attends on sentences that can semantically infer the claim on top of the first attention; and 3) An output layer predicts the verdict based on the the embedded evidences.
+       abstract = {Claim verification is generally a task of verifying the veracity of a given claim, which is critical to many downstream applications. It is cumbersome and inefficient for human fact-checkers to find consistent evidences, from which solid verdict could be inferred against the claim. In this paper, we propose a novel end-to-end hierarchical attention network focusing on learning to represent coherent evidences as well as their semantic relatedness with the claim. Our model consists of three main components: 1) A coherence-based attention layer embeds coherent evidences considering the claim and sentences from relevant articles; 2) An entailment-based attention layer attends on sentences that can semantically infer the claim on top of the first attention; and 3) An output layer predicts the verdict based on the the embedded evidences. 
       Experimental results on three public benchmark datasets show that our proposed model outperforms a set of state-of-the-art baselines.},
        address = {Florence, Italy},
        author = {Jing Ma and Wei Gao and Shafiq Joty and Kam-Fai Wong},
        booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://www.aclweb.org/anthology/P19-1244/},
        numpages = {9},
        pages = {2561–2571},
        publisher = {ACL},
        series = {ACL'19},
        title = {Sentence-Level Evidence Embedding for End-to-End Claim Verification with Hierarchical Attention Networks},
+       url = {https://www.aclweb.org/anthology/P19-1244/},
        year = {2019}
       }
-      
       
   -
     layout: paper
@@ -3416,13 +3387,12 @@
        address = {Florence, Italy},
        author = {Shafiq Joty* and Giuseppe Carenini* and Raymond Ng and Gabriel Murray},
        booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts},
-       link = {papers/joty-et-al-acl-19.pdf},
        pages = {1--6},
        series = {ACL'19},
        title = {Discourse Processing and Its Applications},
+       url = {papers/joty-et-al-acl-19.pdf},
        year = {2019}
       }
-      
       
   -
     layout: paper
@@ -3450,14 +3420,13 @@
        address = {Seoul, Korea},
        author = {Jiuxiang Gu and Shafiq Joty and Jianfei Cai and Handong Zhao and Xu Yang and Gang Wang},
        booktitle = {Proceedings of the International Conference on Computer Vision},
-       link = {https://openaccess.thecvf.com/content_ICCV_2019/html/Gu_Unpaired_Image_Captioning_via_Scene_Graph_Alignments_ICCV_2019_paper.html},
        pages = {10323-10332},
        publisher = {IEEE},
        series = {ICCV'19},
        title = {Unpaired Image Captioning via Scene Graph Alignments},
+       url = {https://openaccess.thecvf.com/content_ICCV_2019/html/Gu_Unpaired_Image_Captioning_via_Scene_Graph_Alignments_ICCV_2019_paper.html},
        year = {2019}
       }
-      
       
   -
     layout: paper
@@ -3485,15 +3454,14 @@
        address = {Nice, France},
        author = {Xiangxi Shi and Jianfei Cai and Shafiq Joty and Jiuxiang Gu},
        booktitle = {Proceedings of the 27th ACM International Conference on Multimedia},
-       link = {https://dl.acm.org/doi/10.1145/3343031.3351060},
        numpages = {10},
        pages = {818–826},
        publisher = {ACM},
        series = {ACMMM'19},
        title = {Watch It Twice: Video Captioning with a Refocused Video Encoder},
+       url = {https://dl.acm.org/doi/10.1145/3343031.3351060},
        year = {2019}
       }
-      
       
   -
     layout: paper
@@ -3540,15 +3508,14 @@
        address = {Minneapolis, USA},
        author = {Tasnim Mohiuddin and Shafiq Joty},
        booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-       link = {https://www.aclweb.org/anthology/N19-1386/},
        numpages = {9},
        pages = {3857–3867},
        publisher = {ACL},
        series = {NAACL'19},
        title = {Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training},
+       url = {https://www.aclweb.org/anthology/N19-1386/},
        year = {2019}
       }
-      
       
   -
     layout: paper
@@ -3575,7 +3542,8 @@
        abstract = {We address the problem of speech act recognition
       (SAR) in asynchronous conversations
       (e.g., forums, emails). However, unlike
-      synchronous conversations (e.g., meetings, phone), asynchronous domains lack large labeled
+      synchronous conversations (e.g., meetings,
+      phone), asynchronous domains lack large labeled
       datasets to train an effective SAR model.
       In this paper, we propose methods to effectively
       leverage abundant unlabeled conversational
@@ -3590,22 +3558,22 @@
       Second, we improve our initial SAR models
       by semi-supervised learning in the form of
       pretrained word embeddings learned from a
-      large unlabeled conversational corpus. Finally, we employ adversarial training to improve the
+      large unlabeled conversational corpus. Finally,
+      we employ adversarial training to improve the
       results further by leveraging the labeled data
       from synchronous domains and by explicitly
       modeling the shift in two domains.},
        address = {Minneapolis, USA},
        author = {Tasnim Mohiuddin* and Thanh-Tung Nguyen* and Shafiq Joty*},
        booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-       link = {https://www.aclweb.org/anthology/N19-1134/},
        numpages = {9},
        pages = {1326–1336},
        publisher = {ACL},
        series = {NAACL'19},
        title = {Adaptation of Hierarchical Structured Models for Speech Act Recognition in Asynchronous Conversation},
+       url = {https://www.aclweb.org/anthology/N19-1134/},
        year = {2019}
       }
-      
       
   -
     layout: paper
@@ -3633,15 +3601,14 @@
        address = {Honolulu, Hawaii},
        author = {Karan Aggarwal and Shafiq Joty and Luis Fernandez-Luque and Jaideep Srivastava},
        booktitle = {Thirty-Third AAAI Conference on Artificial Intelligence},
-       link = {https://arxiv.org/abs/1811.06847},
        month = {September},
        pages = {834 -- 841},
        publisher = {AAAI},
        series = {AAAI'19},
        title = {Adversarial Unsupervised Representation Learning for Activity Time-Series},
+       url = {https://arxiv.org/abs/1811.06847},
        year = {2019}
       }
-      
       
   -
     layout: paper
@@ -3673,15 +3640,14 @@
        address = {Brighton, UK},
        author = {Sameer Khurana and Shafiq Joty and Ahmed Ali and James Glass},
        booktitle = {International Conference on Acoustics, Speech, and Signal Processing},
-       link = {https://groups.csail.mit.edu/sls/publications/2019/SameerKhurana_ICASSP-2019.pdf},
        month = {September},
        pages = {6540 -- 6544},
        publisher = {IEEE},
        series = {ICASSP'19},
        title = {A Fatorial Deep Markov Model For Unsupervised Disentangled Representation Learning From Speech},
+       url = {https://groups.csail.mit.edu/sls/publications/2019/SameerKhurana_ICASSP-2019.pdf},
        year = {2019}
       }
-      
       
   -
     layout: paper
@@ -3701,20 +3667,40 @@
     booktitle: >
       Proceedings of 45th ACM SIGMOD International Conference on Management of Data (Demo) (<b>SIGMOD'19 (Demo)</b>)
     doc-url: papers/liu-et-al-sigmod-demo-19.pdf
+    abstract: >
+      A core component of a database systems course at the undergraduate level is the design and implementation of the query optimizer in a rdbms. The query optimization process produces a query execution plan (qep) which represents an execution strategy for a sql query. Unfortunately, in practice, it is often difficult for a student to comprehend the query execution strategy by perusing the qep, hindering her learning process. In this demonstration, we present a novel system called neuron that facilitates natural language interaction with qeps to enhance its understanding. neuron accepts a sql query (which may include joins, aggregation, nesting, among other things) as input, executes it, and generates a simplified natural language-based description (both in text and voice form) of the execution strategy deployed by the underlying rdbms. Furthermore, it facilitates understanding of various features related to the qep through a natural language-based question answering framework.We advocate that such tool, world’s first of its kind, can greatly enhance students’ learning of the query optimization topic.
     bibtex: >
       @inproceedings{liu-et-al-sigmod-demo-19,
+       abstract = {A core component of a database systems course at the undergraduate
+      level is the design and implementation of the
+      query optimizer in a rdbms. The query optimization process
+      produces a query execution plan (qep) which represents an
+      execution strategy for a sql query. Unfortunately, in practice,
+      it is often difficult for a student to comprehend the query execution
+      strategy by perusing the qep, hindering her learning
+      process. In this demonstration, we present a novel system
+      called neuron that facilitates natural language interaction
+      with qeps to enhance its understanding. neuron accepts a
+      sql query (which may include joins, aggregation, nesting,
+      among other things) as input, executes it, and generates a
+      simplified natural language-based description (both in text
+      and voice form) of the execution strategy deployed by the
+      underlying rdbms. Furthermore, it facilitates understanding
+      of various features related to the qep through a natural
+      language-based question answering framework.We advocate
+      that such tool, world’s first of its kind, can greatly enhance
+      students’ learning of the query optimization topic.},
        address = {Amsterdam, The Netherlands.},
        author = {Siyuan Liu and Sourav S Bhowmick and Wanlu Zhang and Shu Wang and Wanyi Huang and Shafiq Joty},
        booktitle = {Proceedings of 45th ACM SIGMOD International Conference on Management of Data (Demo)},
-       link = {papers/liu-et-al-sigmod-demo-19.pdf},
        month = {July},
        pages = {1953–1956},
        publisher = {ACM},
        series = {SIGMOD'19 (Demo)},
        title = {NEURON: Query Execution Plan Meets Natural Language Processing For Augmenting DB Education},
+       url = {papers/liu-et-al-sigmod-demo-19.pdf},
        year = {2019}
       }
-      
       
   -
     layout: paper
@@ -3741,12 +3727,11 @@
        address = {Vancouver, Canada},
        author = {Xuan-Phi Nguyen and Shafiq Joty and Wu Kui and Ai Ti Aw},
        booktitle = {2020 Conference on Neural Information Processing Systems},
-       link = {https://proceedings.neurips.cc/paper/2020/file/7221e5c8ec6b08ef6d3f9ff3ce6eb1d1-Paper.pdf},
        series = {NeurIPS'20},
-       title = {Data Diversification: An Elegant Strategy for Neural Machine Translation},
+       title = {{Data Diversification: An Elegant Strategy for Neural Machine Translation}},
+       url = {https://proceedings.neurips.cc/paper/2020/file/7221e5c8ec6b08ef6d3f9ff3ce6eb1d1-Paper.pdf},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -3773,12 +3758,11 @@
        address = {Vancouver, Canada},
        author = {Jiuxiang Gu and Jason Kuen and Shafiq Joty and Jianfei Cai and Vlad Morariu and Handong Zhao and Tong Sun},
        booktitle = {2020 Conference on Neural Information Processing Systems},
-       link = {https://papers.nips.cc/paper/2020/file/13f320e7b5ead1024ac95c3b208610db-Paper.pdf},
        series = {NeurIPS'20},
-       title = {Self-Supervised Relationship Probing},
+       title = {{Self-Supervised Relationship Probing}},
+       url = {https://papers.nips.cc/paper/2020/file/13f320e7b5ead1024ac95c3b208610db-Paper.pdf},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -3806,15 +3790,14 @@
        address = {Punta Cana, Dominican Republic},
        author = {Tasnim Mohiuddin and M Saiful Bari and Shafiq Joty},
        booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://www.aclweb.org/anthology/2020.emnlp-main.215/},
        numpages = {9},
        pages = {2712–-2723},
        publisher = {ACL},
        series = {EMNLP'20},
-       title = {LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space},
+       title = {{LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space}},
+       url = {https://www.aclweb.org/anthology/2020.emnlp-main.215/},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -3842,15 +3825,14 @@
        address = {Punta Cana, Dominican Republic},
        author = {Prathyusha Jwalapuram and Shafiq Joty and Youlin Shen},
        booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://www.aclweb.org/anthology/2020.emnlp-main.177/},
        numpages = {9},
        pages = {2267–2279},
        publisher = {ACL},
        series = {EMNLP'20},
        title = {Pronoun-Targeted Finetuning for NMT with Hybrid Losses},
+       url = {https://www.aclweb.org/anthology/2020.emnlp-main.177/},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -3878,15 +3860,14 @@
        address = {Punta Cana, Dominican Republic},
        author = {Samson Tan and Shafiq Joty and Lav R. Varshney and Min-Yen Kan},
        booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://www.aclweb.org/anthology/2020.emnlp-main.455/},
        numpages = {9},
        pages = {5647–-5663},
        publisher = {ACL},
        series = {EMNLP'20},
-       title = {Mind Your Inflections! Improving NLP for Non-Standard English with Base-Inflection Encoding},
+       title = {{Mind Your Inflections! Improving NLP for Non-Standard English with Base-Inflection Encoding}},
+       url = {https://www.aclweb.org/anthology/2020.emnlp-main.455/},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -3926,15 +3907,14 @@
        address = {Punta Cana, Dominican Republic},
        author = {Weishi Wang and Shafiq Joty and Steven Hoi},
        booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://www.aclweb.org/anthology/2020.emnlp-main.533/},
        numpages = {9},
        pages = {6581–-6591},
        publisher = {ACL},
        series = {EMNLP'20},
        title = {Response Selection for Multi-Party Conversations with Dynamic Topic Tracking},
+       url = {https://www.aclweb.org/anthology/2020.emnlp-main.533/},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -3958,20 +3938,20 @@
       Huge amounts of textual conversations occur online everyday, where multiple conversations take place concurrently. Interleaved conversations lead to difficulties in not only following the ongoing discussions but also extracting relevant information from simultaneous messages. Conversation disentanglement aims to separate intermingled messages into detached conversations. However existing disentanglement methods rely mostly on hand-crafted features that are dataset specific, which hinders generalization and adaptability. In this work, we propose an end-to-end online framework for conversation disentanglement that avoids time-consuming domain-specific feature engineering. We design a novel way to embed the whole utterance that comprises timestamp, speaker and message text, and propose a custom attention mechanism that models disentanglement as a pointing problem while effectively capturing inter-utterance interactions in an end-to-end fashion. We also introduce a joint-learning objective to better capture contextual information. Our experiments on the Ubuntu IRC dataset show that our method achieves state-of-the-art performance in both link and conversation prediction tasks.
     bibtex: >
       @inproceedings{Tao-emnlp-20,
-       abstract = {Huge amounts of textual conversations occur online everyday, where multiple conversations take place concurrently. Interleaved conversations lead to difficulties in not only following the ongoing discussions but also extracting relevant information from simultaneous messages. Conversation disentanglement aims to separate intermingled messages into detached conversations. However existing disentanglement methods rely mostly on hand-crafted features that are dataset specific, which hinders generalization and adaptability. In this work, we propose an end-to-end online framework for conversation disentanglement that avoids time-consuming domain-specific feature engineering. We design a novel way to embed the whole utterance that comprises timestamp, speaker and message text, and propose a custom attention mechanism that models disentanglement as a pointing problem while effectively capturing inter-utterance interactions in an end-to-end fashion. We also introduce a joint-learning objective to better capture contextual information.
+       abstract = {Huge amounts of textual conversations occur online everyday, where multiple conversations take place concurrently. Interleaved conversations lead to difficulties in not only following the ongoing discussions but also extracting relevant information from simultaneous messages. Conversation disentanglement aims to separate intermingled messages into detached conversations. However existing disentanglement methods rely mostly on hand-crafted features that are dataset specific, which hinders generalization and adaptability. In this work,
+      we propose an end-to-end online framework for conversation disentanglement that avoids time-consuming domain-specific feature engineering. We design a novel way to embed the whole utterance that comprises timestamp, speaker and message text, and propose a custom attention mechanism that models disentanglement as a pointing problem while effectively capturing inter-utterance interactions in an end-to-end fashion. We also introduce a joint-learning objective to better capture contextual information.
       Our experiments on the Ubuntu IRC dataset show that our method achieves state-of-the-art performance in both link and conversation prediction tasks.},
        address = {Punta Cana, Dominican Republic},
        author = {Tao Yu and Shafiq Joty},
        booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://www.aclweb.org/anthology/2020.emnlp-main.512/},
        numpages = {9},
        pages = {6321–-6330},
        publisher = {ACL},
        series = {EMNLP'20},
        title = {Online Conversation Disentanglement with Pointer Networks},
+       url = {https://www.aclweb.org/anthology/2020.emnlp-main.512/},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -3999,15 +3979,14 @@
        address = {Punta Cana, Dominican Republic},
        author = {Yue Wang and Shafiq Joty and Michael R. Lyu and Irwin King and Caiming Xiong and Steven Hoi},
        booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://www.aclweb.org/anthology/2020.emnlp-main.269/},
        numpages = {9},
        pages = {3325–-3338},
        publisher = {ACL},
        series = {EMNLP'20},
-       title = {VD-BERT: A Unified Vision and Dialog Transformer with BERT},
+       title = {{VD-BERT: A Unified Vision and Dialog Transformer with BERT}},
+       url = {https://www.aclweb.org/anthology/2020.emnlp-main.269/},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4035,15 +4014,14 @@
        address = {Punta Cana, Dominican Republic},
        author = {Yifan Gao and Chien-Sheng Wu and Jingjing Li and Shafiq Joty and Steven Hoi and Caiming Xiong and Irwin King and Michael Lyu},
        booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://www.aclweb.org/anthology/2020.emnlp-main.191/},
        numpages = {9},
        pages = {2439–-2449},
        publisher = {ACL},
        series = {EMNLP'20},
        title = {Discern: Discourse-Aware Entailment Reasoning Network for Conversational Machine Reading},
+       url = {https://www.aclweb.org/anthology/2020.emnlp-main.191/},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4071,15 +4049,14 @@
        address = {Punta Cana, Dominican Republic},
        author = {Bosheng Ding and Linlin Liu and Lidong Bing and Canasai Kruengkrai and Thien Hai Nguyen and Shafiq Joty and Luo Si and Chunyan Miao},
        booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://www.aclweb.org/anthology/2020.emnlp-main.488/},
        numpages = {9},
        pages = {6045–-6057},
        publisher = {ACL},
        series = {EMNLP'20},
        title = {DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks},
+       url = {https://www.aclweb.org/anthology/2020.emnlp-main.488/},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4104,13 +4081,12 @@
        author = {Moosavi, Nafise Sadat  and Fan, Angela  and  Shwartz, Vered  and Glavas, Goran  and Joty, Shafiq  and
       Wang, Alex  and Wolf, Thomas},
        booktitle = {Proceedings of SustaiNLP},
-       link = {https://www.aclweb.org/anthology/2020.sustainlp-1.0},
        publisher = {ACL},
        series = {EMNLP'20 Workshop},
        title = {Workshop on Simple and Efficient Natural Language Processing},
+       url = {https://www.aclweb.org/anthology/2020.sustainlp-1.0},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4138,15 +4114,14 @@
        address = {Seattle, USA},
        author = {Thanh-Tung Nguyen and Xuan-Phi Nguyen and Shafiq Joty and Xiaoli Li},
        booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://www.aclweb.org/anthology/2020.acl-main.301/},
        numpages = {9},
        pages = {3284–-3294},
        publisher = {ACL},
        series = {ACL'20},
        title = {Efficient Constituency Parsing by Pointing},
+       url = {https://www.aclweb.org/anthology/2020.acl-main.301/},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4174,15 +4149,14 @@
        address = {Seattle, USA},
        author = {Thanh-Tung Nguyen and Xuan-Phi Nguyen and Shafiq Joty and Xiaoli Li},
        booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://www.aclweb.org/anthology/2020.acl-main.589/},
        numpages = {9},
        pages = {6589–-6599},
        publisher = {ACL},
        series = {ACL'20},
        title = {Differentiable Window for Dynamic Local Attention},
+       url = {https://www.aclweb.org/anthology/2020.acl-main.589/},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4203,28 +4177,27 @@
       Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (<b>ACL'20</b>)
     doc-url: https://www.aclweb.org/anthology/2020.acl-main.88/
     abstract: >
-      Conversational machine reading aims to teach machines to interact with users and answer their questions. It is challenging because machines have to understand the knowledge base text, evaluate and keep track of the user scenario, ask clarification questions, and then make a final decision. Existing approaches have implicit rule text reasoning processes for decision making and weak abilities for question-related rule extraction. In this paper, we present a new framework of conversational machine reading with a novel Explicit Memory Tracker (EMT) that explicitly tracks whether conditions listed in the rule text have already been satisfied to make a decision. Moreover, our framework generates clarifying questions by adopting a coarse-to-fine reasoning strategy, utilizing sentence-level selection scores to weight token-level distributions. On the ShARC benchmark (blind, held-out test set), EMT achieves new state-of-the-art results of 74.8% micro-averaged decision accuracy and 46.0 BLEU4. We also show that EMT is more interpretable by visualizing the entailment-oriented reasoning process as the conversation flows. Code and models will be released to facilitate research along this line.
+      Conversational machine reading aims to teach machines to interact with users and answer their questions. It is challenging because machines have to understand the knowledge base text, evaluate and keep track of the user scenario, ask clarification questions, and then make a final decision. Existing approaches have implicit rule text reasoning processes for decision making and weak abilities for question-related rule extraction.  In this paper, we present a new framework of conversational machine reading with a novel Explicit Memory Tracker (EMT) that explicitly tracks whether conditions listed in the rule text have already been satisfied to make a decision. Moreover, our framework generates clarifying questions by adopting a coarse-to-fine reasoning strategy, utilizing sentence-level selection scores to weight token-level distributions.  On the ShARC benchmark (blind, held-out test set), EMT achieves new state-of-the-art results of 74.8% micro-averaged decision accuracy and 46.0 BLEU4.  We also show that EMT is more interpretable by visualizing the entailment-oriented reasoning process as the conversation flows. Code and models will be released to facilitate research along this line.
     bibtex: >
       @inproceedings{Gao-et-al-acl-20,
        abstract = {Conversational machine reading aims to teach machines to interact with users and answer their questions. It is challenging because machines have to understand the knowledge base text, evaluate and keep track of the user scenario, ask clarification questions, and then make a final decision.
-      Existing approaches have implicit rule text reasoning processes for decision making and weak abilities for question-related rule extraction.
+      Existing approaches have implicit rule text reasoning processes for decision making and weak abilities for question-related rule extraction. 
       In this paper, we present a new framework of conversational machine reading with a novel Explicit Memory Tracker (EMT) that explicitly tracks whether conditions listed in the rule text have already been satisfied to make a decision.
-      Moreover, our framework generates clarifying questions by adopting a coarse-to-fine reasoning strategy, utilizing sentence-level selection scores to weight token-level distributions.
-      On the ShARC benchmark (blind, held-out test set), EMT achieves new state-of-the-art results of 74.8% micro-averaged decision accuracy and 46.0 BLEU4.
+      Moreover, our framework generates clarifying questions by adopting a coarse-to-fine reasoning strategy, utilizing sentence-level selection scores to weight token-level distributions. 
+      On the ShARC benchmark (blind, held-out test set), EMT achieves new state-of-the-art results of 74.8% micro-averaged decision accuracy and 46.0 BLEU4. 
       We also show that EMT is more interpretable by visualizing the entailment-oriented reasoning process as the conversation flows.
       Code and models will be released to facilitate research along this line.},
        address = {Seattle, USA},
        author = {Yifan Gao and Chien-Sheng Wu and Shafiq Joty and Caiming Xiong and Richard Socher and Irwin King and Michael Lyu and Steven Hoi},
        booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://www.aclweb.org/anthology/2020.acl-main.88/},
        numpages = {9},
        pages = {935–-945},
        publisher = {ACL},
        series = {ACL'20},
        title = {EMT: Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading},
+       url = {https://www.aclweb.org/anthology/2020.acl-main.88/},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4252,15 +4225,14 @@
        address = {Seattle, USA},
        author = {Samson Tan and Shafiq Joty and Min-Yen Kan and Richard Socher},
        booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://www.aclweb.org/anthology/2020.acl-main.263/},
        numpages = {9},
        pages = {2920–-2935},
        publisher = {ACL},
        series = {ACL'20},
        title = {It’s Morphin’ Time! Combating Linguistic Discrimination with Inflectional Perturbations},
+       url = {https://www.aclweb.org/anthology/2020.acl-main.263/},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4286,12 +4258,11 @@
        abstract = {Incorporating hierarchical structures like constituency trees has been shown to be effective for various natural language processing (NLP) tasks. However, it is evident that state-of-the-art (SOTA) sequence-based models like the Transformer struggle to encode such structures inherently. On the other hand, dedicated models like the Tree-LSTM, while explicitly modeling hierarchical structures, do not perform as efficiently as the Transformer. In this paper, we attempt to bridge this gap with Hierarchical Accumulation to encode parse tree structures into self-attention at constant time complexity. Our approach outperforms SOTA methods in four IWSLT translation tasks and the WMT'14 English-German task. It also yields improvements over Transformer and Tree-LSTM on three text classification tasks. We further demonstrate that using hierarchical priors can compensate for data shortage, and that our model prefers phrase-level attentions over token-level attentions.},
        author = {Xuan-Phi Nguyen and Shafiq Joty and Steven Hoi and Richard Socher},
        booktitle = {International Conference on Learning Representations},
-       link = {https://openreview.net/forum?id=HJxK5pEYvr},
        series = {ICLR-20},
        title = {Tree-Structured Attention with Hierarchical Accumulation},
+       url = {https://openreview.net/forum?id=HJxK5pEYvr},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4318,13 +4289,12 @@
        address = {Virtual},
        author = {Xiangxi Shi and Xu Yang and Jiuxiang Gu and Shafiq Joty and Jianfei Cai},
        booktitle = {European Conference on Computer Vision},
-       link = {http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590562.pdf},
        numpages = {10},
        series = {ECCV'20},
        title = {Finding It at Another Side: A Viewpoint-Adapted Matching Encoder for Change Captioning},
+       url = {http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590562.pdf},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4352,15 +4322,14 @@
        address = {New York, USA},
        author = {Saiful Bari and Shafiq Joty and Prathyusha Jwalapuram},
        booktitle = {Thirty-Fourth AAAI Conference on Artificial Intelligence},
-       link = {https://ojs.aaai.org/index.php/AAAI/article/view/6237},
        month = {September},
        pages = {7415--7423},
        publisher = {AAAI},
        series = {AAAI'20},
-       title = {Zero-Resource Cross-Lingual Named Entity Recognition},
+       title = {{Zero-Resource Cross-Lingual Named Entity Recognition}},
+       url = {https://ojs.aaai.org/index.php/AAAI/article/view/6237},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4388,15 +4357,14 @@
        address = {Shanghai, China},
        author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
        booktitle = {21st Annual Conference of the International Speech Communication Association},
-       link = {https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1716.pdf},
        month = {October},
        pages = {5021 -- 5025},
        publisher = {IEEE},
        series = {Interspeech'20},
        title = {Universal Speech Transformer},
+       url = {https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1716.pdf},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4424,15 +4392,14 @@
        address = {Shanghai, China},
        author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
        booktitle = {21st Annual Conference of the International Speech Communication Association},
-       link = {https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1281.pdf},
        month = {October},
        pages = {1261 - 1265},
        publisher = {IEEE},
        series = {Interspeech'20},
        title = {Speech Transformer with Speaker Aware Persistent Memory},
+       url = {https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1281.pdf},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4460,15 +4427,14 @@
        address = {Shanghai, China},
        author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
        booktitle = {21st Annual Conference of the International Speech Communication Association},
-       link = {https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1198.pdf},
        month = {October},
        pages = {5031 - 5035},
        publisher = {IEEE},
        series = {Interspeech'20},
        title = {Cross Attention with Monotonic Alignment for Speech Transformer},
+       url = {https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1198.pdf},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4488,21 +4454,21 @@
     journal: Computational Linguistics (presented at ACL-2020)
     doc-url: https://www.mitpressjournals.org/doi/abs/10.1162/coli_a_00374
     abstract: >
-      Cross-lingual word embeddings learned from monolingual embeddings have a crucial role in many downstream tasks, ranging from machine translation to transfer learning. Adversarial training has shown impressive success in learning cross-lingual embeddings and the associated word translation task without any parallel data by mapping monolingual embeddings to a shared space. However, recent work has shown superior performance for non-adversarial methods in more challenging language pairs. In this article,  we investigate adversarial autoencoder for unsupervised word translation and propose two novel extensions to it that yield more stable training and improved results. Our method includes regularization terms to enforce cycle consistency and input reconstruction, and puts the target encoders as an adversary against the corresponding discriminator. We use two types of refinement procedures sequentially after obtaining the trained encoders and mappings from the adversarial training, namely, refinement with Procrustes solution and refinement with symmetric re-weighting. Extensive experimentations with European, non-European and low-resource languages from two different datasets show that our method achieves better performance than existing adversarial and non-adversarial approaches and is also competitive with the supervised system. Along with performing comprehensive ablation studies to understand the contribution of different components of our adversarial model, we also conduct a thorough analysis of the refinement procedures to understand their effects.
+      Cross-lingual word embeddings learned from monolingual embeddings have a crucial role in many downstream tasks, ranging from machine translation to transfer learning. Adversarial training has shown impressive success in learning cross-lingual embeddings and the associated word translation task without any parallel data by mapping monolingual embeddings to a shared space. However, recent work has shown superior performance for non-adversarial methods in more challenging language pairs. In this article,  we investigate adversarial autoencoder for unsupervised word translation and propose two novel extensions to it that yield more stable training and improved results. Our method includes regularization terms to enforce cycle consistency and input reconstruction, and puts the target encoders as an adversary against the corresponding discriminator. We use two types of refinement procedures sequentially after obtaining the trained encoders and mappings from the adversarial training, namely, refinement with Procrustes solution and refinement with symmetric re-weighting. Extensive experimentations with European, non-European and low-resource languages from two different datasets show that our method achieves better performance than existing adversarial and non-adversarial approaches and is also competitive with the supervised system. Along with performing comprehensive ablation studies to understand the contribution of different components of our adversarial model, we also conduct a thorough analysis of the refinement procedures to understand their effects. 
     bibtex: >
       @article{mohiuddin-joty-cl-19,
-       abstract = {Cross-lingual word embeddings learned from monolingual embeddings have a crucial role in many downstream tasks, ranging from machine translation to transfer learning. Adversarial training has shown impressive success in learning cross-lingual embeddings and the associated word translation task without any parallel data by mapping monolingual embeddings to a shared space. However, recent work has shown superior performance for non-adversarial methods in more challenging language pairs. In this article,  we investigate adversarial autoencoder for unsupervised word translation and propose two novel extensions to it that yield more stable training and improved results. Our method includes regularization terms to enforce cycle consistency and input reconstruction, and puts the target encoders as an adversary against the corresponding discriminator. We use two types of refinement procedures sequentially after obtaining the trained encoders and mappings from the adversarial training, namely, refinement with Procrustes solution and refinement with symmetric re-weighting. Extensive experimentations with European, non-European and low-resource languages from two different datasets show that our method achieves better performance than existing adversarial and non-adversarial approaches and is also competitive with the supervised system. Along with performing comprehensive ablation studies to understand the contribution of different components of our adversarial model, we also conduct a thorough analysis of the refinement procedures to understand their effects.},
+       abstract = {Cross-lingual word embeddings learned from monolingual embeddings have a crucial role in many downstream tasks, ranging from machine translation to transfer learning. Adversarial training has shown impressive success in learning cross-lingual embeddings and the associated word translation task without any parallel data by mapping monolingual embeddings to a shared space. However, recent work has shown superior performance for non-adversarial methods in more challenging language pairs. In this article,  we investigate adversarial autoencoder for unsupervised word translation and propose two novel extensions to it that yield more stable training and improved results. Our method includes regularization terms to enforce cycle consistency and input reconstruction, and puts the target encoders as an adversary against the corresponding discriminator. We use two types of refinement procedures sequentially after obtaining the trained encoders and mappings from the adversarial training, namely, refinement with Procrustes solution and refinement with symmetric re-weighting. Extensive experimentations with European, non-European and low-resource languages from two different datasets show that our method achieves better performance than existing adversarial and non-adversarial approaches and is also competitive with the supervised system. Along with performing comprehensive ablation studies to understand the contribution of different components of our adversarial model, we also conduct a thorough analysis of the refinement procedures to understand their effects.
+      },
        author = {Tasnim Mohiuddin and Shafiq Joty},
        journal = {Computational Linguistics (presented at ACL-2020)},
-       link = {https://www.mitpressjournals.org/doi/abs/10.1162/coli_a_00374},
        number = {2},
        pages = {1 -- 32},
        publisher = {MIT Press},
-       title = {Unsupervised Word Translation with Adversarial Autoencoder},
+       title = {{Unsupervised Word Translation with Adversarial Autoencoder}},
+       url = {https://www.mitpressjournals.org/doi/abs/10.1162/coli_a_00374},
        volume = {46},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4522,21 +4488,21 @@
     journal: ACM Transactions on Intelligent Systems and Technology (TIST)
     doc-url: https://dl.acm.org/doi/pdf/10.1145/3391250
     abstract: >
-      Rumors spread in social media severely jeopardize the credibility of online content. Thus, automatic debunking of rumors is of great importance to keep social media a healthy environment. While facing a dubious claim, people often dispute its truthfulness sporadically in their posts containing various cues, which can form useful evidence with long-distance dependencies. In this work, we propose to learn discriminative features from microblog posts by following their non-sequential propagation structure and generate more powerful representations for identifying rumors. For modeling non-sequential structure, we firstly represent the diffusion of microblog posts with propagation trees, which provide valuable clues on how a claim in the original post is transmitted and developed over time. We then present a bottom-up and a top-down tree-structured models based on Recursive Neural Networks (RvNN) for rumor representation learning and classification, which naturally conform to the message propagation process in microblogs. To enhance the rumor representation learning, we reveal that effective rumor detection is highly related to finding evidential posts, e.g., the posts expressing specific attitude towards the veracity of a claim, as an extension of the previous RvNN-based detection models that treat every post equally. For this reason, we design discriminative attention mechanisms for the RvNN-based models to selectively attend on the subset of evidential posts during the bottom-up/top-down recursive composition. Experimental results on four datasets collected from real-world microblog platforms confirm that 1) our RvNN-based models achieve much better rumor detection and classification performance than state-of-the-art approaches; 2) the attention mechanisms for focusing on evidential posts can further improve the performance of our RvNN-based method; and 3) our approach possesses superior capacity on detecting rumors at very early stage.
+      Rumors spread in social media severely jeopardize the credibility of online content. Thus, automatic debunking of rumors is of great importance to keep social media a healthy environment. While facing a dubious claim, people often dispute its truthfulness sporadically in their posts containing various cues, which can form useful evidence with long-distance dependencies. In this work, we propose to learn discriminative features from microblog posts by following their non-sequential propagation structure and generate more powerful representations for identifying rumors. For modeling non-sequential structure, we firstly represent the diffusion of microblog posts with propagation trees, which provide valuable clues on how a claim in the original post is transmitted and developed over time. We then present a bottom-up and a top-down tree-structured models based on Recursive Neural Networks (RvNN) for rumor representation learning and classification, which naturally conform to the message propagation process in microblogs. To enhance the rumor representation learning, we reveal that effective rumor detection is highly related to finding evidential posts, e.g., the posts expressing specific attitude towards the veracity of a claim, as an extension of the previous RvNN-based detection models that treat every post equally. For this reason, we design discriminative attention mechanisms for the RvNN-based models to selectively attend on the subset of evidential posts during the bottom-up/top-down recursive composition. Experimental results on four datasets collected from real-world microblog platforms confirm that 1) our RvNN-based models achieve much better rumor detection and classification performance than state-of-the-art approaches; 2) the attention mechanisms for focusing on evidential posts can further improve the performance of our RvNN-based method; and 3) our approach possesses superior capacity on detecting rumors at very early stage. 
     bibtex: >
       @article{Jing-et-al-20,
-       abstract = {Rumors spread in social media severely jeopardize the credibility of online content. Thus, automatic debunking of rumors is of great importance to keep social media a healthy environment. While facing a dubious claim, people often dispute its truthfulness sporadically in their posts containing various cues, which can form useful evidence with long-distance dependencies. In this work, we propose to learn discriminative features from microblog posts by following their non-sequential propagation structure and generate more powerful representations for identifying rumors. For modeling non-sequential structure, we firstly represent the diffusion of microblog posts with propagation trees, which provide valuable clues on how a claim in the original post is transmitted and developed over time. We then present a bottom-up and a top-down tree-structured models based on Recursive Neural Networks (RvNN) for rumor representation learning and classification, which naturally conform to the message propagation process in microblogs. To enhance the rumor representation learning, we reveal that effective rumor detection is highly related to finding evidential posts, e.g., the posts expressing specific attitude towards the veracity of a claim, as an extension of the previous RvNN-based detection models that treat every post equally. For this reason, we design discriminative attention mechanisms for the RvNN-based models to selectively attend on the subset of evidential posts during the bottom-up/top-down recursive composition. Experimental results on four datasets collected from real-world microblog platforms confirm that 1) our RvNN-based models achieve much better rumor detection and classification performance than state-of-the-art approaches; 2) the attention mechanisms for focusing on evidential posts can further improve the performance of our RvNN-based method; and 3) our approach possesses superior capacity on detecting rumors at very early stage.},
+       abstract = {Rumors spread in social media severely jeopardize the credibility of online content. Thus, automatic debunking of rumors is of great importance to keep social media a healthy environment. While facing a dubious claim, people often dispute its truthfulness sporadically in their posts containing various cues, which can form useful evidence with long-distance dependencies. In this work, we propose to learn discriminative features from microblog posts by following their non-sequential propagation structure and generate more powerful representations for identifying rumors. For modeling non-sequential structure, we firstly represent the diffusion of microblog posts with propagation trees, which provide valuable clues on how a claim in the original post is transmitted and developed over time. We then present a bottom-up and a top-down tree-structured models based on Recursive Neural Networks (RvNN) for rumor representation learning and classification, which naturally conform to the message propagation process in microblogs. To enhance the rumor representation learning, we reveal that effective rumor detection is highly related to finding evidential posts, e.g., the posts expressing specific attitude towards the veracity of a claim, as an extension of the previous RvNN-based detection models that treat every post equally. For this reason, we design discriminative attention mechanisms for the RvNN-based models to selectively attend on the subset of evidential posts during the bottom-up/top-down recursive composition. Experimental results on four datasets collected from real-world microblog platforms confirm that 1) our RvNN-based models achieve much better rumor detection and classification performance than state-of-the-art approaches; 2) the attention mechanisms for focusing on evidential posts can further improve the performance of our RvNN-based method; and 3) our approach possesses superior capacity on detecting rumors at very early stage.
+      },
        author = {Jing Ma and Wei Gao and Shafiq Joty and Kam-Fai Wong},
        journal = {ACM Transactions on Intelligent Systems and Technology (TIST)},
-       link = {https://dl.acm.org/doi/pdf/10.1145/3391250},
        number = {4:42},
        pages = {1--28},
        publisher = {ACM},
-       title = {An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks},
+       title = {{An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks}},
+       url = {https://dl.acm.org/doi/pdf/10.1145/3391250},
        volume = {11},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4563,15 +4529,14 @@
        author = {Xiangxi Shi and Jianfei Cai and Jiuxiang Gu and Shafiq Joty},
        doi = {},
        journal = {Neurocomputing},
-       link = {https://www.sciencedirect.com/science/article/abs/pii/S0925231220313023},
        number = {},
        pages = {347-356},
        publisher = {Elsevier},
-       title = {Video Captioning with Boundary-Aware Hierarchical Language Decoding and Joint Video Prediction},
+       title = {{Video Captioning with Boundary-Aware Hierarchical Language Decoding and Joint Video Prediction}},
+       url = {https://www.sciencedirect.com/science/article/abs/pii/S0925231220313023},
        volume = {},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4605,15 +4570,14 @@
        author = {Lorainne Car and Dhakshenya Dhinagaran and Bhone Kyaw and Tobias Kowatsch and Shafiq Joty and Yin Theng and Rifat Atun},
        doi = {doi:10.2196/17158},
        journal = {Journal of Medical Internet Research (JMIR)},
-       link = {https://www.jmir.org/2020/8/e17158/},
        month = {Aug},
        number = {8},
        pmid = {},
-       title = {Conversational agents in healthcare: a scoping review and conceptual analysis},
+       title = {{Conversational agents in healthcare: a scoping review and conceptual analysis}},
+       url = {https://www.jmir.org/2020/8/e17158/},
        volume = {22},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4640,13 +4604,12 @@
        author = {Simeng Han and Xiang Lin and Shafiq Joty},
        issue = {},
        journal = {arXiv (* not peer reviewed)},
-       link = {https://arxiv.org/abs/1911.03014},
        pages = {},
        publisher = {arXiv.org},
-       title = {Resurrecting Submodularity for Neural Text Generation},
+       title = {{Resurrecting Submodularity for Neural Text Generation}},
+       url = {https://arxiv.org/abs/1911.03014},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4673,13 +4636,12 @@
        author = {Prathyusha Jwalapuram and Barbara Rychalska and Shafiq Joty and Dominika Basaj},
        issue = {},
        journal = {arXiv (* not peer reviewed)},
-       link = {https://arxiv.org/abs/2004.14607},
        pages = {},
        publisher = {arXiv.org},
-       title = {Can Your Context-Aware MT System Pass the DiP Benchmark Tests? : Evaluation Benchmarks for Discourse Phenomena in Machine Translation},
+       title = {{Can Your Context-Aware MT System Pass the DiP Benchmark Tests? : Evaluation Benchmarks for Discourse Phenomena in Machine Translation}},
+       url = {https://arxiv.org/abs/2004.14607},
        year = {2020}
       }
-      
       
   -
     layout: paper
@@ -4687,7 +4649,7 @@
     year: 2021
     selected: no
     title: >
-      Align before Fuse: Vision and Language Representation Learning with Momentum Distillation
+      {Align before Fuse: Vision and Language Representation Learning with Momentum Distillation}
     authors: Junnan Li, Ramprasaath R., Akhilesh Deepak, Shafiq Joty, Caiming Xiong, and Steven Hoi
     id: Junnan-et-al-nips-21
     img: Junnan-et-al-nips-21-fig
@@ -4711,13 +4673,12 @@
       Caiming Xiong and
       Steven Hoi},
        booktitle = {2021 Conference on Neural Information Processing Systems},
-       link = {https://arxiv.org/abs/2107.07651},
        series = {NeurIPS'21 (spotlight ~3%)},
-       title = {Align before Fuse: Vision and Language Representation Learning with
-      Momentum Distillation},
+       title = {{Align before Fuse: Vision and Language Representation Learning with
+      Momentum Distillation}},
+       url = {https://arxiv.org/abs/2107.07651},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -4744,14 +4705,13 @@
        address = {Virtual},
        author = {Xiang Lin and Simeng Han and Shafiq Joty},
        booktitle = {Thirty-eighth International Conference on Machine Learning},
-       link = {http://proceedings.mlr.press/v139/lin21b.html},
        numpages = {9},
        publisher = {},
        series = {ICML'21 (as long talk ~3%)},
-       title = {Straight to the Gradient: Learning to Use Novel Tokens for Neural Text Generation},
+       title = {{Straight to the Gradient: Learning to Use Novel Tokens for Neural Text Generation}},
+       url = {http://proceedings.mlr.press/v139/lin21b.html},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -4778,14 +4738,13 @@
        address = {Virtual},
        author = {Xuan-Phi Nguyen and Shafiq Joty and Thanh-Tung Nguyen and Wu Kui and Ai Ti Aw},
        booktitle = {Thirty-eighth International Conference on Machine Learning},
-       link = {http://proceedings.mlr.press/v139/nguyen21c/nguyen21c.pdf},
        numpages = {9},
        publisher = {},
        series = {ICML'21},
        title = {Cross-model Back-translated Distillation for Unsupervised Machine Translation},
+       url = {http://proceedings.mlr.press/v139/nguyen21c/nguyen21c.pdf},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -4805,21 +4764,20 @@
       the 2021 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'21</b>)
     doc-url: https://aclanthology.org/2021.emnlp-main.685/
     abstract: >
-      Pre-trained models for Natural Languages (NL) like BERT and GPT have been recently shown to transfer well to Programming Languages (PL) and largely benefit a broad set of code-related tasks. Despite their success, most current methods either rely on an encoder-only (or decoder-only) pre-training that is suboptimal for generation (resp. understanding) tasks or process the code snippet in the same way as NL, neglecting the special characteristics of PL such as token types. We present CodeT5, a unified pre-trained encoder-decoder Transformer model that better leverages the code semantics conveyed from the developer-assigned identifiers. Our model is unified in that it builds on a unified framework to seamlessly support both code understanding and generation tasks, and it employs a unified format of task control codes to allow for multi-task learning. We propose a novel identifier-aware pre-training objective that enables the model to distinguish which code tokens are identifiers and to recover them when they are masked. To further close the gap between the pre-training and fine-tuning, we propose a bimodal dual generation task to encourage the alignment between NL and PL. Comprehensive experiments show that CodeT5 significantly outperforms prior methods on understanding tasks such as code defect detection and clone detection, and generation tasks across various directions including PL-NL, NL-PL, and PL-PL. Further analysis reveals that our model can better capture semantic information from code.
+      Pre-trained models for Natural Languages (NL) like BERT and GPT have been recently shown to transfer well to Programming Languages (PL) and largely benefit a broad set of code-related tasks. Despite their success, most current methods either rely on an encoder-only (or decoder-only) pre-training that is suboptimal for generation (resp. understanding) tasks or process the code snippet in the same way as NL, neglecting the special characteristics of PL such as token types. We present CodeT5, a unified pre-trained encoder-decoder Transformer model that better leverages the code semantics conveyed from the developer-assigned identifiers. Our model is unified in that it builds on a unified framework to seamlessly support both code understanding and generation tasks, and it employs a unified format of task control codes to allow for multi-task learning. We propose a novel identifier-aware pre-training objective that enables the model to distinguish which code tokens are identifiers and to recover them when they are masked. To further close the gap between the pre-training and fine-tuning, we propose a bimodal dual generation task to encourage the alignment between NL and PL. Comprehensive experiments show that CodeT5 significantly outperforms prior methods on understanding tasks such as code defect detection and clone detection, and generation tasks across various directions including PL-NL, NL-PL, and PL-PL.  Further analysis reveals that our model can better capture semantic information from code.
     bibtex: >
       @inproceedings{Yue-emnlp-21,
-       abstract = {Pre-trained models for Natural Languages (NL) like BERT and GPT have been recently shown to transfer well to Programming Languages (PL) and largely benefit a broad set of code-related tasks. Despite their success, most current methods either rely on an encoder-only (or decoder-only) pre-training that is suboptimal for generation (resp. understanding) tasks or process the code snippet in the same way as NL, neglecting the special characteristics of PL such as token types. We present CodeT5, a unified pre-trained encoder-decoder Transformer model that better leverages the code semantics conveyed from the developer-assigned identifiers. Our model is unified in that it builds on a unified framework to seamlessly support both code understanding and generation tasks, and it employs a unified format of task control codes to allow for multi-task learning. We propose a novel identifier-aware pre-training objective that enables the model to distinguish which code tokens are identifiers and to recover them when they are masked. To further close the gap between the pre-training and fine-tuning, we propose a bimodal dual generation task to encourage the alignment between NL and PL. Comprehensive experiments show that CodeT5 significantly outperforms prior methods on understanding tasks such as code defect detection and clone detection, and generation tasks across various directions including PL-NL, NL-PL, and PL-PL.
+       abstract = {Pre-trained models for Natural Languages (NL) like BERT and GPT have been recently shown to transfer well to Programming Languages (PL) and largely benefit a broad set of code-related tasks. Despite their success, most current methods either rely on an encoder-only (or decoder-only) pre-training that is suboptimal for generation (resp. understanding) tasks or process the code snippet in the same way as NL, neglecting the special characteristics of PL such as token types. We present CodeT5, a unified pre-trained encoder-decoder Transformer model that better leverages the code semantics conveyed from the developer-assigned identifiers. Our model is unified in that it builds on a unified framework to seamlessly support both code understanding and generation tasks, and it employs a unified format of task control codes to allow for multi-task learning. We propose a novel identifier-aware pre-training objective that enables the model to distinguish which code tokens are identifiers and to recover them when they are masked. To further close the gap between the pre-training and fine-tuning, we propose a bimodal dual generation task to encourage the alignment between NL and PL. Comprehensive experiments show that CodeT5 significantly outperforms prior methods on understanding tasks such as code defect detection and clone detection, and generation tasks across various directions including PL-NL, NL-PL, and PL-PL. 
       Further analysis reveals that our model can better capture semantic information from code.},
        address = {Online},
        author = {Yue Wang and Weishi Wang and Shafiq Joty and Steven Hoi},
        booktitle = {the 2021 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://aclanthology.org/2021.emnlp-main.685/},
        publisher = {ACL},
        series = {EMNLP'21},
        title = {CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation},
+       url = {https://aclanthology.org/2021.emnlp-main.685/},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -4846,13 +4804,12 @@
        address = {Online},
        author = {Tao Yu and Shafiq Joty},
        booktitle = {the 2021 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://aclanthology.org/2021.emnlp-main.668/},
        publisher = {ACL},
        series = {EMNLP'21},
        title = {Effective Fine-tuning Methods for Cross-lingual Adaptation},
+       url = {https://aclanthology.org/2021.emnlp-main.668/},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -4879,13 +4836,12 @@
        address = {Online},
        author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi LEUNG and Shafiq Joty and Eng Siong Chng and Bin Ma},
        booktitle = {the 2021 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://aclanthology.org/2021.emnlp-main.737/},
        publisher = {ACL},
        series = {EMNLP'21},
        title = {A Unified Speaker Adaptation Approach for ASR},
+       url = {https://aclanthology.org/2021.emnlp-main.737/},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -4912,13 +4868,12 @@
        address = {Online},
        author = {Ben Krause and Akhilesh Deepak Gotmare and Bryan McCann and Nitish Shirish Keskar and Shafiq Joty and Richard Socher and Nazneen Fatema Rajani},
        booktitle = {the 2021 Conference on Empirical Methods in Natural Language Processing},
-       link = {https://arxiv.org/pdf/2009.06367.pdf},
        publisher = {ACL},
        series = {EMNLP'21 Findings},
        title = {GeDi: Generative Discriminator Guided Sequence Generation},
+       url = {https://arxiv.org/pdf/2009.06367.pdf},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -4937,7 +4892,7 @@
     pages: 1978–-1992
     booktitle: >
       Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (<b>ACL'21</b>)
-    doc-url: https://aclanthology.org/2021.acl-long.154/
+    doc-url: 
     abstract: >
       Transfer learning has yielded state-of-the-art results in many supervised natural language processing tasks. However, annotated data for every target task in every target language is rare, especially for low-resource languages. In this work, we propose MultiMix, a novel data augmentation method for semi-supervised learning in zero-shot transfer learning scenarios. In particular, MultiMix targets to solve cross-lingual adaptation problems from a source (language) distribution to an unknown target (language) distribution assuming it has no training labels in the target language task. In its heart, MultiMix performs simultaneous self-training with data augmentation and unsupervised sample selection. To show its effectiveness, we have performed extensive experiments on zero-shot transfers for cross-lingual named entity recognition (XNER) and natural language inference (XNLI). Our experiments show sizeable improvements in both tasks outperforming the baselines by a good margin.
     bibtex: >
@@ -4946,15 +4901,14 @@
        address = {Bangkok, Thailand},
        author = {M Saiful Bari and Tasnim Mohiuddin and Shafiq Joty},
        booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://aclanthology.org/2021.acl-long.154/},
        numpages = {9},
        pages = {1978–-1992},
        publisher = {ACL},
        series = {ACL'21},
-       title = {UXLA: A Robust Unsupervised Data Augmentation Framework for Cross-Lingual NLP},
+       title = {{UXLA: A Robust Unsupervised Data Augmentation Framework for Cross-Lingual NLP}},
+       url = {},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -4982,15 +4936,14 @@
        address = {Bangkok, Thailand},
        author = {Thanh-Tung Nguyen and Xuan-Phi Nguyen and Shafiq Joty and Xiaoli Li},
        booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://aclanthology.org/2021.acl-long.450/},
        numpages = {9},
        pages = {xx–-xx},
        publisher = {ACL},
        series = {ACL'21},
        title = {A Conditional Splitting Framework for Efficient Constituency Parsing},
+       url = {https://aclanthology.org/2021.acl-long.450/},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -5018,15 +4971,14 @@
        address = {Bangkok, Thailand},
        author = {Samson Tan and Shafiq Joty and Kathy Baxter and Araz Taeihagh and Gregory A. Bennett and Min-Yen Kan},
        booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://aclanthology.org/2021.acl-long.321/},
        numpages = {9},
        pages = {4153–4169},
        publisher = {ACL},
        series = {ACL'21},
        title = {Reliability Testing for Natural Language Processing Systems},
+       url = {https://aclanthology.org/2021.acl-long.321/},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -5054,15 +5006,14 @@
        address = {Bangkok, Thailand},
        author = {Linlin Liu and Bosheng Ding and Lidong Bing and Shafiq Joty and Luo Si and Chunyan Miao},
        booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://aclanthology.org/2021.acl-long.453/},
        numpages = {9},
        pages = {xx–-xx},
        publisher = {ACL},
        series = {ACL'21},
        title = {MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER},
+       url = {https://aclanthology.org/2021.acl-long.453/},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -5090,15 +5041,14 @@
        address = {Bangkok, Thailand},
        author = {Tasnim Mohiuddin and M Saiful Bari and Shafiq Joty},
        booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://arxiv.org/abs/2106.05141},
        numpages = {9},
        pages = {xx–-xx},
        publisher = {ACL},
        series = {ACL'21 Findings},
        title = {AugVic: Exploiting BiText Vicinity for Low-Resource NMT},
+       url = {https://arxiv.org/abs/2106.05141},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -5126,15 +5076,14 @@
        address = {Mexico City, Mexico},
        author = {Samson Tan and Shafiq Joty},
        booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-       link = {https://aclanthology.org/2021.naacl-main.282.pdf},
        numpages = {9},
        pages = {xx–-xx},
        publisher = {ACL},
        series = {NAACL'21},
        title = {Code-Mixing on Sesame Street: Dawn of the Adversarial Polyglots},
+       url = {https://aclanthology.org/2021.naacl-main.282.pdf},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -5162,15 +5111,14 @@
        address = {Mexico City, Mexico},
        author = {Thanh-Tung Nguyen and Xuan-Phi Nguyen and Shafiq Joty and Xiaoli Li},
        booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-       link = {https://arxiv.org/abs/2105.10861},
        numpages = {9},
        pages = {xx–-xx},
        publisher = {ACL},
        series = {NAACL'21},
        title = {RST Parsing from Scratch},
+       url = {https://arxiv.org/abs/2105.10861},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -5198,15 +5146,14 @@
        address = {Mexico City, Mexico},
        author = {Alexander Fabbri and Simeng Han and Haoyuan Li and Haoran Li and Marjan Ghazvininejad and Shafiq Joty and Dragomir Radev and Yashar Mehdad},
        booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-       link = {https://arxiv.org/abs/2010.12836},
        numpages = {9},
        pages = {xx–-xx},
        publisher = {ACL},
        series = {NAACL'21},
        title = {Improving Zero and Few-Shot Abstractive Summarization with Intermediate Fine-tuning and Data Augmentation},
+       url = {https://arxiv.org/abs/2010.12836},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -5234,15 +5181,14 @@
        address = {Mexico City, Mexico},
        author = {Weiwen Xu and AiTi Aw and Yang Ding and Kui Wu and Shafiq Joty},
        booktitle = {Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Industry Track)},
-       link = {},
        numpages = {8},
        pages = {xx–-xx},
        publisher = {ACL},
        series = {NAACL'21},
        title = {Addressing the Vulnerability of NMT in Input Perturbations},
+       url = {},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -5269,21 +5215,21 @@
        abstract = {Although coherence modeling has come a long way in developing novel models, their evaluation on downstream applications for which they are purportedly developed has largely been neglected. With the advancements made
       by neural approaches in applications such as machine translation (MT), summarization and dialog systems, the need for coherence evaluation of these tasks is now more crucial than ever. However, coherence models are typically
       evaluated only on synthetic tasks, which may not be representative of their performance in downstream applications. To investigate how representative the synthetic tasks are of downstream use cases, we conduct experiments on
-      benchmarking well-known traditional and neural coherence models on synthetic sentence ordering tasks, and contrast this with their performance on three downstream applications: coherence evaluation for MT and summarization, and next utterance prediction in retrieval-based
+      benchmarking well-known traditional and neural coherence models on synthetic sentence ordering tasks, and contrast this with their performance on three downstream applications: coherence evaluation for MT and summarization,
+      and next utterance prediction in retrieval-based
       dialog. Our results demonstrate a weak correlation between the model performances in
       the synthetic tasks and the downstream applications, motivating alternate training and evaluation methods for coherence models},
        address = {Kyiv},
        author = {Tasnim Mohiuddin* and Prathyusha Jwalapuram* and Xiang Lin* and Shafiq Joty*},
        booktitle = {Proceedings of the European Chapter of the ACL},
-       link = {https://arxiv.org/abs/2004.14626},
        numpages = {9},
        pages = {x–-x},
        publisher = {ACL},
        series = {EACL'21},
-       title = {Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks},
+       title = {{Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks}},
+       url = {https://arxiv.org/abs/2004.14626},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -5311,15 +5257,14 @@
        address = {Online},
        author = {Xiangju Li and Wei Gao and Shi Feng and Wang Daling and Shafiq Joty},
        booktitle = {Proceedings of The 30th ACM International Conference on Information and Knowledge Management},
-       link = {},
        month = {November},
        pages = {xx--xx},
        publisher = {ACM},
        series = {CIKM'21 (short paper)},
        title = {Span-Level Emotion Cause Analysis by BERT-based Graph Attention Network},
+       url = {},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -5347,15 +5292,14 @@
        address = {Online},
        author = {Xiangju Li and Wei Gao and Shi Feng and Wang Daling and Shafiq Joty},
        booktitle = {Proceedings of The 30th ACM International Conference on Information and Knowledge Management},
-       link = {},
        month = {November},
        pages = {xx--xx},
        publisher = {ACM},
        series = {CIKM'21 (short paper)},
        title = {Span-level Emotion Cause Analysis with Neural Sequence Tagging},
+       url = {},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -5383,15 +5327,13 @@
        address = {Brighton, UK},
        author = {Yingzhu Zhao and Chongjia Ni and Cheung-Chi Leung and Shafiq Joty and Eng Siong Chng and Bin Ma,},
        booktitle = {International Conference on Acoustics, Speech, and Signal Processing},
-       link = {https://2021.ieeeicassp.org/Papers/AcceptedPapers.asp},
-       month = {May},
        pages = {xx -- xx},
        publisher = {IEEE},
        series = {ICASSP'21},
        title = {Preventing Early Endpointing for Online Automatic Speech Recognition},
+       url = {https://2021.ieeeicassp.org/Papers/AcceptedPapers.asp},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -5411,20 +5353,22 @@
     booktitle: >
       Proceedings of 2021 ACM SIGMOD International Conference on Management of Data (<b>SIGMOD'21</b>)
     doc-url: 
+    abstract: >
+      The widespread usage of rdbms in the commercial world has played a pivotal role in the offering of database systems course in major universities. A key challenge encountered by learners taking such a course is the topic of query optimization. The query optimization process produces a query execution plan (qep), which represents an execution strategy for an sql query. Unfortunately, in practice, it is often difficult for a learner to comprehend query execution strategies by perusing vendor-specific qeps, hindering her learning process. In this paper, we present a novel, end-to-end, generic sys- tem called lantern that generates a natural language description of a qep to enhance its understanding. It takes as input an sql query and its qep, and generates a natural language description of the execution strategy deployed by the underlying rdbms. Specifi- cally, it deploys a declarative framework called pool that enables subject matter experts to efficiently create and maintain natural language descriptions of physical operators used in qeps. A rule- based framework called rule-lantern is proposed that exploits pool to generate natural language descriptions of qeps. Despite the high accuracy of rule-lantern, our engagement with learners reveal that consistent with existing psychology theories perusing such rule-based descriptions lead to boredom due to repetitive state- ments across different qeps. To address this issue, we present a novel deep learning-based language generation framework called neural-lantern that infuses language variability in the gener- ated description by exploiting a set of paraphrasing tools and word embedding. Our experimental study with real learners shows the effectiveness of lantern in facilitating comprehension of qeps.
     bibtex: >
       @inproceedings{wang-et-al-sigmod-21,
+       abstract = {The widespread usage of rdbms in the commercial world has played a pivotal role in the offering of database systems course in major universities. A key challenge encountered by learners taking such a course is the topic of query optimization. The query optimization process produces a query execution plan (qep), which represents an execution strategy for an sql query. Unfortunately, in practice, it is often difficult for a learner to comprehend query execution strategies by perusing vendor-specific qeps, hindering her learning process. In this paper, we present a novel, end-to-end, generic sys- tem called lantern that generates a natural language description of a qep to enhance its understanding. It takes as input an sql query and its qep, and generates a natural language description of the execution strategy deployed by the underlying rdbms. Specifi- cally, it deploys a declarative framework called pool that enables subject matter experts to efficiently create and maintain natural language descriptions of physical operators used in qeps. A rule- based framework called rule-lantern is proposed that exploits pool to generate natural language descriptions of qeps. Despite the high accuracy of rule-lantern, our engagement with learners reveal that consistent with existing psychology theories perusing such rule-based descriptions lead to boredom due to repetitive state- ments across different qeps. To address this issue, we present a novel deep learning-based language generation framework called neural-lantern that infuses language variability in the gener- ated description by exploiting a set of paraphrasing tools and word embedding. Our experimental study with real learners shows the effectiveness of lantern in facilitating comprehension of qeps.},
        address = {Xi'an, Shaanxi, China},
        author = {Weiguo Wang and Sourav S Bhowmick and Hui Li and Shafiq Joty and Siyuan Liu},
        booktitle = {Proceedings of 2021 ACM SIGMOD International Conference on Management of Data},
-       link = {},
        month = {June},
        pages = {x -- x},
        publisher = {ACM},
        series = {SIGMOD'21},
        title = {Towards Enhancing Database Education: Natural Language Generation Meets Query Execution Plans},
+       url = {},
        year = {2021}
       }
-      
       
   -
     layout: paper
@@ -5451,13 +5395,12 @@
        address = {Washington DC, USA},
        author = {Han-Cheol Moon and Shafiq Joty and Xu Chi},
        booktitle = {28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-       link = {},
        publisher = {ACM},
        series = {SIGKDD'22},
        title = {GradMask: Gradient-Guided Token Masking for Textual Adversarial Example Detection},
+       url = {},
        year = {2022}
       }
-      
       
   -
     layout: paper
@@ -5484,13 +5427,12 @@
        address = {Online},
        author = {Prathyusha Jwalapuram and Shafiq Joty and Xiang Lin},
        booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://arxiv.org/abs/2110.07198},
        publisher = {ACL},
        series = {ACL'22},
        title = {Rethinking Self-Supervision Objectives for Generalizable Coherence Modeling},
+       url = {https://arxiv.org/abs/2110.07198},
        year = {2022}
       }
-      
       
   -
     layout: paper
@@ -5517,13 +5459,12 @@
        address = {Online},
        author = {Chengwei Qin and Shafiq Joty},
        booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://arxiv.org/abs/2203.02135},
        publisher = {ACL},
        series = {ACL'22},
        title = {Continual Few-shot Relation Learning via Embedding Space Regularization and Data Augmentation},
+       url = {https://arxiv.org/abs/2203.02135},
        year = {2022}
       }
-      
       
   -
     layout: paper
@@ -5550,13 +5491,12 @@
        address = {Online},
        author = {Mathieu Ravaut and Nancy Chen and Shafiq Joty},
        booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://arxiv.org/abs/2203.06569},
        publisher = {ACL},
        series = {ACL'22},
        title = {SummaReranker: A Multi-Task Mixture-of-Experts Re-Ranking Framework for Abstractive Summarization},
+       url = {https://arxiv.org/abs/2203.06569},
        year = {2022}
       }
-      
       
   -
     layout: paper
@@ -5583,13 +5523,12 @@
        address = {Online},
        author = {Shankar Kantharaj and Rixie Leong and Xiang Lin and Ahmed Masry and Megh Thakkar and Enamul Hoque and Shafiq Joty},
        booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://arxiv.org/abs/2203.06486},
        publisher = {ACL},
        series = {ACL'22},
        title = {Chart-to-Text: A Large-Scale Benchmark for Chart Summarization},
+       url = {https://arxiv.org/abs/2203.06486},
        year = {2022}
       }
-      
       
   -
     layout: paper
@@ -5616,13 +5555,12 @@
        address = {Online},
        author = {Bosheng Ding and Junjie Hu and Lidong Bing and Mahani Aljunied and Shafiq Joty and Luo Si and Chunyan Miao},
        booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
-       link = {https://arxiv.org/abs/2110.07679},
        publisher = {ACL},
        series = {ACL'22},
        title = {GlobalWoZ: Globalizing MultiWoZ to Develop Multilingual Task-Oriented Dialogue Systems},
+       url = {https://arxiv.org/abs/2110.07679},
        year = {2022}
       }
-      
       
   -
     layout: paper
@@ -5655,7 +5593,6 @@
        year = {2022}
       }
       
-      
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
@@ -5682,13 +5619,12 @@
        author = {Chengwei Qin and Shafiq Joty},
        booktitle = {International Conference on Learning Representations},
        issue = {},
-       link = {https://openreview.net/forum?id=HCRVf71PMF},
        pages = {},
        series = {ICLR-22},
-       title = {LFPT5: A Unified Framework for Lifelong Few-shot Language Learning Based on Prompt Tuning of T5},
+       title = {{LFPT5: A Unified Framework for Lifelong Few-shot Language Learning Based on Prompt Tuning of T5}},
+       url = {https://openreview.net/forum?id=HCRVf71PMF},
        year = {2022}
       }
-      
       
   -
     layout: paper
@@ -5726,13 +5662,12 @@
        author = {Xuan-Phi Nguyen  and Hongyu Gong and Yun Tang and Changhan Wang and Philipp Koehn and Shafiq Joty},
        booktitle = {International Conference on Learning Representations},
        issue = {},
-       link = {https://openreview.net/pdf?id=pN1JOdrSY9},
        pages = {},
        series = {ICLR-22},
-       title = {Contrastive Clustering to Mine Pseudo Parallel Data for Unsupervised Translation},
+       title = {{Contrastive Clustering to Mine Pseudo Parallel Data for Unsupervised Translation}},
+       url = {https://openreview.net/pdf?id=pN1JOdrSY9},
        year = {2022}
       }
-      
       
   -
     layout: paper
@@ -5772,13 +5707,12 @@
        address = {Vancouver, Canada},
        author = {Amrita Saha and Shafiq Joty and Steven Hoi},
        booktitle = {Thirty-Sixth AAAI Conference on Artificial Intelligence},
-       link = {https://arxiv.org/pdf/2101.11802.pdf},
        pages = {},
        series = {AAAI'22},
-       title = {Weakly Supervised Neuro-Symbolic Module Networks for Numerical Reasoning},
+       title = {{Weakly Supervised Neuro-Symbolic Module Networks for Numerical Reasoning}},
+       url = {https://arxiv.org/pdf/2101.11802.pdf},
        year = {2022}
       }
-      
       
   -
     layout: paper
@@ -5806,13 +5740,12 @@
        address = {Vancouver, Canada},
        author = {Jiahui Gao and Yi Zhou and Philip Yu and Shafiq Joty and Jiuxiang Gu},
        booktitle = {Thirty-Sixth AAAI Conference on Artificial Intelligence},
-       link = {https://arxiv.org/abs/2010.01288},
        pages = {},
        series = {AAAI'22},
-       title = {Unsupervised Cross-lingual Image Captioning},
+       title = {{Unsupervised Cross-lingual Image Captioning}},
+       url = {https://arxiv.org/abs/2010.01288},
        year = {2022}
       }
-      
       
   -
     layout: paper
@@ -5840,15 +5773,14 @@
        address = {Philadelphia, PA, USA},
        author = {Peng Chen and Hui Li  and Sourav Bhowmick and Shafiq Joty and Weiguo Wang},
        booktitle = {Proceedings of 2022 ACM SIGMOD International Conference on Management of Data (Demo)},
-       link = {papers/chen-et-al-sigmod-22-demo.pdf},
        month = {June},
        pages = {x -- x},
        publisher = {ACM},
        series = {SIGMOD'22 (Demo)},
        title = {LANTERN: Boredom-conscious Natural Language Description Generation of Query Execution Plans for Database Education},
+       url = {papers/chen-et-al-sigmod-22-demo.pdf},
        year = {2022}
       }
-      
       
   -
     layout: paper
@@ -5873,10 +5805,9 @@
        abstract = {Since its introduction in 2003, the influence maximization (IM) problem has drawn significant research attention in the literature. The aim of IM, which is NP-hard, is to select a set of k users known as seed users who can influence the most individuals in the social network. The state-of-the-art algorithms estimate the expected influence of nodes based on sampled diffusion paths. As the number of required samples have been recently proven to be lower bounded by a particular threshold that presets tradeoff between the accuracy and efficiency, the result quality of these traditional solutions is hard to be further improved without sacrificing efficiency. In this paper, we present an orthogonal and novel paradigm to address the IM problem by leveraging deep reinforcement learning to estimate the expected influence. Specifically, we present a novel framework called PIANO that incorporates network embedding and reinforcement learning techniques to address this problem. In order to make it practical, we further present PIANO-E and PIANO@⟨d⟩, both of which can be applied directly to answer IM without training the model from scratch. Experimental study on real-world networks demonstrates that PIANO achieves the best performance w.r.t efficiency and influence spread quality compared to state-of-the- art classical solutions. We also demonstrate that the learned parametric models generalize well across different networks. Besides, we provide a pool of pretrained PIANO models such that any IM task can be addressed by directly applying a model from the pool without training over the targeted network.},
        author = {Hui Li and Mengting Xu and Sourav Bhowmick and Shafiq Joty and Changsheng Sun and Jiangtao Cui},
        journal = {IEEE Transactions on Computational Social Systems (IEEE TCSS)},
-       link = {papers/li-et-al-piano-ieee-2022.pdf},
        publisher = {IEEE CS Press},
        title = {PIANO: Influence Maximization Meets Deep Reinforcement Learning},
+       url = {papers/li-et-al-piano-ieee-2022.pdf},
        year = {2022}
       }
-      
       

@@ -1,11 +1,57 @@
 ---
+abstract: 'The widespread usage of rdbms in the commercial world has played a pivotal
+  role in the offering of database systems course in major universities. A key challenge
+  encountered by learners taking such a course is the topic of query optimization.
+  The query optimization process produces a query execution plan (qep), which represents
+  an execution strategy for an sql query. Unfortunately, in practice, it is often
+  difficult for a learner to comprehend query execution strategies by perusing vendor-specific
+  qeps, hindering her learning process. In this paper, we present a novel, end-to-end,
+  generic sys- tem called lantern that generates a natural language description of
+  a qep to enhance its understanding. It takes as input an sql query and its qep,
+  and generates a natural language description of the execution strategy deployed
+  by the underlying rdbms. Specifi- cally, it deploys a declarative framework called
+  pool that enables subject matter experts to efficiently create and maintain natural
+  language descriptions of physical operators used in qeps. A rule- based framework
+  called rule-lantern is proposed that exploits pool to generate natural language
+  descriptions of qeps. Despite the high accuracy of rule-lantern, our engagement
+  with learners reveal that consistent with existing psychology theories perusing
+  such rule-based descriptions lead to boredom due to repetitive state- ments across
+  different qeps. To address this issue, we present a novel deep learning-based language
+  generation framework called neural-lantern that infuses language variability in
+  the gener- ated description by exploiting a set of paraphrasing tools and word embedding.
+  Our experimental study with real learners shows the effectiveness of lantern in
+  facilitating comprehension of qeps.
+
+  '
 authors: Weiguo Wang, Sourav S, Hui Li, Shafiq Joty, and Siyuan Liu
-bibtex: "@inproceedings{wang-et-al-sigmod-21,\n address = {Xi'an, Shaanxi, China},\n\
-  \ author = {Weiguo Wang and Sourav S Bhowmick and Hui Li and Shafiq Joty and Siyuan\
-  \ Liu},\n booktitle = {Proceedings of 2021 ACM SIGMOD International Conference on\
-  \ Management of Data},\n link = {},\n month = {June},\n pages = {x -- x},\n publisher\
-  \ = {ACM},\n series = {SIGMOD'21},\n title = {Towards Enhancing Database Education:\
-  \ Natural Language Generation Meets Query Execution Plans},\n year = {2021}\n}\n"
+bibtex: "@inproceedings{wang-et-al-sigmod-21,\n abstract = {The widespread usage of\
+  \ rdbms in the commercial world has played a pivotal role in the offering of database\
+  \ systems course in major universities. A key challenge encountered by learners\
+  \ taking such a course is the topic of query optimization. The query optimization\
+  \ process produces a query execution plan (qep), which represents an execution strategy\
+  \ for an sql query. Unfortunately, in practice, it is often difficult for a learner\
+  \ to comprehend query execution strategies by perusing vendor-specific qeps, hindering\
+  \ her learning process. In this paper, we present a novel, end-to-end, generic sys-\
+  \ tem called lantern that generates a natural language description of a qep to enhance\
+  \ its understanding. It takes as input an sql query and its qep, and generates a\
+  \ natural language description of the execution strategy deployed by the underlying\
+  \ rdbms. Specifi- cally, it deploys a declarative framework called pool that enables\
+  \ subject matter experts to efficiently create and maintain natural language descriptions\
+  \ of physical operators used in qeps. A rule- based framework called rule-lantern\
+  \ is proposed that exploits pool to generate natural language descriptions of qeps.\
+  \ Despite the high accuracy of rule-lantern, our engagement with learners reveal\
+  \ that consistent with existing psychology theories perusing such rule-based descriptions\
+  \ lead to boredom due to repetitive state- ments across different qeps. To address\
+  \ this issue, we present a novel deep learning-based language generation framework\
+  \ called neural-lantern that infuses language variability in the gener- ated description\
+  \ by exploiting a set of paraphrasing tools and word embedding. Our experimental\
+  \ study with real learners shows the effectiveness of lantern in facilitating comprehension\
+  \ of qeps.},\n address = {Xi'an, Shaanxi, China},\n author = {Weiguo Wang and Sourav\
+  \ S Bhowmick and Hui Li and Shafiq Joty and Siyuan Liu},\n booktitle = {Proceedings\
+  \ of 2021 ACM SIGMOD International Conference on Management of Data},\n month =\
+  \ {June},\n pages = {x -- x},\n publisher = {ACM},\n series = {SIGMOD'21},\n title\
+  \ = {Towards Enhancing Database Education: Natural Language Generation Meets Query\
+  \ Execution Plans},\n url = {},\n year = {2021}\n}\n"
 booktitle: 'Proceedings of 2021 ACM SIGMOD International Conference on Management
   of Data (<b>SIGMOD''21</b>)
 

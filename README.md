@@ -8,7 +8,7 @@ It is a fork from Adam Lopez's at https://alopez.github.io
 
 ```
 
-python scripts/parsebib.py papers/bibtex.bib  2>/dev/null  | perl -anpe 's/\t/    /g;' > _data/papers.yml
+python3 scripts/parsebib.py papers/bibtex.bib  2>/dev/null  | perl -anpe 's/\t/    /g;' > _data/papers.yml
 
 ```
 
@@ -16,6 +16,6 @@ python scripts/parsebib.py papers/bibtex.bib  2>/dev/null  | perl -anpe 's/\t/  
 
 ```
 
-python scripts/migrate.py _data/papers.yml  
+python2 scripts/migrate.py _data/papers.yml  
 
 ```
