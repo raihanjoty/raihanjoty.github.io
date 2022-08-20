@@ -2826,29 +2826,23 @@ handle explicit discrete reasoning over noisy programs in an end-to-end manner.
 
 
 
-@InProceedings{Saha2-aaai-2022,
-  title="{Weakly Supervised Neuro-Symbolic Module Networks for Numerical Reasoning}",
-  author={Amrita Saha and Shafiq Joty and Steven Hoi},
-  booktitle = {Thirty-Sixth AAAI Conference on Artificial Intelligence},
-  series    = {AAAI'22},
-  address   = {Vancouver, Canada}, 
-  pages={},
-  year={2022},
-  url = {https://arxiv.org/pdf/2101.11802.pdf},
-  abstract={Neural Module Networks (NMNs) have been quite successful in incorporating explicit reasoning as learnable modules in various question answering tasks, including
-the most generic form of numerical reasoning over text in Machine Reading Comprehension (MRC). However, to achieve this, contemporary NMNs need strong
-supervision in executing the query as a specialized program over reasoning modules
-and fail to generalize to more open-ended settings without such supervision. Hence
-we propose Weakly-Supervised Neuro-Symbolic Module Network (WNSMN)
-trained with answers as the sole supervision for numerical reasoning based MRC. It
-learns to execute a noisy heuristic program obtained from the dependency parsing
-of the query, as discrete actions over both neural and symbolic reasoning modules
-and trains it end-to-end in a reinforcement learning framework with discrete reward
-from answer matching. On the numerical-answer subset of DROP, WNSMN outperforms NMN by 32% and the reasoning-free language model GenBERT by 8%
-in exact match accuracy when trained under comparable weak supervised settings.
-This showcases the effectiveness and generalizability of modular networks that can
-handle explicit discrete reasoning over noisy programs in an end-to-end manner.
-}
+@inproceedings{Long-coling-22,
+  author    = {Xuan Long Do and 
+              Bowei Zou and 
+              Liangming Pan and 
+              Nancy Chen and 
+              Shafiq Joty and 
+              Ai Ti Aw
+              },
+  title     = {CoHS-CQG: Context and History Selection for Conversational Question Generation},
+  booktitle = {Proceedings of the 29th International Conference on Computational Linguistics},
+  month     = {October}, 
+  address   = {Gyeongju, Republic of Korea},
+  series = {COLING'22},
+  pages     = {xx--xx},
+  year      = {2022},
+  url       = {},
+  abstract  = {Conversational question generation (CQG) serves as a vital task for machines to assist humans, such as interactive reading comprehension, through conversations. Compared to traditional single-turn question generation (SQG), CQG is more challenging in the sense that the generated question is required not only to be meaningful, but also to align with the provided conversation. Previous studies mainly focus on how to model the flow and alignment of the conversation, but do not thoroughly study which parts of the context and history are necessary for the model. We believe that shortening the context and history is crucial as it can help the model to optimise more on the conversational alignment property. To this end, we propose CoHS-CQG, a two-stage CQG framework, which adopts a novel CoHS module to shorten the context and history of the input. In particular, it selects the top-p sentences and history turns by calculating the relevance scores of them. Our model achieves state-of-the-art performances on CoQA in both the answer-aware and answer-unaware settings.}
 }
 
 
