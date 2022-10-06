@@ -1,45 +1,48 @@
 ---
-abstract: 'We present BotSIM, a data-efficient end-to-end Bot SIMulation framework
-  for commercial task-oriented  dialog (TOD) systems. BotSIM consists of three major
-  components: 1) a Generator that can infer semantic-level dialog acts and entities
-  from bot definitions and generate conversations via model-based paraphrasing; 2)
-  an agenda-based dialog user Simulator to communicate with the dialog agents; 3)
-  a Remediator to analyze and visualize the bot health reports and provide actionable
-  remediation suggestions for troubleshooting and improving the dialog system.   We
-  demonstrate BotSIM''s effectiveness in end-to-end evaluation, remediation and multi-intent
-  dialog generation via case studies on two commercial bot platforms. BotSIM''s "generation-simulation-remediation''"
-  paradigm accelerates the end-to-end bot evaluation and iteration process by: 1)
-  reducing the effort needed to create test cases; 2) enabling a better understanding
-  of both NLU and end-to-end performance via extensive dialog simulation; 3) improving
-  the bot troubleshooting  process with actionable suggestions from simulation results
-  analysis. A demo of our system can be found at  https://tinyurl.com/mryu74cd and
-  a demo video at https://youtu.be/qLPJm6_UOKY.
+abstract: 'Knowledge-enhanced language representation learning has shown promising
+  results across various knowledge-intensive NLP tasks. However, prior methods are
+  limited in efficient utilization of multilingual knowledge graph (KG) data for language
+  model (LM) pretraining. They often train LMs with KGs in indirect ways, relying
+  on extra entity/relation embeddings to facilitate knowledge injection. In this work,
+  we explore methods to make better use of the multilingual annotation and language
+  agnostic property of KG triples, and present novel knowledge based multilingual
+  language models (KMLMs) trained directly on the knowledge triples. We first generate
+  a large amount of multilingual synthetic sentences using the Wikidata KG triples.
+  Then based on the intra- and inter-sentence structures of the generated data, we
+  design pretraining tasks to enable the LMs to not only memorize the factual knowledge
+  but also learn useful logical patterns. Our pretrained KMLMs demonstrate significant
+  performance improvements on a wide range of knowledge-intensive cross-lingual tasks,
+  including named entity recognition (NER), factual knowledge retrieval, relation
+  classification, and a newly designed logical reasoning task. Our code and pretrained
+  models will be made publicly available.
 
   '
-authors: Guangsen Wang, Samson Tan, Shafiq Joty, Gang Wu, Jimmy Au, and Steven Hoi
-bibtex: "@inproceedings{Mohiuddin-et-al-emnlp-22,\n abstract = {We present BotSIM,\
-  \ a data-efficient end-to-end Bot SIMulation framework for commercial task-oriented\
-  \  dialog (TOD) systems. BotSIM consists of three major components: 1) a Generator\
-  \ that can infer semantic-level dialog acts and entities from bot definitions and\
-  \ generate conversations via model-based paraphrasing; 2) an agenda-based dialog\
-  \ user Simulator to communicate with the dialog agents; 3) a Remediator to analyze\
-  \ and visualize the bot health reports and provide actionable remediation suggestions\
-  \ for troubleshooting and improving the dialog system.  \nWe demonstrate BotSIM's\
-  \ effectiveness in end-to-end evaluation, remediation and multi-intent dialog generation\
-  \ via case studies on two commercial bot platforms. BotSIM's \"generation-simulation-remediation'\"\
-  \ paradigm accelerates the end-to-end bot evaluation and iteration process by: 1)\
-  \ reducing the effort needed to create test cases; 2) enabling a better understanding\
-  \ of both NLU and end-to-end performance via extensive dialog simulation; 3) improving\
-  \ the bot troubleshooting  process with actionable suggestions from simulation results\
-  \ analysis. A demo of our system can be found at  https://tinyurl.com/mryu74cd and\
-  \ a demo video at https://youtu.be/qLPJm6_UOKY.},\n address = {Abu Dhabi, UAE},\n\
-  \ author = {Guangsen Wang and Samson Tan and Shafiq Joty and Gang Wu and Jimmy Au\
-  \ and Steven Hoi},\n booktitle = {the 2022 Conference on Empirical Methods in Natural\
-  \ Language Processing (demo)},\n publisher = {ACL},\n series = {EMNLP'22},\n title\
-  \ = {BotSIM: An End-to-End Bot Simulation Framework for Commercial Task-Oriented\
-  \ Dialog Systems},\n url = {},\n year = {2022}\n}\n"
+authors: Tasnim Mohiuddin, Philipp Koehn, Vishrav Chaudhary, James Cross, Shruti Bhosale,
+  and Shafiq Joty
+bibtex: "@inproceedings{Mohiuddin-et-al-emnlp-22,\n abstract = {Knowledge-enhanced\
+  \ language representation learning has shown promising results across various knowledge-intensive\
+  \ NLP tasks. However, prior methods are limited in efficient utilization of multilingual\
+  \ knowledge graph (KG) data for language model (LM) pretraining. They often train\
+  \ LMs with KGs in indirect ways, relying on extra entity/relation embeddings to\
+  \ facilitate knowledge injection. In this work, we explore methods to make better\
+  \ use of the multilingual annotation and language agnostic property of KG triples,\
+  \ and present novel knowledge based multilingual language models (KMLMs) trained\
+  \ directly on the knowledge triples. We first generate a large amount of multilingual\
+  \ synthetic sentences using the Wikidata KG triples. Then based on the intra- and\
+  \ inter-sentence structures of the generated data, we design pretraining tasks to\
+  \ enable the LMs to not only memorize the factual knowledge but also learn useful\
+  \ logical patterns. Our pretrained KMLMs demonstrate significant performance improvements\
+  \ on a wide range of knowledge-intensive cross-lingual tasks, including named entity\
+  \ recognition (NER), factual knowledge retrieval, relation classification, and a\
+  \ newly designed logical reasoning task. Our code and pretrained models will be\
+  \ made publicly available.},\n address = {Abu Dhabi, UAE},\n author = {Tasnim Mohiuddin\
+  \ and Philipp Koehn and Vishrav Chaudhary and James Cross and Shruti Bhosale and\
+  \ Shafiq Joty},\n booktitle = {the 2022 Conference on Empirical Methods in Natural\
+  \ Language Processing (Findings)},\n publisher = {ACL},\n series = {EMNLP'22},\n\
+  \ title = {Data Selection Curriculum for Neural Machine Translation},\n url = {},\n\
+  \ year = {2022}\n}\n"
 booktitle: 'the 2022 Conference on Empirical Methods in Natural Language Processing
-  (demo) (<b>EMNLP''22</b>)
+  (Findings) (<b>EMNLP''22</b>)
 
   '
 code: null
@@ -52,8 +55,7 @@ paper-type: inproceedings
 picture: shafiq
 selected: false
 slides: media/Mohiuddin-et-al-emnlp-22-slides.pdf
-title: 'BotSIM: An End-to-End Bot Simulation Framework for Commercial Task-Oriented
-  Dialog Systems
+title: 'Data Selection Curriculum for Neural Machine Translation
 
   '
 venue: conference
