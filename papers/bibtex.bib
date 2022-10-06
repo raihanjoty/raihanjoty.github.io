@@ -2345,8 +2345,8 @@ Conclusions: The literature on conversational agents in health care is largely d
 
 
 @inproceedings{Junnan-et-al-nips-21,
-  title="{Align before Fuse: Vision and Language Representation Learning with
-               Momentum Distillation}",
+  title="Align before Fuse: Vision and Language Representation Learning with
+               Momentum Distillation",
   author    = {Junnan Li and
                Ramprasaath R. Selvaraju and
                Akhilesh Deepak Gotmare and
@@ -2671,6 +2671,125 @@ the synthetic tasks and the downstream applications, motivating alternate traini
 
 %% 2022
 
+@InProceedings{Ravaut-et-al-emnlp-22,
+  author = {Mathieu Ravaut and Shafiq Joty and Nancy Chen},
+  title     = {Towards Summary Candidates Fusion},
+  booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2022},
+  series    = {EMNLP'22},
+  publisher = {ACL},
+  address   = {Abu Dhabi, UAE}, 
+  url = {},
+  abstract = {Sequence-to-sequence deep neural models fine-tuned for abstractive summarization can achieve great performance on datasets with enough human annotations. Yet, it has been shown that they have not reached their full potential, with a wide gap between the top beam search output and the \emph{oracle} beam. Recently, re-ranking methods have been proposed, to learn to select a better summary candidate. However, such methods are limited by the summary quality  aspects captured by the first-stage candidates. To bypass this limitation, we propose a new paradigm in second-stage abstractive summarization called SummaFusion that fuses several summary candiates to produce a novel abstractive \emph{second-stage} summary. Our method works well on several summarization datasets, improving both the ROUGE scores and qualitative properties of fused summaries. It is especially good when the candidates to fuse are worse, such as in the few-shot setup where we set a new state-of-the-art.}
+}
+
+@InProceedings{Chen-et-al-emnlp-22,
+  author = {Hailin Chen and Amrita Saha and Shafiq Joty and Steven Hoi},
+  title     = {Learning Label Modular Prompts for Text Classification in the Wild},
+  booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2022},
+  series    = {EMNLP'22},
+  publisher = {ACL},
+  address   = {Abu Dhabi, UAE}, 
+  url = {},
+  abstract = {Machine learning models usually assume i.i.d data during training and testing, but data and tasks  in real world often change over time. To emulate the transient nature of real world, we propose a challenging but practical task: text classification \textit{in-the-wild}, which introduces different non-stationary training/testing stages. Decomposing a complex task into modular components can enable robust generalisation under such non-stationary environment. However, current modular approaches in NLP do not take advantage of recent advances in parameter efficient tuning of pretrained language models. To close this gap, we propose \textsc{\small{ModularPrompt}}, a label-modular prompt tuning framework for text classification tasks. In  \textsc{\small{ModularPrompt}}, the input prompt consists of a sequence of soft \emph{label} prompts, each encoding modular knowledge related to the corresponding class label. In two of most formidable settings,  \textsc{\small{ModularPrompt}} outperforms relevant baselines by a large margin demonstrating strong generalisation ability. We also conduct comprehensive analysis to validate whether the learned prompts satisfy properties of a modular representation.}
+}
+
+@InProceedings{Kantharaj-et-al-emnlp-22,
+  author = {Shankar Kantharaj, Xuan Long Do, Rixie Tiffany Leong, Jia Qing Tan, Enamul Hoque and Shafiq Joty},
+  title     = {OpenCQA: Open-ended Question Answering with Charts},
+  booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2022},
+  series    = {EMNLP'22},
+  publisher = {ACL},
+  address   = {Abu Dhabi, UAE}, 
+  url = {},
+  abstract = {Charts are very popular to analyze data and convey important insights. People often analyze visualizations to answer open-ended questions that require explanatory answers. Answering such questions are often difficult and
+time-consuming as it requires a lot of cognitive and perceptual efforts. To address this
+challenge, we introduce a new task called
+OpenCQA, where the goal is to answer an open-ended question about a chart with descriptive texts. We present the annotation process and an in-depth analysis of our dataset.
+We implement and evaluate a set of baselines
+under three practical settings. In the first setting, a chart and the accompanying article is
+provided as input to the model. The second setting provides only the relevant paragraph(s) to
+the chart instead of the entire article, whereas
+the third setting requires the model to generate
+an answer solely based on the chart. Our analysis of the results show that the top performing
+models generally produce fluent and coherent
+text while they struggle to perform complex
+logical and arithmetic reasoning.}
+}
+
+@InProceedings{Sawhney-et-al-emnlp-22,
+  author = {Ramit Sawhney and Megh Thakkar and Vishwa Shah and Shrey Pandit and Shafiq Joty},
+  title     = {AdaPT: A Set of Guidelines for Hyperbolic Multimodal Multilingual NLP},
+  booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2022},
+  series    = {EMNLP'22},
+  publisher = {ACL},
+  address   = {Abu Dhabi, UAE}, 
+  url = {},
+  abstract = {The Euclidean space is the familiar space for training neural models and performing arithmetic operations.
+However, many data types inherently possess complex geometries, and model training methods involve operating over their latent representations, which cannot be effectively captured in the Euclidean space.
+The hyperbolic space provides a more generalized representative geometry to model the hierarchical complexities of the tree-like structure of natural language.
+We propose \textsc{AdaPT} a set of guidelines for initialization, parametrization, and training of neural networks, which adapts to the dataset and can be used with different manifolds. 
+\textsc{AdaPT} can be generalized over \textit{any} existing neural network training methodology and leads to more stable training without a substantial increase in training time.
+We apply \textsc{AdaPT} guidelines over two state-of-the-art deep learning approaches and empirically demonstrate its effectiveness through experiments on three tasks over 12 languages across speech and text.
+Through extensive qualitative analysis, we put forward the applicability of \textsc{AdaPT} as a set of guidelines optimally utilizing the manifold geometry, which can be extended to various downstream tasks across languages and modalities.}
+}
+
+
+@InProceedings{Chen-et-al-emnlp-22,
+  author = {Hailin Chen and Amrita Saha and Shafiq Joty and Steven Hoi},
+  title     = {Learning Label Modular Prompts for Text Classification in the Wild},
+  booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2022},
+  series    = {EMNLP'22},
+  publisher = {ACL},
+  address   = {Abu Dhabi, UAE}, 
+  url = {},
+  abstract = {Machine learning models usually assume i.i.d data during training and testing, but data and tasks  in real world often change over time. To emulate the transient nature of real world, we propose a challenging but practical task: text classification \textit{in-the-wild}, which introduces different non-stationary training/testing stages. Decomposing a complex task into modular components can enable robust generalisation under such non-stationary environment. However, current modular approaches in NLP do not take advantage of recent advances in parameter efficient tuning of pretrained language models. To close this gap, we propose \textsc{\small{ModularPrompt}}, a label-modular prompt tuning framework for text classification tasks. In  \textsc{\small{ModularPrompt}}, the input prompt consists of a sequence of soft \emph{label} prompts, each encoding modular knowledge related to the corresponding class label. In two of most formidable settings,  \textsc{\small{ModularPrompt}} outperforms relevant baselines by a large margin demonstrating strong generalisation ability. We also conduct comprehensive analysis to validate whether the learned prompts satisfy properties of a modular representation.}
+}
+
+@InProceedings{Liu-et-al-emnlp-22,
+  author = {Linlin Liu and Xin Li and Ruidan He and Lidong Bing and Shafiq Joty and Luo Si},
+  title     = {Enhancing Multilingual Language Model with Massive Multilingual Knowledge Triples},
+  booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2022},
+  series    = {EMNLP'22},
+  publisher = {ACL},
+  address   = {Abu Dhabi, UAE}, 
+  url = {},
+  abstract = {Knowledge-enhanced language representation learning has shown promising results across various knowledge-intensive NLP tasks. However, prior methods are limited in efficient utilization of multilingual knowledge graph (KG) data for language model (LM) pretraining. They often train LMs with KGs in indirect ways, relying on extra entity/relation embeddings to facilitate knowledge injection. In this work, we explore methods to make better use of the multilingual annotation and language agnostic property of KG triples, and present novel knowledge based multilingual language models (KMLMs) trained directly on the knowledge triples. We first generate a large amount of multilingual synthetic sentences using the Wikidata KG triples. Then based on the intra- and inter-sentence structures of the generated data, we design pretraining tasks to enable the LMs to not only memorize the factual knowledge but also learn useful logical patterns. Our pretrained KMLMs demonstrate significant performance improvements on a wide range of knowledge-intensive cross-lingual tasks, including named entity recognition (NER), factual knowledge retrieval, relation classification, and a newly designed logical reasoning task. Our code and pretrained models will be made publicly available.}
+}
+
+@InProceedings{Mohiuddin-et-al-emnlp-22,
+  author = {Tasnim Mohiuddin and Philipp Koehn and Vishrav Chaudhary and James Cross and Shruti Bhosale and Shafiq Joty},
+  title     = {Data Selection Curriculum for Neural Machine Translation},
+  booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2022},
+  series    = {EMNLP'22},
+  publisher = {ACL},
+  address   = {Abu Dhabi, UAE}, 
+  url = {},
+  abstract = {Knowledge-enhanced language representation learning has shown promising results across various knowledge-intensive NLP tasks. However, prior methods are limited in efficient utilization of multilingual knowledge graph (KG) data for language model (LM) pretraining. They often train LMs with KGs in indirect ways, relying on extra entity/relation embeddings to facilitate knowledge injection. In this work, we explore methods to make better use of the multilingual annotation and language agnostic property of KG triples, and present novel knowledge based multilingual language models (KMLMs) trained directly on the knowledge triples. We first generate a large amount of multilingual synthetic sentences using the Wikidata KG triples. Then based on the intra- and inter-sentence structures of the generated data, we design pretraining tasks to enable the LMs to not only memorize the factual knowledge but also learn useful logical patterns. Our pretrained KMLMs demonstrate significant performance improvements on a wide range of knowledge-intensive cross-lingual tasks, including named entity recognition (NER), factual knowledge retrieval, relation classification, and a newly designed logical reasoning task. Our code and pretrained models will be made publicly available.}
+}
+
+@InProceedings{Mohiuddin-et-al-emnlp-22,
+  author = {Guangsen Wang and Samson Tan and Shafiq Joty and Gang Wu and Jimmy Au and Steven Hoi},
+  title     = {BotSIM: An End-to-End Bot Simulation Framework for Commercial Task-Oriented Dialog Systems},
+  booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2022},
+  series    = {EMNLP'22},
+  publisher = {ACL},
+  address   = {Abu Dhabi, UAE}, 
+  url = {},
+  abstract = {We present BotSIM, a data-efficient end-to-end Bot SIMulation framework for commercial task-oriented  dialog (TOD) systems. BotSIM consists of three major components: 1) a Generator that can infer semantic-level dialog acts and entities from bot definitions and generate conversations via model-based paraphrasing; 2) an agenda-based dialog user Simulator to communicate with the dialog agents; 3) a Remediator to analyze and visualize the bot health reports and provide actionable remediation suggestions for troubleshooting and improving the dialog system.  
+We demonstrate BotSIM's effectiveness in end-to-end evaluation, remediation and multi-intent dialog generation via case studies on two commercial bot platforms. BotSIM's "generation-simulation-remediation'" paradigm accelerates the end-to-end bot evaluation and iteration process by: 1) reducing the effort needed to create test cases; 2) enabling a better understanding of both NLU and end-to-end performance via extensive dialog simulation; 3) improving the bot troubleshooting  process with actionable suggestions from simulation results analysis. A demo of our system can be found at 
+ https://tinyurl.com/mryu74cd and a demo video at https://youtu.be/qLPJm6_UOKY.}
+}
+
+
+
 @inproceedings{nguyen2022umt,
     title={Refining Low-Resource Unsupervised Translation by Language Disentanglement of Multilingual Translation Model},
     author={Xuan-Phi Nguyen and Shafiq Joty and Wu Kui and Ai Ti Aw},
@@ -2737,7 +2856,7 @@ at anonymous.4open.science/r/fairseq-py-BB44.},
 
 
 @InProceedings{Ravaut-acl-22,
-  author = {Mathieu Ravaut and Nancy Chen and Shafiq Joty},
+  author = {Mathieu Ravaut and Shafiq Joty and Nancy Chen},
   title     = {SummaReranker: A Multi-Task Mixture-of-Experts Re-Ranking Framework for Abstractive Summarization},
   booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
   year      = {2022},
