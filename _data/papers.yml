@@ -5586,6 +5586,38 @@
     year: 2022
     selected: no
     title: >
+      Alleviating Sparsity of Open Knowledge Graphs with Ternary Contrastive Learning
+    authors: Qian Li, Shafiq Joty, Daling Wang, Shi Feng, and Yifei Zhang
+    id: Chen-et-al-emnlp-22
+    img: Chen-et-al-emnlp-22-fig
+    slides: media/Chen-et-al-emnlp-22-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      the 2022 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'22</b>)
+    doc-url: 
+    abstract: >
+      Sparsity of formal knowledge and roughness of non-ontological construction methods make sparsity problem particularly prominent in Open Knowledge Graphs (OpenKGs). Due to sparse links, learning effective representation for few-shot entities becomes difficult. We hypothesize that by introducing negative  samples, a contrastive learning (CL) formulation could be beneficial in such scenarios. However, existing CL methods consider binary objects while modeling KG triplets and they are too generic, i.e., they ignore zero-shot, few-shot and synonymity problems that appear in OpenKGs. To address this, we propose TernaryCL, a CL framework based on ternary propagation patterns among head, relation and tail. TernaryCL designs  \emphContrastive Entity and \emphContrastive Relation to mine ternary discriminative features by considering both negative entities and relations. It also introduces \emphContrastive Self to help zero- and few-shot entities learn discriminative features, \emphContrastive Synonym to consider synonymous entities, and \emphContrastive Fusion to aggregate graph features from multiple paths. With extensive experiments on benchmark datasets, we demonstrate the superiority of TernaryCL over state-of-the-art models.
+    bibtex: >
+      @inproceedings{Chen-et-al-emnlp-22,
+       abstract = {Sparsity of formal knowledge and roughness of non-ontological construction methods make sparsity problem particularly prominent in Open Knowledge Graphs (OpenKGs). Due to sparse links, learning effective representation for few-shot entities becomes difficult. We hypothesize that by introducing negative  samples, a contrastive learning (CL) formulation could be beneficial in such scenarios. However, existing CL methods consider binary objects while modeling KG triplets and they are too generic, i.e., they ignore zero-shot, few-shot and synonymity problems that appear in OpenKGs. To address this, we propose TernaryCL, a CL framework based on ternary propagation patterns among head, relation and tail. TernaryCL designs  \emph{Contrastive Entity} and \emph{Contrastive Relation} to mine ternary discriminative features by considering both negative entities and relations. It also introduces \emph{Contrastive Self} to help zero- and few-shot entities learn discriminative features, \emph{Contrastive Synonym} to consider synonymous entities, and \emph{Contrastive Fusion} to aggregate graph features from multiple paths. With extensive experiments on benchmark datasets, we demonstrate the superiority of TernaryCL over state-of-the-art models.},
+       address = {Abu Dhabi, UAE},
+       author = {Qian Li and Shafiq Joty and Daling Wang and Shi Feng and Yifei Zhang},
+       booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+       publisher = {ACL},
+       series = {EMNLP'22},
+       title = {Alleviating Sparsity of Open Knowledge Graphs with Ternary Contrastive Learning},
+       url = {},
+       year = {2022}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2022
+    selected: no
+    title: >
       Data Selection Curriculum for Neural Machine Translation
     authors: Tasnim Mohiuddin, Philipp Koehn, Vishrav Chaudhary, James Cross, Shruti Bhosale, and Shafiq Joty
     id: Mohiuddin-et-al-emnlp-22
@@ -5595,7 +5627,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      the 2022 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'22</b>)
+      the 2022 Conference on Empirical Methods in Natural Language Processing (Findings) (<b>EMNLP'22</b>)
     doc-url: 
     abstract: >
       Knowledge-enhanced language representation learning has shown promising results across various knowledge-intensive NLP tasks. However, prior methods are limited in efficient utilization of multilingual knowledge graph (KG) data for language model (LM) pretraining. They often train LMs with KGs in indirect ways, relying on extra entity/relation embeddings to facilitate knowledge injection. In this work, we explore methods to make better use of the multilingual annotation and language agnostic property of KG triples, and present novel knowledge based multilingual language models (KMLMs) trained directly on the knowledge triples. We first generate a large amount of multilingual synthetic sentences using the Wikidata KG triples. Then based on the intra- and inter-sentence structures of the generated data, we design pretraining tasks to enable the LMs to not only memorize the factual knowledge but also learn useful logical patterns. Our pretrained KMLMs demonstrate significant performance improvements on a wide range of knowledge-intensive cross-lingual tasks, including named entity recognition (NER), factual knowledge retrieval, relation classification, and a newly designed logical reasoning task. Our code and pretrained models will be made publicly available.
@@ -5604,7 +5636,7 @@
        abstract = {Knowledge-enhanced language representation learning has shown promising results across various knowledge-intensive NLP tasks. However, prior methods are limited in efficient utilization of multilingual knowledge graph (KG) data for language model (LM) pretraining. They often train LMs with KGs in indirect ways, relying on extra entity/relation embeddings to facilitate knowledge injection. In this work, we explore methods to make better use of the multilingual annotation and language agnostic property of KG triples, and present novel knowledge based multilingual language models (KMLMs) trained directly on the knowledge triples. We first generate a large amount of multilingual synthetic sentences using the Wikidata KG triples. Then based on the intra- and inter-sentence structures of the generated data, we design pretraining tasks to enable the LMs to not only memorize the factual knowledge but also learn useful logical patterns. Our pretrained KMLMs demonstrate significant performance improvements on a wide range of knowledge-intensive cross-lingual tasks, including named entity recognition (NER), factual knowledge retrieval, relation classification, and a newly designed logical reasoning task. Our code and pretrained models will be made publicly available.},
        address = {Abu Dhabi, UAE},
        author = {Tasnim Mohiuddin and Philipp Koehn and Vishrav Chaudhary and James Cross and Shruti Bhosale and Shafiq Joty},
-       booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+       booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing (Findings)},
        publisher = {ACL},
        series = {EMNLP'22},
        title = {Data Selection Curriculum for Neural Machine Translation},
@@ -5627,7 +5659,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      the 2022 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'22</b>)
+      the 2022 Conference on Empirical Methods in Natural Language Processing (demo) (<b>EMNLP'22</b>)
     doc-url: 
     abstract: >
       We present BotSIM, a data-efficient end-to-end Bot SIMulation framework for commercial task-oriented  dialog (TOD) systems. BotSIM consists of three major components: 1) a Generator that can infer semantic-level dialog acts and entities from bot definitions and generate conversations via model-based paraphrasing; 2) an agenda-based dialog user Simulator to communicate with the dialog agents; 3) a Remediator to analyze and visualize the bot health reports and provide actionable remediation suggestions for troubleshooting and improving the dialog system.   We demonstrate BotSIM's effectiveness in end-to-end evaluation, remediation and multi-intent dialog generation via case studies on two commercial bot platforms. BotSIM's "generation-simulation-remediation'" paradigm accelerates the end-to-end bot evaluation and iteration process by: 1) reducing the effort needed to create test cases; 2) enabling a better understanding of both NLU and end-to-end performance via extensive dialog simulation; 3) improving the bot troubleshooting  process with actionable suggestions from simulation results analysis. A demo of our system can be found at  https://tinyurl.com/mryu74cd and a demo video at https://youtu.be/qLPJm6_UOKY.
@@ -5638,7 +5670,7 @@
       https://tinyurl.com/mryu74cd and a demo video at https://youtu.be/qLPJm6_UOKY.},
        address = {Abu Dhabi, UAE},
        author = {Guangsen Wang and Samson Tan and Shafiq Joty and Gang Wu and Jimmy Au and Steven Hoi},
-       booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+       booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing (demo)},
        publisher = {ACL},
        series = {EMNLP'22},
        title = {BotSIM: An End-to-End Bot Simulation Framework for Commercial Task-Oriented Dialog Systems},

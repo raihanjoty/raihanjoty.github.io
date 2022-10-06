@@ -2762,10 +2762,23 @@ Through extensive qualitative analysis, we put forward the applicability of \tex
   abstract = {Knowledge-enhanced language representation learning has shown promising results across various knowledge-intensive NLP tasks. However, prior methods are limited in efficient utilization of multilingual knowledge graph (KG) data for language model (LM) pretraining. They often train LMs with KGs in indirect ways, relying on extra entity/relation embeddings to facilitate knowledge injection. In this work, we explore methods to make better use of the multilingual annotation and language agnostic property of KG triples, and present novel knowledge based multilingual language models (KMLMs) trained directly on the knowledge triples. We first generate a large amount of multilingual synthetic sentences using the Wikidata KG triples. Then based on the intra- and inter-sentence structures of the generated data, we design pretraining tasks to enable the LMs to not only memorize the factual knowledge but also learn useful logical patterns. Our pretrained KMLMs demonstrate significant performance improvements on a wide range of knowledge-intensive cross-lingual tasks, including named entity recognition (NER), factual knowledge retrieval, relation classification, and a newly designed logical reasoning task. Our code and pretrained models will be made publicly available.}
 }
 
+@InProceedings{Chen-et-al-emnlp-22,
+  author = {Qian Li and Shafiq Joty and Daling Wang and Shi Feng and Yifei Zhang},
+  title     = {Alleviating Sparsity of Open Knowledge Graphs with Ternary Contrastive Learning},
+  booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2022},
+  series    = {EMNLP'22},
+  publisher = {ACL},
+  address   = {Abu Dhabi, UAE}, 
+  url = {},
+  abstract = {Sparsity of formal knowledge and roughness of non-ontological construction methods make sparsity problem particularly prominent in Open Knowledge Graphs (OpenKGs). Due to sparse links, learning effective representation for few-shot entities becomes difficult. We hypothesize that by introducing negative  samples, a contrastive learning (CL) formulation could be beneficial in such scenarios. However, existing CL methods consider binary objects while modeling KG triplets and they are too generic, i.e., they ignore zero-shot, few-shot and synonymity problems that appear in OpenKGs. To address this, we propose TernaryCL, a CL framework based on ternary propagation patterns among head, relation and tail. TernaryCL designs  \emph{Contrastive Entity} and \emph{Contrastive Relation} to mine ternary discriminative features by considering both negative entities and relations. It also introduces \emph{Contrastive Self} to help zero- and few-shot entities learn discriminative features, \emph{Contrastive Synonym} to consider synonymous entities, and \emph{Contrastive Fusion} to aggregate graph features from multiple paths. With extensive experiments on benchmark datasets, we demonstrate the superiority of TernaryCL over state-of-the-art models.}
+}
+
+
 @InProceedings{Mohiuddin-et-al-emnlp-22,
   author = {Tasnim Mohiuddin and Philipp Koehn and Vishrav Chaudhary and James Cross and Shruti Bhosale and Shafiq Joty},
   title     = {Data Selection Curriculum for Neural Machine Translation},
-  booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+  booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing (Findings)},
   year      = {2022},
   series    = {EMNLP'22},
   publisher = {ACL},
@@ -2777,7 +2790,7 @@ Through extensive qualitative analysis, we put forward the applicability of \tex
 @InProceedings{Mohiuddin-et-al-emnlp-22,
   author = {Guangsen Wang and Samson Tan and Shafiq Joty and Gang Wu and Jimmy Au and Steven Hoi},
   title     = {BotSIM: An End-to-End Bot Simulation Framework for Commercial Task-Oriented Dialog Systems},
-  booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+  booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing (demo)},
   year      = {2022},
   series    = {EMNLP'22},
   publisher = {ACL},
