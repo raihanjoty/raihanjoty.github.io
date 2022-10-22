@@ -5376,39 +5376,6 @@
     year: 2022
     selected: no
     title: >
-      SleepQA: A Health Coaching Dataset on Sleep for Extractive Question Answering
-    authors: Iva Bojic, Qi Ong, Megh Thakkar, Esha Kamran, Irving Shua, Rei Pang, Jessica Chen, Vaaruni Nayak, Shafiq Joty, and Josip Car
-    id: Bojic-et-al-ML4H-22
-    img: Bojic-et-al-ML4H-22-fig
-    slides: media/Bojic-et-al-ML4H-22-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    booktitle: >
-      2022 Machine Learning for Health (Proceedings Track) (<b>ML4H'22</b>)
-    doc-url: 
-    abstract: >
-      Question Answering (QA) systems can support health coaches in facilitating clients' lifestyle behavior changes (e.g., in adopting healthy sleep habits). In this paper, we formulate a domain-specific QA task for sleep coaching. To this end, we release SleepQA, a dataset created from 7,005 passages comprising 4,250 training examples with single annotations and 750 examples with 5-way annotations. We train a bi-encoder retrieval system on our dataset and perform extensive automated and human evaluations of the resulting end-to-end QA system. Comparisons of our model with various baselines shows improvements for domain-specific natural language processing on real-world questions. We hope that this dataset will lead to wider research interest in this important health domain.
-    bibtex: >
-      @inproceedings{Bojic-et-al-ML4H-22,
-       abstract = {Question Answering (QA) systems can support health coaches in facilitating clients' lifestyle behavior changes (e.g., in adopting healthy sleep habits). In this paper, we formulate a domain-specific QA task for sleep coaching. To this end, we release SleepQA, a dataset created from 7,005 passages comprising 4,250 training examples with single annotations and 750 examples with 5-way annotations. We train a bi-encoder retrieval system on our dataset and perform extensive automated and human evaluations of the resulting end-to-end QA system. Comparisons of our model with various baselines shows improvements for domain-specific natural language processing on real-world questions. We hope that this dataset will lead to wider research interest in this important health domain.},
-       address = {New Orleans, USA},
-       author = {Iva Bojic and Qi Ong and Megh Thakkar and Esha Kamran and Irving Shua and Rei Pang and Jessica Chen and Vaaruni Nayak and Shafiq Joty and Josip Car},
-       booktitle = {2022 Machine Learning for Health (Proceedings Track)},
-       numpages = {9},
-       publisher = {Proceedings for Machine Learning Research (PMLR)},
-       series = {ML4H'22},
-       title = {SleepQA: A Health Coaching Dataset on Sleep for Extractive Question Answering},
-       url = {},
-       year = {2022}
-      }
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2022
-    selected: no
-    title: >
       Towards Summary Candidates Fusion
     authors: Mathieu Ravaut, Shafiq Joty, and Nancy Chen
     id: Ravaut-et-al-emnlp-22
