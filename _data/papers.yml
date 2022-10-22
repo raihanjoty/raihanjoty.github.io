@@ -5376,6 +5376,39 @@
     year: 2022
     selected: no
     title: >
+      SleepQA: A Health Coaching Dataset on Sleep for Extractive Question Answering
+    authors: Iva Bojic, Qi Ong, Megh Thakkar, Esha Kamran, Irving Shua, Rei Pang, Jessica Chen, Vaaruni Nayak, Shafiq Joty, and Josip Car
+    id: Bojic-et-al-ML4H-22
+    img: Bojic-et-al-ML4H-22-fig
+    slides: media/Bojic-et-al-ML4H-22-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      2022 Machine Learning for Health (Proceedings Track) (<b>ML4H'22</b>)
+    doc-url: 
+    abstract: >
+      Question Answering (QA) systems can support health coaches in facilitating clients' lifestyle behavior changes (e.g., in adopting healthy sleep habits). In this paper, we formulate a domain-specific QA task for sleep coaching. To this end, we release SleepQA, a dataset created from 7,005 passages comprising 4,250 training examples with single annotations and 750 examples with 5-way annotations. We train a bi-encoder retrieval system on our dataset and perform extensive automated and human evaluations of the resulting end-to-end QA system. Comparisons of our model with various baselines shows improvements for domain-specific natural language processing on real-world questions. We hope that this dataset will lead to wider research interest in this important health domain.
+    bibtex: >
+      @inproceedings{Bojic-et-al-ML4H-22,
+       abstract = {Question Answering (QA) systems can support health coaches in facilitating clients' lifestyle behavior changes (e.g., in adopting healthy sleep habits). In this paper, we formulate a domain-specific QA task for sleep coaching. To this end, we release SleepQA, a dataset created from 7,005 passages comprising 4,250 training examples with single annotations and 750 examples with 5-way annotations. We train a bi-encoder retrieval system on our dataset and perform extensive automated and human evaluations of the resulting end-to-end QA system. Comparisons of our model with various baselines shows improvements for domain-specific natural language processing on real-world questions. We hope that this dataset will lead to wider research interest in this important health domain.},
+       address = {New Orleans, USA},
+       author = {Iva Bojic and Qi Ong and Megh Thakkar and Esha Kamran and Irving Shua and Rei Pang and Jessica Chen and Vaaruni Nayak and Shafiq Joty and Josip Car},
+       booktitle = {2022 Machine Learning for Health (Proceedings Track)},
+       numpages = {9},
+       publisher = {Proceedings for Machine Learning Research (PMLR)},
+       series = {ML4H'22},
+       title = {SleepQA: A Health Coaching Dataset on Sleep for Extractive Question Answering},
+       url = {},
+       year = {2022}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2022
+    selected: no
+    title: >
       Towards Summary Candidates Fusion
     authors: Mathieu Ravaut, Shafiq Joty, and Nancy Chen
     id: Ravaut-et-al-emnlp-22
@@ -5563,7 +5596,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      the 2022 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'22</b>)
+      the 2022 Conference on Empirical Methods in Natural Language Processing (Findings) (<b>EMNLP'22</b>)
     doc-url: 
     abstract: >
       Sparsity of formal knowledge and roughness of non-ontological construction methods make sparsity problem particularly prominent in Open Knowledge Graphs (OpenKGs). Due to sparse links, learning effective representation for few-shot entities becomes difficult. We hypothesize that by introducing negative  samples, a contrastive learning (CL) formulation could be beneficial in such scenarios. However, existing CL methods consider binary objects while modeling KG triplets and they are too generic, i.e., they ignore zero-shot, few-shot and synonymity problems that appear in OpenKGs. To address this, we propose TernaryCL, a CL framework based on ternary propagation patterns among head, relation and tail. TernaryCL designs  \emphContrastive Entity and \emphContrastive Relation to mine ternary discriminative features by considering both negative entities and relations. It also introduces \emphContrastive Self to help zero- and few-shot entities learn discriminative features, \emphContrastive Synonym to consider synonymous entities, and \emphContrastive Fusion to aggregate graph features from multiple paths. With extensive experiments on benchmark datasets, we demonstrate the superiority of TernaryCL over state-of-the-art models.
@@ -5572,7 +5605,7 @@
        abstract = {Sparsity of formal knowledge and roughness of non-ontological construction methods make sparsity problem particularly prominent in Open Knowledge Graphs (OpenKGs). Due to sparse links, learning effective representation for few-shot entities becomes difficult. We hypothesize that by introducing negative  samples, a contrastive learning (CL) formulation could be beneficial in such scenarios. However, existing CL methods consider binary objects while modeling KG triplets and they are too generic, i.e., they ignore zero-shot, few-shot and synonymity problems that appear in OpenKGs. To address this, we propose TernaryCL, a CL framework based on ternary propagation patterns among head, relation and tail. TernaryCL designs  \emph{Contrastive Entity} and \emph{Contrastive Relation} to mine ternary discriminative features by considering both negative entities and relations. It also introduces \emph{Contrastive Self} to help zero- and few-shot entities learn discriminative features, \emph{Contrastive Synonym} to consider synonymous entities, and \emph{Contrastive Fusion} to aggregate graph features from multiple paths. With extensive experiments on benchmark datasets, we demonstrate the superiority of TernaryCL over state-of-the-art models.},
        address = {Abu Dhabi, UAE},
        author = {Qian Li and Shafiq Joty and Daling Wang and Shi Feng and Yifei Zhang},
-       booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing},
+       booktitle = {the 2022 Conference on Empirical Methods in Natural Language Processing (Findings)},
        publisher = {ACL},
        series = {EMNLP'22},
        title = {Alleviating Sparsity of Open Knowledge Graphs with Ternary Contrastive Learning},
