@@ -6295,3 +6295,35 @@
        year = {2023}
       }
       
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2023
+    selected: no
+    title: >
+      A Systematic Study of ChatGPT on Benchmark Datasets
+    authors: Md Tahmid, M Saiful, Mizanur Rahman, Md Amran, Shafiq Joty, and Jimmy Huang
+    id: Laskar-acl-23
+    img: Laskar-acl-23-fig
+    slides: media/Laskar-acl-23-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (<b>ACL'23</b>)
+    doc-url: 
+    abstract: >
+      While large language models have the potential to benefit society greatly, it is important that we use them responsibly. The recently released ChatGPT language model has drawn a lot of attention, with discussions ongoing whether it achieves impressive performance due to its memorization power for being trained on a massive amount of data, or if it has complex reasoning capability to solve challenging tasks. This paper aims to systematically evaluate these issues. In particular, it focuses on investigating the performance of ChatGPT on academic benchmark datasets, assessing the quality of its generated text, exploring its open-domain knowledge and commonsense reasoning, as well as emerging capability. In addition, we study its potential limitations, such as biases, misinformation generation, and ethical concerns. Our extensive evaluation shows that even though ChatGPT is capable of performing a wide variety of tasks, and may obtain impressive performance in several benchmark datasets, it is still far from achieving the ability to reliably solve many language processing tasks in challenging scenarios.
+    bibtex: >
+      @inproceedings{Laskar-acl-23,
+       abstract = {While large language models have the potential to benefit society greatly, it is important that we use them responsibly. The recently released ChatGPT language model has drawn a lot of attention, with discussions ongoing whether it achieves impressive performance due to its memorization power for being trained on a massive amount of data, or if it has complex reasoning capability to solve challenging tasks. This paper aims to systematically evaluate these issues. In particular, it focuses on investigating the performance of ChatGPT on academic benchmark datasets, assessing the quality of its generated text, exploring its open-domain knowledge and commonsense reasoning, as well as emerging capability. In addition, we study its potential limitations, such as biases, misinformation generation, and ethical concerns. Our extensive evaluation shows that even though ChatGPT is capable of performing a wide variety of tasks, and may obtain impressive performance in several benchmark datasets, it is still far from achieving the ability to reliably solve many language processing tasks in challenging scenarios.},
+       address = {Toronto, Canada},
+       author = {Md Tahmid Rahman Laskar and M Saiful Bari and Mizanur Rahman and Md Amran Hossen Bhuiyan and Shafiq Joty and Jimmy Huang},
+       booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
+       publisher = {ACL},
+       series = {ACL'23},
+       title = {A Systematic Study of ChatGPT on Benchmark Datasets},
+       url = {},
+       year = {2023}
+      }
+      
