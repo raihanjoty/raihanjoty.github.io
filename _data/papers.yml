@@ -6379,7 +6379,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      Findings of the 60th Annual Meeting of the Association for Computational Linguistics (<b>ACL'23</b>)
+      Findings of the 60th Annual Meeting of the Association for Computational Linguistics (<b>AACL'23 Findings</b>)
     doc-url: 
     abstract: >
       While large language models have the potential to benefit society greatly, it is important that we use them responsibly. The recently released ChatGPT language model has drawn a lot of attention, with discussions ongoing whether it achieves impressive performance due to its memorization power for being trained on a massive amount of data, or if it has complex reasoning capability to solve challenging tasks. This paper aims to systematically evaluate these issues. In particular, it focuses on investigating the performance of ChatGPT on academic benchmark datasets, assessing the quality of its generated text, exploring its open-domain knowledge and commonsense reasoning, as well as emerging capability. In addition, we study its potential limitations, such as biases, misinformation generation, and ethical concerns. Our extensive evaluation shows that even though ChatGPT is capable of performing a wide variety of tasks, and may obtain impressive performance in several benchmark datasets, it is still far from achieving the ability to reliably solve many language processing tasks in challenging scenarios.
@@ -6390,7 +6390,7 @@
        author = {Md Tahmid Rahman Laskar and M Saiful Bari and Mizanur Rahman and Md Amran Hossen Bhuiyan and Shafiq Joty and Jimmy Huang},
        booktitle = {Findings of the 60th Annual Meeting of the Association for Computational Linguistics},
        publisher = {ACL},
-       series = {ACL'23},
+       series = {AACL'23 Findings},
        title = {A Systematic Study of ChatGPT on Benchmark Datasets},
        url = {},
        year = {2023}
@@ -6411,7 +6411,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      Findings of the 60th Annual Meeting of the Association for Computational Linguistics (<b>ACL'23</b>)
+      Findings of the 60th Annual Meeting of the Association for Computational Linguistics (<b>ACL'23 Findings</b>)
     doc-url: 
     abstract: >
       With the rise of task-specific pre-training objectives, abstractive summarization models like PEGASUS offer appealing zero-shot performance on downstream summarization tasks. However, the performance of such unsupervised models still lags significantly behind their supervised counterparts. Similarly to the supervised setup, we notice a very high variance in quality among summary candidates from these models whereas only one candidate is kept as the summary output. In this paper, we propose to re-rank summary candidates in an unsupervised manner, aiming to close the performance gap between unsupervised and supervised models. Our approach improves the pre-trained unsupervised PEGASUS by 4.37% to 7.27% relative mean ROUGE across four widely-adopted summarization benchmarks, and achieves relative gains of 7.51% (up to 23.73% from XSum to WikiHow) averaged over 30 transfer setups.
@@ -6422,7 +6422,7 @@
        author = {Mathieu Ravaut and Shafiq Joty and Nancy Chen},
        booktitle = {Findings of the 60th Annual Meeting of the Association for Computational Linguistics},
        publisher = {ACL},
-       series = {ACL'23},
+       series = {ACL'23 Findings},
        title = {Unsupervised Summarization Re-ranking},
        url = {},
        year = {2023}
