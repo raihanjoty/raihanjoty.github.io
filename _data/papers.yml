@@ -6239,9 +6239,9 @@
     title: >
       Revisiting the Gold Standard: Grounding Summarization Evaluation with Robust Human Evaluation
     authors: Yixin Liu, Alex Fabbri, Pengfei Liu, Yilun Zhao, Linyong Nan, Ruilin Han, Simeng Han, Shafiq Joty, Chien-Sheng Jason, Caiming Xiong, and Dragomir Radev
-    id: yixin-acl-23
-    img: yixin-acl-23-fig
-    slides: media/yixin-acl-23-slides.pdf
+    id: yixin-acl23
+    img: yixin-acl23-fig
+    slides: media/yixin-acl23-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -6251,7 +6251,7 @@
     abstract: >
       Human evaluation is the foundation upon which the evaluation of both summarization systems and automatic metrics rests. However, existing human evaluation studies for summarization either exhibit a low inter-annotator agreement or have insufficient scale, and an in-depth analysis of human evaluation is lacking. Therefore, we address the shortcomings of existing summarization evaluation along the following axes: (1) We propose a modified summarization salience protocol, Atomic Content Units (ACUs), which is based on fine-grained semantic units and allows for a high inter-annotator agreement. (2) We curate the Robust Summarization Evaluation (RoSE) benchmark, a large human evaluation dataset consisting of 22,000 summary-level annotations over 28 top-performing systems on three datasets. (3) We conduct a comparative study of four human evaluation protocols, underscoring potential confounding factors in evaluation setups. (4) We evaluate 50 automatic metrics and their variants using the collected human annotations across evaluation protocols and demonstrate how our benchmark leads to more statistically stable and significant results. Furthermore, our findings have important implications for evaluating large language models (LLMs), as we show that LLMs adjusted by human feedback (e.g., GPT-3.5) may overfit unconstrained human evaluation, which is affected by the annotators' prior, input-agnostic preferences, calling for more robust, targeted evaluation methods.
     bibtex: >
-      @inproceedings{yixin-acl-23,
+      @inproceedings{yixin-acl23,
        abstract = {Human evaluation is the foundation upon which the evaluation of both summarization systems and automatic metrics rests. However, existing human evaluation studies for summarization either exhibit a low inter-annotator agreement or have insufficient scale, and an in-depth analysis of human evaluation is lacking. Therefore, we address the shortcomings of existing summarization evaluation along the following axes: (1) We propose a modified summarization salience protocol, Atomic Content Units (ACUs), which is based on fine-grained semantic units and allows for a high inter-annotator agreement. (2) We curate the Robust Summarization Evaluation (RoSE) benchmark, a large human evaluation dataset consisting of 22,000 summary-level annotations over 28 top-performing systems on three datasets. (3) We conduct a comparative study of four human evaluation protocols, underscoring potential confounding factors in evaluation setups. (4) We evaluate 50 automatic metrics and their variants using the collected human annotations across evaluation protocols and demonstrate how our benchmark leads to more statistically stable and significant results. Furthermore, our findings have important implications for evaluating large language models (LLMs), as we show that LLMs adjusted by human feedback (e.g., GPT-3.5) may overfit unconstrained human evaluation, which is affected by the annotators' prior, input-agnostic preferences, calling for more robust, targeted evaluation methods.},
        address = {Toronto, Canada},
        author = {Yixin Liu and Alex Fabbri and Pengfei Liu and Yilun Zhao and Linyong Nan and Ruilin Han and Simeng Han and Shafiq Joty and Chien-Sheng Jason Wu and Caiming Xiong and Dragomir Radev},
@@ -6259,6 +6259,38 @@
        publisher = {ACL},
        series = {ACL'23},
        title = {Revisiting the Gold Standard: Grounding Summarization Evaluation with Robust Human Evaluation},
+       url = {},
+       year = {2023}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2023
+    selected: no
+    title: >
+      Randomized Smoothing with Masked Inference for Adversarially Robust Text Classification
+    authors: Han Cheol, Shafiq Joty, Ruochen Zhao, Megh Thakkar, and Chi Xu
+    id: Moon-acl-23
+    img: Moon-acl-23-fig
+    slides: media/Moon-acl-23-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (<b>ACL'23</b>)
+    doc-url: 
+    abstract: >
+      Large-scale pre-trained language models have shown outstanding performance in a variety of NLP tasks. However, they are also known to be significantly brittle against specifically crafted adversarial examples, leading to increasing interest in probing the adversarial robustness of NLP systems. We introduce RSMI, a novel two-stage framework that combines randomized smoothing (RS) with masked inference (MI) to improve the adversarial robustness of NLP systems. RS transforms a classifier into a smoothed classifier to obtain robust representations, whereas MI forces a model to exploit the surrounding context of a masked token in an input sequence. RSMI improves adversarial robustness by 2 to 3 times over existing state-of-the-art methods on benchmark datasets. We also perform in-depth qualitative analysis to validate the effectiveness of the different stages of RSMI and probe the impact of its components through extensive ablations. By empirically proving the stability of RSMI, we put it forward as a practical method to robustly train large-scale NLP models. Our code and datasets are available at https://anonymous.4open.science/r/RSMI.
+    bibtex: >
+      @inproceedings{Moon-acl-23,
+       abstract = {Large-scale pre-trained language models have shown outstanding performance in a variety of NLP tasks. However, they are also known to be significantly brittle against specifically crafted adversarial examples, leading to increasing interest in probing the adversarial robustness of NLP systems. We introduce RSMI, a novel two-stage framework that combines randomized smoothing (RS) with masked inference (MI) to improve the adversarial robustness of NLP systems. RS transforms a classifier into a smoothed classifier to obtain robust representations, whereas MI forces a model to exploit the surrounding context of a masked token in an input sequence. RSMI improves adversarial robustness by 2 to 3 times over existing state-of-the-art methods on benchmark datasets. We also perform in-depth qualitative analysis to validate the effectiveness of the different stages of RSMI and probe the impact of its components through extensive ablations. By empirically proving the stability of RSMI, we put it forward as a practical method to robustly train large-scale NLP models. Our code and datasets are available at https://anonymous.4open.science/r/RSMI.},
+       address = {Toronto, Canada},
+       author = {Han Cheol Moon and Shafiq Joty and Ruochen Zhao and Megh Thakkar and Chi Xu},
+       booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
+       publisher = {ACL},
+       series = {ACL'23},
+       title = {Randomized Smoothing with Masked Inference for Adversarially Robust Text Classification},
        url = {},
        year = {2023}
       }

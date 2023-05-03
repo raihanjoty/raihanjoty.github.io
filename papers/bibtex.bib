@@ -3053,9 +3053,7 @@ handle explicit discrete reasoning over noisy programs in an end-to-end manner.
   abstract = {As large language models (LLMs) have become the norm in NLP, demonstrating good performance in generation and reasoning tasks, one of its most fatal disadvantages is the lack of factual correctness. Generating unfactual texts not only leads to lower performances but also degrades the trust and validity of their applications. Chain-of-Thought (CoT) prompting improves trust and model performance on complex reasoning tasks by generating interpretable reasoning chains, but still suffers from factuality concerns in knowledge-intensive tasks. In this paper, we propose the Verify-and-Edit framework for CoT prompting, which seeks to increase prediction factuality by post-editing reasoning chains according to external knowledge. Building on top of GPT-3, our framework lead to accuracy improvements in multiple open-domain question-answering tasks.}
 }
 
-Title:  Revisiting the Gold Standard: Grounding Summarization Evaluation with Robust Human Evaluation
-Authors:  
-@InProceedings{yixin-acl-23,
+@InProceedings{yixin-acl23,
   author = {Yixin Liu and Alex Fabbri and Pengfei Liu and Yilun Zhao and Linyong Nan and Ruilin Han and Simeng Han and Shafiq Joty and Chien-Sheng Jason Wu and Caiming Xiong and Dragomir Radev
 },
   title     = {Revisiting the Gold Standard: Grounding Summarization Evaluation with Robust Human Evaluation},
@@ -3067,4 +3065,19 @@ Authors:
   url = {},
   abstract = {Human evaluation is the foundation upon which the evaluation of both summarization systems and automatic metrics rests. However, existing human evaluation studies for summarization either exhibit a low inter-annotator agreement or have insufficient scale, and an in-depth analysis of human evaluation is lacking. Therefore, we address the shortcomings of existing summarization evaluation along the following axes: (1) We propose a modified summarization salience protocol, Atomic Content Units (ACUs), which is based on fine-grained semantic units and allows for a high inter-annotator agreement. (2) We curate the Robust Summarization Evaluation (RoSE) benchmark, a large human evaluation dataset consisting of 22,000 summary-level annotations over 28 top-performing systems on three datasets. (3) We conduct a comparative study of four human evaluation protocols, underscoring potential confounding factors in evaluation setups. (4) We evaluate 50 automatic metrics and their variants using the collected human annotations across evaluation protocols and demonstrate how our benchmark leads to more statistically stable and significant results. Furthermore, our findings have important implications for evaluating large language models (LLMs), as we show that LLMs adjusted by human feedback (e.g., GPT-3.5) may overfit unconstrained human evaluation, which is affected by the annotators' prior, input-agnostic preferences, calling for more robust, targeted evaluation methods.}
 }
+
+
+@InProceedings{Moon-acl-23,
+  author = {Han Cheol Moon and Shafiq Joty and Ruochen Zhao and Megh Thakkar and Chi Xu},
+  title     = {Randomized Smoothing with Masked Inference for Adversarially Robust Text Classification},
+  booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2023},
+  series    = {ACL'23},
+  publisher = {ACL},
+  address   = {Toronto, Canada}, 
+  url = {},
+  abstract = {Large-scale pre-trained language models have shown outstanding performance in a variety of NLP tasks. However, they are also known to be significantly brittle against specifically crafted adversarial examples, leading to increasing interest in probing the adversarial robustness of NLP systems. We introduce RSMI, a novel two-stage framework that combines randomized smoothing (RS) with masked inference (MI) to improve the adversarial robustness of NLP systems. RS transforms a classifier into a smoothed classifier to obtain robust representations, whereas MI forces a model to exploit the surrounding context of a masked token in an input sequence. RSMI improves adversarial robustness by 2 to 3 times over existing state-of-the-art methods on benchmark datasets. We also perform in-depth qualitative analysis to validate the effectiveness of the different stages of RSMI and probe the impact of its components through extensive ablations. By empirically proving the stability of RSMI, we put it forward as a practical method to robustly train large-scale NLP models. Our code and datasets are available at https://anonymous.4open.science/r/RSMI.}
+}
+
+
 
