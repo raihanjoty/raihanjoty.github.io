@@ -6338,6 +6338,38 @@
     year: 2023
     selected: no
     title: >
+      Learning to Initialize: Can Meta Learning Improve Cross-task Generalization in Prompt Tuning?
+    authors: Chengwei Qin, Shafiq Joty, Qian Li, and Ruochen Zhao
+    id: Qin-acl-23
+    img: Qin-acl-23-fig
+    slides: media/Qin-acl-23-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (<b>ACL'23</b>)
+    doc-url: 
+    abstract: >
+      Prompt tuning (PT) which only tunes the embeddings of an additional sequence of tokens per task, keeping the pre-trained language model (PLM) frozen, has shown remarkable performance in few-shot learning. Despite this, PT has been shown to rely heavily on good initialization of the prompt embeddings. In this work, we study meta prompt tuning (MPT) to systematically explore how meta-learning can help improve (if it can) cross-task generalization in PT through learning to initialize the prompt embeddings from other relevant tasks. We empirically analyze a representative set of meta learning algorithms in a wide range of adaptation settings with different source/target task configurations on a large set of few-shot tasks. With extensive experiments and analysis, we demonstrate the effectiveness of MPT. We find the improvement to be significant particularly on classification tasks. For other kinds of tasks such as question answering, we observe that while MPT can outperform PT in most cases, it does not always outperform multi-task learning. We further provide an in-depth analysis from the perspective of task similarity.
+    bibtex: >
+      @inproceedings{Qin-acl-23,
+       abstract = {Prompt tuning (PT) which only tunes the embeddings of an additional sequence of tokens per task, keeping the pre-trained language model (PLM) frozen, has shown remarkable performance in few-shot learning. Despite this, PT has been shown to rely heavily on good initialization of the prompt embeddings. In this work, we study meta prompt tuning (MPT) to systematically explore how meta-learning can help improve (if it can) cross-task generalization in PT through learning to initialize the prompt embeddings from other relevant tasks. We empirically analyze a representative set of meta learning algorithms in a wide range of adaptation settings with different source/target task configurations on a large set of few-shot tasks. With extensive experiments and analysis, we demonstrate the effectiveness of MPT. We find the improvement to be significant particularly on classification tasks. For other kinds of tasks such as question answering, we observe that while MPT can outperform PT in most cases, it does not always outperform multi-task learning. We further provide an in-depth analysis from the perspective of task similarity.},
+       address = {Toronto, Canada},
+       author = {Chengwei Qin and Shafiq Joty and Qian Li and Ruochen Zhao},
+       booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
+       publisher = {ACL},
+       series = {ACL'23},
+       title = {Learning to Initialize: Can Meta Learning Improve Cross-task Generalization in Prompt Tuning?},
+       url = {},
+       year = {2023}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2023
+    selected: no
+    title: >
       Randomized Smoothing with Masked Inference for Adversarially Robust Text Classification
     authors: Han Cheol, Shafiq Joty, Ruochen Zhao, Megh Thakkar, and Chi Xu
     id: Moon-acl-23
@@ -6379,7 +6411,7 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      Findings of the 60th Annual Meeting of the Association for Computational Linguistics (<b>AACL'23 Findings</b>)
+      Findings of the 60th Annual Meeting of the Association for Computational Linguistics (<b>ACL'23 Findings</b>)
     doc-url: 
     abstract: >
       While large language models have the potential to benefit society greatly, it is important that we use them responsibly. The recently released ChatGPT language model has drawn a lot of attention, with discussions ongoing whether it achieves impressive performance due to its memorization power for being trained on a massive amount of data, or if it has complex reasoning capability to solve challenging tasks. This paper aims to systematically evaluate these issues. In particular, it focuses on investigating the performance of ChatGPT on academic benchmark datasets, assessing the quality of its generated text, exploring its open-domain knowledge and commonsense reasoning, as well as emerging capability. In addition, we study its potential limitations, such as biases, misinformation generation, and ethical concerns. Our extensive evaluation shows that even though ChatGPT is capable of performing a wide variety of tasks, and may obtain impressive performance in several benchmark datasets, it is still far from achieving the ability to reliably solve many language processing tasks in challenging scenarios.
@@ -6390,7 +6422,7 @@
        author = {Md Tahmid Rahman Laskar and M Saiful Bari and Mizanur Rahman and Md Amran Hossen Bhuiyan and Shafiq Joty and Jimmy Huang},
        booktitle = {Findings of the 60th Annual Meeting of the Association for Computational Linguistics},
        publisher = {ACL},
-       series = {AACL'23 Findings},
+       series = {ACL'23 Findings},
        title = {A Systematic Study of ChatGPT on Benchmark Datasets},
        url = {},
        year = {2023}

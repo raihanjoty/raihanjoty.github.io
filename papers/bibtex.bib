@@ -3099,6 +3099,20 @@ To scale our efforts, we propose several models to automatically label edits, ac
 Finally, we categorize the edits produced by several simplification models and find that SWiPE-trained models generate more complex edits while reducing unwanted edits.}
 }
 
+
+@InProceedings{Qin-acl-23,
+  author = {Chengwei Qin and Shafiq Joty and Qian Li and Ruochen Zhao},
+  title     = {Learning to Initialize: Can Meta Learning Improve Cross-task Generalization in Prompt Tuning?},
+  booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2023},
+  series    = {ACL'23},
+  publisher = {ACL},
+  address   = {Toronto, Canada}, 
+  url = {},
+  abstract = {Prompt tuning (PT) which only tunes the embeddings of an additional sequence of tokens per task, keeping the pre-trained language model (PLM) frozen, has shown remarkable performance in few-shot learning. Despite this, PT has been shown to rely heavily on good initialization of the prompt embeddings. In this work, we study meta prompt tuning (MPT) to systematically explore how meta-learning can help improve (if it can) cross-task generalization in PT through learning to initialize the prompt embeddings from other relevant tasks. We empirically analyze a representative set of meta learning algorithms in a wide range of adaptation settings with different source/target task configurations on a large set of few-shot tasks. With extensive experiments and analysis, we demonstrate the effectiveness of MPT. We find the improvement to be significant particularly on classification tasks. For other kinds of tasks such as question answering, we observe that while MPT can outperform PT in most cases, it does not always outperform multi-task learning. We further provide an in-depth analysis from the perspective of task similarity.}
+}
+
+
 @InProceedings{Moon-acl-23,
   author = {Han Cheol Moon and Shafiq Joty and Ruochen Zhao and Megh Thakkar and Chi Xu},
   title     = {Randomized Smoothing with Masked Inference for Adversarially Robust Text Classification},
@@ -3117,7 +3131,7 @@ Finally, we categorize the edits produced by several simplification models and f
   title     = {A Systematic Study of ChatGPT on Benchmark Datasets},
   booktitle = {Findings of the 60th Annual Meeting of the Association for Computational Linguistics},
   year      = {2023},
-  series    = {AACL'23 Findings},
+  series    = {ACL'23 Findings},
   publisher = {ACL},
   address   = {Toronto, Canada}, 
   url = {},
