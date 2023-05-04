@@ -6338,6 +6338,38 @@
     year: 2023
     selected: no
     title: >
+      Randomized Smoothing with Masked Inference for Adversarially Robust Text Classification
+    authors: Han Cheol, Shafiq Joty, Ruochen Zhao, Megh Thakkar, and Chi Xu
+    id: Moon-acl-23
+    img: Moon-acl-23-fig
+    slides: media/Moon-acl-23-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (<b>ACL'23</b>)
+    doc-url: 
+    abstract: >
+      Large-scale pre-trained language models have shown outstanding performance in a variety of NLP tasks. However, they are also known to be significantly brittle against specifically crafted adversarial examples, leading to increasing interest in probing the adversarial robustness of NLP systems. We introduce RSMI, a novel two-stage framework that combines randomized smoothing (RS) with masked inference (MI) to improve the adversarial robustness of NLP systems. RS transforms a classifier into a smoothed classifier to obtain robust representations, whereas MI forces a model to exploit the surrounding context of a masked token in an input sequence. RSMI improves adversarial robustness by 2 to 3 times over existing state-of-the-art methods on benchmark datasets. We also perform in-depth qualitative analysis to validate the effectiveness of the different stages of RSMI and probe the impact of its components through extensive ablations. By empirically proving the stability of RSMI, we put it forward as a practical method to robustly train large-scale NLP models. Our code and datasets are available at https://anonymous.4open.science/r/RSMI.
+    bibtex: >
+      @inproceedings{Moon-acl-23,
+       abstract = {Large-scale pre-trained language models have shown outstanding performance in a variety of NLP tasks. However, they are also known to be significantly brittle against specifically crafted adversarial examples, leading to increasing interest in probing the adversarial robustness of NLP systems. We introduce RSMI, a novel two-stage framework that combines randomized smoothing (RS) with masked inference (MI) to improve the adversarial robustness of NLP systems. RS transforms a classifier into a smoothed classifier to obtain robust representations, whereas MI forces a model to exploit the surrounding context of a masked token in an input sequence. RSMI improves adversarial robustness by 2 to 3 times over existing state-of-the-art methods on benchmark datasets. We also perform in-depth qualitative analysis to validate the effectiveness of the different stages of RSMI and probe the impact of its components through extensive ablations. By empirically proving the stability of RSMI, we put it forward as a practical method to robustly train large-scale NLP models. Our code and datasets are available at https://anonymous.4open.science/r/RSMI.},
+       address = {Toronto, Canada},
+       author = {Han Cheol Moon and Shafiq Joty and Ruochen Zhao and Megh Thakkar and Chi Xu},
+       booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
+       publisher = {ACL},
+       series = {ACL'23},
+       title = {Randomized Smoothing with Masked Inference for Adversarially Robust Text Classification},
+       url = {},
+       year = {2023}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2023
+    selected: no
+    title: >
       Learning to Initialize: Can Meta Learning Improve Cross-task Generalization in Prompt Tuning?
     authors: Chengwei Qin, Shafiq Joty, Qian Li, and Ruochen Zhao
     id: Qin-acl-23
@@ -6370,6 +6402,38 @@
     year: 2023
     selected: no
     title: >
+      Towards Robust Low-Resource Fine-Tuning with Multi-View Compressed Representations
+    authors: Linlin Liu, Xingxuan Li, Megh Thakkar, Xin Li, Shafiq Joty, Luo Si, and Lidong Bing
+    id: linlin-acl-23
+    img: linlin-acl-23-fig
+    slides: media/linlin-acl-23-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (<b>ACL'23</b>)
+    doc-url: 
+    abstract: >
+      Due to the huge amount of parameters, fine-tuning of pretrained language models (PLMs) is prone to overfitting in the low-resource scenarios. In this work, we present a novel method that operates on the hidden representations of a PLM to reduce overfitting. During fine-tuning, our method inserts random autoencoders between the hidden layers of a PLM, which transform activations from the previous layers into a multi-view compressed representation before feeding it into the upper layers. The autoencoders are plugged out after fine-tuning, so our method does not add extra parameters or increase computation cost during inference. Our method demonstrates promising performance improvement across a wide range of sequence- and token-level low-resource NLP tasks. We will make our source code publicly available for research purposes.
+    bibtex: >
+      @inproceedings{linlin-acl-23,
+       abstract = {Due to the huge amount of parameters, fine-tuning of pretrained language models (PLMs) is prone to overfitting in the low-resource scenarios. In this work, we present a novel method that operates on the hidden representations of a PLM to reduce overfitting. During fine-tuning, our method inserts random autoencoders between the hidden layers of a PLM, which transform activations from the previous layers into a multi-view compressed representation before feeding it into the upper layers. The autoencoders are plugged out after fine-tuning, so our method does not add extra parameters or increase computation cost during inference. Our method demonstrates promising performance improvement across a wide range of sequence- and token-level low-resource NLP tasks. We will make our source code publicly available for research purposes.},
+       address = {Toronto, Canada},
+       author = {Linlin Liu and Xingxuan Li and Megh Thakkar and Xin Li and Shafiq Joty and Luo Si and Lidong Bing},
+       booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
+       publisher = {ACL},
+       series = {ACL'23},
+       title = {Towards Robust Low-Resource Fine-Tuning with Multi-View Compressed Representations},
+       url = {},
+       year = {2023}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2023
+    selected: no
+    title: >
       Modeling What-to-ask and How-to-ask for Answer-unaware Conversational Question Generation
     authors: Bowei Zou Xuan Long Do, and Ai Ti
     id: Long-acl-23
@@ -6392,38 +6456,6 @@
        publisher = {ACL},
        series = {ACL'23},
        title = {Modeling What-to-ask and How-to-ask for Answer-unaware Conversational Question Generation},
-       url = {},
-       year = {2023}
-      }
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2023
-    selected: no
-    title: >
-      Randomized Smoothing with Masked Inference for Adversarially Robust Text Classification
-    authors: Han Cheol, Shafiq Joty, Ruochen Zhao, Megh Thakkar, and Chi Xu
-    id: Moon-acl-23
-    img: Moon-acl-23-fig
-    slides: media/Moon-acl-23-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    booktitle: >
-      Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (<b>ACL'23</b>)
-    doc-url: 
-    abstract: >
-      Large-scale pre-trained language models have shown outstanding performance in a variety of NLP tasks. However, they are also known to be significantly brittle against specifically crafted adversarial examples, leading to increasing interest in probing the adversarial robustness of NLP systems. We introduce RSMI, a novel two-stage framework that combines randomized smoothing (RS) with masked inference (MI) to improve the adversarial robustness of NLP systems. RS transforms a classifier into a smoothed classifier to obtain robust representations, whereas MI forces a model to exploit the surrounding context of a masked token in an input sequence. RSMI improves adversarial robustness by 2 to 3 times over existing state-of-the-art methods on benchmark datasets. We also perform in-depth qualitative analysis to validate the effectiveness of the different stages of RSMI and probe the impact of its components through extensive ablations. By empirically proving the stability of RSMI, we put it forward as a practical method to robustly train large-scale NLP models. Our code and datasets are available at https://anonymous.4open.science/r/RSMI.
-    bibtex: >
-      @inproceedings{Moon-acl-23,
-       abstract = {Large-scale pre-trained language models have shown outstanding performance in a variety of NLP tasks. However, they are also known to be significantly brittle against specifically crafted adversarial examples, leading to increasing interest in probing the adversarial robustness of NLP systems. We introduce RSMI, a novel two-stage framework that combines randomized smoothing (RS) with masked inference (MI) to improve the adversarial robustness of NLP systems. RS transforms a classifier into a smoothed classifier to obtain robust representations, whereas MI forces a model to exploit the surrounding context of a masked token in an input sequence. RSMI improves adversarial robustness by 2 to 3 times over existing state-of-the-art methods on benchmark datasets. We also perform in-depth qualitative analysis to validate the effectiveness of the different stages of RSMI and probe the impact of its components through extensive ablations. By empirically proving the stability of RSMI, we put it forward as a practical method to robustly train large-scale NLP models. Our code and datasets are available at https://anonymous.4open.science/r/RSMI.},
-       address = {Toronto, Canada},
-       author = {Han Cheol Moon and Shafiq Joty and Ruochen Zhao and Megh Thakkar and Chi Xu},
-       booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
-       publisher = {ACL},
-       series = {ACL'23},
-       title = {Randomized Smoothing with Masked Inference for Adversarially Robust Text Classification},
        url = {},
        year = {2023}
       }

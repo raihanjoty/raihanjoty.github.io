@@ -3099,6 +3099,17 @@ To scale our efforts, we propose several models to automatically label edits, ac
 Finally, we categorize the edits produced by several simplification models and find that SWiPE-trained models generate more complex edits while reducing unwanted edits.}
 }
 
+@InProceedings{Moon-acl-23,
+  author = {Han Cheol Moon and Shafiq Joty and Ruochen Zhao and Megh Thakkar and Chi Xu},
+  title     = {Randomized Smoothing with Masked Inference for Adversarially Robust Text Classification},
+  booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2023},
+  series    = {ACL'23},
+  publisher = {ACL},
+  address   = {Toronto, Canada}, 
+  url = {},
+  abstract = {Large-scale pre-trained language models have shown outstanding performance in a variety of NLP tasks. However, they are also known to be significantly brittle against specifically crafted adversarial examples, leading to increasing interest in probing the adversarial robustness of NLP systems. We introduce RSMI, a novel two-stage framework that combines randomized smoothing (RS) with masked inference (MI) to improve the adversarial robustness of NLP systems. RS transforms a classifier into a smoothed classifier to obtain robust representations, whereas MI forces a model to exploit the surrounding context of a masked token in an input sequence. RSMI improves adversarial robustness by 2 to 3 times over existing state-of-the-art methods on benchmark datasets. We also perform in-depth qualitative analysis to validate the effectiveness of the different stages of RSMI and probe the impact of its components through extensive ablations. By empirically proving the stability of RSMI, we put it forward as a practical method to robustly train large-scale NLP models. Our code and datasets are available at https://anonymous.4open.science/r/RSMI.}
+}
 
 @InProceedings{Qin-acl-23,
   author = {Chengwei Qin and Shafiq Joty and Qian Li and Ruochen Zhao},
@@ -3110,6 +3121,19 @@ Finally, we categorize the edits produced by several simplification models and f
   address   = {Toronto, Canada}, 
   url = {https://arxiv.org/abs/2302.08143},
   abstract = {Prompt tuning (PT) which only tunes the embeddings of an additional sequence of tokens per task, keeping the pre-trained language model (PLM) frozen, has shown remarkable performance in few-shot learning. Despite this, PT has been shown to rely heavily on good initialization of the prompt embeddings. In this work, we study meta prompt tuning (MPT) to systematically explore how meta-learning can help improve (if it can) cross-task generalization in PT through learning to initialize the prompt embeddings from other relevant tasks. We empirically analyze a representative set of meta learning algorithms in a wide range of adaptation settings with different source/target task configurations on a large set of few-shot tasks. With extensive experiments and analysis, we demonstrate the effectiveness of MPT. We find the improvement to be significant particularly on classification tasks. For other kinds of tasks such as question answering, we observe that while MPT can outperform PT in most cases, it does not always outperform multi-task learning. We further provide an in-depth analysis from the perspective of task similarity.}
+}
+
+
+@InProceedings{linlin-acl-23,
+  author = {Linlin Liu and Xingxuan Li and Megh Thakkar and Xin Li and Shafiq Joty and Luo Si and Lidong Bing},
+  title     = {Towards Robust Low-Resource Fine-Tuning with Multi-View Compressed Representations},
+  booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2023},
+  series    = {ACL'23},
+  publisher = {ACL},
+  address   = {Toronto, Canada}, 
+  url = {},
+  abstract = {Due to the huge amount of parameters, fine-tuning of pretrained language models (PLMs) is prone to overfitting in the low-resource scenarios. In this work, we present a novel method that operates on the hidden representations of a PLM to reduce overfitting. During fine-tuning, our method inserts random autoencoders between the hidden layers of a PLM, which transform activations from the previous layers into a multi-view compressed representation before feeding it into the upper layers. The autoencoders are plugged out after fine-tuning, so our method does not add extra parameters or increase computation cost during inference. Our method demonstrates promising performance improvement across a wide range of sequence- and token-level low-resource NLP tasks. We will make our source code publicly available for research purposes.}
 }
 
 
@@ -3126,17 +3150,6 @@ Finally, we categorize the edits produced by several simplification models and f
 }
 
 
-@InProceedings{Moon-acl-23,
-  author = {Han Cheol Moon and Shafiq Joty and Ruochen Zhao and Megh Thakkar and Chi Xu},
-  title     = {Randomized Smoothing with Masked Inference for Adversarially Robust Text Classification},
-  booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
-  year      = {2023},
-  series    = {ACL'23},
-  publisher = {ACL},
-  address   = {Toronto, Canada}, 
-  url = {},
-  abstract = {Large-scale pre-trained language models have shown outstanding performance in a variety of NLP tasks. However, they are also known to be significantly brittle against specifically crafted adversarial examples, leading to increasing interest in probing the adversarial robustness of NLP systems. We introduce RSMI, a novel two-stage framework that combines randomized smoothing (RS) with masked inference (MI) to improve the adversarial robustness of NLP systems. RS transforms a classifier into a smoothed classifier to obtain robust representations, whereas MI forces a model to exploit the surrounding context of a masked token in an input sequence. RSMI improves adversarial robustness by 2 to 3 times over existing state-of-the-art methods on benchmark datasets. We also perform in-depth qualitative analysis to validate the effectiveness of the different stages of RSMI and probe the impact of its components through extensive ablations. By empirically proving the stability of RSMI, we put it forward as a practical method to robustly train large-scale NLP models. Our code and datasets are available at https://anonymous.4open.science/r/RSMI.}
-}
 
 
 @InProceedings{Laskar-acl-23,
