@@ -6530,6 +6530,38 @@
     year: 2023
     selected: no
     title: >
+      Contrastive Learning with Generated Representations for Inductive Knowledge Graph Embedding
+    authors: Qian Li, Shafiq Joty, Daling Wang, Shi Feng, Yifei Zhang, and Chengwei Qin
+    id: Li-acl-23
+    img: Li-acl-23-fig
+    slides: media/Li-acl-23-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Findings of the 60th Annual Meeting of the Association for Computational Linguistics (<b>ACL'23 Findings</b>)
+    doc-url: 
+    abstract: >
+      With the evolution of Knowledge Graphs (KGs), new entities emerge which are not seen before. Representation learning of KGs in such an inductive setting aims to capture and transfer the structural patterns from existing entities to new entities. However, the performance of existing methods in inductive KGs are limited by sparsity and implicit transfer. In this paper, we propose VMCL, a Contrastive Learning (CL) framework with graph guided Variational autoencoder on Meta-KGs in the inductive setting. We first propose representation generation to capture the encoded and generated representations of entities, where the generated variations can densify representations with complementary features. Then, we design two CL objectives that work across entities and meta-KGs to simulate the transfer mode. With extensive experiments we demonstrate that our proposed VMCL can significantly outperform previous state-of-the-art baselines.
+    bibtex: >
+      @inproceedings{Li-acl-23,
+       abstract = {With the evolution of Knowledge Graphs (KGs), new entities emerge which are not seen before. Representation learning of KGs in such an inductive setting aims to capture and transfer the structural patterns from existing entities to new entities. However, the performance of existing methods in inductive KGs are limited by sparsity and implicit transfer. In this paper, we propose VMCL, a Contrastive Learning (CL) framework with graph guided Variational autoencoder on Meta-KGs in the inductive setting. We first propose representation generation to capture the encoded and generated representations of entities, where the generated variations can densify representations with complementary features. Then, we design two CL objectives that work across entities and meta-KGs to simulate the transfer mode. With extensive experiments we demonstrate that our proposed VMCL can significantly outperform previous state-of-the-art baselines.},
+       address = {Toronto, Canada},
+       author = {Qian Li and Shafiq Joty and Daling Wang and Shi Feng and Yifei Zhang and Chengwei Qin},
+       booktitle = {Findings of the 60th Annual Meeting of the Association for Computational Linguistics},
+       publisher = {ACL},
+       series = {ACL'23 Findings},
+       title = {Contrastive Learning with Generated Representations for Inductive Knowledge Graph Embedding},
+       url = {},
+       year = {2023}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2023
+    selected: no
+    title: >
       Unsupervised Summarization Re-ranking
     authors: Mathieu Ravaut, Shafiq Joty, and Nancy Chen
     id: Ravaut-acl-23
