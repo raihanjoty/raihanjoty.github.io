@@ -6215,7 +6215,7 @@
     venue: conference
     booktitle: >
       Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (<b>ACL'23</b>)
-    doc-url: 
+    doc-url: https://arxiv.org/abs/2305.03268
     abstract: >
       As large language models (LLMs) have become the norm in NLP, demonstrating good performance in generation and reasoning tasks, one of its most fatal disadvantages is the lack of factual correctness. Generating unfactual texts not only leads to lower performances but also degrades the trust and validity of their applications. Chain-of-Thought (CoT) prompting improves trust and model performance on complex reasoning tasks by generating interpretable reasoning chains, but still suffers from factuality concerns in knowledge-intensive tasks. In this paper, we propose the Verify-and-Edit framework for CoT prompting, which seeks to increase prediction factuality by post-editing reasoning chains according to external knowledge. Building on top of GPT-3, our framework lead to accuracy improvements in multiple open-domain question-answering tasks.
     bibtex: >
@@ -6227,7 +6227,7 @@
        publisher = {ACL},
        series = {ACL'23},
        title = {Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework},
-       url = {},
+       url = {https://arxiv.org/abs/2305.03268},
        year = {2023}
       }
       
@@ -6311,7 +6311,7 @@
     venue: conference
     booktitle: >
       Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (<b>ACL'23</b>)
-    doc-url: 
+    doc-url: https://arxiv.org/abs/2305.19204
     abstract: >
       Text simplification research has mostly focused on sentence-level simplification, even though many desirable edits - such as adding relevant background information or reordering content - may require document-level context. Prior work has also predominantly framed simplification as a single-step, input-to-output task, only implicitly modeling the fine-grained, span-level edits that elucidate the simplification process. To address both gaps, we introduce the SWiPE dataset, which reconstructs the document-level editing process from English Wikipedia (EW) articles to paired Simple Wikipedia (SEW) articles.  In contrast to prior work, SWiPE leverages the entire revision history when pairing pages in order to better identify simplification edits. We work with Wikipedia editors to annotate 5,000 EW-SEW document pairs, labeling more than 40,000 edits with proposed 19 categories. To scale our efforts, we propose several models to automatically label edits, achieving an F-1 score of up to 71.8, indicating that this is a tractable but challenging NLU task.  Finally, we categorize the edits produced by several simplification models and find that SWiPE-trained models generate more complex edits while reducing unwanted edits.
     bibtex: >
@@ -6328,7 +6328,7 @@
        publisher = {ACL},
        series = {ACL'23},
        title = {SWiPE: A Dataset for Document-Level Simplification of Wikipedia Pages},
-       url = {},
+       url = {https://arxiv.org/abs/2305.19204},
        year = {2023}
       }
       
@@ -6348,7 +6348,7 @@
     venue: conference
     booktitle: >
       Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (<b>ACL'23</b>)
-    doc-url: 
+    doc-url: https://arxiv.org/abs/2305.06522
     abstract: >
       Large-scale pre-trained language models have shown outstanding performance in a variety of NLP tasks. However, they are also known to be significantly brittle against specifically crafted adversarial examples, leading to increasing interest in probing the adversarial robustness of NLP systems. We introduce RSMI, a novel two-stage framework that combines randomized smoothing (RS) with masked inference (MI) to improve the adversarial robustness of NLP systems. RS transforms a classifier into a smoothed classifier to obtain robust representations, whereas MI forces a model to exploit the surrounding context of a masked token in an input sequence. RSMI improves adversarial robustness by 2 to 3 times over existing state-of-the-art methods on benchmark datasets. We also perform in-depth qualitative analysis to validate the effectiveness of the different stages of RSMI and probe the impact of its components through extensive ablations. By empirically proving the stability of RSMI, we put it forward as a practical method to robustly train large-scale NLP models. Our code and datasets are available at https://anonymous.4open.science/r/RSMI.
     bibtex: >
@@ -6360,7 +6360,7 @@
        publisher = {ACL},
        series = {ACL'23},
        title = {Randomized Smoothing with Masked Inference for Adversarially Robust Text Classification},
-       url = {},
+       url = {https://arxiv.org/abs/2305.06522},
        year = {2023}
       }
       
@@ -6412,7 +6412,7 @@
     venue: conference
     booktitle: >
       Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (<b>ACL'23</b>)
-    doc-url: 
+    doc-url: https://arxiv.org/abs/2211.08794
     abstract: >
       Due to the huge amount of parameters, fine-tuning of pretrained language models (PLMs) is prone to overfitting in the low-resource scenarios. In this work, we present a novel method that operates on the hidden representations of a PLM to reduce overfitting. During fine-tuning, our method inserts random autoencoders between the hidden layers of a PLM, which transform activations from the previous layers into a multi-view compressed representation before feeding it into the upper layers. The autoencoders are plugged out after fine-tuning, so our method does not add extra parameters or increase computation cost during inference. Our method demonstrates promising performance improvement across a wide range of sequence- and token-level low-resource NLP tasks. We will make our source code publicly available for research purposes.
     bibtex: >
@@ -6424,7 +6424,7 @@
        publisher = {ACL},
        series = {ACL'23},
        title = {Towards Robust Low-Resource Fine-Tuning with Multi-View Compressed Representations},
-       url = {},
+       url = {https://arxiv.org/abs/2211.08794},
        year = {2023}
       }
       
@@ -6444,7 +6444,7 @@
     venue: conference
     booktitle: >
       Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (<b>ACL'23</b>)
-    doc-url: 
+    doc-url: https://arxiv.org/abs/2212.10450
     abstract: >
       Data annotation is the process of labeling data that could be used to train machine learning models. It is a crucial step in the development of NLP systems, as it allows the model to learn the relationship between the input data and the desired output. Generative Pre-trained Transformer 3 (GPT-3), a large-scale language model developed by OpenAI, has demonstrated impressive zero- and few-shot performance on a wide range of NLP tasks. It is therefore natural to wonder whether it can be used to effectively annotate data for NLP tasks. In this paper, we evaluate the performance of GPT-3 as a data annotator by comparing it with traditional data annotation methods and analyzing its output on a range of tasks. Through this analysis, we aim to provide insight into the potential of GPT-3 as a general-purpose data annotator in NLP.
     bibtex: >
@@ -6456,7 +6456,7 @@
        publisher = {ACL},
        series = {ACL'23},
        title = {Is GPT-3 a Good Data Annotator?},
-       url = {},
+       url = {https://arxiv.org/abs/2212.10450},
        year = {2023}
       }
       
@@ -6476,7 +6476,7 @@
     venue: conference
     booktitle: >
       Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (<b>ACL'23</b>)
-    doc-url: 
+    doc-url: https://arxiv.org/abs/2305.03088
     abstract: >
       Conversational Question Generation (CQG) is a critical task for machines to assist humans in fulfilling their information needs through conversations. The task is generally cast into two different settings: answer-aware and answer-unaware. While the former facilitates the models by exposing the expected answer, the latter is more realistic and receiving growing attentions recently. What-to-ask and how-to-ask are the two main challenges in the answer-unaware setting. To address the first challenge, existing methods mainly select sequential sentences in context as the rationales. We argue that the conversation generated using such naive heuristics may not be natural enough as in reality,  the interlocutors often talk about the relevant contents that are not necessarily sequential in context. Additionally, previous methods decide the type of question to be generated (boolean/span-based) implicitly. Modeling the question type explicitly is crucial as the answer, which hints the models to generate a boolean or span-based question, is unavailable. To this end, we present SG-CQG, a two-stage CQG framework. For the what-to-ask stage, a sentence is selected as the rationale from a semantic graph that we construct, and extract the answer span from it. For the how-to-ask stage, a classifier determines the target answer type of the question via two explicit control signals before generating and filtering. In addition, we propose Conv-Distinct, a novel evaluation metric for CQG, to evaluate the diversity of the generated conversation from a context. Compared with the existing answer-unaware CQG models, the proposed SG-CQG achieves state-of-the-art performance.
     bibtex: >
@@ -6488,7 +6488,7 @@
        publisher = {ACL},
        series = {ACL'23},
        title = {Modeling What-to-ask and How-to-ask for Answer-unaware Conversational Question Generation},
-       url = {},
+       url = {https://arxiv.org/abs/2305.03088},
        year = {2023}
       }
       
@@ -6508,7 +6508,7 @@
     venue: conference
     booktitle: >
       Findings of the 61st Annual Meeting of the Association for Computational Linguistics (<b>ACL'23 Findings</b>)
-    doc-url: 
+    doc-url: https://arxiv.org/abs/2305.18486
     abstract: >
       While large language models have the potential to benefit society greatly, it is important that we use them responsibly. The recently released ChatGPT language model has drawn a lot of attention, with discussions ongoing whether it achieves impressive performance due to its memorization power for being trained on a massive amount of data, or if it has complex reasoning capability to solve challenging tasks. This paper aims to systematically evaluate these issues. In particular, it focuses on investigating the performance of ChatGPT on academic benchmark datasets, assessing the quality of its generated text, exploring its open-domain knowledge and commonsense reasoning, as well as emerging capability. In addition, we study its potential limitations, such as biases, misinformation generation, and ethical concerns. Our extensive evaluation shows that even though ChatGPT is capable of performing a wide variety of tasks, and may obtain impressive performance in several benchmark datasets, it is still far from achieving the ability to reliably solve many language processing tasks in challenging scenarios.
     bibtex: >
@@ -6520,7 +6520,7 @@
        publisher = {ACL},
        series = {ACL'23 Findings},
        title = {A Systematic Study of ChatGPT on Benchmark Datasets},
-       url = {},
+       url = {https://arxiv.org/abs/2305.18486},
        year = {2023}
       }
       
