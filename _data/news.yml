@@ -1,6 +1,7 @@
-  - date: 1-Dec-2023
-    text: >
-      Service note: I prefer to submit my papers to (and review for) venues that are <a href=https://en.wikipedia.org/wiki/Open_access> open-access</a> (OA). I usually will not review for non-OA venues.
+
+  - date: 30-Jun-2023
+    text: > 
+     Excited to release XGen-7B LLM that supports 8K sequence length (<a href="https://github.com/salesforce/xGen?ref=blog.salesforceairesearch.com"> Code </a>, <a href="https://blog.salesforceairesearch.com/xgen/"> Blog </a>). Good at both text and code, and specially on long sequence tasks. 
 
   - date: 20-Feb-2023
     text: > 
