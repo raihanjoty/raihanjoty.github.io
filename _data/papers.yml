@@ -6205,6 +6205,30 @@
     year: 2023
     selected: no
     title: >
+      Long Sequence Modeling with XGen: A 7B LLM Trained on 8K Input Sequence Length
+    authors: Erik Nijkamp, Tian Xie, Hiroaki Hayashi, Bo Pang, Congying Xia, Chen Xing, Jesse Vig, Semih Yavuz, Philippe Laban, Ben Krause, Senthil Purushwalkam, Tong Niu, Wojciech Kryscinski, Lidiya Murakhovs'ka, Prafulla Choubey, Alex Fabbri, Ye Liu, Rui Meng, Lifu Tu, Meghana Bhat, Chien-Sheng Wu, Silvio Savarese, Yingbo Zhou, Shafiq Joty, and Caiming Xiong
+    id: XGen
+    img: XGen-fig
+    slides: media/XGen-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    doc-url: https://blog.salesforceairesearch.com/xgen
+    bibtex: >
+      @inproceedings{XGen,
+       author = {Erik Nijkamp and Tian Xie and Hiroaki Hayashi and Bo Pang and Congying Xia and Chen Xing and Jesse Vig and Semih Yavuz and Philippe Laban and Ben Krause and Senthil Purushwalkam and Tong Niu and Wojciech Kryscinski and Lidiya Murakhovs'ka and Prafulla Choubey and Alex Fabbri and Ye Liu and Rui Meng and Lifu Tu and Meghana Bhat and Chien-Sheng Wu and Silvio Savarese and Yingbo Zhou and Shafiq Joty and Caiming Xiong},
+       howpublished = {Salesforce AI Research Blog},
+       title = {Long Sequence Modeling with XGen: A 7B LLM Trained on 8K Input Sequence Length},
+       url = {https://blog.salesforceairesearch.com/xgen},
+       year = {2023}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2023
+    selected: no
+    title: >
       Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework
     authors: Ruochen Zhao, Xingxuan Li, Shafiq Joty, Chengwei Qin, and Lidong Bing
     id: Zhao-acl-23
