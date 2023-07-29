@@ -14,7 +14,7 @@
 
   - date: 30-Jun-2023
     text: > 
-     Released XGen-7B LLM that supports 8K sequence length (<a href="https://github.com/salesforce/xGen?ref=blog.salesforceairesearch.com">Code</a>, <a href="https://blog.salesforceairesearch.com/xgen/">Blog</a>). Good at both text and code, and specially on long sequence tasks. 
+     Released XGen-7B LLM that supports 8K sequence length (<a href="https://github.com/salesforce/xGen?ref=blog.salesforceairesearch.com">Code</a>, <a href="https://blog.salesforceairesearch.com/xgen/">Blog</a>). <br> Good at both text and code, and specially on long sequence tasks. 
 
   - date: 20-Feb-2023
     text: > 
