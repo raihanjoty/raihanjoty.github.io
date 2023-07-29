@@ -3212,5 +3212,15 @@ Finally, we categorize the edits produced by several simplification models and f
   abstract = {With the rise of task-specific pre-training objectives, abstractive summarization models like PEGASUS offer appealing zero-shot performance on downstream summarization tasks. However, the performance of such unsupervised models still lags significantly behind their supervised counterparts. Similarly to the supervised setup, we notice a very high variance in quality among summary candidates from these models whereas only one candidate is kept as the summary output. In this paper, we propose to re-rank summary candidates in an unsupervised manner, aiming to close the performance gap between unsupervised and supervised models. Our approach improves the pre-trained unsupervised PEGASUS by 4.37% to 7.27% relative mean ROUGE across four widely-adopted summarization benchmarks, and achieves relative gains of 7.51% (up to 23.73% from XSum to WikiHow) averaged over 30 transfer setups.}
 }
 
-
+@InProceedings{Gotmare-fse-23,
+  author = {Akhilesh Gotmare and Junnan Li and Shafiq Joty and Steven Hoi},
+  title     = {Efficient Text-to-Code Retrieval with Cascaded Fast and Slow Transformer Models},
+  booktitle = {ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  year      = {2023},
+  series    = {ESEC/FSE 2023},
+  publisher = {ACM},
+  address   = {San Francisco, USA}, 
+  url = {https://arxiv.org/abs/2110.07811},
+  abstract = {The goal of natural language semantic code search is to retrieve a semantically relevant code snippet from a fixed set of candidates using a natural language query. Existing approaches are neither effective nor efficient enough towards a practical semantic code search system. In this paper, we propose an efficient and accurate semantic code search framework with cascaded fast and slow models, in which a fast transformer encoder model is learned to optimize a scalable index for fast retrieval followed by learning a slow classification-based re-ranking model to improve the performance of the top K results from the fast retrieval. To further reduce the high memory cost of deploying two separate models in practice, we propose to jointly train the fast and slow model based on a single transformer encoder with shared parameters. The proposed cascaded approach is not only efficient and scalable, but also achieves state-of-the-art results with an average mean reciprocal ranking (MRR) score of 0.7795 (across 6 programming languages) as opposed to the previous state-of-the-art result of 0.713 MRR on the CodeSearchNet benchmark.}
+}
 
