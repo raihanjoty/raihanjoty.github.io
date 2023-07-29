@@ -1,7 +1,15 @@
 
   - date: 30-Jun-2023
     text: > 
-     Excited to release XGen-7B LLM that supports 8K sequence length (<a href="https://github.com/salesforce/xGen?ref=blog.salesforceairesearch.com">Code</a>, <a href="https://blog.salesforceairesearch.com/xgen/">Blog</a>). Good at both text and code, and specially on long sequence tasks. 
+     Release XGen-7B LLM that supports 8K sequence length (<a href="https://github.com/salesforce/xGen?ref=blog.salesforceairesearch.com">Code</a>, <a href="https://blog.salesforceairesearch.com/xgen/">Blog</a>). Good at both text and code, and specially on long sequence tasks. 
+
+  - date: 20-Jul-2023
+    text: > 
+      Will give a keynote at <a href="https://llm-ai.github.io/llmai/"> LLM-AI workshop @KDD-23  </a>
+
+  - date: 10-Jul-2023
+    text: > 
+      Will give a keynote at <a href="https://ctrlnlg.github.io/"> TamingLLM workshop @SIGDIAL-23  </a>
 
   - date: 30-Jul-2023
     text: > 
@@ -23,13 +31,9 @@
     text: > 
       I am now full time at <a href="https://www.salesforceairesearch.com/research"> Salesforce AI Research </a> and on long-term leave from NTU. 
 
-  - date: 20-Aug-2022
-    text: > 
-      I have been awarded Tier-2 MOE grant for "Language Model Adaptation for Low-Resource Languages and Dialects". Thanks MOE!  
-
   - date: 20-Jul-2022
     text: > 
-      I will give a keynote at <a href="http://www.nlpir.net/keynote.html"> NLPIR </a>
+      Gave a keynote at <a href="http://www.nlpir.net/keynote.html"> NLPIR </a>
 
   - date: 3-Jun-2022
     text: > 
@@ -43,6 +47,9 @@
     text: > 
       <a href="https://taasnim.github.io/"> Tasnim Mohiuddin </a> defended his thesis. His thesis has been nominated for best thesis award. Congratulations! 
 
+  - date: 20-Aug-2022
+    text: > 
+      I have been awarded Tier-2 MOE grant for "Language Model Adaptation for Low-Resource Languages and Dialects". Thanks MOE!  
 
 
 
