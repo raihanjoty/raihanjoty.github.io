@@ -1,9 +1,5 @@
 
-  - date: 30-Jun-2023
-    text: > 
-     Release XGen-7B LLM that supports 8K sequence length (<a href="https://github.com/salesforce/xGen?ref=blog.salesforceairesearch.com">Code</a>, <a href="https://blog.salesforceairesearch.com/xgen/">Blog</a>). Good at both text and code, and specially on long sequence tasks. 
-
-  - date: 25-Jul-2023
+  - date: 30-Aug-2023
     text: > 
       Will give a keynote on LLMs at KAUST Research Conference on Frontiers in Computing
 
@@ -11,9 +7,13 @@
     text: > 
       Will give keynotes at <a href="https://llm-ai.github.io/llmai/"> LLM-AI workshop @KDD-23</a> and <a href="https://ctrlnlg.github.io/"> Taming LLMs workshop @SIGDIAL-23</a>
 
-  - date: 30-Jul-2023
+  - date: 15-Jul-2023
     text: > 
      Undergrad student <a href="https://dxlong2000.github.io/"> DO XUAN LONG </a> has been awarded <a href=https://www.ntu.edu.sg/spms/about-us/awards/student-awards#spms-undergrad-award> SPMS Outstanding Undergraduate Award 2023 </a>
+
+  - date: 30-Jun-2023
+    text: > 
+     Released XGen-7B LLM that supports 8K sequence length (<a href="https://github.com/salesforce/xGen?ref=blog.salesforceairesearch.com">Code</a>, <a href="https://blog.salesforceairesearch.com/xgen/">Blog</a>). Good at both text and code, and specially on long sequence tasks. 
 
   - date: 20-Feb-2023
     text: > 
