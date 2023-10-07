@@ -1,0 +1,64 @@
+---
+abstract: 'With the rise of powerful closed-sourced LLMs (ChatGPT, GPT-4), there are
+  increasing interests in distilling the capabilies of close-sourced LLMs to smaller
+  open-sourced LLMs. Previous distillation methods usually prompt ChatGPT to generate
+  a set of instructions and answers, for the student model to learn. However, such
+  standard distillation approach neglects the merits and conditions of the student
+  model. Inspired by modern teaching principles, we design a personalised distillation
+  process, in which the student attempts to solve a task first, then the teacher provides
+  an adaptive refinement for the student to improve. Instead of feeding the student
+  with teacher''s prior, personalised distillation enables personalised learning for
+  the student model, as it only learns on examples it makes mistakes upon and learns
+  to improve its own solution. On code generation, personalised distillation consistently
+  outperforms standard distillation with only one third of the data. With only 2.5-3K
+  personalised examples that incur a data-collection cost of 4-6$, we boost CodeGen-mono-16B
+  by 7% to achieve 36.4% pass@1 and StarCoder by 12.2% to achieve 45.8% pass@1 on
+  HumanEval.
+
+  '
+authors: Ruochen Zhao, Hailin Chen, Weishi Wang, Fangkai Jiao, Do Long, Chengwei Qin,
+  Bosheng Ding, Xiaobao Guo, Minzhi Li, Xingxuan Li, and Shafiq Joty
+bibtex: "@inproceedings{Zhao-emnlp-23,\n abstract = {With the rise of powerful closed-sourced\
+  \ LLMs (ChatGPT, GPT-4), there are increasing interests in distilling the capabilies\
+  \ of close-sourced LLMs to smaller open-sourced LLMs. Previous distillation methods\
+  \ usually prompt ChatGPT to generate a set of instructions and answers, for the\
+  \ student model to learn. However, such standard distillation approach neglects\
+  \ the merits and conditions of the student model. Inspired by modern teaching principles,\
+  \ we design a personalised distillation process, in which the student attempts to\
+  \ solve a task first, then the teacher provides an adaptive refinement for the student\
+  \ to improve. Instead of feeding the student with teacher's prior, personalised\
+  \ distillation enables personalised learning for the student model, as it only learns\
+  \ on examples it makes mistakes upon and learns to improve its own solution. On\
+  \ code generation, personalised distillation consistently outperforms standard distillation\
+  \ with only one third of the data. With only 2.5-3K personalised examples that incur\
+  \ a data-collection cost of 4-6$, we boost CodeGen-mono-16B by 7% to achieve 36.4%\
+  \ pass@1 and StarCoder by 12.2% to achieve 45.8% pass@1 on HumanEval.},\n address\
+  \ = {Singapore},\n author = {Ruochen Zhao and Hailin Chen and Weishi Wang and Fangkai\
+  \ Jiao and Do Long and Chengwei Qin and Bosheng Ding and Xiaobao Guo and Minzhi\
+  \ Li and Xingxuan Li and Shafiq Joty},\n booktitle = {Findings of the 2023 Conference\
+  \ on Empirical Methods in Natural Language Processing},\n publisher = {ACL},\n series\
+  \ = {EMNLP'23 Findings},\n title = {Retrieving Multimodal Information for Augmented\
+  \ Generation: A Survey},\n url = {https://arxiv.org/abs/2303.10868},\n year = {2023}\n\
+  }\n"
+booktitle: 'Findings of the 2023 Conference on Empirical Methods in Natural Language
+  Processing (<b>EMNLP''23 Findings</b>)
+
+  '
+code: null
+doc-url: https://arxiv.org/abs/2303.10868
+errata: null
+id: Zhao-emnlp-23
+img: Zhao-emnlp-23-fig
+layout: singlepaper
+paper-type: inproceedings
+picture: shafiq
+selected: false
+slides: media/Zhao-emnlp-23-slides.pdf
+title: 'Retrieving Multimodal Information for Augmented Generation: A Survey
+
+  '
+venue: conference
+year: 2023
+---
+
+{% include singlepaper.html paper=page %}

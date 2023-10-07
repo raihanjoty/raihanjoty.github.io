@@ -6301,6 +6301,38 @@
     year: 2023
     selected: no
     title: >
+      Retrieving Multimodal Information for Augmented Generation: A Survey
+    authors: Ruochen Zhao, Hailin Chen, Weishi Wang, Fangkai Jiao, Do Long, Chengwei Qin, Bosheng Ding, Xiaobao Guo, Minzhi Li, Xingxuan Li, and Shafiq Joty
+    id: Zhao-emnlp-23
+    img: Zhao-emnlp-23-fig
+    slides: media/Zhao-emnlp-23-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Findings of the 2023 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'23 Findings</b>)
+    doc-url: https://arxiv.org/abs/2303.10868
+    abstract: >
+      With the rise of powerful closed-sourced LLMs (ChatGPT, GPT-4), there are increasing interests in distilling the capabilies of close-sourced LLMs to smaller open-sourced LLMs. Previous distillation methods usually prompt ChatGPT to generate a set of instructions and answers, for the student model to learn. However, such standard distillation approach neglects the merits and conditions of the student model. Inspired by modern teaching principles, we design a personalised distillation process, in which the student attempts to solve a task first, then the teacher provides an adaptive refinement for the student to improve. Instead of feeding the student with teacher's prior, personalised distillation enables personalised learning for the student model, as it only learns on examples it makes mistakes upon and learns to improve its own solution. On code generation, personalised distillation consistently outperforms standard distillation with only one third of the data. With only 2.5-3K personalised examples that incur a data-collection cost of 4-6$, we boost CodeGen-mono-16B by 7% to achieve 36.4% pass@1 and StarCoder by 12.2% to achieve 45.8% pass@1 on HumanEval.
+    bibtex: >
+      @inproceedings{Zhao-emnlp-23,
+       abstract = {With the rise of powerful closed-sourced LLMs (ChatGPT, GPT-4), there are increasing interests in distilling the capabilies of close-sourced LLMs to smaller open-sourced LLMs. Previous distillation methods usually prompt ChatGPT to generate a set of instructions and answers, for the student model to learn. However, such standard distillation approach neglects the merits and conditions of the student model. Inspired by modern teaching principles, we design a personalised distillation process, in which the student attempts to solve a task first, then the teacher provides an adaptive refinement for the student to improve. Instead of feeding the student with teacher's prior, personalised distillation enables personalised learning for the student model, as it only learns on examples it makes mistakes upon and learns to improve its own solution. On code generation, personalised distillation consistently outperforms standard distillation with only one third of the data. With only 2.5-3K personalised examples that incur a data-collection cost of 4-6$, we boost CodeGen-mono-16B by 7% to achieve 36.4% pass@1 and StarCoder by 12.2% to achieve 45.8% pass@1 on HumanEval.},
+       address = {Singapore},
+       author = {Ruochen Zhao and Hailin Chen and Weishi Wang and Fangkai Jiao and Do Long and Chengwei Qin and Bosheng Ding and Xiaobao Guo and Minzhi Li and Xingxuan Li and Shafiq Joty},
+       booktitle = {Findings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+       publisher = {ACL},
+       series = {EMNLP'23 Findings},
+       title = {Retrieving Multimodal Information for Augmented Generation: A Survey},
+       url = {https://arxiv.org/abs/2303.10868},
+       year = {2023}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2023
+    selected: no
+    title: >
       Long Sequence Modeling with XGen: A 7B LLM Trained on 8K Input Sequence Length
     authors: Erik Nijkamp*, Tian Xie*, Hiroaki Hayashi*, Bo Pang*, Congying Xia*, Chen Xing, Jesse Vig, Semih Yavuz, Philippe Laban, Ben Krause, Senthil Purushwalkam, Tong Niu, Wojciech Kryscinski, Lidiya Murakhovs'ka, Prafulla Choubey, Alex Fabbri, Ye Liu, Rui Meng, Lifu Tu, Meghana Bhat, Chien-Sheng Wu, Silvio Savarese, Yingbo Zhou, Shafiq Joty+, and Caiming Xiong+
     id: XGen
