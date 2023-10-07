@@ -3115,6 +3115,18 @@ handle explicit discrete reasoning over noisy programs in an end-to-end manner.
   abstract = {With the rise of powerful closed-sourced LLMs (ChatGPT, GPT-4), there are increasing interests in distilling the capabilies of close-sourced LLMs to smaller open-sourced LLMs. Previous distillation methods usually prompt ChatGPT to generate a set of instructions and answers, for the student model to learn. However, such standard distillation approach neglects the merits and conditions of the student model. Inspired by modern teaching principles, we design a personalised distillation process, in which the student attempts to solve a task first, then the teacher provides an adaptive refinement for the student to improve. Instead of feeding the student with teacher's prior, personalised distillation enables personalised learning for the student model, as it only learns on examples it makes mistakes upon and learns to improve its own solution. On code generation, personalised distillation consistently outperforms standard distillation with only one third of the data. With only 2.5-3K personalised examples that incur a data-collection cost of 4-6$, we boost CodeGen-mono-16B by 7% to achieve 36.4% pass@1 and StarCoder by 12.2% to achieve 45.8% pass@1 on HumanEval.}
 }
 
+@InProceedings{Liu-emnlp-23,
+  author = {Ye Liu and Semih Yavuz and Rui Meng and Dragomir Radev and Caiming Xiong and Shafiq Joty and Yingbo Zhou},
+  title     = {HPE: Answering Complex Questions over Text by Hybrid Question Parsing and Execution},
+  booktitle = {Findings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2023},
+  series    = {EMNLP'23 Findings},
+  publisher = {ACL},
+  address   = {Singapore}, 
+  url = {},
+  abstract = {The dominant paradigm of textual question answering systems is based on end-to-end neural networks, which excels at answering natural language questions but falls short on complex ones. This stands in contrast to the broad adaptation of semantic parsing approaches over structured data sources (e.g., relational database, knowledge graphs), that convert natural language questions to logical forms and execute them with query engines. Towards combining the strengths of neural and symbolic methods, we propose a framework of question parsing and execution on textual QA. It comprises two central pillars: (1) We parse the question of varying complexity into an intermediate representation, named H-expression, which is composed of simple questions as the primitives and symbolic operations representing the relationships among them; (2) To execute the resulting H-expressions, we design a hybrid executor, which integrates the deterministic rules to translate the symbolic operations with a drop-in neural reader network to answer each decomposed simple question. Hence, the proposed framework can be viewed as a top-down question parsing followed by a bottom-up answer backtracking. The resulting H-expressions closely guide the execution process, offering higher precision besides better interpretability while still preserving the advantages of the neural readers for resolving its primitive elements. Our extensive experiments on MuSiQue, 2WikiQA, HotpotQA, and NQ show that the proposed parsing and hybrid execution framework outperforms existing approaches in supervised, few-shot, and zero-shot settings, while also effectively exposing its underlying reasoning process.}
+}
+
 
 
 @InProceedings{XGen,
