@@ -3041,6 +3041,20 @@ handle explicit discrete reasoning over noisy programs in an end-to-end manner.
 %% 2023
 
 
+@InProceedings{Laban-emnlp-23,
+  author = {Philippe Laban and Wojciech Kryscinski and Divyansh Agarwal and Alexander Fabbri and Caiming Xiong and Shafiq Joty and Chien-Sheng Wu},
+  title     = {SummEdits: Measuring LLM Ability at Factual Reasoning Through The Lens of Summarization},
+  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2023},
+  series    = {EMNLP'23},
+  publisher = {ACL},
+  address   = {Singapore}, 
+  url = {https://arxiv.org/abs/2305.14540},
+  abstract = {With the recent appearance of LLMs in practical settings, having methods that can effectively detect factual inconsistencies is crucial to reduce the propagation of misinformation and improve trust in model outputs. When testing on existing factual consistency benchmarks, we find that a few large language models (LLMs) perform competitively on classification benchmarks for factual inconsistency detection compared to traditional non-LLM methods. However, a closer analysis reveals issues with existing evaluation benchmarks, affecting evaluation precision. To address this, we propose a new protocol for inconsistency detection benchmark creation and implement it in a 10-domain benchmark called SummEdits. This new benchmark is 20 times more cost-effective per sample than previous benchmarks and highly reproducible, as we estimate inter-annotator agreement at about 0.9. Most LLMs struggle on SummEdits, with performance close to random chance. The best-performing model, GPT-4, is still 8% below estimated human performance, highlighting the gaps in LLMs' ability to reason about facts and detect inconsistencies when they occur.}
+}
+
+
+
 @InProceedings{XGen,
   title={Long Sequence Modeling with XGen: A 7B LLM Trained on 8K Input Sequence Length},
   author={Erik Nijkamp* and Tian Xie* and Hiroaki Hayashi* and Bo Pang* and Congying Xia* and Chen Xing and Jesse Vig and Semih Yavuz and Philippe Laban and Ben Krause and Senthil Purushwalkam and Tong Niu and Wojciech Kryscinski and Lidiya Murakhovs'ka and Prafulla Choubey and Alex Fabbri and Ye Liu and Rui Meng and Lifu Tu and Meghana Bhat and Chien-Sheng Wu and Silvio Savarese and Yingbo Zhou and Shafiq Joty+ and Caiming Xiong+},
@@ -3241,14 +3255,3 @@ We thoroughly evaluate RAP-Gen on three benchmarks in two programming languages,
 }
 
 
-@InProceedings{Laban-emnlp-23,
-  author = {Philippe Laban and Wojciech Kryscinski and Divyansh Agarwal and Alexander Fabbri and Caiming Xiong and Shafiq Joty and Chien-Sheng Wu},
-  title     = {SummEdits: Measuring LLM Ability at Factual Reasoning Through The Lens of Summarization},
-  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
-  year      = {2023},
-  series    = {EMNLP'23},
-  publisher = {ACL},
-  address   = {Singapore}, 
-  url = {https://arxiv.org/abs/2305.14540},
-  abstract = {With the recent appearance of LLMs in practical settings, having methods that can effectively detect factual inconsistencies is crucial to reduce the propagation of misinformation and improve trust in model outputs. When testing on existing factual consistency benchmarks, we find that a few large language models (LLMs) perform competitively on classification benchmarks for factual inconsistency detection compared to traditional non-LLM methods. However, a closer analysis reveals issues with existing evaluation benchmarks, affecting evaluation precision. To address this, we propose a new protocol for inconsistency detection benchmark creation and implement it in a 10-domain benchmark called SummEdits. This new benchmark is 20 times more cost-effective per sample than previous benchmarks and highly reproducible, as we estimate inter-annotator agreement at about 0.9. Most LLMs struggle on SummEdits, with performance close to random chance. The best-performing model, GPT-4, is still 8% below estimated human performance, highlighting the gaps in LLMs' ability to reason about facts and detect inconsistencies when they occur.}
-}
