@@ -3239,3 +3239,16 @@ To ease such burden on the parametric models, in this work, we propose a novel R
 
 We thoroughly evaluate RAP-Gen on three benchmarks in two programming languages, including the TFix benchmark in JavaScript, and Code Refinement and Defects4J benchmarks in Java, where the bug localization information may or may not be provided. Experimental results show that RAP-Gen significantly outperforms previous state-of-the-art (SoTA) approaches on all benchmarks, e.g., boosting the accuracy of T5-large on TFix from 49.70% to 54.15% (repairing 478 more bugs) and repairing 15 more bugs on 818 Defects4J bugs. Further analysis reveals that our patch retriever can search for relevant fix patterns to guide the APR systems.}
 }
+
+
+@InProceedings{Laban-emnlp-23,
+  author = {Philippe Laban and Wojciech Kryscinski and Divyansh Agarwal and Alexander Fabbri and Caiming Xiong and Shafiq Joty and Chien-Sheng Wu},
+  title     = {SummEdits: Measuring LLM Ability at Factual Reasoning Through The Lens of Summarization},
+  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2023},
+  series    = {EMNLP'23},
+  publisher = {ACL},
+  address   = {Singapore}, 
+  url = {https://arxiv.org/abs/2305.14540},
+  abstract = {With the recent appearance of LLMs in practical settings, having methods that can effectively detect factual inconsistencies is crucial to reduce the propagation of misinformation and improve trust in model outputs. When testing on existing factual consistency benchmarks, we find that a few large language models (LLMs) perform competitively on classification benchmarks for factual inconsistency detection compared to traditional non-LLM methods. However, a closer analysis reveals issues with existing evaluation benchmarks, affecting evaluation precision. To address this, we propose a new protocol for inconsistency detection benchmark creation and implement it in a 10-domain benchmark called SummEdits. This new benchmark is 20 times more cost-effective per sample than previous benchmarks and highly reproducible, as we estimate inter-annotator agreement at about 0.9. Most LLMs struggle on SummEdits, with performance close to random chance. The best-performing model, GPT-4, is still 8% below estimated human performance, highlighting the gaps in LLMs' ability to reason about facts and detect inconsistencies when they occur.}
+}

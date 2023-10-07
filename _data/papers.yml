@@ -6680,3 +6680,35 @@
        year = {2023}
       }
       
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2023
+    selected: no
+    title: >
+      SummEdits: Measuring LLM Ability at Factual Reasoning Through The Lens of Summarization
+    authors: Philippe Laban, Wojciech Kryscinski, Divyansh Agarwal, Alexander Fabbri, Caiming Xiong, Shafiq Joty, and Chien-Sheng Wu
+    id: Laban-emnlp-23
+    img: Laban-emnlp-23-fig
+    slides: media/Laban-emnlp-23-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'23</b>)
+    doc-url: https://arxiv.org/abs/2305.14540
+    abstract: >
+      With the recent appearance of LLMs in practical settings, having methods that can effectively detect factual inconsistencies is crucial to reduce the propagation of misinformation and improve trust in model outputs. When testing on existing factual consistency benchmarks, we find that a few large language models (LLMs) perform competitively on classification benchmarks for factual inconsistency detection compared to traditional non-LLM methods. However, a closer analysis reveals issues with existing evaluation benchmarks, affecting evaluation precision. To address this, we propose a new protocol for inconsistency detection benchmark creation and implement it in a 10-domain benchmark called SummEdits. This new benchmark is 20 times more cost-effective per sample than previous benchmarks and highly reproducible, as we estimate inter-annotator agreement at about 0.9. Most LLMs struggle on SummEdits, with performance close to random chance. The best-performing model, GPT-4, is still 8% below estimated human performance, highlighting the gaps in LLMs' ability to reason about facts and detect inconsistencies when they occur.
+    bibtex: >
+      @inproceedings{Laban-emnlp-23,
+       abstract = {With the recent appearance of LLMs in practical settings, having methods that can effectively detect factual inconsistencies is crucial to reduce the propagation of misinformation and improve trust in model outputs. When testing on existing factual consistency benchmarks, we find that a few large language models (LLMs) perform competitively on classification benchmarks for factual inconsistency detection compared to traditional non-LLM methods. However, a closer analysis reveals issues with existing evaluation benchmarks, affecting evaluation precision. To address this, we propose a new protocol for inconsistency detection benchmark creation and implement it in a 10-domain benchmark called SummEdits. This new benchmark is 20 times more cost-effective per sample than previous benchmarks and highly reproducible, as we estimate inter-annotator agreement at about 0.9. Most LLMs struggle on SummEdits, with performance close to random chance. The best-performing model, GPT-4, is still 8% below estimated human performance, highlighting the gaps in LLMs' ability to reason about facts and detect inconsistencies when they occur.},
+       address = {Singapore},
+       author = {Philippe Laban and Wojciech Kryscinski and Divyansh Agarwal and Alexander Fabbri and Caiming Xiong and Shafiq Joty and Chien-Sheng Wu},
+       booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+       publisher = {ACL},
+       series = {EMNLP'23},
+       title = {SummEdits: Measuring LLM Ability at Factual Reasoning Through The Lens of Summarization},
+       url = {https://arxiv.org/abs/2305.14540},
+       year = {2023}
+      }
+      
