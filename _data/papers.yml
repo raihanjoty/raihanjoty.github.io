@@ -6237,6 +6237,38 @@
     year: 2023
     selected: no
     title: >
+      Lifelong Sequence Generation with Dynamic Module Expansion and Adaptation
+    authors: Chengwei Qin, Shafiq Joty, and CHEN CHEN
+    id: Qin-emnlp-23
+    img: Qin-emnlp-23-fig
+    slides: media/Qin-emnlp-23-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'23</b>)
+    doc-url: 
+    abstract: >
+      Lifelong sequence generation (LSG), a problem in continual learning, aims to continually train a model on a sequence of generation tasks to learn constantly emerging new generation patterns while avoiding the forgetting of previous knowledge. Existing LSG methods mainly focus on maintaining old knowledge while paying little attention to knowledge transfer across tasks. In contrast, humans can better learn new tasks by leveraging previously acquired knowledge from similar tasks. Inspired by the learning paradigm of humans, we propose Dynamic Module Expansion and Adaptation (DMEA), which enables the model to dynamically determine the architecture for acquiring new knowledge based on task correlation and select the most similar previous tasks to facilitate adaptation to new tasks. In addition, as the learning process can easily be biased towards the current task which might cause more severe forgetting of previously learned knowledge, we propose dynamic gradient scaling to balance the learning of the current task and replayed tasks. With extensive experiments, we demonstrate that DMEA can consistently outperform existing methods in different LSG settings.
+    bibtex: >
+      @inproceedings{Qin-emnlp-23,
+       abstract = {Lifelong sequence generation (LSG), a problem in continual learning, aims to continually train a model on a sequence of generation tasks to learn constantly emerging new generation patterns while avoiding the forgetting of previous knowledge. Existing LSG methods mainly focus on maintaining old knowledge while paying little attention to knowledge transfer across tasks. In contrast, humans can better learn new tasks by leveraging previously acquired knowledge from similar tasks. Inspired by the learning paradigm of humans, we propose Dynamic Module Expansion and Adaptation (DMEA), which enables the model to dynamically determine the architecture for acquiring new knowledge based on task correlation and select the most similar previous tasks to facilitate adaptation to new tasks. In addition, as the learning process can easily be biased towards the current task which might cause more severe forgetting of previously learned knowledge, we propose dynamic gradient scaling to balance the learning of the current task and replayed tasks. With extensive experiments, we demonstrate that DMEA can consistently outperform existing methods in different LSG settings.},
+       address = {Singapore},
+       author = {Chengwei Qin and Shafiq Joty and CHEN CHEN},
+       booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+       publisher = {ACL},
+       series = {EMNLP'23},
+       title = {Lifelong Sequence Generation with Dynamic Module Expansion and Adaptation},
+       url = {},
+       year = {2023}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2023
+    selected: no
+    title: >
       Towards Low-Resource Automatic Program Repair with Meta-Learning and Pretrained Language Models
     authors: Weishi Wang, Yue Wang, Shafiq Joty, and Steven Hoi
     id: Weishi-emnlp-23
