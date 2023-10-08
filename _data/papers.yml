@@ -6365,6 +6365,38 @@
     year: 2023
     selected: no
     title: >
+      Towards Interpretable and Efficient Automatic Reference-Based Summarization Evaluation
+    authors: Yixin Liu, Alex Fabbri, Pengfei Liu, Shafiq Joty, Chien-Sheng Wu, Caiming Xiong, and Dragomir Radev
+    id: yixin-emnlp-23
+    img: yixin-emnlp-23-fig
+    slides: media/yixin-emnlp-23-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'23</b>)
+    doc-url: https://arxiv.org/abs/2303.03608
+    abstract: >
+      Interpretability and efficiency are two important considerations for the adoption of neural automatic metrics. In this work, we develop strong-performing automatic metrics for reference-based summarization evaluation, based on a two-stage evaluation pipeline that first extracts basic information units from one text sequence and then checks the extracted units in another sequence. The metrics we developed include two-stage metrics that can provide high interpretability at both the fine-grained unit level and summary level, and one-stage metrics that achieve a balance between efficiency and interoperability. We make the developed tools publicly available through a Python package and GitHub.
+    bibtex: >
+      @inproceedings{yixin-emnlp-23,
+       abstract = {Interpretability and efficiency are two important considerations for the adoption of neural automatic metrics. In this work, we develop strong-performing automatic metrics for reference-based summarization evaluation, based on a two-stage evaluation pipeline that first extracts basic information units from one text sequence and then checks the extracted units in another sequence. The metrics we developed include two-stage metrics that can provide high interpretability at both the fine-grained unit level and summary level, and one-stage metrics that achieve a balance between efficiency and interoperability. We make the developed tools publicly available through a Python package and GitHub.},
+       address = {Singapore},
+       author = {Yixin Liu and Alex Fabbri and Pengfei Liu and Shafiq Joty and Chien-Sheng Wu and Caiming Xiong and Dragomir Radev},
+       booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+       publisher = {ACL},
+       series = {EMNLP'23},
+       title = {Towards Interpretable and Efficient Automatic Reference-Based Summarization Evaluation},
+       url = {https://arxiv.org/abs/2303.03608},
+       year = {2023}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2023
+    selected: no
+    title: >
       Retrieving Multimodal Information for Augmented Generation: A Survey
     authors: Ruochen Zhao, Hailin Chen, Weishi Wang, Fangkai Jiao, Do Long, Chengwei Qin, Bosheng Ding, Xiaobao Guo, Minzhi Li, Xingxuan Li, and Shafiq Joty
     id: Zhao-emnlp-23
