@@ -6279,7 +6279,7 @@
     venue: conference
     booktitle: >
       Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'23</b>)
-    doc-url: 
+    doc-url: https://arxiv.org/abs/2305.14761
     abstract: >
       Charts are widely used for data analysis, providing visual representations and insights into complex data. To facilitate chart-based data analysis using natural language, several downstream tasks have been introduced recently such as chart question answering and chart summarization. However, existing methods for these tasks often rely on pretraining on language or vision-language tasks, neglecting the explicit modeling of chart structures (e.g., how chart elements are related to each other). To address this, we first build a large corpus of charts covering diverse topics and visual styles. We then present UniChart, a pretrained model for chart comprehension and reasoning. UniChart encodes the relevant text, data, and visual elements of charts and then uses a chart-grounded text decoder for text generation. We propose several chart-specific pretraining tasks that include: (i) low-level tasks to extract the visual elements (e.g., bars, lines) and data from charts, and (ii) high-level tasks to acquire chart understanding and reasoning skills. Our experiments demonstrate that pretraining UniChart on a large corpus with chart-specific objectives, followed by fine-tuning, yields state-of-the-art performance on four downstream tasks. Moreover, our model exhibits superior generalizability to unseen chart corpus, surpassing previous approaches that lack chart-specific objectives and utilize limited chart resources.
     bibtex: >
@@ -6291,7 +6291,7 @@
        publisher = {ACL},
        series = {EMNLP'23},
        title = {UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning},
-       url = {},
+       url = {https://arxiv.org/abs/2305.14761},
        year = {2023}
       }
       
