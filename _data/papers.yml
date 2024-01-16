@@ -6947,9 +6947,9 @@
     title: >
       CodeChain: Towards Modular Code Generation Through Chain of Self-revisions with Representative Sub-modules
     authors: Hung Le, Hailin Chen, Amrita Saha, Akash Gokul, Doyen Sahoo, and Shafiq Joty
-    id: Chengwei-et-al-arxiv-22
-    img: Chengwei-et-al-arxiv-22-fig
-    slides: media/Chengwei-et-al-arxiv-22-slides.pdf
+    id: Le-et-al-ICLR-24
+    img: Le-et-al-ICLR-24-fig
+    slides: media/Le-et-al-ICLR-24-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -6960,7 +6960,7 @@
     abstract: >
       Large Language Models (LLMs) have already become quite proficient at solving simpler programming tasks like those in HumanEval or MBPP benchmarks. However, solving more complex and competitive programming tasks is still quite challenging for these models - possibly due to their tendency to generate solutions as monolithic code blocks instead of decomposing them into logical sub-tasks and sub-modules. On the other hand, experienced programmers instinctively write modularized code with abstraction for solving complex tasks, often reusing previously developed modules. To address this gap, we propose CodeChain, a novel framework for inference that elicits modularized code generation through a chain of self-revisions, each being guided by some representative sub-modules generated in previous iterations. Concretely, CodeChain first instructs the LLM to generate modularized codes through chain-of-thought prompting. Then it applies a chain of self-revisions by iterating the two steps: 1) extracting and clustering the generated sub-modules and selecting the cluster representatives as the more generic and re-usable implementations, and 2) augmenting the original chain-of-thought prompt with these selected module-implementations and instructing the LLM to re-generate new modularized solutions. We find that by naturally encouraging the LLM to reuse the previously developed and verified sub-modules, CodeChain can significantly boost both modularity as well as correctness of the generated solutions, achieving relative pass@1 improvements of 35% on APPS and 76% on CodeContests. It is shown to be effective on both OpenAI LLMs as well as opensourced LLMs like WizardCoder. We also conduct comprehensive ablation studies with different methods of prompting, number of clusters, model sizes, program qualities, etc., to provide useful insights that underpin CodeChain’s success.
     bibtex: >
-      @inproceedings{Chengwei-et-al-arxiv-22,
+      @inproceedings{Le-et-al-ICLR-24,
        abstract = {Large Language Models (LLMs) have already become quite proficient at solving simpler programming tasks like those in HumanEval or MBPP benchmarks.
       However, solving more complex and competitive programming tasks is still quite
       challenging for these models - possibly due to their tendency to generate solutions
@@ -6988,6 +6988,39 @@
        series = {ICLR-24},
        title = {{CodeChain: Towards Modular Code Generation Through Chain of Self-revisions with Representative Sub-modules}},
        url = {https://openreview.net/pdf?id=vYhglxSj8j},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
+      Chain of Knowledge: A Framework for Grounding Large Language Models with Structured Knowledge Bases
+    authors: Xingxuan Li, Ruochen Zhao, Yew Ken, Bosheng Ding, Shafiq Joty, Soujanya Poria, and Lidong Bing
+    id: Li-et-al-ICLR-24
+    img: Li-et-al-ICLR-24-fig
+    slides: media/Li-et-al-ICLR-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 
+    booktitle: >
+      International Conference on Learning Representations (<b>ICLR-24</b>)
+    doc-url: https://openreview.net/pdf?id=cPgh4gWZlz
+    abstract: >
+      We present chain-of-knowledge (CoK), a novel framework that augments large language models (LLMs) by dynamically incorporating grounding information from heterogeneous sources. It results in more factual rationales and reduced hallucination in generation. Specifically, CoK consists of three stages: reasoning preparation, dynamic knowledge adapting, and answer consolidation. Given a knowledge-intensive question, CoK first prepares several preliminary rationales and answers while identifying the relevant knowledge domains. If there is no majority consensus among the answers from samples, CoK corrects the rationales step by step by adapting knowledge from the identified domains. These corrected rationales can plausibly serve as a better foundation for the final answer consolidation. Unlike prior studies that primarily use unstructured data, CoK also leverages structured knowledge sources such as Wikidata and tables that provide more reliable factual information. To access both unstructured and structured knowledge sources in the dynamic knowledge adapting stage, we propose an adaptive query generator that allows the generation of queries for various types of query languages, including SPARQL, SQL, and natural sentences. Moreover, to minimize error propagation between rationales, CoK corrects the rationales progressively using preceding corrected rationales to generate and correct subsequent rationales. Extensive experiments show that CoK consistently improves the performance of LLMs on knowledge-intensive tasks across different domains.
+    bibtex: >
+      @inproceedings{Li-et-al-ICLR-24,
+       abstract = {We present chain-of-knowledge (CoK), a novel framework that augments large language models (LLMs) by dynamically incorporating grounding information from heterogeneous sources. It results in more factual rationales and reduced hallucination in generation. Specifically, CoK consists of three stages: reasoning preparation, dynamic knowledge adapting, and answer consolidation. Given a knowledge-intensive question, CoK first prepares several preliminary rationales and answers while identifying the relevant knowledge domains. If there is no majority consensus among the answers from samples, CoK corrects the rationales step by step by adapting knowledge from the identified domains. These corrected rationales can plausibly serve as a better foundation for the final answer consolidation. Unlike prior studies that primarily use unstructured data, CoK also leverages structured knowledge sources such as Wikidata and tables that provide more reliable factual information. To access both unstructured and structured knowledge sources in the dynamic knowledge adapting stage, we propose an adaptive query generator that allows the generation of queries for various types of query languages, including SPARQL, SQL, and natural sentences. Moreover, to minimize error propagation between rationales, CoK corrects the rationales progressively using preceding corrected rationales to generate and correct subsequent rationales. Extensive experiments show that CoK consistently improves the performance of LLMs on knowledge-intensive tasks across different domains.},
+       author = {Xingxuan Li and Ruochen Zhao and Yew Ken Chia and Bosheng Ding and Shafiq Joty and Soujanya Poria and Lidong Bing},
+       booktitle = {International Conference on Learning Representations},
+       issue = {},
+       pages = {},
+       series = {ICLR-24},
+       title = {{Chain of Knowledge: A Framework for Grounding Large Language Models with Structured Knowledge Bases}},
+       url = {https://openreview.net/pdf?id=cPgh4gWZlz},
        year = {2024}
       }
       
