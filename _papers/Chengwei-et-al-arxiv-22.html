@@ -1,51 +1,64 @@
 ---
-abstract: 'Existing approaches to lifelong language learning rely on plenty of labeled
-  data for learning a new task, which is hard to obtain in most real scenarios. Considering
-  that humans can continually learn new tasks from a handful of examples, we expect
-  the models also to be able to generalize well on new few-shot tasks without forgetting
-  the previous ones. In this work, we define this more challenging yet practical problem
-  as Lifelong Few-shot Language Learning (LFLL) and propose a unified framework for
-  it based on prompt tuning of T5. Our framework called LFPT5 takes full advantage
-  of PT''s strong few-shot learning ability, and simultaneously trains the model as
-  a task solver and a data generator. Before learning a new domain of the same task
-  type, LFPT5 generates pseudo (labeled) samples of previously learned domains, and
-  later gets trained on those samples to alleviate forgetting of previous knowledge
-  as it learns the new domain. In addition, a KL divergence loss is minimized to achieve
-  label consistency between the previous and the current model. While adapting to
-  a new task type, LFPT5 includes and tunes additional prompt embeddings for the new
-  task. With extensive experiments, we demonstrate that LFPT5 can be applied to various
-  different types of tasks and significantly outperform previous methods in different
-  LFLL settings.
+abstract: 'Large Language Models (LLMs) have already become quite proficient at solving
+  simpler programming tasks like those in HumanEval or MBPP benchmarks. However, solving
+  more complex and competitive programming tasks is still quite challenging for these
+  models - possibly due to their tendency to generate solutions as monolithic code
+  blocks instead of decomposing them into logical sub-tasks and sub-modules. On the
+  other hand, experienced programmers instinctively write modularized code with abstraction
+  for solving complex tasks, often reusing previously developed modules. To address
+  this gap, we propose CodeChain, a novel framework for inference that elicits modularized
+  code generation through a chain of self-revisions, each being guided by some representative
+  sub-modules generated in previous iterations. Concretely, CodeChain first instructs
+  the LLM to generate modularized codes through chain-of-thought prompting. Then it
+  applies a chain of self-revisions by iterating the two steps: 1) extracting and
+  clustering the generated sub-modules and selecting the cluster representatives as
+  the more generic and re-usable implementations, and 2) augmenting the original chain-of-thought
+  prompt with these selected module-implementations and instructing the LLM to re-generate
+  new modularized solutions. We find that by naturally encouraging the LLM to reuse
+  the previously developed and verified sub-modules, CodeChain can significantly boost
+  both modularity as well as correctness of the generated solutions, achieving relative
+  pass@1 improvements of 35% on APPS and 76% on CodeContests. It is shown to be effective
+  on both OpenAI LLMs as well as opensourced LLMs like WizardCoder. We also conduct
+  comprehensive ablation studies with different methods of prompting, number of clusters,
+  model sizes, program qualities, etc., to provide useful insights that underpin CodeChain’s
+  success.
 
   '
-authors: Chengwei Qin, and Shafiq Joty
-bibtex: "@inproceedings{Chengwei-et-al-arxiv-22,\n abstract = {Existing approaches\
-  \ to lifelong language learning rely on plenty of labeled data for learning a new\
-  \ task, which is hard to obtain in most real scenarios. Considering that humans\
-  \ can continually learn new tasks from a handful of examples, we expect the models\
-  \ also to be able to generalize well on new few-shot tasks without forgetting the\
-  \ previous ones. In this work, we define this more challenging yet practical problem\
-  \ as Lifelong Few-shot Language Learning (LFLL) and propose a unified framework\
-  \ for it based on prompt tuning of T5. Our framework called LFPT5 takes full advantage\
-  \ of PT's strong few-shot learning ability, and simultaneously trains the model\
-  \ as a task solver and a data generator. Before learning a new domain of the same\
-  \ task type, LFPT5 generates pseudo (labeled) samples of previously learned domains,\
-  \ and later gets trained on those samples to alleviate forgetting of previous knowledge\
-  \ as it learns the new domain. In addition, a KL divergence loss is minimized to\
-  \ achieve label consistency between the previous and the current model. While adapting\
-  \ to a new task type, LFPT5 includes and tunes additional prompt embeddings for\
-  \ the new task. With extensive experiments, we demonstrate that LFPT5 can be applied\
-  \ to various different types of tasks and significantly outperform previous methods\
-  \ in different LFLL settings.},\n author = {Chengwei Qin and Shafiq Joty},\n booktitle\
+authors: Hung Le, Hailin Chen, Amrita Saha, Akash Gokul, Doyen Sahoo, and Shafiq Joty
+bibtex: "@inproceedings{Chengwei-et-al-arxiv-22,\n abstract = {Large Language Models\
+  \ (LLMs) have already become quite proficient at solving simpler programming tasks\
+  \ like those in HumanEval or MBPP benchmarks.\nHowever, solving more complex and\
+  \ competitive programming tasks is still quite challenging for these models - possibly\
+  \ due to their tendency to generate solutions as monolithic code blocks instead\
+  \ of decomposing them into logical sub-tasks and sub-modules. On the other hand,\
+  \ experienced programmers instinctively write modularized code with abstraction\
+  \ for solving complex tasks, often reusing previously developed modules. To address\
+  \ this gap, we propose CodeChain, a novel framework for inference that elicits modularized\
+  \ code generation through a chain of self-revisions, each being guided by some representative\
+  \ sub-modules generated in previous iterations. Concretely, CodeChain first instructs\
+  \ the LLM to generate modularized codes through chain-of-thought prompting. Then\
+  \ it applies a chain of self-revisions by iterating the two steps: 1) extracting\
+  \ and clustering the generated sub-modules and selecting the cluster representatives\
+  \ as the more generic and re-usable implementations, and 2) augmenting the original\
+  \ chain-of-thought prompt with these selected module-implementations and instructing\
+  \ the LLM to re-generate new modularized solutions. We find that by naturally encouraging\
+  \ the LLM to reuse the previously developed and verified sub-modules, CodeChain\
+  \ can significantly boost both modularity as well as correctness of the generated\
+  \ solutions, achieving relative pass@1 improvements of 35% on APPS and 76% on CodeContests.\
+  \ It is shown to be effective on both OpenAI LLMs as well as opensourced LLMs like\
+  \ WizardCoder. We also conduct comprehensive ablation studies with different methods\
+  \ of prompting, number of clusters, model sizes, program qualities, etc., to provide\
+  \ useful insights that underpin CodeChain’s success.},\n author = {Hung Le and Hailin\
+  \ Chen and Amrita Saha and Akash Gokul and Doyen Sahoo and Shafiq Joty},\n booktitle\
   \ = {International Conference on Learning Representations},\n issue = {},\n pages\
-  \ = {},\n series = {ICLR-22},\n title = {{LFPT5: A Unified Framework for Lifelong\
-  \ Few-shot Language Learning Based on Prompt Tuning of T5}},\n url = {https://openreview.net/forum?id=HCRVf71PMF},\n\
-  \ year = {2022}\n}\n"
-booktitle: 'International Conference on Learning Representations (<b>ICLR-22</b>)
+  \ = {},\n series = {ICLR-24},\n title = {{CodeChain: Towards Modular Code Generation\
+  \ Through Chain of Self-revisions with Representative Sub-modules}},\n url = {https://openreview.net/pdf?id=vYhglxSj8j},\n\
+  \ year = {2024}\n}\n"
+booktitle: 'International Conference on Learning Representations (<b>ICLR-24</b>)
 
   '
 code: null
-doc-url: https://openreview.net/forum?id=HCRVf71PMF
+doc-url: https://openreview.net/pdf?id=vYhglxSj8j
 errata: null
 id: Chengwei-et-al-arxiv-22
 img: Chengwei-et-al-arxiv-22-fig
@@ -55,12 +68,12 @@ paper-type: inproceedings
 picture: shafiq
 selected: false
 slides: media/Chengwei-et-al-arxiv-22-slides.pdf
-title: 'LFPT5: A Unified Framework for Lifelong Few-shot Language Learning Based on
-  Prompt Tuning of T5
+title: 'CodeChain: Towards Modular Code Generation Through Chain of Self-revisions
+  with Representative Sub-modules
 
   '
 venue: conference
-year: 2022
+year: 2024
 ---
 
 {% include singlepaper.html paper=page %}
