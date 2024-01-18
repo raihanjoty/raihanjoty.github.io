@@ -7112,3 +7112,37 @@
        year = {2024}
       }
       
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
+      Explaining Language Model Predictions with High-Impact Concepts
+    authors: Ruochen Zhao, Shafiq Joty, Yongjie Wang, and Tan Wang
+    id: Zhao-et-al-EACL-24
+    img: Zhao-et-al-EACL-24-fig
+    slides: media/Zhao-et-al-EACL-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 
+    booktitle: >
+      In Findings of ACL (<b>EACL-24</b>)
+    doc-url: https://arxiv.org/abs/2305.02160
+    abstract: >
+      To encourage fairness and transparency, there exists an urgent demand for deriving reliable explanations for large language models (LLMs). One promising solution is concept-based explanations, i.e., human-understandable concepts from internal representations. However, due to the compositional nature of languages, current methods mostly discover correlational explanations instead of causal features. Therefore, we propose a novel framework to provide impact-aware explanations for users to understand the LLM's behavior, which are robust to feature changes and influential to the model's predictions. Specifically, we extract predictive high-level features (concepts) from the model's hidden layer activations. Then, we innovatively optimize for features whose existence causes the output predictions to change substantially. Extensive experiments on real and synthetic tasks demonstrate that our method achieves superior results on predictive impact, explainability, and faithfulness compared to the baselines, especially for LLMs.
+    bibtex: >
+      @inproceedings{Zhao-et-al-EACL-24,
+       abstract = {To encourage fairness and transparency, there exists an urgent demand for deriving reliable explanations for large language models (LLMs). One promising solution is concept-based explanations, i.e., human-understandable concepts from internal representations. However, due to the compositional nature of languages, current methods mostly discover correlational explanations instead of causal features. Therefore, we propose a novel framework to provide impact-aware explanations for users to understand the LLM's behavior, which are robust to feature changes and influential to the model's predictions. Specifically, we extract predictive high-level features (concepts) from the model's hidden layer activations. Then, we innovatively optimize for features whose existence causes the output predictions to change substantially. Extensive experiments on real and synthetic tasks demonstrate that our method achieves superior results on predictive impact, explainability, and faithfulness compared to the baselines, especially for LLMs.},
+       address = {Malta},
+       author = {Ruochen Zhao and Shafiq Joty and Yongjie Wang and Tan Wang},
+       booktitle = {In Findings of ACL},
+       issue = {},
+       pages = {},
+       series = {EACL-24},
+       title = {{Explaining Language Model Predictions with High-Impact Concepts}},
+       url = {https://arxiv.org/abs/2305.02160},
+       year = {2024}
+      }
+      
