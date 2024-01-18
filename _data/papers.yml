@@ -7028,41 +7028,47 @@
       
   -
     layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
+    paper-type: article #changes display of reference in paper list
     year: 2024
-    selected: no
+    selected: yes
     title: >
-      AdaPT: A Set of Guidelines for Hyperbolic Multimodal Multilingual NLP
-    authors: Ramit Sawhney, Megh Thakkar, Vishwa Shah, Shrey Pandit, and Shafiq Joty
-    id: Sawhney-et-al-EACL-24
-    img: Sawhney-et-al-EACL-24-fig
-    slides: media/Sawhney-et-al-EACL-24-slides.pdf
+      L2CEval: Evaluating Language-to-Code Generation Capabilities of Large Language Models
+    authors: Ansong Ni, Pengcheng Yin, Yilun Zhao, Martin Riddell, Troy Feng, Rui Shen, Stephen Yin, Ye Liu, Semih Yavuz, Caiming Xiong, Shafiq Joty, Yingbo Zhou, Dragomir Radev, and Arman Cohan
+    id: Ni-et-al-TACL
+    img: Ni-et-al-TACL-fig
+    slides: # e.g. media/$ID.pptx
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
-    venue: conference
-    pages: 
-    booktitle: >
-      18th Conference of the European Chapter of the Association for Computational Linguistics (<b>EACL-24</b>)
-    doc-url: https://openreview.net/forum?id=SO_l8Jsa9kc
+    venue: journal
+    journal: Transactions of ACL (TACL)
+    doc-url: https://arxiv.org/pdf/2309.17446v2.pdf
     abstract: >
-      The Euclidean space is the familiar space for training neural models and performing arithmetic operations. However, many data types inherently possess complex geometries, and model training methods involve operating over their latent representations, which cannot be effectively captured in the Euclidean space. The hyperbolic space provides a more generalized representative geometry to model the hierarchical complexities of the tree-like structure of natural language. We propose AdaPT a set of guidelines for initialization, parametrization, and training of neural networks, which adapts to the dataset and can be used with different manifolds.  AdaPT can be generalized over any existing neural network training methodology and leads to more stable training without a substantial increase in training time. We apply AdaPT guidelines over two state-of-the-art deep learning approaches and empirically demonstrate its effectiveness through experiments on three tasks over 12 languages across speech and text. Through extensive qualitative analysis, we put forward the applicability of AdaPT as a set of guidelines optimally utilizing the manifold geometry, which can be extended to various downstream tasks across languages and modalities.
+      Recently, large language models (LLMs), especially those that are pretrained on code, have demonstrated strong capabilities in generating programs from natural language inputs in a few-shot or even zero-shot manner. Despite promising results, there is a notable lack of a comprehensive evaluation of these models’ language-to-code generation capabilities. Existing studies often focus on specific tasks, model architectures, or learning paradigms, leading to a fragmented understanding of the overall landscape. In this work, we present L2CEval, a systematic evaluation of the language-tocode generation capabilities of LLMs on 7 tasks across the domain spectrum of semantic parsing, math reasoning and Python programming, analyzing the factors that potentially affect their performance, such as model size, pretraining data, instruction tuning, and different prompting methods. In addition to assessing model performance, we measure confidence calibration for the models and conduct human evaluations of the output programs. This enables us to identify and analyze the typical failure modes across various tasks and models. L2CEval offers a comprehensive understanding of the capabilities and limitations of LLMs in language-to-code generation. We also release the evaluation framework1 and all model outputs, hoping to lay the groundwork for further future research in this domain.
     bibtex: >
-      @inproceedings{Sawhney-et-al-EACL-24,
-       abstract = {The Euclidean space is the familiar space for training neural models and performing arithmetic operations.
-      However, many data types inherently possess complex geometries, and model training methods involve operating over their latent representations, which cannot be effectively captured in the Euclidean space.
-      The hyperbolic space provides a more generalized representative geometry to model the hierarchical complexities of the tree-like structure of natural language.
-      We propose AdaPT a set of guidelines for initialization, parametrization, and training of neural networks, which adapts to the dataset and can be used with different manifolds. 
-      AdaPT can be generalized over any existing neural network training methodology and leads to more stable training without a substantial increase in training time.
-      We apply AdaPT guidelines over two state-of-the-art deep learning approaches and empirically demonstrate its effectiveness through experiments on three tasks over 12 languages across speech and text.
-      Through extensive qualitative analysis, we put forward the applicability of AdaPT as a set of guidelines optimally utilizing the manifold geometry, which can be extended to various downstream tasks across languages and modalities.},
-       address = {Malta},
-       author = {Ramit Sawhney and Megh Thakkar and Vishwa Shah and Shrey Pandit and Shafiq Joty},
-       booktitle = {18th Conference of the European Chapter of the Association for Computational Linguistics},
-       issue = {},
-       pages = {},
-       series = {EACL-24},
-       title = {{AdaPT: A Set of Guidelines for Hyperbolic Multimodal Multilingual NLP}},
-       url = {https://openreview.net/forum?id=SO_l8Jsa9kc},
+      @article{Ni-et-al-TACL,
+       abstract = {Recently, large language models (LLMs),
+      especially those that are pretrained on code,
+      have demonstrated strong capabilities in
+      generating programs from natural language
+      inputs in a few-shot or even zero-shot manner. Despite promising results, there is a
+      notable lack of a comprehensive evaluation
+      of these models’ language-to-code generation capabilities. Existing studies often focus on specific tasks, model architectures,
+      or learning paradigms, leading to a fragmented understanding of the overall landscape. In this work, we present L2CEval,
+      a systematic evaluation of the language-tocode generation capabilities of LLMs on
+      7 tasks across the domain spectrum of semantic parsing, math reasoning and Python
+      programming, analyzing the factors that
+      potentially affect their performance, such
+      as model size, pretraining data, instruction tuning, and different prompting methods. In addition to assessing model performance, we measure confidence calibration
+      for the models and conduct human evaluations of the output programs. This enables
+      us to identify and analyze the typical failure modes across various tasks and models. L2CEval offers a comprehensive understanding of the capabilities and limitations of LLMs in language-to-code generation. We also release the evaluation framework1
+      and all model outputs, hoping to lay
+      the groundwork for further future research
+      in this domain.},
+       author = {Ansong Ni and Pengcheng Yin and Yilun Zhao and Martin Riddell and Troy Feng and Rui Shen and Stephen Yin and Ye Liu and Semih Yavuz and Caiming Xiong and Shafiq Joty and Yingbo Zhou and Dragomir Radev and Arman Cohan},
+       journal = {Transactions of ACL (TACL)},
+       series = {TACL},
+       title = {{L2CEval: Evaluating Language-to-Code Generation Capabilities of Large Language Models}},
+       url = {https://arxiv.org/pdf/2309.17446v2.pdf},
        year = {2024}
       }
       
