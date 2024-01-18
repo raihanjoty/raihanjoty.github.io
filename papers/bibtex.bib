@@ -3392,3 +3392,77 @@ qualities, etc., to provide useful insights that underpin CodeChain’s success.
   url = {https://openreview.net/pdf?id=cPgh4gWZlz},
   abstract={We present chain-of-knowledge (CoK), a novel framework that augments large language models (LLMs) by dynamically incorporating grounding information from heterogeneous sources. It results in more factual rationales and reduced hallucination in generation. Specifically, CoK consists of three stages: reasoning preparation, dynamic knowledge adapting, and answer consolidation. Given a knowledge-intensive question, CoK first prepares several preliminary rationales and answers while identifying the relevant knowledge domains. If there is no majority consensus among the answers from samples, CoK corrects the rationales step by step by adapting knowledge from the identified domains. These corrected rationales can plausibly serve as a better foundation for the final answer consolidation. Unlike prior studies that primarily use unstructured data, CoK also leverages structured knowledge sources such as Wikidata and tables that provide more reliable factual information. To access both unstructured and structured knowledge sources in the dynamic knowledge adapting stage, we propose an adaptive query generator that allows the generation of queries for various types of query languages, including SPARQL, SQL, and natural sentences. Moreover, to minimize error propagation between rationales, CoK corrects the rationales progressively using preceding corrected rationales to generate and correct subsequent rationales. Extensive experiments show that CoK consistently improves the performance of LLMs on knowledge-intensive tasks across different domains.},
 }
+
+@article{Ni-et-al-TACL,
+  title="{L2CEval: Evaluating Language-to-Code Generation Capabilities of Large Language Models}",
+  author={Ansong Ni and Pengcheng Yin and Yilun Zhao and Martin Riddell and Troy Feng and Rui Shen and Stephen Yin and Ye Liu and Semih Yavuz and Caiming Xiong and Shafiq Joty and Yingbo Zhou and Dragomir Radev and Arman Cohan},
+  issue={}
+  pages={},
+  booktitle={Transactions of ACL},
+  series = {TACL},
+  year={2024},
+  url = {https://arxiv.org/pdf/2309.17446v2.pdf},
+  abstract={Recently, large language models (LLMs),
+especially those that are pretrained on code,
+have demonstrated strong capabilities in
+generating programs from natural language
+inputs in a few-shot or even zero-shot manner. Despite promising results, there is a
+notable lack of a comprehensive evaluation
+of these models’ language-to-code generation capabilities. Existing studies often focus on specific tasks, model architectures,
+or learning paradigms, leading to a fragmented understanding of the overall landscape. In this work, we present L2CEval,
+a systematic evaluation of the language-tocode generation capabilities of LLMs on
+7 tasks across the domain spectrum of semantic parsing, math reasoning and Python
+programming, analyzing the factors that
+potentially affect their performance, such
+as model size, pretraining data, instruction tuning, and different prompting methods. In addition to assessing model performance, we measure confidence calibration
+for the models and conduct human evaluations of the output programs. This enables
+us to identify and analyze the typical failure modes across various tasks and models. L2CEval offers a comprehensive understanding of the capabilities and limitations of LLMs in language-to-code generation. We also release the evaluation framework1
+and all model outputs, hoping to lay
+the groundwork for further future research
+in this domain.}
+
+
+@InProceedings{Sawhney-et-al-EACL-24,
+  title="{AdaPT: A Set of Guidelines for Hyperbolic Multimodal Multilingual NLP}",
+  author={Ramit Sawhney and Megh Thakkar and Vishwa Shah and Shrey Pandit and Shafiq Joty},
+  issue={},
+  pages={},
+  booktitle={18th Conference of the European Chapter of the Association for Computational Linguistics},
+  address   = {Malta}, 
+  series = {EACL-24},
+  year={2024},
+  url = {https://openreview.net/forum?id=SO_l8Jsa9kc},
+  abstract={The Euclidean space is the familiar space for training neural models and performing arithmetic operations.
+However, many data types inherently possess complex geometries, and model training methods involve operating over their latent representations, which cannot be effectively captured in the Euclidean space.
+The hyperbolic space provides a more generalized representative geometry to model the hierarchical complexities of the tree-like structure of natural language.
+We propose AdaPT a set of guidelines for initialization, parametrization, and training of neural networks, which adapts to the dataset and can be used with different manifolds. 
+AdaPT can be generalized over any existing neural network training methodology and leads to more stable training without a substantial increase in training time.
+We apply AdaPT guidelines over two state-of-the-art deep learning approaches and empirically demonstrate its effectiveness through experiments on three tasks over 12 languages across speech and text.
+Through extensive qualitative analysis, we put forward the applicability of AdaPT as a set of guidelines optimally utilizing the manifold geometry, which can be extended to various downstream tasks across languages and modalities.},
+}
+
+@InProceedings{Tu-et-al-EACL-24,
+  title="{Efficiently Aligned Cross-Lingual Transfer Learning for Conversational Tasks using Prompt-Tuning}",
+  author={Lifu Tu and Jin Qu and Semih Yavuz and Shafiq Joty and Wenhao Liu and Caiming Xiong and Yingbo Zhou},
+  issue={},
+  pages={},
+  booktitle={In Findings of ACL},
+  address   = {Malta}, 
+  series = {EACL-24},
+  year={2024},
+  url = {https://arxiv.org/abs/2304.01295},
+  abstract={Cross-lingual transfer of language models trained on high-resource languages like English has been widely studied for many NLP tasks, but focus on conversational tasks has been rather limited. This is partly due to the high cost of obtaining non-English conversational data, which results in limited coverage. In this work, we introduce for cross-lingual alignment pretraining,  a parallel and large-scale multilingual conversation dataset that we created by translating the English-only Schema-Guided Dialogue (SGD) dataset (Rastogi et al., 2020)  into 105 other languages. XSGD contains about 330k utterances per language. To facilitate aligned cross-lingual representations, we develop an efficient prompt-tuning-based method for learning alignment prompts. We also investigate two different classifiers: NLI-based and vanilla classifiers, and test cross-lingual capability enabled by the aligned prompts. We evaluate our model's cross-lingual generalization capabilities on two conversation tasks: slot-filling and intent classification. Our results demonstrate strong and efficient modeling ability of NLI-based classifiers and the large cross-lingual transfer improvements achieved by our aligned prompts, particularly in few-shot settings. We also conduct studies on large language models (LLMs) such as text-davinci-003 and ChatGPT in both zero- and few-shot settings. While LLMs exhibit impressive performance in English, their cross-lingual capabilities in other languages, particularly low-resource ones, are limited.}
+
+
+@InProceedings{Zhao-et-al-EACL-24,
+  title="{Explaining Language Model Predictions with High-Impact Concepts}",
+  author={Ruochen Zhao and Shafiq Joty and Yongjie Wang and Tan Wang},
+  issue={},
+  pages={},
+  booktitle={In Findings of ACL},
+  address   = {Malta}, 
+  series = {EACL-24},
+  year={2024},
+  url = {https://arxiv.org/abs/2305.02160},
+  abstract={To encourage fairness and transparency, there exists an urgent demand for deriving reliable explanations for large language models (LLMs). One promising solution is concept-based explanations, i.e., human-understandable concepts from internal representations. However, due to the compositional nature of languages, current methods mostly discover correlational explanations instead of causal features. Therefore, we propose a novel framework to provide impact-aware explanations for users to understand the LLM's behavior, which are robust to feature changes and influential to the model's predictions. Specifically, we extract predictive high-level features (concepts) from the model's hidden layer activations. Then, we innovatively optimize for features whose existence causes the output predictions to change substantially. Extensive experiments on real and synthetic tasks demonstrate that our method achieves superior results on predictive impact, explainability, and faithfulness compared to the baselines, especially for LLMs.}
+
