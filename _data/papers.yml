@@ -6202,6 +6202,37 @@
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
+    year: 2022
+    selected: no
+    title: >
+      NLP4Vis: Natural Language Processing for Information Visualization
+    authors: Shafiq Joty, and Enamul Hoque
+    id: joty-etal-2022-vis
+    img: joty-etal-2022-vis-fig
+    slides: media/joty-etal-2022-vis-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2022 IEEE Vis Conference (<b>IEEE Vis'22</b>)
+    doc-url: https://virtual.ieeevis.org/year/2022/session_t-nlp4vis-2.html
+    abstract: >
+      This tutorial will provide an introduction to natural language processing (NLP) to interested researchers in the visualization (Vis) community. It will first motivate why NLP4Vis is an important area of research and provide an overview of research topics on combining NLP and Vis techniques. Then an overview of deep learning models for NLP will be covered. A particular focus will be provided on highlighting the recent progress on large language models such as ChatGPT and how such models can be leveraged to solve various NLP tasks for visualizations. In the final part, we will focus on various application tasks at the intersection of NLP and Vis. We will conclude with an interactive discussion of future challenges for NLP+Vis applications. The audience will include researchers interested in applying NLP for visualizations as well as others who focus more generally at the intersection of AI and visualization.
+    bibtex: >
+      @inproceedings{joty-etal-2022-vis,
+       abstract = {This tutorial will provide an introduction to natural language processing (NLP) to interested researchers in the visualization (Vis) community. It will first motivate why NLP4Vis is an important area of research and provide an overview of research topics on combining NLP and Vis techniques. Then an overview of deep learning models for NLP will be covered. A particular focus will be provided on highlighting the recent progress on large language models such as ChatGPT and how such models can be leveraged to solve various NLP tasks for visualizations. In the final part, we will focus on various application tasks at the intersection of NLP and Vis. We will conclude with an interactive discussion of future challenges for NLP+Vis applications. The audience will include researchers interested in applying NLP for visualizations as well as others who focus more generally at the intersection of AI and visualization.},
+       author = {Shafiq Joty and  Enamul Hoque},
+       booktitle = {Proceedings of the 2022 IEEE Vis Conference},
+       publisher = {IEEE},
+       series = {IEEE Vis'22},
+       title = {NLP4Vis: Natural Language Processing for Information Visualization},
+       url = {https://virtual.ieeevis.org/year/2022/session_t-nlp4vis-2.html},
+       year = {2022}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
     year: 2023
     selected: no
     title: >
