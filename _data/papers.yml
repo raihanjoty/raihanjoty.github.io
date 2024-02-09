@@ -6942,6 +6942,40 @@
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
+    year: 2023
+    selected: no
+    title: >
+      NLP+Vis: NLP Meets Visualization
+    authors: Shafiq Joty, Enamul Hoque, and Jesse Vig
+    id: joty-etal-2023-nlp
+    img: joty-etal-2023-nlp-fig
+    slides: media/joty-etal-2023-nlp-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 1-6
+    booktitle: >
+      Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing: Tutorial Abstracts (<b>EMNLP'23 Tutorial</b>)
+    doc-url: https://aclanthology.org/2023.emnlp-tutorial.1
+    abstract: >
+      Natural language and visualization (Vis) are two powerful modalities of human communication. The goal of this tutorial is to push forward the agenda of tightly integrating these two modalities. To this end, the tutorial will introduce NLP+Vis with a focus on two main threads of work: \textit(i) NLP for Vis: How to develop and adapt state-of-the-art NLP models for solving various visualization tasks? and \textit(ii) Vis for NLP: How to leverage visualization techniques to interpret and explain complex NLP models effectively? The tutorial will first motivate why NLP+Vis is an important area of research and provide an overview of research topics on combining NLP and Vis techniques. Then an overview of state-of-the-art deep learning models for NLP will be covered. Next, we will provide an overview of applying visualization techniques to help make NLP models more interpretable and explainable. In the final part, we will focus on various application tasks at the intersection of NLP and Vis. We will conclude with an interactive discussion of future challenges for NLP+Vis applications. The audience will include researchers interested in applying NLP for visualizations as well as others who focus more generally at the intersection of machine learning and visualization.
+    bibtex: >
+      @inproceedings{joty-etal-2023-nlp,
+       abstract = {Natural language and visualization (Vis) are two powerful modalities of human communication. The goal of this tutorial is to push forward the agenda of tightly integrating these two modalities. To this end, the tutorial will introduce NLP+Vis with a focus on two main threads of work: \textit{(i) NLP for Vis:} How to develop and adapt state-of-the-art NLP models for solving various visualization tasks? and \textit{(ii) Vis for NLP:} How to leverage visualization techniques to interpret and explain complex NLP models effectively? The tutorial will first motivate why NLP+Vis is an important area of research and provide an overview of research topics on combining NLP and Vis techniques. Then an overview of state-of-the-art deep learning models for NLP will be covered. Next, we will provide an overview of applying visualization techniques to help make NLP models more interpretable and explainable. In the final part, we will focus on various application tasks at the intersection of NLP and Vis. We will conclude with an interactive discussion of future challenges for NLP+Vis applications. The audience will include researchers interested in applying NLP for visualizations as well as others who focus more generally at the intersection of machine learning and visualization.},
+       address = {Singapore},
+       author = {Shafiq Joty and  Enamul Hoque  and Jesse Vig},
+       booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing: Tutorial Abstracts},
+       pages = {1--6},
+       publisher = {Association for Computational Linguistics},
+       series = {EMNLP'23 Tutorial},
+       title = {{NLP}+{V}is: {NLP} Meets Visualization},
+       url = {https://aclanthology.org/2023.emnlp-tutorial.1},
+       year = {2023}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
     year: 2024
     selected: no
     title: >
