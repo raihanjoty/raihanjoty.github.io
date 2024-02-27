@@ -1,0 +1,72 @@
+---
+abstract: 'Large language models (LLMs) are fine-tuned using human comparison data
+  with Reinforcement Learning from Human Feedback (RLHF) methods to make them better
+  aligned with users'' preferences. In contrast to LLMs, human preference learning
+  has not been widely explored in text-to-image diffusion models; the best existing
+  approach is to fine-tune a pretrained model using carefully curated high quality
+  images and captions to improve visual appeal and text alignment. We propose Diffusion-DPO,
+  a method to align diffusion models to human preferences by directly optimizing on
+  human comparison data. Diffusion-DPO is adapted from the recently developed Direct
+  Preference Optimization (DPO), a simpler alternative to RLHF which directly optimizes
+  a policy that best satisfies human preferences under a classification objective.
+  We re-formulate DPO to account for a diffusion model notion of likelihood, utilizing
+  the evidence lower bound to derive a differentiable objective. Using the Pick-a-Pic
+  dataset of 851K crowdsourced pairwise preferences, we fine-tune the base model of
+  the state-of-the-art Stable Diffusion XL (SDXL)-1.0 model with Diffusion-DPO. Our
+  fine-tuned base model significantly outperforms both base SDXL-1.0 and the larger
+  SDXL-1.0 model consisting of an additional refinement model in human evaluation,
+  improving visual appeal and prompt alignment. We also develop a variant that uses
+  AI feedback and has comparable performance to training on human preferences, opening
+  the door for scaling of diffusion model alignment methods.
+
+  '
+authors: Bram Wallace, Meihua Dang, Rafael Rafailov, Linqi Zhou, Aaron Lou, Senthil
+  Purushwalkam, Stefano Ermon, Caiming Xiong, Shafiq Joty, and Nikhil Naik
+bibtex: "@inproceedings{Bram-et-al-CVPR-24,\n abstract = {Large language models (LLMs)\
+  \ are fine-tuned using human comparison data with Reinforcement Learning from Human\
+  \ Feedback (RLHF) methods to make them better aligned with users' preferences. In\
+  \ contrast to LLMs, human preference learning has not been widely explored in text-to-image\
+  \ diffusion models; the best existing approach is to fine-tune a pretrained model\
+  \ using carefully curated high quality images and captions to improve visual appeal\
+  \ and text alignment. We propose Diffusion-DPO, a method to align diffusion models\
+  \ to human preferences by directly optimizing on human comparison data. Diffusion-DPO\
+  \ is adapted from the recently developed Direct Preference Optimization (DPO), a\
+  \ simpler alternative to RLHF which directly optimizes a policy that best satisfies\
+  \ human preferences under a classification objective. We re-formulate DPO to account\
+  \ for a diffusion model notion of likelihood, utilizing the evidence lower bound\
+  \ to derive a differentiable objective. Using the Pick-a-Pic dataset of 851K crowdsourced\
+  \ pairwise preferences, we fine-tune the base model of the state-of-the-art Stable\
+  \ Diffusion XL (SDXL)-1.0 model with Diffusion-DPO. Our fine-tuned base model significantly\
+  \ outperforms both base SDXL-1.0 and the larger SDXL-1.0 model consisting of an\
+  \ additional refinement model in human evaluation, improving visual appeal and prompt\
+  \ alignment. We also develop a variant that uses AI feedback and has comparable\
+  \ performance to training on human preferences, opening the door for scaling of\
+  \ diffusion model alignment methods.},\n address = {Seattle, USA},\n author = {Bram\
+  \ Wallace and Meihua Dang and Rafael Rafailov and Linqi Zhou and Aaron Lou and Senthil\
+  \ Purushwalkam and Stefano Ermon and Caiming Xiong and Shafiq Joty and Nikhil Naik\
+  \ },\n booktitle = {International Conference on Computer Vision and Pattern Recognition},\n\
+  \ issue = {},\n pages = {},\n series = {CVPR-24},\n title = {{Diffusion Model Alignment\
+  \ Using Direct Preference Optimization}},\n url = {https://arxiv.org/abs/2311.12908},\n\
+  \ year = {2024}\n}\n"
+booktitle: 'International Conference on Computer Vision and Pattern Recognition (<b>CVPR-24</b>)
+
+  '
+code: null
+doc-url: https://arxiv.org/abs/2311.12908
+errata: null
+id: Bram-et-al-CVPR-24
+img: Bram-et-al-CVPR-24-fig
+layout: singlepaper
+pages: null
+paper-type: inproceedings
+picture: shafiq
+selected: false
+slides: media/Bram-et-al-CVPR-24-slides.pdf
+title: 'Diffusion Model Alignment Using Direct Preference Optimization
+
+  '
+venue: conference
+year: 2024
+---
+
+{% include singlepaper.html paper=page %}
