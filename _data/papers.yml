@@ -7112,6 +7112,40 @@
     year: 2024
     selected: no
     title: >
+      Benchmarking Generation and Evaluation Capabilities of Large Language Models for Instruction Controllable Summarization
+    authors: Yixin Liu, Alexander Fabbri, Jiawen Chen, Yilun Zhao, SIMENG HAN, Shafiq Joty, Pengfei Liu, Dragomir Radev, Chien-Sheng Wu, and Arman Cohan
+    id: Yixin-et-al-NAACL-24
+    img: Yixin-et-al-NAACL-24-fig
+    slides: media/Yixin-et-al-NAACL-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 
+    booktitle: >
+      2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (<b>NAACL-24 Findings</b>)
+    doc-url: https://openreview.net/forum?id=SO_l8Jsa9kc
+    abstract: >
+      While large language models (LLMs) can already achieve strong performance on standard generic summarization benchmarks, their performance on more complex summarization task settings is less studied. Therefore, we benchmark LLMs on instruction controllable text summarization, where the model input consists of both a source article and a natural language requirement for desired summary characteristics. To this end, we curate an evaluation-only dataset for this task setting and conduct human evaluation on 5 LLM-based summarization systems. We then benchmark LLM-based automatic evaluation for this task with 4 different evaluation protocols and 11 LLMs, resulting in 40 evaluation methods in total. Our study reveals that instruction controllable text summarization remains a challenging task for LLMs, since (1) all LLMs evaluated still make factual and other types of errors in their summaries; (2) no LLM-based evaluation methods can achieve a strong alignment with human annotators when judging the quality of candidate summaries; (3) different LLMs show large performance gaps in summary generation and evaluation capabilities. We make our collected benchmark InstruSum publicly available to facilitate future research in this direction.
+    bibtex: >
+      @inproceedings{Yixin-et-al-NAACL-24,
+       abstract = {While large language models (LLMs) can already achieve strong performance on standard generic summarization benchmarks, their performance on more complex summarization task settings is less studied. Therefore, we benchmark LLMs on instruction controllable text summarization, where the model input consists of both a source article and a natural language requirement for desired summary characteristics. To this end, we curate an evaluation-only dataset for this task setting and conduct human evaluation on 5 LLM-based summarization systems. We then benchmark LLM-based automatic evaluation for this task with 4 different evaluation protocols and 11 LLMs, resulting in 40 evaluation methods in total. Our study reveals that instruction controllable text summarization remains a challenging task for LLMs, since (1) all LLMs evaluated still make factual and other types of errors in their summaries; (2) no LLM-based evaluation methods can achieve a strong alignment with human annotators when judging the quality of candidate summaries; (3) different LLMs show large performance gaps in summary generation and evaluation capabilities. We make our collected benchmark InstruSum publicly available to facilitate future research in this direction.},
+       address = {Mexico City, Mexico},
+       author = {Yixin Liu and Alexander Fabbri and Jiawen Chen and Yilun Zhao and SIMENG HAN and Shafiq Joty and Pengfei Liu and Dragomir Radev and Chien-Sheng Wu and Arman Cohan},
+       booktitle = {2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+       issue = {},
+       pages = {},
+       series = {NAACL-24 Findings},
+       title = {{Benchmarking Generation and Evaluation Capabilities of Large Language Models for Instruction Controllable Summarization}},
+       url = {https://openreview.net/forum?id=SO_l8Jsa9kc},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
       AdaPT: A Set of Guidelines for Hyperbolic Multimodal Multilingual NLP
     authors: Ramit Sawhney, Megh Thakkar, Vishwa Shah, Shrey Pandit, and Shafiq Joty
     id: Sawhney-et-al-EACL-24

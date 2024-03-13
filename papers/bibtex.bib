@@ -3415,6 +3415,22 @@ We thoroughly evaluate RAP-Gen on three benchmarks in two programming languages,
   abstract={To mitigate forgetting, existing lifelong event detection methods typically maintain a memory module and replay the stored memory data during the learning of a new task. However, the simple combination of memory data and new-task samples can still result in substantial forgetting of previously acquired knowledge, which may occur due to the potential overlap between the feature distribution of new data and the previously learned embedding space. Moreover, the model suffers from overfitting on the few memory samples rather than effectively remembering learned patterns. To address the challenges of forgetting and overfitting, we propose a novel method based on embedding space separation and compaction. Our method alleviates forgetting of previously learned tasks by forcing the feature distribution of new data away from the previous embedding space. It also mitigates overfitting by a memory calibration mechanism that encourages memory data to be close to its prototype to enhance intra-class compactness. In addition, the learnable parameters of the new task are initialized by drawing upon acquired knowledge from the previously learned task to facilitate forward knowledge transfer. With extensive experiments, we demonstrate that our method can significantly outperform previous state-of-the-art approaches.},
 }
 
+@InProceedings{Yixin-et-al-NAACL-24,
+  title="{Benchmarking Generation and Evaluation Capabilities of Large Language Models for Instruction Controllable Summarization}",
+  author={Yixin Liu and Alexander Fabbri and Jiawen Chen and Yilun Zhao and SIMENG HAN and Shafiq Joty and Pengfei Liu and Dragomir Radev and Chien-Sheng Wu and Arman Cohan},
+  issue={},
+  pages={},
+  booktitle={2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+  address   = {Mexico City, Mexico}, 
+  series = {NAACL-24 Findings},
+  year={2024},
+  url = {https://openreview.net/forum?id=SO_l8Jsa9kc},
+  abstract={While large language models (LLMs) can already achieve strong performance on standard generic summarization benchmarks, their performance on more complex summarization task settings is less studied. Therefore, we benchmark LLMs on instruction controllable text summarization, where the model input consists of both a source article and a natural language requirement for desired summary characteristics. To this end, we curate an evaluation-only dataset for this task setting and conduct human evaluation on 5 LLM-based summarization systems. We then benchmark LLM-based automatic evaluation for this task with 4 different evaluation protocols and 11 LLMs, resulting in 40 evaluation methods in total. Our study reveals that instruction controllable text summarization remains a challenging task for LLMs, since (1) all LLMs evaluated still make factual and other types of errors in their summaries; (2) no LLM-based evaluation methods can achieve a strong alignment with human annotators when judging the quality of candidate summaries; (3) different LLMs show large performance gaps in summary generation and evaluation capabilities. We make our collected benchmark InstruSum publicly available to facilitate future research in this direction.},
+}
+
+
+
+
 
 @InProceedings{Sawhney-et-al-EACL-24,
   title="{AdaPT: A Set of Guidelines for Hyperbolic Multimodal Multilingual NLP}",
