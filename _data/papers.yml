@@ -7078,6 +7078,40 @@
     year: 2024
     selected: no
     title: >
+      Lifelong Event Detection with Embedding Space Separation and Compaction
+    authors: Chengwei Qin, Ruirui Chen, Ruochen Zhao, Wenhan Xia, and Shafiq Joty
+    id: Chengwei-et-al-NAACL-24
+    img: Chengwei-et-al-NAACL-24-fig
+    slides: media/Chengwei-et-al-NAACL-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 
+    booktitle: >
+      2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (<b>NAACL-24</b>)
+    doc-url: https://openreview.net/forum?id=QL69qAZgTnx
+    abstract: >
+      To mitigate forgetting, existing lifelong event detection methods typically maintain a memory module and replay the stored memory data during the learning of a new task. However, the simple combination of memory data and new-task samples can still result in substantial forgetting of previously acquired knowledge, which may occur due to the potential overlap between the feature distribution of new data and the previously learned embedding space. Moreover, the model suffers from overfitting on the few memory samples rather than effectively remembering learned patterns. To address the challenges of forgetting and overfitting, we propose a novel method based on embedding space separation and compaction. Our method alleviates forgetting of previously learned tasks by forcing the feature distribution of new data away from the previous embedding space. It also mitigates overfitting by a memory calibration mechanism that encourages memory data to be close to its prototype to enhance intra-class compactness. In addition, the learnable parameters of the new task are initialized by drawing upon acquired knowledge from the previously learned task to facilitate forward knowledge transfer. With extensive experiments, we demonstrate that our method can significantly outperform previous state-of-the-art approaches.
+    bibtex: >
+      @inproceedings{Chengwei-et-al-NAACL-24,
+       abstract = {To mitigate forgetting, existing lifelong event detection methods typically maintain a memory module and replay the stored memory data during the learning of a new task. However, the simple combination of memory data and new-task samples can still result in substantial forgetting of previously acquired knowledge, which may occur due to the potential overlap between the feature distribution of new data and the previously learned embedding space. Moreover, the model suffers from overfitting on the few memory samples rather than effectively remembering learned patterns. To address the challenges of forgetting and overfitting, we propose a novel method based on embedding space separation and compaction. Our method alleviates forgetting of previously learned tasks by forcing the feature distribution of new data away from the previous embedding space. It also mitigates overfitting by a memory calibration mechanism that encourages memory data to be close to its prototype to enhance intra-class compactness. In addition, the learnable parameters of the new task are initialized by drawing upon acquired knowledge from the previously learned task to facilitate forward knowledge transfer. With extensive experiments, we demonstrate that our method can significantly outperform previous state-of-the-art approaches.},
+       address = {Mexico City, Mexico},
+       author = {Chengwei Qin and Ruirui Chen and Ruochen Zhao and Wenhan Xia and Shafiq Joty},
+       booktitle = {2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+       issue = {},
+       pages = {},
+       series = {NAACL-24},
+       title = {{Lifelong Event Detection with Embedding Space Separation and Compaction}},
+       url = {https://openreview.net/forum?id=QL69qAZgTnx},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
       AdaPT: A Set of Guidelines for Hyperbolic Multimodal Multilingual NLP
     authors: Ramit Sawhney, Megh Thakkar, Vishwa Shah, Shrey Pandit, and Shafiq Joty
     id: Sawhney-et-al-EACL-24
