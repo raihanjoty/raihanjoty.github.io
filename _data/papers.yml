@@ -7010,6 +7010,80 @@
     year: 2024
     selected: no
     title: >
+      Exploring Self-supervised Logic-enhanced Training for Large Language Models
+    authors: Fangkai Jiao, Zhiyang Teng, Bosheng Ding, Zhengyuan Liu, Nancy F., and Shafiq Joty
+    id: Fangkai-et-al-NAACL-24
+    img: Fangkai-et-al-NAACL-24-fig
+    slides: media/Fangkai-et-al-NAACL-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 
+    booktitle: >
+      2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (<b>NAACL-24 Findings</b>)
+    doc-url: https://openreview.net/forum?id=SO_l8Jsa9kc
+    abstract: >
+      Traditional attempts to enhance the logical reasoning abilities of language models often rely on supervised fine-tuning, limiting their generalization to new tasks or domains. Large Language Models (LLMs), with their capacity to condense vast knowledge, can effectively tackle many tasks. Yet, our experiments reveal a gap in their performance on logical reasoning benchmarks when compared to state-of-the-art fine-tuning based models. To bridge this gap, we present LogicLLM, a first-of-its-kind, fully self-supervised framework for integrating logical reasoning capabilities into LLMs, and activating them via in-context learning. We apply this to two LLM series, FLAN-T5 and LLaMA, with parameter sizes from 3 billion to 33 billion. LogicLLM demonstrates its effectiveness through successful improvements on two logical reasoning benchmarks (ReClor and LogiQA-v2). Additionally, LogicLLM based on FLAN-T5-11B attains comparable results to ChatGPT, and evaluations with LLaMA-based models on three language understanding benchmarks (RACE, MMLU and Big-Bench-Hard) confirm that the improvements come without compromising the model's general language understanding capabilities.
+    bibtex: >
+      @inproceedings{Fangkai-et-al-NAACL-24,
+       abstract = {Traditional attempts to enhance the logical reasoning abilities of language models often rely on supervised fine-tuning, limiting their generalization to new tasks or domains. Large Language Models (LLMs), with their capacity to condense vast knowledge, can effectively tackle many tasks. Yet, our experiments reveal a gap in their performance on logical reasoning benchmarks when compared to state-of-the-art fine-tuning based models. To bridge this gap, we present LogicLLM, a first-of-its-kind, fully self-supervised framework for integrating logical reasoning capabilities into LLMs, and activating them via in-context learning. We apply this to two LLM series, FLAN-T5 and LLaMA, with parameter sizes from 3 billion to 33 billion. LogicLLM demonstrates its effectiveness through successful improvements on two logical reasoning benchmarks (ReClor and LogiQA-v2). Additionally, LogicLLM based on FLAN-T5-11B attains comparable results to ChatGPT, and evaluations with LLaMA-based models on three language understanding benchmarks (RACE, MMLU and Big-Bench-Hard) confirm that the improvements come without compromising the model's general language understanding capabilities.},
+       address = {Mexico City, Mexico},
+       author = {Fangkai Jiao and Zhiyang Teng and Bosheng Ding and Zhengyuan Liu and Nancy F. Chen and Shafiq Joty},
+       booktitle = {2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+       issue = {},
+       pages = {},
+       series = {NAACL-24 Findings},
+       title = {{Exploring Self-supervised Logic-enhanced Training for Large Language Models}},
+       url = {https://openreview.net/forum?id=SO_l8Jsa9kc},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
+      AdaPT: A Set of Guidelines for Hyperbolic Multimodal Multilingual NLP
+    authors: Ramit Sawhney, Megh Thakkar, Vishwa Shah, Shrey Pandit, and Shafiq Joty
+    id: Sawhney-et-al-EACL-24
+    img: Sawhney-et-al-EACL-24-fig
+    slides: media/Sawhney-et-al-EACL-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 
+    booktitle: >
+      2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (<b>NAACL-24 Findings</b>)
+    doc-url: https://openreview.net/forum?id=SO_l8Jsa9kc
+    abstract: >
+      The Euclidean space is the familiar space for training neural models and performing arithmetic operations. However, many data types inherently possess complex geometries, and model training methods involve operating over their latent representations, which cannot be effectively captured in the Euclidean space. The hyperbolic space provides a more generalized representative geometry to model the hierarchical complexities of the tree-like structure of natural language. We propose AdaPT a set of guidelines for initialization, parametrization, and training of neural networks, which adapts to the dataset and can be used with different manifolds.  AdaPT can be generalized over any existing neural network training methodology and leads to more stable training without a substantial increase in training time. We apply AdaPT guidelines over two state-of-the-art deep learning approaches and empirically demonstrate its effectiveness through experiments on three tasks over 12 languages across speech and text. Through extensive qualitative analysis, we put forward the applicability of AdaPT as a set of guidelines optimally utilizing the manifold geometry, which can be extended to various downstream tasks across languages and modalities.
+    bibtex: >
+      @inproceedings{Sawhney-et-al-EACL-24,
+       abstract = {The Euclidean space is the familiar space for training neural models and performing arithmetic operations.
+      However, many data types inherently possess complex geometries, and model training methods involve operating over their latent representations, which cannot be effectively captured in the Euclidean space.
+      The hyperbolic space provides a more generalized representative geometry to model the hierarchical complexities of the tree-like structure of natural language.
+      We propose AdaPT a set of guidelines for initialization, parametrization, and training of neural networks, which adapts to the dataset and can be used with different manifolds. 
+      AdaPT can be generalized over any existing neural network training methodology and leads to more stable training without a substantial increase in training time.
+      We apply AdaPT guidelines over two state-of-the-art deep learning approaches and empirically demonstrate its effectiveness through experiments on three tasks over 12 languages across speech and text.
+      Through extensive qualitative analysis, we put forward the applicability of AdaPT as a set of guidelines optimally utilizing the manifold geometry, which can be extended to various downstream tasks across languages and modalities.},
+       address = {Mexico City, Mexico},
+       author = {Ramit Sawhney and Megh Thakkar and Vishwa Shah and Shrey Pandit and Shafiq Joty},
+       booktitle = {2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+       issue = {},
+       pages = {},
+       series = {NAACL-24 Findings},
+       title = {{AdaPT: A Set of Guidelines for Hyperbolic Multimodal Multilingual NLP}},
+       url = {https://openreview.net/forum?id=SO_l8Jsa9kc},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
       Diffusion Model Alignment Using Direct Preference Optimization
     authors: Bram Wallace, Meihua Dang, Rafael Rafailov, Linqi Zhou, Aaron Lou, Senthil Purushwalkam, Stefano Ermon, Caiming Xiong, Shafiq Joty, and Nikhil Naik
     id: Bram-et-al-CVPR-24
@@ -7168,46 +7242,6 @@
        series = {TACL},
        title = {{L2CEval: Evaluating Language-to-Code Generation Capabilities of Large Language Models}},
        url = {https://arxiv.org/pdf/2309.17446v2.pdf},
-       year = {2024}
-      }
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2024
-    selected: no
-    title: >
-      AdaPT: A Set of Guidelines for Hyperbolic Multimodal Multilingual NLP
-    authors: Ramit Sawhney, Megh Thakkar, Vishwa Shah, Shrey Pandit, and Shafiq Joty
-    id: Sawhney-et-al-EACL-24
-    img: Sawhney-et-al-EACL-24-fig
-    slides: media/Sawhney-et-al-EACL-24-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    pages: 
-    booktitle: >
-      18th Conference of the European Chapter of the Association for Computational Linguistics (<b>EACL-24</b>)
-    doc-url: https://openreview.net/forum?id=SO_l8Jsa9kc
-    abstract: >
-      The Euclidean space is the familiar space for training neural models and performing arithmetic operations. However, many data types inherently possess complex geometries, and model training methods involve operating over their latent representations, which cannot be effectively captured in the Euclidean space. The hyperbolic space provides a more generalized representative geometry to model the hierarchical complexities of the tree-like structure of natural language. We propose AdaPT a set of guidelines for initialization, parametrization, and training of neural networks, which adapts to the dataset and can be used with different manifolds.  AdaPT can be generalized over any existing neural network training methodology and leads to more stable training without a substantial increase in training time. We apply AdaPT guidelines over two state-of-the-art deep learning approaches and empirically demonstrate its effectiveness through experiments on three tasks over 12 languages across speech and text. Through extensive qualitative analysis, we put forward the applicability of AdaPT as a set of guidelines optimally utilizing the manifold geometry, which can be extended to various downstream tasks across languages and modalities.
-    bibtex: >
-      @inproceedings{Sawhney-et-al-EACL-24,
-       abstract = {The Euclidean space is the familiar space for training neural models and performing arithmetic operations.
-      However, many data types inherently possess complex geometries, and model training methods involve operating over their latent representations, which cannot be effectively captured in the Euclidean space.
-      The hyperbolic space provides a more generalized representative geometry to model the hierarchical complexities of the tree-like structure of natural language.
-      We propose AdaPT a set of guidelines for initialization, parametrization, and training of neural networks, which adapts to the dataset and can be used with different manifolds. 
-      AdaPT can be generalized over any existing neural network training methodology and leads to more stable training without a substantial increase in training time.
-      We apply AdaPT guidelines over two state-of-the-art deep learning approaches and empirically demonstrate its effectiveness through experiments on three tasks over 12 languages across speech and text.
-      Through extensive qualitative analysis, we put forward the applicability of AdaPT as a set of guidelines optimally utilizing the manifold geometry, which can be extended to various downstream tasks across languages and modalities.},
-       address = {Malta},
-       author = {Ramit Sawhney and Megh Thakkar and Vishwa Shah and Shrey Pandit and Shafiq Joty},
-       booktitle = {18th Conference of the European Chapter of the Association for Computational Linguistics},
-       issue = {},
-       pages = {},
-       series = {EACL-24},
-       title = {{AdaPT: A Set of Guidelines for Hyperbolic Multimodal Multilingual NLP}},
-       url = {https://openreview.net/forum?id=SO_l8Jsa9kc},
        year = {2024}
       }
       
