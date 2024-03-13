@@ -7045,7 +7045,7 @@
     selected: no
     title: >
       Exploring Self-supervised Logic-enhanced Training for Large Language Models
-    authors: Fangkai Jiao, Zhiyang Teng, Bosheng Ding, Zhengyuan Liu, Nancy F., and Shafiq Joty
+    authors: Fangkai Jiao, Zhiyang Teng, Bosheng Ding, Zhengyuan Liu, Nancy Chen, and Shafiq Joty
     id: Fangkai-et-al-NAACL-24
     img: Fangkai-et-al-NAACL-24-fig
     slides: media/Fangkai-et-al-NAACL-24-slides.pdf
@@ -7062,7 +7062,7 @@
       @inproceedings{Fangkai-et-al-NAACL-24,
        abstract = {Traditional attempts to enhance the logical reasoning abilities of language models often rely on supervised fine-tuning, limiting their generalization to new tasks or domains. Large Language Models (LLMs), with their capacity to condense vast knowledge, can effectively tackle many tasks. Yet, our experiments reveal a gap in their performance on logical reasoning benchmarks when compared to state-of-the-art fine-tuning based models. To bridge this gap, we present LogicLLM, a first-of-its-kind, fully self-supervised framework for integrating logical reasoning capabilities into LLMs, and activating them via in-context learning. We apply this to two LLM series, FLAN-T5 and LLaMA, with parameter sizes from 3 billion to 33 billion. LogicLLM demonstrates its effectiveness through successful improvements on two logical reasoning benchmarks (ReClor and LogiQA-v2). Additionally, LogicLLM based on FLAN-T5-11B attains comparable results to ChatGPT, and evaluations with LLaMA-based models on three language understanding benchmarks (RACE, MMLU and Big-Bench-Hard) confirm that the improvements come without compromising the model's general language understanding capabilities.},
        address = {Mexico City, Mexico},
-       author = {Fangkai Jiao and Zhiyang Teng and Bosheng Ding and Zhengyuan Liu and Nancy F. Chen and Shafiq Joty},
+       author = {Fangkai Jiao and Zhiyang Teng and Bosheng Ding and Zhengyuan Liu and Nancy Chen and Shafiq Joty},
        booktitle = {2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
        issue = {},
        pages = {},
@@ -7143,6 +7143,41 @@
        series = {NAACL-24 Findings},
        title = {{AdaPT: A Set of Guidelines for Hyperbolic Multimodal Multilingual NLP}},
        url = {https://openreview.net/forum?id=SO_l8Jsa9kc},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
+      DIVKNOWQA: Assessing the Reasoning Ability of LLMs via Open-Domain Question Answering over Knowledge Base and Text
+    authors: Wenting Zhao, Ye Liu, Tong Niu, Yao Wan, Philip Yu, Shafiq Joty, Yingbo Zhou, and Semih Yavuz
+    id: Wenting-et-al-EACL-24
+    img: Wenting-et-al-EACL-24-fig
+    slides: media/Wenting-et-al-EACL-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    pages: 
+    booktitle: >
+      2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (<b>NAACL-24 Findings</b>)
+    doc-url: https://arxiv.org/abs/2310.20170
+    abstract: >
+      Large Language Models (LLMs) have exhibited impressive generation capabilities, but they suffer from hallucinations when solely relying on their internal knowledge, especially when answering questions that require less commonly known information. Retrieval-augmented LLMs have emerged as a potential solution to ground LLMs in external knowledge. Nonetheless, recent approaches have primarily emphasized retrieval from unstructured text corpora, owing to its seamless integration into prompts. When using structured data such as knowledge graphs, most methods simplify it into natural text, neglecting the underlying structures. Moreover, a significant gap in the current landscape is the absence of a realistic benchmark for evaluating the effectiveness of grounding LLMs on heterogeneous knowledge sources (e.g., knowledge base and text). To fill this gap, we have curated a comprehensive dataset that poses two unique challenges: (1) Two-hop multi-source questions that require retrieving information from both open-domain structured and unstructured knowledge sources; retrieving information from structured knowledge sources is a critical component in correctly answering the questions. (2) Generation of symbolic queries (e.g., SPARQL for Wikidata) is a key requirement, which adds another layer of challenge. Our dataset is created using a combination of automatic generation through predefined reasoning chains and human annotation. We also introduce a novel approach that leverages multiple retrieval tools, including text passage retrieval and symbolic language-assisted retrieval. Our model outperforms previous approaches by a significant margin, demonstrating its effectiveness in addressing the above-mentioned reasoning challenges.
+    bibtex: >
+      @inproceedings{Wenting-et-al-EACL-24,
+       abstract = {Large Language Models (LLMs) have exhibited impressive generation capabilities, but they suffer from hallucinations when solely relying on their internal knowledge, especially when answering questions that require less commonly known information. Retrieval-augmented LLMs have emerged as a potential solution to ground LLMs in external knowledge. Nonetheless, recent approaches have primarily emphasized retrieval from unstructured text corpora, owing to its seamless integration into prompts. When using structured data such as knowledge graphs, most methods simplify it into natural text, neglecting the underlying structures. Moreover, a significant gap in the current landscape is the absence of a realistic benchmark for evaluating the effectiveness of grounding LLMs on heterogeneous knowledge sources (e.g., knowledge base and text). To fill this gap, we have curated a comprehensive dataset that poses two unique challenges: (1) Two-hop multi-source questions that require retrieving information from both open-domain structured and unstructured knowledge sources; retrieving information from structured knowledge sources is a critical component in correctly answering the questions. (2) Generation of symbolic queries (e.g., SPARQL for Wikidata) is a key requirement, which adds another layer of challenge. Our dataset is created using a combination of automatic generation
+      through predefined reasoning chains and human annotation. We also introduce a novel approach that leverages multiple retrieval tools, including text passage retrieval and symbolic language-assisted retrieval. Our model outperforms previous approaches by a significant margin, demonstrating its effectiveness in addressing the above-mentioned reasoning challenges.},
+       address = {Mexico City, Mexico},
+       author = {Wenting Zhao and Ye Liu and Tong Niu and Yao Wan and Philip Yu and Shafiq Joty and Yingbo Zhou and Semih Yavuz},
+       booktitle = {2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+       issue = {},
+       pages = {},
+       series = {NAACL-24 Findings},
+       title = {{DIVKNOWQA: Assessing the Reasoning Ability of LLMs via Open-Domain Question Answering over Knowledge Base and Text}},
+       url = {https://arxiv.org/abs/2310.20170},
        year = {2024}
       }
       
