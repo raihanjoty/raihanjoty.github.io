@@ -3411,6 +3411,20 @@ We thoroughly evaluate RAP-Gen on three benchmarks in two programming languages,
   abstract = {Large language models (LLMs) are known to effectively perform tasks by simply observing few exemplars. However, in low-resource languages, obtaining such hand-picked exemplars can still be challenging, where unsupervised techniques may be necessary. Moreover, competent generative capabilities of LLMs are observed only in high-resource languages, while their performances among under-represented languages fall behind due to pre-training data imbalance. To elicit LLMs' ability onto low-resource languages without any supervised data, we propose to assemble synthetic exemplars from a diverse set of high-resource languages to prompt the LLMs to translate from any language into English. These prompts are then used to create intra-lingual exemplars to perform tasks in the target languages. Our unsupervised prompting method performs on par with supervised few-shot learning in LLMs of different sizes for translations between English and 13 Indic and 21 African low-resource languages. We also show that fine-tuning a 7B model on data generated from our method helps it perform competitively with a 175B model. In non-English translation tasks, our method even outperforms supervised prompting by up to 3 chrF++ in many low-resource languages. When evaluated on zero-shot multilingual summarization, our method surpasses other English-pivoting baselines by up to 4 ROUGE-L and is also favored by GPT-4.}
 }
 
+@InProceedings{Masry-emnlp-23,
+  author = {Ahmed Masry and Parsa Kavehzadeh and Do Long and Enamul Hoque and Shafiq Joty},
+  title     = {ChartInstruct: Instruction Tuning for Chart Comprehension and Reasoning},
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+  year      = {2024},
+  series    = {ACL'24 Findings},
+  publisher = {ACL},
+  address   = {Bangkok, Thailand}, 
+  url = {https://arxiv.org/pdf/2403.09028},
+  abstract = {Charts provide visual representations of data and are widely used for analyzing information, addressing queries, and conveying insights to others. Various chart-related downstream tasks have emerged recently, such as question-answering and summarization. A common strategy to solve these tasks is to fine-tune various models originally trained on vision tasks language. However, such task-specific models are not capable of solving a wide range of chart-related tasks, constraining their real-world applicability. To overcome these challenges, we introduce ChartInsruct: a novel chart-specific vision-language Instruction-following dataset comprising 191K instructions generated with 71K charts. We then present two distinct systems for instruction tuning on such datasets: (1) an end-to-end model that connects a vision encoder for chart understanding with a LLM; and (2) a pipeline model that employs a two-step approach to extract chart data tables and input them into the LLM. In experiments on four downstream tasks, we first show the effectiveness of our model--achieving a new set of state-of-the-art results. Further evaluation shows that our instruction-tuning approach supports a wide array of real-world chart comprehension and reasoning scenarios, thereby expanding the scope and applicability of our models to new kinds of tasks.}
+}
+
+
+
 
 %%NAACL
 

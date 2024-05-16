@@ -7106,6 +7106,38 @@
     year: 2024
     selected: no
     title: >
+      ChartInstruct: Instruction Tuning for Chart Comprehension and Reasoning
+    authors: Ahmed Masry, Parsa Kavehzadeh, Do Long, Enamul Hoque, and Shafiq Joty
+    id: Masry-emnlp-23
+    img: Masry-emnlp-23-fig
+    slides: media/Masry-emnlp-23-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (<b>ACL'24 Findings</b>)
+    doc-url: https://arxiv.org/pdf/2403.09028
+    abstract: >
+      Charts provide visual representations of data and are widely used for analyzing information, addressing queries, and conveying insights to others. Various chart-related downstream tasks have emerged recently, such as question-answering and summarization. A common strategy to solve these tasks is to fine-tune various models originally trained on vision tasks language. However, such task-specific models are not capable of solving a wide range of chart-related tasks, constraining their real-world applicability. To overcome these challenges, we introduce ChartInsruct: a novel chart-specific vision-language Instruction-following dataset comprising 191K instructions generated with 71K charts. We then present two distinct systems for instruction tuning on such datasets: (1) an end-to-end model that connects a vision encoder for chart understanding with a LLM; and (2) a pipeline model that employs a two-step approach to extract chart data tables and input them into the LLM. In experiments on four downstream tasks, we first show the effectiveness of our model-achieving a new set of state-of-the-art results. Further evaluation shows that our instruction-tuning approach supports a wide array of real-world chart comprehension and reasoning scenarios, thereby expanding the scope and applicability of our models to new kinds of tasks.
+    bibtex: >
+      @inproceedings{Masry-emnlp-23,
+       abstract = {Charts provide visual representations of data and are widely used for analyzing information, addressing queries, and conveying insights to others. Various chart-related downstream tasks have emerged recently, such as question-answering and summarization. A common strategy to solve these tasks is to fine-tune various models originally trained on vision tasks language. However, such task-specific models are not capable of solving a wide range of chart-related tasks, constraining their real-world applicability. To overcome these challenges, we introduce ChartInsruct: a novel chart-specific vision-language Instruction-following dataset comprising 191K instructions generated with 71K charts. We then present two distinct systems for instruction tuning on such datasets: (1) an end-to-end model that connects a vision encoder for chart understanding with a LLM; and (2) a pipeline model that employs a two-step approach to extract chart data tables and input them into the LLM. In experiments on four downstream tasks, we first show the effectiveness of our model--achieving a new set of state-of-the-art results. Further evaluation shows that our instruction-tuning approach supports a wide array of real-world chart comprehension and reasoning scenarios, thereby expanding the scope and applicability of our models to new kinds of tasks.},
+       address = {Bangkok, Thailand},
+       author = {Ahmed Masry and Parsa Kavehzadeh and Do Long and Enamul Hoque and Shafiq Joty},
+       booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+       publisher = {ACL},
+       series = {ACL'24 Findings},
+       title = {ChartInstruct: Instruction Tuning for Chart Comprehension and Reasoning},
+       url = {https://arxiv.org/pdf/2403.09028},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
       Embrace Divergence for Richer Insights: A Multi-document Summarization Benchmark and a Case Study on Summarizing Diverse Information from News Articles
     authors: Kung-Hsiang Huang, Philippe Laban, Alexander Fabbri, Prafulla Kumar, Shafiq Joty, Caiming Xiong, and Chien-Sheng Wu
     id: Huang-et-al-NAACL-24
