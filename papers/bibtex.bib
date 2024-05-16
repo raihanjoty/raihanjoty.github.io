@@ -3399,7 +3399,17 @@ We thoroughly evaluate RAP-Gen on three benchmarks in two programming languages,
   abstract = {Large language models (LLMs) excel in abstractive summarization tasks, delivering fluent and pertinent summaries. Recent advancements have extended their capabilities to handle long-input contexts, exceeding 100k tokens. However, in question answering, language models exhibit uneven utilization of their input context. They tend to favor the initial and final segments, resulting in a U-shaped performance pattern concerning where the answer is located within the input. This bias raises concerns, particularly in summarization where crucial content may be dispersed throughout the source document(s). Besides, in summarization, mapping facts from the source to the summary is not trivial as salient content is usually re-phrased. In this paper, we conduct the first comprehensive study on context utilization and position bias in summarization. Our analysis encompasses 5 LLMs, 10 datasets, and 5 evaluation metrics. We introduce a new evaluation benchmark called MiddleSum on the which we benchmark two alternative inference methods to alleviate position bias: hierarchical summarization and incremental summarization.}
 }
 
-
+@InProceedings{Phi-et-al-acl-24,
+  author = {Xuan-Phi Nguyen and Mahani Aljunied and Shafiq Joty and Lidong Bing},
+  title     = {Democratizing LLMs for Low-Resource Languages by Leveraging their English Dominant Abilities with Linguistically-Diverse Prompts},
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+  year      = {2024},
+  series    = {ACL'24},
+  publisher = {ACL},
+  address   = {Bangkok, Thailand}, 
+  url = {https://arxiv.org/abs/2306.11372},
+  abstract = {Large language models (LLMs) are known to effectively perform tasks by simply observing few exemplars. However, in low-resource languages, obtaining such hand-picked exemplars can still be challenging, where unsupervised techniques may be necessary. Moreover, competent generative capabilities of LLMs are observed only in high-resource languages, while their performances among under-represented languages fall behind due to pre-training data imbalance. To elicit LLMs' ability onto low-resource languages without any supervised data, we propose to assemble synthetic exemplars from a diverse set of high-resource languages to prompt the LLMs to translate from any language into English. These prompts are then used to create intra-lingual exemplars to perform tasks in the target languages. Our unsupervised prompting method performs on par with supervised few-shot learning in LLMs of different sizes for translations between English and 13 Indic and 21 African low-resource languages. We also show that fine-tuning a 7B model on data generated from our method helps it perform competitively with a 175B model. In non-English translation tasks, our method even outperforms supervised prompting by up to 3 chrF++ in many low-resource languages. When evaluated on zero-shot multilingual summarization, our method surpasses other English-pivoting baselines by up to 4 ROUGE-L and is also favored by GPT-4.}
+}
 
 
 %%NAACL

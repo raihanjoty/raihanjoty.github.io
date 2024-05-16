@@ -1,0 +1,68 @@
+---
+abstract: 'Large language models (LLMs) are known to effectively perform tasks by
+  simply observing few exemplars. However, in low-resource languages, obtaining such
+  hand-picked exemplars can still be challenging, where unsupervised techniques may
+  be necessary. Moreover, competent generative capabilities of LLMs are observed only
+  in high-resource languages, while their performances among under-represented languages
+  fall behind due to pre-training data imbalance. To elicit LLMs'' ability onto low-resource
+  languages without any supervised data, we propose to assemble synthetic exemplars
+  from a diverse set of high-resource languages to prompt the LLMs to translate from
+  any language into English. These prompts are then used to create intra-lingual exemplars
+  to perform tasks in the target languages. Our unsupervised prompting method performs
+  on par with supervised few-shot learning in LLMs of different sizes for translations
+  between English and 13 Indic and 21 African low-resource languages. We also show
+  that fine-tuning a 7B model on data generated from our method helps it perform competitively
+  with a 175B model. In non-English translation tasks, our method even outperforms
+  supervised prompting by up to 3 chrF++ in many low-resource languages. When evaluated
+  on zero-shot multilingual summarization, our method surpasses other English-pivoting
+  baselines by up to 4 ROUGE-L and is also favored by GPT-4.
+
+  '
+authors: Xuan-Phi Nguyen, Mahani Aljunied, Shafiq Joty, and Lidong Bing
+bibtex: "@inproceedings{Phi-et-al-acl-24,\n abstract = {Large language models (LLMs)\
+  \ are known to effectively perform tasks by simply observing few exemplars. However,\
+  \ in low-resource languages, obtaining such hand-picked exemplars can still be challenging,\
+  \ where unsupervised techniques may be necessary. Moreover, competent generative\
+  \ capabilities of LLMs are observed only in high-resource languages, while their\
+  \ performances among under-represented languages fall behind due to pre-training\
+  \ data imbalance. To elicit LLMs' ability onto low-resource languages without any\
+  \ supervised data, we propose to assemble synthetic exemplars from a diverse set\
+  \ of high-resource languages to prompt the LLMs to translate from any language into\
+  \ English. These prompts are then used to create intra-lingual exemplars to perform\
+  \ tasks in the target languages. Our unsupervised prompting method performs on par\
+  \ with supervised few-shot learning in LLMs of different sizes for translations\
+  \ between English and 13 Indic and 21 African low-resource languages. We also show\
+  \ that fine-tuning a 7B model on data generated from our method helps it perform\
+  \ competitively with a 175B model. In non-English translation tasks, our method\
+  \ even outperforms supervised prompting by up to 3 chrF++ in many low-resource languages.\
+  \ When evaluated on zero-shot multilingual summarization, our method surpasses other\
+  \ English-pivoting baselines by up to 4 ROUGE-L and is also favored by GPT-4.},\n\
+  \ address = {Bangkok, Thailand},\n author = {Xuan-Phi Nguyen and Mahani Aljunied\
+  \ and Shafiq Joty and Lidong Bing},\n booktitle = {Proceedings of the 62nd Annual\
+  \ Meeting of the Association for Computational Linguistics},\n publisher = {ACL},\n\
+  \ series = {ACL'24},\n title = {Democratizing LLMs for Low-Resource Languages by\
+  \ Leveraging their English Dominant Abilities with Linguistically-Diverse Prompts},\n\
+  \ url = {https://arxiv.org/abs/2306.11372},\n year = {2024}\n}\n"
+booktitle: 'Proceedings of the 62nd Annual Meeting of the Association for Computational
+  Linguistics (<b>ACL''24</b>)
+
+  '
+code: null
+doc-url: https://arxiv.org/abs/2306.11372
+errata: null
+id: Phi-et-al-acl-24
+img: Phi-et-al-acl-24-fig
+layout: singlepaper
+paper-type: inproceedings
+picture: shafiq
+selected: false
+slides: media/Phi-et-al-acl-24-slides.pdf
+title: 'Democratizing LLMs for Low-Resource Languages by Leveraging their English
+  Dominant Abilities with Linguistically-Diverse Prompts
+
+  '
+venue: conference
+year: 2024
+---
+
+{% include singlepaper.html paper=page %}
