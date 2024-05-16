@@ -1,52 +1,55 @@
 ---
-abstract: 'Charts provide visual representations of data and are widely used for analyzing
-  information, addressing queries, and conveying insights to others. Various chart-related
-  downstream tasks have emerged recently, such as question-answering and summarization.
-  A common strategy to solve these tasks is to fine-tune various models originally
-  trained on vision tasks language. However, such task-specific models are not capable
-  of solving a wide range of chart-related tasks, constraining their real-world applicability.
-  To overcome these challenges, we introduce ChartInsruct: a novel chart-specific
-  vision-language Instruction-following dataset comprising 191K instructions generated
-  with 71K charts. We then present two distinct systems for instruction tuning on
-  such datasets: (1) an end-to-end model that connects a vision encoder for chart
-  understanding with a LLM; and (2) a pipeline model that employs a two-step approach
-  to extract chart data tables and input them into the LLM. In experiments on four
-  downstream tasks, we first show the effectiveness of our model-achieving a new set
-  of state-of-the-art results. Further evaluation shows that our instruction-tuning
-  approach supports a wide array of real-world chart comprehension and reasoning scenarios,
-  thereby expanding the scope and applicability of our models to new kinds of tasks.
+abstract: 'Charts are widely used for data analysis, providing visual representations
+  and insights into complex data. To facilitate chart-based data analysis using natural
+  language, several downstream tasks have been introduced recently such as chart question
+  answering and chart summarization. However, existing methods for these tasks often
+  rely on pretraining on language or vision-language tasks, neglecting the explicit
+  modeling of chart structures (e.g., how chart elements are related to each other).
+  To address this, we first build a large corpus of charts covering diverse topics
+  and visual styles. We then present UniChart, a pretrained model for chart comprehension
+  and reasoning. UniChart encodes the relevant text, data, and visual elements of
+  charts and then uses a chart-grounded text decoder for text generation. We propose
+  several chart-specific pretraining tasks that include: (i) low-level tasks to extract
+  the visual elements (e.g., bars, lines) and data from charts, and (ii) high-level
+  tasks to acquire chart understanding and reasoning skills. Our experiments demonstrate
+  that pretraining UniChart on a large corpus with chart-specific objectives, followed
+  by fine-tuning, yields state-of-the-art performance on four downstream tasks. Moreover,
+  our model exhibits superior generalizability to unseen chart corpus, surpassing
+  previous approaches that lack chart-specific objectives and utilize limited chart
+  resources.
 
   '
 authors: Ahmed Masry, Parsa Kavehzadeh, Do Long, Enamul Hoque, and Shafiq Joty
-bibtex: "@inproceedings{Masry-emnlp-23,\n abstract = {Charts provide visual representations\
-  \ of data and are widely used for analyzing information, addressing queries, and\
-  \ conveying insights to others. Various chart-related downstream tasks have emerged\
-  \ recently, such as question-answering and summarization. A common strategy to solve\
-  \ these tasks is to fine-tune various models originally trained on vision tasks\
-  \ language. However, such task-specific models are not capable of solving a wide\
-  \ range of chart-related tasks, constraining their real-world applicability. To\
-  \ overcome these challenges, we introduce ChartInsruct: a novel chart-specific vision-language\
-  \ Instruction-following dataset comprising 191K instructions generated with 71K\
-  \ charts. We then present two distinct systems for instruction tuning on such datasets:\
-  \ (1) an end-to-end model that connects a vision encoder for chart understanding\
-  \ with a LLM; and (2) a pipeline model that employs a two-step approach to extract\
-  \ chart data tables and input them into the LLM. In experiments on four downstream\
-  \ tasks, we first show the effectiveness of our model--achieving a new set of state-of-the-art\
-  \ results. Further evaluation shows that our instruction-tuning approach supports\
-  \ a wide array of real-world chart comprehension and reasoning scenarios, thereby\
-  \ expanding the scope and applicability of our models to new kinds of tasks.},\n\
-  \ address = {Bangkok, Thailand},\n author = {Ahmed Masry and Parsa Kavehzadeh and\
-  \ Do Long and Enamul Hoque and Shafiq Joty},\n booktitle = {Proceedings of the 62nd\
-  \ Annual Meeting of the Association for Computational Linguistics},\n publisher\
-  \ = {ACL},\n series = {ACL'24 Findings},\n title = {ChartInstruct: Instruction Tuning\
-  \ for Chart Comprehension and Reasoning},\n url = {https://arxiv.org/pdf/2403.09028},\n\
-  \ year = {2024}\n}\n"
-booktitle: 'Proceedings of the 62nd Annual Meeting of the Association for Computational
-  Linguistics (<b>ACL''24 Findings</b>)
+bibtex: "@inproceedings{Masry-emnlp-23,\n abstract = {Charts are widely used for data\
+  \ analysis, providing visual representations and insights into complex data. To\
+  \ facilitate chart-based data analysis using natural language, several downstream\
+  \ tasks have been introduced recently such as chart question answering and chart\
+  \ summarization. However, existing methods for these tasks often rely on pretraining\
+  \ on language or vision-language tasks, neglecting the explicit modeling of chart\
+  \ structures (e.g., how chart elements are related to each other). To address this,\
+  \ we first build a large corpus of charts covering diverse topics and visual styles.\
+  \ We then present UniChart, a pretrained model for chart comprehension and reasoning.\
+  \ UniChart encodes the relevant text, data, and visual elements of charts and then\
+  \ uses a chart-grounded text decoder for text generation. We propose several chart-specific\
+  \ pretraining tasks that include: (i) low-level tasks to extract the visual elements\
+  \ (e.g., bars, lines) and data from charts, and (ii) high-level tasks to acquire\
+  \ chart understanding and reasoning skills. Our experiments demonstrate that pretraining\
+  \ UniChart on a large corpus with chart-specific objectives, followed by fine-tuning,\
+  \ yields state-of-the-art performance on four downstream tasks. Moreover, our model\
+  \ exhibits superior generalizability to unseen chart corpus, surpassing previous\
+  \ approaches that lack chart-specific objectives and utilize limited chart resources.},\n\
+  \ address = {Singapore},\n author = {Ahmed Masry and Parsa Kavehzadeh and Do Long\
+  \ and Enamul Hoque and Shafiq Joty},\n booktitle = {Proceedings of the 2023 Conference\
+  \ on Empirical Methods in Natural Language Processing},\n publisher = {ACL},\n series\
+  \ = {EMNLP'23},\n title = {UniChart: A Universal Vision-language Pretrained Model\
+  \ for Chart Comprehension and Reasoning},\n url = {https://arxiv.org/abs/2305.14761},\n\
+  \ year = {2023}\n}\n"
+booktitle: 'Proceedings of the 2023 Conference on Empirical Methods in Natural Language
+  Processing (<b>EMNLP''23</b>)
 
   '
 code: null
-doc-url: https://arxiv.org/pdf/2403.09028
+doc-url: https://arxiv.org/abs/2305.14761
 errata: null
 id: Masry-emnlp-23
 img: Masry-emnlp-23-fig
@@ -55,11 +58,12 @@ paper-type: inproceedings
 picture: shafiq
 selected: false
 slides: media/Masry-emnlp-23-slides.pdf
-title: 'ChartInstruct: Instruction Tuning for Chart Comprehension and Reasoning
+title: 'UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension
+  and Reasoning
 
   '
 venue: conference
-year: 2024
+year: 2023
 ---
 
 {% include singlepaper.html paper=page %}
