@@ -7170,6 +7170,38 @@
     year: 2024
     selected: no
     title: >
+      XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags
+    authors: Faisal Shohan, Mir Nayeem, Samsul Islam, Abu Akash, and Shafiq Joty
+    id: Shohan-et-al-acl-24
+    img: Shohan-et-al-acl-24-fig
+    slides: media/Shohan-et-al-acl-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (<b>ACL'24 Findings</b>)
+    doc-url: 
+    abstract: >
+      Millions of news articles published online daily can overwhelm readers. Headlines and tags are essential for guiding readers to decide if the content is worth their time. While headline generation has been extensively studied, tag generation remains largely unexplored, yet it offers readers better access to topics of interest. The need for conciseness in capturing readers' attention necessitates improved content selection strategies for identifying salient and relevant segments within lengthy articles, thereby guiding language models effectively. To address this, we leverage auxiliary information such as images and captions embedded in the articles to retrieve sentences and utilize instruction tuning with variations to generate both headlines and tags for news articles in a multilingual context. To make use of the auxiliary information, we have compiled a dataset named XL-HeadTags, which includes 20 languages across 6 diverse language families. Through extensive evaluation, we demonstrate the effectiveness of our plug-and-play multimodal retrievers for both tasks. Additionally, we have developed a suite of tools for processing and evaluating multilingual texts, significantly contributing to the research community by enabling more accurate and efficient analysis across languages.
+    bibtex: >
+      @inproceedings{Shohan-et-al-acl-24,
+       abstract = {Millions of news articles published online daily can overwhelm readers. Headlines and tags are essential for guiding readers to decide if the content is worth their time. While headline generation has been extensively studied, tag generation remains largely unexplored, yet it offers readers better access to topics of interest. The need for conciseness in capturing readers' attention necessitates improved content selection strategies for identifying salient and relevant segments within lengthy articles, thereby guiding language models effectively. To address this, we leverage auxiliary information such as images and captions embedded in the articles to retrieve sentences and utilize instruction tuning with variations to generate both headlines and tags for news articles in a multilingual context. To make use of the auxiliary information, we have compiled a dataset named XL-HeadTags, which includes 20 languages across 6 diverse language families. Through extensive evaluation, we demonstrate the effectiveness of our plug-and-play multimodal retrievers for both tasks. Additionally, we have developed a suite of tools for processing and evaluating multilingual texts, significantly contributing to the research community by enabling more accurate and efficient analysis across languages.},
+       address = {Bangkok, Thailand},
+       author = {Faisal Shohan and Mir Nayeem and Samsul Islam and Abu Akash and Shafiq Joty},
+       booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+       publisher = {ACL},
+       series = {ACL'24 Findings},
+       title = {XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags},
+       url = {},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
       Embrace Divergence for Richer Insights: A Multi-document Summarization Benchmark and a Case Study on Summarizing Diverse Information from News Articles
     authors: Kung-Hsiang Huang, Philippe Laban, Alexander Fabbri, Prafulla Kumar, Shafiq Joty, Caiming Xiong, and Chien-Sheng Wu
     id: Huang-et-al-NAACL-24
