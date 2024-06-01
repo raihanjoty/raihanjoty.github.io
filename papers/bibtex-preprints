@@ -1,0 +1,78 @@
+%% Preprints
+
+
+
+@InProceedings{Chen-et-al-arxiv-24,
+  author = {Hailin Chen and Fangkai Jiao and Xingxuan Li and Chengwei Qin and Mathieu Ravaut and Ruochen Zhao and Caiming Xiong and Shafiq Joty},
+  title     = "{ChatGPT's One-year Anniversary: Are Open-Source Large Language Models Catching up?}",
+  booktitle = {Arxiv},
+  year      = {2024},
+  series    = {cs.CL},
+  publisher = {Arxiv},
+  address   = {Arxiv}, 
+  url = {https://arxiv.org/abs/2311.16989},
+  abstract = {Upon its release in late 2022, ChatGPT has brought a seismic shift in the entire landscape of AI, both in research and commerce. Through instruction-tuning a large language model (LLM) with supervised fine-tuning and reinforcement learning from human feedback, it showed that a model could answer human questions and follow instructions on a broad panel of tasks. Following this success, interests in LLMs have intensified, with new LLMs flourishing at frequent interval across academia and industry, including many start-ups focused on LLMs. While closed-source LLMs (e.g., OpenAI's GPT, Anthropic's Claude) generally outperform their open-source counterparts, the progress on the latter has been rapid with claims of achieving parity or even better on certain tasks. This has crucial implications not only on research but also on business. In this work, on the first anniversary of ChatGPT, we provide an exhaustive overview of this success, surveying all tasks where an open-source LLM has claimed to be on par or better than ChatGPT.}
+}
+
+
+@InProceedings{Ravaut-et-al-arxiv-24,
+  author = {Mathieu Ravaut and Bosheng Ding and Fangkai Jiao and Hailin Chen and Xingxuan Li and Ruochen Zhao and Chengwei Qin and Caiming Xiong and Shafiq Joty},
+  title     = "{How Much are LLMs Contaminated? A Comprehensive Survey and the LLMSanitize Library}",
+  booktitle = {Arxiv},
+  year      = {2024},
+  series    = {cs.CL},
+  publisher = {Arxiv},
+  address   = {Arxiv}, 
+  url = {https://arxiv.org/abs/2404.00699},
+  abstract = {With the rise of Large Language Models (LLMs) in recent years, new opportunities are emerging, but also new challenges, and contamination is quickly becoming critical. Business applications and fundraising in AI have reached a scale at which a few percentage points gained on popular question-answering benchmarks could translate into dozens of millions of dollars, placing high pressure on model integrity. At the same time, it is becoming harder and harder to keep track of the data that LLMs have seen; if not impossible with closed-source models like GPT-4 and Claude-3 not divulging any information on the training set. As a result, contamination becomes a critical issue: LLMs' performance may not be reliable anymore, as the high performance may be at least partly due to their previous exposure to the data. This limitation jeopardizes the entire progress in the field of NLP, yet, there remains a lack of methods on how to efficiently address contamination, or a clear consensus on prevention, mitigation and classification of contamination. In this paper, we survey all recent work on contamination with LLMs, and help the community track contamination levels of LLMs by releasing an open-source Python library named LLMSanitize implementing major contamination detection algorithms, which link is: this https URL.}
+}
+
+
+
+@InProceedings{Li-et-al-arxiv-24,
+  author = {Minzhi Li and Zhengyuan Liu and Shumin Deng and Shafiq Joty and Nancy Chen and Min-Yen Kan},
+  title     = "{Decompose and Aggregate: A Step-by-Step Interpretable Evaluation Framework}",
+  booktitle = {Arxiv},
+  year      = {2024},
+  series    = {cs.CL},
+  publisher = {Arxiv},
+  address   = {Arxiv}, 
+  url = {https://arxiv.org/abs/2405.15329},
+  abstract = {The acceleration of Large Language Models (LLMs) research has opened up new possibilities for evaluating generated texts. They serve as scalable and economical evaluators, but the question of how reliable these evaluators are has emerged as a crucial research question. Prior research efforts in the meta-evaluation of LLMs as judges limit the prompting of an LLM to a single use to obtain a final evaluation decision. They then compute the agreement between LLMs' outputs and human labels. This lacks interpretability in understanding the evaluation capability of LLMs. In light of this challenge, we propose Decompose and Aggregate, which breaks down the evaluation process into different stages based on pedagogical practices. Our experiments illustrate that it not only provides a more interpretable window for how well LLMs evaluate, but also leads to improvements up to 39.6% for different LLMs on a variety of meta-evaluation benchmarks.}
+}
+
+@InProceedings{Jiao-et-al-arxiv-24,
+  author = {Fangkai Jiao and Chengwei Qin and Zhengyuan Liu and Nancy Chen and Shafiq Joty},
+  title     = "{Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing}",
+  booktitle = {Arxiv},
+  year      = {2024},
+  series    = {cs.CL},
+  publisher = {Arxiv},
+  address   = {Arxiv}, 
+  url = {https://arxiv.org/abs/2402.00658},
+  abstract = {Large Language Models (LLMs) have demonstrated significant potential in handling complex reasoning tasks through step-by-step rationale generation. However, recent studies have raised concerns regarding the hallucination and flaws in their reasoning process. Substantial efforts are being made to improve the reliability and faithfulness of the generated rationales. Some approaches model reasoning as planning, while others focus on annotating for process supervision. Nevertheless, the planning-based search process often results in high latency due to the frequent assessment of intermediate reasoning states and the extensive exploration space. Additionally, supervising the reasoning process with human annotation is costly and challenging to scale for LLM training. To address these issues, in this paper, we propose a framework to learn planning-based reasoning through Direct Preference Optimization (DPO) on collected trajectories, which are ranked according to synthesized process rewards. Our results on challenging logical reasoning benchmarks demonstrate the effectiveness of our learning framework, showing that our 7B model can surpass the strong counterparts like GPT-3.5-Turbo.}
+}
+
+@InProceedings{Xingxuan-et-al-arxiv-24,
+  author = {Xingxuan Li and Xuan-Phi Nguyen and Shafiq Joty and Lidong Bing},
+  title     = "{ParaICL: Towards Robust Parallel In-Context Learning}",
+  booktitle = {Arxiv},
+  year      = {2024},
+  series    = {cs.CL},
+  publisher = {Arxiv},
+  address   = {Arxiv}, 
+  url = {https://arxiv.org/abs/2404.00570},
+  abstract = {Large language models (LLMs) have become the norm in natural language processing (NLP), excelling in few-shot in-context learning (ICL) with their remarkable abilities. Nonetheless, the success of ICL largely hinges on the choice of few-shot demonstration examples, making the selection process increasingly crucial. Existing methods have delved into optimizing the quantity and semantic similarity of these examples to improve ICL performances. However, our preliminary experiments indicate that the effectiveness of ICL is limited by the length of the input context. Moreover, varying combinations of few-shot demonstration examples can significantly boost accuracy across different test samples. To address this, we propose a novel method named parallel in-context learning (ParaICL) that effectively utilizes all demonstration examples without exceeding the manageable input context length. ParaICL employs parallel batching to distribute demonstration examples into different batches according to the semantic similarities of the questions in the demonstrations to the test question. It then computes normalized batch semantic scores for each batch. A weighted average semantic objective, constrained by adaptive plausibility, is applied to select the most appropriate tokens. Through extensive experiments, we validate the effectiveness of ParaICL and conduct ablation studies to underscore its design rationale. We further demonstrate that ParaICL can seamlessly integrate with existing methods.}
+}
+
+@InProceedings{Han-et-al-arxiv-24,
+  author = {Simeng Han and et al.},
+  title     = "{FOLIO: Natural Language Reasoning with First-Order Logic}",
+  booktitle = {Arxiv},
+  year      = {2024},
+  series    = {cs.CL},
+  publisher = {Arxiv},
+  address   = {Arxiv}, 
+  url = {https://arxiv.org/abs/2404.00570},
+  abstract = {Large language models (LLMs) have achieved remarkable performance on a variety of natural language understanding tasks. However, existing benchmarks are inadequate in measuring the complex logical reasoning capabilities of a model. We present FOLIO, a human-annotated, logically complex and diverse dataset for reasoning in natural language (NL), equipped with first-order logic (FOL) annotations. FOLIO consists of 1,430 examples (unique conclusions), each paired with one of 487 sets of premises used to deductively reason for the validity of each conclusion. The logical correctness of the premises and conclusions is ensured by their FOL annotations, which are automatically verified by an FOL inference engine. In addition to the main NL reasoning task, NL-FOL pairs in FOLIO constitute a new NL-FOL translation dataset. Our experiments on FOLIO systematically evaluate the FOL reasoning ability of supervised fine-tuning on medium-sized language models. For both NL reasoning and NL-FOL translation, we benchmark multiple state-of-the-art language models. Our results show that a subset of FOLIO presents a challenge for one of the most capable {Large Language Model (LLM)} publicly available, GPT-4.}
+}

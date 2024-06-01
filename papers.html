@@ -26,7 +26,17 @@ picture: shafiq
 <!-- <blockquote><i>I would have written a shorter letter, but I did not have the time.<br/>&mdash;Blaise Pascal</i></blockquote>
 </div> -->
 
-<h4> <a name="papers"></a>  Research papers (journals, confereces, workshops)</h4>
+<h4> <a name="papers"></a>  Preprints (not peer reviewed)</h4>
+
+{%assign  years = site.data.preprints | group_by :"year" | sort: "title" | reverse %}
+{% for year in years %}
+ <h5> {{year.name}}</h5>
+{% for post in year.items %}
+     {% include paper.html paper=post %}
+ {% endfor %}
+{% endfor %}
+
+<h4> <a name="papers"></a>  Published papers (journals, confereces, workshops)</h4>
 
 All papers have been subject to peer review unless indicated otherwise. * indicates equal contributions. <font color="FF0000"> You can find most of the codes in the <a href=https://ntunlpsg.github.io/resources/> NLP group page </a> </font>
 
