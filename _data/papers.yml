@@ -7012,9 +7012,9 @@
     title: >
       Decompose and Aggregate: A Step-by-Step Interpretable Evaluation Framework
     authors: Minzhi Li, Zhengyuan Liu, Shumin Deng, Shafiq Joty, Nancy Chen, and Min-Yen Kan
-    id: Li-et-al-acl-24
-    img: Li-et-al-acl-24-fig
-    slides: media/Li-et-al-acl-24-slides.pdf
+    id: Li-et-al-arxiv-24
+    img: Li-et-al-arxiv-24-fig
+    slides: media/Li-et-al-arxiv-24-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -7024,7 +7024,7 @@
     abstract: >
       The acceleration of Large Language Models (LLMs) research has opened up new possibilities for evaluating generated texts. They serve as scalable and economical evaluators, but the question of how reliable these evaluators are has emerged as a crucial research question. Prior research efforts in the meta-evaluation of LLMs as judges limit the prompting of an LLM to a single use to obtain a final evaluation decision. They then compute the agreement between LLMs' outputs and human labels. This lacks interpretability in understanding the evaluation capability of LLMs. In light of this challenge, we propose Decompose and Aggregate, which breaks down the evaluation process into different stages based on pedagogical practices. Our experiments illustrate that it not only provides a more interpretable window for how well LLMs evaluate, but also leads to improvements up to 39.6% for different LLMs on a variety of meta-evaluation benchmarks.
     bibtex: >
-      @inproceedings{Li-et-al-acl-24,
+      @inproceedings{Li-et-al-arxiv-24,
        abstract = {The acceleration of Large Language Models (LLMs) research has opened up new possibilities for evaluating generated texts. They serve as scalable and economical evaluators, but the question of how reliable these evaluators are has emerged as a crucial research question. Prior research efforts in the meta-evaluation of LLMs as judges limit the prompting of an LLM to a single use to obtain a final evaluation decision. They then compute the agreement between LLMs' outputs and human labels. This lacks interpretability in understanding the evaluation capability of LLMs. In light of this challenge, we propose Decompose and Aggregate, which breaks down the evaluation process into different stages based on pedagogical practices. Our experiments illustrate that it not only provides a more interpretable window for how well LLMs evaluate, but also leads to improvements up to 39.6% for different LLMs on a variety of meta-evaluation benchmarks.},
        address = {Arxiv},
        author = {Minzhi Li and Zhengyuan Liu and Shumin Deng and Shafiq Joty and Nancy Chen and Min-Yen Kan},
@@ -7033,6 +7033,38 @@
        series = {cs.CL},
        title = {{Decompose and Aggregate: A Step-by-Step Interpretable Evaluation Framework}},
        url = {https://arxiv.org/abs/2405.15329},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
+      Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing
+    authors: Fangkai Jiao, Chengwei Qin, Zhengyuan Liu, Nancy Chen, and Shafiq Joty
+    id: Jiao-et-al-arxiv-24
+    img: Jiao-et-al-arxiv-24-fig
+    slides: media/Jiao-et-al-arxiv-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Arxiv (<b>cs.CL</b>)
+    doc-url: https://arxiv.org/abs/2402.00658
+    abstract: >
+      Large Language Models (LLMs) have demonstrated significant potential in handling complex reasoning tasks through step-by-step rationale generation. However, recent studies have raised concerns regarding the hallucination and flaws in their reasoning process. Substantial efforts are being made to improve the reliability and faithfulness of the generated rationales. Some approaches model reasoning as planning, while others focus on annotating for process supervision. Nevertheless, the planning-based search process often results in high latency due to the frequent assessment of intermediate reasoning states and the extensive exploration space. Additionally, supervising the reasoning process with human annotation is costly and challenging to scale for LLM training. To address these issues, in this paper, we propose a framework to learn planning-based reasoning through Direct Preference Optimization (DPO) on collected trajectories, which are ranked according to synthesized process rewards. Our results on challenging logical reasoning benchmarks demonstrate the effectiveness of our learning framework, showing that our 7B model can surpass the strong counterparts like GPT-3.5-Turbo.
+    bibtex: >
+      @inproceedings{Jiao-et-al-arxiv-24,
+       abstract = {Large Language Models (LLMs) have demonstrated significant potential in handling complex reasoning tasks through step-by-step rationale generation. However, recent studies have raised concerns regarding the hallucination and flaws in their reasoning process. Substantial efforts are being made to improve the reliability and faithfulness of the generated rationales. Some approaches model reasoning as planning, while others focus on annotating for process supervision. Nevertheless, the planning-based search process often results in high latency due to the frequent assessment of intermediate reasoning states and the extensive exploration space. Additionally, supervising the reasoning process with human annotation is costly and challenging to scale for LLM training. To address these issues, in this paper, we propose a framework to learn planning-based reasoning through Direct Preference Optimization (DPO) on collected trajectories, which are ranked according to synthesized process rewards. Our results on challenging logical reasoning benchmarks demonstrate the effectiveness of our learning framework, showing that our 7B model can surpass the strong counterparts like GPT-3.5-Turbo.},
+       address = {Arxiv},
+       author = {Fangkai Jiao and Chengwei Qin and Zhengyuan Liu and Nancy Chen and Shafiq Joty},
+       booktitle = {Arxiv},
+       publisher = {Arxiv},
+       series = {cs.CL},
+       title = {{Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing}},
+       url = {https://arxiv.org/abs/2402.00658},
        year = {2024}
       }
       

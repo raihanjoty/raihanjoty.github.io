@@ -3371,10 +3371,10 @@ We thoroughly evaluate RAP-Gen on three benchmarks in two programming languages,
 
 %% 2024
 
-%% Preprint
+%% Preprints
 
 
-@InProceedings{Li-et-al-acl-24,
+@InProceedings{Li-et-al-arxiv-24,
   author = {Minzhi Li and Zhengyuan Liu and Shumin Deng and Shafiq Joty and Nancy Chen and Min-Yen Kan},
   title     = "{Decompose and Aggregate: A Step-by-Step Interpretable Evaluation Framework}",
   booktitle = {Arxiv},
@@ -3385,6 +3385,20 @@ We thoroughly evaluate RAP-Gen on three benchmarks in two programming languages,
   url = {https://arxiv.org/abs/2405.15329},
   abstract = {The acceleration of Large Language Models (LLMs) research has opened up new possibilities for evaluating generated texts. They serve as scalable and economical evaluators, but the question of how reliable these evaluators are has emerged as a crucial research question. Prior research efforts in the meta-evaluation of LLMs as judges limit the prompting of an LLM to a single use to obtain a final evaluation decision. They then compute the agreement between LLMs' outputs and human labels. This lacks interpretability in understanding the evaluation capability of LLMs. In light of this challenge, we propose Decompose and Aggregate, which breaks down the evaluation process into different stages based on pedagogical practices. Our experiments illustrate that it not only provides a more interpretable window for how well LLMs evaluate, but also leads to improvements up to 39.6% for different LLMs on a variety of meta-evaluation benchmarks.}
 }
+
+@InProceedings{Jiao-et-al-arxiv-24,
+  author = {Fangkai Jiao and Chengwei Qin and Zhengyuan Liu and Nancy Chen and Shafiq Joty},
+  title     = "{Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing}",
+  booktitle = {Arxiv},
+  year      = {2024},
+  series    = {cs.CL},
+  publisher = {Arxiv},
+  address   = {Arxiv}, 
+  url = {https://arxiv.org/abs/2402.00658},
+  abstract = {Large Language Models (LLMs) have demonstrated significant potential in handling complex reasoning tasks through step-by-step rationale generation. However, recent studies have raised concerns regarding the hallucination and flaws in their reasoning process. Substantial efforts are being made to improve the reliability and faithfulness of the generated rationales. Some approaches model reasoning as planning, while others focus on annotating for process supervision. Nevertheless, the planning-based search process often results in high latency due to the frequent assessment of intermediate reasoning states and the extensive exploration space. Additionally, supervising the reasoning process with human annotation is costly and challenging to scale for LLM training. To address these issues, in this paper, we propose a framework to learn planning-based reasoning through Direct Preference Optimization (DPO) on collected trajectories, which are ranked according to synthesized process rewards. Our results on challenging logical reasoning benchmarks demonstrate the effectiveness of our learning framework, showing that our 7B model can surpass the strong counterparts like GPT-3.5-Turbo.}
+}
+
+
 
 %%ACL
 
