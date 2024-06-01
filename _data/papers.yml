@@ -7007,6 +7007,38 @@
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
+    year: Preprint
+    selected: no
+    title: >
+      Decompose and Aggregate: A Step-by-Step Interpretable Evaluation Framework
+    authors: Minzhi Li, Zhengyuan Liu, Shumin Deng, Shafiq Joty, Nancy Chen, and Min-Yen Kan
+    id: Khan-et-al-acl-24
+    img: Khan-et-al-acl-24-fig
+    slides: media/Khan-et-al-acl-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+       (<b>Arxiv</b>)
+    doc-url: https://arxiv.org/abs/2405.15329
+    abstract: >
+      The acceleration of Large Language Models (LLMs) research has opened up new possibilities for evaluating generated texts. They serve as scalable and economical evaluators, but the question of how reliable these evaluators are has emerged as a crucial research question. Prior research efforts in the meta-evaluation of LLMs as judges limit the prompting of an LLM to a single use to obtain a final evaluation decision. They then compute the agreement between LLMs' outputs and human labels. This lacks interpretability in understanding the evaluation capability of LLMs. In light of this challenge, we propose Decompose and Aggregate, which breaks down the evaluation process into different stages based on pedagogical practices. Our experiments illustrate that it not only provides a more interpretable window for how well LLMs evaluate, but also leads to improvements up to 39.6% for different LLMs on a variety of meta-evaluation benchmarks.
+    bibtex: >
+      @inproceedings{Khan-et-al-acl-24,
+       abstract = {The acceleration of Large Language Models (LLMs) research has opened up new possibilities for evaluating generated texts. They serve as scalable and economical evaluators, but the question of how reliable these evaluators are has emerged as a crucial research question. Prior research efforts in the meta-evaluation of LLMs as judges limit the prompting of an LLM to a single use to obtain a final evaluation decision. They then compute the agreement between LLMs' outputs and human labels. This lacks interpretability in understanding the evaluation capability of LLMs. In light of this challenge, we propose Decompose and Aggregate, which breaks down the evaluation process into different stages based on pedagogical practices. Our experiments illustrate that it not only provides a more interpretable window for how well LLMs evaluate, but also leads to improvements up to 39.6% for different LLMs on a variety of meta-evaluation benchmarks.},
+       address = {Arxiv},
+       author = {Minzhi Li and Zhengyuan Liu and Shumin Deng and Shafiq Joty and Nancy Chen and Min-Yen Kan},
+       booktitle = {},
+       publisher = {Arxiv},
+       series = {Arxiv},
+       title = {{Decompose and Aggregate: A Step-by-Step Interpretable Evaluation Framework}},
+       url = {https://arxiv.org/abs/2405.15329},
+       year = {Preprint}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
     year: 2024
     selected: no
     title: >
