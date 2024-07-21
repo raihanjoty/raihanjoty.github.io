@@ -7447,37 +7447,6 @@
     year: 2024
     selected: no
     title: >
-      X-InstructBLIP: A Framework for aligning X-Modal instruction-aware representations to LLMs and Emergent Cross-modal Reasoning
-    authors: Artemis Panagopoulou, Le Xue, Ning Yu, Junnan Li, Dongxu Li, Shafiq Joty, Ran Xu, Silvio Savarese, Caiming Xiong, and Juan-Carlos Niebles
-    id: Artemis-et-al-eccv-24
-    img: Artemis-et-al-eccv-24-fig
-    slides: media/Artemis-et-al-eccv-24-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    booktitle: >
-      2024 European Conference on Computer Vision (<b>ECCV'24</b>)
-    doc-url: https://arxiv.org/abs/2303.03004
-    abstract: >
-      Vision-language pre-training and instruction tuning have demonstrated general-purpose capabilities in 2D visual reasoning tasks by aligning visual encoders with state-of-the-art large language models (LLMs). In this paper, we introduce a simple, yet effective, cross-modality framework built atop frozen LLMs that allows the integration of various modalities without extensive modality-specific customization. To facilitate instruction-modality fine-tuning, we collect high-quality instruction tuning data in an automatic and scalable manner, composed of 24K QA samples for audio and 250K QA samples for 3D. Leveraging instruction-aware representations, our model performs comparably with leading-edge counterparts without the need of extensive modality-specific pre-training or customization. Furthermore, our approach demonstrates cross-modal reasoning abilities across two or more input modalities, despite each modality projection being trained individually. To study the model's cross-modal abilities, we contribute a novel Discriminative Cross-modal Reasoning (DisCRn) evaluation task, comprising 9K audio-video QA samples and 28K image-3D QA samples that require the model to reason discriminatively across disparate input modalities.
-    bibtex: >
-      @inproceedings{Artemis-et-al-eccv-24,
-       abstract = {Vision-language pre-training and instruction tuning have demonstrated general-purpose capabilities in 2D visual reasoning tasks by aligning visual encoders with state-of-the-art large language models (LLMs). In this paper, we introduce a simple, yet effective, cross-modality framework built atop frozen LLMs that allows the integration of various modalities without extensive modality-specific customization. To facilitate instruction-modality fine-tuning, we collect high-quality instruction tuning data in an automatic and scalable manner, composed of 24K QA samples for audio and 250K QA samples for 3D. Leveraging instruction-aware representations, our model performs comparably with leading-edge counterparts without the need of extensive modality-specific pre-training or customization. Furthermore, our approach demonstrates cross-modal reasoning abilities across two or more input modalities, despite each modality projection being trained individually. To study the model's cross-modal abilities, we contribute a novel Discriminative Cross-modal Reasoning (DisCRn) evaluation task, comprising 9K audio-video QA samples and 28K image-3D QA samples that require the model to reason discriminatively across disparate input modalities.},
-       address = {Milan, Italy},
-       author = {Artemis Panagopoulou and Le Xue and Ning Yu and Junnan Li and Dongxu Li and Shafiq Joty and Ran Xu and Silvio Savarese and Caiming Xiong and Juan-Carlos Niebles},
-       booktitle = {2024 European Conference on Computer Vision},
-       series = {ECCV'24},
-       title = {X-InstructBLIP: A Framework for aligning X-Modal instruction-aware representations to LLMs and Emergent Cross-modal Reasoning},
-       url = {https://arxiv.org/abs/2303.03004},
-       year = {2024}
-      }
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2024
-    selected: no
-    title: >
       CodeChain: Towards Modular Code Generation Through Chain of Self-revisions with Representative Sub-modules
     authors: Hung Le, Hailin Chen, Amrita Saha, Akash Gokul, Doyen Sahoo, and Shafiq Joty
     id: Le-et-al-ICLR-24
