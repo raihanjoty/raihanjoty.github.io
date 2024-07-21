@@ -1,5 +1,7 @@
 #!/bin/python
 import simpleyaml as yaml
+#import yaml
+
 import codecs
 import sys
 import os
@@ -7,6 +9,7 @@ import re
 
 # -*- coding: utf-8 -*-
 from simpleyaml import Loader, SafeLoader
+#from yaml import Loader, SafeLoader
 
 
 def main(file):
