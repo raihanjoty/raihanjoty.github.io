@@ -3376,6 +3376,18 @@ We thoroughly evaluate RAP-Gen on three benchmarks in two programming languages,
 %%ACL
 
 
+@InProceedings{Khan-et-al-acl-24,
+  author = {Mohammad Khan and M Bari and Do Long and Weishi Wang and Md Parvez and Shafiq Joty},
+  title     = {XCodeEval: An Execution-based Large Scale Multilingual Multitask Benchmark for Code Understanding, Generation, Translation and Retrieval},
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+  year      = {2024},
+  series    = {ACL'24},
+  publisher = {ACL},
+  address   = {Bangkok, Thailand}, 
+  url = {https://arxiv.org/abs/2303.03004},
+  abstract = {Recently, pre-trained large language models (LLMs) have shown impressive abilities in generating codes from natural language descriptions, repairing buggy codes, translating codes between languages, and retrieving relevant code segments. However, the evaluation of these models has often been performed in a scattered way on only one or two specific tasks, in a few languages, at a partial granularity (e.g., function) level, and in many cases without proper training data. Even more concerning is that in most cases the evaluation of generated codes has been done in terms of mere lexical overlap with a reference code rather than actual execution. We introduce *xCodeEval*, the largest executable multilingual multitask benchmark to date consisting of $25$M document-level coding examples ($16.5$B tokens) from about $7.5$K unique problems covering up to $11$ programming languages with execution-level parallelism. It features a total of $7$ tasks involving code understanding, generation, translation and retrieval. *xCodeEval* adopts an execution-based evaluation and offers a multilingual code execution engine, \texttt{ExecEval} that supports unit test based execution in all the $11$ languages. To address the challenge of balancing the distributions of text-code samples over multiple attributes in validation/test sets, we propose a novel data splitting and a data selection schema based on the geometric mean and graph-theoretic principle. Our experiments with OpenAI's LLMs (zero-shot) and open-LLMs (zero-shot and fine-tuned) on the tasks and languages demonstrate to be quite challenging as per the current advancements in language models.}
+}
+
 
 @InProceedings{Ravaut-acl-24,
   author = {Mathieu Ravaut and Aixin Sun and Nancy Chen and Shafiq Joty},
@@ -3389,18 +3401,6 @@ We thoroughly evaluate RAP-Gen on three benchmarks in two programming languages,
   abstract = {Large language models (LLMs) excel in abstractive summarization tasks, delivering fluent and pertinent summaries. Recent advancements have extended their capabilities to handle long-input contexts, exceeding 100k tokens. However, in question answering, language models exhibit uneven utilization of their input context. They tend to favor the initial and final segments, resulting in a U-shaped performance pattern concerning where the answer is located within the input. This bias raises concerns, particularly in summarization where crucial content may be dispersed throughout the source document(s). Besides, in summarization, mapping facts from the source to the summary is not trivial as salient content is usually re-phrased. In this paper, we conduct the first comprehensive study on context utilization and position bias in summarization. Our analysis encompasses 5 LLMs, 10 datasets, and 5 evaluation metrics. We introduce a new evaluation benchmark called MiddleSum on the which we benchmark two alternative inference methods to alleviate position bias: hierarchical summarization and incremental summarization.}
 }
 
-
-@InProceedings{Khan-et-al-acl-24,
-  author = {Mohammad Khan and M Bari and Do Long and Weishi Wang and Md Parvez and Shafiq Joty},
-  title     = {XCodeEval: An Execution-based Large Scale Multilingual Multitask Benchmark for Code Understanding, Generation, Translation and Retrieval},
-  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
-  year      = {2024},
-  series    = {ACL'24},
-  publisher = {ACL},
-  address   = {Bangkok, Thailand}, 
-  url = {https://arxiv.org/abs/2303.03004},
-  abstract = {Recently, pre-trained large language models (LLMs) have shown impressive abilities in generating codes from natural language descriptions, repairing buggy codes, translating codes between languages, and retrieving relevant code segments. However, the evaluation of these models has often been performed in a scattered way on only one or two specific tasks, in a few languages, at a partial granularity (e.g., function) level, and in many cases without proper training data. Even more concerning is that in most cases the evaluation of generated codes has been done in terms of mere lexical overlap with a reference code rather than actual execution. We introduce *xCodeEval*, the largest executable multilingual multitask benchmark to date consisting of $25$M document-level coding examples ($16.5$B tokens) from about $7.5$K unique problems covering up to $11$ programming languages with execution-level parallelism. It features a total of $7$ tasks involving code understanding, generation, translation and retrieval. *xCodeEval* adopts an execution-based evaluation and offers a multilingual code execution engine, \texttt{ExecEval} that supports unit test based execution in all the $11$ languages. To address the challenge of balancing the distributions of text-code samples over multiple attributes in validation/test sets, we propose a novel data splitting and a data selection schema based on the geometric mean and graph-theoretic principle. Our experiments with OpenAI's LLMs (zero-shot) and open-LLMs (zero-shot and fine-tuned) on the tasks and languages demonstrate to be quite challenging as per the current advancements in language models.}
-}
 
 
 

@@ -7010,38 +7010,6 @@
     year: 2024
     selected: no
     title: >
-      On Context Utilization in Summarization with Large Language Models
-    authors: Mathieu Ravaut, Aixin Sun, Nancy Chen, and Shafiq Joty
-    id: Ravaut-acl-24
-    img: Ravaut-acl-24-fig
-    slides: media/Ravaut-acl-24-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    booktitle: >
-      Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (<b>ACL'24</b>)
-    doc-url: https://arxiv.org/pdf/2310.10570v3
-    abstract: >
-      Large language models (LLMs) excel in abstractive summarization tasks, delivering fluent and pertinent summaries. Recent advancements have extended their capabilities to handle long-input contexts, exceeding 100k tokens. However, in question answering, language models exhibit uneven utilization of their input context. They tend to favor the initial and final segments, resulting in a U-shaped performance pattern concerning where the answer is located within the input. This bias raises concerns, particularly in summarization where crucial content may be dispersed throughout the source document(s). Besides, in summarization, mapping facts from the source to the summary is not trivial as salient content is usually re-phrased. In this paper, we conduct the first comprehensive study on context utilization and position bias in summarization. Our analysis encompasses 5 LLMs, 10 datasets, and 5 evaluation metrics. We introduce a new evaluation benchmark called MiddleSum on the which we benchmark two alternative inference methods to alleviate position bias: hierarchical summarization and incremental summarization.
-    bibtex: >
-      @inproceedings{Ravaut-acl-24,
-       abstract = {Large language models (LLMs) excel in abstractive summarization tasks, delivering fluent and pertinent summaries. Recent advancements have extended their capabilities to handle long-input contexts, exceeding 100k tokens. However, in question answering, language models exhibit uneven utilization of their input context. They tend to favor the initial and final segments, resulting in a U-shaped performance pattern concerning where the answer is located within the input. This bias raises concerns, particularly in summarization where crucial content may be dispersed throughout the source document(s). Besides, in summarization, mapping facts from the source to the summary is not trivial as salient content is usually re-phrased. In this paper, we conduct the first comprehensive study on context utilization and position bias in summarization. Our analysis encompasses 5 LLMs, 10 datasets, and 5 evaluation metrics. We introduce a new evaluation benchmark called MiddleSum on the which we benchmark two alternative inference methods to alleviate position bias: hierarchical summarization and incremental summarization.},
-       address = {Bangkok, Thailand},
-       author = {Mathieu Ravaut and Aixin Sun and Nancy Chen and Shafiq Joty},
-       booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
-       publisher = {ACL},
-       series = {ACL'24},
-       title = {On Context Utilization in Summarization with Large Language Models},
-       url = {https://arxiv.org/pdf/2310.10570v3},
-       year = {2024}
-      }
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2024
-    selected: no
-    title: >
       XCodeEval: An Execution-based Large Scale Multilingual Multitask Benchmark for Code Understanding, Generation, Translation and Retrieval
     authors: Mohammad Khan, M Bari, Do Long, Weishi Wang, Md Parvez, and Shafiq Joty
     id: Khan-et-al-acl-24
@@ -7065,6 +7033,38 @@
        series = {ACL'24},
        title = {XCodeEval: An Execution-based Large Scale Multilingual Multitask Benchmark for Code Understanding, Generation, Translation and Retrieval},
        url = {https://arxiv.org/abs/2303.03004},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
+      On Context Utilization in Summarization with Large Language Models
+    authors: Mathieu Ravaut, Aixin Sun, Nancy Chen, and Shafiq Joty
+    id: Ravaut-acl-24
+    img: Ravaut-acl-24-fig
+    slides: media/Ravaut-acl-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (<b>ACL'24</b>)
+    doc-url: https://arxiv.org/pdf/2310.10570v3
+    abstract: >
+      Large language models (LLMs) excel in abstractive summarization tasks, delivering fluent and pertinent summaries. Recent advancements have extended their capabilities to handle long-input contexts, exceeding 100k tokens. However, in question answering, language models exhibit uneven utilization of their input context. They tend to favor the initial and final segments, resulting in a U-shaped performance pattern concerning where the answer is located within the input. This bias raises concerns, particularly in summarization where crucial content may be dispersed throughout the source document(s). Besides, in summarization, mapping facts from the source to the summary is not trivial as salient content is usually re-phrased. In this paper, we conduct the first comprehensive study on context utilization and position bias in summarization. Our analysis encompasses 5 LLMs, 10 datasets, and 5 evaluation metrics. We introduce a new evaluation benchmark called MiddleSum on the which we benchmark two alternative inference methods to alleviate position bias: hierarchical summarization and incremental summarization.
+    bibtex: >
+      @inproceedings{Ravaut-acl-24,
+       abstract = {Large language models (LLMs) excel in abstractive summarization tasks, delivering fluent and pertinent summaries. Recent advancements have extended their capabilities to handle long-input contexts, exceeding 100k tokens. However, in question answering, language models exhibit uneven utilization of their input context. They tend to favor the initial and final segments, resulting in a U-shaped performance pattern concerning where the answer is located within the input. This bias raises concerns, particularly in summarization where crucial content may be dispersed throughout the source document(s). Besides, in summarization, mapping facts from the source to the summary is not trivial as salient content is usually re-phrased. In this paper, we conduct the first comprehensive study on context utilization and position bias in summarization. Our analysis encompasses 5 LLMs, 10 datasets, and 5 evaluation metrics. We introduce a new evaluation benchmark called MiddleSum on the which we benchmark two alternative inference methods to alleviate position bias: hierarchical summarization and incremental summarization.},
+       address = {Bangkok, Thailand},
+       author = {Mathieu Ravaut and Aixin Sun and Nancy Chen and Shafiq Joty},
+       booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+       publisher = {ACL},
+       series = {ACL'24},
+       title = {On Context Utilization in Summarization with Large Language Models},
+       url = {https://arxiv.org/pdf/2310.10570v3},
        year = {2024}
       }
       
