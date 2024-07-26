@@ -7607,6 +7607,35 @@
       
   -
     layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2024
+    selected: yes
+    title: >
+      Improving conversational recommender system via contextual and time-aware modeling with less domain-specific knowledge
+    authors: Lingzhi Wang, Shafiq Joty, Wei Gao, Xingshan Zeng, and Kam-Fai Wong
+    id: Wang-et-al-tkde
+    img: Wang-et-al-tkde-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    journal: IEEE Transactions on Knowledge and Data Engineering
+    doc-url: https://arxiv.org/pdf/2209.11386
+    abstract: >
+      Conversational Recommender Systems (CRS) has become an emerging research topic seeking to perform recommendations through interactive conversations, which generally consist of generation and recommendation modules. Prior work on CRS tends to incorporate more external and domain-specific knowledge like item reviews to enhance performance. Despite the fact that the collection and annotation of the external domain-specific information needs much human effort and degenerates the generalizability, too much extra knowledge introduces more difficulty to balance among them. Therefore, we propose to fully discover and extract the internal knowledge from the context. We capture both entity-level and contextual-level representations to jointly model user preferences for the recommendation, where a time-aware attention is designed to emphasize the recently appeared items in entity-level representations. We further use the pre-trained BART to initialize the generation module to alleviate the data scarcity and enhance the context modeling. In addition to conducting experiments on a popular dataset (ReDial), we also include a multi-domain dataset (OpenDialKG) to show the effectiveness of our model. Experiments on both datasets show that our model achieves better performance on most evaluation metrics with less external knowledge and generalizes well to other domains. Additional analyses on the recommendation and generation tasks demonstrate the effectiveness of our model in different scenarios.
+    bibtex: >
+      @article{Wang-et-al-tkde,
+       abstract = {Conversational Recommender Systems (CRS) has become an emerging research topic seeking to perform recommendations through interactive conversations, which generally consist of generation and recommendation modules. Prior work on CRS tends to incorporate more external and domain-specific knowledge like item reviews to enhance performance. Despite the fact that the collection and annotation of the external domain-specific information needs much human effort and degenerates the generalizability, too much extra knowledge introduces more difficulty to balance among them. Therefore, we propose to fully discover and extract the internal knowledge from the context. We capture both entity-level and contextual-level representations to jointly model user preferences for the recommendation, where a time-aware attention is designed to emphasize the recently appeared items in entity-level representations. We further use the pre-trained BART to initialize the generation module to alleviate the data scarcity and enhance the context modeling. In addition to conducting experiments on a popular dataset (ReDial), we also include a multi-domain dataset (OpenDialKG) to show the effectiveness of our model. Experiments on both datasets show that our model achieves better performance on most evaluation metrics with less external knowledge and generalizes well to other domains. Additional analyses on the recommendation and generation tasks demonstrate the effectiveness of our model in different scenarios.},
+       author = {Lingzhi Wang and Shafiq Joty and Wei Gao and Xingshan Zeng and Kam-Fai Wong},
+       journal = {IEEE Transactions on Knowledge and Data Engineering},
+       series = {IEEE},
+       title = {{Improving conversational recommender system via contextual and time-aware modeling with less domain-specific knowledge}},
+       url = {https://arxiv.org/pdf/2209.11386},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2024
     selected: no
