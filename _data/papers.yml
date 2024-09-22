@@ -7042,6 +7042,38 @@
     year: 2024
     selected: no
     title: >
+      FOLIO: Natural Language Reasoning with First-Order Logic
+    authors: Simeng Han, and et al.
+    id: Han-et-al-arxiv-24
+    img: Han-et-al-arxiv-24-fig
+    slides: media/Han-et-al-arxiv-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'24</b>)
+    doc-url: https://arxiv.org/abs/2209.00840
+    abstract: >
+      Large language models (LLMs) have achieved remarkable performance on a variety of natural language understanding tasks. However, existing benchmarks are inadequate in measuring the complex logical reasoning capabilities of a model. We present FOLIO, a human-annotated, logically complex and diverse dataset for reasoning in natural language (NL), equipped with first-order logic (FOL) annotations. FOLIO consists of 1,430 examples (unique conclusions), each paired with one of 487 sets of premises used to deductively reason for the validity of each conclusion. The logical correctness of the premises and conclusions is ensured by their FOL annotations, which are automatically verified by an FOL inference engine. In addition to the main NL reasoning task, NL-FOL pairs in FOLIO constitute a new NL-FOL translation dataset. Our experiments on FOLIO systematically evaluate the FOL reasoning ability of supervised fine-tuning on medium-sized language models. For both NL reasoning and NL-FOL translation, we benchmark multiple state-of-the-art language models. Our results show that a subset of FOLIO presents a challenge for one of the most capable Large Language Model (LLM) publicly available, GPT-4.
+    bibtex: >
+      @inproceedings{Han-et-al-arxiv-24,
+       abstract = {Large language models (LLMs) have achieved remarkable performance on a variety of natural language understanding tasks. However, existing benchmarks are inadequate in measuring the complex logical reasoning capabilities of a model. We present FOLIO, a human-annotated, logically complex and diverse dataset for reasoning in natural language (NL), equipped with first-order logic (FOL) annotations. FOLIO consists of 1,430 examples (unique conclusions), each paired with one of 487 sets of premises used to deductively reason for the validity of each conclusion. The logical correctness of the premises and conclusions is ensured by their FOL annotations, which are automatically verified by an FOL inference engine. In addition to the main NL reasoning task, NL-FOL pairs in FOLIO constitute a new NL-FOL translation dataset. Our experiments on FOLIO systematically evaluate the FOL reasoning ability of supervised fine-tuning on medium-sized language models. For both NL reasoning and NL-FOL translation, we benchmark multiple state-of-the-art language models. Our results show that a subset of FOLIO presents a challenge for one of the most capable {Large Language Model (LLM)} publicly available, GPT-4.},
+       address = {Miami, USA},
+       author = {Simeng Han and et al.},
+       booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+       publisher = {ACL},
+       series = {EMNLP'24},
+       title = {{FOLIO: Natural Language Reasoning with First-Order Logic}},
+       url = {https://arxiv.org/abs/2209.00840},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
       X-InstructBLIP: A Framework for aligning X-Modal instruction-aware representations to LLMs and Emergent Cross-modal Reasoning
     authors: Artemis Panagopoulou, Le Xue, Ning Yu, Junnan Li, Dongxu Li, Shafiq Joty, Ran Xu, Silvio Savarese, Caiming Xiong, and Juan-Carlos Niebles
     id: Artemis-et-al-eccv-24
