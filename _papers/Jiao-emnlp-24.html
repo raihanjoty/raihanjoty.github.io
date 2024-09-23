@@ -1,49 +1,50 @@
 ---
-abstract: 'Large Language Models (LLMs) have demonstrated significant potential in
-  handling complex reasoning tasks through step-by-step rationale generation. However,
-  recent studies have raised concerns regarding the hallucination and flaws in their
-  reasoning process. Substantial efforts are being made to improve the reliability
-  and faithfulness of the generated rationales. Some approaches model reasoning as
-  planning, while others focus on annotating for process supervision. Nevertheless,
-  the planning-based search process often results in high latency due to the frequent
-  assessment of intermediate reasoning states and the extensive exploration space.
-  Additionally, supervising the reasoning process with human annotation is costly
-  and challenging to scale for LLM training. To address these issues, in this paper,
-  we propose a framework to learn planning-based reasoning through Direct Preference
-  Optimization (DPO) on collected trajectories, which are ranked according to synthesized
-  process rewards. Our results on challenging logical reasoning benchmarks demonstrate
-  the effectiveness of our learning framework, showing that our 7B model can surpass
-  the strong counterparts like GPT-3.5-Turbo.
+abstract: 'Data-driven storytelling is a powerful method for conveying insights by
+  combining narrative techniques with visualizations and text. These stories integrate
+  visual aids, such as highlighted bars and lines in charts, along with textual annotations
+  explaining insights. However, creating such stories requires a deep understanding
+  of the data and meticulous narrative planning, often necessitating human intervention,
+  which can be time-consuming and mentally taxing. While Large Language Models (LLMs)
+  excel in various NLP tasks, their ability to generate coherent and comprehensive
+  data stories remains underexplored. In this work, we introduce a novel task for
+  data story generation and a benchmark containing 1,449 stories from diverse sources.
+  To address the challenges of crafting coherent data stories, we propose a multi-agent
+  framework employing two LLM agents designed to replicate the human storytelling
+  process: one for understanding and describing the data (Reflection), generating
+  the outline, and narration, and another for verification at each intermediary step.
+  While our agentic framework generally outperforms non-agentic counterparts in both
+  model-based and human evaluations, the results also reveal unique challenges in
+  data story generation.
 
   '
-authors: Fangkai Jiao, Chengwei Qin, Zhengyuan Liu, Nancy Chen, and Shafiq Joty
-bibtex: "@inproceedings{Jiao-emnlp-24,\n abstract = {Large Language Models (LLMs)\
-  \ have demonstrated significant potential in handling complex reasoning tasks through\
-  \ step-by-step rationale generation. However, recent studies have raised concerns\
-  \ regarding the hallucination and flaws in their reasoning process. Substantial\
-  \ efforts are being made to improve the reliability and faithfulness of the generated\
-  \ rationales. Some approaches model reasoning as planning, while others focus on\
-  \ annotating for process supervision. Nevertheless, the planning-based search process\
-  \ often results in high latency due to the frequent assessment of intermediate reasoning\
-  \ states and the extensive exploration space. Additionally, supervising the reasoning\
-  \ process with human annotation is costly and challenging to scale for LLM training.\
-  \ To address these issues, in this paper, we propose a framework to learn planning-based\
-  \ reasoning through Direct Preference Optimization (DPO) on collected trajectories,\
-  \ which are ranked according to synthesized process rewards. Our results on challenging\
-  \ logical reasoning benchmarks demonstrate the effectiveness of our learning framework,\
-  \ showing that our 7B model can surpass the strong counterparts like GPT-3.5-Turbo.},\n\
-  \ address = {Miami, USA},\n author = {Fangkai Jiao and Chengwei Qin and Zhengyuan\
-  \ Liu and Nancy Chen and Shafiq Joty},\n booktitle = {Proceedings of the 2024 Conference\
-  \ on Empirical Methods in Natural Language Processing},\n publisher = {ACL},\n series\
-  \ = {EMNLP'24},\n title = {Learning Planning-based Reasoning by Trajectories Collection\
-  \ and Process Reward Synthesizing},\n url = {https://arxiv.org/abs/2402.00658},\n\
-  \ year = {2024}\n}\n"
+authors: Mohammed Islam, Md Laskar, Md Parvez, Enamul Hoque, and Shafiq Joty
+bibtex: "@inproceedings{Jiao-emnlp-24,\n abstract = {Data-driven storytelling is a\
+  \ powerful method for conveying insights by combining narrative techniques with\
+  \ visualizations and text. These stories integrate visual aids, such as highlighted\
+  \ bars and lines in charts, along with textual annotations explaining insights.\
+  \ However, creating such stories requires a deep understanding of the data and meticulous\
+  \ narrative planning, often necessitating human intervention, which can be time-consuming\
+  \ and mentally taxing. While Large Language Models (LLMs) excel in various NLP tasks,\
+  \ their ability to generate coherent and comprehensive data stories remains underexplored.\
+  \ In this work, we introduce a novel task for data story generation and a benchmark\
+  \ containing 1,449 stories from diverse sources. To address the challenges of crafting\
+  \ coherent data stories, we propose a multi-agent framework employing two LLM agents\
+  \ designed to replicate the human storytelling process: one for understanding and\
+  \ describing the data (Reflection), generating the outline, and narration, and another\
+  \ for verification at each intermediary step. While our agentic framework generally\
+  \ outperforms non-agentic counterparts in both model-based and human evaluations,\
+  \ the results also reveal unique challenges in data story generation.},\n address\
+  \ = {Miami, USA},\n author = {Mohammed Islam and Md Laskar and Md Parvez and Enamul\
+  \ Hoque and Shafiq Joty},\n booktitle = {Proceedings of the 2024 Conference on Empirical\
+  \ Methods in Natural Language Processing},\n publisher = {ACL},\n series = {EMNLP'24},\n\
+  \ title = {DataNarrative: Automated Data-Driven Storytelling with Visualizations\
+  \ and Texts},\n url = {https://arxiv.org/abs/2408.05346},\n year = {2024}\n}\n"
 booktitle: 'Proceedings of the 2024 Conference on Empirical Methods in Natural Language
   Processing (<b>EMNLP''24</b>)
 
   '
 code: null
-doc-url: https://arxiv.org/abs/2402.00658
+doc-url: https://arxiv.org/abs/2408.05346
 errata: null
 id: Jiao-emnlp-24
 img: Jiao-emnlp-24-fig
@@ -52,8 +53,8 @@ paper-type: inproceedings
 picture: shafiq
 selected: false
 slides: media/Jiao-emnlp-24-slides.pdf
-title: 'Learning Planning-based Reasoning by Trajectories Collection and Process Reward
-  Synthesizing
+title: 'DataNarrative: Automated Data-Driven Storytelling with Visualizations and
+  Texts
 
   '
 venue: conference

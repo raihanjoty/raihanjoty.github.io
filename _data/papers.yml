@@ -7042,6 +7042,38 @@
     year: 2024
     selected: no
     title: >
+      DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts
+    authors: Mohammed Islam, Md Laskar, Md Parvez, Enamul Hoque, and Shafiq Joty
+    id: Jiao-emnlp-24
+    img: Jiao-emnlp-24-fig
+    slides: media/Jiao-emnlp-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'24</b>)
+    doc-url: https://arxiv.org/abs/2408.05346
+    abstract: >
+      Data-driven storytelling is a powerful method for conveying insights by combining narrative techniques with visualizations and text. These stories integrate visual aids, such as highlighted bars and lines in charts, along with textual annotations explaining insights. However, creating such stories requires a deep understanding of the data and meticulous narrative planning, often necessitating human intervention, which can be time-consuming and mentally taxing. While Large Language Models (LLMs) excel in various NLP tasks, their ability to generate coherent and comprehensive data stories remains underexplored. In this work, we introduce a novel task for data story generation and a benchmark containing 1,449 stories from diverse sources. To address the challenges of crafting coherent data stories, we propose a multi-agent framework employing two LLM agents designed to replicate the human storytelling process: one for understanding and describing the data (Reflection), generating the outline, and narration, and another for verification at each intermediary step. While our agentic framework generally outperforms non-agentic counterparts in both model-based and human evaluations, the results also reveal unique challenges in data story generation.
+    bibtex: >
+      @inproceedings{Jiao-emnlp-24,
+       abstract = {Data-driven storytelling is a powerful method for conveying insights by combining narrative techniques with visualizations and text. These stories integrate visual aids, such as highlighted bars and lines in charts, along with textual annotations explaining insights. However, creating such stories requires a deep understanding of the data and meticulous narrative planning, often necessitating human intervention, which can be time-consuming and mentally taxing. While Large Language Models (LLMs) excel in various NLP tasks, their ability to generate coherent and comprehensive data stories remains underexplored. In this work, we introduce a novel task for data story generation and a benchmark containing 1,449 stories from diverse sources. To address the challenges of crafting coherent data stories, we propose a multi-agent framework employing two LLM agents designed to replicate the human storytelling process: one for understanding and describing the data (Reflection), generating the outline, and narration, and another for verification at each intermediary step. While our agentic framework generally outperforms non-agentic counterparts in both model-based and human evaluations, the results also reveal unique challenges in data story generation.},
+       address = {Miami, USA},
+       author = {Mohammed Islam and Md Laskar and Md Parvez and Enamul Hoque and Shafiq Joty},
+       booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+       publisher = {ACL},
+       series = {EMNLP'24},
+       title = {DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts},
+       url = {https://arxiv.org/abs/2408.05346},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
       Evaluating Psychological Safety of Large Language Models
     authors: Xingxuan Li, Yutong Li, Lin Qiu, Shafiq Joty, and Lidong Bing
     id: Xingxuan-emnlp-24
