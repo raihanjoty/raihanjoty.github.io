@@ -7076,9 +7076,9 @@
     title: >
       A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations
     authors: Md Laskar, Sawsan Alqahtani, M Bari, Mizanur Rahman, Mohammad Khan, Haidar Khan, Israt Jahan, Amran Bhuiyan, Chee Tan, Md Parvez, Enamul Hoque, Shafiq Joty, and Jimmy Huang
-    id: Lasker-emnlp-24
-    img: Lasker-emnlp-24-fig
-    slides: media/Lasker-emnlp-24-slides.pdf
+    id: Laskar-emnlp-24
+    img: Laskar-emnlp-24-fig
+    slides: media/Laskar-emnlp-24-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -7088,7 +7088,7 @@
     abstract: >
       Large Language Models (LLMs) have recently gained significant attention due to their remarkable capabilities in performing diverse tasks across various domains. However, a thorough evaluation of these models is crucial before deploying them in real-world applications to ensure they produce reliable performance. Despite the well-established importance of evaluating LLMs in the community, the complexity of the evaluation process has led to varied evaluation setups, causing inconsistencies in findings and interpretations. To address this, we systematically review the primary challenges and limitations causing these inconsistencies and unreliable evaluations in various steps of LLM evaluation. Based on our critical review, we present our perspectives and recommendations to ensure LLM evaluations are reproducible, reliable, and robust.
     bibtex: >
-      @inproceedings{Lasker-emnlp-24,
+      @inproceedings{Laskar-emnlp-24,
        abstract = {Large Language Models (LLMs) have recently gained significant attention due to their remarkable capabilities in performing diverse tasks across various domains. However, a thorough evaluation of these models is crucial before deploying them in real-world applications to ensure they produce reliable performance. Despite the well-established importance of evaluating LLMs in the community, the complexity of the evaluation process has led to varied evaluation setups, causing inconsistencies in findings and interpretations. To address this, we systematically review the primary challenges and limitations causing these inconsistencies and unreliable evaluations in various steps of LLM evaluation. Based on our critical review, we present our perspectives and recommendations to ensure LLM evaluations are reproducible, reliable, and robust.},
        address = {Miami, USA},
        author = {Md Laskar and Sawsan Alqahtani and M Bari and Mizanur Rahman and Mohammad Khan and Haidar Khan and Israt Jahan and Amran Bhuiyan and Chee Tan and Md Parvez and Enamul Hoque and Shafiq Joty and Jimmy Huang},
