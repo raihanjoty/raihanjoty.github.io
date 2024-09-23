@@ -3412,9 +3412,8 @@ We thoroughly evaluate RAP-Gen on three benchmarks in two programming languages,
   abstract = {In this work, we designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs). First, we tested five different LLMs by using two personality tests: Short Dark Triad (SD-3) and Big Five Inventory (BFI). All models scored higher than the human average on SD-3, suggesting a relatively darker personality pattern. Despite being instruction fine-tuned with safety metrics to reduce toxicity, InstructGPT, GPT-3.5, and GPT-4 still showed dark personality patterns; these models scored higher than self-supervised GPT-3 on the Machiavellianism and narcissism traits on SD-3. Then, we evaluated the LLMs in the GPT series by using well-being tests to study the impact of fine-tuning with more training data. We observed a continuous increase in the well-being scores of GPT models. Following these observations, we showed that fine-tuning Llama-2-chat-7B with responses from BFI using direct preference optimization could effectively reduce the psychological toxicity of the model. Based on the findings, we recommended the application of systematic and comprehensive psychological metrics to further evaluate and improve the safety of LLMs.}
 }
 
-
 @InProceedings{Han-et-al-arxiv-24,
-  author = {Simeng Han and et al.},
+  author = {SIMENG HAN and Hailey Schoelkopf and Yilun Zhao and Zhenting Qi and Martin Riddell and Wenfei Zhou and James Coady and David Peng and Yujie Qiao and Luke Benson and Lucy Sun and Alexander Wardle-Solano and Hannah Szabó and Ekaterina Zubova and Matthew Burtell and Jonathan Fan and Yixin Liu and Brian Wong and Malcolm Sailor and Ansong Ni and Linyong Nan and Jungo Kasai and Tao Yu and Rui Zhang and Alexander Fabbri and Wojciech Maciej Kryscinski and Semih Yavuz and Ye Liu and Victoria Lin and Shafiq Joty and Yingbo Zhou and Caiming Xiong and Rex Ying and Arman Cohan and Dragomir Radev},
   title     = "{FOLIO: Natural Language Reasoning with First-Order Logic}",
   booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
   year      = {2024},
@@ -3424,6 +3423,8 @@ We thoroughly evaluate RAP-Gen on three benchmarks in two programming languages,
   url = {https://arxiv.org/abs/2209.00840},
   abstract = {Large language models (LLMs) have achieved remarkable performance on a variety of natural language understanding tasks. However, existing benchmarks are inadequate in measuring the complex logical reasoning capabilities of a model. We present FOLIO, a human-annotated, logically complex and diverse dataset for reasoning in natural language (NL), equipped with first-order logic (FOL) annotations. FOLIO consists of 1,430 examples (unique conclusions), each paired with one of 487 sets of premises used to deductively reason for the validity of each conclusion. The logical correctness of the premises and conclusions is ensured by their FOL annotations, which are automatically verified by an FOL inference engine. In addition to the main NL reasoning task, NL-FOL pairs in FOLIO constitute a new NL-FOL translation dataset. Our experiments on FOLIO systematically evaluate the FOL reasoning ability of supervised fine-tuning on medium-sized language models. For both NL reasoning and NL-FOL translation, we benchmark multiple state-of-the-art language models. Our results show that a subset of FOLIO presents a challenge for one of the most capable {Large Language Model (LLM)} publicly available, GPT-4.}
 }
+
+
 
 @InProceedings{Laskar-emnlp-24,
   author = {Md Laskar and Sawsan Alqahtani and M Bari and Mizanur Rahman and Mohammad Khan and Haidar Khan and Israt Jahan and Amran Bhuiyan and Chee Tan and Md Parvez and Enamul Hoque and Shafiq Joty and Jimmy Huang},
@@ -3450,6 +3451,18 @@ We thoroughly evaluate RAP-Gen on three benchmarks in two programming languages,
   url = {},
   abstract = {Retrieval Augmented Generation (RAG) has been shown to enhance the factual accuracy of Large Language Models (LLMs) by providing external evidence, but existing methods often suffer from limited reasoning capabilities (e.g., multi-hop complexities) in effectively using such evidence, particularly when using open-source LLMs. To mitigate this gap, in this paper, we introduce a novel framework, Open-RAG, designed to enhance reasoning capabilities in RAG with open-source LLMs. Our framework transforms an arbitrary dense LLM into a parameter-efficient sparse mixture of experts (MoE) model capable of handling complex reasoning tasks, including both single- and multi-hop queries. Open-RAG uniquely trains the model to navigate challenging distractors that appear relevant but are misleading. By combining the constructive learning and architectural transformation, Open-RAG leverages latent learning, dynamically selecting relevant experts and integrating external knowledge effectively for more accurate and contextually relevant responses. Additionally, we propose a hybrid adaptive retrieval method to determine retrieval necessity and balance the trade-off between performance gain and inference speed. Experimental results show that Open-RAG outperforms state-of-the-art LLMs and RAG models in various knowledge-intensive tasks. Our method based on Llama2-7B sets new benchmarks, surpassing ChatGPT-RAG and Self-RAG. For example, in multi-hop HotpotQA, it achieves an EM score of 63.3, compared to RAG 2.0's 54 and Command R+'s 60.}
 }	
+
+@InProceedings{Han-et-al-arxiv-24,
+  author = {SIMENG HAN and Aaron Yu and Rui Shen and Zhenting Qi and Martin Riddell and Wenfei Zhou and Yujie Qiao and Yilun Zhao and Semih Yavuz and Ye Liu and Shafiq Joty and Yingbo Zhou and Caiming Xiong and Rex Ying and Arman Cohan and Dragomir Radev},
+  title     = "{P-FOLIO: Evaluating and Improving Logical Reasoning with Abundant Human-Written Reasoning Chains}",
+  booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2024},
+  series    = {EMNLP'24},
+  publisher = {ACL},
+  address   = {Miami, USA}, 
+  url = {https://arxiv.org/abs/2209.00840},
+  abstract = {Existing methods on understanding the capabilities of LLMs in logical reasoning rely on binary entailment classification or synthetically derived rationales, which are not sufficient for properly assessing model's capabilities. We present \textit{P-FOLIO}, a human-annotated dataset consisting of diverse and complex reasoning chains for a set of realistic logical reasoning stories also written by humans. P-FOLIO is collected with an annotation protocol that facilitates humans to annotate well-structured natural language proofs for first-order logic reasoning problems in a step-by-step manner. The number of reasoning steps in P-FOLIO span from 0 to 20. We further use P-FOLIO to evaluate and improve large-language-model (LLM) reasoning capabilities. We evaluate LLM reasoning capabilities at a fine granularity via single-step inference rule classification, with more diverse inference rules of more diverse and higher levels of complexities than previous works. Given that a single model-generated reasoning chain could take a completely different path than the human-annotated one, we sample multiple reasoning chains from a model and use pass@k metrics for evaluating the quality of model-generated reasoning chains. We show that human-written reasoning chains significantly boost the logical reasoning capabilities of LLMs via many-shot prompting and fine-tuning. Furthermore, fine-tuning Llam3-7B on P-FOLIO improves the model performance by 10% or more on three other out-of-domain logical reasoning datasets.}
+}
 
 
 

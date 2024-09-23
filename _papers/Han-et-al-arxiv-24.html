@@ -1,42 +1,55 @@
 ---
-abstract: 'Large language models (LLMs) have achieved remarkable performance on a
-  variety of natural language understanding tasks. However, existing benchmarks are
-  inadequate in measuring the complex logical reasoning capabilities of a model. We
-  present FOLIO, a human-annotated, logically complex and diverse dataset for reasoning
-  in natural language (NL), equipped with first-order logic (FOL) annotations. FOLIO
-  consists of 1,430 examples (unique conclusions), each paired with one of 487 sets
-  of premises used to deductively reason for the validity of each conclusion. The
-  logical correctness of the premises and conclusions is ensured by their FOL annotations,
-  which are automatically verified by an FOL inference engine. In addition to the
-  main NL reasoning task, NL-FOL pairs in FOLIO constitute a new NL-FOL translation
-  dataset. Our experiments on FOLIO systematically evaluate the FOL reasoning ability
-  of supervised fine-tuning on medium-sized language models. For both NL reasoning
-  and NL-FOL translation, we benchmark multiple state-of-the-art language models.
-  Our results show that a subset of FOLIO presents a challenge for one of the most
-  capable Large Language Model (LLM) publicly available, GPT-4.
+abstract: 'Existing methods on understanding the capabilities of LLMs in logical reasoning
+  rely on binary entailment classification or synthetically derived rationales, which
+  are not sufficient for properly assessing model''s capabilities. We present \textitP-FOLIO,
+  a human-annotated dataset consisting of diverse and complex reasoning chains for
+  a set of realistic logical reasoning stories also written by humans. P-FOLIO is
+  collected with an annotation protocol that facilitates humans to annotate well-structured
+  natural language proofs for first-order logic reasoning problems in a step-by-step
+  manner. The number of reasoning steps in P-FOLIO span from 0 to 20. We further use
+  P-FOLIO to evaluate and improve large-language-model (LLM) reasoning capabilities.
+  We evaluate LLM reasoning capabilities at a fine granularity via single-step inference
+  rule classification, with more diverse inference rules of more diverse and higher
+  levels of complexities than previous works. Given that a single model-generated
+  reasoning chain could take a completely different path than the human-annotated
+  one, we sample multiple reasoning chains from a model and use pass@k metrics for
+  evaluating the quality of model-generated reasoning chains. We show that human-written
+  reasoning chains significantly boost the logical reasoning capabilities of LLMs
+  via many-shot prompting and fine-tuning. Furthermore, fine-tuning Llam3-7B on P-FOLIO
+  improves the model performance by 10% or more on three other out-of-domain logical
+  reasoning datasets.
 
   '
-authors: Simeng Han, and et al.
-bibtex: "@inproceedings{Han-et-al-arxiv-24,\n abstract = {Large language models (LLMs)\
-  \ have achieved remarkable performance on a variety of natural language understanding\
-  \ tasks. However, existing benchmarks are inadequate in measuring the complex logical\
-  \ reasoning capabilities of a model. We present FOLIO, a human-annotated, logically\
-  \ complex and diverse dataset for reasoning in natural language (NL), equipped with\
-  \ first-order logic (FOL) annotations. FOLIO consists of 1,430 examples (unique\
-  \ conclusions), each paired with one of 487 sets of premises used to deductively\
-  \ reason for the validity of each conclusion. The logical correctness of the premises\
-  \ and conclusions is ensured by their FOL annotations, which are automatically verified\
-  \ by an FOL inference engine. In addition to the main NL reasoning task, NL-FOL\
-  \ pairs in FOLIO constitute a new NL-FOL translation dataset. Our experiments on\
-  \ FOLIO systematically evaluate the FOL reasoning ability of supervised fine-tuning\
-  \ on medium-sized language models. For both NL reasoning and NL-FOL translation,\
-  \ we benchmark multiple state-of-the-art language models. Our results show that\
-  \ a subset of FOLIO presents a challenge for one of the most capable {Large Language\
-  \ Model (LLM)} publicly available, GPT-4.},\n address = {Miami, USA},\n author =\
-  \ {Simeng Han and et al.},\n booktitle = {Proceedings of the 2024 Conference on\
-  \ Empirical Methods in Natural Language Processing},\n publisher = {ACL},\n series\
-  \ = {EMNLP'24},\n title = {{FOLIO: Natural Language Reasoning with First-Order Logic}},\n\
-  \ url = {https://arxiv.org/abs/2209.00840},\n year = {2024}\n}\n"
+authors: SIMENG HAN, Aaron Yu, Rui Shen, Zhenting Qi, Martin Riddell, Wenfei Zhou,
+  Yujie Qiao, Yilun Zhao, Semih Yavuz, Ye Liu, Shafiq Joty, Yingbo Zhou, Caiming Xiong,
+  Rex Ying, Arman Cohan, and Dragomir Radev
+bibtex: "@inproceedings{Han-et-al-arxiv-24,\n abstract = {Existing methods on understanding\
+  \ the capabilities of LLMs in logical reasoning rely on binary entailment classification\
+  \ or synthetically derived rationales, which are not sufficient for properly assessing\
+  \ model's capabilities. We present \\textit{P-FOLIO}, a human-annotated dataset\
+  \ consisting of diverse and complex reasoning chains for a set of realistic logical\
+  \ reasoning stories also written by humans. P-FOLIO is collected with an annotation\
+  \ protocol that facilitates humans to annotate well-structured natural language\
+  \ proofs for first-order logic reasoning problems in a step-by-step manner. The\
+  \ number of reasoning steps in P-FOLIO span from 0 to 20. We further use P-FOLIO\
+  \ to evaluate and improve large-language-model (LLM) reasoning capabilities. We\
+  \ evaluate LLM reasoning capabilities at a fine granularity via single-step inference\
+  \ rule classification, with more diverse inference rules of more diverse and higher\
+  \ levels of complexities than previous works. Given that a single model-generated\
+  \ reasoning chain could take a completely different path than the human-annotated\
+  \ one, we sample multiple reasoning chains from a model and use pass@k metrics for\
+  \ evaluating the quality of model-generated reasoning chains. We show that human-written\
+  \ reasoning chains significantly boost the logical reasoning capabilities of LLMs\
+  \ via many-shot prompting and fine-tuning. Furthermore, fine-tuning Llam3-7B on\
+  \ P-FOLIO improves the model performance by 10% or more on three other out-of-domain\
+  \ logical reasoning datasets.},\n address = {Miami, USA},\n author = {SIMENG HAN\
+  \ and Aaron Yu and Rui Shen and Zhenting Qi and Martin Riddell and Wenfei Zhou and\
+  \ Yujie Qiao and Yilun Zhao and Semih Yavuz and Ye Liu and Shafiq Joty and Yingbo\
+  \ Zhou and Caiming Xiong and Rex Ying and Arman Cohan and Dragomir Radev},\n booktitle\
+  \ = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language\
+  \ Processing},\n publisher = {ACL},\n series = {EMNLP'24},\n title = {{P-FOLIO:\
+  \ Evaluating and Improving Logical Reasoning with Abundant Human-Written Reasoning\
+  \ Chains}},\n url = {https://arxiv.org/abs/2209.00840},\n year = {2024}\n}\n"
 booktitle: 'Proceedings of the 2024 Conference on Empirical Methods in Natural Language
   Processing (<b>EMNLP''24</b>)
 
@@ -51,7 +64,8 @@ paper-type: inproceedings
 picture: shafiq
 selected: false
 slides: media/Han-et-al-arxiv-24-slides.pdf
-title: 'FOLIO: Natural Language Reasoning with First-Order Logic
+title: 'P-FOLIO: Evaluating and Improving Logical Reasoning with Abundant Human-Written
+  Reasoning Chains
 
   '
 venue: conference
