@@ -152,3 +152,30 @@
        year = {2024}
       }
       
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2023
+    selected: no
+    title: >
+      Long Sequence Modeling with XGen: A 7B LLM Trained on 8K Input Sequence Length
+    authors: Erik Nijkamp*, Tian Xie*, Hiroaki Hayashi*, Bo Pang*, Congying Xia*, Chen Xing, Jesse Vig, Semih Yavuz, Philippe Laban, Ben Krause, Senthil Purushwalkam, Tong Niu, Wojciech Kryscinski, Lidiya Murakhovs'ka, Prafulla Choubey, Alex Fabbri, Ye Liu, Rui Meng, Lifu Tu, Meghana Bhat, Chien-Sheng Wu, Silvio Savarese, Yingbo Zhou, Shafiq Joty+, and Caiming Xiong+
+    id: XGen
+    img: XGen-fig
+    slides: media/XGen-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    doc-url: https://arxiv.org/abs/2309.03450
+    abstract: >
+      Large Language Models (LLMs) have become ubiquitous across various domains, transforming the way we interact with information and conduct research. However, most high-performing LLMs remain confined behind proprietary walls, hindering scientific progress. Most open-source LLMs, on the other hand, are limited in their ability to support longer sequence lengths, which is a key requirement for many tasks that require inference over an input context. To address this, we have trained XGen, a series of 7B parameter models on up to 8K sequence length for up to 1.5T tokens. We have also finetuned the XGen models on public-domain instructional data, creating their instruction-tuned counterparts (XGen-Inst). We open-source our models for both research advancements and commercial applications. Our evaluation on standard benchmarks shows that XGen models achieve comparable or better results when compared with state-of-the-art open-source LLMs. Our targeted evaluation on long sequence modeling tasks shows the benefits of our 8K-sequence models over 2K-sequence open-source LLMs.
+    bibtex: >
+      @inproceedings{XGen,
+       abstract = {Large Language Models (LLMs) have become ubiquitous across various domains, transforming the way we interact with information and conduct research. However, most high-performing LLMs remain confined behind proprietary walls, hindering scientific progress. Most open-source LLMs, on the other hand, are limited in their ability to support longer sequence lengths, which is a key requirement for many tasks that require inference over an input context. To address this, we have trained XGen, a series of 7B parameter models on up to 8K sequence length for up to 1.5T tokens. We have also finetuned the XGen models on public-domain instructional data, creating their instruction-tuned counterparts (XGen-Inst). We open-source our models for both research advancements and commercial applications. Our evaluation on standard benchmarks shows that XGen models achieve comparable or better results when compared with state-of-the-art open-source LLMs. Our targeted evaluation on long sequence modeling tasks shows the benefits of our 8K-sequence models over 2K-sequence open-source LLMs.},
+       author = {Erik Nijkamp* and Tian Xie* and Hiroaki Hayashi* and Bo Pang* and Congying Xia* and Chen Xing and Jesse Vig and Semih Yavuz and Philippe Laban and Ben Krause and Senthil Purushwalkam and Tong Niu and Wojciech Kryscinski and Lidiya Murakhovs'ka and Prafulla Choubey and Alex Fabbri and Ye Liu and Rui Meng and Lifu Tu and Meghana Bhat and Chien-Sheng Wu and Silvio Savarese and Yingbo Zhou and Shafiq Joty+ and Caiming Xiong+},
+       series = {SAI Blog},
+       title = {Long Sequence Modeling with XGen: A 7B LLM Trained on 8K Input Sequence Length},
+       url = {https://arxiv.org/abs/2309.03450},
+       year = {2023}
+      }
+      
