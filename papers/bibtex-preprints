@@ -1,4 +1,17 @@
 %% Preprints
+
+
+@InProceedings{nguyen-sfr-rag,
+      title={SFR-RAG: Towards Contextually Faithful LLMs}, 
+      author={Xuan-Phi Nguyen and Shrey Pandit and Senthil Purushwalkam and Austin Xu and Hailin Chen and Yifei Ming and Zixuan Ke and Silvio Savarese and Caiming Xong and Shafiq Joty},
+      year={2024},
+      series    = {cs.CL},
+      publisher = {Arxiv},
+      address   = {Arxiv}, 
+      url={https://arxiv.org/abs/2409.09916}, 
+}
+
+
 @InProceedings{Chen-et-al-arxiv-24,
   author = {Hailin Chen and Fangkai Jiao and Xingxuan Li and Chengwei Qin and Mathieu Ravaut and Ruochen Zhao and Caiming Xiong and Shafiq Joty},
   title     = "{ChatGPT's One-year Anniversary: Are Open-Source Large Language Models Catching up?}",
