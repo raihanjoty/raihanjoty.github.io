@@ -3385,6 +3385,19 @@ We thoroughly evaluate RAP-Gen on three benchmarks in two programming languages,
   abstract = {Large Language Models (LLMs) have demonstrated significant potential in handling complex reasoning tasks through step-by-step rationale generation. However, recent studies have raised concerns regarding the hallucination and flaws in their reasoning process. Substantial efforts are being made to improve the reliability and faithfulness of the generated rationales. Some approaches model reasoning as planning, while others focus on annotating for process supervision. Nevertheless, the planning-based search process often results in high latency due to the frequent assessment of intermediate reasoning states and the extensive exploration space. Additionally, supervising the reasoning process with human annotation is costly and challenging to scale for LLM training. To address these issues, in this paper, we propose a framework to learn planning-based reasoning through Direct Preference Optimization (DPO) on collected trajectories, which are ranked according to synthesized process rewards. Our results on challenging logical reasoning benchmarks demonstrate the effectiveness of our learning framework, showing that our 7B model can surpass the strong counterparts like GPT-3.5-Turbo.}
 }
 
+@InProceedings{Xingxuan-emnlp-24,
+  author = {Xingxuan Li and Yutong Li and Lin Qiu and Shafiq Joty and Lidong Bing},
+  title     = {Evaluating Psychological Safety of Large Language Models},
+  booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2024},
+  series    = {EMNLP'24},
+  publisher = {ACL},
+  address   = {Miami, USA}, 
+  url = {https://arxiv.org/abs/2212.10529},
+  abstract = {In this work, we designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs). First, we tested five different LLMs by using two personality tests: Short Dark Triad (SD-3) and Big Five Inventory (BFI). All models scored higher than the human average on SD-3, suggesting a relatively darker personality pattern. Despite being instruction fine-tuned with safety metrics to reduce toxicity, InstructGPT, GPT-3.5, and GPT-4 still showed dark personality patterns; these models scored higher than self-supervised GPT-3 on the Machiavellianism and narcissism traits on SD-3. Then, we evaluated the LLMs in the GPT series by using well-being tests to study the impact of fine-tuning with more training data. We observed a continuous increase in the well-being scores of GPT models. Following these observations, we showed that fine-tuning Llama-2-chat-7B with responses from BFI using direct preference optimization could effectively reduce the psychological toxicity of the model. Based on the findings, we recommended the application of systematic and comprehensive psychological metrics to further evaluate and improve the safety of LLMs.}
+}
+
+	
 
 @InProceedings{Han-et-al-arxiv-24,
   author = {Simeng Han and et al.},
