@@ -1,0 +1,71 @@
+---
+abstract: 'Retrieval Augmented Generation (RAG) has been shown to enhance the factual
+  accuracy of Large Language Models (LLMs) by providing external evidence, but existing
+  methods often suffer from limited reasoning capabilities (e.g., multi-hop complexities)
+  in effectively using such evidence, particularly when using open-source LLMs. To
+  mitigate this gap, in this paper, we introduce a novel framework, Open-RAG, designed
+  to enhance reasoning capabilities in RAG with open-source LLMs. Our framework transforms
+  an arbitrary dense LLM into a parameter-efficient sparse mixture of experts (MoE)
+  model capable of handling complex reasoning tasks, including both single- and multi-hop
+  queries. Open-RAG uniquely trains the model to navigate challenging distractors
+  that appear relevant but are misleading. By combining the constructive learning
+  and architectural transformation, Open-RAG leverages latent learning, dynamically
+  selecting relevant experts and integrating external knowledge effectively for more
+  accurate and contextually relevant responses. Additionally, we propose a hybrid
+  adaptive retrieval method to determine retrieval necessity and balance the trade-off
+  between performance gain and inference speed. Experimental results show that Open-RAG
+  outperforms state-of-the-art LLMs and RAG models in various knowledge-intensive
+  tasks. Our method based on Llama2-7B sets new benchmarks, surpassing ChatGPT-RAG
+  and Self-RAG. For example, in multi-hop HotpotQA, it achieves an EM score of 63.3,
+  compared to RAG 2.0''s 54 and Command R+''s 60.
+
+  '
+authors: Shayekh Islam, Md Rahman, K Hossain, Enamul Hoque, Shafiq Joty, and Md Parvez
+bibtex: "@inproceedings{Shayekh-emnlp-24,\n abstract = {Retrieval Augmented Generation\
+  \ (RAG) has been shown to enhance the factual accuracy of Large Language Models\
+  \ (LLMs) by providing external evidence, but existing methods often suffer from\
+  \ limited reasoning capabilities (e.g., multi-hop complexities) in effectively using\
+  \ such evidence, particularly when using open-source LLMs. To mitigate this gap,\
+  \ in this paper, we introduce a novel framework, Open-RAG, designed to enhance reasoning\
+  \ capabilities in RAG with open-source LLMs. Our framework transforms an arbitrary\
+  \ dense LLM into a parameter-efficient sparse mixture of experts (MoE) model capable\
+  \ of handling complex reasoning tasks, including both single- and multi-hop queries.\
+  \ Open-RAG uniquely trains the model to navigate challenging distractors that appear\
+  \ relevant but are misleading. By combining the constructive learning and architectural\
+  \ transformation, Open-RAG leverages latent learning, dynamically selecting relevant\
+  \ experts and integrating external knowledge effectively for more accurate and contextually\
+  \ relevant responses. Additionally, we propose a hybrid adaptive retrieval method\
+  \ to determine retrieval necessity and balance the trade-off between performance\
+  \ gain and inference speed. Experimental results show that Open-RAG outperforms\
+  \ state-of-the-art LLMs and RAG models in various knowledge-intensive tasks. Our\
+  \ method based on Llama2-7B sets new benchmarks, surpassing ChatGPT-RAG and Self-RAG.\
+  \ For example, in multi-hop HotpotQA, it achieves an EM score of 63.3, compared\
+  \ to RAG 2.0's 54 and Command R+'s 60.},\n address = {Miami, USA},\n author = {Shayekh\
+  \ Islam and Md Rahman and K Hossain and Enamul Hoque and Shafiq Joty and Md Parvez},\n\
+  \ booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural\
+  \ Language Processing},\n publisher = {ACL},\n series = {EMNLP'24 Findings},\n title\
+  \ = {{Open-RAG: Enhanced Retrieval Augmented Reasoning with Open-Source Large Language\
+  \ Models}},\n url = {},\n year = {2024}\n}\n"
+booktitle: 'Proceedings of the 2024 Conference on Empirical Methods in Natural Language
+  Processing (<b>EMNLP''24 Findings</b>)
+
+  '
+code: null
+doc-url: null
+errata: null
+id: Shayekh-emnlp-24
+img: Shayekh-emnlp-24-fig
+layout: singlepaper
+paper-type: inproceedings
+picture: shafiq
+selected: false
+slides: media/Shayekh-emnlp-24-slides.pdf
+title: 'Open-RAG: Enhanced Retrieval Augmented Reasoning with Open-Source Large Language
+  Models
+
+  '
+venue: conference
+year: 2024
+---
+
+{% include singlepaper.html paper=page %}

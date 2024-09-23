@@ -7044,9 +7044,9 @@
     title: >
       DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts
     authors: Mohammed Islam, Md Laskar, Md Parvez, Enamul Hoque, and Shafiq Joty
-    id: Jiao-emnlp-24
-    img: Jiao-emnlp-24-fig
-    slides: media/Jiao-emnlp-24-slides.pdf
+    id: Islam-emnlp-24
+    img: Islam-emnlp-24-fig
+    slides: media/Islam-emnlp-24-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -7056,7 +7056,7 @@
     abstract: >
       Data-driven storytelling is a powerful method for conveying insights by combining narrative techniques with visualizations and text. These stories integrate visual aids, such as highlighted bars and lines in charts, along with textual annotations explaining insights. However, creating such stories requires a deep understanding of the data and meticulous narrative planning, often necessitating human intervention, which can be time-consuming and mentally taxing. While Large Language Models (LLMs) excel in various NLP tasks, their ability to generate coherent and comprehensive data stories remains underexplored. In this work, we introduce a novel task for data story generation and a benchmark containing 1,449 stories from diverse sources. To address the challenges of crafting coherent data stories, we propose a multi-agent framework employing two LLM agents designed to replicate the human storytelling process: one for understanding and describing the data (Reflection), generating the outline, and narration, and another for verification at each intermediary step. While our agentic framework generally outperforms non-agentic counterparts in both model-based and human evaluations, the results also reveal unique challenges in data story generation.
     bibtex: >
-      @inproceedings{Jiao-emnlp-24,
+      @inproceedings{Islam-emnlp-24,
        abstract = {Data-driven storytelling is a powerful method for conveying insights by combining narrative techniques with visualizations and text. These stories integrate visual aids, such as highlighted bars and lines in charts, along with textual annotations explaining insights. However, creating such stories requires a deep understanding of the data and meticulous narrative planning, often necessitating human intervention, which can be time-consuming and mentally taxing. While Large Language Models (LLMs) excel in various NLP tasks, their ability to generate coherent and comprehensive data stories remains underexplored. In this work, we introduce a novel task for data story generation and a benchmark containing 1,449 stories from diverse sources. To address the challenges of crafting coherent data stories, we propose a multi-agent framework employing two LLM agents designed to replicate the human storytelling process: one for understanding and describing the data (Reflection), generating the outline, and narration, and another for verification at each intermediary step. While our agentic framework generally outperforms non-agentic counterparts in both model-based and human evaluations, the results also reveal unique challenges in data story generation.},
        address = {Miami, USA},
        author = {Mohammed Islam and Md Laskar and Md Parvez and Enamul Hoque and Shafiq Joty},
@@ -7106,6 +7106,38 @@
     year: 2024
     selected: no
     title: >
+      FOLIO: Natural Language Reasoning with First-Order Logic
+    authors: Simeng Han, and et al.
+    id: Han-et-al-arxiv-24
+    img: Han-et-al-arxiv-24-fig
+    slides: media/Han-et-al-arxiv-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'24</b>)
+    doc-url: https://arxiv.org/abs/2209.00840
+    abstract: >
+      Large language models (LLMs) have achieved remarkable performance on a variety of natural language understanding tasks. However, existing benchmarks are inadequate in measuring the complex logical reasoning capabilities of a model. We present FOLIO, a human-annotated, logically complex and diverse dataset for reasoning in natural language (NL), equipped with first-order logic (FOL) annotations. FOLIO consists of 1,430 examples (unique conclusions), each paired with one of 487 sets of premises used to deductively reason for the validity of each conclusion. The logical correctness of the premises and conclusions is ensured by their FOL annotations, which are automatically verified by an FOL inference engine. In addition to the main NL reasoning task, NL-FOL pairs in FOLIO constitute a new NL-FOL translation dataset. Our experiments on FOLIO systematically evaluate the FOL reasoning ability of supervised fine-tuning on medium-sized language models. For both NL reasoning and NL-FOL translation, we benchmark multiple state-of-the-art language models. Our results show that a subset of FOLIO presents a challenge for one of the most capable Large Language Model (LLM) publicly available, GPT-4.
+    bibtex: >
+      @inproceedings{Han-et-al-arxiv-24,
+       abstract = {Large language models (LLMs) have achieved remarkable performance on a variety of natural language understanding tasks. However, existing benchmarks are inadequate in measuring the complex logical reasoning capabilities of a model. We present FOLIO, a human-annotated, logically complex and diverse dataset for reasoning in natural language (NL), equipped with first-order logic (FOL) annotations. FOLIO consists of 1,430 examples (unique conclusions), each paired with one of 487 sets of premises used to deductively reason for the validity of each conclusion. The logical correctness of the premises and conclusions is ensured by their FOL annotations, which are automatically verified by an FOL inference engine. In addition to the main NL reasoning task, NL-FOL pairs in FOLIO constitute a new NL-FOL translation dataset. Our experiments on FOLIO systematically evaluate the FOL reasoning ability of supervised fine-tuning on medium-sized language models. For both NL reasoning and NL-FOL translation, we benchmark multiple state-of-the-art language models. Our results show that a subset of FOLIO presents a challenge for one of the most capable {Large Language Model (LLM)} publicly available, GPT-4.},
+       address = {Miami, USA},
+       author = {Simeng Han and et al.},
+       booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+       publisher = {ACL},
+       series = {EMNLP'24},
+       title = {{FOLIO: Natural Language Reasoning with First-Order Logic}},
+       url = {https://arxiv.org/abs/2209.00840},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
       A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations
     authors: Md Laskar, Sawsan Alqahtani, M Bari, Mizanur Rahman, Mohammad Khan, Haidar Khan, Israt Jahan, Amran Bhuiyan, Chee Tan, Md Parvez, Enamul Hoque, Shafiq Joty, and Jimmy Huang
     id: Laskar-emnlp-24
@@ -7138,29 +7170,29 @@
     year: 2024
     selected: no
     title: >
-      FOLIO: Natural Language Reasoning with First-Order Logic
-    authors: Simeng Han, and et al.
-    id: Han-et-al-arxiv-24
-    img: Han-et-al-arxiv-24-fig
-    slides: media/Han-et-al-arxiv-24-slides.pdf
+      Open-RAG: Enhanced Retrieval Augmented Reasoning with Open-Source Large Language Models
+    authors: Shayekh Islam, Md Rahman, K Hossain, Enamul Hoque, Shafiq Joty, and Md Parvez
+    id: Shayekh-emnlp-24
+    img: Shayekh-emnlp-24-fig
+    slides: media/Shayekh-emnlp-24-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'24</b>)
-    doc-url: https://arxiv.org/abs/2209.00840
+      Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'24 Findings</b>)
+    doc-url: 
     abstract: >
-      Large language models (LLMs) have achieved remarkable performance on a variety of natural language understanding tasks. However, existing benchmarks are inadequate in measuring the complex logical reasoning capabilities of a model. We present FOLIO, a human-annotated, logically complex and diverse dataset for reasoning in natural language (NL), equipped with first-order logic (FOL) annotations. FOLIO consists of 1,430 examples (unique conclusions), each paired with one of 487 sets of premises used to deductively reason for the validity of each conclusion. The logical correctness of the premises and conclusions is ensured by their FOL annotations, which are automatically verified by an FOL inference engine. In addition to the main NL reasoning task, NL-FOL pairs in FOLIO constitute a new NL-FOL translation dataset. Our experiments on FOLIO systematically evaluate the FOL reasoning ability of supervised fine-tuning on medium-sized language models. For both NL reasoning and NL-FOL translation, we benchmark multiple state-of-the-art language models. Our results show that a subset of FOLIO presents a challenge for one of the most capable Large Language Model (LLM) publicly available, GPT-4.
+      Retrieval Augmented Generation (RAG) has been shown to enhance the factual accuracy of Large Language Models (LLMs) by providing external evidence, but existing methods often suffer from limited reasoning capabilities (e.g., multi-hop complexities) in effectively using such evidence, particularly when using open-source LLMs. To mitigate this gap, in this paper, we introduce a novel framework, Open-RAG, designed to enhance reasoning capabilities in RAG with open-source LLMs. Our framework transforms an arbitrary dense LLM into a parameter-efficient sparse mixture of experts (MoE) model capable of handling complex reasoning tasks, including both single- and multi-hop queries. Open-RAG uniquely trains the model to navigate challenging distractors that appear relevant but are misleading. By combining the constructive learning and architectural transformation, Open-RAG leverages latent learning, dynamically selecting relevant experts and integrating external knowledge effectively for more accurate and contextually relevant responses. Additionally, we propose a hybrid adaptive retrieval method to determine retrieval necessity and balance the trade-off between performance gain and inference speed. Experimental results show that Open-RAG outperforms state-of-the-art LLMs and RAG models in various knowledge-intensive tasks. Our method based on Llama2-7B sets new benchmarks, surpassing ChatGPT-RAG and Self-RAG. For example, in multi-hop HotpotQA, it achieves an EM score of 63.3, compared to RAG 2.0's 54 and Command R+'s 60.
     bibtex: >
-      @inproceedings{Han-et-al-arxiv-24,
-       abstract = {Large language models (LLMs) have achieved remarkable performance on a variety of natural language understanding tasks. However, existing benchmarks are inadequate in measuring the complex logical reasoning capabilities of a model. We present FOLIO, a human-annotated, logically complex and diverse dataset for reasoning in natural language (NL), equipped with first-order logic (FOL) annotations. FOLIO consists of 1,430 examples (unique conclusions), each paired with one of 487 sets of premises used to deductively reason for the validity of each conclusion. The logical correctness of the premises and conclusions is ensured by their FOL annotations, which are automatically verified by an FOL inference engine. In addition to the main NL reasoning task, NL-FOL pairs in FOLIO constitute a new NL-FOL translation dataset. Our experiments on FOLIO systematically evaluate the FOL reasoning ability of supervised fine-tuning on medium-sized language models. For both NL reasoning and NL-FOL translation, we benchmark multiple state-of-the-art language models. Our results show that a subset of FOLIO presents a challenge for one of the most capable {Large Language Model (LLM)} publicly available, GPT-4.},
+      @inproceedings{Shayekh-emnlp-24,
+       abstract = {Retrieval Augmented Generation (RAG) has been shown to enhance the factual accuracy of Large Language Models (LLMs) by providing external evidence, but existing methods often suffer from limited reasoning capabilities (e.g., multi-hop complexities) in effectively using such evidence, particularly when using open-source LLMs. To mitigate this gap, in this paper, we introduce a novel framework, Open-RAG, designed to enhance reasoning capabilities in RAG with open-source LLMs. Our framework transforms an arbitrary dense LLM into a parameter-efficient sparse mixture of experts (MoE) model capable of handling complex reasoning tasks, including both single- and multi-hop queries. Open-RAG uniquely trains the model to navigate challenging distractors that appear relevant but are misleading. By combining the constructive learning and architectural transformation, Open-RAG leverages latent learning, dynamically selecting relevant experts and integrating external knowledge effectively for more accurate and contextually relevant responses. Additionally, we propose a hybrid adaptive retrieval method to determine retrieval necessity and balance the trade-off between performance gain and inference speed. Experimental results show that Open-RAG outperforms state-of-the-art LLMs and RAG models in various knowledge-intensive tasks. Our method based on Llama2-7B sets new benchmarks, surpassing ChatGPT-RAG and Self-RAG. For example, in multi-hop HotpotQA, it achieves an EM score of 63.3, compared to RAG 2.0's 54 and Command R+'s 60.},
        address = {Miami, USA},
-       author = {Simeng Han and et al.},
+       author = {Shayekh Islam and Md Rahman and K Hossain and Enamul Hoque and Shafiq Joty and Md Parvez},
        booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
        publisher = {ACL},
-       series = {EMNLP'24},
-       title = {{FOLIO: Natural Language Reasoning with First-Order Logic}},
-       url = {https://arxiv.org/abs/2209.00840},
+       series = {EMNLP'24 Findings},
+       title = {{Open-RAG: Enhanced Retrieval Augmented Reasoning with Open-Source Large Language Models}},
+       url = {},
        year = {2024}
       }
       
