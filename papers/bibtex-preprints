@@ -21,6 +21,16 @@
       url={https://arxiv.org/abs/2409.09916}, 
 }
 
+@InProceedings{Zhenmei-gem,
+      title={Discovering the Gems in Early Layers: Accelerating Long-Context LLMs with 1000x Input Token Reduction}, 
+      author={Zhenmei Shi and Yifei Ming and Xuan-Phi Nguyen and Yingyu Liang and Shafiq Joty},
+      year={2024},
+      series    = {cs.CL},
+      publisher = {Arxiv},
+      address   = {Arxiv}, 
+      url={https://arxiv.org/abs/2409.17422}, 
+}
+
 
 @InProceedings{Chen-et-al-arxiv-24,
   author = {Hailin Chen and Fangkai Jiao and Xingxuan Li and Chengwei Qin and Mathieu Ravaut and Ruochen Zhao and Caiming Xiong and Shafiq Joty},
