@@ -7202,6 +7202,38 @@
     year: 2024
     selected: no
     title: >
+      Investigating the prompt leakage effect and black-box defenses for multi-turn LLM interactions
+    authors: Divyansh Agarwal, Alexander Fabbri, Philippe Laban, Shafiq Joty, Caiming Xiong, and Chien-Sheng Wu
+    id: Divyansh-emnlp-24
+    img: Divyansh-emnlp-24-fig
+    slides: media/Divyansh-emnlp-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP'24 Industry Track</b>)
+    doc-url: https://arxiv.org/abs/2404.16251
+    abstract: >
+      Prompt leakage poses a compelling security and privacy threat in LLM applications. Leakage of system prompts may compromise intellectual property, and act as adversarial reconnaissance for an attacker. A systematic evaluation of prompt leakage threats and mitigation strategies is lacking, especially for multi-turn LLM interactions. In this paper, we systematically investigate LLM vulnerabilities against prompt leakage for 10 closed- and open-source LLMs, across four domains. We design a unique threat model which leverages the LLM sycophancy effect and elevates the average attack success rate (ASR) from 17.7% to 86.2% in a multi-turn setting. Our standardized setup further allows dissecting leakage of specific prompt contents such as task instructions and knowledge documents. We measure the mitigation effect of 7 black-box defense strategies, along with finetuning an open-source model to defend against leakage attempts. We present different combination of defenses against our threat model, including a cost analysis. Our study highlights key takeaways for building secure LLM applications and provides directions for research in multi-turn LLM interactions.
+    bibtex: >
+      @inproceedings{Divyansh-emnlp-24,
+       abstract = {Prompt leakage poses a compelling security and privacy threat in LLM applications. Leakage of system prompts may compromise intellectual property, and act as adversarial reconnaissance for an attacker. A systematic evaluation of prompt leakage threats and mitigation strategies is lacking, especially for multi-turn LLM interactions. In this paper, we systematically investigate LLM vulnerabilities against prompt leakage for 10 closed- and open-source LLMs, across four domains. We design a unique threat model which leverages the LLM sycophancy effect and elevates the average attack success rate (ASR) from 17.7% to 86.2% in a multi-turn setting. Our standardized setup further allows dissecting leakage of specific prompt contents such as task instructions and knowledge documents. We measure the mitigation effect of 7 black-box defense strategies, along with finetuning an open-source model to defend against leakage attempts. We present different combination of defenses against our threat model, including a cost analysis. Our study highlights key takeaways for building secure LLM applications and provides directions for research in multi-turn LLM interactions.},
+       address = {Miami, USA},
+       author = {Divyansh Agarwal and Alexander Fabbri and Philippe Laban and Shafiq Joty and Caiming Xiong and Chien-Sheng Wu},
+       booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+       publisher = {ACL},
+       series = {EMNLP'24 Industry Track},
+       title = {{Investigating the prompt leakage effect and black-box defenses for multi-turn LLM interactions}},
+       url = {https://arxiv.org/abs/2404.16251},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
       P-FOLIO: Evaluating and Improving Logical Reasoning with Abundant Human-Written Reasoning Chains
     authors: SIMENG HAN, Aaron Yu, Rui Shen, Zhenting Qi, Martin Riddell, Wenfei Zhou, Yujie Qiao, Yilun Zhao, Semih Yavuz, Ye Liu, Shafiq Joty, Yingbo Zhou, Caiming Xiong, Rex Ying, Arman Cohan, and Dragomir Radev
     id: Han-et-al-arxiv-24
