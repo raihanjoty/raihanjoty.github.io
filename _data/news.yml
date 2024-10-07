@@ -1,3 +1,6 @@
+  - date: 06-Oct-2024
+    text: > 
+     Released <a href=https://x.com/Benioff/status/1837632371107287080> SFR-RAG</a>, <a href=https://blog.salesforceairesearch.com/sfr-judge/> SFR-Judge </a>, <a href=https://github.com/SalesforceAIResearch/GemFilter> GemFilter </a>, <a href=https://github.com/SalesforceAIResearch/FaithEval> FaithEval </a>, and <a href=https://blog.salesforceairesearch.com/llm-benchmark-crm/>CRM Benchmarks</a>  
   - date: 20-Apr-2024
     text: > 
       Gave in-person invited talk at  <a href="https://www.clsp.jhu.edu/events/shafiq-joty-salesforce-research-unleash-the-potential-of-llms-through-task-and-data-engineering/?instance_id=3379"> JHU CSLP</a>. Thanks Kevin Duh, Jason Eisner and Philipp Koehn for inviting me.    
@@ -6,19 +9,9 @@
     text: > 
       Gave a tutorial on <a href="https://nlp4vis.github.io/"> LLM+Vis at EMNLP-23 </a> and four keynotes on LLMs: (a) <a href="https://llm-ai.github.io/llmai/"> LLM-AI workshop @KDD-23,</a> (b) <a href="https://cbrcconferences.kaust.edu.sa/frontiers-in-computing/speakers">KAUST Research Conference,</a> (c) <a href="https://twitter.com/QatarComputing/status/1696108292710310198">QCRI LLM Seminar</a>, and (d) <a href="https://ctrlnlg.github.io/">Taming LLMs workshop @SIGDIAL-23</a>  <a href="https://raihanjoty.github.io/talks/Talk-2023-LLM.pdf"> (slides) </a>
 
-  - date: 15-Jul-2023
-    text: > 
-      <a href="https://taasnim.github.io/"> Tasnim Mohiuddin </a> became <font color="FF0000"> 1st runner up for the SCSE best PhD thesis award 2022 </font> <br> 
-      <a href="https://dxlong2000.github.io/"> DO XUAN LONG </a> (undergrad) has been awarded <a href=https://www.ntu.edu.sg/spms/about-us/awards/student-awards#spms-undergrad-award> SPMS Outstanding Undergraduate Award 2023 </a>
-
   - date: 30-Jun-2023
     text: > 
      Released XGen-7B LLM that supports 8K sequence length (<a href="https://github.com/salesforce/xGen?ref=blog.salesforceairesearch.com">Code</a>, <a href="https://blog.salesforceairesearch.com/xgen/">Blog</a>). <br> Good at both text and code, and specially on long sequence tasks. 
-
-
-  - date: 16-Jul-2023
-    text: > 
-      <a href="https://nxphi47.github.io/">Xuan Phi</a>, <a href="https://shawnlimn.github.io">Lin Xiang</a>, <a href="https://sbmaruf.github.io/"> Saiful Bari</a>, <a href="https://han8931.github.io/">Han-Cheol Moon</a>, and Linlin Liu defended their PhD theses successfully! 
 
   - date: 20-Feb-2023
     text: > 
