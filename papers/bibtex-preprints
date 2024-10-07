@@ -1,7 +1,7 @@
 %% Preprints
 
 @InProceedings{Wang-sfr-judge,
-      title={SFR-RAG: Direct Judgement Preference Optimization}, 
+      title={SFR-Judge: Direct Judgement Preference Optimization}, 
       author={Peifeng Wang and Austin Xu and Yilun Zhou and Caiming Xong and Shafiq Joty},
       year={2024},
       series    = {cs.CL},

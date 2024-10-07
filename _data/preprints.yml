@@ -4,7 +4,7 @@
     year: 2024
     selected: no
     title: >
-      SFR-RAG: Direct Judgement Preference Optimization
+      SFR-Judge: Direct Judgement Preference Optimization
     authors: Peifeng Wang, Austin Xu, Yilun Zhou, Caiming Xong, and Shafiq Joty
     id: Wang-sfr-judge
     img: Wang-sfr-judge-fig
@@ -19,7 +19,7 @@
        author = {Peifeng Wang and Austin Xu and Yilun Zhou and Caiming Xong and Shafiq Joty},
        publisher = {Arxiv},
        series = {cs.CL},
-       title = {SFR-RAG: Direct Judgement Preference Optimization},
+       title = {SFR-Judge: Direct Judgement Preference Optimization},
        url = {https://arxiv.org/abs/2409.14664},
        year = {2024}
       }
