@@ -7007,7 +7007,7 @@
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
-    year: 2024 (<b>Outstanding paper award</b>)
+    year: 2024 (<b style="background-color:DodgerBlue;">Outstanding paper award</b>)
     selected: no
     title: >
       Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing
@@ -7033,7 +7033,7 @@
        series = {EMNLP'24},
        title = {Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing},
        url = {https://arxiv.org/abs/2402.00658},
-       year = {2024 (<b>Outstanding paper award</b>)}
+       year = {2024 (<b style="background-color:DodgerBlue;">Outstanding paper award</b>)}
       }
       
   -
