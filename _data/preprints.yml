@@ -30,23 +30,23 @@
     year: 2024
     selected: no
     title: >
-      SFR-RAG: Towards Contextually Faithful LLMs
-    authors: Xuan-Phi Nguyen, Shrey Pandit, Senthil Purushwalkam, Austin Xu, Hailin Chen, Yifei Ming, Zixuan Ke, Silvio Savarese, Caiming Xong, and Shafiq Joty
-    id: nguyen-sfr-rag
-    img: nguyen-sfr-rag-fig
-    slides: media/nguyen-sfr-rag-slides.pdf
+      FaithEval: Can Your Language Model Stay Faithful to Context, Even If "The Moon is Made of Marshmallows"
+    authors: Yifei Ming, Senthil Purushwalkam, Shrey Pandit, Zixuan Ke, Xuan-Phi Nguyen, Caiming Xiong, and Shafiq Joty
+    id: ming2024faitheval
+    img: ming2024faitheval-fig
+    slides: media/ming2024faitheval-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    doc-url: https://arxiv.org/abs/2409.09916
+    doc-url: https://arxiv.org/abs/2410.03727
     bibtex: >
-      @inproceedings{nguyen-sfr-rag,
+      @inproceedings{ming2024faitheval,
        address = {Arxiv},
-       author = {Xuan-Phi Nguyen and Shrey Pandit and Senthil Purushwalkam and Austin Xu and Hailin Chen and Yifei Ming and Zixuan Ke and Silvio Savarese and Caiming Xong and Shafiq Joty},
+       author = {Yifei Ming and Senthil Purushwalkam and Shrey Pandit and Zixuan Ke and Xuan-Phi Nguyen and Caiming Xiong and Shafiq Joty},
        publisher = {Arxiv},
        series = {cs.CL},
-       title = {SFR-RAG: Towards Contextually Faithful LLMs},
-       url = {https://arxiv.org/abs/2409.09916},
+       title = {FaithEval: Can Your Language Model Stay Faithful to Context, Even If "The Moon is Made of Marshmallows"},
+       url = {https://arxiv.org/abs/2410.03727},
        year = {2024}
       }
       
