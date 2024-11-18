@@ -7007,10 +7007,10 @@
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
-    year: 2024
+    year: 2024 (<b>Outstanding paper award</b>)
     selected: no
     title: >
-      Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing (<b> Outstanding paper award </b>)
+      Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing
     authors: Fangkai Jiao, Chengwei Qin, Zhengyuan Liu, Nancy Chen, and Shafiq Joty
     id: Jiao-emnlp-24
     img: Jiao-emnlp-24-fig
@@ -7031,9 +7031,9 @@
        booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
        publisher = {ACL},
        series = {EMNLP'24},
-       title = {Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing (<b> Outstanding paper award </b>)},
+       title = {Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing},
        url = {https://arxiv.org/abs/2402.00658},
-       year = {2024}
+       year = {2024 (<b>Outstanding paper award</b>)}
       }
       
   -
