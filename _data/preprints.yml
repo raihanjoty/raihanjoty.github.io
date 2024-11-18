@@ -30,6 +30,32 @@
     year: 2024
     selected: no
     title: >
+      Preference Optimization for Reasoning with Pseudo Feedback
+    authors: Fangkai Jiao, Geyang Guo, Xingxing Zhang, Nancy Chen, Shafiq Joty, and Furu Wei
+    id: Jiao-po
+    img: Jiao-po-fig
+    slides: media/Jiao-po-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    doc-url: 
+    bibtex: >
+      @inproceedings{Jiao-po,
+       address = {Arxiv},
+       author = {Fangkai Jiao and Geyang Guo and Xingxing Zhang and Nancy Chen and Shafiq Joty and Furu Wei},
+       publisher = {Arxiv},
+       series = {cs.CL},
+       title = {Preference Optimization for Reasoning with Pseudo Feedback},
+       url = {},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2024
+    selected: no
+    title: >
       FaithEval: Can Your Language Model Stay Faithful to Context, Even If "The Moon is Made of Marshmallows"
     authors: Yifei Ming, Senthil Purushwalkam, Shrey Pandit, Zixuan Ke, Xuan-Phi Nguyen, Caiming Xiong, and Shafiq Joty
     id: ming2024faitheval
