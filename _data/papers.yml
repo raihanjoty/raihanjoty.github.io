@@ -7010,7 +7010,7 @@
     year: 2024
     selected: no
     title: >
-      Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing <b style="color:Tomato;">Outstanding paper award)</b>
+      Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing <b style="color:Tomato;">(Outstanding paper award)</b>
     authors: Fangkai Jiao, Chengwei Qin, Zhengyuan Liu, Nancy Chen, and Shafiq Joty
     id: Jiao-emnlp-24
     img: Jiao-emnlp-24-fig
@@ -7031,7 +7031,7 @@
        booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
        publisher = {ACL},
        series = {EMNLP'24},
-       title = {Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing <b style="color:Tomato;">Outstanding paper award)</b>},
+       title = {Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing <b style="color:Tomato;">(Outstanding paper award)</b>},
        url = {https://arxiv.org/abs/2402.00658},
        year = {2024}
       }
@@ -7867,6 +7867,56 @@
     year: 2024
     selected: yes
     title: >
+      From Pixels to Insights: A Survey on Automatic Chart Understanding in the Era of Large Foundation Models
+    authors: Kung-Hsiang Huang, Hou Chan, Yi Fung, Haoyi Qiu, Mingyang Zhou, Shafiq Joty, Shih-Fu Chang, and Heng Ji
+    id: Huang-et-al-tkde
+    img: Huang-et-al-tkde-fig
+    slides: # e.g. media/$ID.pptx
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: journal
+    journal: IEEE Transactions on Knowledge and Data Engineering (TKDE)
+    doc-url: https://arxiv.org/pdf/2403.12027
+    abstract: >
+      Data visualization in the form of charts plays a pivotal role in data analysis, offering critical insights and aiding in informed decisionmaking. Automatic chart understanding has witnessed significant advancements with the rise of large foundation models in recent years. Foundation models, such as large language models, have revolutionized various natural language processing tasks and are increasingly being applied to chart understanding tasks. This survey paper provides a comprehensive overview of the recent developments, challenges, and future directions in chart understanding within the context of these foundation models. We review fundamental building blocks crucial for studying chart understanding tasks. Additionally, we explore various tasks and their evaluation metrics and sources of both charts and textual inputs. Various modeling strategies are then examined, encompassing both classification-based and generation-based approaches, along with tool augmentation techniques that enhance chart understanding performance. Furthermore, we discuss the state-of-the-art performance of each task and discuss how we can improve the performance. Challenges and future directions are addressed, highlighting the importance of several topics, such as domain-specific charts, lack of efforts in developing evaluation metrics, and agent-oriented settings. This survey paper serves as a comprehensive resource for researchers and practitioners in the fields of natural language processing, computer vision, and data analysis, providing valuable insights and directions for future research in chart understanding leveraging large foundation models. The studies mentioned in this paper, along with emerging new research, will be continually updated at: https://github.com/khuangaf/Awesome-Chart-Understanding
+    bibtex: >
+      @article{Huang-et-al-tkde,
+       abstract = {Data visualization in the form of charts plays a pivotal role in
+      data analysis, offering critical insights and aiding in informed decisionmaking. Automatic chart understanding has witnessed significant advancements with the rise of large foundation models in recent years.
+      Foundation models, such as large language models, have revolutionized
+      various natural language processing tasks and are increasingly being
+      applied to chart understanding tasks. This survey paper provides a
+      comprehensive overview of the recent developments, challenges, and
+      future directions in chart understanding within the context of these
+      foundation models. We review fundamental building blocks crucial for
+      studying chart understanding tasks. Additionally, we explore various tasks
+      and their evaluation metrics and sources of both charts and textual inputs.
+      Various modeling strategies are then examined, encompassing both
+      classification-based and generation-based approaches, along with tool
+      augmentation techniques that enhance chart understanding performance.
+      Furthermore, we discuss the state-of-the-art performance of each task
+      and discuss how we can improve the performance. Challenges and future
+      directions are addressed, highlighting the importance of several topics,
+      such as domain-specific charts, lack of efforts in developing evaluation
+      metrics, and agent-oriented settings. This survey paper serves as a
+      comprehensive resource for researchers and practitioners in the fields
+      of natural language processing, computer vision, and data analysis, providing valuable insights and directions for future research in chart understanding leveraging large foundation models. The studies mentioned in
+      this paper, along with emerging new research, will be continually updated
+      at: https://github.com/khuangaf/Awesome-Chart-Understanding},
+       author = {Kung-Hsiang Huang and Hou Chan and Yi Fung and Haoyi Qiu and Mingyang Zhou and Shafiq Joty and Shih-Fu Chang and Heng Ji},
+       journal = {IEEE Transactions on Knowledge and Data Engineering (TKDE)},
+       series = {TKDE},
+       title = {{From Pixels to Insights: A Survey on Automatic Chart Understanding in the Era of Large Foundation Models}},
+       url = {https://arxiv.org/pdf/2403.12027},
+       year = {2024}
+      }
+      
+  -
+    layout: paper
+    paper-type: article #changes display of reference in paper list
+    year: 2024
+    selected: yes
+    title: >
       Improving conversational recommender system via contextual and time-aware modeling with less domain-specific knowledge
     authors: Lingzhi Wang, Shafiq Joty, Wei Gao, Xingshan Zeng, and Kam-Fai Wong
     id: Wang-et-al-tkde
@@ -7955,56 +8005,6 @@
        series = {EACL-24},
        title = {{Efficiently Aligned Cross-Lingual Transfer Learning for Conversational Tasks using Prompt-Tuning}},
        url = {https://arxiv.org/abs/2304.01295},
-       year = {2024}
-      }
-      
-  -
-    layout: paper
-    paper-type: article #changes display of reference in paper list
-    year: 2024
-    selected: yes
-    title: >
-      From Pixels to Insights: A Survey on Automatic Chart Understanding in the Era of Large Foundation Models
-    authors: Kung-Hsiang Huang, Hou Chan, Yi Fung, Haoyi Qiu, Mingyang Zhou, Shafiq Joty, Shih-Fu Chang, and Heng Ji
-    id: Huang-et-al-tkde
-    img: Huang-et-al-tkde-fig
-    slides: # e.g. media/$ID.pptx
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: journal
-    journal: IEEE Transactions on Knowledge and Data Engineering (TKDE)
-    doc-url: https://arxiv.org/pdf/2403.12027
-    abstract: >
-      Data visualization in the form of charts plays a pivotal role in data analysis, offering critical insights and aiding in informed decisionmaking. Automatic chart understanding has witnessed significant advancements with the rise of large foundation models in recent years. Foundation models, such as large language models, have revolutionized various natural language processing tasks and are increasingly being applied to chart understanding tasks. This survey paper provides a comprehensive overview of the recent developments, challenges, and future directions in chart understanding within the context of these foundation models. We review fundamental building blocks crucial for studying chart understanding tasks. Additionally, we explore various tasks and their evaluation metrics and sources of both charts and textual inputs. Various modeling strategies are then examined, encompassing both classification-based and generation-based approaches, along with tool augmentation techniques that enhance chart understanding performance. Furthermore, we discuss the state-of-the-art performance of each task and discuss how we can improve the performance. Challenges and future directions are addressed, highlighting the importance of several topics, such as domain-specific charts, lack of efforts in developing evaluation metrics, and agent-oriented settings. This survey paper serves as a comprehensive resource for researchers and practitioners in the fields of natural language processing, computer vision, and data analysis, providing valuable insights and directions for future research in chart understanding leveraging large foundation models. The studies mentioned in this paper, along with emerging new research, will be continually updated at: https://github.com/khuangaf/Awesome-Chart-Understanding
-    bibtex: >
-      @article{Huang-et-al-tkde,
-       abstract = {Data visualization in the form of charts plays a pivotal role in
-      data analysis, offering critical insights and aiding in informed decisionmaking. Automatic chart understanding has witnessed significant advancements with the rise of large foundation models in recent years.
-      Foundation models, such as large language models, have revolutionized
-      various natural language processing tasks and are increasingly being
-      applied to chart understanding tasks. This survey paper provides a
-      comprehensive overview of the recent developments, challenges, and
-      future directions in chart understanding within the context of these
-      foundation models. We review fundamental building blocks crucial for
-      studying chart understanding tasks. Additionally, we explore various tasks
-      and their evaluation metrics and sources of both charts and textual inputs.
-      Various modeling strategies are then examined, encompassing both
-      classification-based and generation-based approaches, along with tool
-      augmentation techniques that enhance chart understanding performance.
-      Furthermore, we discuss the state-of-the-art performance of each task
-      and discuss how we can improve the performance. Challenges and future
-      directions are addressed, highlighting the importance of several topics,
-      such as domain-specific charts, lack of efforts in developing evaluation
-      metrics, and agent-oriented settings. This survey paper serves as a
-      comprehensive resource for researchers and practitioners in the fields
-      of natural language processing, computer vision, and data analysis, providing valuable insights and directions for future research in chart understanding leveraging large foundation models. The studies mentioned in
-      this paper, along with emerging new research, will be continually updated
-      at: https://github.com/khuangaf/Awesome-Chart-Understanding},
-       author = {Kung-Hsiang Huang and Hou Chan and Yi Fung and Haoyi Qiu and Mingyang Zhou and Shafiq Joty and Shih-Fu Chang and Heng Ji},
-       journal = {IEEE Transactions on Knowledge and Data Engineering (TKDE)},
-       series = {TKDE},
-       title = {{From Pixels to Insights: A Survey on Automatic Chart Understanding in the Era of Large Foundation Models}},
-       url = {https://arxiv.org/pdf/2403.12027},
        year = {2024}
       }
       
