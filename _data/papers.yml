@@ -7875,7 +7875,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
-    journal: IEEE Transactions on Knowledge and Data Engineering
+    journal: IEEE Transactions on Knowledge and Data Engineering (TKDE)
     doc-url: https://arxiv.org/pdf/2209.11386
     abstract: >
       Conversational Recommender Systems (CRS) has become an emerging research topic seeking to perform recommendations through interactive conversations, which generally consist of generation and recommendation modules. Prior work on CRS tends to incorporate more external and domain-specific knowledge like item reviews to enhance performance. Despite the fact that the collection and annotation of the external domain-specific information needs much human effort and degenerates the generalizability, too much extra knowledge introduces more difficulty to balance among them. Therefore, we propose to fully discover and extract the internal knowledge from the context. We capture both entity-level and contextual-level representations to jointly model user preferences for the recommendation, where a time-aware attention is designed to emphasize the recently appeared items in entity-level representations. We further use the pre-trained BART to initialize the generation module to alleviate the data scarcity and enhance the context modeling. In addition to conducting experiments on a popular dataset (ReDial), we also include a multi-domain dataset (OpenDialKG) to show the effectiveness of our model. Experiments on both datasets show that our model achieves better performance on most evaluation metrics with less external knowledge and generalizes well to other domains. Additional analyses on the recommendation and generation tasks demonstrate the effectiveness of our model in different scenarios.
@@ -7883,7 +7883,7 @@
       @article{Wang-et-al-tkde,
        abstract = {Conversational Recommender Systems (CRS) has become an emerging research topic seeking to perform recommendations through interactive conversations, which generally consist of generation and recommendation modules. Prior work on CRS tends to incorporate more external and domain-specific knowledge like item reviews to enhance performance. Despite the fact that the collection and annotation of the external domain-specific information needs much human effort and degenerates the generalizability, too much extra knowledge introduces more difficulty to balance among them. Therefore, we propose to fully discover and extract the internal knowledge from the context. We capture both entity-level and contextual-level representations to jointly model user preferences for the recommendation, where a time-aware attention is designed to emphasize the recently appeared items in entity-level representations. We further use the pre-trained BART to initialize the generation module to alleviate the data scarcity and enhance the context modeling. In addition to conducting experiments on a popular dataset (ReDial), we also include a multi-domain dataset (OpenDialKG) to show the effectiveness of our model. Experiments on both datasets show that our model achieves better performance on most evaluation metrics with less external knowledge and generalizes well to other domains. Additional analyses on the recommendation and generation tasks demonstrate the effectiveness of our model in different scenarios.},
        author = {Lingzhi Wang and Shafiq Joty and Wei Gao and Xingshan Zeng and Kam-Fai Wong},
-       journal = {IEEE Transactions on Knowledge and Data Engineering},
+       journal = {IEEE Transactions on Knowledge and Data Engineering (TKDE)},
        series = {TKDE},
        title = {{Improving conversational recommender system via contextual and time-aware modeling with less domain-specific knowledge}},
        url = {https://arxiv.org/pdf/2209.11386},
@@ -7972,7 +7972,7 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: journal
-    journal: IEEE Transactions on Knowledge and Data Engineering
+    journal: IEEE Transactions on Knowledge and Data Engineering (TKDE)
     doc-url: https://arxiv.org/pdf/2403.12027
     abstract: >
       Data visualization in the form of charts plays a pivotal role in data analysis, offering critical insights and aiding in informed decisionmaking. Automatic chart understanding has witnessed significant advancements with the rise of large foundation models in recent years. Foundation models, such as large language models, have revolutionized various natural language processing tasks and are increasingly being applied to chart understanding tasks. This survey paper provides a comprehensive overview of the recent developments, challenges, and future directions in chart understanding within the context of these foundation models. We review fundamental building blocks crucial for studying chart understanding tasks. Additionally, we explore various tasks and their evaluation metrics and sources of both charts and textual inputs. Various modeling strategies are then examined, encompassing both classification-based and generation-based approaches, along with tool augmentation techniques that enhance chart understanding performance. Furthermore, we discuss the state-of-the-art performance of each task and discuss how we can improve the performance. Challenges and future directions are addressed, highlighting the importance of several topics, such as domain-specific charts, lack of efforts in developing evaluation metrics, and agent-oriented settings. This survey paper serves as a comprehensive resource for researchers and practitioners in the fields of natural language processing, computer vision, and data analysis, providing valuable insights and directions for future research in chart understanding leveraging large foundation models. The studies mentioned in this paper, along with emerging new research, will be continually updated at: https://github.com/khuangaf/Awesome-Chart-Understanding
@@ -8001,7 +8001,7 @@
       this paper, along with emerging new research, will be continually updated
       at: https://github.com/khuangaf/Awesome-Chart-Understanding},
        author = {Kung-Hsiang Huang and Hou Chan and Yi Fung and Haoyi Qiu and Mingyang Zhou and Shafiq Joty and Shih-Fu Chang and Heng Ji},
-       journal = {IEEE Transactions on Knowledge and Data Engineering},
+       journal = {IEEE Transactions on Knowledge and Data Engineering (TKDE)},
        series = {TKDE},
        title = {{From Pixels to Insights: A Survey on Automatic Chart Understanding in the Era of Large Foundation Models}},
        url = {https://arxiv.org/pdf/2403.12027},
