@@ -7926,7 +7926,7 @@
     errata: #if you have errata, insert here
     venue: journal
     journal: IEEE Transactions on Knowledge and Data Engineering (TKDE)
-    doc-url: https://arxiv.org/pdf/2209.11386
+    doc-url: https://www.computer.org/csdl/journal/tk/2024/11/10521846/1WKBx9RRuWQ
     abstract: >
       Conversational Recommender Systems (CRS) has become an emerging research topic seeking to perform recommendations through interactive conversations, which generally consist of generation and recommendation modules. Prior work on CRS tends to incorporate more external and domain-specific knowledge like item reviews to enhance performance. Despite the fact that the collection and annotation of the external domain-specific information needs much human effort and degenerates the generalizability, too much extra knowledge introduces more difficulty to balance among them. Therefore, we propose to fully discover and extract the internal knowledge from the context. We capture both entity-level and contextual-level representations to jointly model user preferences for the recommendation, where a time-aware attention is designed to emphasize the recently appeared items in entity-level representations. We further use the pre-trained BART to initialize the generation module to alleviate the data scarcity and enhance the context modeling. In addition to conducting experiments on a popular dataset (ReDial), we also include a multi-domain dataset (OpenDialKG) to show the effectiveness of our model. Experiments on both datasets show that our model achieves better performance on most evaluation metrics with less external knowledge and generalizes well to other domains. Additional analyses on the recommendation and generation tasks demonstrate the effectiveness of our model in different scenarios.
     bibtex: >
@@ -7936,7 +7936,7 @@
        journal = {IEEE Transactions on Knowledge and Data Engineering (TKDE)},
        series = {TKDE},
        title = {{Improving conversational recommender system via contextual and time-aware modeling with less domain-specific knowledge}},
-       url = {https://arxiv.org/pdf/2209.11386},
+       url = {https://www.computer.org/csdl/journal/tk/2024/11/10521846/1WKBx9RRuWQ},
        year = {2024}
       }
       
