@@ -21,6 +21,6 @@ python3 scripts/parsebib.py papers/bibtex.bib  2>/dev/null  | perl -anpe 's/\t/ 
 
 ```
 
-python2 scripts/migrate.py _data/papers.yml  
+python3 scripts/migrate_new.py _data/papers.yml  
 
 ```
