@@ -4,12 +4,10 @@ It is a fork from Adam Lopez's at https://alopez.github.io
 
 
 
-conda activate py2
-
 
 #Generate papers
 
-
+Sometimes `python3 scripts/parsebib.py papers/bibtex.bib` raises error due to python bib package error. checkout this error if yml file is empty. 
 
 ```
 
