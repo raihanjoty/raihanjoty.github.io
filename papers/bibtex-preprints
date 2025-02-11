@@ -15,16 +15,6 @@
 
 
 
-@InProceedings{ming2024faitheval,
-  title = {FaithEval: Can Your Language Model Stay Faithful to Context, Even If "The Moon is Made of Marshmallows"},
-  author = {Yifei Ming and Senthil Purushwalkam and Shrey Pandit and Zixuan Ke and Xuan-Phi Nguyen and Caiming Xiong and Shafiq Joty},
-  series    = {cs.CL},
-  publisher = {Arxiv},
-  address   = {Arxiv}, 
-  year = {2024},
-  url = {https://arxiv.org/abs/2410.03727}
-}
-
 
 @InProceedings{nguyen-sfr-rag,
       title={SFR-RAG: Towards Contextually Faithful LLMs}, 
