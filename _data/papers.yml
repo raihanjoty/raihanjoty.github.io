@@ -8014,31 +8014,28 @@
     year: 2025
     selected: no
     title: >
-      Efficiently Aligned Cross-Lingual Transfer Learning for Conversational Tasks using Prompt-Tuning
-    authors: Lifu Tu, Jin Qu, Semih Yavuz, Shafiq Joty, Wenhao Liu, Caiming Xiong, and Yingbo Zhou
-    id: Tu-et-al-EACL-25
-    img: Tu-et-al-EACL-25-fig
-    slides: media/Tu-et-al-EACL-25-slides.pdf
+      Preference Optimization for Reasoning with Pseudo Feedback
+    authors: Fangkai Jiao, Geyang Guo, Xingxing Zhang, Nancy F., Shafiq Joty, and Furu Wei
+    id: Jiao-po
+    img: Jiao-po-fig
+    slides: media/Jiao-po-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    pages: 
     booktitle: >
-      In Findings of ACL (<b>EACL-24</b>)
-    doc-url: https://arxiv.org/abs/2304.01295
-    abstract: >
-      Cross-lingual transfer of language models trained on high-resource languages like English has been widely studied for many NLP tasks, but focus on conversational tasks has been rather limited. This is partly due to the high cost of obtaining non-English conversational data, which results in limited coverage. In this work, we introduce for cross-lingual alignment pretraining,  a parallel and large-scale multilingual conversation dataset that we created by translating the English-only Schema-Guided Dialogue (SGD) dataset (Rastogi et al., 2020)  into 105 other languages. XSGD contains about 330k utterances per language. To facilitate aligned cross-lingual representations, we develop an efficient prompt-tuning-based method for learning alignment prompts. We also investigate two different classifiers: NLI-based and vanilla classifiers, and test cross-lingual capability enabled by the aligned prompts. We evaluate our model's cross-lingual generalization capabilities on two conversation tasks: slot-filling and intent classification. Our results demonstrate strong and efficient modeling ability of NLI-based classifiers and the large cross-lingual transfer improvements achieved by our aligned prompts, particularly in few-shot settings. We also conduct studies on large language models (LLMs) such as text-davinci-003 and ChatGPT in both zero- and few-shot settings. While LLMs exhibit impressive performance in English, their cross-lingual capabilities in other languages, particularly low-resource ones, are limited.
+      International Conference on Learning Representations (<b>ICLR-25</b>)
+    doc-url: https://arxiv.org/abs/2411.16345
     bibtex: >
-      @inproceedings{Tu-et-al-EACL-25,
-       abstract = {Cross-lingual transfer of language models trained on high-resource languages like English has been widely studied for many NLP tasks, but focus on conversational tasks has been rather limited. This is partly due to the high cost of obtaining non-English conversational data, which results in limited coverage. In this work, we introduce for cross-lingual alignment pretraining,  a parallel and large-scale multilingual conversation dataset that we created by translating the English-only Schema-Guided Dialogue (SGD) dataset (Rastogi et al., 2020)  into 105 other languages. XSGD contains about 330k utterances per language. To facilitate aligned cross-lingual representations, we develop an efficient prompt-tuning-based method for learning alignment prompts. We also investigate two different classifiers: NLI-based and vanilla classifiers, and test cross-lingual capability enabled by the aligned prompts. We evaluate our model's cross-lingual generalization capabilities on two conversation tasks: slot-filling and intent classification. Our results demonstrate strong and efficient modeling ability of NLI-based classifiers and the large cross-lingual transfer improvements achieved by our aligned prompts, particularly in few-shot settings. We also conduct studies on large language models (LLMs) such as text-davinci-003 and ChatGPT in both zero- and few-shot settings. While LLMs exhibit impressive performance in English, their cross-lingual capabilities in other languages, particularly low-resource ones, are limited.},
-       address = {Malta},
-       author = {Lifu Tu and Jin Qu and Semih Yavuz and Shafiq Joty and Wenhao Liu and Caiming Xiong and Yingbo Zhou},
-       booktitle = {In Findings of ACL},
-       issue = {},
-       pages = {},
-       series = {EACL-24},
-       title = {{Efficiently Aligned Cross-Lingual Transfer Learning for Conversational Tasks using Prompt-Tuning}},
-       url = {https://arxiv.org/abs/2304.01295},
+      @inproceedings{Jiao-po,
+       address = {Singapore},
+       archiveprefix = {arXiv},
+       author = {Fangkai Jiao and Geyang Guo and Xingxing Zhang and Nancy F. Chen and Shafiq Joty and Furu Wei},
+       booktitle = {International Conference on Learning Representations},
+       eprint = {2411.16345},
+       primaryclass = {cs.CL},
+       series = {ICLR-25},
+       title = {Preference Optimization for Reasoning with Pseudo Feedback},
+       url = {https://arxiv.org/abs/2411.16345},
        year = {2025}
       }
       

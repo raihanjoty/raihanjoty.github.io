@@ -13,15 +13,7 @@
 }
 
 
-@misc{Jiao-po,
-      title={Preference Optimization for Reasoning with Pseudo Feedback}, 
-      author={Fangkai Jiao and Geyang Guo and Xingxing Zhang and Nancy F. Chen and Shafiq Joty and Furu Wei},
-      year={2024},
-      eprint={2411.16345},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2411.16345}, 
-}
+
 
 @InProceedings{ming2024faitheval,
   title = {FaithEval: Can Your Language Model Stay Faithful to Context, Even If "The Moon is Made of Marshmallows"},
