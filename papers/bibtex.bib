@@ -3929,3 +3929,16 @@ We release our meta-evaluation suite \ours,\footnote{\ours stands for \textbf{R}
   url = {https://aclanthology.org/2025.coling-main.156/},
   abstract = {The acceleration of Large Language Models (LLMs) research has opened up new possibilities for evaluating generated texts. They serve as scalable and economical evaluators, but the question of how reliable these evaluators are has emerged as a crucial research question. Prior research efforts in the meta-evaluation of LLMs as judges limit the prompting of an LLM to a single use to obtain a final evaluation decision. They then compute the agreement between LLMs' outputs and human labels. This lacks interpretability in understanding the evaluation capability of LLMs. In light of this challenge, we propose Decompose and Aggregate, which breaks down the evaluation process into different stages based on pedagogical practices. Our experiments illustrate that it not only provides a more interpretable window for how well LLMs evaluate, but also leads to improvements up to 39.6% for different LLMs on a variety of meta-evaluation benchmarks.},
 }
+
+@InProceedings{Ahmed-coling-25,
+  author = {Ahmed Masry and Megh Thakkar and Aayush Bajaj and Aaryaman Kartha and Enamul Hoque and Shafiq Joty},
+  title     = "{ChartGemma: Visual Instruction-tuning for Chart Reasoning in the Wild}",
+  booktitle = {Proceedings of the 31st International Conference on Computational Linguistics},
+  address   = {Abu Dhabi, UAE},
+  series = {COLING-25},
+  year = {2025},
+  url = {https://arxiv.org/abs/2407.04172},
+  abstract = {Given the ubiquity of charts as a data analysis, visualization, and decision-making tool across industries and sciences, there has been a growing interest in developing pre-trained foundation models as well as general purpose instruction-tuned models for chart understanding and reasoning. However, existing methods suffer crucial drawbacks across two critical axes affecting the performance of chart representation models: they are trained on data generated from underlying data tables of the charts, ignoring the visual trends and patterns in chart images, and use weakly aligned vision-language backbone models for domain-specific training, limiting their generalizability when encountering charts in the wild. We address these important drawbacks and introduce ChartGemma, a novel chart understanding and reasoning model developed over PaliGemma. Rather than relying on underlying data tables, ChartGemma is trained on instruction-tuning data generated directly from chart images, thus capturing both high-level trends and low-level visual information from a diverse set of charts. Our simple approach achieves state-of-the-art results across 5 benchmarks spanning chart summarization, question answering, and fact-checking, and our elaborate qualitative studies on real-world charts show that ChartGemma generates more realistic and factually correct summaries compared to its contemporaries. We release the code, model checkpoints, dataset, and demos at this https URL.},
+}
+
+
