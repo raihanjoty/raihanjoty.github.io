@@ -10,7 +10,7 @@ picture: shafiq
 <div class="row">
       <li> <a href="https://scholar.google.com/citations?user=hR249csAAAAJ&hl=en">
         <img src="img/ico/gs.png" alt=""/> Google scholar listing </a>  </li>
-      <li> <a href=#preprints> <img src="img/ico/paper_icon.png" alt=""/> Preprints</a> </li>
+      <li> <a href=#preprints> <img src="img/ico/paper_icon.png" alt=""/> Selected Preprints</a> </li>
       <li> <a href=#papers> <img src="img/ico/paper_icon.png" alt=""/> Published papers</a> </li>
       <li> <a href=#theses> <img src="img/ico/thesis_icon.jpeg" alt=""/> Theses (PhD and MSc) </a> </li>
 <!--
@@ -28,7 +28,7 @@ picture: shafiq
 <!-- <blockquote><i>I would have written a shorter letter, but I did not have the time.<br/>&mdash;Blaise Pascal</i></blockquote>
 </div> -->
 
-<h4> <a name="preprints"></a>  Preprints (not peer reviewed)</h4>
+<h4> <a name="preprints"></a>  Selected Preprints (not peer reviewed)</h4>
 
 {%assign  years = site.data.preprints | group_by :"year" | sort: "title" | reverse %}
 {% for year in years %}
@@ -37,6 +37,8 @@ picture: shafiq
      {% include paper.html paper=post %}
  {% endfor %}
 {% endfor %}
+
+<hr>
 
 <h4> <a name="papers"></a>  Published papers (journals, confereces, workshops)</h4>
 
