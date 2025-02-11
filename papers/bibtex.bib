@@ -3874,14 +3874,26 @@ at: https://github.com/khuangaf/Awesome-Chart-Understanding},
   abstract = {Large language models (LLMs) have become the norm in natural language processing (NLP), excelling in few-shot in-context learning (ICL) with their remarkable abilities. Nonetheless, the success of ICL largely hinges on the choice of few-shot demonstration examples, making the selection process increasingly crucial. Existing methods have delved into optimizing the quantity and semantic similarity of these examples to improve ICL performances. However, our preliminary experiments indicate that the effectiveness of ICL is limited by the length of the input context. Moreover, varying combinations of few-shot demonstration examples can significantly boost accuracy across different test samples. To address this, we propose a novel method named parallel in-context learning (ParaICL) that effectively utilizes all demonstration examples without exceeding the manageable input context length. ParaICL employs parallel batching to distribute demonstration examples into different batches according to the semantic similarities of the questions in the demonstrations to the test question. It then computes normalized batch semantic scores for each batch. A weighted average semantic objective, constrained by adaptive plausibility, is applied to select the most appropriate tokens. Through extensive experiments, we validate the effectiveness of ParaICL and conduct ablation studies to underscore its design rationale. We further demonstrate that ParaICL can seamlessly integrate with existing methods.}
 }
 
+@InProceedings{Wan-et-al-25,
+  author = {David Wan and Jesse Vig and Mohit Bansal and Shafiq Joty},
+  title     = "{On Positional Bias of Faithfulness for Long-form Summarization}",
+  booktitle={2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+  address   = {New Mexico, USA}, 
+  series = {NAACL-25},
+  year={2025},
+  url = {https://arxiv.org/abs/2410.23609},
+  abstract = {Large Language Models (LLMs) often exhibit positional bias in long-context settings, under-attending to information in the middle of inputs. We investigate the presence of this bias in long-form summarization, its impact on faithfulness, and various techniques to mitigate this bias. To consistently evaluate faithfulness, we first compile a benchmark of eight human-annotated long-form summarization datasets and perform a meta-evaluation of faithfulness metrics. We show that LLM-based faithfulness metrics, though effective with full-context inputs, remain sensitive to document order, indicating positional bias. Analyzing LLM-generated summaries across six datasets, we find a "U-shaped" trend in faithfulness, where LLMs faithfully summarize the beginning and end of documents but neglect middle content. Perturbing document order similarly reveals models are less faithful when important documents are placed in the middle of the input. We find that this behavior is partly due to shifting focus with context length: as context increases, summaries become less faithful, but beyond a certain length, faithfulness improves as the model focuses on the end. Finally, we experiment with different generation techniques to reduce positional bias and find that prompting techniques effectively direct model attention to specific positions, whereas more sophisticated approaches offer limited improvements. Our data and code are available in this https URL.}
+}
+
+
 
 @InProceedings{Li-et-al-arxiv-24,
   author = {Minzhi Li and Zhengyuan Liu and Shumin Deng and Shafiq Joty and Nancy Chen and Min-Yen Kan},
-  title     = "{Decompose and Aggregate: A Step-by-Step Interpretable Evaluation Framework}",
+  title     = "{DnA-Eval: Enhancing Large Language Model Evaluation through Decomposition and Aggregation}",
   booktitle = {Proceedings of the 31st International Conference on Computational Linguistics},
   address   = {Abu Dhabi, UAE},
   series = {COLING-25},
   year = {2025},
-  url = {https://arxiv.org/abs/2405.15329},
+  url = {https://aclanthology.org/2025.coling-main.156/},
   abstract = {The acceleration of Large Language Models (LLMs) research has opened up new possibilities for evaluating generated texts. They serve as scalable and economical evaluators, but the question of how reliable these evaluators are has emerged as a crucial research question. Prior research efforts in the meta-evaluation of LLMs as judges limit the prompting of an LLM to a single use to obtain a final evaluation decision. They then compute the agreement between LLMs' outputs and human labels. This lacks interpretability in understanding the evaluation capability of LLMs. In light of this challenge, we propose Decompose and Aggregate, which breaks down the evaluation process into different stages based on pedagogical practices. Our experiments illustrate that it not only provides a more interpretable window for how well LLMs evaluate, but also leads to improvements up to 39.6% for different LLMs on a variety of meta-evaluation benchmarks.},
 }

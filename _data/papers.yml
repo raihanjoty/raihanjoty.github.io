@@ -8101,7 +8101,38 @@
     year: 2025
     selected: no
     title: >
-      Decompose and Aggregate: A Step-by-Step Interpretable Evaluation Framework
+      On Positional Bias of Faithfulness for Long-form Summarization
+    authors: David Wan, Jesse Vig, Mohit Bansal, and Shafiq Joty
+    id: Wan-et-al-25
+    img: Wan-et-al-25-fig
+    slides: media/Wan-et-al-25-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics (<b>NAACL-25</b>)
+    doc-url: https://arxiv.org/abs/2410.23609
+    abstract: >
+      Large Language Models (LLMs) often exhibit positional bias in long-context settings, under-attending to information in the middle of inputs. We investigate the presence of this bias in long-form summarization, its impact on faithfulness, and various techniques to mitigate this bias. To consistently evaluate faithfulness, we first compile a benchmark of eight human-annotated long-form summarization datasets and perform a meta-evaluation of faithfulness metrics. We show that LLM-based faithfulness metrics, though effective with full-context inputs, remain sensitive to document order, indicating positional bias. Analyzing LLM-generated summaries across six datasets, we find a "U-shaped" trend in faithfulness, where LLMs faithfully summarize the beginning and end of documents but neglect middle content. Perturbing document order similarly reveals models are less faithful when important documents are placed in the middle of the input. We find that this behavior is partly due to shifting focus with context length: as context increases, summaries become less faithful, but beyond a certain length, faithfulness improves as the model focuses on the end. Finally, we experiment with different generation techniques to reduce positional bias and find that prompting techniques effectively direct model attention to specific positions, whereas more sophisticated approaches offer limited improvements. Our data and code are available in this https URL.
+    bibtex: >
+      @inproceedings{Wan-et-al-25,
+       abstract = {Large Language Models (LLMs) often exhibit positional bias in long-context settings, under-attending to information in the middle of inputs. We investigate the presence of this bias in long-form summarization, its impact on faithfulness, and various techniques to mitigate this bias. To consistently evaluate faithfulness, we first compile a benchmark of eight human-annotated long-form summarization datasets and perform a meta-evaluation of faithfulness metrics. We show that LLM-based faithfulness metrics, though effective with full-context inputs, remain sensitive to document order, indicating positional bias. Analyzing LLM-generated summaries across six datasets, we find a "U-shaped" trend in faithfulness, where LLMs faithfully summarize the beginning and end of documents but neglect middle content. Perturbing document order similarly reveals models are less faithful when important documents are placed in the middle of the input. We find that this behavior is partly due to shifting focus with context length: as context increases, summaries become less faithful, but beyond a certain length, faithfulness improves as the model focuses on the end. Finally, we experiment with different generation techniques to reduce positional bias and find that prompting techniques effectively direct model attention to specific positions, whereas more sophisticated approaches offer limited improvements. Our data and code are available in this https URL.},
+       address = {New Mexico, USA},
+       author = {David Wan and Jesse Vig and Mohit Bansal and Shafiq Joty},
+       booktitle = {2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+       series = {NAACL-25},
+       title = {{On Positional Bias of Faithfulness for Long-form Summarization}},
+       url = {https://arxiv.org/abs/2410.23609},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
+      DnA-Eval: Enhancing Large Language Model Evaluation through Decomposition and Aggregation
     authors: Minzhi Li, Zhengyuan Liu, Shumin Deng, Shafiq Joty, Nancy Chen, and Min-Yen Kan
     id: Li-et-al-arxiv-24
     img: Li-et-al-arxiv-24-fig
@@ -8111,7 +8142,7 @@
     venue: conference
     booktitle: >
       Proceedings of the 31st International Conference on Computational Linguistics (<b>COLING-25</b>)
-    doc-url: https://arxiv.org/abs/2405.15329
+    doc-url: https://aclanthology.org/2025.coling-main.156/
     abstract: >
       The acceleration of Large Language Models (LLMs) research has opened up new possibilities for evaluating generated texts. They serve as scalable and economical evaluators, but the question of how reliable these evaluators are has emerged as a crucial research question. Prior research efforts in the meta-evaluation of LLMs as judges limit the prompting of an LLM to a single use to obtain a final evaluation decision. They then compute the agreement between LLMs' outputs and human labels. This lacks interpretability in understanding the evaluation capability of LLMs. In light of this challenge, we propose Decompose and Aggregate, which breaks down the evaluation process into different stages based on pedagogical practices. Our experiments illustrate that it not only provides a more interpretable window for how well LLMs evaluate, but also leads to improvements up to 39.6% for different LLMs on a variety of meta-evaluation benchmarks.
     bibtex: >
@@ -8121,8 +8152,8 @@
        author = {Minzhi Li and Zhengyuan Liu and Shumin Deng and Shafiq Joty and Nancy Chen and Min-Yen Kan},
        booktitle = {Proceedings of the 31st International Conference on Computational Linguistics},
        series = {COLING-25},
-       title = {{Decompose and Aggregate: A Step-by-Step Interpretable Evaluation Framework}},
-       url = {https://arxiv.org/abs/2405.15329},
+       title = {{DnA-Eval: Enhancing Large Language Model Evaluation through Decomposition and Aggregation}},
+       url = {https://aclanthology.org/2025.coling-main.156/},
        year = {2025}
       }
       
