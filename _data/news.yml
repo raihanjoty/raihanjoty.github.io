@@ -1,6 +1,12 @@
+  - date: 25-Feb-2025
+    text: > 
+     Received a presidential award FY'25 from Salesforce (one of the 0.5% employees!) 
+  - date: 20-Feb-2025
+    text: > 
+     Released <a href=https://x.com/JotyShafiq/status/1887342868563681375> Process DPO from Pseudo Feedback </a>, <a href=https://github.com/SalesforceAIResearch/FinDAP> Fin-DAP</a> 
   - date: 06-Oct-2024
     text: > 
-     Released <a href=https://x.com/Benioff/status/1837632371107287080> SFR-RAG</a>, <a href=https://blog.salesforceairesearch.com/sfr-judge/> SFR-Judge</a>, <a href=https://github.com/SalesforceAIResearch/GemFilter>GemFilter</a>, <a href=https://github.com/SalesforceAIResearch/FaithEval>FaithEval</a>, and <a href=https://blog.salesforceairesearch.com/llm-benchmark-crm/>CRM Benchmarks</a>  
+     Released <a href=https://x.com/Benioff/status/1837632371107287080> SFR-RAG</a>, <a href=https://blog.salesforceairesearch.com/sfr-judge/> SFR-Judge</a>, <a href=https://github.com/SalesforceAIResearch/FinDAP> Fin-DAP</a>, <a href=https://github.com/SalesforceAIResearch/GemFilter>GemFilter</a>, <a href=https://github.com/SalesforceAIResearch/FaithEval>FaithEval</a>, and <a href=https://blog.salesforceairesearch.com/llm-benchmark-crm/>CRM Benchmarks</a>  
   - date: 20-Apr-2024
     text: > 
       Gave in-person invited talk at  <a href="https://www.clsp.jhu.edu/events/shafiq-joty-salesforce-research-unleash-the-potential-of-llms-through-task-and-data-engineering/?instance_id=3379"> JHU CSLP</a>. Thanks Kevin Duh, Jason Eisner and Philipp Koehn for inviting me.    
