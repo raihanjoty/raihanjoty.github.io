@@ -1,7 +1,7 @@
   -
     layout: paper
     paper-type: misc #changes display of reference in paper list
-    year: 2024-2025
+    year: 2025
     selected: no
     title: >
       Does Context Matter? ContextualJudgeBench for Evaluating LLM-based Judges in Contextual Settings
@@ -21,13 +21,13 @@
        primaryclass = {cs.CL},
        title = {Does Context Matter? ContextualJudgeBench for Evaluating LLM-based Judges in Contextual Settings},
        url = {https://arxiv.org/abs/2503.15620},
-       year = {2024-2025}
+       year = {2025}
       }
       
   -
     layout: paper
     paper-type: misc #changes display of reference in paper list
-    year: 2024-2025
+    year: 2025
     selected: no
     title: >
       Demystifying Domain-adaptive Post-training for Financial LLMs
@@ -47,13 +47,13 @@
        primaryclass = {cs.CL},
        title = {Demystifying Domain-adaptive Post-training for Financial LLMs},
        url = {https://arxiv.org/abs/2501.04961},
-       year = {2024-2025}
+       year = {2025}
       }
       
   -
     layout: paper
     paper-type: misc #changes display of reference in paper list
-    year: 2024-2025
+    year: 2025
     selected: no
     title: >
       StructTest: Benchmarking LLMs' Reasoning through Compositional Structured Outputs
@@ -73,13 +73,13 @@
        primaryclass = {cs.CL},
        title = {StructTest: Benchmarking LLMs' Reasoning through Compositional Structured Outputs},
        url = {https://arxiv.org/abs/2412.18011},
-       year = {2024-2025}
+       year = {2025}
       }
       
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
-    year: 2024-2025
+    year: 2025
     selected: no
     title: >
       SFR-Judge: Direct Judgement Preference Optimization
@@ -99,13 +99,13 @@
        series = {cs.CL},
        title = {SFR-Judge: Direct Judgement Preference Optimization},
        url = {https://arxiv.org/abs/2409.14664},
-       year = {2024-2025}
+       year = {2025}
       }
       
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
-    year: 2024-2025
+    year: 2025
     selected: no
     title: >
       SFR-RAG: Towards Contextually Faithful LLMs
@@ -125,13 +125,13 @@
        series = {cs.CL},
        title = {SFR-RAG: Towards Contextually Faithful LLMs},
        url = {https://arxiv.org/abs/2409.09916},
-       year = {2024-2025}
+       year = {2025}
       }
       
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
-    year: 2024-2025
+    year: 2025
     selected: no
     title: >
       Discovering the Gems in Early Layers: Accelerating Long-Context LLMs with 1000x Input Token Reduction
@@ -151,13 +151,13 @@
        series = {cs.CL},
        title = {Discovering the Gems in Early Layers: Accelerating Long-Context LLMs with 1000x Input Token Reduction},
        url = {https://arxiv.org/abs/2409.17422},
-       year = {2024-2025}
+       year = {2025}
       }
       
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
-    year: 2024-2025
+    year: 2025
     selected: no
     title: >
       ChatGPT's One-year Anniversary: Are Open-Source Large Language Models Catching up?
@@ -183,13 +183,13 @@
        series = {cs.CL},
        title = {{ChatGPT's One-year Anniversary: Are Open-Source Large Language Models Catching up?}},
        url = {https://arxiv.org/abs/2311.16989},
-       year = {2024-2025}
+       year = {2025}
       }
       
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
-    year: 2024-2025
+    year: 2025
     selected: no
     title: >
       How Much are LLMs Contaminated? A Comprehensive Survey and the LLMSanitize Library
@@ -215,6 +215,6 @@
        series = {cs.CL},
        title = {{How Much are LLMs Contaminated? A Comprehensive Survey and the LLMSanitize Library}},
        url = {https://arxiv.org/abs/2404.00699},
-       year = {2024-2025}
+       year = {2025}
       }
       
