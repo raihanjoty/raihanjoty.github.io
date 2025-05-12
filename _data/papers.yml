@@ -8014,6 +8014,33 @@
     year: 2025
     selected: no
     title: >
+      Evaluating Judges as Evaluators: The JETTS Benchmark of LLM-as-Judges as Test-Time Scaling Evaluators
+    authors: Zhou Yilun, Xu Austin, Wang Peifeng, Xiong Caiming, and Joty Shafiq
+    id: zhou2025evaluating
+    img: zhou2025evaluating-fig
+    slides: media/zhou2025evaluating-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      International Conference on Machine Learning (<b>ICML-25</b>)
+    doc-url: https://arxiv.org/abs/2504.15253
+    bibtex: >
+      @inproceedings{zhou2025evaluating,
+       author = {Zhou Yilun and Xu Austin and Wang Peifeng and Xiong Caiming and Joty Shafiq},
+       booktitle = {International Conference on Machine Learning},
+       series = {ICML-25},
+       title = {Evaluating Judges as Evaluators: The JETTS Benchmark of LLM-as-Judges as Test-Time Scaling Evaluators},
+       url = {https://arxiv.org/abs/2504.15253},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
       Preference Optimization for Reasoning with Pseudo Feedback
     authors: Fangkai Jiao, Geyang Guo, Xingxing Zhang, Nancy F., Shafiq Joty, and Furu Wei
     id: Jiao-po
