@@ -8097,6 +8097,33 @@
     year: 2025
     selected: no
     title: >
+      Judging the Judges: Can Large Vision-Language Models Fairly Evaluate Chart Comprehension and Reasoning?
+    authors: Tahmid Laskar, Mohammed Islam, Ridwan Mahbub, Ahmed Masry, Mizanur Rahman, Amran Bhuiyan, Mir Nayeem, Shafiq Joty, Enamul Hoque, and Jimmy Huang
+    id: tahmid-acl25
+    img: tahmid-acl25-fig
+    slides: media/tahmid-acl25-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (<b>ACL-25 (Industry track)</b>)
+    doc-url: 
+    bibtex: >
+      @inproceedings{tahmid-acl25,
+       author = {Tahmid Laskar and Mohammed Islam and Ridwan Mahbub and Ahmed Masry and Mizanur Rahman and Amran Bhuiyan and Mir  Nayeem and Shafiq Joty and Enamul Hoque and Jimmy Huang},
+       booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics},
+       series = {ACL-25 (Industry track)},
+       title = {Judging the Judges: Can Large Vision-Language Models Fairly Evaluate Chart Comprehension and Reasoning?},
+       url = {},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
       On Positional Bias of Faithfulness for Long-form Summarization
     authors: David Wan, Jesse Vig, Mohit Bansal, and Shafiq Joty
     id: Wan-et-al-25
