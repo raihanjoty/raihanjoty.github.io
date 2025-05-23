@@ -8149,6 +8149,33 @@
     year: 2025
     selected: no
     title: >
+      ChartQAPro: A More Diverse and Challenging Benchmark for Chart Question Answering
+    authors: Ahmed Masry, Mohammed Islam, Mahir Ahmed, Aayush Bajaj, Firoz Kabir, Aaryaman Kartha, Tahmid Laskar, Mizanur Rahman, Shadikur Rahman, Mehrad Shahmohammadi, Megh Thakkar, Rizwan Parvez, Enamul Hoque, and Shafiq Joty
+    id: Ahmed-acl-25
+    img: Ahmed-acl-25-fig
+    slides: media/Ahmed-acl-25-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (<b>ACL-25 Findings</b>)
+    doc-url: https://arxiv.org/abs/2504.05506
+    bibtex: >
+      @inproceedings{Ahmed-acl-25,
+       author = {Ahmed Masry and Mohammed Islam and Mahir Ahmed and Aayush Bajaj and Firoz Kabir and Aaryaman Kartha and Tahmid Laskar and Mizanur Rahman and Shadikur Rahman and Mehrad Shahmohammadi and Megh Thakkar and Rizwan Parvez and Enamul Hoque and Shafiq Joty},
+       booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics},
+       series = {ACL-25 Findings},
+       title = {ChartQAPro: A More Diverse and Challenging Benchmark for Chart Question Answering},
+       url = {https://arxiv.org/abs/2504.05506},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
       Relevant or Random: Can LLMs Truly Perform Analogical Reasoning?
     authors: Chengwei Qin, Wenhan Xia, Tan Wang, Fangkai Jiao, Yuchen Hu, Bosheng Ding, Ruirui Chen, and Shafiq Joty
     id: qin3-acl-25
