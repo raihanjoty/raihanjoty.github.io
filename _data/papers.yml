@@ -8257,6 +8257,33 @@
     year: 2025
     selected: no
     title: >
+      Why Vision Language Models Struggle with Visual Arithmetic? Towards Enhanced Chart and Geometry Understanding
+    authors: Kung-Hsiang Huang, Can Qin, Haoyi Qiu, Philippe Laban, Shafiq Joty, Caiming Xiong, and Chien-Sheng Wu
+    id: Huang-acl-25
+    img: Huang-acl-25-fig
+    slides: media/Huang-acl-25-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (<b>ACL-25 Findings</b>)
+    doc-url: https://arxiv.org/abs/2502.11492
+    bibtex: >
+      @inproceedings{Huang-acl-25,
+       author = {Kung-Hsiang Huang and Can Qin and Haoyi Qiu and Philippe Laban and Shafiq Joty and Caiming Xiong and Chien-Sheng Wu},
+       booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics},
+       series = {ACL-25 Findings},
+       title = {Why Vision Language Models Struggle with Visual Arithmetic? Towards Enhanced Chart and Geometry Understanding},
+       url = {https://arxiv.org/abs/2502.11492},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
       Judging the Judges: Can Large Vision-Language Models Fairly Evaluate Chart Comprehension and Reasoning?
     authors: Tahmid Laskar, Mohammed Islam, Ridwan Mahbub, Ahmed Masry, Mizanur Rahman, Amran Bhuiyan, Mir Nayeem, Shafiq Joty, Enamul Hoque, and Jimmy Huang
     id: tahmid-acl25
