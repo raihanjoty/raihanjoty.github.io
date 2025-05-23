@@ -8068,6 +8068,33 @@
     year: 2025
     selected: no
     title: >
+      Can We Further Elicit Reasoning in LLMs? Critic-Guided Planning with Retrieval-Augmentation for Solving Challenging Tasks
+    authors: Xingxuan Li, Weiwen Xu, Ruochen Zhao, Fangkai Jiao, Shafiq Joty, and Lidong Bing
+    id: xing-acl-25
+    img: xing-acl-25-fig
+    slides: media/xing-acl-25-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (<b>ACL-25</b>)
+    doc-url: https://arxiv.org/abs/2503.15620
+    bibtex: >
+      @inproceedings{xing-acl-25,
+       author = {Xingxuan Li and Weiwen Xu and Ruochen Zhao and Fangkai Jiao and Shafiq Joty and Lidong Bing},
+       booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics},
+       series = {ACL-25},
+       title = {Can We Further Elicit Reasoning in LLMs? Critic-Guided Planning with Retrieval-Augmentation for Solving Challenging Tasks},
+       url = {https://arxiv.org/abs/2503.15620},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
       Evaluating Judges as Evaluators: The JETTS Benchmark of LLM-as-Judges as Test-Time Scaling Evaluators
     authors: Zhou Yilun, Xu Austin, Wang Peifeng, Xiong Caiming, and Joty Shafiq
     id: zhou2025evaluating
