@@ -8041,6 +8041,33 @@
     year: 2025
     selected: no
     title: >
+      Does Context Matter? ContextualJudgeBench for Evaluating LLM-based Judges in Contextual Settings
+    authors: Austin Xu, Srijan Bansal, Yifei Ming, Semih Yavuz, and Shafiq Joty
+    id: xu-acl-25
+    img: xu-acl-25-fig
+    slides: media/xu-acl-25-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (<b>ACL-25</b>)
+    doc-url: https://arxiv.org/abs/2503.15620
+    bibtex: >
+      @inproceedings{xu-acl-25,
+       author = {Austin Xu and Srijan Bansal and Yifei Ming and Semih Yavuz and Shafiq Joty},
+       booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics},
+       series = {ACL-25},
+       title = {Does Context Matter? ContextualJudgeBench for Evaluating LLM-based Judges in Contextual Settings},
+       url = {https://arxiv.org/abs/2503.15620},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
       Preference Optimization for Reasoning with Pseudo Feedback
     authors: Fangkai Jiao, Geyang Guo, Xingxing Zhang, Nancy F., Shafiq Joty, and Furu Wei
     id: Jiao-po

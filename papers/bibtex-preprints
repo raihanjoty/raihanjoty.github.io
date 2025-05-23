@@ -2,15 +2,6 @@
 
 
 
-@misc{xu-acl-25,
-      title={Does Context Matter? ContextualJudgeBench for Evaluating LLM-based Judges in Contextual Settings}, 
-      author={Austin Xu and Srijan Bansal and Yifei Ming and Semih Yavuz and Shafiq Joty},
-      year={2025},
-      eprint={2503.15620},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2503.15620}, 
-}
 
 @misc{ke-acl-25,
       title={Demystifying Domain-adaptive Post-training for Financial LLMs}, 
