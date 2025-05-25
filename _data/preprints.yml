@@ -4,23 +4,49 @@
     year: 2025
     selected: no
     title: >
-      Does Context Matter? ContextualJudgeBench for Evaluating LLM-based Judges in Contextual Settings
-    authors: Austin Xu, Srijan Bansal, Yifei Ming, Semih Yavuz, and Shafiq Joty
-    id: xu-acl-25
-    img: xu-acl-25-fig
-    slides: media/xu-acl-25-slides.pdf
+      J4R: Learning to Judge with Equivalent Initial State Group Relative Policy Optimization
+    authors: Austin Xu, Yilun Zhou, Xuan-Phi Nguyen, Caiming Xiong, and Shafiq Joty
+    id: xu2025j4rlearningjudgeequivalent
+    img: xu2025j4rlearningjudgeequivalent-fig
+    slides: media/xu2025j4rlearningjudgeequivalent-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
-    doc-url: https://arxiv.org/abs/2503.15620
+    doc-url: https://arxiv.org/abs/2505.13346
     bibtex: >
-      @misc{xu-acl-25,
+      @misc{xu2025j4rlearningjudgeequivalent,
        archiveprefix = {arXiv},
-       author = {Austin Xu and Srijan Bansal and Yifei Ming and Semih Yavuz and Shafiq Joty},
-       eprint = {2503.15620},
+       author = {Austin Xu and Yilun Zhou and Xuan-Phi Nguyen and Caiming Xiong and Shafiq Joty},
+       eprint = {2505.13346},
        primaryclass = {cs.CL},
-       title = {Does Context Matter? ContextualJudgeBench for Evaluating LLM-based Judges in Contextual Settings},
-       url = {https://arxiv.org/abs/2503.15620},
+       title = {J4R: Learning to Judge with Equivalent Initial State Group Relative Policy Optimization},
+       url = {https://arxiv.org/abs/2505.13346},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: misc #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
+      A Survey of Frontiers in LLM Reasoning: Inference Scaling, Learning to Reason, and Agentic Systems
+    authors: Zixuan Ke, Fangkai Jiao, Yifei Ming, Xuan-Phi Nguyen, Austin Xu, Do Xuan, Minzhi Li, Chengwei Qin, Peifeng Wang, Silvio Savarese, Caiming Xiong, and Shafiq Joty
+    id: ke2025surveyfrontiersllmreasoning
+    img: ke2025surveyfrontiersllmreasoning-fig
+    slides: media/ke2025surveyfrontiersllmreasoning-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    doc-url: https://arxiv.org/abs/2504.09037
+    bibtex: >
+      @misc{ke2025surveyfrontiersllmreasoning,
+       archiveprefix = {arXiv},
+       author = {Zixuan Ke and Fangkai Jiao and Yifei Ming and Xuan-Phi Nguyen and Austin Xu and Do Xuan Long and Minzhi Li and Chengwei Qin and Peifeng Wang and Silvio Savarese and Caiming Xiong and Shafiq Joty},
+       eprint = {2504.09037},
+       primaryclass = {cs.AI},
+       title = {A Survey of Frontiers in LLM Reasoning: Inference Scaling, Learning to Reason, and Agentic Systems},
+       url = {https://arxiv.org/abs/2504.09037},
        year = {2025}
       }
       
@@ -108,6 +134,38 @@
     year: 2025
     selected: no
     title: >
+      How Much are LLMs Contaminated? A Comprehensive Survey and the LLMSanitize Library
+    authors: Mathieu Ravaut, Bosheng Ding, Fangkai Jiao, Hailin Chen, Xingxuan Li, Ruochen Zhao, Chengwei Qin, Caiming Xiong, and Shafiq Joty
+    id: Ravaut-et-al-arxiv-24
+    img: Ravaut-et-al-arxiv-24-fig
+    slides: media/Ravaut-et-al-arxiv-24-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Arxiv (<b>cs.CL</b>)
+    doc-url: https://arxiv.org/abs/2404.00699
+    abstract: >
+      With the rise of Large Language Models (LLMs) in recent years, new opportunities are emerging, but also new challenges, and contamination is quickly becoming critical. Business applications and fundraising in AI have reached a scale at which a few percentage points gained on popular question-answering benchmarks could translate into dozens of millions of dollars, placing high pressure on model integrity. At the same time, it is becoming harder and harder to keep track of the data that LLMs have seen; if not impossible with closed-source models like GPT-4 and Claude-3 not divulging any information on the training set. As a result, contamination becomes a critical issue: LLMs' performance may not be reliable anymore, as the high performance may be at least partly due to their previous exposure to the data. This limitation jeopardizes the entire progress in the field of NLP, yet, there remains a lack of methods on how to efficiently address contamination, or a clear consensus on prevention, mitigation and classification of contamination. In this paper, we survey all recent work on contamination with LLMs, and help the community track contamination levels of LLMs by releasing an open-source Python library named LLMSanitize implementing major contamination detection algorithms, which link is: this https URL.
+    bibtex: >
+      @inproceedings{Ravaut-et-al-arxiv-24,
+       abstract = {With the rise of Large Language Models (LLMs) in recent years, new opportunities are emerging, but also new challenges, and contamination is quickly becoming critical. Business applications and fundraising in AI have reached a scale at which a few percentage points gained on popular question-answering benchmarks could translate into dozens of millions of dollars, placing high pressure on model integrity. At the same time, it is becoming harder and harder to keep track of the data that LLMs have seen; if not impossible with closed-source models like GPT-4 and Claude-3 not divulging any information on the training set. As a result, contamination becomes a critical issue: LLMs' performance may not be reliable anymore, as the high performance may be at least partly due to their previous exposure to the data. This limitation jeopardizes the entire progress in the field of NLP, yet, there remains a lack of methods on how to efficiently address contamination, or a clear consensus on prevention, mitigation and classification of contamination. In this paper, we survey all recent work on contamination with LLMs, and help the community track contamination levels of LLMs by releasing an open-source Python library named LLMSanitize implementing major contamination detection algorithms, which link is: this https URL.},
+       address = {Arxiv},
+       author = {Mathieu Ravaut and Bosheng Ding and Fangkai Jiao and Hailin Chen and Xingxuan Li and Ruochen Zhao and Chengwei Qin and Caiming Xiong and Shafiq Joty},
+       booktitle = {Arxiv},
+       publisher = {Arxiv},
+       series = {cs.CL},
+       title = {{How Much are LLMs Contaminated? A Comprehensive Survey and the LLMSanitize Library}},
+       url = {https://arxiv.org/abs/2404.00699},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
       SFR-RAG: Towards Contextually Faithful LLMs
     authors: Xuan-Phi Nguyen, Shrey Pandit, Senthil Purushwalkam, Austin Xu, Hailin Chen, Yifei Ming, Zixuan Ke, Silvio Savarese, Caiming Xong, and Shafiq Joty
     id: nguyen-sfr-rag
@@ -183,38 +241,6 @@
        series = {cs.CL},
        title = {{ChatGPT's One-year Anniversary: Are Open-Source Large Language Models Catching up?}},
        url = {https://arxiv.org/abs/2311.16989},
-       year = {2025}
-      }
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2025
-    selected: no
-    title: >
-      How Much are LLMs Contaminated? A Comprehensive Survey and the LLMSanitize Library
-    authors: Mathieu Ravaut, Bosheng Ding, Fangkai Jiao, Hailin Chen, Xingxuan Li, Ruochen Zhao, Chengwei Qin, Caiming Xiong, and Shafiq Joty
-    id: Ravaut-et-al-arxiv-24
-    img: Ravaut-et-al-arxiv-24-fig
-    slides: media/Ravaut-et-al-arxiv-24-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    booktitle: >
-      Arxiv (<b>cs.CL</b>)
-    doc-url: https://arxiv.org/abs/2404.00699
-    abstract: >
-      With the rise of Large Language Models (LLMs) in recent years, new opportunities are emerging, but also new challenges, and contamination is quickly becoming critical. Business applications and fundraising in AI have reached a scale at which a few percentage points gained on popular question-answering benchmarks could translate into dozens of millions of dollars, placing high pressure on model integrity. At the same time, it is becoming harder and harder to keep track of the data that LLMs have seen; if not impossible with closed-source models like GPT-4 and Claude-3 not divulging any information on the training set. As a result, contamination becomes a critical issue: LLMs' performance may not be reliable anymore, as the high performance may be at least partly due to their previous exposure to the data. This limitation jeopardizes the entire progress in the field of NLP, yet, there remains a lack of methods on how to efficiently address contamination, or a clear consensus on prevention, mitigation and classification of contamination. In this paper, we survey all recent work on contamination with LLMs, and help the community track contamination levels of LLMs by releasing an open-source Python library named LLMSanitize implementing major contamination detection algorithms, which link is: this https URL.
-    bibtex: >
-      @inproceedings{Ravaut-et-al-arxiv-24,
-       abstract = {With the rise of Large Language Models (LLMs) in recent years, new opportunities are emerging, but also new challenges, and contamination is quickly becoming critical. Business applications and fundraising in AI have reached a scale at which a few percentage points gained on popular question-answering benchmarks could translate into dozens of millions of dollars, placing high pressure on model integrity. At the same time, it is becoming harder and harder to keep track of the data that LLMs have seen; if not impossible with closed-source models like GPT-4 and Claude-3 not divulging any information on the training set. As a result, contamination becomes a critical issue: LLMs' performance may not be reliable anymore, as the high performance may be at least partly due to their previous exposure to the data. This limitation jeopardizes the entire progress in the field of NLP, yet, there remains a lack of methods on how to efficiently address contamination, or a clear consensus on prevention, mitigation and classification of contamination. In this paper, we survey all recent work on contamination with LLMs, and help the community track contamination levels of LLMs by releasing an open-source Python library named LLMSanitize implementing major contamination detection algorithms, which link is: this https URL.},
-       address = {Arxiv},
-       author = {Mathieu Ravaut and Bosheng Ding and Fangkai Jiao and Hailin Chen and Xingxuan Li and Ruochen Zhao and Chengwei Qin and Caiming Xiong and Shafiq Joty},
-       booktitle = {Arxiv},
-       publisher = {Arxiv},
-       series = {cs.CL},
-       title = {{How Much are LLMs Contaminated? A Comprehensive Survey and the LLMSanitize Library}},
-       url = {https://arxiv.org/abs/2404.00699},
        year = {2025}
       }
       

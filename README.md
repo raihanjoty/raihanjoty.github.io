@@ -15,6 +15,11 @@ python3 scripts/parsebib.py papers/bibtex.bib  2>/dev/null  | perl -anpe 's/\t/ 
 
 ```
 
+or 
+
+python3 scripts/parsebib.py papers/bibtex-preprints.bib  2>/dev/null  | perl -anpe 's/\t/    /g;' > _data/preprints.yml
+
+
 #Create individual pages for papers
 
 ```
