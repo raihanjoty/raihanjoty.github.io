@@ -8352,14 +8352,14 @@
     errata: #if you have errata, insert here
     venue: conference
     booktitle: >
-      International Conference on Learning Representations (<b>ICLR-25 (spotlight)</b>)
+      International Conference on Learning Representations (<b>ICLR-25 spotlight</b>)
     doc-url: https://arxiv.org/abs/2411.16345
     bibtex: >
       @inproceedings{Jiao-po,
        address = {Singapore},
        author = {Fangkai Jiao and Geyang Guo and Xingxing Zhang and Nancy F. Chen and Shafiq Joty and Furu Wei},
        booktitle = {International Conference on Learning Representations},
-       series = {ICLR-25 (spotlight)},
+       series = {ICLR-25 spotlight},
        title = {Preference Optimization for Reasoning with Pseudo Feedback},
        url = {https://arxiv.org/abs/2411.16345},
        year = {2025}
@@ -8542,7 +8542,7 @@
     venue: conference
     pages: 30-37
     booktitle: >
-      Proceedings of the 2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 5: Tutorial Abstracts)
+      2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 5: Tutorial Abstracts) (<b>NAACL-25</b>)
     doc-url: https://aclanthology.org/2025.naacl-tutorial.5/
     abstract: >
       This tutorial on adaptation of Large Language Models (LLMs) is designed to address the growing demand for models that go beyond the static capabilities of generic LLMs by providing an overview of dynamic, domain-specific, and task-adaptive LLM adaptation techniques. While general LLMs have demonstrated strong generalization across a variety of tasks, they often struggle to perform well in specialized domains such as finance, healthcare, and code generation for underrepresented languages. Additionally, their static nature limits their ability to evolve with the changing world, and they are often extremely large in size, making them impractical and costly to deploy at scale. As a result, the adaptation of LLMs has drawn much attention since the birth of LLMs and is of core importance, both for industry, which focuses on serving its targeted users, and academia, which can greatly benefit from small but powerful LLMs
@@ -8553,14 +8553,11 @@
        author = {Ke, Zixuan  and
       Ming, Yifei  and
       Joty, Shafiq},
-       booktitle = {Proceedings of the 2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 5: Tutorial Abstracts)},
-       editor = {Lomeli, Maria  and
-      Swayamdipta, Swabha  and
-      Zhang, Rui},
-       isbn = {979-8-89176-193-3},
+       booktitle = {2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 5: Tutorial Abstracts)},
        month = {May},
        pages = {30--37},
-       publisher = {Association for Computational Linguistics},
+       publisher = {ACL},
+       series = {NAACL-25},
        title = {Adaptation of Large Language Models},
        url = {https://aclanthology.org/2025.naacl-tutorial.5/},
        year = {2025}
