@@ -8069,15 +8069,15 @@
       
   -
     layout: paper
-    paper-type: misc #changes display of reference in paper list
+    paper-type: inproceedings #changes display of reference in paper list
     year: 2025
     selected: no
     title: >
       Generalized Out-of-Distribution Detection and Beyond in Vision Language Model Era: A Survey
     authors: Atsuyuki Miyai, Jingkang Yang, Jingyang Zhang, Yifei Ming, Yueqian Lin, Qing Yu, Go Irie, Shafiq Joty, Yixuan Li, Hai Li, Ziwei Liu, Toshihiko Yamasaki, and Kiyoharu Aizawa
-    id: miyai2025generalizedoutofdistributiondetectionvision
-    img: miyai2025generalizedoutofdistributiondetectionvision-fig
-    slides: media/miyai2025generalizedoutofdistributiondetectionvision-slides.pdf
+    id: miyai2025
+    img: miyai2025-fig
+    slides: media/miyai2025-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
@@ -8085,12 +8085,9 @@
       Transactions on Machine Learning Research (<b>TMLR</b>)
     doc-url: https://github.com/AtsuMiyai/Awesome-OOD-VLM
     bibtex: >
-      @misc{miyai2025generalizedoutofdistributiondetectionvision,
-       archiveprefix = {arXiv},
+      @inproceedings{miyai2025,
        author = {Atsuyuki Miyai and Jingkang Yang and Jingyang Zhang and Yifei Ming and Yueqian Lin and Qing Yu and Go Irie and Shafiq Joty and Yixuan Li and Hai Li and Ziwei Liu and Toshihiko Yamasaki and Kiyoharu Aizawa},
        booktitle = {Transactions on Machine Learning Research},
-       eprint = {2407.21794},
-       primaryclass = {cs.CV},
        publisher = {OpenReview},
        series = {TMLR},
        title = {Generalized Out-of-Distribution Detection and Beyond in Vision Language Model Era: A Survey},
