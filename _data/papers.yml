@@ -8037,7 +8037,7 @@
       
   -
     layout: paper
-    paper-type: misc #changes display of reference in paper list
+    paper-type: inproceedings #changes display of reference in paper list
     year: 2025
     selected: no
     title: >
@@ -8049,11 +8049,14 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
+    booktitle: >
+      Transactions on Machine Learning Research (<b>TMLR</b>)
     doc-url: https://arxiv.org/abs/2504.09037
     bibtex: >
-      @misc{ke2025surveyfrontiersllmreasoning,
+      @inproceedings{ke2025surveyfrontiersllmreasoning,
        address = {Arxiv},
        author = {Zixuan Ke and Fangkai Jiao and Yifei Ming and Xuan-Phi Nguyen and Austin Xu and Do Xuan Long and Minzhi Li and Chengwei Qin and Peifeng Wang and Silvio Savarese and Caiming Xiong and Shafiq Joty},
+       booktitle = {Transactions on Machine Learning Research},
        publisher = {OpenReview},
        series = {TMLR},
        title = {A Survey of Frontiers in LLM Reasoning: Inference Scaling, Learning to Reason, and Agentic Systems},
