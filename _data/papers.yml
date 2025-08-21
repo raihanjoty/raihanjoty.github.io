@@ -8149,6 +8149,33 @@
     year: 2025
     selected: no
     title: >
+      Topic-Guided Reinforcement Learning with LLMs for Enhancing Multi-Document Summarization
+    authors: Chuyuan Li, Austin Xu, Shafiq Joty, and Giuseppe Carenini
+    id: Li-emnlp25
+    img: Li-emnlp25-fig
+    slides: media/Li-emnlp25-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP-25 Findings</b>)
+    doc-url: 
+    bibtex: >
+      @inproceedings{Li-emnlp25,
+       author = {Chuyuan Li and Austin Xu and Shafiq Joty and Giuseppe Carenini},
+       booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+       series = {EMNLP-25 Findings},
+       title = {Topic-Guided Reinforcement Learning with LLMs for Enhancing Multi-Document Summarization},
+       url = {},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
       CodeXEmbed: A Generalist Embedding Model Family for Multilingual and Multi-task Code Retrieval
     authors: Ye Liu, Rui Meng, Shafiq Joty, Silvio Savarese, Caiming Xiong, Yingbo Zhou, and Semih Yavuz
     id: Ye2025
