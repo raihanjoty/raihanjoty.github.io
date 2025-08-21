@@ -8014,6 +8014,33 @@
     year: 2025
     selected: no
     title: >
+      Direct Judgement Preference Optimization
+    authors: Peifeng Wang, Austin Xu, Yilun Zhou, Caiming Xong, and Shafiq Joty
+    id: Wang-sfr-judge
+    img: Wang-sfr-judge-fig
+    slides: media/Wang-sfr-judge-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP-25</b>)
+    doc-url: https://arxiv.org/abs/2409.14664
+    bibtex: >
+      @inproceedings{Wang-sfr-judge,
+       author = {Peifeng Wang and Austin Xu and Yilun Zhou and Caiming Xong and Shafiq Joty},
+       booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+       series = {EMNLP-25},
+       title = {Direct Judgement Preference Optimization},
+       url = {https://arxiv.org/abs/2409.14664},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
       Demystifying Domain-adaptive Post-training for Financial LLMs
     authors: Zixuan Ke, Yifei Ming, Xuan-Phi Nguyen, Caiming Xiong, and Shafiq Joty
     id: ke-acl-25
@@ -8022,13 +8049,14 @@
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
+    booktitle: >
+      Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP-25</b>)
     doc-url: https://arxiv.org/abs/2501.04961
     bibtex: >
       @inproceedings{ke-acl-25,
-       archiveprefix = {arXiv},
        author = {Zixuan Ke and Yifei Ming and Xuan-Phi Nguyen and Caiming Xiong and Shafiq Joty},
+       booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
        eprint = {2501.04961},
-       primaryclass = {cs.CL},
        series = {EMNLP-25},
        title = {Demystifying Domain-adaptive Post-training for Financial LLMs},
        url = {https://arxiv.org/abs/2501.04961},

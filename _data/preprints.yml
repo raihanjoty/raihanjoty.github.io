@@ -56,32 +56,6 @@
     year: 2025
     selected: no
     title: >
-      SFR-Judge: Direct Judgement Preference Optimization
-    authors: Peifeng Wang, Austin Xu, Yilun Zhou, Caiming Xong, and Shafiq Joty
-    id: Wang-sfr-judge
-    img: Wang-sfr-judge-fig
-    slides: media/Wang-sfr-judge-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    doc-url: https://arxiv.org/abs/2409.14664
-    bibtex: >
-      @inproceedings{Wang-sfr-judge,
-       address = {Arxiv},
-       author = {Peifeng Wang and Austin Xu and Yilun Zhou and Caiming Xong and Shafiq Joty},
-       publisher = {Arxiv},
-       series = {cs.CL},
-       title = {SFR-Judge: Direct Judgement Preference Optimization},
-       url = {https://arxiv.org/abs/2409.14664},
-       year = {2025}
-      }
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2025
-    selected: no
-    title: >
       SFR-RAG: Towards Contextually Faithful LLMs
     authors: Xuan-Phi Nguyen, Shrey Pandit, Senthil Purushwalkam, Austin Xu, Hailin Chen, Yifei Ming, Zixuan Ke, Silvio Savarese, Caiming Xong, and Shafiq Joty
     id: nguyen-sfr-rag
