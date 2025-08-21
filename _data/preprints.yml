@@ -30,32 +30,6 @@
     year: 2025
     selected: no
     title: >
-      Demystifying Domain-adaptive Post-training for Financial LLMs
-    authors: Zixuan Ke, Yifei Ming, Xuan-Phi Nguyen, Caiming Xiong, and Shafiq Joty
-    id: ke-acl-25
-    img: ke-acl-25-fig
-    slides: media/ke-acl-25-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    doc-url: https://arxiv.org/abs/2501.04961
-    bibtex: >
-      @misc{ke-acl-25,
-       archiveprefix = {arXiv},
-       author = {Zixuan Ke and Yifei Ming and Xuan-Phi Nguyen and Caiming Xiong and Shafiq Joty},
-       eprint = {2501.04961},
-       primaryclass = {cs.CL},
-       title = {Demystifying Domain-adaptive Post-training for Financial LLMs},
-       url = {https://arxiv.org/abs/2501.04961},
-       year = {2025}
-      }
-      
-  -
-    layout: paper
-    paper-type: misc #changes display of reference in paper list
-    year: 2025
-    selected: no
-    title: >
       StructTest: Benchmarking LLMs' Reasoning through Compositional Structured Outputs
     authors: Hailin Chen, Fangkai Jiao, Mathieu Ravaut, Nawshad Farruque, Xuan Phi, Chengwei Qin, Manan Dey, Bosheng Ding, Caiming Xiong, Shafiq Joty, and Yingbo Zhou
     id: chen-colm-25
