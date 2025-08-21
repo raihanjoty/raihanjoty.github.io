@@ -8069,6 +8069,33 @@
     year: 2025
     selected: no
     title: >
+      From Charts to Fair Narratives: Uncovering and Mitigating Geo-Economic Biases in Chart-to-Text
+    authors: Ridwan Mahbub, Mohammed Saidul, Mir Tafseer, Md Tahmid, Mizanur Rahman, Shafiq Joty, and Enamul Hoque
+    id: Ridwan-emnlp25
+    img: Ridwan-emnlp25-fig
+    slides: media/Ridwan-emnlp25-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP-25</b>)
+    doc-url: https://arxiv.org/abs/2508.09450
+    bibtex: >
+      @inproceedings{Ridwan-emnlp25,
+       author = {Ridwan Mahbub and Mohammed Saidul Islam and Mir Tafseer Nayeem and Md Tahmid Rahman Laskar and Mizanur Rahman and Shafiq Joty and Enamul Hoque},
+       booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+       series = {EMNLP-25},
+       title = {From Charts to Fair Narratives: Uncovering and Mitigating Geo-Economic Biases in Chart-to-Text},
+       url = {https://arxiv.org/abs/2508.09450},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
       CodeXEmbed: A Generalist Embedding Model Family for Multilingual and Multi-task Code Retrieval
     authors: Ye Liu, Rui Meng, Shafiq Joty, Silvio Savarese, Caiming Xiong, Yingbo Zhou, and Semih Yavuz
     id: Ye2025
