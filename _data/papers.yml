@@ -8046,6 +8046,38 @@
     year: 2025
     selected: no
     title: >
+      The Emergence of Abstract Thought in Large Language Models Beyond Any Language
+    authors: Yuxin Chen, Yiran Zhao, Yang Zhang, Kenji Kawaguchi An Zhang, Shafiq Joty, Junnan Li, Tat-Seng Chua, Michael Qizhe, and Wenxuan Zhang
+    id: Yiran25-NIPS
+    img: Yiran25-NIPS-fig
+    slides: media/Yiran25-NIPS-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      2025 Conference on Neural Information Processing Systems (<b>NeurIPS'25</b>)
+    doc-url: https://arxiv.org/abs/2506.09890
+    abstract: >
+      As large language models (LLMs) continue to advance, their capacity to function effectively across a diverse range of languages has shown marked improvement. Preliminary studies observe that the hidden activations of LLMs often resemble English, even when responding to non-English prompts. This has led to the widespread assumption that LLMs may "think" in English. However, more recent results showing strong multilingual performance, even surpassing English performance on specific tasks in other languages, challenge this view. In this work, we find that LLMs progressively develop a core language-agnostic parameter space-a remarkably small subset of parameters whose deactivation results in significant performance degradation across all languages. This compact yet critical set of parameters underlies the model's ability to generalize beyond individual languages, supporting the emergence of abstract thought that is not tied to any specific linguistic system. Specifically, we identify language-related neurons-those are consistently activated during the processing of particular languages, and categorize them as either shared (active across multiple languages) or exclusive (specific to one). As LLMs undergo continued development over time, we observe a marked increase in both the proportion and functional importance of shared neurons, while exclusive neurons progressively diminish in influence. These shared neurons constitute the backbone of the core language-agnostic parameter space, supporting the emergence of abstract thought. Motivated by these insights, we propose neuron-specific training strategies tailored to LLMs' language-agnostic levels at different development stages. Experiments across diverse LLM families support our approach.
+    bibtex: >
+      @inproceedings{Yiran25-NIPS,
+       abstract = {As large language models (LLMs) continue to advance, their capacity to function effectively across a diverse range of languages has shown marked improvement. Preliminary studies observe that the hidden activations of LLMs often resemble English, even when responding to non-English prompts. This has led to the widespread assumption that LLMs may "think" in English. However, more recent results showing strong multilingual performance, even surpassing English performance on specific tasks in other languages, challenge this view. In this work, we find that LLMs progressively develop a core language-agnostic parameter space-a remarkably small subset of parameters whose deactivation results in significant performance degradation across all languages. This compact yet critical set of parameters underlies the model's ability to generalize beyond individual languages, supporting the emergence of abstract thought that is not tied to any specific linguistic system. Specifically, we identify language-related neurons-those are consistently activated during the processing of particular languages, and categorize them as either shared (active across multiple languages) or exclusive (specific to one). As LLMs undergo continued development over time, we observe a marked increase in both the proportion and functional importance of shared neurons, while exclusive neurons progressively diminish in influence. These shared neurons constitute the backbone of the core language-agnostic parameter space, supporting the emergence of abstract thought. Motivated by these insights, we propose neuron-specific training strategies tailored to LLMs' language-agnostic levels at different development stages. Experiments across diverse LLM families support our approach.},
+       address = {San Diego, USA},
+       author = {Yuxin Chen and Yiran Zhao and Yang Zhang and An Zhang, Kenji Kawaguchi and Shafiq Joty and Junnan Li and Tat-Seng Chua and Michael Qizhe Shieh and Wenxuan Zhang},
+       booktitle = {2025 Conference on Neural Information Processing Systems},
+       numpages = {9},
+       series = {NeurIPS'25},
+       title = {The Emergence of Abstract Thought in Large Language Models Beyond Any Language},
+       url = {https://arxiv.org/abs/2506.09890},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
       Direct Judgement Preference Optimization
     authors: Peifeng Wang, Austin Xu, Yilun Zhou, Caiming Xong, and Shafiq Joty
     id: Wang-sfr-judge
