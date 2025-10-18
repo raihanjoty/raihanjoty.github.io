@@ -32,15 +32,15 @@
     title: >
       LiveResearchBench: A Live Benchmark for User-Centric Deep Research in the Wild
     authors: Jiayu Wang, Yifei Ming, Riya Dulepet, Qinglin Chen, Austin Xu, Zixuan Ke, Frederic Sala, Aws Albarghouthi, Caiming Xiong, and Shafiq Joty
-    id: wang2025liveresearchbenchlivebenchmarkusercentric
-    img: wang2025liveresearchbenchlivebenchmarkusercentric-fig
-    slides: media/wang2025liveresearchbenchlivebenchmarkusercentric-slides.pdf
+    id: Yifei-pre
+    img: Yifei-pre-fig
+    slides: media/Yifei-pre-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
     doc-url: https://arxiv.org/abs/2510.14240
     bibtex: >
-      @misc{wang2025liveresearchbenchlivebenchmarkusercentric,
+      @misc{Yifei-pre,
        archiveprefix = {arXiv},
        author = {Jiayu Wang and Yifei Ming and Riya Dulepet and Qinglin Chen and Austin Xu and Zixuan Ke and Frederic Sala and Aws Albarghouthi and Caiming Xiong and Shafiq Joty},
        eprint = {2510.14240},
