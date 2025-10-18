@@ -6,15 +6,15 @@
     title: >
       SFR-DeepResearch: Towards Effective Reinforcement Learning for Autonomously Reasoning Single Agents
     authors: Xuan-Phi Nguyen, Shrey Pandit, Revanth Gangi, Austin Xu, Silvio Savarese, Caiming Xiong, and Shafiq Joty
-    id: nguyen2025sfrdeepresearcheffectivereinforcementlearning
-    img: nguyen2025sfrdeepresearcheffectivereinforcementlearning-fig
-    slides: media/nguyen2025sfrdeepresearcheffectivereinforcementlearning-slides.pdf
+    id: Phi-pre
+    img: Phi-pre-fig
+    slides: media/Phi-pre-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
     doc-url: https://arxiv.org/abs/2509.06283
     bibtex: >
-      @misc{nguyen2025sfrdeepresearcheffectivereinforcementlearning,
+      @misc{Phi-pre,
        archiveprefix = {arXiv},
        author = {Xuan-Phi Nguyen and Shrey Pandit and Revanth Gangi Reddy and Austin Xu and Silvio Savarese and Caiming Xiong and Shafiq Joty},
        eprint = {2509.06283},
@@ -58,15 +58,15 @@
     title: >
       Hard2Verify: A Step-Level Verification Benchmark for Open-Ended Frontier Math
     authors: Shrey Pandit, Austin Xu, Xuan-Phi Nguyen, Yifei Ming, Caiming Xiong, and Shafiq Joty
-    id: pandit2025hard2verifysteplevelverificationbenchmark
-    img: pandit2025hard2verifysteplevelverificationbenchmark-fig
-    slides: media/pandit2025hard2verifysteplevelverificationbenchmark-slides.pdf
+    id: Austin-pre
+    img: Austin-pre-fig
+    slides: media/Austin-pre-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
     doc-url: https://arxiv.org/abs/2510.13744
     bibtex: >
-      @misc{pandit2025hard2verifysteplevelverificationbenchmark,
+      @misc{Austin-pre,
        archiveprefix = {arXiv},
        author = {Shrey Pandit and Austin Xu and Xuan-Phi Nguyen and Yifei Ming and Caiming Xiong and Shafiq Joty},
        eprint = {2510.13744},
@@ -84,15 +84,15 @@
     title: >
       Variation in Verification: Understanding Verification Dynamics in Large Language Models
     authors: Yefan Zhou, Austin Xu, Yilun Zhou, Janvijay Singh, Jiang Gui, and Shafiq Joty
-    id: zhou2025variationverificationunderstandingverification
-    img: zhou2025variationverificationunderstandingverification-fig
-    slides: media/zhou2025variationverificationunderstandingverification-slides.pdf
+    id: Yefan-pre
+    img: Yefan-pre-fig
+    slides: media/Yefan-pre-slides.pdf
     code: #e.g. github.com/project
     errata: #if you have errata, insert here
     venue: conference
     doc-url: https://arxiv.org/abs/2509.17995
     bibtex: >
-      @misc{zhou2025variationverificationunderstandingverification,
+      @misc{Yefan-pre,
        archiveprefix = {arXiv},
        author = {Yefan Zhou and Austin Xu and Yilun Zhou and Janvijay Singh and Jiang Gui and Shafiq Joty},
        eprint = {2509.17995},
