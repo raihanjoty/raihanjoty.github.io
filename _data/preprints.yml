@@ -4,6 +4,110 @@
     year: 2025
     selected: no
     title: >
+      SFR-DeepResearch: Towards Effective Reinforcement Learning for Autonomously Reasoning Single Agents
+    authors: Xuan-Phi Nguyen, Shrey Pandit, Revanth Gangi, Austin Xu, Silvio Savarese, Caiming Xiong, and Shafiq Joty
+    id: nguyen2025sfrdeepresearcheffectivereinforcementlearning
+    img: nguyen2025sfrdeepresearcheffectivereinforcementlearning-fig
+    slides: media/nguyen2025sfrdeepresearcheffectivereinforcementlearning-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    doc-url: https://arxiv.org/abs/2509.06283
+    bibtex: >
+      @misc{nguyen2025sfrdeepresearcheffectivereinforcementlearning,
+       archiveprefix = {arXiv},
+       author = {Xuan-Phi Nguyen and Shrey Pandit and Revanth Gangi Reddy and Austin Xu and Silvio Savarese and Caiming Xiong and Shafiq Joty},
+       eprint = {2509.06283},
+       primaryclass = {cs.AI},
+       title = {SFR-DeepResearch: Towards Effective Reinforcement Learning for Autonomously Reasoning Single Agents},
+       url = {https://arxiv.org/abs/2509.06283},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: misc #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
+      LiveResearchBench: A Live Benchmark for User-Centric Deep Research in the Wild
+    authors: Jiayu Wang, Yifei Ming, Riya Dulepet, Qinglin Chen, Austin Xu, Zixuan Ke, Frederic Sala, Aws Albarghouthi, Caiming Xiong, and Shafiq Joty
+    id: wang2025liveresearchbenchlivebenchmarkusercentric
+    img: wang2025liveresearchbenchlivebenchmarkusercentric-fig
+    slides: media/wang2025liveresearchbenchlivebenchmarkusercentric-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    doc-url: https://arxiv.org/abs/2510.14240
+    bibtex: >
+      @misc{wang2025liveresearchbenchlivebenchmarkusercentric,
+       archiveprefix = {arXiv},
+       author = {Jiayu Wang and Yifei Ming and Riya Dulepet and Qinglin Chen and Austin Xu and Zixuan Ke and Frederic Sala and Aws Albarghouthi and Caiming Xiong and Shafiq Joty},
+       eprint = {2510.14240},
+       primaryclass = {cs.AI},
+       title = {LiveResearchBench: A Live Benchmark for User-Centric Deep Research in the Wild},
+       url = {https://arxiv.org/abs/2510.14240},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: misc #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
+      Hard2Verify: A Step-Level Verification Benchmark for Open-Ended Frontier Math
+    authors: Shrey Pandit, Austin Xu, Xuan-Phi Nguyen, Yifei Ming, Caiming Xiong, and Shafiq Joty
+    id: pandit2025hard2verifysteplevelverificationbenchmark
+    img: pandit2025hard2verifysteplevelverificationbenchmark-fig
+    slides: media/pandit2025hard2verifysteplevelverificationbenchmark-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    doc-url: https://arxiv.org/abs/2510.13744
+    bibtex: >
+      @misc{pandit2025hard2verifysteplevelverificationbenchmark,
+       archiveprefix = {arXiv},
+       author = {Shrey Pandit and Austin Xu and Xuan-Phi Nguyen and Yifei Ming and Caiming Xiong and Shafiq Joty},
+       eprint = {2510.13744},
+       primaryclass = {cs.AI},
+       title = {Hard2Verify: A Step-Level Verification Benchmark for Open-Ended Frontier Math},
+       url = {https://arxiv.org/abs/2510.13744},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: misc #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
+      Variation in Verification: Understanding Verification Dynamics in Large Language Models
+    authors: Yefan Zhou, Austin Xu, Yilun Zhou, Janvijay Singh, Jiang Gui, and Shafiq Joty
+    id: zhou2025variationverificationunderstandingverification
+    img: zhou2025variationverificationunderstandingverification-fig
+    slides: media/zhou2025variationverificationunderstandingverification-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    doc-url: https://arxiv.org/abs/2509.17995
+    bibtex: >
+      @misc{zhou2025variationverificationunderstandingverification,
+       archiveprefix = {arXiv},
+       author = {Yefan Zhou and Austin Xu and Yilun Zhou and Janvijay Singh and Jiang Gui and Shafiq Joty},
+       eprint = {2509.17995},
+       primaryclass = {cs.CL},
+       title = {Variation in Verification: Understanding Verification Dynamics in Large Language Models},
+       url = {https://arxiv.org/abs/2509.17995},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: misc #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
       J4R: Learning to Judge with Equivalent Initial State Group Relative Policy Optimization
     authors: Austin Xu, Yilun Zhou, Xuan-Phi Nguyen, Caiming Xiong, and Shafiq Joty
     id: xu2025j4rlearningjudgeequivalent
@@ -21,116 +125,6 @@
        primaryclass = {cs.CL},
        title = {J4R: Learning to Judge with Equivalent Initial State Group Relative Policy Optimization},
        url = {https://arxiv.org/abs/2505.13346},
-       year = {2025}
-      }
-      
-  -
-    layout: paper
-    paper-type: misc #changes display of reference in paper list
-    year: 2025
-    selected: no
-    title: >
-      StructTest: Benchmarking LLMs' Reasoning through Compositional Structured Outputs
-    authors: Hailin Chen, Fangkai Jiao, Mathieu Ravaut, Nawshad Farruque, Xuan Phi, Chengwei Qin, Manan Dey, Bosheng Ding, Caiming Xiong, Shafiq Joty, and Yingbo Zhou
-    id: chen-colm-25
-    img: chen-colm-25-fig
-    slides: media/chen-colm-25-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    doc-url: https://arxiv.org/abs/2412.18011
-    bibtex: >
-      @misc{chen-colm-25,
-       archiveprefix = {arXiv},
-       author = {Hailin Chen and Fangkai Jiao and Mathieu Ravaut and Nawshad Farruque and Xuan Phi Nguyen and Chengwei Qin and Manan Dey and Bosheng Ding and Caiming Xiong and Shafiq Joty and Yingbo Zhou},
-       eprint = {2412.18011},
-       primaryclass = {cs.CL},
-       title = {StructTest: Benchmarking LLMs' Reasoning through Compositional Structured Outputs},
-       url = {https://arxiv.org/abs/2412.18011},
-       year = {2025}
-      }
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2025
-    selected: no
-    title: >
-      SFR-RAG: Towards Contextually Faithful LLMs
-    authors: Xuan-Phi Nguyen, Shrey Pandit, Senthil Purushwalkam, Austin Xu, Hailin Chen, Yifei Ming, Zixuan Ke, Silvio Savarese, Caiming Xong, and Shafiq Joty
-    id: nguyen-sfr-rag
-    img: nguyen-sfr-rag-fig
-    slides: media/nguyen-sfr-rag-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    doc-url: https://arxiv.org/abs/2409.09916
-    bibtex: >
-      @inproceedings{nguyen-sfr-rag,
-       address = {Arxiv},
-       author = {Xuan-Phi Nguyen and Shrey Pandit and Senthil Purushwalkam and Austin Xu and Hailin Chen and Yifei Ming and Zixuan Ke and Silvio Savarese and Caiming Xong and Shafiq Joty},
-       publisher = {Arxiv},
-       series = {cs.CL},
-       title = {SFR-RAG: Towards Contextually Faithful LLMs},
-       url = {https://arxiv.org/abs/2409.09916},
-       year = {2025}
-      }
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2025
-    selected: no
-    title: >
-      Discovering the Gems in Early Layers: Accelerating Long-Context LLMs with 1000x Input Token Reduction
-    authors: Zhenmei Shi, Yifei Ming, Xuan-Phi Nguyen, Yingyu Liang, and Shafiq Joty
-    id: Zhenmei-gem
-    img: Zhenmei-gem-fig
-    slides: media/Zhenmei-gem-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    doc-url: https://arxiv.org/abs/2409.17422
-    bibtex: >
-      @inproceedings{Zhenmei-gem,
-       address = {Arxiv},
-       author = {Zhenmei Shi and Yifei Ming and Xuan-Phi Nguyen and Yingyu Liang and Shafiq Joty},
-       publisher = {Arxiv},
-       series = {cs.CL},
-       title = {Discovering the Gems in Early Layers: Accelerating Long-Context LLMs with 1000x Input Token Reduction},
-       url = {https://arxiv.org/abs/2409.17422},
-       year = {2025}
-      }
-      
-  -
-    layout: paper
-    paper-type: inproceedings #changes display of reference in paper list
-    year: 2025
-    selected: no
-    title: >
-      ChatGPT's One-year Anniversary: Are Open-Source Large Language Models Catching up?
-    authors: Hailin Chen, Fangkai Jiao, Xingxuan Li, Chengwei Qin, Mathieu Ravaut, Ruochen Zhao, Caiming Xiong, and Shafiq Joty
-    id: Chen-et-al-arxiv-24
-    img: Chen-et-al-arxiv-24-fig
-    slides: media/Chen-et-al-arxiv-24-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    booktitle: >
-      Arxiv (<b>cs.CL</b>)
-    doc-url: https://arxiv.org/abs/2311.16989
-    abstract: >
-      Upon its release in late 2022, ChatGPT has brought a seismic shift in the entire landscape of AI, both in research and commerce. Through instruction-tuning a large language model (LLM) with supervised fine-tuning and reinforcement learning from human feedback, it showed that a model could answer human questions and follow instructions on a broad panel of tasks. Following this success, interests in LLMs have intensified, with new LLMs flourishing at frequent interval across academia and industry, including many start-ups focused on LLMs. While closed-source LLMs (e.g., OpenAI's GPT, Anthropic's Claude) generally outperform their open-source counterparts, the progress on the latter has been rapid with claims of achieving parity or even better on certain tasks. This has crucial implications not only on research but also on business. In this work, on the first anniversary of ChatGPT, we provide an exhaustive overview of this success, surveying all tasks where an open-source LLM has claimed to be on par or better than ChatGPT.
-    bibtex: >
-      @inproceedings{Chen-et-al-arxiv-24,
-       abstract = {Upon its release in late 2022, ChatGPT has brought a seismic shift in the entire landscape of AI, both in research and commerce. Through instruction-tuning a large language model (LLM) with supervised fine-tuning and reinforcement learning from human feedback, it showed that a model could answer human questions and follow instructions on a broad panel of tasks. Following this success, interests in LLMs have intensified, with new LLMs flourishing at frequent interval across academia and industry, including many start-ups focused on LLMs. While closed-source LLMs (e.g., OpenAI's GPT, Anthropic's Claude) generally outperform their open-source counterparts, the progress on the latter has been rapid with claims of achieving parity or even better on certain tasks. This has crucial implications not only on research but also on business. In this work, on the first anniversary of ChatGPT, we provide an exhaustive overview of this success, surveying all tasks where an open-source LLM has claimed to be on par or better than ChatGPT.},
-       address = {Arxiv},
-       author = {Hailin Chen and Fangkai Jiao and Xingxuan Li and Chengwei Qin and Mathieu Ravaut and Ruochen Zhao and Caiming Xiong and Shafiq Joty},
-       booktitle = {Arxiv},
-       publisher = {Arxiv},
-       series = {cs.CL},
-       title = {{ChatGPT's One-year Anniversary: Are Open-Source Large Language Models Catching up?}},
-       url = {https://arxiv.org/abs/2311.16989},
        year = {2025}
       }
       
