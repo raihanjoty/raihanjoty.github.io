@@ -8935,3 +8935,171 @@
        year = {2025}
       }
       
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
+      Foundational Automatic Evaluators: Scaling Multi-Task Generative Evaluator Training for Reasoning-Centric Domains
+    authors: Austin Xu, Xuan-Phi Nguyen, Yilun Zhou, Chien-Sheng Wu, Caiming Xiong, and Shafiq Joty
+    id: AustinICLR2026
+    img: AustinICLR2026-fig
+    slides: media/AustinICLR2026-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      The Fourteenth International Conference on Learning Representations (<b>ICLR-26</b>)
+    doc-url: https://arxiv.org/abs/2510.17793
+    bibtex: >
+      @inproceedings{AustinICLR2026,
+       address = {Rio de Janeiro, Brazil},
+       author = {Austin Xu and Xuan-Phi Nguyen and Yilun Zhou and Chien-Sheng Wu and Caiming Xiong and Shafiq Joty},
+       booktitle = {The Fourteenth International Conference on Learning Representations},
+       series = {ICLR-26},
+       title = {Foundational Automatic Evaluators: Scaling Multi-Task Generative Evaluator Training for Reasoning-Centric Domains},
+       url = {https://arxiv.org/abs/2510.17793},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
+      Variation in Verification: Understanding Verification Dynamics in Large Language Models
+    authors: Yefan Zhou, Austin Xu, Yilun Zhou, Janvijay Singh, Jiang Gui, and Shafiq Joty
+    id: Yefan-pre
+    img: Yefan-pre-fig
+    slides: media/Yefan-pre-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      The Fourteenth International Conference on Learning Representations (<b>ICLR-26</b>)
+    doc-url: https://arxiv.org/abs/2509.17995
+    bibtex: >
+      @inproceedings{Yefan-pre,
+       address = {Rio de Janeiro, Brazil},
+       author = {Yefan Zhou and Austin Xu and Yilun Zhou and Janvijay Singh and Jiang Gui and Shafiq Joty},
+       booktitle = {The Fourteenth International Conference on Learning Representations},
+       series = {ICLR-26},
+       title = {Variation in Verification: Understanding Verification Dynamics in Large Language Models},
+       url = {https://arxiv.org/abs/2509.17995},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
+      On the Shelf Life of Finetuned LLM-Judges: Future Proofing, Backward Compatibility, and Question Generalization
+    authors: Janvijay Singh, Austin Xu, Yilun Zhou, Yefan Zhou, Dilek Hakkani-Tür, and Shafiq Joty
+    id: JanvijayICLR2026
+    img: JanvijayICLR2026-fig
+    slides: media/JanvijayICLR2026-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      The Fourteenth International Conference on Learning Representations (<b>ICLR-26</b>)
+    doc-url: https://arxiv.org/abs/2509.23542
+    bibtex: >
+      @inproceedings{JanvijayICLR2026,
+       address = {Rio de Janeiro, Brazil},
+       author = {Janvijay Singh and Austin Xu and Yilun Zhou and Yefan Zhou and Dilek Hakkani-Tür and Shafiq Joty},
+       booktitle = {The Fourteenth International Conference on Learning Representations},
+       series = {ICLR-26},
+       title = {On the Shelf Life of Finetuned LLM-Judges: Future Proofing, Backward Compatibility, and Question Generalization},
+       url = {https://arxiv.org/abs/2509.23542},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
+      LiveResearchBench: A Live Benchmark for User-Centric Deep Research in the Wild
+    authors: Jiayu Wang, Yifei Ming, Riya Dulepet, Qinglin Chen, Austin Xu, Zixuan Ke, Frederic Sala, Aws Albarghouthi, Caiming Xiong, and Shafiq Joty
+    id: Yifei-pre
+    img: Yifei-pre-fig
+    slides: media/Yifei-pre-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      The Fourteenth International Conference on Learning Representations (<b>ICLR-26</b>)
+    doc-url: https://livedeepresearch.github.io/
+    bibtex: >
+      @inproceedings{Yifei-pre,
+       address = {Rio de Janeiro, Brazil},
+       author = {Jiayu Wang and Yifei Ming and Riya Dulepet and Qinglin Chen and Austin Xu and Zixuan Ke and Frederic Sala and Aws Albarghouthi and Caiming Xiong and Shafiq Joty},
+       booktitle = {The Fourteenth International Conference on Learning Representations},
+       series = {ICLR-26},
+       title = {LiveResearchBench: A Live Benchmark for User-Centric Deep Research in the Wild},
+       url = {https://livedeepresearch.github.io/},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
+      SWERank: Software Issue Localization with Code Ranking
+    authors: Revanth Gangi, Tarun Suresh, JaeHyeok Doo, Ye Liu, Xuan-Phi Nguyen, Yingbo Zhou, Semih Yavuz, Caiming Xiong, Heng Ji, and Shafiq Joty
+    id: RevanthICLR2026
+    img: RevanthICLR2026-fig
+    slides: media/RevanthICLR2026-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      The Fourteenth International Conference on Learning Representations (<b>ICLR-26</b>)
+    doc-url: https://arxiv.org/abs/2505.07849
+    bibtex: >
+      @inproceedings{RevanthICLR2026,
+       address = {Rio de Janeiro, Brazil},
+       author = {Revanth Gangi Reddy and Tarun Suresh and JaeHyeok Doo and Ye Liu and Xuan-Phi Nguyen and Yingbo Zhou and Semih Yavuz and Caiming Xiong and Heng Ji and Shafiq Joty},
+       booktitle = {The Fourteenth International Conference on Learning Representations},
+       series = {ICLR-26},
+       title = {SWERank: Software Issue Localization with Code Ranking},
+       url = {https://arxiv.org/abs/2505.07849},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
+      References Improve LLM Alignment in Non-Verifiable Domains
+    authors: Kejian Shi, Yixin Liu, PeiFeng Wang, Alexander Fabbri, Shafiq Joty, and Arman Cohan
+    id: KejianICLR2026
+    img: KejianICLR2026-fig
+    slides: media/KejianICLR2026-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      The Fourteenth International Conference on Learning Representations (<b>ICLR-26</b>)
+    doc-url: https://openreview.net/forum?id=NoZgrya6Ua
+    bibtex: >
+      @inproceedings{KejianICLR2026,
+       address = {Rio de Janeiro, Brazil},
+       author = {Kejian Shi and Yixin Liu and PeiFeng Wang and Alexander Fabbri and Shafiq Joty and Arman Cohan},
+       booktitle = {The Fourteenth International Conference on Learning Representations},
+       series = {ICLR-26},
+       title = {References Improve LLM Alignment in Non-Verifiable Domains},
+       url = {https://openreview.net/forum?id=NoZgrya6Ua},
+       year = {2026}
+      }
+      
