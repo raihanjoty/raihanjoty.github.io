@@ -30,32 +30,6 @@
     year: 2025
     selected: no
     title: >
-      LiveResearchBench: A Live Benchmark for User-Centric Deep Research in the Wild
-    authors: Jiayu Wang, Yifei Ming, Riya Dulepet, Qinglin Chen, Austin Xu, Zixuan Ke, Frederic Sala, Aws Albarghouthi, Caiming Xiong, and Shafiq Joty
-    id: Yifei-pre
-    img: Yifei-pre-fig
-    slides: media/Yifei-pre-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    doc-url: https://arxiv.org/abs/2510.14240
-    bibtex: >
-      @misc{Yifei-pre,
-       archiveprefix = {arXiv},
-       author = {Jiayu Wang and Yifei Ming and Riya Dulepet and Qinglin Chen and Austin Xu and Zixuan Ke and Frederic Sala and Aws Albarghouthi and Caiming Xiong and Shafiq Joty},
-       eprint = {2510.14240},
-       primaryclass = {cs.AI},
-       title = {LiveResearchBench: A Live Benchmark for User-Centric Deep Research in the Wild},
-       url = {https://arxiv.org/abs/2510.14240},
-       year = {2025}
-      }
-      
-  -
-    layout: paper
-    paper-type: misc #changes display of reference in paper list
-    year: 2025
-    selected: no
-    title: >
       Hard2Verify: A Step-Level Verification Benchmark for Open-Ended Frontier Math
     authors: Shrey Pandit, Austin Xu, Xuan-Phi Nguyen, Yifei Ming, Caiming Xiong, and Shafiq Joty
     id: Austin-pre
@@ -73,32 +47,6 @@
        primaryclass = {cs.AI},
        title = {Hard2Verify: A Step-Level Verification Benchmark for Open-Ended Frontier Math},
        url = {https://arxiv.org/abs/2510.13744},
-       year = {2025}
-      }
-      
-  -
-    layout: paper
-    paper-type: misc #changes display of reference in paper list
-    year: 2025
-    selected: no
-    title: >
-      Variation in Verification: Understanding Verification Dynamics in Large Language Models
-    authors: Yefan Zhou, Austin Xu, Yilun Zhou, Janvijay Singh, Jiang Gui, and Shafiq Joty
-    id: Yefan-pre
-    img: Yefan-pre-fig
-    slides: media/Yefan-pre-slides.pdf
-    code: #e.g. github.com/project
-    errata: #if you have errata, insert here
-    venue: conference
-    doc-url: https://arxiv.org/abs/2509.17995
-    bibtex: >
-      @misc{Yefan-pre,
-       archiveprefix = {arXiv},
-       author = {Yefan Zhou and Austin Xu and Yilun Zhou and Janvijay Singh and Jiang Gui and Shafiq Joty},
-       eprint = {2509.17995},
-       primaryclass = {cs.CL},
-       title = {Variation in Verification: Understanding Verification Dynamics in Large Language Models},
-       url = {https://arxiv.org/abs/2509.17995},
        year = {2025}
       }
       
