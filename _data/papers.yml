@@ -8937,7 +8937,7 @@
       
   -
     layout: paper
-    paper-type: misc #changes display of reference in paper list
+    paper-type: inproceedings #changes display of reference in paper list
     year: 2026
     selected: no
     title: >
@@ -8953,7 +8953,7 @@
       Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (<b>ACL-26</b>)
     doc-url: https://arxiv.org/abs/2510.13744
     bibtex: >
-      @misc{Austin-pre,
+      @inproceedings{Austin-pre,
        archiveprefix = {arXiv},
        author = {Shrey Pandit and Austin Xu and Xuan-Phi Nguyen and Yifei Ming and Caiming Xiong and Shafiq Joty},
        booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},
@@ -8967,7 +8967,7 @@
       
   -
     layout: paper
-    paper-type: misc #changes display of reference in paper list
+    paper-type: inproceedings #changes display of reference in paper list
     year: 2026
     selected: no
     title: >
@@ -8983,7 +8983,7 @@
       Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (<b>ACL-26</b>)
     doc-url: https://arxiv.org/abs/2505.13346
     bibtex: >
-      @misc{xu2025j4rlearningjudgeequivalent,
+      @inproceedings{xu2025j4rlearningjudgeequivalent,
        archiveprefix = {arXiv},
        author = {Austin Xu and Yilun Zhou and Xuan-Phi Nguyen and Caiming Xiong and Shafiq Joty},
        booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},
