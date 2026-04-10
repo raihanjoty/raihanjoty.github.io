@@ -8937,6 +8937,66 @@
       
   -
     layout: paper
+    paper-type: misc #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
+      Hard2Verify: A Step-Level Verification Benchmark for Open-Ended Frontier Math
+    authors: Shrey Pandit, Austin Xu, Xuan-Phi Nguyen, Yifei Ming, Caiming Xiong, and Shafiq Joty
+    id: Austin-pre
+    img: Austin-pre-fig
+    slides: media/Austin-pre-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (<b>ACL-26</b>)
+    doc-url: https://arxiv.org/abs/2510.13744
+    bibtex: >
+      @misc{Austin-pre,
+       archiveprefix = {arXiv},
+       author = {Shrey Pandit and Austin Xu and Xuan-Phi Nguyen and Yifei Ming and Caiming Xiong and Shafiq Joty},
+       booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},
+       eprint = {2510.13744},
+       primaryclass = {cs.AI},
+       series = {ACL-26},
+       title = {Hard2Verify: A Step-Level Verification Benchmark for Open-Ended Frontier Math},
+       url = {https://arxiv.org/abs/2510.13744},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: misc #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
+      J4R: Learning to Judge with Equivalent Initial State Group Relative Policy Optimization
+    authors: Austin Xu, Yilun Zhou, Xuan-Phi Nguyen, Caiming Xiong, and Shafiq Joty
+    id: xu2025j4rlearningjudgeequivalent
+    img: xu2025j4rlearningjudgeequivalent-fig
+    slides: media/xu2025j4rlearningjudgeequivalent-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (<b>ACL-26</b>)
+    doc-url: https://arxiv.org/abs/2505.13346
+    bibtex: >
+      @misc{xu2025j4rlearningjudgeequivalent,
+       archiveprefix = {arXiv},
+       author = {Austin Xu and Yilun Zhou and Xuan-Phi Nguyen and Caiming Xiong and Shafiq Joty},
+       booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},
+       eprint = {2505.13346},
+       primaryclass = {cs.CL},
+       series = {ACL-26},
+       title = {J4R: Learning to Judge with Equivalent Initial State Group Relative Policy Optimization},
+       url = {https://arxiv.org/abs/2505.13346},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
     paper-type: inproceedings #changes display of reference in paper list
     year: 2026
     selected: no
