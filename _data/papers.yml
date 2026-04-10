@@ -8995,6 +8995,60 @@
     year: 2026
     selected: no
     title: >
+      Discovering the Gems in Early Layers: Accelerating Long-Context LLMs with 1000x Input Token Reduction
+    authors: Zhenmei Shi, Yifei Ming, Xuan-Phi Nguyen,  Yingyu Liang, and Shafiq Joty
+    id: Zhenmei-gem
+    img: Zhenmei-gem-fig
+    slides: media/Zhenmei-gem-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (<b>ACL-26 Findings</b>)
+    doc-url: https://arxiv.org/abs/2409.17422
+    bibtex: >
+      @inproceedings{Zhenmei-gem,
+       author = {Zhenmei Shi and Yifei Ming and Xuan-Phi Nguyen and Yingyu Liang, and Shafiq Joty},
+       booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},
+       series = {ACL-26 Findings},
+       title = {Discovering the Gems in Early Layers: Accelerating Long-Context LLMs with 1000x Input Token Reduction},
+       url = {https://arxiv.org/abs/2409.17422},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
+      Lost in Translation: Do LVLM Judges Generalize Across Languages?
+    authors: Md Tahmid, Mohammed Saidul, Mir Tafseer, Md Amran, Mizanur Rahman, Shafiq Joty, Enamul Hoque, and Jimmy Huang
+    id: Tahmid-acl
+    img: Tahmid-acl-fig
+    slides: media/Tahmid-acl-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (<b>ACL-26 Findings</b>)
+    doc-url: 
+    bibtex: >
+      @inproceedings{Tahmid-acl,
+       author = {Md Tahmid Rahman Laskar and Mohammed Saidul Islam and Mir Tafseer Nayeem and Md Amran Hossen Bhuiyan and Mizanur Rahman and Shafiq Joty and Enamul Hoque and Jimmy Huang},
+       booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},
+       series = {ACL-26 Findings},
+       title = {Lost in Translation: Do LVLM Judges Generalize Across Languages?},
+       url = {},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
       Foundational Automatic Evaluators: Scaling Multi-Task Generative Evaluator Training for Reasoning-Centric Domains
     authors: Austin Xu, Xuan-Phi Nguyen, Yilun Zhou, Chien-Sheng Wu, Caiming Xiong, and Shafiq Joty
     id: AustinICLR2026
