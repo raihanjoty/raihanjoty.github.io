@@ -8941,6 +8941,87 @@
     year: 2026
     selected: no
     title: >
+      Least-Loaded Expert Parallelism: Load Balancing An Imbalanced Mixture-of-Experts
+    authors: Xuan-Phi Nguyen, Shrey Pandit, Austin Xu, Caiming Xiong, and Shafiq Joty
+    id: Phi-MoE
+    img: Phi-MoE-fig
+    slides: media/Phi-MoE-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      International Conference on Machine Learning (<b>ICML-26</b>)
+    doc-url: https://arxiv.org/abs/2601.17111
+    bibtex: >
+      @inproceedings{Phi-MoE,
+       author = {Xuan-Phi Nguyen and Shrey Pandit and Austin Xu and Caiming Xiong and Shafiq Joty},
+       booktitle = {International Conference on Machine Learning},
+       series = {ICML-26},
+       title = {Least-Loaded Expert Parallelism: Load Balancing An Imbalanced Mixture-of-Experts},
+       url = {https://arxiv.org/abs/2601.17111},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
+      MAS-Orchestra: Understanding and Improving Multi-Agent Reasoning Through Holistic Orchestration and Controlled Benchmarks
+    authors: Zixuan Ke, Yifei Ming, Austin Xu, Ryan Chin, Xuan-Phi Nguyen, Prathyusha Jwalapuram, Jiayu Wang, Semih Yavuz, Caiming Xiong, and Shafiq Joty
+    id: Zixuan-MAS
+    img: Zixuan-MAS-fig
+    slides: media/Zixuan-MAS-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      International Conference on Machine Learning (<b>ICML-26</b>)
+    doc-url: https://vincent950129.github.io/mas-design/mas_r1/
+    bibtex: >
+      @inproceedings{Zixuan-MAS,
+       author = {Zixuan Ke and Yifei Ming and Austin Xu and Ryan Chin and Xuan-Phi Nguyen and Prathyusha Jwalapuram and Jiayu Wang and Semih Yavuz and Caiming Xiong and Shafiq Joty},
+       booktitle = {International Conference on Machine Learning},
+       series = {ICML-26},
+       title = {MAS-Orchestra: Understanding and Improving Multi-Agent Reasoning Through Holistic Orchestration and Controlled Benchmarks},
+       url = {https://vincent950129.github.io/mas-design/mas_r1/},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
+      MAS-ProVe: Understanding the Process Verification of Multi-Agent Systems
+    authors: Vishal Venkataramani, Haizhou Shi, Zixuan Ke, Austin Xu, Xiaoxiao He, Yingbo Zhou, Semih Yavuz, Hao Wang, and Shafiq Joty
+    id: Vishal-MAS
+    img: Vishal-MAS-fig
+    slides: media/Vishal-MAS-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      International Conference on Machine Learning (<b>ICML-26</b>)
+    doc-url: https://arxiv.org/abs/2602.03053
+    bibtex: >
+      @inproceedings{Vishal-MAS,
+       author = {Vishal Venkataramani and Haizhou Shi and Zixuan Ke and Austin Xu and Xiaoxiao He and Yingbo Zhou and Semih Yavuz and Hao Wang and Shafiq Joty},
+       booktitle = {International Conference on Machine Learning},
+       series = {ICML-26},
+       title = {MAS-ProVe: Understanding the Process Verification of Multi-Agent Systems},
+       url = {https://arxiv.org/abs/2602.03053},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
       Hard2Verify: A Step-Level Verification Benchmark for Open-Ended Frontier Math
     authors: Shrey Pandit, Austin Xu, Xuan-Phi Nguyen, Yifei Ming, Caiming Xiong, and Shafiq Joty
     id: Austin-pre
