@@ -8938,6 +8938,60 @@
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
+      VisEditBench: Can Vision-Language Models Edit Visualization Code from Multimodal Feedback?
+    authors: Mizanur Rahman, Arshia Azimlu, Shadikur Rahman, Md Tahmid, Amran Bhuiyan, Shafiq Joty, and Enamul Hoque
+    id: Mizanur-emnlp26-2
+    img: Mizanur-emnlp26-2-fig
+    slides: media/Mizanur-emnlp26-2-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP-26</b>)
+    doc-url: https://arxiv.org/abs/2608.10366
+    bibtex: >
+      @inproceedings{Mizanur-emnlp26-2,
+       author = {Mizanur Rahman and Arshia Azimlu and Shadikur Rahman and Md Tahmid Rahman Laskar and Amran Bhuiyan and Shafiq Joty and Enamul Hoque},
+       booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+       series = {EMNLP-26},
+       title = {VisEditBench: Can Vision-Language Models Edit Visualization Code from Multimodal Feedback?},
+       url = {https://arxiv.org/abs/2608.10366},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2025
+    selected: no
+    title: >
+      DSAgentBench: Can Agents Automate End-to-End Data-Science Workflows in Real Computer Environments?
+    authors: Mizanur Rahman, Mohammed Saidul, Md Tahmid, Shafiq Joty, and Enamul Hoque
+    id: Mizanur-emnlp26
+    img: Mizanur-emnlp26-fig
+    slides: media/Mizanur-emnlp26-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP-26</b>)
+    doc-url: https://arxiv.org/abs/2608.10366
+    bibtex: >
+      @inproceedings{Mizanur-emnlp26,
+       author = {Mizanur Rahman and Mohammed Saidul Islam and Md Tahmid Rahman Laskar and Shafiq Joty and Enamul Hoque},
+       booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+       series = {EMNLP-26},
+       title = {DSAgentBench: Can Agents Automate End-to-End Data-Science Workflows in Real Computer Environments?},
+       url = {https://arxiv.org/abs/2608.10366},
+       year = {2025}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
     year: 2026
     selected: no
     title: >
