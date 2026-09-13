@@ -8938,7 +8938,7 @@
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
-    year: 2025
+    year: 2026
     selected: no
     title: >
       VisEditBench: Can Vision-Language Models Edit Visualization Code from Multimodal Feedback?
@@ -8959,13 +8959,13 @@
        series = {EMNLP-26},
        title = {VisEditBench: Can Vision-Language Models Edit Visualization Code from Multimodal Feedback?},
        url = {https://arxiv.org/abs/2608.10366},
-       year = {2025}
+       year = {2026}
       }
       
   -
     layout: paper
     paper-type: inproceedings #changes display of reference in paper list
-    year: 2025
+    year: 2026
     selected: no
     title: >
       DSAgentBench: Can Agents Automate End-to-End Data-Science Workflows in Real Computer Environments?
@@ -8986,7 +8986,7 @@
        series = {EMNLP-26},
        title = {DSAgentBench: Can Agents Automate End-to-End Data-Science Workflows in Real Computer Environments?},
        url = {https://arxiv.org/abs/2608.10366},
-       year = {2025}
+       year = {2026}
       }
       
   -
