@@ -9049,6 +9049,33 @@
     year: 2026
     selected: no
     title: >
+      Can Vibe Coders Really Pass the Vibe Check? An Empirical Analysis of Fault-Targeted Reasoning in Frontier LLMs
+    authors: Srijan Bansal, Fangkai Jiao, Yilun Zhou, Austin Xu, Shafiq Joty, and Semih Yavuz
+    id: vibe
+    img: vibe-fig
+    slides: media/vibe-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP-26</b>)
+    doc-url: https://arxiv.org/pdf/2603.15921
+    bibtex: >
+      @inproceedings{vibe,
+       author = {Srijan Bansal and Fangkai Jiao and Yilun Zhou and Austin Xu and Shafiq Joty and Semih Yavuz},
+       booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+       series = {EMNLP-26},
+       title = {Can Vibe Coders Really Pass the Vibe Check? An Empirical Analysis of Fault-Targeted Reasoning in Frontier LLMs},
+       url = {https://arxiv.org/pdf/2603.15921},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
       Least-Loaded Expert Parallelism: Load Balancing An Imbalanced Mixture-of-Experts
     authors: Xuan-Phi Nguyen, Shrey Pandit, Austin Xu, Caiming Xiong, and Shafiq Joty
     id: Phi-MoE
