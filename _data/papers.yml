@@ -8941,6 +8941,33 @@
     year: 2026
     selected: no
     title: >
+      Harnessing LLM Agents with Skill Programs
+    authors: Hongjun Liu, Yifei Ming, Shafiq Joty, and Chen Zhao
+    id: skill-prog
+    img: skill-prog-fig
+    slides: media/skill-prog-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP-26</b>)
+    doc-url: https://arxiv.org/abs/2605.17734
+    bibtex: >
+      @inproceedings{skill-prog,
+       author = {Hongjun Liu and Yifei Ming and Shafiq Joty and Chen Zhao},
+       booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+       series = {EMNLP-26},
+       title = {Harnessing LLM Agents with Skill Programs},
+       url = {https://arxiv.org/abs/2605.17734},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
       VisEditBench: Can Vision-Language Models Edit Visualization Code from Multimodal Feedback?
     authors: Mizanur Rahman, Arshia Azimlu, Shadikur Rahman, Md Tahmid, Amran Bhuiyan, Shafiq Joty, and Enamul Hoque
     id: Mizanur-emnlp26-2
@@ -8951,14 +8978,14 @@
     venue: conference
     booktitle: >
       Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP-26</b>)
-    doc-url: https://arxiv.org/abs/2608.10366
+    doc-url: https://arxiv.org/abs/2608.10408
     bibtex: >
       @inproceedings{Mizanur-emnlp26-2,
        author = {Mizanur Rahman and Arshia Azimlu and Shadikur Rahman and Md Tahmid Rahman Laskar and Amran Bhuiyan and Shafiq Joty and Enamul Hoque},
        booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
        series = {EMNLP-26},
        title = {VisEditBench: Can Vision-Language Models Edit Visualization Code from Multimodal Feedback?},
-       url = {https://arxiv.org/abs/2608.10366},
+       url = {https://arxiv.org/abs/2608.10408},
        year = {2026}
       }
       
