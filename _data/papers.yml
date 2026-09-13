@@ -8968,6 +8968,33 @@
     year: 2026
     selected: no
     title: >
+      Jury Duty: Calibration and Orientation Failures in MLLM-as-a-Judge Under Cultural Ambiguity
+    authors: Daniel Lee, Harshit Sharma, Eunkyu Park, Pranav Narayanan, Jeonghwan Kim, Kah Mun, Andreas Vlachos, and Shafiq Joty
+    id: jury-duty
+    img: jury-duty-fig
+    slides: media/jury-duty-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP-26</b>)
+    doc-url: https://arxiv.org/abs/2606.20676
+    bibtex: >
+      @inproceedings{jury-duty,
+       author = {Daniel Lee and Harshit Sharma and Eunkyu Park and Pranav Narayanan Venkit and Jeonghwan Kim and Kah Mun Chia and Andreas Vlachos and Shafiq Joty},
+       booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+       series = {EMNLP-26},
+       title = {Jury Duty: Calibration and Orientation Failures in MLLM-as-a-Judge Under Cultural Ambiguity},
+       url = {https://arxiv.org/abs/2606.20676},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
       VisEditBench: Can Vision-Language Models Edit Visualization Code from Multimodal Feedback?
     authors: Mizanur Rahman, Arshia Azimlu, Shadikur Rahman, Md Tahmid, Amran Bhuiyan, Shafiq Joty, and Enamul Hoque
     id: Mizanur-emnlp26-2
