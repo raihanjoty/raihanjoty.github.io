@@ -9057,6 +9057,35 @@
     year: 2026
     selected: no
     title: >
+      The Illusion of Multi-Agent Advantage
+    authors: Prathyusha Jwalapuram, Hehai Lin, Chuyuan Li, Fangkai Jiao, Sudong Wang, Yifei Ming, Zixuan Ke, Chengwei Qin, Giuseppe Carenini, and Shafiq Joty
+    id: Jwala26-NIPS
+    img: Jwala26-NIPS-fig
+    slides: media/Jwala26-NIPS-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      2026 Conference on Neural Information Processing Systems (<b>NeurIPS'26 Evaluations and Datasets</b>)
+    doc-url: https://arxiv.org/abs/2606.13003
+    bibtex: >
+      @inproceedings{Jwala26-NIPS,
+       address = {Sydney, Australia},
+       author = {Prathyusha Jwalapuram and Hehai Lin and Chuyuan Li and Fangkai Jiao and Sudong Wang and Yifei Ming and Zixuan Ke and Chengwei Qin and Giuseppe Carenini and Shafiq Joty},
+       booktitle = {2026 Conference on Neural Information Processing Systems},
+       numpages = {9},
+       series = {NeurIPS'26 Evaluations and Datasets},
+       title = {The Illusion of Multi-Agent Advantage},
+       url = {https://arxiv.org/abs/2606.13003},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
       Harnessing LLM Agents with Skill Programs
     authors: Hongjun Liu, Yifei Ming, Shafiq Joty, and Chen Zhao
     id: skill-prog
