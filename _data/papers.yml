@@ -8941,6 +8941,122 @@
     year: 2026
     selected: no
     title: >
+      Learning from Language Feedback via Variational Policy Distillation
+    authors: Yang Li, Erik Nijkamp, Semih Yavuz, and Shafiq Joty
+    id: Yang26-NIPS
+    img: Yang26-NIPS-fig
+    slides: media/Yang26-NIPS-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      2026 Conference on Neural Information Processing Systems (<b>NeurIPS'26</b>)
+    doc-url: https://arxiv.org/abs/2605.15113
+    bibtex: >
+      @inproceedings{Yang26-NIPS,
+       address = {Sydney, Australia},
+       author = {Yang Li and Erik Nijkamp and Semih Yavuz and Shafiq Joty},
+       booktitle = {2026 Conference on Neural Information Processing Systems},
+       numpages = {9},
+       series = {NeurIPS'26},
+       title = {Learning from Language Feedback via Variational Policy Distillation},
+       url = {https://arxiv.org/abs/2605.15113},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
+      Procedural Memory Distillation: Online Reflection for Self-Improving Language Models
+    authors: Ye Liu, Srijan Bansal, Bo Pang, Yang Li, Zeyu Liu, Yifei Ming, Zixuan Ke, Shafiq Joty, and Semih Yavuz
+    id: Ye25-NIPS
+    img: Ye25-NIPS-fig
+    slides: media/Ye25-NIPS-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      2026 Conference on Neural Information Processing Systems (<b>NeurIPS'26</b>)
+    doc-url: https://arxiv.org/abs/2607.01480
+    bibtex: >
+      @inproceedings{Ye25-NIPS,
+       address = {Sydney, Australia},
+       author = {Ye Liu and Srijan Bansal and Bo Pang and Yang Li and Zeyu Liu and Yifei Ming and Zixuan Ke and Shafiq Joty and Semih Yavuz},
+       booktitle = {2026 Conference on Neural Information Processing Systems},
+       numpages = {9},
+       series = {NeurIPS'26},
+       title = {Procedural Memory Distillation: Online Reflection for Self-Improving Language Models},
+       url = {https://arxiv.org/abs/2607.01480},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
+      SkillOrchestra: Learning to Route Agents via Skill Transfer
+    authors: Jiayu Wang, Yifei Ming, Zixuan Ke, Shafiq Joty, Aws Albarghouthi, and Frederic Sala
+    id: Jiayu26-NIPS
+    img: Jiayu26-NIPS-fig
+    slides: media/Jiayu26-NIPS-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      2026 Conference on Neural Information Processing Systems (<b>NeurIPS'26</b>)
+    doc-url: https://github.com/jiayuww/SkillOrchestra
+    bibtex: >
+      @inproceedings{Jiayu26-NIPS,
+       address = {Sydney, Australia},
+       author = {Jiayu Wang and Yifei Ming and Zixuan Ke and Shafiq Joty and Aws Albarghouthi and Frederic Sala},
+       booktitle = {2026 Conference on Neural Information Processing Systems},
+       numpages = {9},
+       series = {NeurIPS'26},
+       title = {SkillOrchestra: Learning to Route Agents via Skill Transfer},
+       url = {https://github.com/jiayuww/SkillOrchestra},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
+      Reward Modeling for Multi-Agent Orchestration
+    authors: King Yeung, Zihao Zhao, Vishal Venkataramani, Haizhou Shi, Zixuan Ke, Semih Yavuz, Shafiq Joty, and Hao Wang
+    id: King26-NIPS
+    img: King26-NIPS-fig
+    slides: media/King26-NIPS-slides.pdf
+    code: #e.g. github.com/project
+    errata: #if you have errata, insert here
+    venue: conference
+    booktitle: >
+      2026 Conference on Neural Information Processing Systems (<b>NeurIPS'26</b>)
+    doc-url: https://arxiv.org/abs/2606.13598
+    bibtex: >
+      @inproceedings{King26-NIPS,
+       address = {Sydney, Australia},
+       author = {King Yeung Tsang and Zihao Zhao and Vishal Venkataramani and Haizhou Shi and Zixuan Ke and Semih Yavuz and Shafiq Joty and Hao Wang},
+       booktitle = {2026 Conference on Neural Information Processing Systems},
+       numpages = {9},
+       series = {NeurIPS'26},
+       title = {Reward Modeling for Multi-Agent Orchestration},
+       url = {https://arxiv.org/abs/2606.13598},
+       year = {2026}
+      }
+      
+  -
+    layout: paper
+    paper-type: inproceedings #changes display of reference in paper list
+    year: 2026
+    selected: no
+    title: >
       Harnessing LLM Agents with Skill Programs
     authors: Hongjun Liu, Yifei Ming, Shafiq Joty, and Chen Zhao
     id: skill-prog
