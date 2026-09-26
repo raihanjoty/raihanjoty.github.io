@@ -1,15 +1,15 @@
+  - date: 10-Sep-2026
+    text: > 
+     Released <a href=" https://sfr-autornd.github.io/"> SFR-AutoR&D </a>, <a href="https://sfr-autornd.github.io/training_service/"> SFR-RL </a>, <a href="https://self-evolving-agents.salesforceresearch.ai/"> SFR-Mem </a> and <a href="https://mas-orchestra.salesforceresearch.ai/"> MAS-Orchestra </a>
   - date: 10-Oct-2025
     text: > 
      Released <a href="https://arxiv.org/abs/2509.06283"> SFR-DeepResearch </a>, <a href="https://arxiv.org/abs/2510.14240"> LiveReserachBench </a>, <a href="https://arxiv.org/abs/2510.13744"> Hard2Verify </a>, <a href="https://arxiv.org/abs/2509.17995"> Variation in Verification </a>
   - date: 25-Feb-2025
     text: > 
-     <a href="https://ruochenzhao.github.io//"> Ruochen Zhao </a> and <a href="https://qcwthu.github.io/"> Chengwei Qin </a> have recently graduated and joined Apple (Research Engineer) and HKUST (Asst. Prof), respectively. Congrats! 
+     <a href="https://ruochenzhao.github.io//"> Ruochen Zhao </a> and <a href="https://qcwthu.github.io/"> Chengwei Qin </a> have recently graduated and joined SUTD (Asst. Prof) and HKUST (Asst. Prof), respectively. Congrats! 
   - date: 25-Feb-2025
     text: > 
      Received a presidential award FY'25 from Salesforce (one of the 0.5% employees!) 
-  - date: 20-Feb-2025
-    text: > 
-     Released <a href=https://x.com/JotyShafiq/status/1887342868563681375> Process DPO from Pseudo Feedback </a>, <a href=https://github.com/SalesforceAIResearch/FinDAP> Fin-DAP</a> 
   - date: 06-Oct-2024
     text: > 
      Released <a href=https://x.com/Benioff/status/1837632371107287080> SFR-RAG</a>, <a href=https://blog.salesforceairesearch.com/sfr-judge/> SFR-Judge</a>,  <a href=https://github.com/SalesforceAIResearch/GemFilter>GemFilter</a>, <a href=https://github.com/SalesforceAIResearch/FaithEval>FaithEval</a>, and <a href=https://blog.salesforceairesearch.com/llm-benchmark-crm/>CRM Benchmarks</a>  
